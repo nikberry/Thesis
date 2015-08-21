@@ -1,0 +1,215 @@
+\documentclass[oneside, a4paper, 11pt, ]{report}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{braket}
+\usepackage{mathrsfs}
+\usepackage{appendix}
+\linespread{1.5}
+\usepackage[margin=1.1in]{geometry}
+\usepackage{lineno}
+\usepackage{bbold}
+\usepackage{epstopdf}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{rotating}
+\usepackage{afterpage,lscape}
+\usepackage{draftwatermark}
+\usepackage{hyperref}
+\usepackage{geometry}
+ % \geometry{
+ % a4paper,
+ % total={210mm,297mm},
+ % left=40mm,
+ % right=15mm,
+ % top=20mm,
+ % bottom=20mm,
+ % }
+
+\hypersetup{
+    colorlinks,
+    citecolor=blue,
+    filecolor=blue,
+    linkcolor=blue,
+    urlcolor=blue
+}
+
+\SetWatermarkText{DRAFT}
+\SetWatermarkScale{7}
+
+\title{\ttitle} % Defines the thesis title - don't touch this
+
+\begin{document}
+
+
+%\pagestyle{fancyplain}
+%\fancyhead[LE, RO]{}
+%\fancyhead[LE, RO]{\slshape \rightmark}
+%\fancyhead[RE, LO]{\slshape \leftmark}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % New command to make the lines in the title page
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Title Page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{titlepage}
+\begin{center}
+
+\textsc{\LARGE Brunel University}\\[0.5cm] % University name
+\includegraphics[scale=0.5]{Figures/brunelshield.png} \\[0.5cm]
+\textsc{\Large Doctoral Thesis}\\[0.5cm] % Thesis type
+
+\HRule \\[0.4cm] % Horizontal line
+{\huge \bfseries Measurement of the inclusive top-quark pair plus a radiated photon production cross section in the dilepton channel in pp collisions at 8TeV}\\[0.3cm] 
+\HRule \\[1.5cm] % Horizontal line
+ 
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Author:}\\
+Nik Berry 
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Supervisor:} \\
+Prof. Akram Khan
+\end{flushright}
+\end{minipage}\\[2cm]
+
+\large \textit{ A dissertation submitted to Brunel University\\ in accordance with the requirements\\ for award of the degree of Doctor of Philosophy}\\[0.3cm] 
+\textit{in}\\[0.4cm]
+\textit{the Faculty of Particle Physics\\\ Centre for Sensors \& Instrumentation} \\
+
+\vspace*{10mm}
+{\large \today}\\[4cm]
+%\vspace*{-12mm}
+
+\end{center}
+
+\end{titlepage}
+
+\pagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Declaration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+
+\begin{declaration}
+\begin{center}
+ \begin{large}
+\textbf{Declaration of Authorship}
+\end{large}
+\end{center}
+
+\noindent I, Nik Berry, declare that the work in this dissertation was carried out in accordance with the requirements of the University's Regulations and Code of Practice for Research Degree Programmes and that it has not been submitted for any other academic award. Except where indicated by specific reference in the text, the work is the candidate's own work. Work done in collaboration with, or with the assistance of, others, is indicated as such. Any views expressed in the dissertation are those of the author.\\
+
+\begin{center}
+SIGNED: $...............................................................$  DATE: $...................................$
+
+(Signature of student)
+
+\vspace{12pt}
+\end{center}
+\null\vfill
+\end{declaration}
+
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Quotes
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\pagestyle{empty} % No headers or footers for the following pages
+
+\null\vfill % Add some space to move the quote down the page a bit
+
+\textit{``Real courage is when you know you're licked before you begin, but you begin anyway and see it through no matter what."}
+
+\begin{flushright}
+Harper Lee, To Kill a Mockingbird
+\end{flushright}
+
+\vfill\vfill\vfill\vfill\vfill\vfill\null % Add some space at the bottom to position the quote just right
+
+\clearpage % Start a new page
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Abstract
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{abstract}
+
+We present the top-quark pair plus photon production cross section measured in pp collisions at a centre-of-mass energy of 8 TeV with the CMS detector at the Large Hadron Collider, using data recorded in 2012 corresponding to an integrated luminosity of Lint = 19.6 fb − 1 . The measurement is performed in the dilepton decay channel. The signal region is defined by the final state of the process pp → W + W − b bγ,
+with a minimum photon transverse energy of E$_\text{T}(\gamma) > 20$ GeV and minimum distance of $\Delta R(\gamma, b/\bar{b}) > 0.1$ between the photon and the b-quark in $\eta - \phi$ space. Signal events are simulated using the WHIZARD event generator. The normalized cross-
+section, $R=\frac{\sigma_{t\bar{t}+\gamma}}{\sigma_{t\bar{t}}}$, is exploited in order to cancel various sources of systematic uncertainties. the largest contribution to the systematic uncertainty of 17.3 arises due to the modelling of the $t\bar{t}$ background process. We measure the fiducial normalised cross-section, requiring E$_T(\gamma) > 25$ GeV and $\abs{\eta(\gamma)} < 1.4442$ on the final state photon, to be $R^{fid.} = ( 0.72 \pm 0.04(stat.) \pm 0.15(syst.) ) \times 10^2$. Extrapolated into the signal region, we obtain $R = ( 0.89 \pm 0.05(stat.) \pm 0.18(syst.) ) \times 10^2$. Using a recent CMS $t\bar{t}$ cross-section measurement at 8 TeV, we calculate the top pair plus photon production cross-section to be $\sigma_{t\bar{t}+\gamma}^{CMS} = 2.0 \pm 0.1(stat.) \pm 0.4(syst.)$. Being in agreement with the $t\bar{t}+\gamma$ SM expectation of $\sigma_{t\bar{t}+\gamma}^{SM} = 1.8 \pm 0.5$ pb, this is the most accurate measurement of the $t\bar{t}+\gamma$ process to date, and the first at a center-of-mass energy of 8 TeV.
+
+\end{abstract} 
+
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Acknowledgements
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\acknowledgements{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+
+The acknowledgements and the people to thank go here, don't forget to include your project advisor\ldots
+}
+\clearpage % Start a new page
+
+% Insert biography and acknowledgements code here
+\pagestyle{fancyplain}
+
+\setcounter{page}{1}
+\pagenumbering{roman}
+
+\tableofcontents
+\listoffigures
+\listoftables
+\clearpage
+
+%\linenumbers
+
+%\pagestyle{fancyplain}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\clearpage
+
+%\linespread{1.3} %%line spaceing 1.5
+
+%\fancyhead[le,ro]{\slshape \rightmark} %le and ro were in capitals
+%\fancyhead[lo,re]{\slshape \leftmark}
+
+\addcontentsline{toc}{chapter}{Introduction}
+\input{Chapters/Introduction.tex}
+
+\input{Chapters/TheLHCAndTheCMSDetector.tex}
+
+\input{Chapters/CrossSectionMeasurement.tex}
+
+\input{Chapters/AnomolousCouplings}
+
+\input{Chapters/ElectronConversionVeto.tex}
+
+\input{Chapters/Conclusions.tex}
+\addcontentsline{toc}{chapter}{Conclusions}
+
+\appendix
+\appendixpage
+\addappheadtotoc
+
+\renewcommand{\thesection}{A.\arabic{section}}
+\renewcommand\thefigure{\thesection}
+\renewcommand\thetable{\thesection}
+
+\bibliography{PhDThesis}
+\bibliographystyle{unsrt}
+
+\end{document}

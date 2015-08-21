@@ -1,0 +1,30 @@
+\BOOKMARK [0][-]{chapter*.3}{Introduction}{}% 1
+\BOOKMARK [0][-]{chapter.1}{The LHC and the CMS Detector}{}% 2
+\BOOKMARK [1][-]{section.1.1}{The Large Hadron Collider}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.2}{The CMS Detector}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.3}{Tracking System}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.4}{Electromagnetic Calorimeter}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.5}{Hadron Calorimeter}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.6}{Superconducting Solenoid}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.7}{Muon System}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.8}{Trigger}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.9}{Particle Reconstruction}{chapter.1}% 11
+\BOOKMARK [2][-]{subsection.1.9.1}{Electron identification}{section.1.9}% 12
+\BOOKMARK [2][-]{subsection.1.9.2}{Muon reconstruction}{section.1.9}% 13
+\BOOKMARK [2][-]{subsection.1.9.3}{Jet reconstruction}{section.1.9}% 14
+\BOOKMARK [1][-]{section.1.10}{Computing}{chapter.1}% 15
+\BOOKMARK [2][-]{subsection.1.10.1}{Event Data Model}{section.1.10}% 16
+\BOOKMARK [2][-]{subsection.1.10.2}{Analysis Software}{section.1.10}% 17
+\BOOKMARK [1][-]{section.1.11}{Monte Carlo Simulation}{chapter.1}% 18
+\BOOKMARK [2][-]{subsection.1.11.1}{Monte Carlo event generators}{section.1.11}% 19
+\BOOKMARK [0][-]{chapter.2}{Measurement of the inclusive t+ cross-section}{}% 20
+\BOOKMARK [1][-]{section.2.1}{Signal Definition and Background Processes}{chapter.2}% 21
+\BOOKMARK [2][-]{subsection.2.1.1}{Signal definition}{section.2.1}% 22
+\BOOKMARK [2][-]{subsection.2.1.2}{Background processes}{section.2.1}% 23
+\BOOKMARK [1][-]{section.2.2}{t+ Signal Simulation}{chapter.2}% 24
+\BOOKMARK [1][-]{section.2.3}{Phase Space Overlap Removal}{chapter.2}% 25
+\BOOKMARK [1][-]{section.2.4}{Event Selection}{chapter.2}% 26
+\BOOKMARK [0][-]{chapter.3}{Measurement of the anomalous couplings of the photon to the top quark}{}% 27
+\BOOKMARK [0][-]{chapter.4}{Electron Conversion Veto}{}% 28
+\BOOKMARK [0][-]{chapter*.7}{Conclusions}{}% 29
+\BOOKMARK [0][-]{section*.8}{Appendices}{}% 30
