@@ -1,3 +1,12 @@
+Nik Berry's PhD Thesis
+
+=======
+
+Work in progress.
+
+To compile and view:
+```
+
 # get the code from the repository
 git clone https://github.com/senkin/thesis
 cd PhDThesis
@@ -16,3 +25,4 @@ pdflatex PhDThesis.tex
 
 # all set
 open PhDThesis.pdf
+```
