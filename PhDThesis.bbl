@@ -1,9 +1,19 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{LHClumi}
+Alemany-Fernandez et~al.
+\newblock Operation and configuration of the lhc in run 1.
+\newblock {\em CERN Internal Note}, 25 Nov 2013.
 
 \bibitem{CMSexperiment}
 CMS Collaboration.
 \newblock The cms experiment at the cern lhc.
 \newblock {\em JINST}, 3:S08004, 2008.
+
+\bibitem{TrackingResults}
+CMS Collaboration.
+\newblock Tracking results.
+\newblock (2012).
 
 \bibitem{heinerthesis}
 H.~J.~A. Tholen and A.~Stah.
@@ -11,5 +21,49 @@ H.~J.~A. Tholen and A.~Stah.
   experiment.
 \newblock {\em https://cds.cern.ch/record/1505276}, pages no.
   CERN--THESIS--2012--222, 2012.
+
+\bibitem{LHCDesignReport}
+Oliver Sim et~al. Brüning.
+\newblock Lhc design report.
+\newblock {\em Geneva : CERN}, v.1 : the LHC Main Ring:548, 2004.
+
+\bibitem{LHCStorageAccelerators}
+John~P. Blewett.
+\newblock 200-gev intersecting storage accelerators.
+\newblock {\em Proceedings of The 8th International Conference on High-Energy
+  Accelerators. CERN. Geneva, Switzerland}, 1971.
+
+\bibitem{ATLASHiggs}
+ATLAS Collaboration.
+\newblock Observation of a new particle in the search for the standard model
+  higgs boson with the atlas detector at the lhc.
+\newblock {\em Phys. Lett. B}, 716, 2012.
+
+\bibitem{CMSHiggs}
+CMS Collaboration.
+\newblock Observation of a new boson at a mass of 125 gev with the cms
+  experiment at the lhc.
+\newblock {\em Phys. Lett. B}, 716, 2012.
+
+\bibitem{SiliconStripSensors1}
+L.~Borrello et~al.
+\newblock Sensor design for the cms silicon strip tracker.
+\newblock {\em CMS-NOTE-2003-020}.
+
+\bibitem{SiliconStripSensors2}
+J.L.~Agram et~al.
+\newblock The silicon sensors for the compact muon solenoid tracker: design and
+  qualification procedure.
+\newblock {\em Nucl. Instrum. Meth.}, A 517:77, (2004).
+
+\bibitem{TrackerPerformance}
+V.~Veszpremi.
+\newblock Operation and performance of the cms tracker.
+\newblock {\em Journal of Instrumentation}, 9(03):C03005, 2014.
+
+\bibitem{Doping}
+L.~Rossi et~al.
+\newblock Pixel detectors.
+\newblock {\em Springer-Verlag, Heidelberg Germany}, (2006).
 
 \end{thebibliography}
