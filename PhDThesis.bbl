@@ -66,4 +66,9 @@ L.~Rossi et~al.
 \newblock Pixel detectors.
 \newblock {\em Springer-Verlag, Heidelberg Germany}, (2006).
 
+\bibitem{ECAL}
+CMS Collaboration.
+\newblock The e.m. calorimeter project: Technical design report.
+\newblock {\em CERN-LHCC-97-33}, 1997.
+
 \end{thebibliography}
