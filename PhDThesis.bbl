@@ -15,6 +15,12 @@ CMS Collaboration.
 \newblock Tracking results.
 \newblock (2012).
 
+\bibitem{ECALPerformance}
+Cristina Biino.
+\newblock The cms electromagnetic calorimeter: overview, lessons learned during
+  run 1 and future projections.
+\newblock {\em Journal of Physics: Conference Series}, 587(1):012001, 2015.
+
 \bibitem{heinerthesis}
 H.~J.~A. Tholen and A.~Stah.
 \newblock Study of the inclusive $t\bar{t}+\gamma$ cross-section with the cms
@@ -65,6 +71,11 @@ V.~Veszpremi.
 L.~Rossi et~al.
 \newblock Pixel detectors.
 \newblock {\em Springer-Verlag, Heidelberg Germany}, (2006).
+
+\bibitem{HiggsProposal}
+CMS Collaboration.
+\newblock Letter of intent.
+\newblock {\em CERN-LHCC-92-003}, 1992.
 
 \bibitem{ECAL}
 CMS Collaboration.

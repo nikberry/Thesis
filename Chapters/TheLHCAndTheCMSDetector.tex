@@ -142,12 +142,13 @@ Overall, the CMS tracker has performed exceptionally throughout the Run I three-
  
 \section{Electromagnetic Calorimeter} \label{sec-ElectromagneticCalorimeter}
 
-Directly after the Inner Tracking System, the second stage of particle identification and reconstruction comes in the form of the Electromagnetic Calorimeter (ECAL). The ECAL serves to stop electromagnetic particles, namely electrons and photons, and measure the energy deposited in the detector. These particles are identified and reconstructed using signatures such as charge, shower shape, and isolation. When an electron passes through the ECAL it showers via bremsstrahlung, describe brem.
+\subsection{Overview} \label{subsec-ECALOverview}
 
+Directly after the Inner Tracking System, the second stage of particle identification and reconstruction comes in the form of the Electromagnetic Calorimeter (ECAL). The ECAL serves to stop electromagnetic particles, namely electrons and photons, and measure the energy deposited in the detector. These particles are identified and reconstructed using signatures such as charge, shower shape, and isolation. When an electron passes through the ECAL it showers via bremsstrahlung. Radiation losses due to bremsstrahlung scale with mass as m$^{-4}$ (m$^{-6}$) when a charged particle travels perpendicular (parallel) to an electric field, and thus heavier electromagnetic particles are less likely to produce a shower. It is possible to differentiate between electrons and positrons by the curvature produced from the Superconducting Solenoid. Photons are neutrally charged and thus do not bend via the magnet, however they produce a shower of electron-positron pairs which can then be measured. The photon shower shape, known as $\sigma_{i\eta i\eta}$, is a prominent variable in this analysis and will be described in detail in Section \ref{sec-}.  
 
- It is possible to differentiate between electrons and positrons by the curvature produced from the Superconducting Solenoid. Photons are neutrally charged and thus do not bend via the magnet, however they produce a shower of electron-positron pairs which can then be measured. The photon shower shape, known as $\sigma_{i\eta i\eta}$, is a key component in this analysis and will be described in detail in Section \ref{sec-}.  
+A key component that drove the design of the ECAL is the decay channel $H \to \gamma\gamma$. At the time of design, the Higgs had not been discovered and thus the mass was not known, however it was known that the aforementioned decay mode was sensitive to a low mass Higgs, $m_H<150$ GeV. Although the branching ratio of the decay is small ($\simeq0.002$), the signature is clean and is a narrow resonance of two high E$_T$ photons over a non resonant background \cite{HiggsProposal}. In order to discover the Higgs the detector needed to have a powerful invariant mass resolution and background rejection, translating into a need for extremely efficient photon and electron identification, along with a high position and energy resolution. 
 
-A key component driving the design of the ECAL is the decay channel $H \to \gamma\gamma$
+\subsection{Composition of the ECAL} \label{subsec-ECALComposition}
 
 The CMS ECAL is a is a hermetic, homogeneous fine-grained lead tungstate (PbWO$_4$) crystal calorimeter \cite{ECAL}, shown in Figure \ref{fig-ECAL}. The PbWO$_4$ crystals are extremely dense  ($\delta=8.28$ g/cm$^3$), thus providing excellent performance and compactness, and thus fit within the Superconducting Solenoid magnet volume. The crystals were designed with an extremely small radiation length, $X_0=0.85$ cm, and small Moli\`{e}re radius, $R_M=2.19$ cm. The decision to use a homogeneous medium was chosen because of the ability to obtain a greater energy resolution by minimizing sampling fluctuations \cite{ECAL}. 
 
@@ -156,13 +157,33 @@ The CMS ECAL is a is a hermetic, homogeneous fine-grained lead tungstate (PbWO$_
 \caption{Geometric view of one quarter of the ECAL (top). Layout of the CMS electromagnetic calorimeter presenting the arrangement of crystal modules, supermodules, endcaps and the preshower in front (bottom) \cite{CMSexperiment}.}
 \end{figure}
 
-There are 75,848 within the ECAL, and are arranged into a barrel section (EB), covering a pseudorapidity rang of $|\eta|<1.4442$, which is then surrounded by encaps and thus extending the pseudorapidity range to $|\eta|<3.0$. The length of the crystals within the barrel are 230 mm and 220 mm in the endcap regions, which corresponds to $\sim26$ (EB) and $\sim25$ (EE) radiation lengths. The crystals are projective and also slightly off-pointing in position, $\sim3^\circ$ with respect to the IP. This configuration provides a full coverage and ensures that there are no cracks in the calorimetry that are aligned with particle trajectories. Within the barrel there is no longitudinal segmentation, and therefore the angle at which a photon is measured relies on the reconstructed PV from the silicon tracker. EB crystals are $2.2\times2.2$ cms$^2$ on the front face, and $2.86\times2.86$ cm$^2$ in the endcaps, giving rise to a total crystal volume of 11 m$^3$ and a weight of 92 t.
+There are 75,848 within the ECAL, and are arranged into a barrel section (EB), covering a pseudorapidity rang of $|\eta|<1.4442$, which is then surrounded by endcaps and thus extending the pseudorapidity range to $|\eta|<3.0$. The length of the crystals within the barrel are 230 mm and 220 mm in the endcap regions, which corresponds to $\sim26$ (EB) and $\sim25$ (EE) radiation lengths. The crystals are projective and also slightly off-pointing in position, $\sim3^\circ$ with respect to the IP. This configuration provides a full coverage and ensures that there are no cracks in the calorimetry that are aligned with particle trajectories. Within the barrel there is no longitudinal segmentation, and therefore the angle at which a photon is measured relies on the reconstructed PV from the silicon tracker. EB crystals are $2.2\times2.2$ cms$^2$ on the front face, and $2.86\times2.86$ cm$^2$ in the endcaps, giving rise to a total crystal volume of 11 m$^3$ and a weight of 92 t.
 
 The barrel crystals are arranged into 36 supermodules (or superclusters), each containing 1,700 crystals, whereas the endcaps are arranged into two D-shaped segments comprising 3,662 crystals each. The final section of the ECAL is the pre-shower detector system (ES) placed directly in front of the endcaps at $1.65<|\eta|<2.6$ and can be visualised in Figure \ref{fig-ECALRapidity}. The ES is composed of 4,288 sensors, 137,216 silicon strip sensors, each $1.90\times61$ mm$^2$ with x-y view, and has a total of $\sim3$ radiation lengths. The purpose of the ES is provide improved separation of photons to $\pi^0$s.
 
 \begin{figure}\label{fig-ECALRapidity}
 \includegraphics[width=\textwidth]{Figures/ECALRapidity.png}
 \caption{Geometric view of one quarter of the ECAL (top). Layout of the CMS electromagnetic calorimeter presenting the arrangement of crystal modules, supermodules, endcaps and the preshower in front (bottom) \cite{CMSexperiment}.}
+\end{figure}
+
+\subsection{Photodetectors} \label{subsec-Photodetectors}
+
+The light read-out system for the barrel crystals comes in the form of Hamamatsu avalanche photodiodes (APD). There are two APDs for each crystal which are read in parallel, each measuring $5\times5$ mm$^2$ with a quantum efficiency (QE) of 75\%. The gain is set at $\sim50$ and they are insensitive to the 4 T magnetic field from the Superconducting Solenoid. The endcap crystals scintillation light is read out by vacuum photo-triodes (VPT), each with an area of 280 mm$^2$ with a 20\% QE and gain of $\sim10$. The barrel APDs are temperature sensitive ($\frac{1}{E}\frac{dE}{dT}\sim-2.3\%C^{-1}$) whereas the VPT sensitivity to temperature is assumed to be negligible relative to that of the crystals.  
+
+\subsection{Performance of the ECAL throughout Run I} \label{subsec-ECALPerformance}
+
+The energy resolution, $\frac{\sigma_E}{E}$ of the ECAL crystals can be parameterised by
+
+\begin{equation}
+\left(\frac{\sigma_E}{E}\right)^2 = \left(\frac{A}{\sqrt{E}}\right)^2 + \left(\frac{B}{E}\right)^2 + C^2
+\end{equation}
+
+where A and B are the stochastic term for scintillation showers and noise term due to read-out electronics and PMTs, respectively. C is a constant term which is a direct measure of the performance of the PbWO$_4$ crystals. 
+
+\begin{figure} \label{fig-}
+\includegraphics[width=0.48\textwidth]{Figures/EEFractionalResponse.png}
+\includegraphics[width=0.52\textwidth]{Figures/EEResolutionDeterioration.png}
+\caption{Simulation of fractional response from EE as a function of $\eta$, for different integrated luminosities. Right: Deterioration of the energy resolution in EE as a function of $\eta$, for different integrated luminosities \cite{ECALPerformance}.}
 \end{figure}
 
 \section{Hadron Calorimeter} \label{sec-HadronCalorimeter}
