@@ -58,7 +58,7 @@ Due to the nature of individual detectors, not all require the same levels of de
 \mathcal{L}=f\frac{N_1N_2}{4\pi\sigma_x\sigma_y}
 \end{equation}
 
-where f is the collision frequency given by $f=u\times \ttext{N_b}$, the repetition frequency multiplied by the number of bunches in the beam, $N_{1,2}$ are the number of protons per bunch per beam, and $\sigma_{x,y}$ are the horizontal and vertical beam sizes at the interaction point (IP), respectively, and are defined as the product of the beams beta function and the proton beam emittance as shown in Equation \ref{eqn-beamsize}.
+where f is the collision frequency given by $f=u\times N_b$, the repetition frequency multiplied by the number of bunches in the beam, $N_{1,2}$ are the number of protons per bunch per beam, and $\sigma_{x,y}$ are the horizontal and vertical beam sizes at the interaction point (IP), respectively, and are defined as the product of the beams beta function and the proton beam emittance as shown in Equation \ref{eqn-beamsize}.
 
 \begin{equation} \label{eqn-beamsize}
 \sigma_{x,y}=\epsilon_{x,y}\beta_{x,y}
@@ -99,7 +99,7 @@ The Compact Muon Solenoid (CMS) \cite{CMSexperiment} is one of the two all-purpo
 \eta = -\ln \left(\tan\left(\frac{\theta}{2}\right)\right)
 \end{equation}
 
-and the momentum transverse to the beam is defined as p$_\ttext{T}$, and calculated using the x- and y-components. The transverse energy is defined as E$_\ttext{T} = E\sin\theta$. 
+and the momentum transverse to the beam is defined as p$_T$, and calculated using the x- and y-components. The transverse energy is defined as E$_T = E\sin\theta$. 
 
 \section{Inner Tracking System} \label{sec-InnerTrackingSystem}
 
@@ -190,17 +190,45 @@ where A and B are the stochastic term for scintillation showers and noise term d
 
 \section{Superconducting Solenoid} \label{sec-SuperconductingSolenoid}
 
-Powerful magnet required to bend muons aka why it sucks.
-13 m long, 6 m inner diameter superconducting solenoid
+The CMS Superconducting Solenoid, shown in Figure \ref{fig-SuperconductingSolenoid}, is the most powerful magnet in the world, 100,000 times stronger than the Earth's magnetic field and stores enough energy to melt 16 tonnes of gold, and the most essential feature of the detector. In order to achieve a good momentum resolution in such a detector, without making tight cuts on muon chamber resolution and alignment, a powerful magnetic field was chosen. A large bending power can be achieved by a modestly sized solenoid, as long as it is a high-field superconducting one, due to the bending beginning at the primary vertex. The requirement for the bending power of the solenoid is dictated by the narrow states decaying into muons, and by the unambiguous determination of the sign for muons with a momentum of around 1 TeV/c. In order to obtain a precision measurement, a momentum resolution of $\Delta p/p\approx10\%$ at p = 1 TeV/c. A suitable length to radius ratio is required to obtain a good momentum resolution in the forward region, and can be seen in the parameters listed in Table \ref{tab-SolenoidParameters} \cite{PTDR2}. 
 
-\begin{figure}
+\begin{table} \label{tab-SolenoidParameters}
+\begin{center}
+\begin{tabular}{|l|c|}
+\hline
+	\multicolumn{2}{|c|}{\textbf{Superconducting Solenoid Parameters}} \\
+\hline
+	\textbf{Parameter} & \textbf{Value} \\
+\hline
+	Field (T) & 4 \\
+	Length (m) & 12.9 \\
+	Weight (t) & 250 \\
+	Inner bore (m) & 5.9 \\
+	Current (kA) & 19.5 \\
+	Number of turns & 2168 \\
+	Stored energy (GJ) & 2.7 \\
+	Hoop stress (atm) & 64 \\
+\hline
+\end{tabular}	
+\caption{Parameters of the LHC superconducting solenoid \cite{MagneticField}.}
+\end{center}
+\end{table}
+
+Approaching 13 m in length, and 6 m in diameter, the solid mass weights approximately 250 t at an operating temperature of $-268.5^\circ C$ -- a degree warmer than outer space. Originally designed to run with a uniform magnetic field of 4 T within the 5.9 m bore, the eventual operating level was set to 3.8 T in order to increase the lifetime. Such a magnetic field requires a return yoke, which can be viewed in the CMS schematic in Figure \ref{fig-CMSDetector}, of which the return field is large enough to saturate 1.5 m of iron and weighs 12,500 t. This allows four muon stations to be integrated within the return yoke, ensuring robustness and full geometric coverage. The magnet and return yoke use almost twice as much iron as the Eiffel Tower.
+
+\begin{figure} \label{fig-SuperconductingSolenoid}
 \begin{center}
 \includegraphics[scale=0.5]{Figures/SuperconductingSolenoid.png}
 \caption{ General artistic view of the 5 modules composing the cold mass inside the cryostat, with details of the supporting system (vertical, radial and longitudinal tie rods) \cite{CMSexperiment}.}
 \end{center}
 \end{figure}
 
+
 \section{Muon System} \label{sec-MuonSystem}
+
+CSCs
+RPCs
+DTs
 
 \begin{figure}\label{fig-CMSLongitudinalView}
 \includegraphics[width=\textwidth]{Figures/CMSLongitudinalView.png}

@@ -33,6 +33,12 @@ Oliver Sim et~al. Brüning.
 \newblock Lhc design report.
 \newblock {\em Geneva : CERN}, v.1 : the LHC Main Ring:548, 2004.
 
+\bibitem{MagneticField}
+CMS Collaboration.
+\newblock Precise mapping of the magnetic field in the cms barrel yoke using
+  cosmic rays.
+\newblock {\em Journal of Instrumentation}, 5(03):T03021, 2010.
+
 \bibitem{LHCStorageAccelerators}
 John~P. Blewett.
 \newblock 200-gev intersecting storage accelerators.
@@ -81,5 +87,10 @@ CMS Collaboration.
 CMS Collaboration.
 \newblock The e.m. calorimeter project: Technical design report.
 \newblock {\em CERN-LHCC-97-33}, 1997.
+
+\bibitem{PTDR2}
+{CMS Collaboration}.
+\newblock {CMS} technical design report, volume {II}: {Physics} performance.
+\newblock {\em J. Phys. G}, 34:995--1579, 2007.
 
 \end{thebibliography}

@@ -18,28 +18,28 @@
 \contentsline {subsection}{\numberline {2.4.4}Performance of the ECAL throughout Run I}{17}{subsection.2.4.4}
 \contentsline {section}{\numberline {2.5}Hadron Calorimeter}{18}{section.2.5}
 \contentsline {section}{\numberline {2.6}Superconducting Solenoid}{18}{section.2.6}
-\contentsline {section}{\numberline {2.7}Muon System}{18}{section.2.7}
-\contentsline {section}{\numberline {2.8}Trigger}{18}{section.2.8}
-\contentsline {section}{\numberline {2.9}Particle Reconstruction}{20}{section.2.9}
-\contentsline {subsection}{\numberline {2.9.1}Electron identification}{20}{subsection.2.9.1}
-\contentsline {subsection}{\numberline {2.9.2}Muon reconstruction}{20}{subsection.2.9.2}
-\contentsline {subsection}{\numberline {2.9.3}Jet reconstruction}{20}{subsection.2.9.3}
-\contentsline {subsubsection}{Jet energy corrections}{20}{section*.18}
-\contentsline {subsubsection}{Particle flow jet identification}{20}{section*.19}
-\contentsline {section}{\numberline {2.10}Computing}{20}{section.2.10}
-\contentsline {subsection}{\numberline {2.10.1}Event Data Model}{20}{subsection.2.10.1}
-\contentsline {subsection}{\numberline {2.10.2}Analysis Software}{20}{subsection.2.10.2}
-\contentsline {section}{\numberline {2.11}Monte Carlo Simulation}{20}{section.2.11}
-\contentsline {subsection}{\numberline {2.11.1}Monte Carlo event generators}{20}{subsection.2.11.1}
-\contentsline {chapter}{\numberline {3}Measurement of the inclusive $t\mathaccentV {bar}016{t}+\gamma $ cross-section}{22}{chapter.3}
-\contentsline {section}{\numberline {3.1}Signal Definition and Background Processes}{22}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Signal definition}{22}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Background processes}{22}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}$t\mathaccentV {bar}016{t}+\gamma $ Signal Simulation}{22}{section.3.2}
-\contentsline {section}{\numberline {3.3}Phase Space Overlap Removal}{22}{section.3.3}
-\contentsline {section}{\numberline {3.4}Event Selection}{22}{section.3.4}
-\contentsline {chapter}{\numberline {4}Measurement of the anomalous couplings of the photon to the top quark}{25}{chapter.4}
-\contentsline {chapter}{\numberline {5}Electron Conversion Veto}{26}{chapter.5}
-\contentsline {chapter}{Conclusions}{27}{chapter*.23}
-\contentsline {chapter}{Appendices}{29}{section*.24}
-\contentsline {chapter}{Bibliography}{30}{appendix*.25}
+\contentsline {section}{\numberline {2.7}Muon System}{19}{section.2.7}
+\contentsline {section}{\numberline {2.8}Trigger}{19}{section.2.8}
+\contentsline {section}{\numberline {2.9}Particle Reconstruction}{21}{section.2.9}
+\contentsline {subsection}{\numberline {2.9.1}Electron identification}{21}{subsection.2.9.1}
+\contentsline {subsection}{\numberline {2.9.2}Muon reconstruction}{21}{subsection.2.9.2}
+\contentsline {subsection}{\numberline {2.9.3}Jet reconstruction}{21}{subsection.2.9.3}
+\contentsline {subsubsection}{Jet energy corrections}{21}{section*.5}
+\contentsline {subsubsection}{Particle flow jet identification}{21}{section*.6}
+\contentsline {section}{\numberline {2.10}Computing}{21}{section.2.10}
+\contentsline {subsection}{\numberline {2.10.1}Event Data Model}{21}{subsection.2.10.1}
+\contentsline {subsection}{\numberline {2.10.2}Analysis Software}{21}{subsection.2.10.2}
+\contentsline {section}{\numberline {2.11}Monte Carlo Simulation}{21}{section.2.11}
+\contentsline {subsection}{\numberline {2.11.1}Monte Carlo event generators}{21}{subsection.2.11.1}
+\contentsline {chapter}{\numberline {3}Measurement of the inclusive $t\mathaccentV {bar}016{t}+\gamma $ cross-section}{23}{chapter.3}
+\contentsline {section}{\numberline {3.1}Signal Definition and Background Processes}{23}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Signal definition}{23}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Background processes}{23}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}$t\mathaccentV {bar}016{t}+\gamma $ Signal Simulation}{23}{section.3.2}
+\contentsline {section}{\numberline {3.3}Phase Space Overlap Removal}{23}{section.3.3}
+\contentsline {section}{\numberline {3.4}Event Selection}{23}{section.3.4}
+\contentsline {chapter}{\numberline {4}Measurement of the anomalous couplings of the photon to the top quark}{26}{chapter.4}
+\contentsline {chapter}{\numberline {5}Electron Conversion Veto}{27}{chapter.5}
+\contentsline {chapter}{Conclusions}{28}{chapter*.7}
+\contentsline {chapter}{Appendices}{30}{section*.8}
+\contentsline {chapter}{Bibliography}{31}{appendix*.9}
