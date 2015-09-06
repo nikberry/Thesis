@@ -188,9 +188,43 @@ where A and B are the stochastic term for scintillation showers and noise term d
 
 \section{Hadron Calorimeter} \label{sec-HadronCalorimeter}
 
+\subsection{Overview}
+
+The Hadron Calorimeter (HCAL), shown in Figure \ref{fig-HCAL}, lies directly after the ECAL within the volume of the superconducting solenoid, and is designed to measure energy deposits from hadron showers and clusters of collinear high-energy hadronic particles known as jets. A key role of the HCAL is to measure the missing transverse energy (MET) produced by events containing neutrinos, and possible events that could be associated with new physics that may be seen at higher energies. In order to produce such a precision measurement, the HCAL must have an extremely high jet energy resolution and be completely hermetic in $\phi$. 
+
+The HCAL is a sampling calorimeter, composed of alternating layers of absorbing large brass plates and plastic scintillation tiles. Because the precision of the energy measurement depends on the total amount of the hadronic shower detected, the material must be thick enough to absorb the majority of the event. The size restriction for the HCAL is limited to the distance between the end of the ECAL ($r=1.77$ m) to the inner superconducting solenoid ($r=2.95$ m). In order to efficiently measure the full shower, and therefore energy deposit, an outer section of the HCAL (HO) has been placed just after the solenoid and between the muon system which can then also be used as an extra layer of absorbing material with a thickness of 11.4 interaction lengths ($\lambda_l$). There are four segments of the HCAL in total: the HCAL barrel (HB), endcaps (HE), outer HCAL (HO), and forward calorimeter (HF). The barrel and endcaps combined covers an area with pseudorapidity up to $|\eta|<3.0$, and the forward segment covers the region up to $|\eta|<5.0$.  
+
+\begin{figure} \label{fig-HCAL}
+\begin{center}
+\includegraphics[scale=0.3]{Figures/HCAL.png}
+\caption{Longitudinal view of one quarter of the detector in the $r-\eta$ - plane, showing the positions of the HCAL parts: hadron barrel (HB), hadron outer (HO), hadron endcap (HE) and hadron forward (HF) \cite{CMSexperiment}.}
+\end{center}
+\end{figure}
+
+\begin{table} \label{tab-HCALGranularity}
+\begin{center}
+\begin{tabular}{lccccc}
+\hline
+\hline
+ & \textbf{HB/HO} & \textbf{HE $|\eta| \leq 2.5$} & \textbf{HE $|\eta|>2.5$} & \textbf{HF $|\eta| \leq 2.5$} & \textbf{HF $|\eta|>2.5$} \\
+\hline
+\textbf{$\Delta \eta \times \Delta \phi$} & $0.087 \times 0.087$ & $0.087 \times 0.087$ & $0.175 \times 0.175$ & $0.175 \times 0.175s$ & $0.175 \times 0.35$ \\
+\hline
+\hline
+\end{tabular}
+\end{center}
+\caption{Tower segmentation in azimuthal and polar angle for the hadronic barrel, endcap and forward calorimeter \cite{HCALTdr}.}
+\end{table}
+
+There are approximately 90,000 scintillators installed within the HB and HE combined. Light that is collected by the plastic scintillating tiles is read about by wavelength-shifting fibres (WSF) that are embedded within the units, which are then transported through transparent fibres to hybrid photo-detectors (HPD) encompassing 19 independent pixels. Each scintillator has a granularity of $\Delta \eta \times \Delta \phi = 0.087 \times 0.087$ for $|\eta|<1.6$ and $\Delta \eta \times \Delta \phi = 0.17 \times 0.17$ for $|\eta| \ge 1.6$, whereas the forward segment changes with respect to pseudorapidity as $\Delta \eta \times \Delta \phi = 0.175 \times 0.175$ at $|\eta| = 3.0$ to $\Delta \eta \times \Delta \phi = 0.175 \times 0.35$ at $|\eta| = 5.0$ \cite{HCALTdr}, as seen in Table \ref{tab-HCALGranularity}. The forward section of the HCAL is placed 11.2 m from the IP in order to reconstruct particles boosted in the forward direction, and is expected to experience a much higher flux of particles at higher energy (760 GeV) than the rest of the HCAL (100 GeV) at $\sqrt{s}=14$ TeV \cite{HCALUpgradeTdr}. It is composed of 5 mm thick steel absorber plates, each with quartz fibres implemented as an active medium. The quartz fibres detect \v{C}erenkov light produced from the electromagnetic component of particle showers.
+
+\subsection{Performance of the HCAL in Run I}   
+
+
+
 \section{Superconducting Solenoid} \label{sec-SuperconductingSolenoid}
 
-The CMS Superconducting Solenoid, shown in Figure \ref{fig-SuperconductingSolenoid}, is the most powerful magnet in the world, 100,000 times stronger than the Earth's magnetic field and stores enough energy to melt 16 tonnes of gold, and the most essential feature of the detector. In order to achieve a good momentum resolution in such a detector, without making tight cuts on muon chamber resolution and alignment, a powerful magnetic field was chosen. A large bending power can be achieved by a modestly sized solenoid, as long as it is a high-field superconducting one, due to the bending beginning at the primary vertex. The requirement for the bending power of the solenoid is dictated by the narrow states decaying into muons, and by the unambiguous determination of the sign for muons with a momentum of around 1 TeV/c. In order to obtain a precision measurement, a momentum resolution of $\Delta p/p\approx10\%$ at p = 1 TeV/c. A suitable length to radius ratio is required to obtain a good momentum resolution in the forward region, and can be seen in the parameters listed in Table \ref{tab-SolenoidParameters} \cite{PTDR2}. 
+The CMS Superconducting Solenoid, shown in Figure \ref{fig-SuperconductingSolenoid}, is the most powerful magnet in the world, 100,000 times stronger than the Earth's magnetic field and stores enough energy to melt 16 tonnes of gold, and the most essential feature of the detector. In order to achieve a good momentum resolution in such a detector, without making tight cuts on muon chamber resolution and alignment, a powerful magnetic field was chosen. A large bending power can be achieved by a modestly sized solenoid, as long as it is a high-field superconducting one, due to the bending beginning at the primary vertex. The requirement for the bending power of the solenoid is dictated by the narrow states decaying into muons, and by the unambiguous determination of the sign for muons with a momentum of around 1 TeV/c. In order to obtain a precision measurement, a momentum resolution of $\Delta p/p\approx10\%$ at p = 1 TeV/c. A suitable length to radius ratio is required to obtain a good momentum resolution in the forward region.  
 
 \begin{table} \label{tab-SolenoidParameters}
 \begin{center}
@@ -214,7 +248,7 @@ The CMS Superconducting Solenoid, shown in Figure \ref{fig-SuperconductingSoleno
 \end{center}
 \end{table}
 
-Approaching 13 m in length, and 6 m in diameter, the solid mass weights approximately 250 t at an operating temperature of $-268.5^\circ C$ -- a degree warmer than outer space. Originally designed to run with a uniform magnetic field of 4 T within the 5.9 m bore, the eventual operating level was set to 3.8 T in order to increase the lifetime. Such a magnetic field requires a return yoke, which can be viewed in the CMS schematic in Figure \ref{fig-CMSDetector}, of which the return field is large enough to saturate 1.5 m of iron and weighs 12,500 t. This allows four muon stations to be integrated within the return yoke, ensuring robustness and full geometric coverage. The magnet and return yoke use almost twice as much iron as the Eiffel Tower.
+Approaching 13 m in length, and 6 m in diameter, the solid mass weights approximately 250 t at an operating temperature of $-268.5^\circ C$ -- a degree warmer than outer space. Originally designed to run with a uniform magnetic field of 4 T within the 5.9 m bore, the eventual operating level was set to 3.8 T in order to increase the lifetime. Such a magnetic field requires a return yoke, which can be viewed in the CMS schematic in Figure \ref{fig-CMSDetector}, of which the return field is large enough to saturate 1.5 m of iron and weighs 12,500 t. This allows four muon stations to be integrated within the return yoke, ensuring robustness and full geometric coverage. The magnet and return yoke use almost twice as much iron as the Eiffel Tower. The solenoid is composed of four layers of high-purity niobium-titanium cable coextruded with a aluminium-stabilised conductor as used in previous experiments, such as ALEPH and DELPHI at LEP, and H1 at HERA. However, the huge increase in certain parameters, such as magnetic field strength, ampere turns, and stored energy, which can be seen in the parameters listed in Table \ref{tab-SolenoidParameters} \cite{PTDR2}. 
 
 \begin{figure} \label{fig-SuperconductingSolenoid}
 \begin{center}

@@ -88,6 +88,17 @@ CMS Collaboration.
 \newblock The e.m. calorimeter project: Technical design report.
 \newblock {\em CERN-LHCC-97-33}, 1997.
 
+\bibitem{HCALTdr}
+{\em {The CMS hadron calorimeter project: Technical Design Report}}.
+\newblock Technical Design Report CMS. CERN, Geneva, 1997.
+
+\bibitem{HCALUpgradeTdr}
+J~et~al. Mans.
+\newblock {CMS Technical Design Report for the Phase 1 Upgrade of the Hadron
+  Calorimeter}.
+\newblock Technical Report CERN-LHCC-2012-015. CMS-TDR-10, CERN, Geneva, Sep
+  2012.
+
 \bibitem{PTDR2}
 {CMS Collaboration}.
 \newblock {CMS} technical design report, volume {II}: {Physics} performance.
