@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.22)  6 SEP 2015 20:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.22)  7 SEP 2015 13:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -495,7 +495,7 @@ LaTeX Info: Redefining \nameref on input line 43.
 \openout3 = `PhDThesis.out'.
 
 
-<Figures/brunelshield.png, id=180, 213.79875pt x 289.08pt>
+<Figures/brunelshield.png, id=184, 213.79875pt x 289.08pt>
 File: Figures/brunelshield.png Graphic file (type png)
 
 <use Figures/brunelshield.png>
@@ -683,7 +683,7 @@ l.1 \chapter
 
 ]
 Chapter 2.
-<Figures/CERNAcceleratorComplex.jpg, id=377, 1689.31125pt x 1083.04625pt>
+<Figures/CERNAcceleratorComplex.jpg, id=382, 1689.31125pt x 1083.04625pt>
 File: Figures/CERNAcceleratorComplex.jpg Graphic file (type jpg)
 
 <use Figures/CERNAcceleratorComplex.jpg>
@@ -727,34 +727,34 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7] <Figures/LHClumi2.png, id=414, 998.73125pt x 641.39626pt>
+[7] <Figures/LHClumi2.png, id=419, 998.73125pt x 641.39626pt>
 File: Figures/LHClumi2.png Graphic file (type png)
 
 <use Figures/LHClumi2.png>
 Package pdftex.def Info: Figures/LHClumi2.png used on input line 78.
 (pdftex.def)             Requested size: 219.2565pt x 140.80421pt.
 
-<Figures/LHClumi.png, id=415, 602.25pt x 378.41376pt>
+<Figures/LHClumi.png, id=420, 602.25pt x 378.41376pt>
 File: Figures/LHClumi.png Graphic file (type png)
 
 <use Figures/LHClumi.png>
 Package pdftex.def Info: Figures/LHClumi.png used on input line 78.
 (pdftex.def)             Requested size: 219.2565pt x 137.76476pt.
- <Figures/IntLumi2.png, id=418, 578.16pt x 433.62pt>
+ <Figures/IntLumi2.png, id=423, 578.16pt x 433.62pt>
 File: Figures/IntLumi2.png Graphic file (type png)
 
 <use Figures/IntLumi2.png>
 Package pdftex.def Info: Figures/IntLumi2.png used on input line 83.
 (pdftex.def)             Requested size: 219.2565pt x 164.43987pt.
 
-<Figures/CMSIntLumi.png, id=419, 578.16pt x 433.62pt>
+<Figures/CMSIntLumi.png, id=424, 578.16pt x 433.62pt>
 File: Figures/CMSIntLumi.png Graphic file (type png)
 
 <use Figures/CMSIntLumi.png>
 Package pdftex.def Info: Figures/CMSIntLumi.png used on input line 83.
 (pdftex.def)             Requested size: 219.2565pt x 164.43987pt.
 
-<Figures/CMSDetector.png, id=420, 3189.9175pt x 2253.41875pt>
+<Figures/CMSDetector.png, id=425, 3189.9175pt x 2253.41875pt>
 File: Figures/CMSDetector.png Graphic file (type png)
 
 <use Figures/CMSDetector.png>
@@ -785,7 +785,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10] <Figures/Tracker.png, id=442, 1471.4975pt x 694.595pt>
+[10] <Figures/Tracker.png, id=447, 1471.4975pt x 694.595pt>
 File: Figures/Tracker.png Graphic file (type png)
 
 <use Figures/Tracker.png>
@@ -799,7 +799,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [11 <./Figures/Tracker.png (PNG copy)>]
-<Figures/MuonReconstructionEfficiency.png, id=456, 785.93625pt x 392.46625pt>
+<Figures/MuonReconstructionEfficiency.png, id=461, 785.93625pt x 392.46625pt>
 File: Figures/MuonReconstructionEfficiency.png Graphic file (type png)
 
 <use Figures/MuonReconstructionEfficiency.png>
@@ -807,7 +807,7 @@ Package pdftex.def Info: Figures/MuonReconstructionEfficiency.png used on input
  line 126.
 (pdftex.def)             Requested size: 438.513pt x 218.98311pt.
 
-<Figures/PVResolution.png, id=459, 829.0975pt x 402.50375pt>
+<Figures/PVResolution.png, id=464, 829.0975pt x 402.50375pt>
 File: Figures/PVResolution.png Graphic file (type png)
 
 <use Figures/PVResolution.png>
@@ -837,7 +837,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14] <Figures/ECAL.png, id=484, 1172.38pt x 803.0pt>
+[14] <Figures/ECAL.png, id=489, 1172.38pt x 803.0pt>
 File: Figures/ECAL.png Graphic file (type png)
  <use Figures/ECAL.png>
 Package pdftex.def Info: Figures/ECAL.png used on input line 156.
@@ -850,7 +850,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [15 <./Figures/ECAL.png (PNG copy)>]
-<Figures/ECALRapidity.png, id=495, 1441.385pt x 734.745pt>
+<Figures/ECALRapidity.png, id=500, 1441.385pt x 734.745pt>
 File: Figures/ECALRapidity.png Graphic file (type png)
 
 <use Figures/ECALRapidity.png>
@@ -864,7 +864,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [16 <./Figures/ECALRapidity.png (PNG copy)>]
-<Figures/EEFractionalResponse.png, id=502, 506.89375pt x 407.5225pt>
+<Figures/EEFractionalResponse.png, id=507, 506.89375pt x 407.5225pt>
 File: Figures/EEFractionalResponse.png Graphic file (type png)
 
 <use Figures/EEFractionalResponse.png>
@@ -872,7 +872,7 @@ Package pdftex.def Info: Figures/EEFractionalResponse.png used on input line 18
 4.
 (pdftex.def)             Requested size: 210.48436pt x 169.21817pt.
 
-<Figures/EEResolutionDeterioration.png, id=503, 550.055pt x 400.49625pt>
+<Figures/EEResolutionDeterioration.png, id=508, 550.055pt x 400.49625pt>
 File: Figures/EEResolutionDeterioration.png Graphic file (type png)
 
 <use Figures/EEResolutionDeterioration.png>
@@ -891,7 +891,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [17 <./Figures/EEFractionalResponse.png> <./Figures/EEResolutionDeterioration.p
-ng>] <Figures/HCAL.png, id=512, 1307.88625pt x 768.8725pt>
+ng>] <Figures/HCAL.png, id=517, 1307.88625pt x 768.8725pt>
 File: Figures/HCAL.png Graphic file (type png)
 
 <use Figures/HCAL.png>
@@ -912,7 +912,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [19 <./Figures/HCAL.png (PNG copy)>]
-<Figures/SuperconductingSolenoid.png, id=534, 700.6175pt x 519.9425pt>
+<Figures/SuperconductingSolenoid.png, id=539, 700.6175pt x 519.9425pt>
 File: Figures/SuperconductingSolenoid.png Graphic file (type png)
 
 <use Figures/SuperconductingSolenoid.png>
@@ -920,7 +920,21 @@ Package pdftex.def Info: Figures/SuperconductingSolenoid.png used on input line
  255.
 (pdftex.def)             Requested size: 350.30789pt x 259.97061pt.
 
-<Figures/CMSLongitudinalView.png, id=537, 679.53876pt x 448.67625pt>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21 <./Figures/SuperconductingSolenoid.png>]
+<Figures/CMSLongitudinalView.png, id=553, 679.53876pt x 448.67625pt>
 File: Figures/CMSLongitudinalView.png Graphic file (type png)
 
 <use Figures/CMSLongitudinalView.png>
@@ -934,107 +948,107 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 301--302
+[22 <./Figures/CMSLongitudinalView.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
 []\OT1/cmr/bx/n/10.95 Number
  []
 
 
-Overfull \hbox (47.4288pt too wide) in paragraph at lines 303--303
+Overfull \hbox (47.4288pt too wide) in paragraph at lines 313--313
 []\OT1/cmr/m/n/10.95 /LHE2EDM[]WHIZARD[]2to5[]ttA/htholen-FULLSIM[]STEP2[]WHIZA
 RD[]2to5[]ttA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--304
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
 []\OT1/cmr/m/n/10.95 /TTGamma[]TuneZ2star[]8TeV-madgraph-tauola/Summer12[]DR53X
 -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--306
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
 []\OT1/cmr/m/n/10.95 /TTJets[]FullLeptMGDecays[]8TeV-madgraph/Summer12[]DR53X-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--307
+Underfull \hbox (badness 10000) in paragraph at lines 317--317
 []\OT1/cmr/m/n/10.95 /TTJets[]HadronicMGDecays[]8TeV-madgraph/Summer12[]DR53X-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--308
+Underfull \hbox (badness 10000) in paragraph at lines 318--318
 []\OT1/cmr/m/n/10.95 /TTJets[]SemiLeptMGDecays[]8TeV-madgraph/Summer12[]DR53X-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 309--309
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
 []\OT1/cmr/m/n/10.95 /TTJets[]MassiveBinDECAY[]TuneZ2star[]8TeV-madgraph-
  []
 
 
-Overfull \hbox (3.96931pt too wide) in paragraph at lines 311--311
+Overfull \hbox (3.96931pt too wide) in paragraph at lines 321--321
 []\OT1/cmr/m/n/10.95 /DYJetsToLL[]M-10To50[]TuneZ2Star[]8TeV-madgraph/Summer12[
 ]DR53X-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
 []\OT1/cmr/m/n/10.95 /DYJetsToLL[]M-50[]TuneZ2Star[]8TeV-madgraph-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--314
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
 []\OT1/cmr/m/n/10.95 /T[]tW-channel-DR[]TuneZ2star[]8TeV-powheg-tauola/Summer12
 []DR53X-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--315
+Underfull \hbox (badness 10000) in paragraph at lines 325--325
 []\OT1/cmr/m/n/10.95 /Tbar[]tW-channel-DR[]TuneZ2star[]8TeV-powheg-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 316--316
+Underfull \hbox (badness 10000) in paragraph at lines 326--326
 []\OT1/cmr/m/n/10.95 /T[]t-channel[]TuneZ2star[]8TeV-powheg-tauola/Summer12[]DR
 53X-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--317
+Underfull \hbox (badness 10000) in paragraph at lines 327--327
 []\OT1/cmr/m/n/10.95 /Tbar[]t-channel[]TuneZ2star[]8TeV-powheg-tauola/Summer12[
 ]DR53X-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--318
+Underfull \hbox (badness 10000) in paragraph at lines 328--328
 []\OT1/cmr/m/n/10.95 /T[]s-channel[]TuneZ2star[]8TeV-powheg-tauola/Summer12[]DR
 53X-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 319--319
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
 []\OT1/cmr/m/n/10.95 /Tbar[]s-channel[]TuneZ2star[]8TeV-powheg-tauola/Summer12[
 ]DR53X-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--321
+Underfull \hbox (badness 10000) in paragraph at lines 331--331
 []\OT1/cmr/m/n/10.95 /WJetsToLNu[]TuneZ2Star[]8TeV-madgraph-tarball/Summer12[]D
 R53X-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--323
+Underfull \hbox (badness 10000) in paragraph at lines 333--333
 []\OT1/cmr/m/n/10.95 /WW[]TuneZ2star[]8TeV[]pythia6[]tauola/Summer12[]DR53X-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
 []\OT1/cmr/m/n/10.95 /WZ[]TuneZ2star[]8TeV[]pythia6[]tauola/Summer12[]DR53X-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--325
+Underfull \hbox (badness 10000) in paragraph at lines 335--335
 []\OT1/cmr/m/n/10.95 /ZZ[]TuneZ2star[]8TeV[]pythia6[]tauola/Summer12[]DR53X-
  []
 
@@ -1044,22 +1058,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21 <./Figures/SuperconductingSolenoid.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[22 <./Figures/CMSLongitudinalView.png>])
-(./Chapters/CrossSectionMeasurement.tex
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[23]
+[23]) (./Chapters/CrossSectionMeasurement.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1067,6 +1066,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [24]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25]
 Chapter 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1080,7 +1086,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-<Figures/AnalysisFlowChart.png, id=564, 475.7775pt x 677.53125pt>
+<Figures/AnalysisFlowChart.png, id=575, 475.7775pt x 677.53125pt>
 File: Figures/AnalysisFlowChart.png Graphic file (type png)
 
 <use Figures/AnalysisFlowChart.png>
@@ -1099,7 +1105,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 17.
 
-<Figures/MatrixElementCalculation.png, id=565, 897.3525pt x 526.96875pt>
+<Figures/MatrixElementCalculation.png, id=576, 897.3525pt x 526.96875pt>
 File: Figures/MatrixElementCalculation.png Graphic file (type png)
 
 <use Figures/MatrixElementCalculation.png>
@@ -1113,7 +1119,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[25
+[26
 
 ]
 
@@ -1122,14 +1128,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[26 <./Figures/AnalysisFlowChart.png>]
+[27 <./Figures/AnalysisFlowChart.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[27 <./Figures/MatrixElementCalculation.png>]
+[28 <./Figures/MatrixElementCalculation.png>]
 Chapter 4.
 ) (./Chapters/ElectronConversionVeto.tex
 
@@ -1138,7 +1144,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[28
+[29
 
 ]
 Chapter 5.
@@ -1149,7 +1155,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[29
+[30
 
 ])
 
@@ -1158,7 +1164,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[30
+[31
 
 ]
 
@@ -1167,7 +1173,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[31
+[32
 
 ] (./PhDThesis.bbl
 Missing character: There is no Ã in font cmr10!
@@ -1179,7 +1185,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[32
+[33
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 218.
@@ -1190,13 +1196,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[33]
+[34]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 218.
  (./PhDThesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 218.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 218.
 Package rerunfilecheck Info: File `PhDThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 9956FC0A8B047AE7CF0757B66AF767C5;3070.
+(rerunfilecheck)             Checksum: 50AE2336D3D78925527EDD86AC43EA02;3163.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1208,10 +1214,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 218.
  ) 
 Here is how much of TeX's memory you used:
- 8073 strings out of 493304
- 119804 string characters out of 6139871
- 223154 words of memory out of 5000000
- 11202 multiletter control sequences out of 15000+600000
+ 8077 strings out of 493304
+ 119875 string characters out of 6139871
+ 224228 words of memory out of 5000000
+ 11204 multiletter control sequences out of 15000+600000
  20793 words of font info for 82 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  42i,15n,43p,1944b,444s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1232,10 +1238,10 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on PhDThesis.pdf (43 pages, 6175479 bytes).
+Output written on PhDThesis.pdf (44 pages, 6180555 bytes).
 PDF statistics:
- 696 PDF objects out of 1000 (max. 8388607)
- 594 compressed objects within 6 object streams
- 130 named destinations out of 1000 (max. 500000)
- 448 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 707 PDF objects out of 1000 (max. 8388607)
+ 603 compressed objects within 7 object streams
+ 132 named destinations out of 1000 (max. 500000)
+ 456 words of extra memory for PDF output out of 10000 (max. 10000000)
 

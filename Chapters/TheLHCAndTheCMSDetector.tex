@@ -260,14 +260,24 @@ Approaching 13 m in length, and 6 m in diameter, the solid mass weights approxim
 
 \section{Muon System} \label{sec-MuonSystem}
 
-CSCs
-RPCs
-DTs
+The final sub-detector, or rather set of sub-detectors, lying between each wheel of the iron return yoke, is the muon system (Figure \ref{fig-CMSLongitudinalView}). The muon system plays a huge role in the detecting signatures of interest of the extremely high background events seen in Run I, and which are expected to increase in Run II. Signatures such as a the so called ``gold-plated" decay of a standard model Higgs decaying to two Z bosons, both of which decay into two muons ($H \to ZZ \to \mu^+ \mu^- \mu^+ \mu^-$), are ideal candidates because the best mass resolution can be achieved as muons are much less effected than electrons by radiative losses within the tracker material. Due to the relative ease of detecting muons, this decay channel (discovered in Run I, \cite{}) highlights the discovery potential for muon final state decay modes and the demand for such a wide angular coverage within the muon detection system. 
+
+Precise and efficient muon measurements were a central theme in the design of the CMS experiment, as can be seen from the name. There are three functions which the muon system serves: identification of muons, momentum measurements, and triggering. All of these functions are made  possible when used in conjunction with the superconducting solenoid and its flux return yoke. The system was designed to measure the charge and momentum of muons over the full kinetic range of the LHC. The design of the muon system was based around the nature of the solenoid magnet, thus it is composed of a cylindrical barrel section surrounded by two planar endcaps to provide fully hermetic coverage. The design of the system had corresponds to 25,000 m$^2$ of detection planes and thus the muon chambers must be robust, reliable, and also inexpensive. Therefore, three types of gaseous particle detectors were implemented: drift tubes (DT), cathode strip chambers (CSC), and resistive plate chambers (RPC). 
 
 \begin{figure}\label{fig-CMSLongitudinalView}
 \includegraphics[width=\textwidth]{Figures/CMSLongitudinalView.png}
 \caption{Layout of one quadrant of CMS. The figure shows the four DT stations in the barrel (MB1-MB4, yellow), the four CSC stations in the endcap (ME1-ME4, green), and the RPC stations (RB1-RB4 and RE1-RE3) \cite{CMSexperiment}.}
 \end{figure}
+
+Drift tubes with standard rectangular drift cells are implemented in the muon barrel section where the neutron-induced background is small, the muon rate is low, and the 4 T magnetic field is uniform and mostly contained within the steel return yoke. Covering a pseudorapidity region of $|\eta|<1.2$, the barrel drift tube chambers are arranged into four layers integrated within the return yoke. The first three layers contain 8 chambers which measure the muon coordinates in the $r-\phi$ bending plane, and 4 that measure $z$ along the beam-line. The fourth station is the same except that it does not measure $z$. The arrangement and number of chambers in each station were chosen to provide efficient rejection of background hits and linking muon hits from different stations into one single track.
+
+In contrast to the barrel region, the background and muon rates are high and the magnetic field is non-uniform. For this region cathode strip chambers are used. The CSCs have an extremely fast response time, resistance to radiation, fine segmentation, and can identify muons within a pseudorapidity range of $0.9 < |\eta| < 2.4$. Again there are four layers of chambers interspersed between the return yoke plates, however they are perpendicular to the beam. The strips are positioned radially outward and provide precise measurements in the $r-\phi$ bending plane. Each CSC comprises 6 layers, providing robust pattern recognition and rejection of backgrounds, efficiently matching hits in the CSCs to those in the tracker.
+
+The third sub-detector in the muon system is implemented to serve as a complimentary, dedicated trigger system composed of resistive plate chambers (RPC) in both the barrel and endcaps. The decision to include the RPCs was based on the uncertainty in the eventual background rates and ability to measure the correct beam-crossing time when the LHC reaches design luminosity. The RPCs are able to operate in high rate environments by using fast, highly-segmented, and independent trigger, but provide a more accurate position resolution than the DTs or CSCs. The p$_T$ threshold is sharp over a large segment of the pseudorapidity range, $|\eta|<1.6$. 
+
+\subsection{Performance of the muon system in Run I} \label{subsec-MuonSystemPerformance}
+
+
 
 \section{Trigger} \label{sec-Trigger}
 
