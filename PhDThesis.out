@@ -22,24 +22,25 @@
 \BOOKMARK [1][-]{section.2.7}{Muon System}{chapter.2}% 22
 \BOOKMARK [2][-]{subsection.2.7.1}{Performance of the muon system in Run I}{section.2.7}% 23
 \BOOKMARK [1][-]{section.2.8}{Trigger and Data Acquisition}{chapter.2}% 24
-\BOOKMARK [1][-]{section.2.9}{Particle Reconstruction}{chapter.2}% 25
-\BOOKMARK [2][-]{subsection.2.9.1}{Electron identification}{section.2.9}% 26
-\BOOKMARK [2][-]{subsection.2.9.2}{Muon reconstruction}{section.2.9}% 27
-\BOOKMARK [2][-]{subsection.2.9.3}{Jet reconstruction}{section.2.9}% 28
-\BOOKMARK [1][-]{section.2.10}{Computing}{chapter.2}% 29
-\BOOKMARK [2][-]{subsection.2.10.1}{Event Data Model}{section.2.10}% 30
-\BOOKMARK [2][-]{subsection.2.10.2}{Analysis Software}{section.2.10}% 31
-\BOOKMARK [1][-]{section.2.11}{Monte Carlo Simulation}{chapter.2}% 32
-\BOOKMARK [2][-]{subsection.2.11.1}{Monte Carlo event generators}{section.2.11}% 33
-\BOOKMARK [0][-]{chapter.3}{Measurement of the inclusive t+ cross-section}{}% 34
-\BOOKMARK [1][-]{section.3.1}{Signal Definition and Background Processes}{chapter.3}% 35
-\BOOKMARK [2][-]{subsection.3.1.1}{Signal definition}{section.3.1}% 36
-\BOOKMARK [2][-]{subsection.3.1.2}{Background processes}{section.3.1}% 37
-\BOOKMARK [1][-]{section.3.2}{t+ Signal Simulation}{chapter.3}% 38
-\BOOKMARK [1][-]{section.3.3}{Phase Space Overlap Removal}{chapter.3}% 39
-\BOOKMARK [1][-]{section.3.4}{Event Selection}{chapter.3}% 40
-\BOOKMARK [0][-]{chapter.4}{Measurement of the anomalous couplings of the photon to the top quark}{}% 41
-\BOOKMARK [0][-]{chapter.5}{Electron Conversion Veto}{}% 42
-\BOOKMARK [0][-]{chapter*.7}{Conclusions}{}% 43
-\BOOKMARK [0][-]{section*.8}{Appendices}{}% 44
-\BOOKMARK [0][-]{appendix*.9}{Bibliography}{}% 45
+\BOOKMARK [0][-]{chapter.3}{Event Reconstruction \046 Simulation}{}% 25
+\BOOKMARK [1][-]{section.3.1}{Particle Reconstruction}{chapter.3}% 26
+\BOOKMARK [2][-]{subsection.3.1.1}{Electron identification}{section.3.1}% 27
+\BOOKMARK [2][-]{subsection.3.1.2}{Muon reconstruction}{section.3.1}% 28
+\BOOKMARK [2][-]{subsection.3.1.3}{Jet reconstruction}{section.3.1}% 29
+\BOOKMARK [1][-]{section.3.2}{Computing}{chapter.3}% 30
+\BOOKMARK [2][-]{subsection.3.2.1}{Event Data Model}{section.3.2}% 31
+\BOOKMARK [2][-]{subsection.3.2.2}{Analysis Software}{section.3.2}% 32
+\BOOKMARK [1][-]{section.3.3}{Monte Carlo Simulation}{chapter.3}% 33
+\BOOKMARK [2][-]{subsection.3.3.1}{Monte Carlo event generators}{section.3.3}% 34
+\BOOKMARK [0][-]{chapter.4}{Measurement of the inclusive t+ cross-section}{}% 35
+\BOOKMARK [1][-]{section.4.1}{Signal Definition and Background Processes}{chapter.4}% 36
+\BOOKMARK [2][-]{subsection.4.1.1}{Signal definition}{section.4.1}% 37
+\BOOKMARK [2][-]{subsection.4.1.2}{Background processes}{section.4.1}% 38
+\BOOKMARK [1][-]{section.4.2}{t+ Signal Simulation}{chapter.4}% 39
+\BOOKMARK [1][-]{section.4.3}{Phase Space Overlap Removal}{chapter.4}% 40
+\BOOKMARK [1][-]{section.4.4}{Event Selection}{chapter.4}% 41
+\BOOKMARK [0][-]{chapter.5}{Measurement of the anomalous couplings of the photon to the top quark}{}% 42
+\BOOKMARK [0][-]{chapter.6}{Electron Conversion Veto}{}% 43
+\BOOKMARK [0][-]{chapter*.7}{Conclusions}{}% 44
+\BOOKMARK [0][-]{section*.8}{Appendices}{}% 45
+\BOOKMARK [0][-]{appendix*.9}{Bibliography}{}% 46

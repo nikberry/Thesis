@@ -23,26 +23,27 @@
 \contentsline {section}{\numberline {2.7}Muon System}{21}{section.2.7}
 \contentsline {subsection}{\numberline {2.7.1}Performance of the muon system in Run I}{23}{subsection.2.7.1}
 \contentsline {section}{\numberline {2.8}Trigger and Data Acquisition}{23}{section.2.8}
-\contentsline {section}{\numberline {2.9}Particle Reconstruction}{25}{section.2.9}
-\contentsline {subsection}{\numberline {2.9.1}Electron identification}{25}{subsection.2.9.1}
-\contentsline {subsection}{\numberline {2.9.2}Muon reconstruction}{25}{subsection.2.9.2}
-\contentsline {subsection}{\numberline {2.9.3}Jet reconstruction}{25}{subsection.2.9.3}
-\contentsline {subsubsection}{Jet energy corrections}{25}{section*.5}
-\contentsline {subsubsection}{Particle flow jet identification}{25}{section*.6}
-\contentsline {section}{\numberline {2.10}Computing}{25}{section.2.10}
-\contentsline {subsection}{\numberline {2.10.1}Event Data Model}{25}{subsection.2.10.1}
-\contentsline {subsection}{\numberline {2.10.2}Analysis Software}{25}{subsection.2.10.2}
-\contentsline {section}{\numberline {2.11}Monte Carlo Simulation}{25}{section.2.11}
-\contentsline {subsection}{\numberline {2.11.1}Monte Carlo event generators}{25}{subsection.2.11.1}
-\contentsline {chapter}{\numberline {3}Measurement of the inclusive $t\mathaccentV {bar}016{t}+\gamma $ cross-section}{27}{chapter.3}
-\contentsline {section}{\numberline {3.1}Signal Definition and Background Processes}{27}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Signal definition}{27}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Background processes}{27}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}$t\mathaccentV {bar}016{t}+\gamma $ Signal Simulation}{27}{section.3.2}
-\contentsline {section}{\numberline {3.3}Phase Space Overlap Removal}{27}{section.3.3}
-\contentsline {section}{\numberline {3.4}Event Selection}{27}{section.3.4}
-\contentsline {chapter}{\numberline {4}Measurement of the anomalous couplings of the photon to the top quark}{30}{chapter.4}
-\contentsline {chapter}{\numberline {5}Electron Conversion Veto}{31}{chapter.5}
-\contentsline {chapter}{Conclusions}{32}{chapter*.7}
-\contentsline {chapter}{Appendices}{34}{section*.8}
-\contentsline {chapter}{Bibliography}{35}{appendix*.9}
+\contentsline {chapter}{\numberline {3}Event Reconstruction \& Simulation}{26}{chapter.3}
+\contentsline {section}{\numberline {3.1}Particle Reconstruction}{26}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Electron identification}{26}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Muon reconstruction}{26}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Jet reconstruction}{26}{subsection.3.1.3}
+\contentsline {subsubsection}{Jet energy corrections}{26}{section*.5}
+\contentsline {subsubsection}{Particle flow jet identification}{26}{section*.6}
+\contentsline {section}{\numberline {3.2}Computing}{26}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Event Data Model}{26}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Analysis Software}{26}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Monte Carlo Simulation}{26}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Monte Carlo event generators}{26}{subsection.3.3.1}
+\contentsline {chapter}{\numberline {4}Measurement of the inclusive $t\mathaccentV {bar}016{t}+\gamma $ cross-section}{28}{chapter.4}
+\contentsline {section}{\numberline {4.1}Signal Definition and Background Processes}{28}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Signal definition}{28}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Background processes}{28}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}$t\mathaccentV {bar}016{t}+\gamma $ Signal Simulation}{28}{section.4.2}
+\contentsline {section}{\numberline {4.3}Phase Space Overlap Removal}{28}{section.4.3}
+\contentsline {section}{\numberline {4.4}Event Selection}{28}{section.4.4}
+\contentsline {chapter}{\numberline {5}Measurement of the anomalous couplings of the photon to the top quark}{31}{chapter.5}
+\contentsline {chapter}{\numberline {6}Electron Conversion Veto}{32}{chapter.6}
+\contentsline {chapter}{Conclusions}{33}{chapter*.7}
+\contentsline {chapter}{Appendices}{35}{section*.8}
+\contentsline {chapter}{Bibliography}{36}{appendix*.9}
