@@ -33,11 +33,21 @@ Oliver Sim et~al. Brüning.
 \newblock Lhc design report.
 \newblock {\em Geneva : CERN}, v.1 : the LHC Main Ring:548, 2004.
 
+\bibitem{HCALTdr}
+{\em {The CMS hadron calorimeter project: Technical Design Report}}.
+\newblock Technical Design Report CMS. CERN, Geneva, 1997.
+
 \bibitem{MagneticField}
 CMS Collaboration.
 \newblock Precise mapping of the magnetic field in the cms barrel yoke using
   cosmic rays.
 \newblock {\em Journal of Instrumentation}, 5(03):T03021, 2010.
+
+\bibitem{ElectronEfficiencies}
+CMS Collaboration.
+\newblock Electron efficiencies for top quark analysis.
+\newblock {\em
+  https://twiki.cern.ch/twiki/bin/viewauth/CMS/KoPFAElectronTagAndProbe}.
 
 \bibitem{LHCStorageAccelerators}
 John~P. Blewett.
@@ -88,10 +98,6 @@ CMS Collaboration.
 \newblock The e.m. calorimeter project: Technical design report.
 \newblock {\em CERN-LHCC-97-33}, 1997.
 
-\bibitem{HCALTdr}
-{\em {The CMS hadron calorimeter project: Technical Design Report}}.
-\newblock Technical Design Report CMS. CERN, Geneva, 1997.
-
 \bibitem{HCALUpgradeTdr}
 J~et~al. Mans.
 \newblock {CMS Technical Design Report for the Phase 1 Upgrade of the Hadron
@@ -103,5 +109,22 @@ J~et~al. Mans.
 {CMS Collaboration}.
 \newblock {CMS} technical design report, volume {II}: {Physics} performance.
 \newblock {\em J. Phys. G}, 34:995--1579, 2007.
+
+\bibitem{QCDCorrectionsttgamma2011}
+Kirill Melnikov, Markus Schulze, and Andreas Scharf.
+\newblock {QCD corrections to top quark pair production in association with a
+  photon at hadron colliders}.
+\newblock {\em Phys. Rev.}, D83:074013, 2011.
+
+\bibitem{OneLoopQCDCorrection}
+Valentin Hirschi, Rikkert Frederix, Stefano Frixione, Maria~Vittoria Garzelli,
+  Fabio Maltoni, and Roberto Pittau.
+\newblock {Automation of one-loop QCD corrections}.
+\newblock {\em JHEP}, 05:044, 2011.
+
+\bibitem{MuonEfficiencies}
+CMS Collaboration.
+\newblock Reference muon id and isolation efficiencies.
+\newblock {\em https://twiki.cern.ch/twiki/bin/viewauth/CMS/MuonReferenceEffs}.
 
 \end{thebibliography}

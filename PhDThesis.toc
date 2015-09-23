@@ -23,6 +23,7 @@
 \contentsline {section}{\numberline {2.7}Muon System}{21}{section.2.7}
 \contentsline {subsection}{\numberline {2.7.1}Performance of the muon system in Run I}{23}{subsection.2.7.1}
 \contentsline {section}{\numberline {2.8}Trigger and Data Acquisition}{23}{section.2.8}
+\contentsline {subsection}{\numberline {2.8.1}Performance of the Trigger in Run 1}{25}{subsection.2.8.1}
 \contentsline {chapter}{\numberline {3}Event Reconstruction \& Simulation}{26}{chapter.3}
 \contentsline {section}{\numberline {3.1}Particle Reconstruction}{26}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Electron identification}{26}{subsection.3.1.1}
@@ -35,6 +36,7 @@
 \contentsline {subsection}{\numberline {3.2.2}Analysis Software}{26}{subsection.3.2.2}
 \contentsline {section}{\numberline {3.3}Monte Carlo Simulation}{26}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Monte Carlo event generators}{26}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.4}Official t\mathaccentV {bar}016{t}+\gamma MADGRAPH Sample Proudction}{26}{section.3.4}
 \contentsline {chapter}{\numberline {4}Measurement of the inclusive $t\mathaccentV {bar}016{t}+\gamma $ cross-section}{28}{chapter.4}
 \contentsline {section}{\numberline {4.1}Signal Definition and Background Processes}{28}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Signal definition}{28}{subsection.4.1.1}
@@ -42,8 +44,20 @@
 \contentsline {section}{\numberline {4.2}$t\mathaccentV {bar}016{t}+\gamma $ Signal Simulation}{28}{section.4.2}
 \contentsline {section}{\numberline {4.3}Phase Space Overlap Removal}{28}{section.4.3}
 \contentsline {section}{\numberline {4.4}Event Selection}{28}{section.4.4}
-\contentsline {chapter}{\numberline {5}Measurement of the anomalous couplings of the photon to the top quark}{31}{chapter.5}
-\contentsline {chapter}{\numberline {6}Electron Conversion Veto}{32}{chapter.6}
-\contentsline {chapter}{Conclusions}{33}{chapter*.7}
-\contentsline {chapter}{Appendices}{35}{section*.8}
-\contentsline {chapter}{Bibliography}{36}{appendix*.9}
+\contentsline {chapter}{\numberline {5}Systematic Uncertainties}{31}{chapter.5}
+\contentsline {section}{\numberline {5.1}Flat Rate Uncertainties}{32}{section.5.1}
+\contentsline {section}{\numberline {5.2}Shape Uncertainties}{32}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Parton Density Function}{32}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Pile-up Reweighting}{32}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Jet Energy Corrections}{32}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Missing Transverse Energy}{32}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}B-tagging Efficicency}{32}{subsection.5.2.5}
+\contentsline {subsection}{\numberline {5.2.6}Data-driven Reweighting}{32}{subsection.5.2.6}
+\contentsline {section}{\numberline {5.3}Modelling Uncertainties}{32}{section.5.3}
+\contentsline {chapter}{\numberline {6}Results}{35}{chapter.6}
+\contentsline {chapter}{\numberline {7}Measurement of the anomalous couplings of the photon to the top quark}{36}{chapter.7}
+\contentsline {chapter}{\numberline {8}Electron Conversion Veto}{37}{chapter.8}
+\contentsline {chapter}{Conclusions}{38}{chapter*.7}
+\contentsline {chapter}{Appendices}{40}{section*.8}
+\contentsline {section}{\numberline {A.1}Electron \& Muon Efficiencies}{40}{section.Alph0.1}
+\contentsline {chapter}{Bibliography}{42}{appendix*.9}

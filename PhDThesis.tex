@@ -199,6 +199,10 @@ The acknowledgements and the people to thank go here, don't forget to include yo
 
 \input{Chapters/CrossSectionMeasurement.tex}
 
+\input{Chapters/SystematicUncertainties.tex}
+
+\input{Chapters/Results.tex}
+
 \input{Chapters/AnomolousCouplings}
 
 \input{Chapters/ElectronConversionVeto.tex}
@@ -213,6 +217,40 @@ The acknowledgements and the people to thank go here, don't forget to include yo
 \renewcommand{\thesection}{A.\arabic{section}}
 \renewcommand\thefigure{\thesection}
 \renewcommand\thetable{\thesection}
+
+\section{Electron \& Muon Efficiencies}
+
+\begin{table} \label{tab-ElectronEfficiencies}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+	\textbf{All ID and Isolation (MVA $>$ 0.5)} & $20 < p_T < 30$ & $30 < p_T < 40$ & $40 < p_T < 50$ & $50 < p_T$ \\
+\hline	
+	$|\eta| < 0.8$ & 0.969 $\pm$ 0.007 & 0.926 $\pm$ 0.003 & 0.969 $\pm$ 0.002 & 0.975 $\pm$ 0.000 \\
+	$0.8 < |\eta| < 1.4442$ & 0.935 $\pm$ 0.017 & 0.945 $\pm$ 0.004 & 0.964 $\pm$ 0.002 & 0.974 $\pm$ 0.002 \\
+	$1.4442 < |\eta| < 1.5660$ & 1.032 $\pm$ 0.039 & 0.907 $\pm$ 0.015 & 0.957 $\pm$ 0.022 & 0.877 $\pm$ 0.020 \\
+	$1.5660 < |\eta| < 2.5$ & 0.919 $\pm$ 0.014 & 0.926 $\pm$ 0.005 & 0.952 $\pm$ 0.003 & 0.950 $\pm$ 0.005 \\
+\hline	
+\end{tabular}
+\caption{Electron ID \& isolation efficiencies \cite{ElectronEfficiencies}.}
+\end{center}
+\end{table}
+
+\begin{table} \label{tab-MuonEfficiencies}
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+	\textbf{All ID and Isolation} & $p_T > 20$ GeV/c \\
+\hline	
+	$0 < |\eta| < 0.9$ & 0.9984 $\pm$ 0.0002 \\
+	$0.9 < |\eta| < 1.2$ & 0.9990 $\pm$ 0.0002 \\
+	$1.2 < |\eta| < 2.1$ & 0.9986 $\pm$ 0.0001 \\
+	$2.1 < |\eta| < 2.5$ & 1.0000 $\pm$ 0.0003 \\
+\hline	
+\end{tabular}
+\caption{Muon ID \& isolation efficiencies \cite{MuonEfficiencies}.}
+\end{center}
+\end{table}
 
 \bibliography{PhDThesis}
 \bibliographystyle{unsrt}

@@ -1,0 +1,95 @@
+\chapter{Systematic Uncertainties} \label{chap-SystematicUncertainties}
+
+
+
+Upon studying such a decay, large statistical uncertainties, comparable to the systematic uncertainties on the measurement, arise due to the small cross-section of the $t\bar{t}+\gamma$ process and small branching fraction of the decay channel. In order to perform a scientifically solid measurement we must take into account and fully understand all systematic uncertainties associated with the analysis. To begin with, we can catagorise the errors into two broad categories:
+
+\begin{description}
+	\item[Flat Rate Uncertainties] - These uncertainties manifest in the form of detector performance factors, event reconstruction algorithms, and other such aspects as theortical cross-sections which affect the overall rate of a particular process. Each uncertainty is almost universal in that it affects nearly all analyses within the collaboration, and are thus studied within their own dedicated performance group. A more detailed description can be found in \ref{sec-FlateRateUncertainties}  
+	\item[Scale-factor Uncertainties] - In analyses there are often scale factors applied to scale Monte Carlo to data in order to correct for inconsistencies between the two. These can arise due to such aspects as the theoretical input parameters of the Monte Carlo generators, which are used to model signal and background processes, not taking the true shape of the data. These types of scale factors affect all distribution shapes in an analysis and therefore must be accounted, and thus an uncertainty on the scale factor is applied by varying the value up and down by one standard deviation, $\pm \sigma$, and measuring the impact that this variation has on the final result. An in-depth description of each of these types of systematic uncertainties is given in \ref{sec-ShapeUncertainties}.
+\end{description}
+
+Once computed, the systematic uncertainties are introduced as nuisance parameters within the fitting process. The final uncertainty to be considered in the fit is the statistical uncertainty that dominates this particular decay mode. This is discussed in greater detail in section \ref{chap-Results}.
+
+\section{Flat Rate Uncertainties} \label{sec-FlateRateUncertainties}
+
+\subsection{Luminosity} \label{subsec-Luminosity}
+
+\subsection{Lepton Efficiencies} \label{subsec-LeptonEfficiencie}
+
+
+\section{Shape Uncertainties} \label{sec-ShapeUncertainties}
+
+\subsection{Parton Density Function} \label{subsec-PDFUncertainties}
+
+\subsection{Pile-up Reweighting} \label{subsec-PUReweightingUncertainties}
+
+\subsection{Jet Energy Corrections} \label{subsec-JECUncertainty}
+
+\subsection{Missing Transverse Energy} \label{subsec-METUncertainty}
+
+\subsection{B-tagging Efficicency} \label{subsec-BTagEfficiency}
+
+\subsection{Data-driven Reweighting} \label{subsec-DataDriverReweightingUncertainties}
+
+\section{Modelling Uncertainties} \label{sec-ModellingUncertainties}
+
+\begin{table}[h!] \label{tab-systuncerts}
+\centering
+\begin{tabular}{|l|c|c|}
+\hline
+\textbf{Source} & \multicolumn{2}{c|}{\textbf{Uncertaintiy (\%)}} \\ \cline{2-3}
+ &  & \\
+\hline
+Statistical & & \\
+\hline
+Systematic & & \\
+\hline
+Pileup (PU) & & \\
+Out-of-time Pileup (OOT) & & \\
+Top P$_{\text{T}}$ & & \\
+b-tag & & \\
+Photon E$_{\text{T}}$ & & \\
+JEC & & \\
+JER & & \\
+Electron Efficiency & & \\
+Electron P$_{\text{T}}$ & & \\
+PDF & & \\
+\hline
+Total & & \\
+\hline
+\end{tabular} 
+\caption{Systematic uncertainties and their contribution to the cross-section ratio.}
+\end{table}
+
+\begin{sidewaystable} \label{tab-systsamples}
+\begin{center}
+\begin{tabular}{|l| p{11.5cm} |c|c|} 
+\hline
+	Process & Dataset & $\sigma$ (pb) & Number of events \\
+\hline
+	$t\bar{t}$ matching up & /TTJets\_matchingup\_TuneZ2star\_8TeV-madgraph-tauola/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM &  & 5415010 \\
+	$t\bar{t}$ matching down & /TTJets\_matchingdown\_TuneZ2star\_8TeV-madgraph-tauola/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM & & 5476728\\
+	$t\bar{t}$ scale up & /TTJets\_scaleup\_TuneZ2star\_8TeV-madgraph-tauola/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM & & 5009488\\
+	$t\bar{t}$ scale down & /TTJets\_scaledown\_TuneZ2star\_8TeV-madgraph-tauola/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM & & 5387181\\
+\hline	
+	Drell-Yann, $10 < m\_{ll} < 50$ &  & & \\
+	Drell-Yann, $m\_{ll} > 50$ matching up & /DYJetsToLL\_M-50\_matchingup\_8TeV-madgraph-tauola/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM & & 1985529\\
+	Drell-Yann, $m\_{ll} > 50$ matching down & /DYJetsToLL\_M-50\_matchingdown\_8TeV-madgraph/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM & & 2112387\\
+	Drell-Yann, $m\_{ll} > 50$ scale up & /DYJetsToLL\_M-50\_scaleup\_8TeV-madgraph-tauola/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM & & 2170270\\
+	Drell-Yann, $m\_{ll} > 50$ scale down & /DYJetsToLL\_M-50\_scaledown\_8TeV-madgraph-tauola/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM & & 1934901\\
+\hline	
+	Single Top tW scale up & /TToDilepton\_tW-channel-DR\_scaleup\_8TeV-powheg-tauola/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM & & 1492816\\
+	Single Top tW scale down & /TToDilepton\_tW-channel-DR\_scaledown\_8TeV-powheg-tauola/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM & & 497658\\	
+	Single TopBar $\bar{t}$W scale up & /TBarToDilepton\_tW-channel-DR\_scaleup\_8TeV-powheg-tauola/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM &  & 1492534 \\
+	Single TopBar $\bar{t}$W scale down & /TBarToDilepton\_tW-channel-DR\_scaledown\_8TeV-powheg-tauola/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM &  & 1493101 \\
+\hline
+	W+Jets matching up & /WJetsToLNu\_matchingup\_8TeV-madgraph-tauola/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM & & 21364637\\
+	W+Jets matching down & /WJetsToLNu\_matchingdown\_8TeV-madgraph-tauola/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM & & 21364637\\
+	W+Jets scale up & /WJetsToLNu\_scaleup\_8TeV-madgraph-tauola/Summer12\_DR53X-PU\_S10\_START53\_V7A-v2/AODSIM & & 20784770\\
+	W+Jets scale down & /WJetsToLNu\_scaledown\_8TeV-madgraph-tauola/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM & & 20760884\\
+\hline
+\end{tabular}
+\end{center}
+\caption{}
+\end{sidewaystable}
