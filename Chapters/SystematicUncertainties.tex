@@ -2,37 +2,105 @@
 
 
 
-Upon studying such a decay, large statistical uncertainties, comparable to the systematic uncertainties on the measurement, arise due to the small cross-section of the $t\bar{t}+\gamma$ process and small branching fraction of the decay channel. In order to perform a scientifically solid measurement we must take into account and fully understand all systematic uncertainties associated with the analysis. To begin with, we can catagorise the errors into two broad categories:
+Upon studying such a decay, large statistical uncertainties, comparable to the systematic uncertainties on the measurement, arise due to the small cross-section of the $t\bar{t}+\gamma$ process and small branching fraction of the decay channel. In order to perform a scientifically solid measurement we must take into account and fully understand all systematic uncertainties associated with the analysis. To begin with, we can categorise the errors into two broad categories:
 
 \begin{description}
-	\item[Flat Rate Uncertainties] - These uncertainties manifest in the form of detector performance factors, event reconstruction algorithms, and other such aspects as theortical cross-sections which affect the overall rate of a particular process. Each uncertainty is almost universal in that it affects nearly all analyses within the collaboration, and are thus studied within their own dedicated performance group. A more detailed description can be found in \ref{sec-FlateRateUncertainties}  
+	\item[Flat Rate Uncertainties] - These uncertainties manifest in the form of detector performance factors, event reconstruction algorithms, and other such aspects as theoretical cross-sections which affect the overall rate of a particular process. Each uncertainty is almost universal in that it affects nearly all analyses within the collaboration, and are thus studied within their own dedicated performance group. A more detailed description can be found in \ref{sec-FlateRateUncertainties}  
 	\item[Scale-factor Uncertainties] - In analyses there are often scale factors applied to scale Monte Carlo to data in order to correct for inconsistencies between the two. These can arise due to such aspects as the theoretical input parameters of the Monte Carlo generators, which are used to model signal and background processes, not taking the true shape of the data. These types of scale factors affect all distribution shapes in an analysis and therefore must be accounted, and thus an uncertainty on the scale factor is applied by varying the value up and down by one standard deviation, $\pm \sigma$, and measuring the impact that this variation has on the final result. An in-depth description of each of these types of systematic uncertainties is given in \ref{sec-ShapeUncertainties}.
 \end{description}
 
 Once computed, the systematic uncertainties are introduced as nuisance parameters within the fitting process. The final uncertainty to be considered in the fit is the statistical uncertainty that dominates this particular decay mode. This is discussed in greater detail in section \ref{chap-Results}.
 
+Blah blah \cite{lumiScans} \cite{PCC}
+
 \section{Flat Rate Uncertainties} \label{sec-FlateRateUncertainties}
 
 \subsection{Luminosity} \label{subsec-Luminosity}
 
-\subsection{Lepton Efficiencies} \label{subsec-LeptonEfficiencie}
+The CMS collaboration measures instantaneous and integrated luminosity in two ways; one way is by means of a coincidence trigger in the forward hadron calorimeter sub-detector, and also by counting the number of clusters measured by the pixel detectors. The former method was used at the beginning of runs in the LHC, but then ran into difficulties when the number of PU increased and shifts in calibration. This lead to the development and implementation of the pixel-based calculation in 2011 - the \emph{Pixel Cluster Counting} (PCC) method \cite{cmslumiwinter2012}.
 
+The PCC method evaluates the number of pixel clusters that occur on average for a zero-bias event (an event triggered by the requirement of only two bunches crossing at the CMS IP). It assumes that there is a small probability that each pixel within the silicon inner detector is part of more than one track per bunch crossing, and thus it is assumed that the number of pixel clusters scales linearly with the number of interactions in any given bunch crossing. This gives an excellent measure of the luminosity within the detector. Measured rates are calibrated by the method of a Van de Meer scan \cite{White:1357865}. The total calculated integrated luminosity for the entire 2012 dataset was measured to be $23.27$ fb$^{-1}$.
+
+Although the total integrated luminosity is measured to be the value described above, the true value that we measure is less due to a number of technical reasons. Quite often a sub-detector may encounter problems at the start of the run and may require rebooting or re-calibration, thus a period of ``dead time" is induced such that data is unable to be used for physics analysis, and therefore given the title of `bad' data. The remaining measured luminosity entitled `good' is provided to analysts by the Run Coordination team, and is measured to be $19.7$ fb$^{-1}$ for the CMS experiment with the full 2012 dataset at, where a flat rate associated uncertainty of 2.6\% is assigned \cite{CMS-PAS-LUM-13-001}. Each simulated sample used in analysis is scaled to the luminosity of the dataset used, and thus the associated uncertainty affects the normalisation of every physics process.
+
+\subsection{Lepton Efficiencies} \label{subsec-LeptonEfficiencies}
+
+Lepton efficiencies are measured and implemented in order to correct
+Calculated by T&P
 
 \section{Shape Uncertainties} \label{sec-ShapeUncertainties}
 
 \subsection{Parton Density Function} \label{subsec-PDFUncertainties}
 
-\subsection{Pile-up Reweighting} \label{subsec-PUReweightingUncertainties}
+Parton Density Functions (PDFs), denoted as $f_i(x, Q^2)$, give the probability of finding a parton of flavour $i$ (quark or gluon) carrying momentum fraction $x$ of the proton momentum where Q is the resolution scale of the hard interaction. Cross-sections are calculated by convoluting parton level cross-sections with PDFs. Due to the non-perturbative nature of partons not being observed as free particles, we cannot fully obtain PDFs by perturbative QCD alone. The shapes of PDFs are determined from global fits to data from experimental observables in various processes, such as deep inelastic scattering (DIS), Drell-Yan, and jet data using the DGLAP evolution equation \cite{Vogt:2004mw}. PDFs are updated by the collaborations who perform the fits, such as CTEQ \cite{PhysRevD.78.013004}, each time new data or theoretical predictions become available.
+
+The set of PDFs used in this analysis are taken from the CT10 \cite{PhysRevD.89.033009} set. CT10 provides the nominal PDF weight along with 25 eigenvalues, which provide 50 alternative weights for each event
+
+
+
+\subsection{Pile-up Re-weighting} \label{subsec-PUReweightingUncertainties}
+
+Another example of a process that is not described well in simulation compared to data is PU. Additional pileup interactions are included within the simulated samples, however the true number of primary vertices in simulation does not match the number observed in data correctly. This discrepancy between simulation and data gives rise to an incorrect estimation of signal and/or background events in an analysis. In order to correct for this effect, additional corrections must be applied to all simulated samples. The PU re-weighting comes into fruition when dealing with the ever changing instantaneous luminosity of the beams, and thus the change in number of primary vertices in a single data-taking period. In order to implement the PU re-weighting, the number of primary vertices is re-weighted to match the current running conditions in the LHC, for example the number of primary vertices changes with the energy and luminosity of the beams. The obtained uncertainty is then included in the systematic uncertainty on the final results of the analysis. 
+
+
+
+% The number of primary vertices is extracted directly from minimum bias data over the
+% course of the running period being examined. By varying the expected minimum bias
+% cross section at the LHC by ±5% new primary vertex distributions are calculated and can
+% be used to determine the impact on the analysis of more or less pileup in the data. Event
+% pileup proves to be one of the smaller uncertainties in both analyses, with an impact on
+% the event yields of simulated samples varying by less than 2% for its variations. It should
+% be noted, however, that the t t  ̄ Z sample in the tZq search is more susceptible to the pileup
+% systematic, showing a shift in event yield of almost 5%.
+
+% Maybe mention out of time pileup?
 
 \subsection{Jet Energy Corrections} \label{subsec-JECUncertainty}
 
+As described in Section \ref{sec-}, it is necessary to apply corrections to reconstructed jet energies in order to counteract the discrepancies between generator level and detector level jets. These jet energy corrections are a set of tools included to account for non-linearities in the calorimeter, and to give a flat jet response in $\eta$ and E$_T$ as it is not trivial to translate the measured jet energy to the true particle or parton energy. The resulting jet energy corrections and associated uncertainties are measured by the JEC group who then provide the results to the collaboration to be used in analysis \cite{1748-0221-6-11-P11002, CMS-DP-2013-033}.
+
+When we change the jet energy scale (JES) in analysis, the kinematics of each jet within an event are also modified. As a result, the number of jets that pass, or fail, the event selection requirements is likely to change, whereby altering the final topology of an event. This will have a significant impact on the final result. In order to measure the JES significance, the correction factors are varied up and down by one standard deviation, $\sigma$, and propagating the effects through to the MET. %%%Talk about results
+
+The jet energy resolution (JER) is measured as the standard deviation of a Gaussian that is fitted to the jet response of the detector. The JER in data has been found to be worse than the JER in simulation, $\sim 10\%$ broader, and has an associated uncertainty of a similar size \cite{CMS:2011esa}. We correct for this effect by smearing the 4-momentum of jets in MC as a function of the true and reconstructed p$_T$ and $\eta$. To obtain our up and down systematic samples for the jet energy resolution, which are then included within the analysis as nuisance parameters, the smearing is applied twice for up and not at all for down. %%%Impact on JER in ttgamma
+
+% The smearing factor is applied twice or not at all to
+% create scaled up and down systematic samples, which are included as nuisance parameters
+% in the statistical analysis. The impact of the JER uncertainty is found to be small in
+% both analyses, usually impacting event yields by less than a percent. There are notable
+% exceptions to this, for example the tW Z+jets sample, but this is accounted for by the
+% limited statistics in the simulated samples. 
+
 \subsection{Missing Transverse Energy} \label{subsec-METUncertainty}
 
+Events that contain neutrinos in the final state are affected mostly by uncertainties from modelling of MET from simulation. The way that the MET is calculated is by taking the sum of the p$_T$ of all PF-reconstructed objects, including `unclustered' energy deposits, and thus uncertainties from these propagate into the calculation of the MET. Unclustered energy is defined as recorded energy deposits that have a low p$_T$ and/or not included in a calorimeter energy deposit cluster due to isolation requirements. PF-reconstructed objects are already corrected for during the reconstruction process ($\rho$-correction, etc), however this is not the case for unclustered energy deposits. Because the unclustered energy is not corrected for during reconstruction, this is where the largest, most prominent source of uncertainty arises. In order to measure the uncertainty on the MET, we remove the p$_T$ of all PF-reconstructed objects from the MET calculation, the residual energy is scaled up and down by 10\%. Other uncertainties that affect the MET, such as JES and JER, are propagated on calculation and thus included in their respective uncertainties. Effects ee and mumu channels due to MET cut and neutrino final states %talk about effect on analysis
+
+% effects of PU on MET distribution corrected in simulation using scale factors obtained from a Z+jets encriched control region.
+% The difference between the original and scaled event yields is used as the uncer-
+% tainty on the background normalisation arising from this reweighting. This uncertainty,
+% which only affects the reweighted Z+jets sample in the tW search, is found to be very
+% large, especially in the ttbar control regions where there are limited statistics in the simulated
+% samples.
+
+
+
 \subsection{B-tagging Efficicency} \label{subsec-BTagEfficiency}
+
+% The b-tagging scale factors were applied differently in the
+% two analyses, and the uncertainties were also, therefore, treated differently.
+
+Studies of b-tagging efficiencies and misidentification rates are conducted by the b-tag and vertexing group (BTV) and scale factors are produced to correct for discrepancies between data and MC simulation. For the Run I data-taking period at 8 TeV, the BTV group performed studies using $t\bar{t}$ and multijet samples \cite{BTAGPAS}. The given samples were chosen such that studies could be performed using events with at least two jets, and a choice of the number of leptons. %b-tagging SFs in ttgamma
 
 \subsection{Data-driven Reweighting} \label{subsec-DataDriverReweightingUncertainties}
 
 \section{Modelling Uncertainties} \label{sec-ModellingUncertainties}
+
+\subsection{QCD Renormalisation and factorisation scales}
+
+\subsection{Parton-level matching thresholds}
+
+\subsection{Analysis-dependent modelling uncertainties}
+
+\section{Impact of uncertainties}
 
 \begin{table}[h!] \label{tab-systuncerts}
 \centering

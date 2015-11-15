@@ -21,6 +21,12 @@ Cristina Biino.
   run 1 and future projections.
 \newblock {\em Journal of Physics: Conference Series}, 587(1):012001, 2015.
 
+\bibitem{HadronCollisionProcess}
+Stefan Höche.
+\newblock Introduction to monte carlo event generators.
+\newblock {\em Slides from 2012 CTEQ-Fermilab School on QCD and Electroweak
+  Phenomenology}, 2012.
+
 \bibitem{heinerthesis}
 H.~J.~A. Tholen and A.~Stah.
 \newblock Study of the inclusive $t\bar{t}+\gamma$ cross-section with the cms
@@ -48,6 +54,11 @@ CMS Collaboration.
 \newblock Electron efficiencies for top quark analysis.
 \newblock {\em
   https://twiki.cern.ch/twiki/bin/viewauth/CMS/KoPFAElectronTagAndProbe}.
+
+\bibitem{MuonEfficiencies}
+CMS Collaboration.
+\newblock Reference muon id and isolation efficiencies.
+\newblock {\em https://twiki.cern.ch/twiki/bin/viewauth/CMS/MuonReferenceEffs}.
 
 \bibitem{LHCStorageAccelerators}
 John~P. Blewett.
@@ -110,21 +121,133 @@ J~et~al. Mans.
 \newblock {CMS} technical design report, volume {II}: {Physics} performance.
 \newblock {\em J. Phys. G}, 34:995--1579, 2007.
 
+\bibitem{CMS-PAS-PFT-09-001}
+{Particle-Flow Event Reconstruction in CMS and Performance for Jets, Taus, and
+  MET}.
+\newblock Technical Report CMS-PAS-PFT-09-001, CERN, 2009. Geneva, Apr 2009.
+
+\bibitem{CMS-PAS-PFT-10-001}
+{Commissioning of the Particle-flow Event Reconstruction with the first LHC
+  collisions recorded in the CMS detector}.
+\newblock Technical Report CMS-PAS-PFT-10-001, 2010.
+
+\bibitem{WHIZARD}
+T.~Ohl W.~Kilian and J.~Reuter.
+\newblock Whizard: Simulating multi-particle processes at lhc and ilc.
+\newblock {\em Eur.Phys.J.}, C71:1742, 2011.
+
+\bibitem{MADGRAPH5}
+Johan Alwall, Michel Herquet, Fabio Maltoni, Olivier Mattelaer, and Tim
+  Stelzer.
+\newblock Madgraph 5: going beyond.
+\newblock {\em Journal of High Energy Physics}, 2011(6), 2011.
+
+\bibitem{Sjöstrand2001238}
+Torbjörn Sjöstrand, Patrik Edén, Christer Friberg, Leif Lönnblad, Gabriela
+  Miu, Stephen Mrenna, and Emanuel Norrbin.
+\newblock High-energy-physics event generation with pythia 6.1.
+\newblock {\em Computer Physics Communications}, 135(2):238 -- 259, 2001.
+
+\bibitem{1126-6708-2006-05-026}
+Torbjörn Sjöstrand, Stephen Mrenna, and Peter Skands.
+\newblock Pythia 6.4 physics and manual.
+\newblock {\em Journal of High Energy Physics}, 2006(05):026, 2006.
+
+\bibitem{1126-6708-2002-06-029}
+Stefano Frixione and Bryan~R. Webber.
+\newblock Matching nlo qcd computations and parton shower simulations.
+\newblock {\em Journal of High Energy Physics}, 2002(06):029, 2002.
+
+\bibitem{1126-6708-2007-11-070}
+Stefano Frixione, Paolo Nason, and Carlo Oleari.
+\newblock Matching nlo qcd computations with parton shower simulations: the
+  powheg method.
+\newblock {\em Journal of High Energy Physics}, 2007(11):070, 2007.
+
+\bibitem{Pumplin:2002vw}
+J.~Pumplin, D.~R. Stump, J.~Huston, H.~L. Lai, Pavel~M. Nadolsky, and W.~K.
+  Tung.
+\newblock {New generation of parton distributions with uncertainties from
+  global QCD analysis}.
+\newblock {\em JHEP}, 07:012, 2002.
+
+\bibitem{Whalley:2005nh}
+M.~R. Whalley, D.~Bourilkov, and R.~C. Group.
+\newblock {The Les Houches accord PDFs (LHAPDF) and LHAGLUE}.
+\newblock In {\em {HERA and the LHC: A Workshop on the implications of HERA for
+  LHC physics. Proceedings, Part B}}, 2005.
+
 \bibitem{QCDCorrectionsttgamma2011}
 Kirill Melnikov, Markus Schulze, and Andreas Scharf.
 \newblock {QCD corrections to top quark pair production in association with a
   photon at hadron colliders}.
 \newblock {\em Phys. Rev.}, D83:074013, 2011.
 
+\bibitem{lumiScans}
+Simon White.
+\newblock Luminosity scans at the lhc. luminosity scans at lhc.
+\newblock 2011.
+
+\bibitem{PCC}
+Cms luminosity based on pixel cluster counting - summer 2013 update.
+\newblock Technical Report CMS-PAS-LUM-13-00,, CERN, Geneva, 2013.
+
+\bibitem{cmslumiwinter2012}
+CMS Collaboration.
+\newblock Absolute calibration of the luminosity measurement at cms: Winter
+  2012 update.
+\newblock 2012.
+
+\bibitem{White:1357865}
+Simon White.
+\newblock {Luminosity Scans at the LHC. Luminosity Scans at LHC}.
+\newblock 2011.
+
+\bibitem{CMS-PAS-LUM-13-001}
+{CMS Luminosity Based on Pixel Cluster Counting - Summer 2013 Update}.
+\newblock Technical Report CMS-PAS-LUM-13-001, CERN, Geneva, 2013.
+
+\bibitem{Vogt:2004mw}
+A.~Vogt, S.~Moch, and J.~A.~M. Vermaseren.
+\newblock {The Three-loop splitting functions in QCD: The Singlet case}.
+\newblock {\em Nucl. Phys.}, B691:129--181, 2004.
+
+\bibitem{PhysRevD.78.013004}
+Pavel~M. Nadolsky, Hung-Liang Lai, Qing-Hong Cao, Joey Huston, Jon Pumplin,
+  Daniel Stump, Wu-Ki Tung, and C.-P. Yuan.
+\newblock Implications of cteq global analysis for collider observables.
+\newblock {\em Phys. Rev. D}, 78:013004, Jul 2008.
+
+\bibitem{PhysRevD.89.033009}
+Jun Gao, Marco Guzzi, Joey Huston, Hung-Liang Lai, Zhao Li, Pavel Nadolsky, Jon
+  Pumplin, Daniel Stump, and C.-P. Yuan.
+\newblock Ct10 next-to-next-to-leading order global analysis of qcd.
+\newblock {\em Phys. Rev. D}, 89:033009, Feb 2014.
+
+\bibitem{1748-0221-6-11-P11002}
+The~CMS collaboration.
+\newblock Determination of jet energy calibration and transverse momentum
+  resolution in cms.
+\newblock {\em Journal of Instrumentation}, 6(11):P11002, 2011.
+
+\bibitem{CMS-DP-2013-033}
+{8 TeV Jet Energy Corrections and Uncertainties based on 19.8 fb$^{-1}$ of data
+  in CMS}.
+\newblock Oct 2013.
+
+\bibitem{CMS:2011esa}
+{Jet Energy Resolution in CMS at sqrt(s)=7 TeV}.
+\newblock 2011.
+
+\bibitem{BTAGPAS}
+Performance of b tagging at $\sqrt{s} = 8$ tev in multijet, $t\bar{t}$ and
+  boosted topology events.
+\newblock Oct 2013.
+
 \bibitem{OneLoopQCDCorrection}
 Valentin Hirschi, Rikkert Frederix, Stefano Frixione, Maria~Vittoria Garzelli,
   Fabio Maltoni, and Roberto Pittau.
 \newblock {Automation of one-loop QCD corrections}.
 \newblock {\em JHEP}, 05:044, 2011.
-
-\bibitem{MuonEfficiencies}
-CMS Collaboration.
-\newblock Reference muon id and isolation efficiencies.
-\newblock {\em https://twiki.cern.ch/twiki/bin/viewauth/CMS/MuonReferenceEffs}.
 
 \end{thebibliography}

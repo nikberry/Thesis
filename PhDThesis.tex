@@ -26,6 +26,10 @@
  % top=20mm,
  % bottom=20mm,
  % }
+\usepackage[T1]{fontenc}
+\usepackage{pdftexcmds}
+%\include{pdefs}
+\usepackage{ptdr-definitions}
 
 \hypersetup{
     colorlinks,
@@ -36,7 +40,7 @@
 }
 
 \SetWatermarkText{DRAFT}
-\SetWatermarkScale{7}
+\SetWatermarkScale{6}
 
 \title{\ttitle} % Defines the thesis title - don't touch this
 
@@ -196,6 +200,8 @@ The acknowledgements and the people to thank go here, don't forget to include yo
 \input{Chapters/TheLHCAndTheCMSDetector.tex}
 
 \input{Chapters/EventReconstruction&Simulation.tex}
+
+\input{Chapters/EventSelectionAndBackgroundEstimation.tex}
 
 \input{Chapters/CrossSectionMeasurement.tex}
 
