@@ -1,4 +1,5 @@
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Top-photon vertex. Left: Leading Order (LO). Right: One-Loop correction (NLO).}}{2}{figure.1.1}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces A full schematic of the full CERN accelerator complex.}}{4}{figure.2.1}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces (Left) Peak and (right) integrated luminosity recorded by the LHC between 2010 and 2012 for proton operation. The 2010 luminosity values have been multiplied by a factor 20 \cite {LHClumi}.}}{8}{figure.2.2}
@@ -16,12 +17,18 @@
 \contentsline {figure}{\numberline {2.14}{\ignorespaces Architecture of the Level 1 trigger \cite {CMSexperiment}.}}{24}{figure.2.14}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Schematic overview of a hadron collision process \cite {HadronCollisionProcess}.}}{27}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Process generation. The red, blue, and green boxes depict the matrix element calculation. Background processes with the same final state are included as well \cite {heinerthesis}.}}{31}{figure.3.2}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces A radiography of a quarter of the simulated tracker geometry in the (a) fast and (b) full simulation \cite {1742-6596-513-2-022012}.}}{29}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Process generation. The red, blue, and green boxes depict the matrix element calculation. Background processes with the same final state are included as well \cite {heinerthesis}.}}{35}{figure.3.3}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces }}{42}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces }}{44}{figure.4.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Graphic representation of the signal and background definitions \cite {MishaSignalDefinition}.}}{36}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Flow chart showing each stage of the analysis. The box numbers represent the outlined analysis steps.}}{37}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces }}{38}{figure.5.3}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Graphic representation of the signal and background definitions \cite {MishaSignalDefinition}.}}{46}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Examples of Feynman graphs of the considered $t\mathaccentV {bar}016{t}$ backgrounds. QCD showering is necessary in all cases to obtain the required jet multiplicity \cite {ttgammabackgroundestimation}.}}{47}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Flow chart showing each stage of the analysis. The box numbers represent the outlined analysis steps.}}{48}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Background of photon identification: Initial state radiation (ISR). Left: Quark fusion. Right: Gluon fusion does not give rise to ISR (based on \cite {photonbackgrounds}).}}{49}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Background of photon identification: Final state radiation (FSR). All charged particles in the top-pair decay tree contribute to FSR \cite {photonbackgrounds}.}}{49}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces }}{50}{figure.5.6}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

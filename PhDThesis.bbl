@@ -27,12 +27,28 @@ Stefan Höche.
 \newblock {\em Slides from 2012 CTEQ-Fermilab School on QCD and Electroweak
   Phenomenology}, 2012.
 
+\bibitem{1742-6596-513-2-022012}
+Andrea Giammanco.
+\newblock The fast simulation of the cms experiment.
+\newblock {\em Journal of Physics: Conference Series}, 513(2):022012, 2014.
+
 \bibitem{heinerthesis}
 H.~J.~A. Tholen and A.~Stah.
 \newblock Study of the inclusive $t\bar{t}+\gamma$ cross-section with the cms
   experiment.
 \newblock {\em https://cds.cern.ch/record/1505276}, pages no.
   CERN--THESIS--2012--222, 2012.
+
+\bibitem{ttgammabackgroundestimation}
+Thomas Steeger.
+\newblock Background estimation in a search for $t\bar{t}+\gamma$ events.
+\newblock {\em Bachelor Thesis}, August, 2012.
+
+\bibitem{photonbackgrounds}
+Thomas Hermanns.
+\newblock Studies at the cms experiment on silicon microstrip module defects
+  and on photon identification in semileptonic $t\bar{T}$ events.
+\newblock {\em PhD Thesis}, CERN-THESIS-2008-111, 12/008.
 
 \bibitem{LHCDesignReport}
 Oliver Sim et~al. Brüning.
@@ -131,6 +147,21 @@ J~et~al. Mans.
   collisions recorded in the CMS detector}.
 \newblock Technical Report CMS-PAS-PFT-10-001, 2010.
 
+\bibitem{CMSSW}
+CMS Collaboration.
+\newblock Cmssw software framework.
+
+\bibitem{GEANT4}
+GEANT4 Collaboration.
+\newblock Geant4: A simulation toolkit.
+\newblock {\em Nucl.Instrum.Meth.}, A506:250, 2003.
+
+\bibitem{FullSim}
+et~al. D.~Acosta, CMS~Collaboration.
+\newblock Cms physics: Technical design report, volume 1: Detector performance
+  and software.
+\newblock {\em CERN/LHCC, Geneva, Switzerland}, 2, 2006.
+
 \bibitem{WHIZARD}
 T.~Ohl W.~Kilian and J.~Reuter.
 \newblock Whizard: Simulating multi-particle processes at lhc and ilc.
@@ -142,11 +173,12 @@ Johan Alwall, Michel Herquet, Fabio Maltoni, Olivier Mattelaer, and Tim
 \newblock Madgraph 5: going beyond.
 \newblock {\em Journal of High Energy Physics}, 2011(6), 2011.
 
-\bibitem{Sjöstrand2001238}
-Torbjörn Sjöstrand, Patrik Edén, Christer Friberg, Leif Lönnblad, Gabriela
-  Miu, Stephen Mrenna, and Emanuel Norrbin.
-\newblock High-energy-physics event generation with pythia 6.1.
-\newblock {\em Computer Physics Communications}, 135(2):238 -- 259, 2001.
+\bibitem{Hoche:2006ph}
+Stefan Hoeche, Frank Krauss, Nils Lavesson, Leif Lonnblad, Michelangelo
+  Mangano, Andreas Schalicke, and Steffen Schumann.
+\newblock {Matching parton showers and matrix elements}.
+\newblock In {\em {HERA and the LHC: A Workshop on the implications of HERA for
+  LHC physics: Proceedings Part A}}, 2006.
 
 \bibitem{1126-6708-2006-05-026}
 Torbjörn Sjöstrand, Stephen Mrenna, and Peter Skands.
@@ -176,6 +208,37 @@ M.~R. Whalley, D.~Bourilkov, and R.~C. Group.
 \newblock {The Les Houches accord PDFs (LHAPDF) and LHAGLUE}.
 \newblock In {\em {HERA and the LHC: A Workshop on the implications of HERA for
   LHC physics. Proceedings, Part B}}, 2005.
+
+\bibitem{Sjostrand:2006za}
+Torbj{\"o}rn Sj{\"o}strand, Stephen Mrenna, and Peter Skands.
+\newblock {PYTHIA} 6.4 physics and manual.
+\newblock {\em JHEP}, 05:026, 2006.
+
+\bibitem{Was:2006my}
+Z.~Was.
+\newblock {Precision simulations with TAUOLA and PHOTOS}.
+\newblock {\em Nucl. Phys. Proc. Suppl.}, 169:16--21, 2007.
+\newblock [,16(2006)].
+
+\bibitem{0954-3899-31-9-N01}
+W~Adam, R~Frühwirth, A~Strandlie, and T~Todorov.
+\newblock Reconstruction of electrons with the gaussian-sum filter in the cms
+  tracker at the lhc.
+\newblock {\em Journal of Physics G: Nuclear and Particle Physics}, 31(9):N9,
+  2005.
+
+\bibitem{CMS-PAS-PFT-10-003}
+{Particle-flow commissioning with muons and electrons from J/Psi and W events
+  at 7 TeV}.
+\newblock Technical Report CMS-PAS-PFT-10-003, CERN, 2010. Geneva, 2010.
+
+\bibitem{Roe2005577}
+Byron~P. Roe, Hai-Jun Yang, Ji~Zhu, Yong Liu, Ion Stancu, and Gordon McGregor.
+\newblock Boosted decision trees as an alternative to artificial neural
+  networks for particle identification.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  543(2–3):577 -- 584, 2005.
 
 \bibitem{QCDCorrectionsttgamma2011}
 Kirill Melnikov, Markus Schulze, and Andreas Scharf.
