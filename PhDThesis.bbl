@@ -27,60 +27,16 @@ Stefan Höche.
 \newblock {\em Slides from 2012 CTEQ-Fermilab School on QCD and Electroweak
   Phenomenology}, 2012.
 
-\bibitem{1742-6596-513-2-022012}
-Andrea Giammanco.
-\newblock The fast simulation of the cms experiment.
-\newblock {\em Journal of Physics: Conference Series}, 513(2):022012, 2014.
-
-\bibitem{heinerthesis}
-H.~J.~A. Tholen and A.~Stah.
-\newblock Study of the inclusive $t\bar{t}+\gamma$ cross-section with the cms
-  experiment.
-\newblock {\em https://cds.cern.ch/record/1505276}, pages no.
-  CERN--THESIS--2012--222, 2012.
-
-\bibitem{ttgammabackgroundestimation}
-Thomas Steeger.
-\newblock Background estimation in a search for $t\bar{t}+\gamma$ events.
-\newblock {\em Bachelor Thesis}, August, 2012.
-
-\bibitem{photonbackgrounds}
-Thomas Hermanns.
-\newblock Studies at the cms experiment on silicon microstrip module defects
-  and on photon identification in semileptonic $t\bar{T}$ events.
-\newblock {\em PhD Thesis}, CERN-THESIS-2008-111, 12/008.
-
-\bibitem{LHCDesignReport}
-Oliver Sim et~al. Brüning.
-\newblock Lhc design report.
-\newblock {\em Geneva : CERN}, v.1 : the LHC Main Ring:548, 2004.
-
-\bibitem{HCALTdr}
-{\em {The CMS hadron calorimeter project: Technical Design Report}}.
-\newblock Technical Design Report CMS. CERN, Geneva, 1997.
-
-\bibitem{MagneticField}
-CMS Collaboration.
-\newblock Precise mapping of the magnetic field in the cms barrel yoke using
-  cosmic rays.
-\newblock {\em Journal of Instrumentation}, 5(03):T03021, 2010.
-
-\bibitem{ElectronEfficiencies}
-CMS Collaboration.
-\newblock Electron efficiencies for top quark analysis.
-\newblock {\em
-  https://twiki.cern.ch/twiki/bin/viewauth/CMS/KoPFAElectronTagAndProbe}.
-
-\bibitem{MuonEfficiencies}
-CMS Collaboration.
-\newblock Reference muon id and isolation efficiencies.
-\newblock {\em https://twiki.cern.ch/twiki/bin/viewauth/CMS/MuonReferenceEffs}.
-
 \bibitem{LHCStorageAccelerators}
 John~P. Blewett.
 \newblock 200-gev intersecting storage accelerators.
 \newblock {\em Proceedings of The 8th International Conference on High-Energy
   Accelerators. CERN. Geneva, Switzerland}, 1971.
+
+\bibitem{LHCDesignReport}
+Oliver Sim et~al. Brüning.
+\newblock Lhc design report.
+\newblock {\em Geneva : CERN}, v.1 : the LHC Main Ring:548, 2004.
 
 \bibitem{ATLASHiggs}
 ATLAS Collaboration.
@@ -125,12 +81,22 @@ CMS Collaboration.
 \newblock The e.m. calorimeter project: Technical design report.
 \newblock {\em CERN-LHCC-97-33}, 1997.
 
+\bibitem{HCALTdr}
+{\em {The CMS hadron calorimeter project: Technical Design Report}}.
+\newblock Technical Design Report CMS. CERN, Geneva, 1997.
+
 \bibitem{HCALUpgradeTdr}
 J~et~al. Mans.
 \newblock {CMS Technical Design Report for the Phase 1 Upgrade of the Hadron
   Calorimeter}.
 \newblock Technical Report CERN-LHCC-2012-015. CMS-TDR-10, CERN, Geneva, Sep
   2012.
+
+\bibitem{MagneticField}
+CMS Collaboration.
+\newblock Precise mapping of the magnetic field in the cms barrel yoke using
+  cosmic rays.
+\newblock {\em Journal of Instrumentation}, 5(03):T03021, 2010.
 
 \bibitem{PTDR2}
 {CMS Collaboration}.
@@ -161,6 +127,11 @@ et~al. D.~Acosta, CMS~Collaboration.
 \newblock Cms physics: Technical design report, volume 1: Detector performance
   and software.
 \newblock {\em CERN/LHCC, Geneva, Switzerland}, 2, 2006.
+
+\bibitem{1742-6596-513-2-022012}
+Andrea Giammanco.
+\newblock The fast simulation of the cms experiment.
+\newblock {\em Journal of Physics: Conference Series}, 513(2):022012, 2014.
 
 \bibitem{WHIZARD}
 T.~Ohl W.~Kilian and J.~Reuter.
@@ -195,6 +166,13 @@ Stefano Frixione, Paolo Nason, and Carlo Oleari.
 \newblock Matching nlo qcd computations with parton shower simulations: the
   powheg method.
 \newblock {\em Journal of High Energy Physics}, 2007(11):070, 2007.
+
+\bibitem{heinerthesis}
+H.~J.~A. Tholen and A.~Stah.
+\newblock Study of the inclusive $t\bar{t}+\gamma$ cross-section with the cms
+  experiment.
+\newblock {\em https://cds.cern.ch/record/1505276}, pages no.
+  CERN--THESIS--2012--222, 2012.
 
 \bibitem{Pumplin:2002vw}
 J.~Pumplin, D.~R. Stump, J.~Huston, H.~L. Lai, Pavel~M. Nadolsky, and W.~K.
@@ -239,6 +217,38 @@ Byron~P. Roe, Hai-Jun Yang, Ji~Zhu, Yong Liu, Ion Stancu, and Gordon McGregor.
 \newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
   Accelerators, Spectrometers, Detectors and Associated Equipment},
   543(2–3):577 -- 584, 2005.
+
+\bibitem{Baffioni:2006cd}
+S.~Baffioni, C.~Charlot, F.~Ferri, D.~Futyan, P.~Meridiani, I.~Puljak,
+  C.~Rovelli, R.~Salerno, and Y.~Sirois.
+\newblock {Electron reconstruction in CMS}.
+\newblock {\em Eur. Phys. J.}, C49:1099--1116, 2007.
+
+\bibitem{SergeyThesis}
+Sergey Senkin.
+\newblock Top quark physics at the lhc with the cms detector.
+\newblock {\em PhD Thesis}, page 204, 04/2014.
+
+\bibitem{TopEventSelection}
+CMS Collaboration.
+\newblock Top reference selections and recommendations (run1) twiki.
+\newblock {\em CMS TWiki}.
+
+\bibitem{TOPEGM1}
+CMS Collaboration.
+\newblock Cms top egamma coordination (run1).
+\newblock {\em CMS TWiki}.
+
+\bibitem{ttgammabackgroundestimation}
+Thomas Steeger.
+\newblock Background estimation in a search for $t\bar{t}+\gamma$ events.
+\newblock {\em Bachelor Thesis}, August, 2012.
+
+\bibitem{photonbackgrounds}
+Thomas Hermanns.
+\newblock Studies at the cms experiment on silicon microstrip module defects
+  and on photon identification in semileptonic $t\bar{T}$ events.
+\newblock {\em PhD Thesis}, CERN-THESIS-2008-111, 12/008.
 
 \bibitem{QCDCorrectionsttgamma2011}
 Kirill Melnikov, Markus Schulze, and Andreas Scharf.
@@ -312,5 +322,16 @@ Valentin Hirschi, Rikkert Frederix, Stefano Frixione, Maria~Vittoria Garzelli,
   Fabio Maltoni, and Roberto Pittau.
 \newblock {Automation of one-loop QCD corrections}.
 \newblock {\em JHEP}, 05:044, 2011.
+
+\bibitem{ElectronEfficiencies}
+CMS Collaboration.
+\newblock Electron efficiencies for top quark analysis.
+\newblock {\em
+  https://twiki.cern.ch/twiki/bin/viewauth/CMS/KoPFAElectronTagAndProbe}.
+
+\bibitem{MuonEfficiencies}
+CMS Collaboration.
+\newblock Reference muon id and isolation efficiencies.
+\newblock {\em https://twiki.cern.ch/twiki/bin/viewauth/CMS/MuonReferenceEffs}.
 
 \end{thebibliography}

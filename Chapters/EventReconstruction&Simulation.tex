@@ -196,6 +196,58 @@ The second, tracker-driven, method is much more suited for the efficient reconst
 
 After both procedures have been performed the two collections of electron candidates are merged into one where a GSF is run in order to determine the final properties of the object. It is important for the GSF to be run at this stage in the process such that more hits can be included in the reconstruction, thus providing a more accurate description of the electron's energy and momentum lost by interacting with the detector material. Upon completion of the process, the GSF electrons are passed to the PF algorithm.
 
+\begin{center}
+\begin{longtable}{|l|p{11cm}|}
+\hline
+	\textbf{Variable} & \textbf{Description} \\
+\hline	
+	\multicolumn{2}{|c|}{\emph{Track quality variables}}  \\
+\hline
+	p$_T$ & Transverse momentum of the GSF track \\
+	$\eta$ & Pseudorapidity of the GSF track \\
+	GSF $\sigma_{p_T}/p_T$ & Transverse momentum resolution of the GSF track \\
+	\#hits$_{KF}$ & Number of reconstructed KF track hits \\
+	$\chi^2_{GSF}$ and $\chi^2_{KF}$ & GSF and KF goodness-of-fits \\
+\hline	
+	\multicolumn{2}{|c|}{\emph{ECAL shower variables}} \\
+\hline	
+	$\sigma_{i \eta i \eta}$ & Cluster shape variable that gives a measure of the width of the cluster in $\eta$, using the distribution of energy in a $5 \time 5$ block of crystals around the seed crystal (the one with the highest energy) \cite{Baffioni:2006cd}: $\sigma^2_{i \eta i \eta} = \Sigma_{5 \times 5 crystals} (\eta_i \eta_{seed cluster})^2 E_i/E_{seed cluster}$ \\
+	$\sigma^2_{i \phi i \phi}$ & Cluster shape in $\phi$ \\
+	$\eta_{SC}(\phi_{SC})$ & Width of the super-cluster in $\eta (\phi)$ \\
+	$1-E_{1 \times 5}/E_{5 \times 5}$ & $E_{1 \times 5}$ is the energy in the central $1 \times 5$ strip of the $5 \times 5$ electron cluster, and $E_{5 \times 5}$ is its total energy. \\
+	$E_{3 \times 3}/E_{SC,raw}$ & Ratio of the energy in the preshower detector to the raw super-cluster energy (only in the endcap region). \\
+\hline	
+	\multicolumn{2}{|c|}{\emph{Longitudinal shower shape variables}} \\
+\hline	
+	$H/E$ & Ratio of the hadronic energy associated with the electron candidate to the super-cluster energy. The hadronic energy is found by summing the HCAL towers in a cone of radius $\Delta R = 0.15$, centred at the super-cluster position. \\
+	$H/(H+E_{e})$ & Hadron fraction of the shower, where H is the energy of the hadron cluster linked to the GSF track.\\
+\hline	
+\pagebreak
+\hline	
+	\multicolumn{2}{|c|}{\emph{Track/super-cluster matching variables}}\\
+\hline	
+	$\Delta \eta_{in} \Delta \phi_{in}$ & Distance in $\eta (\phi)$ between the super-cluster position and the extrapolated track position \\
+	$\Delta \eta_{vtx} \Delta \phi_{vtx}$ & Distance in $\eta (\phi)$ between the super-cluster position and the position of the GSF track at vertex \\
+	$\left( E_{e} + \Sum E_{\gamma} \right)/p_{in}$ & Ratio of the super-cluster energy to the inner track momentum \\
+	$E_{e}/p_{out}$ & Ratio of the electron cluster energy to the outer track momentum \\
+	$1/E_{SC} - 1/p_T$ & Difference between inverse super-cluster energy and inverse track momentum \\
+\hline	
+	\multicolumn{2}{|c|}{\emph{Bremsstrahlung variables}} \\
+\hline	
+	$f_{brem}$ & Measured bremsstrahlung fraction, defined as: $f_{brem} = (p_{in} - p_{out})/p_{in}$, where $p_{in}$ is the initial track momentum at the vertex and $p_{out}$ is the track momentum at the last hit. \\
+	$\Sum E_{\gamma}/(p_{in - p_{out}})$ & Ratio between the Bremsstrahlung photon energy as measured by ECAL and by the tracker \\
+	$EarlyBrem$ & Flag of $E_{e} + \Sigma E_{\gamma}) > p_{in}$ inequality, corresponding to an electron emitting an ``early" Bremsstrahlung photon, i.e. before it has crossed at least three tracker layers \\
+	$LateBrem$ & Flag of $E_e > p_{out}$ inequality, corresponding to an electron emitting a ``late" Bremsstrahlung electron, when the ECAL clustering is not able to disentangle the overlapping electron and photon showers \\
+\hline
+\caption{Variables used in electron identification algorithms \cite{SergeyThesis}.}
+\label{tab-ElectronMVAVariables}
+\end{longtable} 
+\end{center}
+
+
+
+
+
 
 \subsection{Muon reconstruction} \label{subsec-MuonReconstruction}
 

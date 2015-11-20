@@ -46,11 +46,11 @@
 \BOOKMARK [1][-]{section.4.2}{Trigger and Event Cleaning}{chapter.4}% 46
 \BOOKMARK [2][-]{subsection.4.2.1}{Trigger selection}{section.4.2}% 47
 \BOOKMARK [2][-]{subsection.4.2.2}{Filtering}{section.4.2}% 48
-\BOOKMARK [1][-]{section.4.3}{Di-lepton Selection and vetoes}{chapter.4}% 49
+\BOOKMARK [1][-]{section.4.3}{Di-lepton Selection and Vetoes}{chapter.4}% 49
 \BOOKMARK [2][-]{subsection.4.3.1}{Electrons}{section.4.3}% 50
 \BOOKMARK [2][-]{subsection.4.3.2}{Muons}{section.4.3}% 51
 \BOOKMARK [2][-]{subsection.4.3.3}{Photons}{section.4.3}% 52
-\BOOKMARK [2][-]{subsection.4.3.4}{Supercluster footprint-removal for photon isolation}{section.4.3}% 53
+\BOOKMARK [2][-]{subsection.4.3.4}{Super-cluster footprint-removal for photon isolation}{section.4.3}% 53
 \BOOKMARK [2][-]{subsection.4.3.5}{Corrections to simulated events}{section.4.3}% 54
 \BOOKMARK [1][-]{section.4.4}{Jet Selection and b-tag Requirements}{chapter.4}% 55
 \BOOKMARK [1][-]{section.4.5}{Background Estimation}{chapter.4}% 56
