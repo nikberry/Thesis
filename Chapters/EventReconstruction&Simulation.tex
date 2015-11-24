@@ -85,7 +85,7 @@ Similarly, both Drell-Yan samples, W+Jets, $W+\gamma$, $Z+\gamma$, and diboson b
 
 \begin{sidewaystable} \label{tab-MCSamples}
 \begin{center}
-\resizebox{\columnwidth}{!}{
+\resizebox{\textwidth}{!}{
 
 \begin{tabular}{|l| p{12.5cm} |c|p{2cm}|}
 \hline
@@ -119,10 +119,10 @@ Similarly, both Drell-Yan samples, W+Jets, $W+\gamma$, $Z+\gamma$, and diboson b
 	Diboson WZ & /WZ\_TuneZ2star\_8TeV\_pythia6\_tauola/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM & 33.6 & 10000283\\
 	Diboson ZZ & /ZZ\_TuneZ2star\_8TeV\_pythia6\_tauola/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM & 8.2 & 9799908\\
 \hline	
-\end{tabular}}
+\end{tabular}
+}
 \caption{Dataset information for signal and background MC samples.}
 \end{center}
-
 \end{sidewaystable}
 
 
@@ -182,7 +182,9 @@ The CMS experiment employs a complex algorithmic technique, Particle Flow (PF) \
 
 \subsection{Calorimeter Clustering Algorithm} \label{subsec-CalorimeterClusteringAlgorithm}
 
-\subsection{Electron identification} \label{subsec-ElectronIdentification}
+\subsection{The Particle Flow Algorithm} \label{subsec-PFAlgorithm}
+
+\subsection{Electron reconstruction} \label{subsec-ElectronReconstruction}
 
 For the $t\bar{t}+\gamma$ analysis it is imperative that the identification and energy-momentum requirements are measured extremely accurately as final state electrons, which are required in two of the three decay modes, can imitate a photon by passing the same selection, and therefore contaminating signal events. In order for electrons to be reconstructed with these strict requirements they are processed in a specific way.
 
@@ -195,6 +197,8 @@ The PF algorithm uses two different techniques of electron identification that a
 The second, tracker-driven, method is much more suited for the efficient reconstruction of non-isolated and low p$_T$ electrons as they will most likely emit negligible amounts of Bremsstrahlung, and thus be fully reconstructed by extrapolating the tracks to superclusters. The cluster energy is then measured along with the track momentum, and if the ratio $E/p$ is close enough to unity then the track is selected. However, Bremsstrahlung is not always negligible and other track properties are used in the calculation. For example, the number of hits recorded in the inner tracker and the $\chi^2_{KF}$ of the Kalman filter fit are taken into account before refitting using a GSF, before being characterised by a multivariate estimation tool \cite{Roe2005577}. 
 
 After both procedures have been performed the two collections of electron candidates are merged into one where a GSF is run in order to determine the final properties of the object. It is important for the GSF to be run at this stage in the process such that more hits can be included in the reconstruction, thus providing a more accurate description of the electron's energy and momentum lost by interacting with the detector material. Upon completion of the process, the GSF electrons are passed to the PF algorithm.
+
+\subsection{Electron identification} \label{subsec-ElectronIdentification}
 
 \begin{center}
 \begin{longtable}{|l|p{11cm}|}
@@ -244,15 +248,95 @@ After both procedures have been performed the two collections of electron candid
 \end{longtable} 
 \end{center}
 
-
-
-
-
-
 \subsection{Muon reconstruction} \label{subsec-MuonReconstruction}
 
-\subsection{Jet reconstruction} \label{subusec-JetReconstruction}
+Reconstructing muons efficiently was one of the major focuses in the design of the CMS experiment, as can be seen from the name. A muon has a lifetime of around $\tau \sim 2.2 \mus$, thus allowing them to travel a relatively large distance through the detector. Higher transverse momentum muons, $p_T > 20 \GeV$, are energetic enough to traverse the entire detector without feeling any effects from Coulomb scattering, while muons with a transverse momentum of $p_T < 5 \GeV$ are generally stopped within the detector volume and decay to an electron and two neutrinos via the electroweak force. Muons are also reconstructed using the particle flow algorithm (Section \ref{subsec-PFAlgorithm}), however there are subtle differences between the standard usage of the PF algorithm and PF for muon identification, as will be described in this section. In relation to a top quark analysis, muons are produced from the W boson produced from the decay of the top. As a result, the muon will be produced at a close proximity to the primary vertex, and also well isolated. 
 
-\subsubsection{Jet energy corrections} \label{subsubsec-JEC}
+In order to reconstruct muons, two types of tracks are used: tracks reconstructed from hits in the inner tracker (tracker hits), and in the muon system known as `standalone-muon' tracks. Reconstruction in the muon system begins with hits in either the DC or CSC which have been merged to create short track segments. The Kalman Filter technique is then used to combine the segments into full tracks, as described in Section \ref{sec-ChargedParticleReconstruction}. We can then define muons in two ways \cite{1748-0221-7-10-P10002}: 
 
-\subsubsection{Particle flow jet identification} \label{subsubsec-PFJetIdentification}
+\begin{description}
+	\item[Tracker Muons] are reconstructed such that every track found in the inner tracker with $p_T > 0.5 \GeV$ and $|p| > 2.5$ is regarded as a muon candidate. The standalone-muon candidate is then extrapolated to the muon system, while taking into account factors such as the magnetic field, energy losses from traversing the detector volume, and uncertainties from multiple scattering. If the muon candidate satisfies both conditions of being in the tracker and extrapolated to the muon system, then we define the object as a muon. The method is also known as the `inside-out' method.
+	\item[Global Muons] use the `outside-in' method to reconstruct muons, conversely to tracker muons. The method works by taking a standalone-muon reconstructed in the muon system and matching it with a tracker muon by propagating onto a common surface. A global fit is then performed with the properties of both muon candidates, thus giving a \emph{global muon}.
+\end{description}
+
+\subsection{Jet reconstruction} \label{subsec-JetReconstruction}
+
+We define a jet when a quark or gluon hadronises in an event, producing a narrow cone of collinear objects moving in the same direction. As described in Section \ref{chap-Theory}, particles can not exist in an unbounded state as they carry a property known as colour and are confined within a hadron, and as a result they must fragment and form a hadron to be observed directly. Essentially, by reconstructing the sub-structures of jets, we are reverse-engineering the quantum-mechanical process of fragmentation and hadronisation. Therefore, if we wish to measure the initial energy and momentum, we must measure the combined properties of the reconstructed jet. 
+
+Jets play an integral part in the identification of top quark events where, at the very least, there are two jets in the final state due to the hadronisation of b quarks. In the di-lepton channels the case is as described previously, however in the semi-leptonic and fully hadronic top decay channels, at least four jets are present in the final state. The jets originate from the hadronisation of the b quark, and W boson decaying to quarks, which in turn hadronise to create jets.  
+
+In order to reconstruct jets, we first implement the PF algorithm in order to reconstruct single objects (muons, electrons, charged hadrons, neutral hadrons, and photons) before using clustering techniques to combine collinear particles to form jets. Various algorithms have been developed to compute the clustering of objects to form jets, such as the $k_t$ \cite{Ellis:1993tq}, Cambridge/Aachen \cite{Dokshitzer:1997in}, and SISCone \cite{Blazey:2000qt} jet clustering algorithms. However, the most widely used jet clustering algorithm is the anti-$k_t$ \cite{Cacciari:2008gp} algorithm, which is used by the majority of the CMS collaboration. There are two main requirements that reconstructed jets must comply with:
+
+\begin{itemize}
+	\item Collinear safe: should not be affected by collinear parton splitting.
+	\item Infra-red safe: should not be affected by soft gluon emissions.
+\end{itemize}
+
+A low sensitivity to pileup and underlying events is also preferred in a jet clustering algorithm.
+
+The anti-$k_t$ algorithm is particularly insensitive to pileup and underlying events
+
+We start by defining a distance parameter, $d_{i,j}$, between entities (particles, pseudojets), and distance parameter $d_{iB}$ between entity i and the beam, B. The clustering method then begins by identifying the smallest of the distances, and if the smallest is $d_{i,j}$ then it recombines objects i and j, otherwise if the smallest distance is $d_{iB}$ then i is defined as a jet and is removed from the list of objects. The procedure is then repeated in an iterative fashion until there are no more objects to run over. The distances $d_{i,j}$ and $d_{iB}$ are defined as
+
+\begin{equation}
+d_{ij} = min\left(\frac{1}{k^2_{t,i}}, \frac{1}{k^2_{t,j}} \right) \cdot \frac{\Delta^2_{i,j}}{R^2}
+\end{equation}
+\begin{equation}
+d_{iB} = \frac{1}{k^2_{t,i}}
+\end{equation}
+
+where $\Delta^2_{i,j} = (y_i - y_j)^2 + (\phi_i - \phi_j)^2$, $k_{t,i/j}$, $y_{i/j}$, and $\phi_{i/j}$ are the transverse momentum, rapidity, and azimuthal angle of each particle i and j, respectively. R is defined as the cone radius parameter. The anti-$k_t$ algorithm outputs conical jets such that their boundaries are less susceptible to soft radiation.
+
+\subsection{Jet Identification} \label{subsec-JetIdentification}
+
+PF jet identification is used in order to reduce the amount of noise and the rate of electrons misreconstructed as jets. In order to correctly reconstruct jets, a number of observables are used as listed below:
+
+\begin{itemize}
+	\item Number of particles in jet 
+	\item Neutral hadron energy fraction (NHF) 
+	\item Neutral electromagnetic energy fraction (NEF)
+	\item Charged EM energy fraction (CEF)
+	\item Charged hadron energy fraction (CHF)
+	\item Charged hadron multiplicity (NCH)
+\end{itemize}	
+
+%%Talk about observables^^
+
+\subsection{B-tagged Jets}
+
+We define a b-tagged jet to be a jet that manifests from the hadronisation of a b-quark. The process of identification of b-jets, b-tagging, is an extremely important and vital part of physics analysis, and top quark physics in particular. As the top quark decays to a W boson and a b quark almost 100\% of the time, efficiently identifying b-jets significantly decreases the background contamination of our top quark signal process, and thus there is a strong need for b-tagging. Similar to non b-tagged jets, there are various algorithms that have developed by CMS that measure b-tagged jets \cite{Chatrchyan:2012jua}, with the most successful being the Combined Secondary Vertex (CSV) algorithm. This method is derived from the prolonged life-time of the b-quark ($10^{-12}s$), and the fact that they decay to up and charm quarks, transitions which are Cabibbo suppressed by the standard model and can be seen in the CKM matrix. A highly-relativistic b-quark will travel through the detector around $450 \mu m$, as a product of its long life-time, which is an observable length that can be measured by the pixel detector. This allows for a displaced secondary vertex to be used as a tool for the identification of b-jets, as seen in Figure \ref{fig-CSV}
+
+\begin{figure} \label{fig-CSV}
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Figures/CSV.png}
+\caption{Schematic showing a displaced secondary vertex due to a b-quark decay from the primary vertex forming a b-jet. The impact parameter. $d_0$, measures the displacement with respect to the primary vertex along the z-axis, and $L_{xy}$ measures the displacement from the primary vertex in the transverse plane.}
+\end{center}
+\end{figure}
+
+B-tagged jets are particularly prominent due to their large mass, $4.18 \GeVcc$, and thus a large multiplicity of charged particles are produced during hadronisation carrying the majority of the jet energy. The most commonly used b-tagging algorithm is the Combined Secondary Vertex \cite{CSV} algorithm, which takes the following input parameters:
+
+\begin{itemize}
+	\item Track multiplicity in jet.
+	\item Track multiplicity at secondary vertex.
+	\item Secondary vertex category.
+	\item The invariant mass of charged particles from the secondary vertex must not exceed $6.6 \GeVcc$ which would surpass the mass of the bottom quark when convoluted with its uncertainties.
+	\item The ratio of the sum of the track energy at the secondary vertex to the sum of track energy of all tracks in jet.
+	\item $\eta$ of the secondary vertex tracks with respect to the jet axis.
+	\item The distance, $L_{xy}$, in the transverse plane between the primary and secondary vertex must be greater than $100 \mum$ and be less than $2.5 \cm$.
+	\item Impact parameter significance ($L_{xy}/\sigma_{L_{xy}}$) of the first track, increasing the invariant mass above the threshold for charm production of $1.5 \GeV$.  
+\end{itemize}
+
+The algorithm begins by looking for a secondary vertex with the properties listed above. Using all particles in the jet, the algorithm uses a similar Kalman Filter \cite{VertexFitting} as for the reconstruction of primary vertices in order to reconstruct secondary vertices. If a secondary vertex is not found with this information, then a `pseudo-secondary vertex' is computed using information from the tracks that are were found to not be compatible with a primary vertex. The algorithm combines all of the information from the observables and calculates a discriminating value which is used to designate whether a jet is a `light jet' (a jet that manifests from a u,d, or s quark), a charmed jet (from a c quark), or a b-tagged jet. The CSV discriminator output can be seen in Figure \ref{fig-CSV}, showing the efficiency of correctly identifying a b-jet.
+
+\begin{figure} \label{fig-CSVDiscriminator}
+\begin{center}
+\includegraphics[width=0.8\textwidth]{Figures/CSVDiscriminator.png}
+\caption{Logarithmic distribution of the partons as a function of the CSV b-tagging discriminant \cite{PhilThesis}.}
+\end{center}
+\end{figure}
+
+\subsection{Jet energy corrections} \label{subsec-JEC}
+
+
+
+\subsection{Particle flow jet identification} \label{subsec-PFJetIdentification}

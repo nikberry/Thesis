@@ -170,10 +170,14 @@ The acknowledgements and the people to thank go here, don't forget to include yo
 \clearpage % Start a new page
 
 % Insert biography and acknowledgements code here
-\pagestyle{fancyplain}
+%\pagestyle{fancyplain}
 
 \setcounter{page}{1}
 \pagenumbering{roman}
+
+\pagestyle{fancy}
+\fancyhead[LE,RO]{\slshape \nouppercase } %\rightmark
+\fancyhead[RE,LO]{\slshape \nouppercase \leftmark}
 
 \tableofcontents
 \listoffigures
@@ -189,9 +193,6 @@ The acknowledgements and the people to thank go here, don't forget to include yo
 \clearpage
 
 %\linespread{1.3} %%line spaceing 1.5
-
-%\fancyhead[le,ro]{\slshape \rightmark} %le and ro were in capitals
-%\fancyhead[lo,re]{\slshape \leftmark}
 
 \addcontentsline{toc}{chapter}{Introduction}
 \input{Chapters/Introduction.tex}

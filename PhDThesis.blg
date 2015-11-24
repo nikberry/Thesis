@@ -11,10 +11,20 @@ Repeated entry---line 1509 of file PhDThesis.bib
  : @techreport{CMS-PAS-PFT-09-001
  :                               ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 1676 of file PhDThesis.bib
+ : @techreport{CMS-PAS-JME-10-003
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1687 of file PhDThesis.bib
+ : @article{Cacciari:2008gp
+ :                         ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "MishaSignalDefinition"
 Warning--empty journal in TrackingResults
-Warning--empty year in SiliconStripSensors1
 Warning--empty author and editor in HCALTdr
+Warning--empty year in ElectronEfficiencies
+Warning--empty year in MuonEfficiencies
+Warning--empty year in SiliconStripSensors1
 Warning--empty author in CMS-PAS-PFT-09-001
 Warning--empty author in CMS-PAS-PFT-10-001
 Warning--empty institution in CMS-PAS-PFT-10-001
@@ -24,8 +34,15 @@ Warning--empty year in CMSSW
 Name 1 in "W. Kilian, T. Ohl, and J. Reuter" has a comma at the end for entry WHIZARD
 while executing---line 944 of file unsrt.bst
 Warning--empty author in CMS-PAS-PFT-10-003
+Name 1 in "Thomas Speer, Kirill Prokofiev, R Frhwirth, Wolfgang Waltenberger, and Pascal Vanlaer." has a comma at the end for entry VertexFitting
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "Thomas Speer, Kirill Prokofiev, R Frhwirth, Wolfgang Waltenberger, and Pascal Vanlaer." for entry VertexFitting
+while executing---line 944 of file unsrt.bst
 Warning--empty year in TopEventSelection
 Warning--empty year in TOPEGM1
+Warning--empty year in TOPMUO1
+Warning--empty institution in CMS-PAS-JME-10-003
+Warning--empty year in CutBasedIsolation2012
 Warning--empty journal in lumiScans
 Warning--empty author in PCC
 Warning--empty journal in PCC
@@ -38,47 +55,45 @@ Warning--empty author in CMS:2011esa
 Warning--empty journal in CMS:2011esa
 Warning--empty author in BTAGPAS
 Warning--empty journal in BTAGPAS
-Warning--empty year in ElectronEfficiencies
-Warning--empty year in MuonEfficiencies
-You've used 61 entries,
+You've used 72 entries,
             1791 wiz_defined-function locations,
-            788 strings with 12440 characters,
-and the built_in function-call counts, 10812 in all, are:
-= -- 897
-> -- 433
-< -- 7
-+ -- 179
-- -- 118
-* -- 671
-:= -- 1805
-add.period$ -- 175
-call.type$ -- 61
-change.case$ -- 60
+            848 strings with 13915 characters,
+and the built_in function-call counts, 12788 in all, are:
+= -- 1066
+> -- 510
+< -- 9
++ -- 210
+- -- 138
+* -- 773
+:= -- 2137
+add.period$ -- 208
+call.type$ -- 72
+change.case$ -- 71
 chr.to.int$ -- 0
-cite$ -- 87
-duplicate$ -- 547
-empty$ -- 1100
-format.name$ -- 118
-if$ -- 2361
+cite$ -- 101
+duplicate$ -- 649
+empty$ -- 1302
+format.name$ -- 138
+if$ -- 2801
 int.to.chr$ -- 0
-int.to.str$ -- 61
-missing$ -- 56
-newline$ -- 299
-num.names$ -- 52
-pop$ -- 152
+int.to.str$ -- 72
+missing$ -- 66
+newline$ -- 354
+num.names$ -- 63
+pop$ -- 178
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 225
+skip$ -- 272
 stack$ -- 0
-substring$ -- 467
-swap$ -- 80
-text.length$ -- 7
+substring$ -- 550
+swap$ -- 99
+text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 26
-while$ -- 80
-width$ -- 63
-write$ -- 624
-(There were 3 error messages)
+warning$ -- 29
+while$ -- 97
+width$ -- 74
+write$ -- 739
+(There were 7 error messages)
