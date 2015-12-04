@@ -19,6 +19,10 @@ Repeated entry---line 1687 of file PhDThesis.bib
  : @article{Cacciari:2008gp
  :                         ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 1856 of file PhDThesis.bib
+ : @article{1748-0221-6-11-P11002
+ :                               ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "MishaSignalDefinition"
 Warning--empty journal in TrackingResults
 Warning--empty author and editor in HCALTdr
@@ -55,45 +59,45 @@ Warning--empty author in CMS:2011esa
 Warning--empty journal in CMS:2011esa
 Warning--empty author in BTAGPAS
 Warning--empty journal in BTAGPAS
-You've used 72 entries,
+You've used 79 entries,
             1791 wiz_defined-function locations,
-            848 strings with 13915 characters,
-and the built_in function-call counts, 12788 in all, are:
-= -- 1066
-> -- 510
+            891 strings with 14896 characters,
+and the built_in function-call counts, 14275 in all, are:
+= -- 1202
+> -- 546
 < -- 9
-+ -- 210
-- -- 138
-* -- 773
-:= -- 2137
-add.period$ -- 208
-call.type$ -- 72
-change.case$ -- 71
++ -- 226
+- -- 147
+* -- 886
+:= -- 2373
+add.period$ -- 230
+call.type$ -- 79
+change.case$ -- 78
 chr.to.int$ -- 0
-cite$ -- 101
-duplicate$ -- 649
-empty$ -- 1302
-format.name$ -- 138
-if$ -- 2801
+cite$ -- 108
+duplicate$ -- 712
+empty$ -- 1467
+format.name$ -- 147
+if$ -- 3131
 int.to.chr$ -- 0
-int.to.str$ -- 72
-missing$ -- 66
-newline$ -- 354
-num.names$ -- 63
-pop$ -- 178
+int.to.str$ -- 79
+missing$ -- 73
+newline$ -- 390
+num.names$ -- 70
+pop$ -- 184
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 272
+skip$ -- 295
 stack$ -- 0
-substring$ -- 550
-swap$ -- 99
+substring$ -- 688
+swap$ -- 106
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 29
-while$ -- 97
-width$ -- 74
-write$ -- 739
-(There were 7 error messages)
+while$ -- 111
+width$ -- 81
+write$ -- 818
+(There were 8 error messages)

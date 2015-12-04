@@ -17,12 +17,15 @@ Roughly speaking, we can divide the different steps of event reconstruction into
 
 \subsection{Event Data Model}
 
+Physically, an event is the result of the hard scattering process created when the LHC collides two bunches of protons together. We cannot know the full properties of an interaction without processing the data, and this is where the Event Data Model (EDM) is derived. The information about the event is measured as energy deposits, clusters, and tracks in each sub-detector of the CMS experiment that is read out by a series a processing electronics. When it comes to reconstructing the data and performing statistical analysis, we read in an event as a C++ object storing the raw data. These objects are presented to a user stored as ROOT files \cite{Brun199781}. There are three different data formats that data is stored as, each of which contains a different level of precision for describing events. The three levels are as described below.
+
 \begin{description}
 	\item[RAW] file formats contain very primal information about the data, including the L1 and HLT decisions. At this stage events have a size of roughly 1.5 MB. 
 	\item[RECO] is the next step in the formatting of data by reconstructing events obtained from the RAW format with pattern recognition and compression algorithms. This includes reconstructed detector hits, calorimeter clusters, and reconstructed physics objects such as electrons, jets etc. The typical event size at this level is around 250 kB.
-	\item[AOD] (Analysis Oriented Data) is created by filtering the RECO data from the reconstructed detector-level objects, where the higher level physics objects are calculated. The size of the events is reduced to $\sim50$ kB.
-
+	\item[AOD] (Analysis Oriented Data) is created by filtering the RECO data from the reconstructed detector-level objects, where the higher level physics objects are calculated. The size of the events is reduced to $\sim50$ kB.	
 \end{description}
+
+Almost all physics analysis groups use the RECO and AOD data formats. All data used in this analysis uses the AOD data format, where event sizes are reduced by filtering the RECO data, as can be seen in Table \ref{tab-MCSamples}. The objects are delivered in the data files as C++ objects, which are then transformed into vectors or plain basic types. By selecting on the physics objects that are central to our analysis, we can further reduce the event size to $\sim$3 kB, thus reducing the run time of an analysis. The processing of RECO and AOD formats for analysis begins with taking the data and using a specifically designed framework to process a set of ``nTuples'' for each physics process, and categorising them into classes, such as objects. The benefit of constructing such ``nTuples'' lies in the reduction of processing time by allowing the analysis to be run locally, rathen than re-processing the full dataset in AOD, RECO, or RAW from each time. 
 
 \subsection{Analysis Software} \label{subsec-AnalysisSoftware}
 
@@ -178,11 +181,42 @@ The CMS experiment employs a complex algorithmic technique, Particle Flow (PF) \
 
 \subsection{Charged Particle Tracking} \label{subsec-ChargedParticleTracking}
 
+The tracking of charged particles begins with the reconstruction of tracks in the inner detector system. As the charged particles traverse the detector they deposit energy which we call hits, an iterative tracking algorithm then inputs the information from a number of hits in order to reconstruct tracks of individual particles \cite{1748-0221-9-10-P10009}. By reconstructing the particle tracks we have access to information about the particle, such as the momentum before any effects from the magnet, and the impact parameter (IP), the distance of closest approach to this point used in later reconstruction. 
+
+Around two thirds of the particles than constitute a jet are charged particles, therefore if we are able to accurately reconstruct the tracks of charged particles in the detector, and the accuracy for correctly reconstructing a jet increases greatly. As all objects are reconstructed using the PF algorithm, which uses tracker information to fit tracks before reconstructing higher-level objects (Section \ref{sec-HigherLevelObjects}) we see that information gleaned from tracker hits are vital for physics analysis. Several properties of tracks from the inner detector system contribute to its importance in reconstructing tracks, such as the $p_T$ resolution which, for charged hadrons with a $p_T$ of $\mathcal{O}(10^2) \GeV$, is significantly better than in the calorimeter systems.
+
+One of the key parameters in object reconstruction is the track efficiency, the number of real tracks found over the number that incorrectly reconstructed or originate from a different source (`fake tracks'). Therefore, a high tracking efficiency is required in order to use the PF algorithm to it's full potential, and thus an iterative algorithm for tracking was designed \cite{1748-0221-9-10-P10009}. The tracking algorithm can be broken down into roughly 5 processes, which are described below:
+
+\begin{description}
+	\item[Local Reconstruction] records signals in the silicon strips and pixels, converts them into `digis' and then groups them into clusters. Both the position and uncertainty associated with an individual digi is calculated during this stage of reconstruction.
+	\item[Track Seeding] defines seeds, the basis of full particle reconstruction, by combining into `pairs' and `triplets' hits from the pixel detector of the inner tracker.
+	\item[Pattern Recognition] combines hits from the tracker and combines them in order to reconstruct potential particle trajectories, by starting at the centre of the tracker system and working outwards through each layer. The tracks are then filtered using a Combined Kalman Filter \cite{Billoir1989390}, which is a combinatorial variation on a Global Kalman Filter. All hits are taken into account from a single layer of the tracker and used as input information for a `proto-track', which is then used to calculate an estimate of the position and the uncertainty of the position in the next layer of the tracker. It is important that we must also take into account the energy loss as the particle traverses each layer of the detector. If we find several hits that are considered as signal, then we define multiple tracks. We must also include the case where a particle is highly energetic, such that it only leaves deposits within some of the tracker layers and not all.
+	\item[Fitting] The Kalman filter then fits each of the reconstructed hits twice from the different layers defined in the pattern recognition process. The first fitting process is performed using hits from central layers outwards, whereas the second fitting uses hits from the outer layers inwards. The two fits are complimentary to one another and remove any bias obtained during the track clustering stage.
+	\item[Quality Checking] removes tracks that are categorised as low quality, such that reconstructed hits have low hit multiplicity and a high $\chi^2$. Low quality tracks arise from aspects such as inconsistencies and misreconstructed hits in the track finding process; a single seed in the tracker layer can rise to multiple tracks, as well as multiple seeds originating from the same track, can be removed by performing the quality check of tracks. 
+\end{description}
+ 
+The algorithm iterates over the process 6 times in order to filter out as many fakes/misreconstructed tracks as possible. For each iteration in the algorithm, cuts are loosened, such as the $p_T$, such that the tracking efficiency ($\epsilon$) is increased while minimising the number of fakes. At the end of each iteration, after passing the track quality testing, high quality tracks are removed and the iterative process restarts. For the first four iterations only the seeds from the pixel detector are incorporated into the algorithm, where the last two use information of hits from the silicon strip detector. By performing track reconstruction in this manner we include tracks that decay outside the pixel volume, such as long-lived particles, such as heavy flavour hadrons and $\tau$ leptons, and photon conversions. At the end of the process, we are able to reconstruct tracks for particles with at least 3 hits in the tracking system with a $p_T$ as low as 150 GeV, a primary vertex originating at least 50 cm from the beam axis, and all with a fake-rate of approximately $1\%$ \cite{1748-0221-9-10-P10009}.
+
+
 \subsection{Primary Vertex Reconstruction} \label{subsec-PrimaryVertexReconstruction}
+
+Our ability to identify and reconstruct vertices of particles in events has a large impact on the reconstruction of whole event topologies and kinematics. If we are to correctly assign tracks to collisions, we must efficiently reconstruct the coordinates of the primary vertex. The same can also be said for secondary vertex reconstruction, used for the identification of heavy-flavour hadrons and $\tau$ leptons, as well as photon conversions. The main challenges encountered in vertex reconstruction stem from multiple overlapping events from a high track density and particle interactions within the tracker volume. 
+
+Once we have reconstructed all charged particle tracks to a sufficient degree of efficiency, we begin use this information to reconstruct the primary vertices for interactions within an event. Similar to the reconstruction of particle tracks, tracks must pass a selection criteria in order to be defined as originating from a primary vertex. A primary vertex must be defined as having a small impact parameter with respect to the beam line, a minimum number of hits in each layer of the pixel and silicon strips, and a small $\chi^2$ significance ($\chi^2/N_{d.o.f}$). For the tracks that meet the imposed requirements, they are then clustered along the z-axis at their point of closest approach to the beam. We then define these as our primary vertex candidates and begin the fitting process.
+
+An Adaptive Vertex Fitter (AVF) \cite{1742-6596-110-9-092009} is then implemented and uses a 3D fit to reconstruct the PV candidates, whereby each track is assigned a weight that is a function of its $\chi^2$ contribution to the vertex. After each iteration of the fitting process, the given weights are translated to the new vertex position. 
+
+In order to discern the primary vertex from the hard-scattering event that we are interested in, vertices are listed in descending order of $p_T$. As we expect events from pile-up to have a lower sum of $p_T$ to the hard process, we take the primary vertex with the highest $p_T$ and assume the rest are from pile-up.  
 
 \subsection{Calorimeter Clustering Algorithm} \label{subsec-CalorimeterClusteringAlgorithm}
 
+The granularity of the CMS HCAL is 25 times coarser than ECAL in order to separate spatially charged and neutral hadrons in jets with a transverse momentum above $100 \GeVc$. Therefore, we must employ a different algorithm for the identification and reconstruction of tracks within the different calorimeter systems. The calorimeter clustering algorithm is implemented to perform this task \cite{CMS-PAS-PFT-09-001}. The calorimeter clustering algorithm works independently of the PF algorithm, however energy deposits from charged hadrons are matched using the PF algorithm in order to provide a more accurate measurement of the energy. The two algorithms working in tandem are able to resolve high-$p_T$ and collinear tracks and thus reconstruct energy deposits from neutral hadrons and photons. Clusters of energy are formed by taking information from energy deposits within each calorimeter system, excluding the forward HCAL where each cell is large enough that it is considered a cluster.
+
+%%%% More 
+
 \subsection{The Particle Flow Algorithm} \label{subsec-PFAlgorithm}
+
+The particle flow (PF) algorithm
 
 \subsection{Electron reconstruction} \label{subsec-ElectronReconstruction}
 
@@ -226,8 +260,6 @@ After both procedures have been performed the two collections of electron candid
 	$H/E$ & Ratio of the hadronic energy associated with the electron candidate to the super-cluster energy. The hadronic energy is found by summing the HCAL towers in a cone of radius $\Delta R = 0.15$, centred at the super-cluster position. \\
 	$H/(H+E_{e})$ & Hadron fraction of the shower, where H is the energy of the hadron cluster linked to the GSF track.\\
 \hline	
-\pagebreak
-\hline	
 	\multicolumn{2}{|c|}{\emph{Track/super-cluster matching variables}}\\
 \hline	
 	$\Delta \eta_{in} \Delta \phi_{in}$ & Distance in $\eta (\phi)$ between the super-cluster position and the extrapolated track position \\
@@ -256,8 +288,26 @@ In order to reconstruct muons, two types of tracks are used: tracks reconstructe
 
 \begin{description}
 	\item[Tracker Muons] are reconstructed such that every track found in the inner tracker with $p_T > 0.5 \GeV$ and $|p| > 2.5$ is regarded as a muon candidate. The standalone-muon candidate is then extrapolated to the muon system, while taking into account factors such as the magnetic field, energy losses from traversing the detector volume, and uncertainties from multiple scattering. If the muon candidate satisfies both conditions of being in the tracker and extrapolated to the muon system, then we define the object as a muon. The method is also known as the `inside-out' method.
-	\item[Global Muons] use the `outside-in' method to reconstruct muons, conversely to tracker muons. The method works by taking a standalone-muon reconstructed in the muon system and matching it with a tracker muon by propagating onto a common surface. A global fit is then performed with the properties of both muon candidates, thus giving a \emph{global muon}.
+	\item[Global Muons] use the `outside-in' method to reconstruct muons, conversely to tracker muons. The method works by taking a standalone-muon reconstructed in the muon system and matching it with a tracker muon by propagating onto a common surface. A global fit is then performed with the properties of both muon candidates, thus giving a \emph{global muon}. 
 \end{description}
+
+The two techniques for muon reconstruction are used in conjunction with one another due to the efficiency for tagging muons at different $p_T$ thresholds. For the case of global muons, a muon with a higher $p_T$($p_T > 20 \GeV$) is more efficiently reconstruction due to the the tracking depositing energy in each of the muon chambers. Conversely, muons with a lower $p_T$ ($p_T < 5 \GeV$) are more efficiently reconstructed in the tracking system, requiring a single muon segment. For the $t\bar{t}+\gamma$ analysis, the requirement of one or two reasonably high $p_T$ muons means that it benefits from the use of both types of reconstruction method.
+
+Once reconstructed, muons must undergo a series of quality checks in order to suppress punch through hadrons (hadrons that have a high enough energy to penetrate into the muon system from the HCAL). The following properties are used to select good muons for analysis.
+
+\begin{itemize}
+	\item The number of hit in the muon chamber in the global muon fit.
+	\item The number of muon stations with muon segments.
+	\item Normalised chi-squared ($\chi^2/N_{d.o.f}$) of the global muon fit
+	\item The number of pixel detector hits.
+	\item The number of hits in the tracker layers.
+	\item Transverse impact parameter $d_{xy}$ (closest approach of the track to the primary vertex with respect to direction).
+	\item longitudinal distance $d_z$ of the tracker track with respect to the primary vertex.
+\end{itemize}
+
+Muons can also be produced within jets. The PF algorithm reconstructs such particles and identifies them in order to reduce the fake rate of charged hadrons being misidentified. This technique is essential for the measurement of missing transverse energy. 
+
+\section{Higher-level Object Reconstruction} \ref{sec-HigherLevelObjects}
 
 \subsection{Jet reconstruction} \label{subsec-JetReconstruction}
 
@@ -302,6 +352,20 @@ PF jet identification is used in order to reduce the amount of noise and the rat
 
 %%Talk about observables^^
 
+\subsection{Jet energy corrections} \label{subsec-JEC}
+
+Upon reconstruction of jets, we find that the jet energy is not the same when comparing MC generator and detector-level jets, even when reconstructed using the same algorithm. We find this to be due to the non-linear and non-uniformity of the CMS calorimetry, and a mis-modelling between MC simulation and performance of the detector including areas where we see a large amount of electronic noise and pileup. In order to correct for such discrepancies, we must apply corrections to the reconstructed jet energy - Jet Energy Corrections (JEC). The overall goal is to achieve a detector response that is linear and uniform in $\eta$, where we define the detector response as the average amount of signal per unit energy deposited.
+
+CMS has developed a factorised three tier system in order to apply jet energy corrections \cite{1742-6596-404-1-012014}, such that each level corrects for a different effect. The corrections are then applied to the four-momentum of the jet. The three levels are described below.
+
+\begin{itemize}
+	\item \textbf{L1 Pile-up} corrects for any energy that does not originate from the hard-scattering event, including detector noise from electronics, and pile-up events.
+	\item \textbf{L2 Relative Jet Correction} derives an $\eta$-dependent scale factor in order to flatten the detector response in order to account for the non-uniformity of the detector. MC and data-driven methods are used to calculate the relative correction scale factors using the dijet balance method. The corrections are measured using only the barrel region ($|\eta| < 1.3$) and in bins of $p_T$, such that they are completely uncorrelated with the L3 absolute correction described below. 
+	\item \textbf{L3 Absolute Jet Correction} is a $p_T$-dependent correction used to correct back to particle level by applying absolute $p_T$ correction. This is derived using MC truth information, or data-driven di-leptonic decays from $Z/\gamma^*+Jets$ samples, with the aim of flattening the jet response in $p_T$. 
+\end{itemize} 
+
+There is also an extra component in the correction factor calculation that arises from discrepancies between MC modelling and data. We define this step as \textbf{L2L3 Residual} and is only applied to data \cite{1748-0221-6-11-P11002}. Higher order jet corrections, due to flavour-dependency, are also computed, however these are no included in this analysis. Uncertainties from each of the stages of correction are then convoluted into a single JEC systematic uncertainty included in the final result.  
+
 \subsection{B-tagged Jets}
 
 We define a b-tagged jet to be a jet that manifests from the hadronisation of a b-quark. The process of identification of b-jets, b-tagging, is an extremely important and vital part of physics analysis, and top quark physics in particular. As the top quark decays to a W boson and a b quark almost 100\% of the time, efficiently identifying b-jets significantly decreases the background contamination of our top quark signal process, and thus there is a strong need for b-tagging. Similar to non b-tagged jets, there are various algorithms that have developed by CMS that measure b-tagged jets \cite{Chatrchyan:2012jua}, with the most successful being the Combined Secondary Vertex (CSV) algorithm. This method is derived from the prolonged life-time of the b-quark ($10^{-12}s$), and the fact that they decay to up and charm quarks, transitions which are Cabibbo suppressed by the standard model and can be seen in the CKM matrix. A highly-relativistic b-quark will travel through the detector around $450 \mu m$, as a product of its long life-time, which is an observable length that can be measured by the pixel detector. This allows for a displaced secondary vertex to be used as a tool for the identification of b-jets, as seen in Figure \ref{fig-CSV}
@@ -335,8 +399,27 @@ The algorithm begins by looking for a secondary vertex with the properties liste
 \end{center}
 \end{figure}
 
-\subsection{Jet energy corrections} \label{subsec-JEC}
-
-
 
 \subsection{Particle flow jet identification} \label{subsec-PFJetIdentification}
+
+\subsection{Reconstruction of Missing Transverse Energy}
+
+The conservation of momentum dictates that in an event, the sum of the $p_T$ of all final state particles (partons) must be equal to 0, as would be the case in a perfect detector. However, this is not the case within the CMS detector as particles, such as underlying events and proton remnants, are able to traverse the detector without being reconstructed. This introduces an imbalance in the measured transverse energy deposited in the detector, which we call the Missing Transverse Energy (MET). We can define the MET in an event to be:
+
+\begin{equation}
+E^{miss}_T = - \sum_i(p^2_x + p^2_y)^{1/2}
+\end{equation}
+
+where $p_x$ and $p_y$ are the transverse momenta of reconstructed particles (partons) in the x and y axes.
+
+The reconstruction of MET is of particular importance when dealing with a measurement where the presence of weakly-interacting standard model particles are measured in the final state, such as neutrinos.  With respect to the $t\bar{t}+\gamma$ analysis, we expect a large amount of MET due to the presence of two neutrinos in the final state for each decay mode (excluding the $e\mu$ channel) of the di-lepton channel, as the W from the top quark will for decay to a lepton-neutrino pair $1/9th$ of the time. These channels, and other similar analysis, rely on the efficient reconstruction of MET in order to accurately measure certain processes, and any misidentification or poorly reconstructed particles add to the MET sum further reducing the accuracy of a measurement.  
+
+Various methods on the reconstruction of MET in events have been conducted and are available \cite{1748-0221-6-09-P09001}. The current most accurate method for the measurement of the MET is by using the PF algorithm, and is used throughout this analysis. The PF algorithm calculates the value of the MET from the list of PF particles, thus producing a `raw' MET output which is systematically different from the final MET calculation. The `raw' MET value is calculated without taking into account the non-linearity of the calorimeters, noise from electronics, pile-up, along with any other effects. We, therefore, implement a set of corrections as described below.
+
+\begin{description}
+	\item[Type-0] corrects for the effects of pule-up on the MET.
+	\item[Type-1] propagates the jet energy corrections into the MET (See Section \ref{subsec-JEC}). 
+	\item[xy-shift] corrects for $\phi$ modulation in the MET.
+\end{description}
+
+The source of the $\phi$ modulation arises from misalignment of the detector relative to the beam, beam-spot displacement, an anisotropic detector response, and also broken or inactive cells within the calorimetry system. The correction for the shift in x-y is implemented in order to restore the spherical symmetry of events, and flatten the distribution in $\phi$, thus correcting the measured distribution to the true distribution. This analysis makes use of all correction types using PF calculated MET. 

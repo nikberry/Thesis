@@ -39,6 +39,12 @@ H.~J.~A. Tholen and A.~Stah.
 \newblock {\em https://cds.cern.ch/record/1505276}, pages no.
   CERN--THESIS--2012--222, 2012.
 
+\bibitem{PhilThesis}
+Philip Symonds.
+\newblock Top pair production cross sections and differential cross sections in
+  the semi-leptonic channel using the cms detector at $\sqrt{s} = 7$ and 8 tev.
+\newblock {\em PhD Thesis}, March 2015.
+
 \bibitem{ttgammabackgroundestimation}
 Thomas Steeger.
 \newblock Background estimation in a search for $t\bar{t}+\gamma$ events.
@@ -152,6 +158,14 @@ J~et~al. Mans.
   collisions recorded in the CMS detector}.
 \newblock Technical Report CMS-PAS-PFT-10-001, 2010.
 
+\bibitem{Brun199781}
+Rene Brun and Fons Rademakers.
+\newblock \{ROOT\} — an object oriented data analysis framework.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  389(1–2):81 -- 86, 1997.
+\newblock New Computing Techniques in Physics Research V.
+
 \bibitem{CMSSW}
 CMS Collaboration.
 \newblock Cmssw software framework.
@@ -225,6 +239,22 @@ Z.~Was.
 \newblock {\em Nucl. Phys. Proc. Suppl.}, 169:16--21, 2007.
 \newblock [,16(2006)].
 
+\bibitem{1748-0221-9-10-P10009}
+The~CMS Collaboration.
+\newblock Description and performance of track and primary-vertex
+  reconstruction with the cms tracker.
+\newblock {\em Journal of Instrumentation}, 9(10):P10009, 2014.
+
+\bibitem{Billoir1989390}
+Pierre Billoir.
+\newblock Progressive track recognition with a kalman-like fitting procedure.
+\newblock {\em Computer Physics Communications}, 57(1–3):390 -- 394, 1989.
+
+\bibitem{1742-6596-110-9-092009}
+W~Erdmann.
+\newblock Vertex reconstruction at the cms experiment.
+\newblock {\em Journal of Physics: Conference Series}, 110(9):092009, 2008.
+
 \bibitem{0954-3899-31-9-N01}
 W~Adam, R~Frühwirth, A~Strandlie, and T~Todorov.
 \newblock Reconstruction of electrons with the gaussian-sum filter in the cms
@@ -251,6 +281,12 @@ S.~Baffioni, C.~Charlot, F.~Ferri, D.~Futyan, P.~Meridiani, I.~Puljak,
 \newblock {Electron reconstruction in CMS}.
 \newblock {\em Eur. Phys. J.}, C49:1099--1116, 2007.
 
+\bibitem{1748-0221-7-10-P10002}
+The~CMS collaboration.
+\newblock Performance of cms muon reconstruction in pp collision events at √s
+  = 7 tev.
+\newblock {\em Journal of Instrumentation}, 7(10):P10002, 2012.
+
 \bibitem{Ellis:1993tq}
 Stephen~D. Ellis and Davison~E. Soper.
 \newblock {Successive combination jet algorithm for hadron collisions}.
@@ -272,6 +308,18 @@ Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
 \newblock The anti-$k_t$ jet clustering algorithm.
 \newblock {\em JHEP}, 04:063, 2008.
 
+\bibitem{1742-6596-404-1-012014}
+Ricardo Eusebi and on~behalf of~the CMS~collaboration).
+\newblock Jet energy corrections and uncertainties in cms: reducing their
+  impact on physics measurements.
+\newblock {\em Journal of Physics: Conference Series}, 404(1):012014, 2012.
+
+\bibitem{1748-0221-6-11-P11002}
+The~CMS collaboration.
+\newblock Determination of jet energy calibration and transverse momentum
+  resolution in cms.
+\newblock {\em Journal of Instrumentation}, 6(11):P11002, 2011.
+
 \bibitem{Chatrchyan:2012jua}
 Serguei Chatrchyan et~al.
 \newblock {Identification of b-quark jets with the CMS experiment}.
@@ -288,11 +336,10 @@ R~Frhwirth Wolfgang~Waltenberger Thomas~Speer, Kirill~Prokofiev and Pascal
 \newblock Vertex fitting in the cms tracker.
 \newblock {\em Technical Report}, CMS-NOTE-2006-032, CERN, Geneva, Feb 2006.
 
-\bibitem{PhilThesis}
-Philip Symonds.
-\newblock Top pair production cross sections and differential cross sections in
-  the semi-leptonic channel using the cms detector at $\sqrt{s} = 7$ and 8 tev.
-\newblock {\em PhD Thesis}, March 2015.
+\bibitem{1748-0221-6-09-P09001}
+The~CMS collaboration.
+\newblock Missing transverse energy performance of the cms detector.
+\newblock {\em Journal of Instrumentation}, 6(09):P09001, 2011.
 
 \bibitem{TopEventSelection}
 CMS Collaboration.
@@ -365,12 +412,6 @@ Jun Gao, Marco Guzzi, Joey Huston, Hung-Liang Lai, Zhao Li, Pavel Nadolsky, Jon
   Pumplin, Daniel Stump, and C.-P. Yuan.
 \newblock Ct10 next-to-next-to-leading order global analysis of qcd.
 \newblock {\em Phys. Rev. D}, 89:033009, Feb 2014.
-
-\bibitem{1748-0221-6-11-P11002}
-The~CMS collaboration.
-\newblock Determination of jet energy calibration and transverse momentum
-  resolution in cms.
-\newblock {\em Journal of Instrumentation}, 6(11):P11002, 2011.
 
 \bibitem{CMS-DP-2013-033}
 {8 TeV Jet Energy Corrections and Uncertainties based on 19.8 fb$^{-1}$ of data

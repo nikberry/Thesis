@@ -4,19 +4,19 @@
 \contentsline {table}{\numberline {2.2}{\ignorespaces Tower segmentation in azimuthal and polar angle for the hadronic barrel, endcap and forward calorimeter \cite {HCALTdr}.}}{19}{table.2.2}
 \contentsline {table}{\numberline {2.3}{\ignorespaces Parameters of the LHC superconducting solenoid \cite {MagneticField}.}}{21}{table.2.3}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Dataset information for signal and background MC samples.}}{34}{table.3.1}
-\contentsline {table}{\numberline {3.2}{Variables used in electron identification algorithms \cite {SergeyThesis}.}}{40}{table.3.2}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Dataset information for signal and background MC samples.}}{35}{table.3.1}
+\contentsline {table}{\numberline {3.2}{Variables used in electron identification algorithms \cite {SergeyThesis}.}}{44}{table.3.2}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Triggers for each di-lepton channel.}}{49}{table.4.1}
-\contentsline {table}{\numberline {4.2}{\ignorespaces Dataset information for each run in each respective decay channel.}}{58}{table.4.2}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Systematic uncertainties and their contribution to the cross-section ratio.}}{73}{table.6.1}
-\contentsline {table}{\numberline {6.2}{\ignorespaces }}{74}{table.6.2}
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Values used for calculating the cross section ratios in the $\mu ^+\mu ^-$, $e^+e^-$, and $e\mu $ channels.}}{75}{table.7.1}
-\contentsline {table}{\numberline {7.2}{\ignorespaces }}{76}{table.7.2}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Triggers for each di-lepton channel.}}{55}{table.4.1}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Dataset information for each run in each respective decay channel.}}{64}{table.4.2}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {A.1}{\ignorespaces Electron ID \& isolation efficiencies \cite {ElectronEfficiencies}.}}{81}{table.Alph0.1}
-\contentsline {table}{\numberline {A.1}{\ignorespaces Muon ID \& isolation efficiencies \cite {MuonEfficiencies}.}}{81}{table.Alph0.2}
+\contentsline {table}{\numberline {6.1}{\ignorespaces Systematic uncertainties and their contribution to the cross-section ratio.}}{79}{table.6.1}
+\contentsline {table}{\numberline {6.2}{\ignorespaces }}{80}{table.6.2}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces Values used for calculating the cross section ratios in the $\mu ^+\mu ^-$, $e^+e^-$, and $e\mu $ channels.}}{81}{table.7.1}
+\contentsline {table}{\numberline {7.2}{\ignorespaces }}{82}{table.7.2}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces Electron ID \& isolation efficiencies \cite {ElectronEfficiencies}.}}{87}{table.Alph0.1}
+\contentsline {table}{\numberline {A.1}{\ignorespaces Muon ID \& isolation efficiencies \cite {MuonEfficiencies}.}}{87}{table.Alph0.2}
