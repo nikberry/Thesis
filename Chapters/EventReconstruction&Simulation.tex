@@ -131,7 +131,7 @@ Similarly, both Drell-Yan samples, W+Jets, $W+\gamma$, $Z+\gamma$, and diboson b
 
 \section{Simulation of the $t\bar{t}+\gamma$ Signal Sample} \label{sec-mcsim}
 
-Three different techniques were used to define the $t\bar{t}+\gamma$ signal process. The concepts are illustrated in Figure \ref{fig-MatrixElementCalculation} and shows the final state of the process using each technique \cite{heinerthesis}. The parton distribution function CTEQ6L1 \cite{Pumplin:2002vw} is interfaced to $\WHIZARD$ via LHAPDF \cite{Whalley:2005nh}. The process utilises variable renormalisation and factorisation scales. This is such that, event by event, the two are set to $172.5 \GeV$ (m$_t$) plus the E$_T$ of the generated photon. Upon varying the scale of each, we arrive at a systematic uncertainty of $^{+7.0}_{-8.3}\%$, as shown in Chapter \ref{chap-SystematicUncertainties}. Initial and final state radiation is taken into account, as well as hadronisation, and is simulated using \PYTHIA6 \cite{Sjostrand:2006za}, \TAUOLA and $\PHOTOS$ \cite{Was:2006my} as preconfigured in CMSSW. We use the same configuration as for the top-pair sample.
+Three different techniques were used to define the $t\bar{t}+\gamma$ signal process. The concepts are illustrated in Figure \ref{fig-MatrixElementCalculation} and shows the final state of the process using each technique \cite{heinerthesis}. The parton distribution function CTEQ6L1 \cite{Pumplin:2002vw} is interfaced to $\WHIZARD$ via LHAPDF \cite{Whalley:2005nh}. The process utilises variable renormalisation and factorisation scales. This is such that, event by event, the two are set to $172.5 \GeV$ (m$_t$) plus the E$_T$ of the generated photon. Upon varying the scale of each, we arrive at a systematic uncertainty of $^{+7.0}_{-8.3}\%$, as shown in Chapter \ref{chap-SystematicUncertainties}. Initial and final state radiation is taken into account, as well as hadronisation, and is simulated using \PYTHIA6 \cite{Sjostrand:2006za}, $\TAUOLA$ and $\PHOTOS$ \cite{Was:2006my} as preconfigured in CMSSW. We use the same configuration as for the top-pair sample.
 
 Restrictions on the final state particles have been set, named generation cuts, such that a proper integral is retained when calculating matrix elements. As a method to cope with infra-red divergences, a minimum energy or momentum is required. We treat collinear divergences by introducing a minimum distance in the $\eta - \phi$ plane. These cuts likely will not affect the measurement due to the cuts within selection being tighter than generator levels cuts. The different generation cuts are described in brief below:
 
@@ -142,7 +142,7 @@ Restrictions on the final state particles have been set, named generation cuts, 
 
 \item[2 $\to$ 7] In this scenario we consider photon radiation and interference from all decay products. CPU time is much more intensive in this case due to the many more Feynman diagrams to be computed.                                                                            
 
-\begin{figure}\label{fig-MatrixElementCalculation}
+\begin{figure} \label{fig-MatrixElementCalculation}
 \begin{center}
 \includegraphics[width=\textwidth]{Figures/MatrixElementCalculation.png}
 \caption{Process generation. The red, blue, and green boxes depict the matrix element calculation. Background processes with the same final state are included as well \cite{heinerthesis}.}
@@ -157,8 +157,60 @@ Originally, this analysis used the $2 \to 5$ technique with initial generator le
 
 \subsection{Official $t\bar{t}+\gamma$ $2 \to 7$ process $\MADGRAPH$ Sample Production}
 
-Details of signal sample generation are described in [7]. The phase space for generation was
-chosen in the following way:
+The final version of the analysis uses the factorised $2 \to 7$ process for the simulion of the $t\bar{t}+\gamma$ signal sample. Instead of computing one single matrix element for the complete $t\bar{t}+\gamma$ process, we factorise the process into individual processes and calculate the matrix element for each sub-process. The major restriction on the calculation of the matrix element lies in the computational time, such that using a factorised matrix element method vastly reduces the computation time to calculate the matrix element. The matrix element is divided in the following manner:
+
+\begin{align}
+pp \to t\bar{t}+\gamma, \quad t \to bxx, \quad \bar{t} \to \bar{b}xx \\
+pp \to t\bar{t}, \quad t \to bxx\gamma, \quad \bar{t} \to \bar{b}xx \\
+pp \to t\bar{t}, \quad t \to bxx, \quad \bar{t} \to \bar{b}xx\gamma 
+\end{align}
+
+where $x = u,d,s,c,\bar{u},\bar{d},\bar{s},\bar{c}, e^{\pm}, \mu^{\pm}, \tau^{\pm}, \nu_{e,\mu,\tau}, \bar{\nu}_{e,\mu,\tau}$.
+
+In order to verify the factorisation method, we generated a sample using WHIZARD with the full, un-factorised, $2 \to 7$ matrix element generation process, which we then compared to a sample simulated in WHIZARD using the factorised matrix element method. The results of this comparison can be seen in Figure \ref{fig-WHIZARDfullvsfactorised}, where we see a good agreement in the shapes of observables. We observe small fluctuations between bins within the full $2 \to 7$ sample, which we attribute to the number of events. We can therefore verify that the method can be used as a good approximation of the full $2 \to 7$ process.
+
+Upon validation of the factorisation method for the full process, we observe the method to be a good compromise between accuracy and computational time. A comparison is then conducted between the $\MADGRAPH$ and WHIZARD event generators using the full $2 \to 7$ process. Within the WHIZARD framework, we are unable to compute the three factorised processes at the same time, and must therefore generate the individual processes separately and later combine them, whereby scaling is taken into account. 
+
+For both generators, the original $pp \to t\bar{t}+\gamma$ process and the decay of the top quarks are distinct processes. The $\MADGRAPH$ framework handles both processes internally, however we must simulate the two must be handled individually in the WHIZARD framework and an extra set of kinematic cuts must be implemented, as shown below.
+
+\begin{itemize}
+	\item $p_T(\gamma) > 1$ GeV
+	\item $\Delta R (\gamma, X) > 0.1$
+\end{itemize}
+
+These cuts are required to be softer than the final generator cuts, due to the dilution of kinematics by resolution effects at the value of the cuts. This is such that if the value of cuts used for decays is too close to the final generator cuts, resolution effects may be modelled incorrectly. When calculating the cross-section, WHIZARD does not take the final generator cuts into consideration. They are simply used to select events which are then written to the output file. The cross-section must be re-weighted when taking individual efficiencies into account, leading to the simulation taking more time than it would with the final generator cuts included, where a vast amount of generated events are rejected by the tighter cuts.
+
+It must be noted that for simplicity, in the comparison we only select semi-leptonic events in the muon channel. However, for the full sample we incorporate all decay channels for the $t\bar{t}+\gamma$ $2 \to 7$ process in order to be inclusive as possible since the sample will be an official CMS sample. 
+
+\begin{figure} \label{fig-WHIZARDfullvsfactorised}
+\begin{center}
+\includegraphics[width=0.7\textwidth]{Figures/WHIZARDfullvsfactorisedPT.png} \\
+\includegraphics[width=0.7\textwidth]{Figures/WHIZARDfullvsfactorisedEta.png} \\
+\caption{Comparison between the full and the factorised $2 \to 7$ process using samples generated with WHIZARD. All distributions are normalised to unity. \cite{ttgammasimulation}}
+\end{center}
+\end{figure}  
+
+We calculate the cross-sections to be 
+
+\begin{equation}
+\WHIZARD : \sigma_{t\bar{t}+\gamma} = 1408, \fb \quad \MADGRAPH : \sigma_{t\bar{t}+\gamma} = 1227.1 \pm 0.4 fb
+\end{equation}
+
+for each event generator, respectively. We note that there is no associated error with the WHIZARD cross-section, this is due to the cross-section calculated with this event generator not taking the final cuts on the decay products into account. The final cross-section is calculated from the remaining number of events. Additionally, the branching ratios for the top decays are not included within the cross-section calculation, as additional calculations are required by the user. This is more of a feature in channels where a photon is required. 
+
+The calculation steps, described previously, are estimated individually and the uncertainty on each usually contributes to the overall uncertainty by propagating them onto the final value. However, this is not calculated in this analysis, because the cross-sections are used to compare the event generators. Thus, an exact calculation of the errors is not necessary, and a NLO cross-section is used in the analysis which renders the differences inconsequential. The difference of 12.9\% observed between the two generators is thus within the expected range of deviation. 
+
+A comparison between the two event generators for the factorised $2 \to 7$ process, for three key variables, can be seen in Figure \ref{fig-WHIZARDvsMADGRAPH}. We observe a good agreement between the two event generators except for small discrepancies in the angle between the photon and b quark at low values of $\Delta R (\gamma, b)$. We regard this discrepancy as irrelevant to our analysis due to the manner in which jets and isolation is handled in a proton-proton collider experiment such as CMS. Another explanation could lie within the normalisation process of the WHIZARD sample, and could affect the shapes of the distributions.\ 
+
+\begin{figure} \label{fig-WHIZARDvsMADGRAPH}
+\begin{center}
+\includegraphics[width=0.7\textwidth]{Figures/WHIZARDvsMADGRAPHPT.png} \\
+\includegraphics[width=0.7\textwidth]{Figures/WHIZARDvsMADGRAPHEta.png} \\
+\includegraphics[width=0.7\textwidth]{Figures/WHIZARDvsMADGRAPHDR.png} \\
+\caption{Comparison between the $\MADGRAPH$ and WHIZARD generators for the factorized $2 \to 7$ process. All distributions are normalized to unity. \cite{ttgammasimulation}}
+\end{center}
+\end{figure}  
+
 
 \begin{itemize}
 	\item $p_T (\gamma) > 13 \GeV$
@@ -216,7 +268,40 @@ The granularity of the CMS HCAL is 25 times coarser than ECAL in order to separa
 
 \subsection{The Particle Flow Algorithm} \label{subsec-PFAlgorithm}
 
-The particle flow (PF) algorithm
+The particle flow (PF) algorithm \cite{CMS-PAS-PFT-09-001} uses information from each sub-detector to reconstruct and identify all stable particles produced in proton-proton collisions at the LHC, such as electrons, muons, photons, charged hadrons, and neutral hadrons, and determine their direction, energy, and type. The information is then used in a similar manner to events from MC generators in order to reconstruct higher-order objects, such as jets (from which we infer the directions and energies of the quarks and gluons), missing transverse energy (giving a rough measurement of the direction and energy of invisible particles, such as neutrinos), and tau leptons, and to tag b-jets.  
+
+The design of the CMS detector is ideal for this type of reconstruction, due to it being completely hermetic around the interaction point with a 3.8 T magnetic field, thus the reconstruction of charged particle tracks (which make up around 2/3 of the total objects) is extremely efficient with a small fake-rate down to a low $p_T$ of around $150 \MeVc$ and pseudorapidities as large as $|\eta| < 2.6$. Energy deposits are recorded as `blocks' in the detector, which are then interpreted as particles within a particular sub-detector. The PF algorithm feeds the information obtained by each sub-detector into the `link' step, where it then groups together combinations of blocks that are likely to originate from particles. The combinations are then categorised as individual objects and stores a list of particles of each type. 
+
+Particles are composed of several particle-flow elements from a number of CMS sub-detectors: one charged particle track, and/or various clusters in the calorimeters, and/or one muon track in the muon system. The link algorithm is then used to connect the tracks and energy clusters to reconstruct the particle, whilst removing possible double counting from any of the sub-detectors. Pairs of elements are found and `linked', such that the link is extrapolated to the end of a shower for a typical electron in the ECAL or the typical interaction length
+of a hadron shower in the HCAL, where a distance parameter defines the quality of a `link'. Blocks of elements in each sub-detector are produced by the algorithm which are classes as directly or indirectly linked. The PF reconstruction process is made easier by its high granularity, such that each block contains a maximum of three elements, and thus the performance of the algorithm is independent of the event complexity. However, the size of a block may be increased by up to a cell to account for the non-uniformity of the calorimetry system. 
+
+Once blocks are processed by the link algorithm, they are then passed to the PF algorithm, where the objects are reconstructed and identified on an event-by-event basis. When an object is fully reconstructed, the tracks and clusters from the block are then removed from the collection and the next object is reconstructed. The first object type to be reconstructed is the muon, due to the efficiency of identifying muons. We measure muons from their associated Global and Tracker tracks, such that if they are within 3 standard deviations from each other we call the object a PF muon. The tracks and clusters associated with the blocks are then removed from the collection. 
+
+Secondly, electrons are identified and reconstructed from the, now much smaller, collection of tracks. The GSF method of associating clusters is used to differentiate between charged hadrons and electrons, and the electromagnetic shower must be thin in $\eta$. Charged pions give rise to a source of fake electrons and are vetoed by other such parameters as the number hits and $\chi^2$. Many other variables are then input into a multivariate analysis tool which then provides a discriminant on whether or not the particle is an electron. If the particle passes the MVA (Table \ref{tab-ElectronMVAVariables}) it is then labelled as a particle flow electron.
+
+By process of elimination, all that remains are charged hadron, neutral hadron, and photon candidates. By matching any charged tracks associated to a HCAL cluster, we can define these particles as PF charged hadrons. By implementing a distance parameter we make sure not to double count. We are then able to remove tracks associated with charged hadrons. Any remaining energy deposits in the HCAL is then known to originate from photons or neutral hadrons, differentiating between the two by the shower shape of the candidate. We can thus define PF neutral hadrons and PF photons. 
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.6\textwidth]{Figures/PF.png}
+\caption{The (x, y) view \cite{CMS-PAS-PFT-09-001}.}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\begin{subfigure}{0.5\textwidth}
+    \centering\includegraphics[width=200pt]{Figures/PFECAL.png}
+    \caption{The ($\eta$, $\phi$) view on ECAL \cite{CMS-PAS-PFT-09-001}. \label{fig:fig1}}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+    \centering\includegraphics[width=200pt]{Figures/PFHCAL.png}
+    \caption{The ($\eta$, $\phi$) view on HCAL \cite{CMS-PAS-PFT-09-001}. \label{fig:fig2}}
+\end{subfigure}
+\caption{}
+\end{center}
+\end{figure}
+   
 
 \subsection{Electron reconstruction} \label{subsec-ElectronReconstruction}
 
@@ -307,7 +392,9 @@ Once reconstructed, muons must undergo a series of quality checks in order to su
 
 Muons can also be produced within jets. The PF algorithm reconstructs such particles and identifies them in order to reduce the fake rate of charged hadrons being misidentified. This technique is essential for the measurement of missing transverse energy. 
 
-\section{Higher-level Object Reconstruction} \ref{sec-HigherLevelObjects}
+\section{Higher-level Object Reconstruction} \label{sec-HigherLevelObjects}
+
+In this section we describe different techniques to reconstruct higher-level objects, such as jets and missing transverse energy, a process which happens post identification and reconstruction of objects. Higher-level objects must also be corrected for detector defects and other inconsistencies, which is also described.
 
 \subsection{Jet reconstruction} \label{subsec-JetReconstruction}
 
@@ -400,9 +487,7 @@ The algorithm begins by looking for a secondary vertex with the properties liste
 \end{figure}
 
 
-\subsection{Particle flow jet identification} \label{subsec-PFJetIdentification}
-
-\subsection{Reconstruction of Missing Transverse Energy}
+\subsection{Reconstruction of Missing Transverse Energy} \label{subsec-METReco}
 
 The conservation of momentum dictates that in an event, the sum of the $p_T$ of all final state particles (partons) must be equal to 0, as would be the case in a perfect detector. However, this is not the case within the CMS detector as particles, such as underlying events and proton remnants, are able to traverse the detector without being reconstructed. This introduces an imbalance in the measured transverse energy deposited in the detector, which we call the Missing Transverse Energy (MET). We can define the MET in an event to be:
 

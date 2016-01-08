@@ -77,9 +77,91 @@ The last cut is implemented in order to suppress photons from showers. In such c
 \end{center}
 \end{figure}
 
-\section{Event Selection} \label{sec-EventSelection}
+\section{Measurement of the cross-section ratio $R = \sigma_{t\bar{t}+\gamma}/\sigma_{t\bar{t}}$}
+
+A common form of cross-section calculation for a ``counting'' analysis can be written as
+
+\begin{equation} \label{eqn-CountingXsect}
+\sigma = \frac{N_{signal}}{\lumi \epsilon A}
+\end{equation}
+
+where $N_{signal}$ is the number of signal events found in data passing the full event selection requirements, $\lumi$ is the integrated luminosity of the data, $A$ is the signal acceptance, defined as the fraction of signal events that fall into the region of phase-space that is chosen for our event selection, and $\epsilon$ is the efficiency of correctly selecting a signal event (the fraction of signal events passing event selection after acceptance cuts are implemented). The number of signal events, $N_{signal}$, must be modified to account for the presence of background events in our data, and thus becomes the number of observed events minus the number of background events, $N_{observed} - N_{background}$, where the number of background events is estimated in a different manner. 
+
+Due to the nature of the analysis, event selection is performed in two separate steps (see Section \ref{chap-EventSelection}); di-leptonic top pair selection and photon selection. This feature changes the way in which we must compute the cross-section in Equation \ref{eqn-CountingXsect}. The changed cross-section is written as
+
+\begin{equation}
+\sigma_{t\bar{t}+\gamma} = \frac{N_{signal}}{\lumi \epsilon_{top} A_{top} \epsilon_{\gamma} A_{\gamma}}
+\end{equation}
+
+where $\epsilon_{top}$ and $A_{top}$ are the efficiency and acceptance of top selection for our signal top pair events. Thus, $\epsilon_{\gamma}$ and $A_{\gamma}$ are the efficiency and acceptance of the photon selection, introduced after the top quark pair event selection. Here we consider our signal as a top quark pair, decaying to leptons and b-jets, plus a prompt radiatied photon as our signal. We take the number of obvserved, $N_{signal}$, as the number of events counted from data after top pair and photon selections have been applied.
+
+In order to simplify the calculation, we are able to take the ratio of the $t\bar{t}+\gamma$ cross-section to the $t\bar{t}$ cross-section, as previously measured by the CMS experiment \cite{ttbarXsectiondilepton}. In doing this, we simplfy the treatment of systematic uncertainties and cancel shared terms from each measurement, such as luminosity. The new ratio is calculated using the following equation
+
+\begin{equation}
+R = \frac{\sigma_{t\bar{t}+\gamma}}{\sigma_{t\bar{t}}} = \frac{N_{signal}}{\epsilon^{t\bar{t}+\gamma}_{top} A^{t\bar{t}+\gamma}_{top} 
+\epsilon^{t\bar{t}+\gamma}_{\gamma} A^{t\bar{t}+\gamma}_{\gamma}}} \cdot \frac{\epsilon^{t\bar{t}}_{top} A^{t\bar{t}}_{top}}{N_{t\bar{t}}}
+\end{equation}
+
+We now introduce a second term into the cross-section calculation which includes three new variables that stem from the $t\bar{t}$ inclusive cross-section: where $\epsilon^{t\bar{t}}_{top}$ and $A^{t\bar{t}}_{top}}$ $N_{t\bar{t}}$ are the efficiency and acceptance of the $t\bar{t}$ process, and $N_{t\bar{t}}$ is the number of top pair events passing the full top selection, prior to the photon selection. The efficiencies for both top pair selection and top pair with a photon selection is very similar due to the ordering of the event selection - the selection of leptons, jets, b-jets, and MET are the same in each scenario. As the acceptance calculation depends on individual samples generator cuts and even selection, we must calculate this variable separately for each stage of the selection process. By taking the ratio of each cross-section we cancel out the luminosity parameter.
+
+The prominent feature of this analysis is the addition of a radiated photon from one of the decay products of a di-leptonic $t\bar{t}$ decay. In order to correctly measure the number of signal $t\bar{t}+\gamma$ events we must make sure that we have correctly identified our signal events. Even though an object may pass the full photon ID selection requirements, it may not be our signal photon. Electrons and jets are likely to pass photon ID selection and be recorded as real signal photons, thus we must remove these `fakes' from our signal events.
+
+For jets that pass the photon ID requirements and are thus misidentified, we must note that they do not contain a genuine photon. Electrons that have been misidentified as photons are more difficult to remove as they hold the same properties as a photon, including isolated electromagnetic shower etc. Electrons differ from our signal photons because of the addition of a charged track pointing in the direction of the energy deposit. As a result, we treat each source of `fakes' in a different manner, described in Section \ref{}.   
+
+
+
+\section{Number of top pair events}
+
+
 
 \section{Photon Purity Estimation} \label{sec-PhotonPurityEstimation}
+
+We define the photon purity, $\pi$, as the number of photons that are prompt and pass the photon ID selection over the total number of photon candidates. Prompt photons are created in the hard-scattering process and are emitted from the high-$p_T$ hard-scattering particles. The main sources of non-prompt photons comes from charged particles interacting with the detector material and from quark hadronisation, and are generally not isolated and have a low $p_T$. We also obtain a source of photons from $\pi^0$ decays, whereby two very collinear photons are produced. 
+
+One method to find the photon purity is through simulation, where we have access to information of all the particles simulated by the MC event generator. We match reconstructed photons to generator photons by using information of their mother particles in order to determine the origin of the photons. From this, we can divide our events into three categories based on the event generator matching to a reconstructed photon. 
+
+\begin{itemize}
+	\item Signal: reconstructed photon is matched to a generated photon
+	\item Misidentified electron: reconstructed photon is matched to a generated electron
+	\item Misidentified jet: photon is not matched to either a generated photon or electron
+\end{itemize}
+
+In order to find if our photon is prompt (signal), we use our matching process to find a generator-level photon that matches its properties. We use the transverse momentum along with the $\eta$ and $\phi$ coordinates of the reconstructed and generator-level photon to implement a $p_T$ and $\Delta R$ requirement on the matching process. Events are iterated over in the order in which they were created by the generator, and if we find the $\Delta R$ between the reconstructed photon and generated photon is \textbf{less than 0.2} and $|p^{reco}_T - p^{gen}_T|/p^{gen}_T$ is \textbf{less than 1.0} then we consider it a match and stop the iteration process. The parentage of the matched photon is then inspected to verify its origin, such that if it descends from a quark, gluon, charged lepton, or boson then we determine it to be prompt. We must, however, also verify that the photon is isolated. A photon maybe produced in the hard-scattering process, however we may observe hadronisation and showering in close by, such that our signal photon will not be isolated. In order to ensure that these photons are not lost to the nearby non-signal activity, we must introduce additional selection cuts to differentiate between our prompt signal photons and non-isolated photons.  
+
+\begin{itemize}
+	\item $\left(p_T^{reco} - p_T^{gen}\right)/p_T^{gen} < 0.1$
+	\item $\Delta R ( \gamma^{gen}, other ) > 0.2$ where other particles include leptons, photons and final state
+particles (hadrons, leptons, photons) with transverse momenta above 5 GeV
+	\item $|\Delta\eta ( \gamma^{reco}, \gamma^{gen} )| < 0.005$
+	\item $\Delta R ( \gamma^{reco}, \gamma^{gen} ) < 0.01$
+\end{itemize}
+
+The listed additional cuts help to select photons that are well isolated and do not have any undesired activity nearby.
+
+As described above, electrons leave a very similar trace to photons as it showers within the electromagnetic calorimeter, except for an additional charged track pointing towards the energy deposit. We implement specific selection criteria in order to minimise the fake-rate of electrons misidentified as photons within the event selection. However, it is observed that a large number of electrons still pass photon selection requirements and are recorded as signal. We thus include a criteria to find well isolated generator-level electrons in the same manner as for photons, however in this scenario we consider electrons from W and Z decays only. The cuts are shown below.
+
+\begin{itemize}
+	\item $\left( p_T^{reco} - p_T^{gen} \right) /p_T^{gen} < 0.1$
+	\item $\Delta R ( e, other ) > 0.2$ where other particles include leptons, photons and final state
+		  particles (hadrons, leptons, photons) with transverse momenta above 5 GeV
+	\item $ \Delta\eta ( \gamma^{reco}, e )| < 0.005$
+	\item $\Delta R ( \gamma^{reco}, e ) < 0.04$
+\end{itemize}
+
+The cuts have been cross-checked with the di-leponic $t\bar{t}$ sample as it contains a significant amount of electrons identified as photons.
+
+All reconstructed photons that pass the cuts described previously and is matched with a generator-level photon is then defined as a real photon. If it is instead matched to a generator-level electron it is then defined as a misidentified electron. Any other event that is not matched to a generator-level electron or photon is then classified as a misidentified jet.
+
+As the photon purity directly affects the cross-section ratio measurement, we do not want to reply explicitly on simulation, and therefore it would be preferable to compute the photon purity via a data-driven method. We make use of the fact that our signal photon, whether a real signal photon or misidentified electron, are isolated objects, while misidentified jets and non-prompt photons close to or within a jet. 
+
+%  We use super cluster removed charged hadron isolation as discriminating variable. Then
+% the template shape fit is performed to find the fraction of prompt photons. The template fit
+% provides an estimate of the fraction of events originating from real photons or misidentified
+% electrons
+
+\cite{PhysRevD.89.092005}
+
+\section{Number of signal events in data} \label{sec-SigEventsData}
 
 \section{Signal Acceptance Calculation} \label{subsec-SignalAcceptanceCalculation}
 

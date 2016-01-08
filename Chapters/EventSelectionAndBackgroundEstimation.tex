@@ -18,6 +18,16 @@ The pre-selection events have been constructed by following the CMS recommendati
 
 The pre-selection steps define our $t\bar{t}$ events before the addition of a radiated photon. The selection follows the recommended selection from the TOP Reference Selections and Recommendations (Run1) \cite{TopEventSelection} designed to select di-lepton final states with two isolated oppositely charged leptons, at least 2 jets where at least one is a b-tagged jet, and two neutrinos from missing transverse energy. All objects in the selection are reconstructed using the PF algorithm as described in Section \ref{subsec-PFAlgorithm}.  
 
+\begin{itemize}
+	\item Skim
+	\item Event cleaning and trigger
+	\item dilepton selection
+	\item Z-mass veto
+	\item $\geq 1$ jet
+	\item $\geq 2$ jets
+	\item MET selection
+	\item $\geq 1$ CSV b-jet 
+\end{itemize}
 
 \section{Trigger and Event Cleaning} \label{sec-TriggerAndEventCleaning}
 
@@ -155,10 +165,121 @@ These cuts help to avoid picking detector noise and ECAL spikes as jets. We also
 
  In each channel the requirement of at least 2 good jets, where a good jet passes all the aforementioned selection requirements, and at least one b-jet. By applying these requirements the contribution from the most prominent backgrounds, $t\bar{t}$ and events with additional loose jets, are removed. 
  
+\section{Missing Transverse Energy} \label{sec-METSelection}
+
+
+
+\section{Comparison of Data to MC} \label{sec-dataMCcomparison}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.7\textwidth]{Plots/CutFlow/Log/TTbarMuMuRefSelection.pdf}
+\includegraphics[width=0.7\textwidth]{Plots/CutFlow/Log/TTbarEERefSelection.pdf}
+\includegraphics[width=0.7\textwidth]{Plots/CutFlow/Log/TTbarEMuRefSelection.pdf}
+\end{center}
+\end{figure}
+
+\begin{sidewaystable}[h!]
+  \centering 
+%  \caption{Cut Flow table for the $\mu^+\mu^-$ selection.}
+%  \label{tab:mumu_cutflow}
+\resizebox{\columnwidth}{!} {
+
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|}
+\hline
+\multicolumn{12}{|c|}{\textbf{Cut Flow table for the $\mu^+\mu^-$ selection}} \\
+\hline
+& \textbf{ttgamma} & \textbf{ttbar 0l} & \textbf{ttbar 1l} & \textbf{ttbar 2l} & \textbf{wjets} & \textbf{zjets} & \textbf{diboson} & \textbf{single t} & \textbf{qcd} & \textbf{all MC} & \textbf{data} \\
+\hline
+Skim & 3650 $\pm$ 12 \ & 18015 $\pm$ 38 \ & 141668 $\pm$ 117 \ & 147272 $\pm$ 84 \ & 213643 $\pm$ 1763 \ & 1318833 $\pm$ 1868 \ & 16881 $\pm$ 33 \ & 33315 $\pm$ 365 \ & 21035073 $\pm$ 153027\ & 22928349 $\pm$ 153049 \ & 2413504 $\pm$ 1554 \\
+Cleaning and HLT & 1018 $\pm$ 6 \ & 3117 $\pm$ 16 \ & 36105 $\pm$ 59 \ & 46211 $\pm$ 47 \ & 10348 $\pm$ 387 \ & 624329 $\pm$ 1273 \ & 5977 $\pm$ 17 \ & 8049 $\pm$ 176 \ & 1737634 $\pm$ 21436\ & 2472789 $\pm$ 21478 \ & 1887786 $\pm$ 1374 \\
+Di-lepton Sel & 292 $\pm$ 3 \ & 0 $\pm$ 0 \ & 149 $\pm$ 4 \ & 21477 $\pm$ 31 \ & 47 $\pm$ 25 \ & 422524 $\pm$ 1027 \ & 4348 $\pm$ 14 \ & 1186 $\pm$ 24 \ & 2437 $\pm$ 605\ & 452461 $\pm$ 1193 \ & 459842 $\pm$ 678 \\
+m(Z) veto & 262 $\pm$ 3 \ & 0 $\pm$ 0 \ & 126 $\pm$ 3 \ & 19169 $\pm$ 30 \ & 47 $\pm$ 25 \ & 82812 $\pm$ 489 \ & 1047 $\pm$ 8 \ & 1062 $\pm$ 23 \ & 2001 $\pm$ 559\ & 106525 $\pm$ 744 \ & 114102 $\pm$ 338 \\
+$\geq$ 1 jet & 241 $\pm$ 3 \ & 0 $\pm$ 0 \ & 104 $\pm$ 3 \ & 18574 $\pm$ 29 \ & 32 $\pm$ 20 \ & 61503 $\pm$ 431 \ & 915 $\pm$ 8 \ & 1001 $\pm$ 22 \ & 368 $\pm$ 261\ & 82738 $\pm$ 506 \ & 88692 $\pm$ 298 \\
+$\geq$ 2 jets & 210 $\pm$ 3 \ & 0 $\pm$ 0 \ & 64 $\pm$ 2 \ & 17585 $\pm$ 28 \ & 32 $\pm$ 20 \ & 47551 $\pm$ 379 \ & 772 $\pm$ 7 \ & 878 $\pm$ 21 \ & 368 $\pm$ 261\ & 67462 $\pm$ 462 \ & 71800 $\pm$ 268 \\
+$\slash{E_{T}}$ cut & 196 $\pm$ 3 \ & 0 $\pm$ 0 \ & 59 $\pm$ 2 \ & 16468 $\pm$ 27 \ & 32 $\pm$ 20 \ & 21441 $\pm$ 253 \ & 483 $\pm$ 6 \ & 825 $\pm$ 20 \ & 0 $\pm$ 0\ & 39505 $\pm$ 256 \ & 42553 $\pm$ 206 \\
+$\geq$ 1 CSV b-tag & 179 $\pm$ 3 \ & 0 $\pm$ 0 \ & 48 $\pm$ 2 \ & 15127 $\pm$ 26 \ & 32 $\pm$ 20 \ & 8246 $\pm$ 165 \ & 207 $\pm$ 4 \ & 721 $\pm$ 19 \ & 0 $\pm$ 0\ & 24559 $\pm$ 169 \ & 26478 $\pm$ 163 \\
+$\geq$ 1 Photon Presel & 173 $\pm$ 3 \ & 0 $\pm$ 0 \ & 37 $\pm$ 2 \ & 11099 $\pm$ 22 \ & 23 $\pm$ 17 \ & 6217 $\pm$ 150 \ & 151 $\pm$ 4 \ & 497 $\pm$ 15 \ & 0 $\pm$ 0\ & 18198 $\pm$ 154 \ & 19105 $\pm$ 138 \\
+$\geq$ 1 Good Photon Postsel & 17 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 12 $\pm$ 1 \ & 0 $\pm$ 0 \ & 12 $\pm$ 6 \ & 1 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0\ & 41 $\pm$ 6 \ & 46 $\pm$ 7 \\
+1 Good Photon Postsel & 17 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 11 $\pm$ 1 \ & 0 $\pm$ 0 \ & 13 $\pm$ 7 \ & 1 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0\ & 43 $\pm$ 7 \ & 46 $\pm$ 7 \\
+
+\hline
+\end{tabular}
+}
+\caption{The number of expected events in MC and events observed in data for the $\mu^+\mu^-$ channel, before the fitting process, including statistical uncertainties.}
+\end{sidewaystable}
+
+\begin{sidewaystable}[h!]
+  \centering
+%  \caption{Cut Flow table for the  $e^+e^-$ selection.}
+  %\label{tab:mumu_cutflow}
+\resizebox{\columnwidth}{!} {
+
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|}
+\hline
+\multicolumn{12}{|c|}{\textbf{Cut Flow table for the $e^+e^-$ selection}} \\
+\hline
+& \textbf{ttgamma} & \textbf{ttbar 0l} & \textbf{ttbar 1l} & \textbf{ttbar 2l} & \textbf{wjets} & \textbf{zjets} & \textbf{diboson} & \textbf{single t} & \textbf{qcd} & \textbf{all MC} & \textbf{data} \\
+\hline
+Skim & 3632 $\pm$ 12 \ & 18015 $\pm$ 38 \ & 141660 $\pm$ 117 \ & 146469 $\pm$ 83 \ & 213610 $\pm$ 1763 \ & 1295804 $\pm$ 1838 \ & 16644 $\pm$ 33 \ & 33257 $\pm$ 365 \ & 21035139 $\pm$ 153027\ & 22904230 $\pm$ 153048 \ & 1137895 $\pm$ 1067 \\
+Cleaning and HLT & 533 $\pm$ 5 \ & 142 $\pm$ 3 \ & 4302 $\pm$ 20 \ & 25215 $\pm$ 34 \ & 10504 $\pm$ 390 \ & 438516 $\pm$ 1038 \ & 4631 $\pm$ 15 \ & 2072 $\pm$ 66 \ & 206158 $\pm$ 19623\ & 692073 $\pm$ 19655 \ & 817968 $\pm$ 904 \\
+Di-lepton Sel & 275 $\pm$ 3 \ & 0 $\pm$ 0 \ & 109 $\pm$ 3 \ & 17942 $\pm$ 28 \ & 299 $\pm$ 59 \ & 303836 $\pm$ 837 \ & 3389 $\pm$ 12 \ & 974 $\pm$ 22 \ & 257 $\pm$ 182\ & 327080 $\pm$ 860 \ & 384642 $\pm$ 620 \\
+m(Z) veto & 247 $\pm$ 3 \ & 0 $\pm$ 0 \ & 93 $\pm$ 3 \ & 16018 $\pm$ 26 \ & 248 $\pm$ 54 \ & 66531 $\pm$ 418 \ & 852 $\pm$ 7 \ & 874 $\pm$ 21 \ & 257 $\pm$ 182\ & 85120 $\pm$ 460 \ & 106244 $\pm$ 326 \\
+$\geq$ 1 jet & 220 $\pm$ 3 \ & 0 $\pm$ 0 \ & 85 $\pm$ 3 \ & 15296 $\pm$ 26 \ & 166 $\pm$ 44 \ & 51367 $\pm$ 375 \ & 757 $\pm$ 7 \ & 838 $\pm$ 21 \ & 257 $\pm$ 182\ & 68987 $\pm$ 420 \ & 83739 $\pm$ 289 \\
+$\geq$ 2 jets & 188 $\pm$ 3 \ & 0 $\pm$ 0 \ & 72 $\pm$ 2 \ & 14501 $\pm$ 25 \ & 97 $\pm$ 34 \ & 40075 $\pm$ 332 \ & 654 $\pm$ 6 \ & 754 $\pm$ 19 \ & 137 $\pm$ 137\ & 56478 $\pm$ 362 \ & 67769 $\pm$ 260 \\
+$\slash{E_{T}}$ cut & 175 $\pm$ 3 \ & 0 $\pm$ 0 \ & 65 $\pm$ 2 \ & 13596 $\pm$ 24 \ & 81 $\pm$ 31 \ & 18112 $\pm$ 220 \ & 407 $\pm$ 5 \ & 701 $\pm$ 18 \ & 137 $\pm$ 137\ & 33274 $\pm$ 263 \ & 39949 $\pm$ 200 \\
+$\geq$ 1 CSV b-tag & 161 $\pm$ 2 \ & 0 $\pm$ 0 \ & 55 $\pm$ 2 \ & 12487 $\pm$ 23 \ & 29 $\pm$ 21 \ & 6826 $\pm$ 142 \ & 170 $\pm$ 3 \ & 601 $\pm$ 17 \ & 134 $\pm$ 134\ & 20463 $\pm$ 198 \ & 24449 $\pm$ 156 \\
+$\geq$ 1 Photon Presel & 157 $\pm$ 2 \ & 0 $\pm$ 0 \ & 53 $\pm$ 2 \ & 12213 $\pm$ 23 \ & 34 $\pm$ 24 \ & 7433 $\pm$ 156 \ & 182 $\pm$ 4 \ & 585 $\pm$ 16 \ & 131 $\pm$ 131\ & 20790 $\pm$ 207 \ & 24449 $\pm$ 156 \\
+$\geq$ 1 Good Photon Postsel & 15 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 9 $\pm$ 1 \ & 0 $\pm$ 0 \ & 12 $\pm$ 5 \ & 0 $\pm$ 0 \ & 1 $\pm$ 1 \ & 0 $\pm$ 0\ & 37 $\pm$ 5 \ & 34 $\pm$ 6 \\
+1 Good Photon Postsel & 15 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 9 $\pm$ 1 \ & 0 $\pm$ 0 \ & 12 $\pm$ 5 \ & 1 $\pm$ 0 \ & 1 $\pm$ 0 \ & 0 $\pm$ 0\ & 37 $\pm$ 5 \ & 34 $\pm$ 6 \\
+
+\hline
+\end{tabular}
+}
+\caption{The number of expected events in MC and events observed in data for the $e^+e^-$ channel, before the fitting process, including statistical uncertainties.}
+\end{sidewaystable}
+
+\begin{sidewaystable}[h!]
+  \centering
+%  \caption{Cut Flow table for the e \mu$ selection.}
+%  \label{tab:mumu_cutflow}
+\resizebox{\columnwidth}{!} {
+
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|}
+\hline
+\multicolumn{12}{|c|}{\textbf{Cut Flow table for the e$\mu$ selection}} \\
+\hline
+& \textbf{ttgamma} & \textbf{ttbar 0l} & \textbf{ttbar 1l} & \textbf{ttbar 2l} & \textbf{wjets} & \textbf{zjets} & \textbf{diboson} & \textbf{single t} & \textbf{qcd} & \textbf{all MC} & \textbf{data} \\
+\hline
+Skim & 3610 $\pm$ 12 \ & 18015 $\pm$ 38 \ & 141648 $\pm$ 117 \ & 144829 $\pm$ 82 \ & 213614 $\pm$ 1763 \ & 1334209 $\pm$ 1889 \ & 16963 $\pm$ 33 \ & 33168 $\pm$ 365 \ & 21035027 $\pm$ 153027 \ & 22941082 $\pm$ 153049\ & 2125311 $\pm$ 1458 \\
+Cleaning and HLT & 1407 $\pm$ 8 \ & 1147 $\pm$ 10 \ & 34466 $\pm$ 58 \ & 63666 $\pm$ 54 \ & 22308 $\pm$ 570 \ & 28157 $\pm$ 277 \ & 2018 $\pm$ 14 \ & 8624 $\pm$ 167 \ & 1410492 $\pm$ 34863 \ & 1572284 $\pm$ 34869\ & 875176 $\pm$ 936 \\
+Di-lepton Sel & 560 $\pm$ 5 \ & 0 $\pm$ 0 \ & 261 $\pm$ 5 \ & 38902 $\pm$ 41 \ & 313 $\pm$ 62 \ & 2776 $\pm$ 80 \ & 852 $\pm$ 9 \ & 2114 $\pm$ 35 \ & 1301 $\pm$ 406 \ & 47079 $\pm$ 422\ & 50564 $\pm$ 225 \\
+$\geq$ 1 jet & 508 $\pm$ 4 \ & 0 $\pm$ 0 \ & 226 $\pm$ 4 \ & 37416 $\pm$ 41 \ & 230 $\pm$ 53 \ & 2253 $\pm$ 73 \ & 713 $\pm$ 8 \ & 2009 $\pm$ 35 \ & 145 $\pm$ 131 \ & 43499 $\pm$ 168\ & 47188 $\pm$ 217 \\
+$\geq$ 2 jets & 440 $\pm$ 4 \ & 0 $\pm$ 0 \ & 172 $\pm$ 4 \ & 35445 $\pm$ 40 \ & 157 $\pm$ 43 \ & 1676 $\pm$ 63 \ & 572 $\pm$ 8 \ & 1767 $\pm$ 29 \ & 0 $\pm$ 0 \ & 40230 $\pm$ 91\ & 43107 $\pm$ 208 \\
+$\geq$ 1 CSV b-tag & 404 $\pm$ 4 \ & 0 $\pm$ 0 \ & 142 $\pm$ 3 \ & 32569 $\pm$ 38 \ & 90 $\pm$ 34 \ & 622 $\pm$ 39 \ & 219 $\pm$ 5 \ & 1529 $\pm$ 27 \ & 0 $\pm$ 0 \ & 35575 $\pm$ 70\ & 38657 $\pm$ 197 \\
+$\geq$ 1 Photon Presel & 395 $\pm$ 4 \ & 0 $\pm$ 0 \ & 139 $\pm$ 3 \ & 31855 $\pm$ 37 \ & 98 $\pm$ 37 \ & 676 $\pm$ 43 \ & 239 $\pm$ 5 \ & 1490 $\pm$ 26 \ & 0 $\pm$ 0 \ & 34891 $\pm$ 73\ & 38657 $\pm$ 197 \\
+$\geq$ 1 Good Photon Postsel & 40 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 23 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 1 $\pm$ 1 \ & 0 $\pm$ 0 \ & 64 $\pm$ 2\ & 42 $\pm$ 6 \\
+1 Good Photon Postsel & 39 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 22 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 1 $\pm$ 1 \ & 0 $\pm$ 0 \ & 62 $\pm$ 2\ & 41 $\pm$ 6 \\
+
+\hline
+\end{tabular}
+}
+\caption{The number of expected events in MC and events observed in data for the $e\mu$ channel, before the fitting process, including statistical uncertainties.}
+\end{sidewaystable}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Plots/}\includegraphics[width=0.5\textwidth]{Plots/}
+\includegraphics[width=0.5\textwidth]{Plots/}\includegraphics[width=0.5\textwidth]{Plots/}
+\caption{}
+\end{center}
+\end{figure}
 
 \section{Selection of $t\bar{t}+\gamma$ events} \label{sec-postselection}
 
-From the set of $t\bar{t}$ preselected events in Section \ref{sec-Preselection}, we select only events with a photon candidate present. Main fiducial requirements are implemented as cuts in $\abs{\eta}$ and $E_T$. CMS recommended cuts are added for fiducialisation and photon selection (tight cut-based photon ID 2012 with particle flow based isolation, \cite{CutBasedIsolation2012}).In order to suppress FSR from final state particles a $\Delta R$ cut of photons between jets and leptons is applied. All simulated data is scaled to the luminosity of the recorded data used.  
+From the set of $t\bar{t}$ preselected events in Section \ref{sec-Preselection}, we select only events with a photon candidate present. Main fiducial requirements are implemented as cuts in $\abs{\eta}$ and $E_T$. CMS recommended cuts are added for fiducialisation and photon selection (loose cut-based photon ID 2012 with particle flow based isolation, \cite{CutBasedIsolation2012}).In order to suppress FSR from final state particles a $\Delta R$ cut of photons between jets and leptons is applied. All simulated data is scaled to the luminosity of the recorded data used.  
+
+The fiducial cuts on the photon are given as:
 
 \begin{description}
 
@@ -172,6 +293,8 @@ statistics.
 \end{description}
 
 \subsection{Cut based photon ID}
+
+The cut-based photon isolation cuts are taken from the recommended values \cite{CutBasedIsolation2012}, with the inclusion of super-cluster footprint-removed isolation (see Section \ref{subsec-SCFR}), and can be seen below.
 
 \begin{description}
 
@@ -201,11 +324,15 @@ Cut given as $I_{char.had}(SCFR) < 5 \ \text{GeV} $. See Fig.\ref{fig-cutbasedMu
 Cut given as $I_{neut.had} < 1.0 GeV + 0.005*E_T(\gamma)$. See Fig.\ref{}.
 
 \item[super-cluster Footprint-removed Photon Isolation] The super-cluster footprint-removed isolation of the photon $I_{\gamma}$, with energy density correction applied. Cut given
-as $I_{\gamma} < 1.0 GeV + 0.005*E_T(\gamma)$. See Fig.\ref{}.
+as $I_{\gamma} < 1.0 GeV + 0.005*E_T(\gamma)$. See Fig.\ref{}. 
 
 \end{description}
 
-\subsubsection{FSR suppression}
+It must be noted that only super-cluster footprint-removed charged hadron isolation is used in this analysis, where PF isolation is used for neutral hadron and photon isolation.
+
+\subsection{FSR suppression}
+
+It is crucial that initial and final state radiation (ISR/FSR) is modelled correctly for this analysis as photons from initial and final state radiation are not considered as signal and we therefore implement cuts in $\eta$ and $\phi$ to reduce these events. The definition of isolation has been modified from the recommended values in order to make the data-driven estimate of the selection purity more robust.
 
 \begin{description}
 \item[\Delta R(\gamma, leptons)] In order to diminish FSR in final state leptons, e.g photons radiated off high $p_T$ muons, a minimum distance criterion in the $\eta - \phi$ plane is implemented. The cut is given as $\Delta R(\gamma, leptons) > 0.3$.
@@ -217,12 +344,36 @@ as $I_{\gamma} < 1.0 GeV + 0.005*E_T(\gamma)$. See Fig.\ref{}.
 
 A significance test was performed in an attempt to optimise the $\Delta R$ cut between final state leptons and jets, however this proved inconclusive due to an initial cut of $\Delta R > 0.1$ at generator level.
 
-\subsection{Super-cluster footprint-removal for photon isolation}
+\subsection{Super-cluster footprint-removal for photon isolation} \label{subsec-SCFR}
+
+The $t\bar{t}+\gamma$ analysis uses a method of removing the photon shower energy deposit, or ``footprint", from the isolation cone in order to remove the energy deposits of the selected photon from the isolation sum, and thus minimise correlation the between shower shape and isolation components in our signal process --- super-cluster footprint removal (SCFR). With this method the footprint is, effectively, cleaned so that the isolation sum is not biased from the presence of the photon at the centre of the cone. Shower-shape variables, defined within the super-cluster, are then decoupled from the isolation computation, defined outside of the super-cluster. When the footprint of the photon has finally been removed, the isolation sum for prompt photons is due only to pileup and underlying events. The process calculates each isolation component individually, however we only consider the charged hadron component of the isolation sum using this technique, which is then used to model our background and signal processes. This method was first implemented as a technique upon measuring the diphoton cross-section with 7 TeV data \cite{AN-12-485}. The main features of this module are improvement in the agreement between data and MC for ECAL detector-based isolation, better discriminating power against the misidentification of photons, and it allows us to use a fully data-driven method for constructing our template fit.
+
+We define photon isolation as the sum of the transverse momenta of all particles falling within the isolation cone surrounding the photon candidate. We define the isolation cone to be within a $\Delta R < 0.3$, where $\Delta R = \sqrt{(\Delta\eta)^2+(\Delta\phi)^2}$. The momentum of the prompt photon should not contribute to the isolation sum, and thus particles found close to the photon footprint are not included within the sum. 
+
+SCFR is a purely geometrical procedure which is computed as follows:
+
+\begin{description}
+	\item[Step 1]: Propagate the PF candidate trajectory from the primary vertex to the surface of the ECAL. We must take into account the magnetic field for charged hadron candidates. The impact parameter, $d_z$, is calculated in the z direction with respect to the primary vertex, neglecting the transverse distance, $d_{xy}$. 
+	\item[Step 2]: If the propagated PF candidate is found to hit the surface of a crystal lying within the super-cluster, then the candidate is therefore removed from the isolation sum, as shown in Figure \ref{fig-SCFR}. The PF candidate is allowed to fall within a volume of 25\% of the crystal size around the crystal, in order to account for the fact that the PF candidate's energy deposit has a finite extension in the ECAL, and thus has a reasonably large effect at the edges of the super-cluster. 
+\end{description}
+
+This is such that the super-cluster shape defines the region which is excluded from the isolation cone in each event.
+
+In the standard particle flow algorithm isolation is calculated on an individual basis for PF candidates divided into three groups: Charged hadrons, neutral hadrons, and photons. This procedure carries potential pit-falls, listed below.
+
+\begin{itemize}
+	\item When computing the sum of isolation, any energy deposit that is not associated with a reconstructed particle is not included within the sum.  
+	\item When reconstructing a photon, its energy may be dispersed over a large radius within the detector, and thus reconstructed as several particles. This will greatly affect the isolation of the photon.
+\end{itemize}
+
+This does not have too much of an impact when using the standard cut-based particle IDs, such as used in this analysis, however as we are interested in the isolation profile shape some improvements can be made. 
+
+Super-cluster footprint-removed isolation deals with PF candidates, whereas PF isolation deals with identified particles. This reduces the probability for the first pit-fall to happen. The second pit-fall arises due to the leakage of energy from the photon into the isolation cone around the super-cluster. Therefore, a different method for defining the isolation cone is implemented to overcome this problem, whereby summing the transverse momentum of particle flow candidates that fall within the isolation cone, but which are not close to the super-cluster in the ECAL. The $\eta$ and $\phi$ coordinates of the super-cluster are calculated by checking the position of hits recorded, and if a PF candidate that has been propagated to the surface of the calorimeter lies within the super-cluster, enlarged by 25\%, then the photon is not considered isolation and thus the candidate is not added to the isolation sum. The standard CMS implementation for energy density correction, $\rho$, is applied to the isolation to account for pileup. 
 
 \begin{figure} \label{fig-SCFR}
 \begin{center}
 \includegraphics[width=0.4\textwidth]{Figures/RandomCone3.pdf}
-\caption{}
+\caption{Graphic representation of the PF candidate footprint (in red) from the primary interaction vertex, within the isolation cone (green). \cite{MarcoThesis}}
 \end{center}
 \end{figure}
 
@@ -231,7 +382,7 @@ A significance test was performed in an attempt to optimise the $\Delta R$ cut b
 \begin{figure} \label{fig-RandomConeIsolation}
 \begin{center}
 \includegraphics[width=0.45\textwidth]{Figures/RandomCone1.png}\includegraphics[width=0.55\textwidth]{Figures/RandomCone2.png}
-\caption{}
+\caption{Illustration of the random cone technique. Under the assumption that the footprint of the photon (red) is completely removed from the isolation sum, the energy deposited in the random-cone area (green in right image) predicts the energy deposited in the isolation cone (green area in left image). \cite{MarcoThesis}}
 \end{center}
 \end{figure}
 

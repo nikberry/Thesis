@@ -1,5 +1,15 @@
 \begin{thebibliography}{10}
 
+\bibitem{SergeyThesis}
+Sergey Senkin.
+\newblock Top quark physics at the lhc with the cms detector.
+\newblock {\em PhD Thesis}, page 204, 04/2014.
+
+\bibitem{ttbarDecayFractions}
+Thomas Mueller.
+\newblock New results from the top quark.
+\newblock 2012.
+
 \bibitem{LHClumi}
 Alemany-Fernandez et~al.
 \newblock Operation and configuration of the lhc in run 1.
@@ -39,6 +49,17 @@ H.~J.~A. Tholen and A.~Stah.
 \newblock {\em https://cds.cern.ch/record/1505276}, pages no.
   CERN--THESIS--2012--222, 2012.
 
+\bibitem{ttgammasimulation}
+Mikhail Makouski Nik Berry Till Arndt Heiner~Tholen Heiko~Geenen,
+  Yurii~Maravin.
+\newblock Monte carlo simulation of the top quark pair plus photon production.
+\newblock {\em CMS Note}, 2013/382, 2013.
+
+\bibitem{CMS-PAS-PFT-09-001}
+{Particle-Flow Event Reconstruction in CMS and Performance for Jets, Taus, and
+  MET}.
+\newblock Technical Report CMS-PAS-PFT-09-001, CERN, 2009. Geneva, Apr 2009.
+
 \bibitem{PhilThesis}
 Philip Symonds.
 \newblock Top pair production cross sections and differential cross sections in
@@ -70,11 +91,6 @@ CMS Collaboration.
 \newblock Precise mapping of the magnetic field in the cms barrel yoke using
   cosmic rays.
 \newblock {\em Journal of Instrumentation}, 5(03):T03021, 2010.
-
-\bibitem{SergeyThesis}
-Sergey Senkin.
-\newblock Top quark physics at the lhc with the cms detector.
-\newblock {\em PhD Thesis}, page 204, 04/2014.
 
 \bibitem{ElectronEfficiencies}
 CMS Collaboration.
@@ -147,11 +163,6 @@ J~et~al. Mans.
 {CMS Collaboration}.
 \newblock {CMS} technical design report, volume {II}: {Physics} performance.
 \newblock {\em J. Phys. G}, 34:995--1579, 2007.
-
-\bibitem{CMS-PAS-PFT-09-001}
-{Particle-Flow Event Reconstruction in CMS and Performance for Jets, Taus, and
-  MET}.
-\newblock Technical Report CMS-PAS-PFT-09-001, CERN, 2009. Geneva, Apr 2009.
 
 \bibitem{CMS-PAS-PFT-10-001}
 {Commissioning of the Particle-flow Event Reconstruction with the first LHC
@@ -366,6 +377,24 @@ CMS Collaboration.
 \newblock Simple cut based id 2012.
 \newblock {\em CMS Twiki}.
 
+\bibitem{MarcoThesis}
+Marco Peruzzi.
+\newblock Measurement of differential cross sections for diphoton production in
+  pp collisions with the cms experiment.
+\newblock {\em CMS Thesis}, 2015.
+
+\bibitem{ttbarXsectiondilepton}
+CMS Colaboration.
+\newblock Top pair cross section in dileptons.
+\newblock {\em CMS Physics Analysis Summary}, TOP-12-007, 2012.
+
+\bibitem{PhysRevD.89.092005}
+CMS Collaboration.
+\newblock Measurement of the $w\ensuremath{\gamma}$ and $z\ensuremath{\gamma}$
+  inclusive cross sections in $pp$ collisions at $\sqrt{s}=7\text{ }\text{
+  }\mathrm{TeV}$ and limits on anomalous triple gauge boson couplings.
+\newblock {\em Phys. Rev. D}, 89:092005, May 2014.
+
 \bibitem{QCDCorrectionsttgamma2011}
 Kirill Melnikov, Markus Schulze, and Andreas Scharf.
 \newblock {QCD corrections to top quark pair production in association with a
@@ -395,6 +424,18 @@ Simon White.
 \bibitem{CMS-PAS-LUM-13-001}
 {CMS Luminosity Based on Pixel Cluster Counting - Summer 2013 Update}.
 \newblock Technical Report CMS-PAS-LUM-13-001, CERN, Geneva, 2013.
+
+\bibitem{Khachatryan:2015hwa}
+Vardan Khachatryan et~al.
+\newblock {Performance of Electron Reconstruction and Selection with the CMS
+  Detector in Proton-Proton Collisions at √s = 8 TeV}.
+\newblock {\em JINST}, 10(06):P06005, 2015.
+
+\bibitem{1748-0221-8-11-P11002}
+The~CMS collaboration.
+\newblock The performance of the cms muon detector in proton-proton collisions
+  at √ s = 7 tev at the lhc.
+\newblock {\em Journal of Instrumentation}, 8(11):P11002, 2013.
 
 \bibitem{Vogt:2004mw}
 A.~Vogt, S.~Moch, and J.~A.~M. Vermaseren.

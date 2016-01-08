@@ -23,13 +23,30 @@ Repeated entry---line 1856 of file PhDThesis.bib
  : @article{1748-0221-6-11-P11002
  :                               ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 1919 of file PhDThesis.bib
+ : @techreport{CMS-PAS-PFT-09-001
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1932 of file PhDThesis.bib
+ : @techreport{CMS-PAS-PFT-09-001
+ :                               ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "MishaSignalDefinition"
+Warning--I didn't find a database entry for "AN-12-485"
+Warning--I didn't find a database entry for "tangandprobe"
+Warning--empty journal in ttbarDecayFractions
 Warning--empty journal in TrackingResults
+Too many commas in name 1 of "Heiko Geenen, Yurii Maravin, Mikhail Makouski, Nik Berry, Till Arndt, Heiner Tholen" for entry ttgammasimulation
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "Heiko Geenen, Yurii Maravin, Mikhail Makouski, Nik Berry, Till Arndt, Heiner Tholen" for entry ttgammasimulation
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "Heiko Geenen, Yurii Maravin, Mikhail Makouski, Nik Berry, Till Arndt, Heiner Tholen" for entry ttgammasimulation
+while executing---line 944 of file unsrt.bst
+Warning--empty author in CMS-PAS-PFT-09-001
 Warning--empty author and editor in HCALTdr
 Warning--empty year in ElectronEfficiencies
 Warning--empty year in MuonEfficiencies
 Warning--empty year in SiliconStripSensors1
-Warning--empty author in CMS-PAS-PFT-09-001
 Warning--empty author in CMS-PAS-PFT-10-001
 Warning--empty institution in CMS-PAS-PFT-10-001
 Warning--empty year in CMS-PAS-PFT-10-001
@@ -59,45 +76,45 @@ Warning--empty author in CMS:2011esa
 Warning--empty journal in CMS:2011esa
 Warning--empty author in BTAGPAS
 Warning--empty journal in BTAGPAS
-You've used 79 entries,
+You've used 86 entries,
             1791 wiz_defined-function locations,
-            891 strings with 14896 characters,
-and the built_in function-call counts, 14275 in all, are:
-= -- 1202
-> -- 546
+            925 strings with 16029 characters,
+and the built_in function-call counts, 15412 in all, are:
+= -- 1302
+> -- 578
 < -- 9
-+ -- 226
-- -- 147
-* -- 886
-:= -- 2373
-add.period$ -- 230
-call.type$ -- 79
-change.case$ -- 78
++ -- 241
+- -- 155
+* -- 945
+:= -- 2569
+add.period$ -- 251
+call.type$ -- 86
+change.case$ -- 85
 chr.to.int$ -- 0
-cite$ -- 108
-duplicate$ -- 712
-empty$ -- 1467
-format.name$ -- 147
-if$ -- 3131
+cite$ -- 116
+duplicate$ -- 771
+empty$ -- 1591
+format.name$ -- 155
+if$ -- 3379
 int.to.chr$ -- 0
-int.to.str$ -- 79
-missing$ -- 73
-newline$ -- 390
-num.names$ -- 70
-pop$ -- 184
+int.to.str$ -- 86
+missing$ -- 80
+newline$ -- 425
+num.names$ -- 77
+pop$ -- 197
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 295
+skip$ -- 319
 stack$ -- 0
-substring$ -- 688
-swap$ -- 106
+substring$ -- 742
+swap$ -- 112
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 29
-while$ -- 111
-width$ -- 81
-write$ -- 818
-(There were 8 error messages)
+warning$ -- 30
+while$ -- 121
+width$ -- 88
+write$ -- 892
+(There were 13 error messages)

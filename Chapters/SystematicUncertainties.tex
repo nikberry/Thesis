@@ -1,7 +1,5 @@
 \chapter{Systematic Uncertainties} \label{chap-SystematicUncertainties}
 
-
-
 Upon studying such a decay, large statistical uncertainties, comparable to the systematic uncertainties on the measurement, arise due to the small cross-section of the $t\bar{t}+\gamma$ process and small branching fraction of the decay channel. In order to perform a scientifically solid measurement we must take into account and fully understand all systematic uncertainties associated with the analysis. To begin with, we can categorise the errors into two broad categories:
 
 \begin{description}
@@ -25,16 +23,37 @@ Although the total integrated luminosity is measured to be the value described a
 
 \subsection{Lepton Efficiencies} \label{subsec-LeptonEfficiencies}
 
-Lepton efficiencies are measured and implemented in order to correct
-Calculated by T&P
+We calculate lepton efficiencies and associated uncertainties in order to correct for the number of leptons observed in data and those in simulation. In order to calculate lepton efficiencies, the tag and probe method is used \cite{tangandprobe}. The method analyses events from a Drell-Yan $Z \to l^+l^-$ sample as it contains a large number of unbiased lepton-pair events with a high purity. Using this sample, the tag and probe technique selects lepton-pair events such that one of the leptons is defined as the ``tag" lepton, which is selected with under much tighter requirements, and the second ``probe" lepton is selected under much looser constraints relative to the ``tag".  The ``tag" lepton candidate satisfies the trigger criteria, tight identification, and isolation requirements. The ``probe" lepton candidate is required to pass specific criteria depending on the efficiency under study. We thus create two subsets of the data, such that one contains events that pass the probe selection, and one collection that contains events that failed probe selection. We then take the efficiency of the selection to be the fraction of events that pass the probe selection criteria, defined as 
+
+\begin{equation}
+\epsilon_{all} = \epsilon_{reco.}\epsilon_{tight}\epsilon_{trig.}
+\end{equation}
+
+The tag and probe method is applied to electrons and muons separately, where it is applied to electrons in the barrel and endcap regions individually. The purity of the di-lepton sample for the tag and probe is held by requiring the invariant mass of the lepton pair to fall within the mass window of the Z boson, $70 < M_{ll} < 130$ $\GeVcc$. We then divide the total lepton efficiency into three sub-divisions: the trigger efficiency of identifying a lepton candidate, the efficiency for the reconstruction algorithms to reconstruct leptons, and the efficiency for the identification and isolation selection requirements to correctly select leptons. 
+
+In order to measure the trigger efficiencies for both electrons and muons, selected probes are require to pass normal kinematic cuts such that it must pass the HLT to be considered. We find that the trigger efficiency for muons is greater than 99\% and for electrons is greater than 95\%, with an associated uncertainty of the order of 4\% and varies depending on the used trigger. The reconstruction efficiency, $\epsilon_{reco.}$, is defined as the efficiency that an ECAL super-cluster seeds an ECAL-driven electron candidate that passes the probe selection requirement, and is relative to ECAL clusters within the ECAL acceptance. We define the probe to have a reconstructed energy greater than 10 GeV, such that the supercluster lies within range of the tracker system. At this energy, we find the reconstruction efficiency to be greater than 85\%, and more than 99\% with an energy threshold of 20 GeV \cite{Khachatryan:2015hwa}.
+
+For the case of muons, an initial ``preselection" of Z events for the tag-and-probe method is obtained by selecting two oppositely charged tracks measured in the central tracker that each have a $p_T > 25$ GeV, $|\eta| < 2.1$, and that when combined lie within the mass window of $60 < m_{\mu^+\mu^-} < 120$ GeV. When defining a ``tag" muon we require that it is matched to a preselected track, is a global and tracker muon, passes the selection described in Section \ref{chap-EventSelection}, and corresponds to a HLT muon. All other preselected tracks are considered as probes and are used in order to measure the efficiency. An efficiency of approximately 95-99\% is observed in data for all muon systems \cite{1748-0221-8-11-P11002}. 
+
+The tag-and-probe method is applied to both data and simulated samples, and thus we compute the efficiency for MC simulation ($\epsilon_{sim.}$) and data ($\epsilon_{data}$).  We then compute the ratio of efficiencies along with the associated statistical and systematic uncertainties, given as:
+
+\begin{equation}
+\rho = \frac{\epsilon_{data}}{\epsilon_{sim.}}
+\end{equation}
+
+where the efficiencies and the ratios of the efficiencies are estimated in bins of E$_T$ and $\eta$ of the electron. The efficiencies and associated statistical and systematic uncertainties are derived by the EGamma and Muon Physics Object Groups (POGs) for electrons and muons, respectively.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ake sure correct and isolation/ID effs different to trig and reco.
 
 \section{Shape Uncertainties} \label{sec-ShapeUncertainties}
 
-\subsection{Parton Density Function} \label{subsec-PDFUncertainties}
+\subsection{Parton Distribution Function} \label{subsec-PDFUncertainties}
 
-Parton Density Functions (PDFs), denoted as $f_i(x, Q^2)$, give the probability of finding a parton of flavour $i$ (quark or gluon) carrying momentum fraction $x$ of the proton momentum where Q is the resolution scale of the hard interaction. Cross-sections are calculated by convoluting parton level cross-sections with PDFs. Due to the non-perturbative nature of partons not being observed as free particles, we cannot fully obtain PDFs by perturbative QCD alone. The shapes of PDFs are determined from global fits to data from experimental observables in various processes, such as deep inelastic scattering (DIS), Drell-Yan, and jet data using the DGLAP evolution equation \cite{Vogt:2004mw}. PDFs are updated by the collaborations who perform the fits, such as CTEQ \cite{PhysRevD.78.013004}, each time new data or theoretical predictions become available.
+Parton Distribution Functions (PDFs), denoted as $f_i(x, Q^2)$, give the probability of finding a parton of flavour $i$ (quark or gluon) carrying momentum fraction $x$ of the proton momentum where Q is the resolution scale of the hard interaction. Cross-sections are calculated by convoluting parton level cross-sections with PDFs. Due to the non-perturbative nature of partons and thus not being observed as free particles, we cannot fully obtain PDFs by perturbative QCD alone. The shapes of PDFs are determined from global fits to data from experimental observables in various processes, such as deep inelastic scattering (DIS), Drell-Yan, and jet data using the DGLAP evolution equation \cite{Vogt:2004mw}.
 
-The set of PDFs used in this analysis are taken from the CT10 \cite{PhysRevD.89.033009} set. CT10 provides the nominal PDF weight along with 25 eigenvalues, which provide 50 alternative weights for each event
+Event generators assign momentum fraction and energy to a parton based on PDFs which are calculated by taking data from various experiments, where each experiment has an associated uncertainty. The uncertainties must be propagated throughout the PDFs, therefore we must further propagate into our final physics analysis. PDFs are updated by the collaborations who perform the fits, such as CTEQ \cite{PhysRevD.78.013004}, each time new data or theoretical predictions become available. The set of PDFs used in this analysis are taken from the CT10 \cite{PhysRevD.89.033009} set. CT10 provides the nominal PDF weight along with 25 free parameters to describe the parton distributions, and thus 25 eigenvalues, providing 50 alternative weights per event. In order to access the weights, we use the Les Houches Accord Parton Distribution Function (LHAPDF) library \cite{Whalley:2005nh}. 
+
+We take the difference between each of the weights and the nominal and add in quadrature, where the final result is then used to calculate the systematic uncertainty associated with the PDFs. %%%%%%%How PDF uncertainties affect the analysis
 
 
 
@@ -42,16 +61,7 @@ The set of PDFs used in this analysis are taken from the CT10 \cite{PhysRevD.89.
 
 Another example of a process that is not described well in simulation compared to data is PU. Additional pileup interactions are included within the simulated samples, however the true number of primary vertices in simulation does not match the number observed in data correctly. This discrepancy between simulation and data gives rise to an incorrect estimation of signal and/or background events in an analysis. In order to correct for this effect, additional corrections must be applied to all simulated samples. The PU re-weighting comes into fruition when dealing with the ever changing instantaneous luminosity of the beams, and thus the change in number of primary vertices in a single data-taking period. In order to implement the PU re-weighting, the number of primary vertices is re-weighted to match the current running conditions in the LHC, for example the number of primary vertices changes with the energy and luminosity of the beams. The obtained uncertainty is then included in the systematic uncertainty on the final results of the analysis. 
 
-
-
-% The number of primary vertices is extracted directly from minimum bias data over the
-% course of the running period being examined. By varying the expected minimum bias
-% cross section at the LHC by ±5% new primary vertex distributions are calculated and can
-% be used to determine the impact on the analysis of more or less pileup in the data. Event
-% pileup proves to be one of the smaller uncertainties in both analyses, with an impact on
-% the event yields of simulated samples varying by less than 2% for its variations. It should
-% be noted, however, that the t t  ̄ Z sample in the tZq search is more susceptible to the pileup
-% systematic, showing a shift in event yield of almost 5%.
+We take the number of primary vertices directly from the minimum bias data obtained over the running period in question. We then vary the minimum bias cross-section by $\pm5\%$ which then recalculates the primary vertex distributions which we then use to measure the total impact of the pile-up on the analysis when more, or less, pile-up is observed within the data. %%%%% PU in ttgamma
 
 % Maybe mention out of time pileup?
 
@@ -63,9 +73,7 @@ When we change the jet energy scale (JES) in analysis, the kinematics of each je
 
 The jet energy resolution (JER) is measured as the standard deviation of a Gaussian that is fitted to the jet response of the detector. The JER in data has been found to be worse than the JER in simulation, $\sim 10\%$ broader, and has an associated uncertainty of a similar size \cite{CMS:2011esa}. We correct for this effect by smearing the 4-momentum of jets in MC as a function of the true and reconstructed p$_T$ and $\eta$. To obtain our up and down systematic samples for the jet energy resolution, which are then included within the analysis as nuisance parameters, the smearing is applied twice for up and not at all for down. %%%Impact on JER in ttgamma
 
-% The smearing factor is applied twice or not at all to
-% create scaled up and down systematic samples, which are included as nuisance parameters
-% in the statistical analysis. The impact of the JER uncertainty is found to be small in
+% The impact of the JER uncertainty is found to be small in
 % both analyses, usually impacting event yields by less than a percent. There are notable
 % exceptions to this, for example the tW Z+jets sample, but this is accounted for by the
 % limited statistics in the simulated samples. 
@@ -75,22 +83,30 @@ The jet energy resolution (JER) is measured as the standard deviation of a Gauss
 Events that contain neutrinos in the final state are affected mostly by uncertainties from modelling of MET from simulation. The way that the MET is calculated is by taking the sum of the p$_T$ of all PF-reconstructed objects, including `unclustered' energy deposits, and thus uncertainties from these propagate into the calculation of the MET. Unclustered energy is defined as recorded energy deposits that have a low p$_T$ and/or not included in a calorimeter energy deposit cluster due to isolation requirements. PF-reconstructed objects are already corrected for during the reconstruction process ($\rho$-correction, etc), however this is not the case for unclustered energy deposits. Because the unclustered energy is not corrected for during reconstruction, this is where the largest, most prominent source of uncertainty arises. In order to measure the uncertainty on the MET, we remove the p$_T$ of all PF-reconstructed objects from the MET calculation, the residual energy is scaled up and down by 10\%. Other uncertainties that affect the MET, such as JES and JER, are propagated on calculation and thus included in their respective uncertainties. Effects ee and mumu channels due to MET cut and neutrino final states %talk about effect on analysis
 
 % effects of PU on MET distribution corrected in simulation using scale factors obtained from a Z+jets encriched control region.
-% The difference between the original and scaled event yields is used as the uncer-
-% tainty on the background normalisation arising from this reweighting. This uncertainty,
+% The difference between the original and scaled event yields is used as the uncertainty on the background normalisation arising from this reweighting. This uncertainty,
 % which only affects the reweighted Z+jets sample in the tW search, is found to be very
 % large, especially in the ttbar control regions where there are limited statistics in the simulated
 % samples.
 
 
 
-\subsection{B-tagging Efficicency} \label{subsec-BTagEfficiency}
+\subsection{B-tagging Efficiency} \label{subsec-BTagEfficiency}
 
 % The b-tagging scale factors were applied differently in the
 % two analyses, and the uncertainties were also, therefore, treated differently.
 
-Studies of b-tagging efficiencies and misidentification rates are conducted by the b-tag and vertexing group (BTV) and scale factors are produced to correct for discrepancies between data and MC simulation. For the Run I data-taking period at 8 TeV, the BTV group performed studies using $t\bar{t}$ and multijet samples \cite{BTAGPAS}. The given samples were chosen such that studies could be performed using events with at least two jets, and a choice of the number of leptons. %b-tagging SFs in ttgamma
+Studies of b-tagging efficiencies and misidentification rates are conducted by the b-tag and vertexing group (BTV) and scale factors are produced to correct for discrepancies between data and MC simulation. For the Run I data-taking period at 8 TeV, the BTV group performed studies using $t\bar{t}$ and multi-jet samples \cite{BTAGPAS}. The given samples were chosen such that studies could be performed using events with at least two jets, and a choice of the number of leptons. %b-tagging SFs in ttgamma
 
-\subsection{Data-driven Reweighting} \label{subsec-DataDriverReweightingUncertainties}
+\subsection{Data-driven Re-weighting} \label{subsec-DataDriverReweightingUncertainties}
+
+
+
+% Similarly to the uncertainty introduced in Section 7.2.4, the reweighting of the recon-
+% structed Z boson p T in the data driven Z+jets background estimation described in Section
+% 6.2.2 also introduces a systematic uncertainty. As with the  
+% E T modelling, the difference
+% between the default and reweighted event yields is used as the uncertainty on the back-
+% ground normalisation
 
 \section{Modelling Uncertainties} \label{sec-ModellingUncertainties}
 
@@ -106,7 +122,7 @@ Studies of b-tagging efficiencies and misidentification rates are conducted by t
 \centering
 \begin{tabular}{|l|c|c|}
 \hline
-\textbf{Source} & \multicolumn{2}{c|}{\textbf{Uncertaintiy (\%)}} \\ \cline{2-3}
+\textbf{Source} & \multicolumn{2}{c|}{\textbf{Uncertainty (\%)}} \\ \cline{2-3}
  &  & \\
 \hline
 Statistical & & \\
