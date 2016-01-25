@@ -118,7 +118,7 @@ The sensor elements in the silicon strip tracker system are single sided p-on-n 
 
 \subsection{Tracker performance in Run I} \label{subsec-TrackerPerformance}
 
-Over the Run I period, from 2010 to 2013, the LHC delivered around 6 fb$^{-1}$ at 7 TeV and 23.3 fb$^{-1}$ at 8 TeV (Figure \ref{fig-LHClumi}), out of this approximately 93\% was recorded by CMS. The CMS tracker was responsible for roughly one third of the lost data due to the high voltage only being ramped up once stable beams are reached. By the end of Run I approximately 2.3\% of the tracker barrel and 7.2\% of the endcap modules were inactive associated with faulty wire-bonds or poor connections. During this period around 2.5\% of the strip detector became inactive because of short-circuits in the control rings and HV lines, or due to faulty optical communications. Maintenance and repairs began upon shutdown of the LHC, and CMS was able to salvage up to 1.5\% of the pixel barrel, up to 0.5\% of the pixel endcap modules, and up to 1\% of the strip detectors \cite{TrackerPerformance}.
+Over the Run I period, from 2010 to 2013, the LHC delivered around 6 fb$^{-1}$ at 7 TeV and 23.3 fb$^{-1}$ at 8 TeV (Figure \ref{fig-LHClumi}), out of this approximately 93\% was recorded by CMS. The CMS tracker was responsible for roughly one third of the lost data due to the high voltage only being ramped up once stable beams are reached. By the end of Run I approximately 2.3\% of the tracker barrel and 7.2\% of the endcap modules were inactive associated with faulty wire-bonds or poor connections. During this period around 2.5\% of the strip detector became inactive because of short-circuits in the control rings and HV lines, or due to faulty optical communications. Maintenance and repairs began upon shut-down of the LHC, and CMS was able to salvage up to 1.5\% of the pixel barrel, up to 0.5\% of the pixel endcap modules, and up to 1\% of the strip detectors \cite{TrackerPerformance}.
 
 In order to process the data prior to track reconstruction the hit efficiency must be measured, the points at which a charged particle traversed each layer of the inner tracker. After track reconstruction the efficiency is calculated as the fraction of particles that are expected to pass through the fiducial regions of the sensors in a layer of the detector in which matching hits are found. For the strip detectors a hit is considered to be a hit if the energy deposit is found in the module in which it was expected to be observed. For efficient reconstruction of tracks knowledge of the position of each module in three-dimensional space is required. Distortions and movements of the inner tracker modules were monitored using cosmic ray data and collision tracks by measuring the distance between expected and observed track trajectories. Distortions in tracking lead to biases in the reconstructed track curvature, and were studied using the reconstructed mass of $Z \to \mu\mu$ events as a function of the positive muon's azimuthal angle. The muon reconstruction efficiency can be seen in Figure \ref{fig-MuonReconstructionEfficiency}.
 
@@ -174,17 +174,22 @@ The light read-out system for the barrel crystals comes in the form of Hamamatsu
 
 The energy resolution, $\frac{\sigma_E}{E}$ of the ECAL crystals can be parameterised by
 
-\begin{equation}
+\begin{equation} \label{eqn-ECALenergyresolution}
 \left(\frac{\sigma_E}{E}\right)^2 = \left(\frac{A}{\sqrt{E}}\right)^2 + \left(\frac{B}{E}\right)^2 + C^2
 \end{equation}
 
-where A and B are the stochastic term for scintillation showers and noise term due to read-out electronics and PMTs, respectively. C is a constant term which is a direct measure of the performance of the PbWO$_4$ crystals. 
+where A and B are the stochastic term for scintillation showers and noise term due to read-out electronics and PMTs, respectively. C is a constant term which is a direct measure of the performance of the PbWO$_4$ crystals. We find that the performance of the ECAL can be attributed to inconsistencies in longitudinal light collection, noise due to the read-out electronics, and dead material within the detector causing energy leakages. The resolution was measured from test-beam data, using electrons within the energy rane of between 20 and 250 GeV. The values of A, B, and C have been measured to be 2.8\%, 12\%, and 0.3\%, respectively \cite{CMSexperiment}. The results were obtained in the absence of magnetic field, very little inert material in front of the calorimeter, and where the beam was aligned to the centres of the ECAL crystals. 
+
+For unconverted photons within the energy range of interest for physics analysis ($\sim100$ GeV) we see that the energy resolution of the ECAL will be dominated by the constant term\footnote{For photons and electrons converting at small radii within the silicon tracker, the dominant contribution to the energy resolution arises due to radiation in the silicon tracker material combined with the effect from the magnetic field} in Equation \ref{eqn-ECALenergyresolution}. The result signifies that the performance of the ECAL is largely dependent on the quality of calibration and monitoring during data-taking periods. 
 
 \begin{figure} \label{fig-}
-\includegraphics[width=0.48\textwidth]{Figures/EEFractionalResponse.png}
-\includegraphics[width=0.52\textwidth]{Figures/EEResolutionDeterioration.png}
-\caption{Simulation of fractional response from EE as a function of $\eta$, for different integrated luminosities. Right: Deterioration of the energy resolution in EE as a function of $\eta$, for different integrated luminosities \cite{ECALPerformance}.}
+\includegraphics[width=0.48\textwidth]{Figures/EcalIvariantMass.png}
+\includegraphics[width=0.52\textwidth]{Figures/EcalEtaInclusive.png}
+\caption{Left: The mass resolution of the Z peak, reconstructed from its di-electron decay mode, as a function of time for the barrel. Right: Relative electron (ECAL) energy resolution unfolded in bins of pseudo-rapidity $\eta$ for the barrel. \cite{ECALPerformance}.}
 \end{figure}
+
+
+\cite{CMS-DP-2013-007}
 
 \section{Hadron Calorimeter} \label{sec-HadronCalorimeter}
 
@@ -277,6 +282,20 @@ The third sub-detector in the muon system is implemented to serve as a complimen
 
 \subsection{Performance of the muon system in Run I} \label{subsec-MuonSystemPerformance}
 
+During the Run I data taking period, CMS muon reconstruction was performed using the silicon inner tracker in coincidence with up to four of the available gas-ionisation muon chambers: DTs, CSCs, and RPCs. Standard CMS muon tracks can be reconstructed independently both in the inner tracker and in the muon system, where tracks are labelled tracker and standalone-muon tracks, respectvely. When reconstructing a global muon, we rely on local reconstruction of objects within each individual muon chamber. Each muon chamber uses different techniques in reconstructing charged particles that cross the chambers, however every case relies on the ionisation of gas within the volume of the detector.  
+
+Basic objects that traverse the ionising gas within the chambers are then read out and reconstructed as hits, which are defined as spatial points with assigned uncertainties, and segments, which are obtained by fitting straight lines to the reconstructed hits \cite{Chatrchyan:2013sba}. For the reconstruction of standalone-muon tracks, a matching tracker track is pinpointed by comparing the parameters of each and propagating onto a common surface --- which is known as the outside-in method. Global muons are fitted by combining hits from each of the tracker and standalone-muon tracks and using the Kalman-filter technique. 
+
+RPC muons are reconstructed in a similar fashion to tracker muons by requiring only two reconstructed hits in different layers of the RPC chambers. The matching criteria for each of these types of reconstructed hits is the distance and pull between their positions in a local x and y frame, where we define the pull as the residual between the extrapolated positions over the combined uncertainty \cite{MUO-12-482}. The pulls and residuals for track segment matching has been studied previously \cite{Chatrchyan:2013sba}. By reconstructed tracker muons in this manner we drastically reduce the probability of reconstructing punch-through hadrons. By combining different algorithms we are able to increase the efficiency of correctly reconstructing a muon.
+
+The efficiency of correctly reconstructing a muon track is studied by way of the tag-and-probe method (see Section \ref{subsec-LeptonEfficiencies}) using a sample of Z bosons decaying to muons. The analysis is conducted in a semi-Tight muon selection regime, whereby the candidate is required to be identified as a RPC muon with hits matched in at least three RPC layers, and two matched hits in two muon stations. Thr semi-Tight muon selection does not include particle flow identification and isolation cuts. The results yield and increase of around 3\% in the efficiency compared to previous measurements \cite{MUO-12-482}, and can be seen in Figure \ref{fig-MuonEfficiencies}. The efficiency lies above 99\% in for most p$_T$ and $\eta$ regions. 
+
+\begin{figure} \label{fig-MuonEfficiencies}
+\begin{center}
+\includegraphics[width=\textwidth]{Figures/MuonEfficiencies.png}
+\caption{RPCMuon efficiencies on top of the semi-Tight muon selection in p$_T$ and $|\eta|$. \cite{MUO-12-482}}
+\end{center}
+\end{figure}
 
 
 \section{Trigger and Data Acquisition} \label{sec-Trigger}
@@ -297,4 +316,17 @@ The HLT is a software system residing in a CPU filter farm containing around 100
 
 \subsection{Performance of the Trigger in Run 1} \label{subsec-TriggerPerformance}
 
+The majority of physics analyses in CMS that published findings using Run I data at a centre-of-mass of $\sqrt{s}=8$ TeV used complicated triggers, where multiple categories of objects may be incorporated, such as jets and leptons. This category of trigger looks at the whole event topology and calculates such quantities as the total scalar energy, H$_T$, or missing transverse energy. 
 
+At the new unprecedented energies recorded by the LHC, gluon fusion is the most dominant process in proton-proton collisions, and as a result the rate of production for top-quark pairs increases and the LHC essentially becomes a top factory. As a result, the production cross-section for top pairs is one of the most fundamental measurements to compute. The measurement is computed using the semi-leptonic channel, such that one of the top quarks will decay to a b-jet and a lepton (electron or muon) and a neutrino, and the other will decay to a b-quark and two jets \cite{Chatrchyan:2012ria, SemiLeptPAS}. 
+
+In order to accommodate the high instantaneous luminosity and pile-up throughout Run I, various triggers were used: Lepton triggers with very tight identification and calorimeter isolation requirements, jets and PF jets were limited to the central region. Similar techniques were implemented at the L1 stage of reconstruction. Muons were defined within the central region ($|\eta| < 2.1$), charged hadron subtraction was introduced to deal with pile-up mitigation, and during the second half of the 2012 running period online jet energy calibrations were implemented which resulted in higher E$_T$ thresholds in three-jet trigger paths. 
+
+The lepton plus jets efficiency is measured as the product of two independent efficiency measurements, $\epsilon_{Lep.} \times \epsilon_{Had.}$ using the tag-and-probe method with simulated Drell-Yan and $t\bar{t}$ samples, as described in Section \ref{subsec-LeptonEfficiencies}. To estimate the top acceptance simulated events were used and are corrected for the trigger efficiency measured in data. 
+
+Figure \ref{fig-SemiLeptEfficiencies} shows the turn-on curve for the efficiency for selecting the hadronic leg (p$_T$ of the 4th jet) of the electron plus jets channel, and the dependency of the efficiency on the number of reconstructed primary vertices. The offline selection of the p$_T$ for the jets was designed to assure a plateau behaviour of the scale factors, such that there is no variation with respect to MC sample or jet energy calibrations. From the variation of the scale factors, a systematic uncertainty of 2\% (1.5\%) for the electron (muon) scale factors cover the variation around their value of 0.995 (0.987) \cite{CMSTriggerPerformance}. 
+
+\begin{figure} \label{fig-SemiLeptEfficiencies}
+\includegraphics[width=\textwidth]{Figures/SemiLeptTriggerEfficiencies.png}
+\caption{Top Triggers: Efficiency of the hadronic leg for the electron plus jets paths in 2012 versus the p$_T$ of the 4th jet (left) and the dependence with respect to the number of vertices (right). \cite{CMSTriggerPerformance}}
+\end{figure}

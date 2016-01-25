@@ -31,6 +31,17 @@ Cristina Biino.
   run 1 and future projections.
 \newblock {\em Journal of Physics: Conference Series}, 587(1):012001, 2015.
 
+\bibitem{MUO-12-482}
+Eunhyang Kwon Jiwoong~Seo Junghwan~Goh, Min Suk~Kim and Intae Yu.
+\newblock Muon reconstruction and identification in the rpc detector with
+  tracker tracks.
+\newblock {\em CMS Internal Note}, v2, 2013.
+
+\bibitem{CMSTriggerPerformance}
+CMS Collaboration.
+\newblock The cms trigger.
+\newblock {\em CMS PAPER}, v10, 2015.
+
 \bibitem{HadronCollisionProcess}
 Stefan Höche.
 \newblock Introduction to monte carlo event generators.
@@ -66,6 +77,12 @@ Philip Symonds.
   the semi-leptonic channel using the cms detector at $\sqrt{s} = 7$ and 8 tev.
 \newblock {\em PhD Thesis}, March 2015.
 
+\bibitem{MarcoThesis}
+Marco Peruzzi.
+\newblock Measurement of differential cross sections for diphoton production in
+  pp collisions with the cms experiment.
+\newblock {\em CMS Thesis}, 2015.
+
 \bibitem{ttgammabackgroundestimation}
 Thomas Steeger.
 \newblock Background estimation in a search for $t\bar{t}+\gamma$ events.
@@ -76,6 +93,12 @@ Thomas Hermanns.
 \newblock Studies at the cms experiment on silicon microstrip module defects
   and on photon identification in semileptonic $t\bar{T}$ events.
 \newblock {\em PhD Thesis}, CERN-THESIS-2008-111, 12/008.
+
+\bibitem{Czakon:2013goa}
+Michał Czakon, Paul Fiedler, and Alexander Mitov.
+\newblock {Total Top-Quark Pair-Production Cross Section at Hadron Colliders
+  Through $O(α\frac{4}{S})$}.
+\newblock {\em Phys. Rev. Lett.}, 110:252004, 2013.
 
 \bibitem{LHCDesignReport}
 Oliver Sim et~al. Brüning.
@@ -152,6 +175,10 @@ CMS Collaboration.
 \newblock The e.m. calorimeter project: Technical design report.
 \newblock {\em CERN-LHCC-97-33}, 1997.
 
+\bibitem{CMS-DP-2013-007}
+{2012 ECAL detector performance plots}.
+\newblock Mar 2013.
+
 \bibitem{HCALUpgradeTdr}
 J~et~al. Mans.
 \newblock {CMS Technical Design Report for the Phase 1 Upgrade of the Hadron
@@ -163,6 +190,23 @@ J~et~al. Mans.
 {CMS Collaboration}.
 \newblock {CMS} technical design report, volume {II}: {Physics} performance.
 \newblock {\em J. Phys. G}, 34:995--1579, 2007.
+
+\bibitem{Chatrchyan:2013sba}
+Serguei Chatrchyan et~al.
+\newblock {The performance of the CMS muon detector in proton-proton collisions
+  at sqrt(s) = 7 TeV at the LHC}.
+\newblock {\em JINST}, 8:P11002, 2013.
+
+\bibitem{Chatrchyan:2012ria}
+Serguei Chatrchyan et~al.
+\newblock {Measurement of the $t\bar{t}$ production cross section in $pp$
+  collisions at $\sqrt{s}=7$ TeV with lepton + jets final states}.
+\newblock {\em Phys. Lett.}, B720:83--104, 2013.
+
+\bibitem{SemiLeptPAS}
+CMS Collaboration.
+\newblock Top pair cross section in e/mu+jets at 8 tev.
+\newblock {\em CMS Physics Analysis Summary}, CMS-PAS-TOP-12-006, 2012.
 
 \bibitem{CMS-PAS-PFT-10-001}
 {Commissioning of the Particle-flow Event Reconstruction with the first LHC
@@ -376,12 +420,6 @@ CMS Collaboration.
 CMS Collaboration.
 \newblock Simple cut based id 2012.
 \newblock {\em CMS Twiki}.
-
-\bibitem{MarcoThesis}
-Marco Peruzzi.
-\newblock Measurement of differential cross sections for diphoton production in
-  pp collisions with the cms experiment.
-\newblock {\em CMS Thesis}, 2015.
 
 \bibitem{ttbarXsectiondilepton}
 CMS Colaboration.

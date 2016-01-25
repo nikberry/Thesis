@@ -31,11 +31,19 @@ Repeated entry---line 1932 of file PhDThesis.bib
  : @techreport{CMS-PAS-PFT-09-001
  :                               ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 2093 of file PhDThesis.bib
+ : @article{Chatrchyan:2013sba
+ :                            ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "MishaSignalDefinition"
 Warning--I didn't find a database entry for "AN-12-485"
 Warning--I didn't find a database entry for "tangandprobe"
 Warning--empty journal in ttbarDecayFractions
 Warning--empty journal in TrackingResults
+Name 1 in "Junghwan Goh, Min Suk Kim, Eunhyang Kwon, Jiwoong Seo, and Intae Yu" has a comma at the end for entry MUO-12-482
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "Junghwan Goh, Min Suk Kim, Eunhyang Kwon, Jiwoong Seo, and Intae Yu" for entry MUO-12-482
+while executing---line 944 of file unsrt.bst
 Too many commas in name 1 of "Heiko Geenen, Yurii Maravin, Mikhail Makouski, Nik Berry, Till Arndt, Heiner Tholen" for entry ttgammasimulation
 while executing---line 944 of file unsrt.bst
 Too many commas in name 1 of "Heiko Geenen, Yurii Maravin, Mikhail Makouski, Nik Berry, Till Arndt, Heiner Tholen" for entry ttgammasimulation
@@ -47,6 +55,8 @@ Warning--empty author and editor in HCALTdr
 Warning--empty year in ElectronEfficiencies
 Warning--empty year in MuonEfficiencies
 Warning--empty year in SiliconStripSensors1
+Warning--empty author in CMS-DP-2013-007
+Warning--empty journal in CMS-DP-2013-007
 Warning--empty author in CMS-PAS-PFT-10-001
 Warning--empty institution in CMS-PAS-PFT-10-001
 Warning--empty year in CMS-PAS-PFT-10-001
@@ -76,45 +86,45 @@ Warning--empty author in CMS:2011esa
 Warning--empty journal in CMS:2011esa
 Warning--empty author in BTAGPAS
 Warning--empty journal in BTAGPAS
-You've used 86 entries,
+You've used 93 entries,
             1791 wiz_defined-function locations,
-            925 strings with 16029 characters,
-and the built_in function-call counts, 15412 in all, are:
-= -- 1302
-> -- 578
+            959 strings with 16955 characters,
+and the built_in function-call counts, 16592 in all, are:
+= -- 1405
+> -- 622
 < -- 9
-+ -- 241
-- -- 155
-* -- 945
-:= -- 2569
-add.period$ -- 251
-call.type$ -- 86
-change.case$ -- 85
++ -- 259
+- -- 166
+* -- 1010
+:= -- 2768
+add.period$ -- 271
+call.type$ -- 93
+change.case$ -- 92
 chr.to.int$ -- 0
-cite$ -- 116
-duplicate$ -- 771
-empty$ -- 1591
-format.name$ -- 155
-if$ -- 3379
+cite$ -- 125
+duplicate$ -- 830
+empty$ -- 1713
+format.name$ -- 166
+if$ -- 3639
 int.to.chr$ -- 0
-int.to.str$ -- 86
-missing$ -- 80
-newline$ -- 425
-num.names$ -- 77
-pop$ -- 197
+int.to.str$ -- 93
+missing$ -- 87
+newline$ -- 459
+num.names$ -- 83
+pop$ -- 209
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 319
+skip$ -- 347
 stack$ -- 0
-substring$ -- 742
-swap$ -- 112
+substring$ -- 796
+swap$ -- 118
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 30
-while$ -- 121
-width$ -- 88
-write$ -- 892
-(There were 13 error messages)
+warning$ -- 32
+while$ -- 130
+width$ -- 95
+write$ -- 965
+(There were 16 error messages)

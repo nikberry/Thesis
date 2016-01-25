@@ -6,9 +6,6 @@ Even though we model data using simulated MC samples, which are an essential too
 
 \section{Event Selection} \label{sec-EventSelection}
 
-Skim
-Preselection then photon selection
-
 For the $t\bar{t}+\gamma$ analysis the selection of objects is computed in three stages; A \textbf{skim} is implemented when processing signal and background MC samples in order to reduce the rate of events at analysis level and become much more manageable, a \textbf{pre-selection} of $t\bar{t}$ events is then computed for each final state respectively following the recommended top event selection group reference, and finally the full \textbf{selection} which includes an isolated photon radiated from top quark or its decay products.   
 
 It is important to reconstruct the number of $t\bar{t}$ events before we can include our radiated photon such that our sample is much cleaner. 
@@ -18,6 +15,8 @@ The pre-selection events have been constructed by following the CMS recommendati
 
 The pre-selection steps define our $t\bar{t}$ events before the addition of a radiated photon. The selection follows the recommended selection from the TOP Reference Selections and Recommendations (Run1) \cite{TopEventSelection} designed to select di-lepton final states with two isolated oppositely charged leptons, at least 2 jets where at least one is a b-tagged jet, and two neutrinos from missing transverse energy. All objects in the selection are reconstructed using the PF algorithm as described in Section \ref{subsec-PFAlgorithm}.  
 
+The event selection steps for pre-selection di-muon and di-electron channels are listed as follows:  
+
 \begin{itemize}
 	\item Skim
 	\item Event cleaning and trigger
@@ -25,9 +24,24 @@ The pre-selection steps define our $t\bar{t}$ events before the addition of a ra
 	\item Z-mass veto
 	\item $\geq 1$ jet
 	\item $\geq 2$ jets
-	\item MET selection
+	\item Missing transverse energy selection
 	\item $\geq 1$ CSV b-jet 
 \end{itemize}
+
+For the mixed channel we select two oppositely signed leptons where one is an electron and the other a muon. Because of this feature, Drell-Yan is significantly reduced, and therefore there is no need for a Z-mass veto. TWe also do not require a cut on the missing transverse energy. The event selection for mixed final state event topologies are as shown below.
+
+\begin{itemize}
+	\item Skim
+	\item Event cleaning and trigger
+	\item dilepton selection
+	\item $\geq 1$ jet
+	\item $\geq 2$ jets
+	\item $\geq 1$ CSV b-jet 
+\end{itemize}  
+
+Each step will be discussed in greater detail within the following sections. 
+
+\section{Skim}
 
 \section{Trigger and Event Cleaning} \label{sec-TriggerAndEventCleaning}
 
@@ -173,9 +187,9 @@ These cuts help to avoid picking detector noise and ECAL spikes as jets. We also
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.7\textwidth]{Plots/CutFlow/Log/TTbarMuMuRefSelection.pdf}
-\includegraphics[width=0.7\textwidth]{Plots/CutFlow/Log/TTbarEERefSelection.pdf}
-\includegraphics[width=0.7\textwidth]{Plots/CutFlow/Log/TTbarEMuRefSelection.pdf}
+\includegraphics[width=0.7\textwidth]{Plots/ControlPlots/CutFlow/Log/TTbarMuMuRefSelection.pdf}
+\includegraphics[width=0.7\textwidth]{Plots/ControlPlots/CutFlow/Log/TTbarEERefSelection.pdf}
+\includegraphics[width=0.7\textwidth]{Plots/ControlPlots/CutFlow/Log/TTbarEMuRefSelection.pdf}
 \end{center}
 \end{figure}
 
@@ -377,7 +391,18 @@ Super-cluster footprint-removed isolation deals with PF candidates, whereas PF i
 \end{center}
 \end{figure}
 
-\section{Background Estimation}
+\subsection{Signal template construction using the random cone method}
+
+We construct our prompt signal photon template using the ``random cone" method. The events that pass our full photon event selection are used as the method relies on the assumption that a prompt photon is isolated, such that the activity recorded within the detector around the prompt photon, not regarding the area affected by the energy deposit from the photon, arises only from pile-up, underlying events, and electronic noise in the ECAL.  
+
+Contributions from these effects, generally, do not vary for an isolation sum which is calculated in a region which is separate from the photon candidate, but using the same pseudorapidity range, $\phi$. A suitable orientation of the isolation cone is chosen by using the proceeding steps:
+
+\begin{itemize}
+	\item We define a direction which is obtained from the photon candidate direction, and then rotating by a random angle, $\phi_{Rand.Cone}$ between $0.8$ and $2\pi - 0.8$ radians, around the z-axis of the detector system (or rotating in $\phi$ with a fixed $\eta$) as shown in Figure \ref{fig-RandomConeIsolation}. This is designed such that an isolation cone with $\Delta R = 0.4$ centred on the random cone axis would not overlap with an isolation cone which is centred on the photon candidate, or an object that is produced back-to-back with respect to it.
+	\item We then check for objects lying within the region, such that there is no energy originating from anything other than pile-up, underlying events, or electrical noise in the ECAL. Such that there are no AK5\footnote{Anti-$k_T$ jet clustering algorithm with cone size of $\Delta R = 0.5$ (see Section \ref{subsec-JetReconstruction})} PF jets with a p$_T$ of at least 20 GeV at $\Delta R < 0.8$, photons with p$_T$ less than 10 GeV at $\Delta R < 0.8$, or muons at $\Delta R < 0.4$ with respect to the random cone axis. If such an object is found to fulfil our requirements, then we perform the same search again to generate another random angle, $\phi_{Rand.Cone}$, until a suitable direction is found. In practice, the procedure is not repeated more than twice in order to find a suitable direction.   
+\end{itemize}
+
+We then calculate the isolation sum within a cone centred on our chosen direction. The difference when performing footprint removal now is that there is no super-cluster lying along the cone axis, and therefore it must be performed in a different way: the area corresponding to that in which the photon super-cluster lies, which is rotated in $\phi_{Rand.Cone}$ in order to align with the random cone axis, is not included within the calculation process. In this manner, both the area which we consider for the isolation sum, and the area throughout the centre of the cone replacing the photon candidate footprint, has exactly the same shape and extension in the photon and random cone directions.   
 
 \begin{figure} \label{fig-RandomConeIsolation}
 \begin{center}
@@ -385,6 +410,38 @@ Super-cluster footprint-removed isolation deals with PF candidates, whereas PF i
 \caption{Illustration of the random cone technique. Under the assumption that the footprint of the photon (red) is completely removed from the isolation sum, the energy deposited in the random-cone area (green in right image) predicts the energy deposited in the isolation cone (green area in left image). \cite{MarcoThesis}}
 \end{center}
 \end{figure}
+
+\section{Background Estimation}
+
+\subsection{Background estimation using the $\sigma_{i \eta i \eta}$ side-band method}
+
+Background events are identified as non-prompt or misidentified photons. We define a template to model our background by selecting photon candidates that fail one selection requirement, which we call the ``side-band" region. The logic behind this method is such that by inverting a particular cut on the photon selection, then we have a sample that is rich in ``photon-like" jets (whereby the hadronisation process resolves to a neutral boosted meson with very little activity around it). In order to model the background correctly, we must select the requirements on the side-band region such that they do not differ too greatly from the full selection, and thus we do not incorrectly reject a genuine jet. 
+
+For the $t\bar{t}+\gamma$ analysis, we create a side-band region by inverting the shower-shape selection cut, thus giving a cut of $0.12 < \sigma_{i \eta i \eta} < 0.20$ where all other photon ID selection requirements still remain the same. When considering a side-band variable, we choose a variable with little to no correlation with our template variable in order to optimise the performance of the method. The shape of the side-band template will then closely resemble the isolation distribution for photons that are not prompt but pass the photon ID requirements. 
+
+We calculate the shower shape of the photon by measuring energy deposits from within a $5 \times 5$ matrix of crystals, centred around the crystal with the largest energy in the super-cluster. As the super-cluster footprint-removal technique removes the super-cluster from the isolation sum, then we have no shared input between the two variables (shower shape and isolation) effectively removing any correlation between the two. However, no two variables are ever truly uncorrelated, and any residual correlation can be attributed to the properties of hadronisation of jets. As our main source of fake photons arises in the form of jets misidentified as photons, we use the super-cluster footprint-removed charged hadron isolation as our background template variable to discriminate against the fake photons.
+
+Talk about agreement between data and simulation. 
+
+\begin{figure} \label{fig-PhotonShowerShape}
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_sigma_ietaieta_barrel_splitTTbar_ratio.pdf}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_sigma_ietaieta_barrel_splitTTbar_ratio.pdf}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_sigma_ietaieta_barrel_splitTTbar_ratio.pdf}
+\caption{}
+\end{center}
+\end{figure}
+
+\begin{figure} \label{fig-SCFRChargedHadronIso}
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_RhoCorrectedSCChIso_barrel_splitTTbar_ratio.pdf}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_RhoCorrectedSCChIso_barrel_splitTTbar_ratio.pdf}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_RhoCorrectedSCChIso_barrel_splitTTbar_ratio.pdf}
+\caption{}
+\end{center}
+\end{figure}
+
+
 
 \begin{sidewaystable} \label{tab-datasets}
 \begin{center}

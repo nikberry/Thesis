@@ -14,6 +14,7 @@
 \usepackage{subcaption}
 \usepackage{amsmath}
 \usepackage{mathtools}
+\usepackage{braket}
 \usepackage{rotating}
 \usepackage{afterpage,lscape}
 \usepackage{draftwatermark}
@@ -232,6 +233,7 @@ The acknowledgements and the people to thank go here, don't forget to include yo
 
 \begin{table} \label{tab-ElectronEfficiencies}
 \begin{center}
+\resizebox{\columnwidth}{!} {
 \begin{tabular}{|c|c|c|c|c|}
 \hline
 	\textbf{All ID and Isolation (MVA $>$ 0.5)} & $20 < p_T < 30$ & $30 < p_T < 40$ & $40 < p_T < 50$ & $50 < p_T$ \\
@@ -242,6 +244,7 @@ The acknowledgements and the people to thank go here, don't forget to include yo
 	$1.5660 < |\eta| < 2.5$ & 0.919 $\pm$ 0.014 & 0.926 $\pm$ 0.005 & 0.952 $\pm$ 0.003 & 0.950 $\pm$ 0.005 \\
 \hline	
 \end{tabular}
+}
 \caption{Electron ID \& isolation efficiencies \cite{ElectronEfficiencies}.}
 \end{center}
 \end{table}
