@@ -175,10 +175,6 @@ CMS Collaboration.
 \newblock The e.m. calorimeter project: Technical design report.
 \newblock {\em CERN-LHCC-97-33}, 1997.
 
-\bibitem{CMS-DP-2013-007}
-{2012 ECAL detector performance plots}.
-\newblock Mar 2013.
-
 \bibitem{HCALUpgradeTdr}
 J~et~al. Mans.
 \newblock {CMS Technical Design Report for the Phase 1 Upgrade of the Hadron
@@ -329,6 +325,23 @@ Byron~P. Roe, Hai-Jun Yang, Ji~Zhu, Yong Liu, Ion Stancu, and Gordon McGregor.
 \newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
   Accelerators, Spectrometers, Detectors and Associated Equipment},
   543(2–3):577 -- 584, 2005.
+
+\bibitem{CutBasedEleID}
+CMS Collaboration.
+\newblock Cut-based electron identification algorithm.
+\newblock {\em CMS TWiki}, 2015.
+
+\bibitem{CutsInCategories}
+CMS Collaboration.
+\newblock Cuts in categories (cic) electron identification.
+\newblock {\em CMS TWiki}, 2015.
+
+\bibitem{PFElectronReconstruction}
+CMS Collaboration.
+\newblock Particle-flow event reconstruction in cms and performance for jets,
+  taus, and met.
+\newblock {\em Technical Report}, CMS-PAS-PFT-09-001, CERN, Geneva,
+  Switzerland, 2009.
 
 \bibitem{Baffioni:2006cd}
 S.~Baffioni, C.~Charlot, F.~Ferri, D.~Futyan, P.~Meridiani, I.~Puljak,

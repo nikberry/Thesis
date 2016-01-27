@@ -35,6 +35,11 @@ Repeated entry---line 2093 of file PhDThesis.bib
  : @article{Chatrchyan:2013sba
  :                            ,
 I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2216 of file PhDThesis.bib
+ :      
+ :      eprint         = "",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "MishaSignalDefinition"
 Warning--I didn't find a database entry for "AN-12-485"
 Warning--I didn't find a database entry for "tangandprobe"
@@ -55,8 +60,6 @@ Warning--empty author and editor in HCALTdr
 Warning--empty year in ElectronEfficiencies
 Warning--empty year in MuonEfficiencies
 Warning--empty year in SiliconStripSensors1
-Warning--empty author in CMS-DP-2013-007
-Warning--empty journal in CMS-DP-2013-007
 Warning--empty author in CMS-PAS-PFT-10-001
 Warning--empty institution in CMS-PAS-PFT-10-001
 Warning--empty year in CMS-PAS-PFT-10-001
@@ -86,45 +89,45 @@ Warning--empty author in CMS:2011esa
 Warning--empty journal in CMS:2011esa
 Warning--empty author in BTAGPAS
 Warning--empty journal in BTAGPAS
-You've used 93 entries,
+You've used 95 entries,
             1791 wiz_defined-function locations,
-            959 strings with 16955 characters,
-and the built_in function-call counts, 16592 in all, are:
-= -- 1405
-> -- 622
+            965 strings with 17196 characters,
+and the built_in function-call counts, 16873 in all, are:
+= -- 1431
+> -- 633
 < -- 9
-+ -- 259
-- -- 166
-* -- 1010
-:= -- 2768
-add.period$ -- 271
-call.type$ -- 93
-change.case$ -- 92
++ -- 264
+- -- 169
+* -- 1012
+:= -- 2828
+add.period$ -- 278
+call.type$ -- 95
+change.case$ -- 94
 chr.to.int$ -- 0
 cite$ -- 125
-duplicate$ -- 830
-empty$ -- 1713
-format.name$ -- 166
-if$ -- 3639
+duplicate$ -- 846
+empty$ -- 1741
+format.name$ -- 169
+if$ -- 3700
 int.to.chr$ -- 0
-int.to.str$ -- 93
-missing$ -- 87
-newline$ -- 459
-num.names$ -- 83
-pop$ -- 209
+int.to.str$ -- 95
+missing$ -- 89
+newline$ -- 470
+num.names$ -- 86
+pop$ -- 210
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 347
+skip$ -- 353
 stack$ -- 0
 substring$ -- 796
-swap$ -- 118
+swap$ -- 121
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 32
-while$ -- 130
-width$ -- 95
-write$ -- 965
-(There were 16 error messages)
+warning$ -- 30
+while$ -- 133
+width$ -- 97
+write$ -- 989
+(There were 17 error messages)
