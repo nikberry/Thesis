@@ -89,45 +89,45 @@ Warning--empty author in CMS:2011esa
 Warning--empty journal in CMS:2011esa
 Warning--empty author in BTAGPAS
 Warning--empty journal in BTAGPAS
-You've used 95 entries,
+You've used 104 entries,
             1791 wiz_defined-function locations,
-            965 strings with 17196 characters,
-and the built_in function-call counts, 16873 in all, are:
-= -- 1431
-> -- 633
+            1027 strings with 18287 characters,
+and the built_in function-call counts, 19023 in all, are:
+= -- 1645
+> -- 698
 < -- 9
-+ -- 264
-- -- 169
-* -- 1012
-:= -- 2828
-add.period$ -- 278
-call.type$ -- 95
-change.case$ -- 94
++ -- 290
+- -- 186
+* -- 1175
+:= -- 3166
+add.period$ -- 305
+call.type$ -- 104
+change.case$ -- 103
 chr.to.int$ -- 0
-cite$ -- 125
-duplicate$ -- 846
-empty$ -- 1741
-format.name$ -- 169
-if$ -- 3700
+cite$ -- 134
+duplicate$ -- 927
+empty$ -- 1956
+format.name$ -- 186
+if$ -- 4165
 int.to.chr$ -- 0
-int.to.str$ -- 95
-missing$ -- 89
-newline$ -- 470
-num.names$ -- 86
-pop$ -- 210
+int.to.str$ -- 104
+missing$ -- 98
+newline$ -- 515
+num.names$ -- 95
+pop$ -- 219
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 353
+skip$ -- 383
 stack$ -- 0
-substring$ -- 796
-swap$ -- 121
+substring$ -- 1037
+swap$ -- 130
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 30
-while$ -- 133
-width$ -- 97
-write$ -- 989
+while$ -- 158
+width$ -- 107
+write$ -- 1088
 (There were 17 error messages)

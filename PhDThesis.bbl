@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{SergeyThesis}
 Sergey Senkin.
@@ -125,6 +125,51 @@ CMS Collaboration.
 CMS Collaboration.
 \newblock Reference muon id and isolation efficiencies.
 \newblock {\em https://twiki.cern.ch/twiki/bin/viewauth/CMS/MuonReferenceEffs}.
+
+\bibitem{PhysRev.96.191}
+C.~N. Yang and R.~L. Mills.
+\newblock Conservation of isotopic spin and isotopic gauge invariance.
+\newblock {\em Phys. Rev.}, 96:191--195, Oct 1954.
+
+\bibitem{Glashow:1961tr}
+S.~L. Glashow.
+\newblock {Partial Symmetries of Weak Interactions}.
+\newblock {\em Nucl. Phys.}, 22:579--588, 1961.
+
+\bibitem{PhysRevLett.19.1264}
+Steven Weinberg.
+\newblock A model of leptons.
+\newblock {\em Phys. Rev. Lett.}, 19:1264--1266, Nov 1967.
+
+\bibitem{Salam:1959zz}
+Abdus Salam and John~Clive Ward.
+\newblock {Weak and electromagnetic interactions}.
+\newblock {\em Nuovo Cim.}, 11:568--577, 1959.
+
+\bibitem{PhysRev.105.1413}
+C.~S. Wu, E.~Ambler, R.~W. Hayward, D.~D. Hoppes, and R.~P. Hudson.
+\newblock Experimental test of parity conservation in beta decay.
+\newblock {\em Phys. Rev.}, 105:1413--1415, Feb 1957.
+
+\bibitem{PhysRevD.8.3633}
+David~J. Gross and Frank Wilczek.
+\newblock Asymptotically free gauge theories. i.
+\newblock {\em Phys. Rev. D}, 8:3633--3652, Nov 1973.
+
+\bibitem{PhysRevLett.30.1346}
+H.~David Politzer.
+\newblock Reliable perturbative results for strong interactions?
+\newblock {\em Phys. Rev. Lett.}, 30:1346--1349, Jun 1973.
+
+\bibitem{PhysRevLett.13.508}
+Peter~W. Higgs.
+\newblock Broken symmetries and the masses of gauge bosons.
+\newblock {\em Phys. Rev. Lett.}, 13:508--509, Oct 1964.
+
+\bibitem{PhysRevLett.13.321}
+F.~Englert and R.~Brout.
+\newblock Broken symmetry and the mass of gauge vector mesons.
+\newblock {\em Phys. Rev. Lett.}, 13:321--323, Aug 1964.
 
 \bibitem{LHCStorageAccelerators}
 John~P. Blewett.
