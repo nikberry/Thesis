@@ -52,56 +52,127 @@ which we can then express in terms of the Lagrangian as
 \lumi \to \lumi - [\partial_{\mu} \theta(x)] \bar{\psi} \gamma^{\mu} \psi.
 \end{equation}
 
-Yang-Mills theory of $SU(2)$ later extended to $SU(3)$ \cite{PhysRev.96.191}
+In order to restore local gauge invariance, we start by hypotheising that the fermions interact with a ``gauge field" $A_{\mu}$. We can then redefine our the interacting fermion Lagrangian 
 
-
-
-covariant derivative, $D_{\mu}$
-
-\begin{equation}
-\partial_{\mu} \to D_{\mu} = \partial_{\mu} + iqA_{\mu}
+\begin{equation} \label{eqn-DiracLagrangian}
+\lumi = \bar{\psi}(i \gamma^{\mu}D_{\mu}-m)\psi
 \end{equation}
 
+where we replace the ordinary derivative, $\partial_{\mu}$ covariant derivative, $D_{\mu}$, defined as
+
 \begin{equation}
-A_{\mu} \to A_{\mu} - \partial_{\mu} \theta(x)
+\partial_{\mu} \to D_{\mu} = \partial_{\mu} + iqA_{\mu}.
 \end{equation}
+
+where
+
+\begin{equation}
+A_{\mu} \to A_{\mu} - \partial_{\mu} \theta (x).
+\end{equation}
+
+In this way the gauge transformation of the fields cancel with that of the fermion fields, and therefore invariance is restored. The Lagrangian of Equation \ref{eqn-DiracLagrangian} is exactly what we expect for a fermion in an electromagnetic field with charge q. The second term in the Lagrangian, $-q\bar{\psi}\gamma^{\mu}A_{\mu}\psi$, describes the interaction of a fermion with a vector field with coupling strength $q=Qe$, where Q is the charge of the particle in units of e, where e is the electromagnetic coupling constant. By forcing a local $U(1)$ gauge invariance, we have essentially introduced quantum electrodynamics (QED), with the exception of the gauge field (photon) kinematic term described by the field strength tensor, $F_{\mu \nu}$, denoted  
 
 \begin{equation}
 F^{\mu \nu} = \partial^{\mu}A^{\nu} - \partial^{\nu}A^{\mu}
 \end{equation}
 
+and thus we obtain the gauge-invariant QED Lagrangian density:
+
 \begin{equation}
 \lumi_{QED} = \bar{\psi}(i \slashed{D}_{\mu} - m) \psi - \frac{1}{4}F_{\mu \nu}F^{\mu \nu}
 \end{equation}
 
-where $\slashed{D}_{\mu}$ is equal to $\gamma^{\mu}(\partial_{\mu} + iqA_{\mu})$
+where $\slashed{D}_{\mu}$ is equal to $\gamma^{\mu}(\partial_{\mu} + iqA_{\mu})$.
+
+We note that the gauge field $A_{\mu}$ is required to be massless in order to satisfy invariance under a local gauge transformation. This property arises as the gauge field mass term $m^2A_{\mu}A^{\mu}$ would explicitly break the gauge invariance, and thus must be removed from the Lagrangian density. Therefore we can say that QED describes Dirac fields, such as electrons and positrons, interacting with Maxwell electromagnetic force fields, photons.
+
+By requiring local gauge invariance of the Lagrangian density by introducing additional fields in order to make it covariant with respect to an extended group of local transformations, we describe the gauge principle that is a fundamental process in particle physics. For the case of QED, we have a group of $1 \times 1$ unitary matrices multiplied by the Dirac field. The set of transformations form the Lie group $U(1)$, a group that is commutative, and thus Abelian. Gauge principle or local gauge invariant transformations can be applied to any $SU(N)$ group; Chen Ning Yang and Robert Mills first produced a theory of the $SU(2)$ gauge group \cite{PhysRev.96.191}, which was later extended to an $SU(3)$ gauge group to create QCD.  
 
 \subsection{The Electroweak Theory} \label{subsec-ElectroweakTheory}
 
-Sheldon Glashow 1961 \cite{Glashow:1961tr}
-Steven Weinberg 1967 \cite{PhysRevLett.19.1264}
-Abdus Salam 1951 \cite{Salam:1959zz}
-Gell-Mann 1964 \cite{GellMann:1964nj}
-
-violates parity and thus disginguishes between right- and left-handed \cite{PhysRev.105.1413}
+A theory for the unification of the electromagnetic and weak forces was first proposed by the American physicist Sheldon Glashow in 1961 \cite{Glashow:1961tr} and was later independently revised by Steven Weinberg in 1967 \cite{PhysRevLett.19.1264} and Abdus Salam \cite{Salam:1959zz} with the introduction of massive vector bosons acquiring mass by the process of spontaneous symmetry breaking. The GSW electroweak model later saw the authors receive the Nobel prize in physics in 1979. The GSW electroweak theory requires a unification of the gauge groups $SU(2)_L \otimes U(1)_Y$, where the definition of the $U(1)$ group from the previous section now refers to the unitary group of $1 \times 1$ matrices with respect to the weak hypercharge, Y, defined as 
 
 \begin{equation}
-q_L = 
+Q = I_W + \frac{Y}{2}
+\end{equation}
+
+where Q is the electric charge, and $I_W$ is the weak isospin, also denoted $I_3$. The weak force is the only force known to violate parity, and thus distinguish between right- and left-handedness and confirmed in 1957 \cite{PhysRev.105.1413}. We can thus define left-handed doublets and right-handed singlets for fermions as so
+
+\begin{equation}
 \begin{pmatrix}
 u_L \\
 d_L
 \end{pmatrix}
-,
+,u_R,d_R;
 \quad
-l_L =
 \begin{pmatrix}
-\nu_L \\
+c_L \\
+s_L
+\end{pmatrix}
+,c_R, s_R;
+\quad
+\begin{pmatrix}
+t_L \\
+b_L
+\end{pmatrix}
+,t_R, b_R;
+\end{equation}
+
+for each generation of quark, and
+
+\begin{equation}
+\begin{pmatrix}
+\nu_{e,L} \\
 e_L
+\end{pmatrix}
+,e_R;
+\quad
+\begin{pmatrix}
+\nu_{\mu,L} \\
+\mu_L
+\end{pmatrix}
+,\mu_R;
+\quad
+\begin{pmatrix}
+\nu_{\tau,L} \\
+\tau_L
+\end{pmatrix}
+,\tau_R;
+\end{equation}
+
+for each generation of leptons. 
+
+Left-handed quark and lepton doublets have weak isospin values of $I_W = 1/2$ where the upper and lower particle in each have $I^3_W = +1/2$ and $−1/2$, respectively. Right-handed particles are defined as singlets under the $SU(2)_L \otimes U(1)_L$ gauge group symmetry and thus have weak isospin of $I_W = 0$. We define left- and right-handedness by applying projection operators to the fields, such that
+
+\begin{equation}
+\psi = \frac{1}{2}(1-\gamma^5)\psi + \frac{1}{2}(1+\gamma^5)\psi = \psi_L + \psi_R,
+\end{equation}
+
+where we define the $\gamma^5$ matrix as the product of all the gamma matrices
+
+\begin{equation}
+\gamma^5 = i\gamma^0 \gamma^1 \gamma^2 \gamma^3 = 
+\begin{pmatrix}
+0 & 1 \\
+1 & 0
 \end{pmatrix}
 \end{equation}
 
+such that $\left(\gamma^5\right)^2$ is equal to the $4 \times 4$ identity matrix.
+
+Gell-Mann 1964 \cite{GellMann:1964nj}
+
+where the full covariant derivative for the electroweak theory within a $SU(2)_L \otimes U(1)_L$ gauge symmetry is given by
+
 \begin{equation}
-\lumi_{EWK} = \bar{\psi}_L \gamma^{\mu} \left(i \i\partial_{\mu} - g\textbf{T} \cdot \textbf{W}_{\mu} - \frac{g'}{2} Y B_{\mu}\right)\psi_L + \bar{\psi}_R \gamma^{\mu}\left(i \i\partial_{\mu} - \frac{g'}{2} Y B_{\mu}\right)\psi_R - \frac{1}{4}\textbf{W}_{\mu \nu}\textbf{W}^{\mu \nu} - \frac{1}{4} B_{\mu \nu} B^{\mu \nu} 
+\partial_{\mu} \to D_{\mu} = \partial_{\mu} - igI_W \textbf{T}^i\textbf{W}^i_{\mu} - \frac{ig'}{2}YB
+\end{equation}
+
+\begin{equation}
+\begin{split}
+\lumi_{EWK} & = \bar{\psi}_L \gamma^{\mu} \left(i \i\partial_{\mu} - g\textbf{T} \cdot \textbf{W}_{\mu} - \frac{g'}{2} Y B_{\mu}\right)\psi_L \\
+& + \bar{\psi}_R \gamma^{\mu}\left(i \i\partial_{\mu} - \frac{g'}{2} Y B_{\mu}\right)\psi_R - \frac{1}{4}\textbf{W}_{\mu \nu}\textbf{W}^{\mu \nu} - \frac{1}{4} B_{\mu \nu} B^{\mu \nu} 
+\end{split}
 \end{equation}
 
 \subsection{Quantum Chromodynamics} \label{subsec-QuantumChromodynamics}
@@ -121,7 +192,7 @@ g
 
 
 \begin{equation}
-\lumi_{QCD} = \bar{q}\left(\gamma^{\mu}\partial_{\mu} - m \right) q + g_s \left( \bar{q}\gamma^{\mu}T_a q \right) G^a_{\mu} - \frac{1}{4}G^a_{\mu \nu}G^{\mu \nu}_a
+\lumi_{QCD} & = \bar{q}\left(\gamma^{\mu}\partial_{\mu} - m \right) q + g_s \left( \bar{q}\gamma^{\mu}T_a q \right) G^a_{\mu} - \frac{1}{4}G^a_{\mu \nu}G^{\mu \nu}_a
 \end{equation}
 
 
@@ -206,10 +277,12 @@ v + H
 \end{pmatrix}
 \end{equation}
 
-\begin{align*}
-\lumi_{Higgs} = \frac{1}{2}(\partial_{\mu}H)(\partial^{\mu}H) + \frac{1}{4}g^2 (H^2 + 2vH + v^2) W^+_{\mu} W^{-\mu} \\
+\begin{equation}
+\begin{split}
+\lumi_{Higgs} & = \frac{1}{2}(\partial_{\mu}H)(\partial^{\mu}H) + \frac{1}{4}g^2 (H^2 + 2vH + v^2) W^+_{\mu} W^{-\mu} \\
 & + \frac{1}{8} (g^2 + g'^2) (H^2 + 2vH + v^2) Z_{\mu} Z^{\mu} - \mu^2 H^2 - \frac{\lambda}{4} (H^4 + 4vH^3)
-\end{align*}
+\end{split}
+\end{equation}
 
 \begin{figure}
 \begin{center}
