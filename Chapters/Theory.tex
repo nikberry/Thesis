@@ -219,9 +219,7 @@ At this point we have a theory of electroweak interactions that does not incorpo
 
 \subsection{Quantum Chromodynamics} \label{subsec-QuantumChromodynamics}
 
-assymptotic freedom David J. Gross and Frank Wilczek \cite{PhysRevD.8.3633}
-
-H. David Polizer \cite{PhysRevLett.30.1346}
+Quantum Chromodynamics (QCD) is the theory of interactions between quarks and gluons confined within hadrons by what is known as the strong force --- so called because of it's strength compared to the weak force. The theory is based upon the gauge symmetry group $SU(3)_C$, where C represents colour, the QCD analogue of electrical charge. The $SU(3)_C$ gauge group is non-Abelian under the requirement of local gauge invariance. From experimental evidence we see that quarks carry a conserved charge, which we define as ``colour" with three degrees of freedom, such that a quark can be represented as a multiplet of fields in colour space. 
 
 \begin{equation}
 r = 
@@ -232,11 +230,46 @@ g
 \end{pmatrix}
 \end{equation}
 
+Upon imposing invariance under $SU(3)$ gauge symmetry, we derive the Lagrangian density for QCD to be
 
 \begin{equation}
 \lumi_{QCD} & = \bar{q}\left(\gamma^{\mu}\partial_{\mu} - m \right) q + g_s \left( \bar{q}\gamma^{\mu}T_a q \right) G^a_{\mu} - \frac{1}{4}G^a_{\mu \nu}G^{\mu \nu}_a
 \end{equation}
 
+where $T_a$ represents the eight generators of the $SU(3)$ gauge group defined by the Gell-Mann lambda matrices, each $T_a$ is a $3 \times 3$ matrix in colour space which do not commute with each other and are completely anti-symmetric under the swapping of any pair of indices, and thus satisfy the lie algebra relation  
+
+\begin{equation}
+[T_a, T_b] = if_{abc}T_c.
+\end{equation}
+
+The lambda matrices represent eight massless gluon gauge fields, where $f^{abc}$ are the structure constants responsible for gluon self-interactions that arises in the field strength tensor shown in Equation \ref{eqn-QCDFieldStrengthTensor}. We note that the colour matrices and Dirac matrices do not interact as they act on different vector spaces. 
+
+\begin{equation} \label{eqn-QCDFieldStrengthTensor}
+G^a_{\mu \nu} = \partial_{\mu}G^a_{\nu} - \partial_{\nu}G^a_{\mu} + g_s f^{abc}G^b_{\mu}G^c_{\nu}
+\end{equation}
+
+As a product of self-interaction we observe two distinct properties of QCD in the form of colour confinement and asymptotic freedom. 
+
+In a similar manner to photon exchange, the forces resulting from this type of interaction scales as $1/r^2$ at large distances, r, and thus the energy required to break up a quark-antiquark bound state is therefore finite. We have never observed quarks in isolation, but only in bound states of quark-antiquark pairs, or three-quark baryonic couplings.  
+
+\begin{figure} \label{fig-AlphaS}
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Figures/AlphaS.png}
+\caption{The experimentally measured values of the effective gauge coupling $\alpha_s(q)$ confirm the theoretically expected behaviour [Equation \ref{eqn-AlphaS}] at high energies (compilation of the Particle Data Group \cite{AlphaS}}
+\end{center}
+\end{figure}
+
+Once we include higher-order corrections to our calculation we discover that the strength interactions mediated by vector bosons is dependent on the magnitude of q (energy-momentum transfer between partons), and it can be shown that the strong coupling constant, $\alpha_S$, can be defined as
+
+\begin{equation} \label{eqn-AlphaS}
+\alpha_s(q) = \frac{g_s(q)^2}{4\pi} = \frac{c}{log(q/\Lambda)} + ...
+\end{equation}
+
+where q is the energy-momentum transfer between partons, $\Lambda$ is the mass scale, and c is a constant. The logarithmic decay of the coupling is what we refer to as \textbf{asymptotic freedom} is observed in high-energy scattering (Figure \ref{fig-AlphaS}), such that the mass scale, $\Lambda$, has been determined to be $213^{38}_{-35}$ MeV \cite{Bethke:2000ai}\footnote{Here $\Lambda$ refers to a particular definition of the $\alpha_s$ called the $\overline{MS}$ scheme of dimensional regularisation.}. It is found that the strong coupling $\alpha_S$ decreases for interactions with higher energy, and is the reason that coloured particles are always found in colour-neutral states, as the coupling between the colour-charged states will be too strong and thus not be able to escape each other.
+
+This prediction of QCD was first discovered in the early 1970s by H. David Polizer \cite{PhysRevLett.30.1346}, and by David J. Gross and Frank Wilczek \cite{PhysRevD.8.3633} in a completely independent study during the same year. They were subsequently awarded the Nobel prize in physics in 2004.
+
+Another prominent aspect of QCD, which arises due to the increasing of the strong force as distance increases between quarks, is the property of \textbf{confinement}. As quarks continue to be pulled apart from one another, the energy energy rises sufficiently enough such that they form a colourless bound state, such as a quark-antiquark pair (meson), or three-quark baryonic state (baryon) as mentioned above. We call this process hadronisation, and is the reason we have never observed isolated quarks.  
 
 \begin{equation} \label{equ-ckm}
 \begin{pmatrix}
@@ -275,12 +308,14 @@ Peter Higgs \cite{PhysRevLett.13.508}
 
 Francois Englert and Robert Brout \cite{PhysRevLett.13.321}
 
+we form an $SU(2)$ doublet of complex scalar fields, $\phi$, defined as
+
 \begin{equation}
 \phi = 
 \begin{pmatrix}
 \phi^+ \\
 \phi^0
-\end{pmatrix}{
+\end{pmatrix}
 = \frac{1}{\sqrt{2}}
 \begin{pmatrix}
 \phi_1 + i \phi_2 \\
@@ -288,9 +323,13 @@ Francois Englert and Robert Brout \cite{PhysRevLett.13.321}
 \end{pmatrix}
 \end{equation}
 
+the Lagrangian density for the Higgs is given by
+
 \begin{equation}
 \lumi_{Higgs} = (D_{\mu}\phi)^{\dagger}(D^{\mu}\phi) - V(\phi)
 \end{equation}
+
+where $D_{\mu}$ is the electroweak covariant derivative defined in Section \ref{subsec-ElectroweakTheory}, and $V(\phi)$ is input as a simple scalar potential defined as
 
 \begin{equation}
 V(\phi) = -\mu^2(\phi^{\dagger}\phi) + \lambda(\phi^{\dagger}\phi)^2

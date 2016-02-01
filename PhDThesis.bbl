@@ -146,25 +146,30 @@ Abdus Salam and John~Clive Ward.
 \newblock {Weak and electromagnetic interactions}.
 \newblock {\em Nuovo Cim.}, 11:568--577, 1959.
 
-\bibitem{GellMann:1964nj}
-Murray Gell-Mann.
-\newblock {A Schematic Model of Baryons and Mesons}.
-\newblock {\em Phys. Lett.}, 8:214--215, 1964.
-
 \bibitem{PhysRev.105.1413}
 C.~S. Wu, E.~Ambler, R.~W. Hayward, D.~D. Hoppes, and R.~P. Hudson.
 \newblock Experimental test of parity conservation in beta decay.
 \newblock {\em Phys. Rev.}, 105:1413--1415, Feb 1957.
 
-\bibitem{PhysRevD.8.3633}
-David~J. Gross and Frank Wilczek.
-\newblock Asymptotically free gauge theories. i.
-\newblock {\em Phys. Rev. D}, 8:3633--3652, Nov 1973.
+\bibitem{AlphaS}
+C.~Caso et~al. (Particle Data~Group).
+\newblock Review of particle physics.
+\newblock {\em Eur.Phys.J}, C3, 1998.
+
+\bibitem{Bethke:2000ai}
+S.~Bethke.
+\newblock {Determination of the QCD coupling $\alpha_s$}.
+\newblock {\em J. Phys.}, G26:R27, 2000.
 
 \bibitem{PhysRevLett.30.1346}
 H.~David Politzer.
 \newblock Reliable perturbative results for strong interactions?
 \newblock {\em Phys. Rev. Lett.}, 30:1346--1349, Jun 1973.
+
+\bibitem{PhysRevD.8.3633}
+David~J. Gross and Frank Wilczek.
+\newblock Asymptotically free gauge theories. i.
+\newblock {\em Phys. Rev. D}, 8:3633--3652, Nov 1973.
 
 \bibitem{PhysRevLett.13.508}
 Peter~W. Higgs.
