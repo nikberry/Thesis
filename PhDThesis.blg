@@ -59,6 +59,9 @@ Warning--empty author in CMS-PAS-PFT-09-001
 Warning--empty author and editor in HCALTdr
 Warning--empty year in ElectronEfficiencies
 Warning--empty year in MuonEfficiencies
+Name 1 in "U. Baur, M. Buice, and L. H. Orr" has a comma at the end for entry topchargemeasurement
+while executing---line 944 of file unsrt.bst
+Warning--empty journal in CDFD0combination
 Warning--empty year in SiliconStripSensors1
 Warning--empty author in CMS-PAS-PFT-10-001
 Warning--empty institution in CMS-PAS-PFT-10-001
@@ -89,45 +92,45 @@ Warning--empty author in CMS:2011esa
 Warning--empty journal in CMS:2011esa
 Warning--empty author in BTAGPAS
 Warning--empty journal in BTAGPAS
-You've used 106 entries,
+You've used 133 entries,
             1791 wiz_defined-function locations,
-            1041 strings with 18473 characters,
-and the built_in function-call counts, 19324 in all, are:
-= -- 1672
-> -- 706
-< -- 9
-+ -- 294
-- -- 188
-* -- 1188
-:= -- 3220
-add.period$ -- 311
-call.type$ -- 106
-change.case$ -- 105
+            1178 strings with 22498 characters,
+and the built_in function-call counts, 25935 in all, are:
+= -- 2352
+> -- 849
+< -- 14
++ -- 357
+- -- 224
+* -- 1545
+:= -- 4179
+add.period$ -- 394
+call.type$ -- 133
+change.case$ -- 132
 chr.to.int$ -- 0
-cite$ -- 136
-duplicate$ -- 944
-empty$ -- 1989
-format.name$ -- 188
-if$ -- 4231
+cite$ -- 164
+duplicate$ -- 1265
+empty$ -- 2643
+format.name$ -- 224
+if$ -- 5786
 int.to.chr$ -- 0
-int.to.str$ -- 106
-missing$ -- 100
-newline$ -- 525
-num.names$ -- 97
-pop$ -- 221
+int.to.str$ -- 133
+missing$ -- 127
+newline$ -- 662
+num.names$ -- 124
+pop$ -- 274
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 390
+skip$ -- 602
 stack$ -- 0
-substring$ -- 1046
-swap$ -- 132
-text.length$ -- 9
+substring$ -- 1707
+swap$ -- 245
+text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 30
-while$ -- 161
-width$ -- 109
-write$ -- 1110
-(There were 17 error messages)
+warning$ -- 31
+while$ -- 216
+width$ -- 136
+write$ -- 1402
+(There were 18 error messages)

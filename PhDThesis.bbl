@@ -1,5 +1,10 @@
 \begin{thebibliography}{100}
 
+\bibitem{AlphaS}
+C.~Caso et~al. (Particle Data~Group).
+\newblock Review of particle physics.
+\newblock {\em Eur.Phys.J}, C3, 1998.
+
 \bibitem{SergeyThesis}
 Sergey Senkin.
 \newblock Top quark physics at the lhc with the cms detector.
@@ -151,11 +156,6 @@ C.~S. Wu, E.~Ambler, R.~W. Hayward, D.~D. Hoppes, and R.~P. Hudson.
 \newblock Experimental test of parity conservation in beta decay.
 \newblock {\em Phys. Rev.}, 105:1413--1415, Feb 1957.
 
-\bibitem{AlphaS}
-C.~Caso et~al. (Particle Data~Group).
-\newblock Review of particle physics.
-\newblock {\em Eur.Phys.J}, C3, 1998.
-
 \bibitem{Bethke:2000ai}
 S.~Bethke.
 \newblock {Determination of the QCD coupling $\alpha_s$}.
@@ -180,6 +180,169 @@ Peter~W. Higgs.
 F.~Englert and R.~Brout.
 \newblock Broken symmetry and the mass of gauge vector mesons.
 \newblock {\em Phys. Rev. Lett.}, 13:321--323, Aug 1964.
+
+\bibitem{PhysRevLett.13.585}
+G.~S. Guralnik, C.~R. Hagen, and T.~W.~B. Kibble.
+\newblock Global conservation laws and massless particles.
+\newblock {\em Phys. Rev. Lett.}, 13:585--587, Nov 1964.
+
+\bibitem{Aad:2012tfa}
+Georges Aad et~al.
+\newblock {Observation of a new particle in the search for the Standard Model
+  Higgs boson with the ATLAS detector at the LHC}.
+\newblock {\em Phys. Lett.}, B716:1--29, 2012.
+
+\bibitem{b846af59f42d440a9058d93ed5df44cf}
+CMS Collaboration.
+\newblock Observation of a new boson at a mass of 125 gev with the cms
+  experiment at the lhc.
+\newblock {\em Physics Letters B - Nuclear Physics and Particle Physics},
+  716(1):30--61, 9 2012.
+
+\bibitem{Chatrchyan:2013lba}
+Serguei Chatrchyan et~al.
+\newblock {Observation of a new boson with mass near 125 GeV in pp collisions
+  at $\sqrt{s}$ = 7 and 8 TeV}.
+\newblock {\em JHEP}, 06:081, 2013.
+
+\bibitem{Aad:2013wqa}
+Georges Aad et~al.
+\newblock {Measurements of Higgs boson production and couplings in diboson
+  final states with the ATLAS detector at the LHC}.
+\newblock {\em Phys. Lett.}, B726:88--119, 2013.
+\newblock [Erratum: Phys. Lett.B734,406(2014)].
+
+\bibitem{PhysRevLett.10.531}
+Nicola Cabibbo.
+\newblock Unitary symmetry and leptonic decays.
+\newblock {\em Phys. Rev. Lett.}, 10:531--533, Jun 1963.
+
+\bibitem{Kobayashi:1973fv}
+Makoto Kobayashi and Toshihide Maskawa.
+\newblock {CP Violation in the Renormalizable Theory of Weak Interaction}.
+\newblock {\em Prog. Theor. Phys.}, 49:652--657, 1973.
+
+\bibitem{Innes:1977ae}
+Walter~R. Innes et~al.
+\newblock {Observation of structure in the $\Upsilon$ region}.
+\newblock {\em Phys. Rev. Lett.}, 39:1240, 1977.
+\newblock [Erratum: Phys. Rev. Lett.39,1640(1977)].
+
+\bibitem{PhysRevLett.74.2626}
+CDF Collaboration.
+\newblock Observation of top quark production in
+  $\overline{\mathit{p}}\mathit{p}$ collisions with the collider detector at
+  fermilab.
+\newblock {\em Phys. Rev. Lett.}, 74:2626--2631, Apr 1995.
+
+\bibitem{PhysRevLett.74.2422}
+D0~Collaboration.
+\newblock Search for high mass top quark production in $\mathit{p}\overline{p}$
+  collisions at
+  $\sqrt{\mathit{s}}\phantom{\rule{0ex}{0ex}}=\phantom{\rule{0ex}{0ex}}$ 1.8
+  tev.
+\newblock {\em Phys. Rev. Lett.}, 74:2422--2426, Mar 1995.
+
+\bibitem{anom-coups}
+J.~Aguilar-Saavedra.
+\newblock A minimal set of top anomalous couplings.
+\newblock {\em Nucl.Phys.}, B812:181, 2009.
+
+\bibitem{top-charge}
+Y.~Kuessel.
+\newblock Constraints on the top quark’s charge from top pair events.
+\newblock {\em PhD Thesis}, 2012.
+
+\bibitem{topchargemeasurement}
+M.~Buice U.~Baur and L.~H. Orr.
+\newblock “direct measurement of the top quark charge at hadron colliders.
+\newblock {\em Phys.Rev.}, D64:094019, 2001.
+
+\bibitem{pidsemilept}
+T.~Hermanns.
+\newblock Studies at the cms experiment on silicon microstrip module defects
+  and on photon identification in semileptonic ttbar-events.
+\newblock {\em http://cdsweb.cern.ch/record/1292768}, pages no.
+  CERN--THESIS--2008--111, 2008.
+
+\bibitem{CDFttgamma}
+CDF Collaboration.
+\newblock Evidence for $t\bar{t}\gamma$ production and measurement of
+  $\sigma_{t\bar{t}\gamma}/\sigma_{t\bar{t}}$.
+\newblock {\em Phys.Rev.}, D48:031104, 2011.
+
+\bibitem{ATLASttgamma}
+ATLAS Collaboration.
+\newblock Measurement of the inclusive $t\bar{t}\gamma$ cross section with the
+  atlas detector.
+\newblock {\em ATLAS CONF NOTE}, CONF-2011-153, 2011.
+
+\bibitem{topchargeconstraints}
+T.~C. Collaboration.
+\newblock Constraints on the top-quark charge from top-pair events.
+\newblock {\em http://cdsweb.cern.ch/record/1429970}, pages no.
+  CMS--PAS--TOP--11--031, 2012.
+
+\bibitem{ATLAStopcharge}
+T.~A. Collaboration.
+\newblock Measurement of the top quark charge in pp collisions at $\sqrt{s} =7
+  \tev$ in the atlas experiment.
+\newblock {\em http://cdsweb.cern.ch/record/1385517}, 2011.
+
+\bibitem{CDFD0combination}
+T.~CDF and D.~Collaborations.
+\newblock Combination of cdf and d0 measurements of the w boson helicity in top
+  quark decays.
+\newblock 2012.
+
+\bibitem{Whelicitytoppair}
+T.~C. Collaboration.
+\newblock W helicity in top pair events.
+\newblock {\em http://cdsweb.cern.ch/record/1423370}, pages no.
+  CMS--PAS--TOP--11--020, 2012.
+
+\bibitem{Wpolarisation}
+T.~A. Collaboratoin.
+\newblock Measurement of the w boson polarisation in top quark decays in 0.70
+  $fb^{−1}$ of pp collisions at $\sqrt{s}=7 \tev$ with the atlas detector.
+\newblock {\em http://cdsweb.cern.ch/record/1376422}, 2011.
+
+\bibitem{tsinglet}
+C.~Collaboration.
+\newblock “measurement of the t-channel single top quark production
+  cross-section in pp collisions at $\sqrt{s} = 7 \tev$.
+\newblock {\em Phys.Rev.Lett.107:091802}, 2011.
+
+\bibitem{singlet}
+D.~Collaboration.
+\newblock Measurements of single top quark production cross sections and
+  $\abs{V_{tb}}$ in $p\bar{p}$ collisions at $\sqrt{s} = 1.96 \tev$.
+\newblock {\em arXiv:1108.3091}, 2011.
+
+\bibitem{vectorbosonassociatedproduction}
+C.~Collaboration.
+\newblock Measurement of the associated production of vector bosons with
+  top-antitop pairs at $\sqrt{s} 7 \tev$.
+\newblock {\em http://cdsweb.cern.ch/record/1460101}, pages no.
+  CMS--PAS--TOP--12--014, 2012.
+
+\bibitem{tqZ}
+T.~C. Collaboration.
+\newblock Search for t to zq.
+\newblock {\em http://cdsweb.cern.ch/record/1429971}, pages no.
+  CMS--PAS--TOP--11--028, 2012.
+
+\bibitem{FCNC}
+T.~A. Collaboration.
+\newblock Search for fcnc top quark processes at 7 $\tev$ with the atlas
+  detector.
+\newblock {\em http://cdsweb.cern.ch/record/1345084}, 2011.
+
+\bibitem{linearcollider}
+T.~Abe.
+\newblock Linear collider physics resource book for snowmass 2001.
+\newblock {\em arXiv:hep-ex/0106055, arXiv:hep-ex/0106056,
+  arXiv:hep-ex/0106057, arXiv:hep-ex/0106058}, 2001.
 
 \bibitem{LHCStorageAccelerators}
 John~P. Blewett.

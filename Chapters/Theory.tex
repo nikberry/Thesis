@@ -271,7 +271,153 @@ This prediction of QCD was first discovered in the early 1970s by H. David Poliz
 
 Another prominent aspect of QCD, which arises due to the increasing of the strong force as distance increases between quarks, is the property of \textbf{confinement}. As quarks continue to be pulled apart from one another, the energy energy rises sufficiently enough such that they form a colourless bound state, such as a quark-antiquark pair (meson), or three-quark baryonic state (baryon) as mentioned above. We call this process hadronisation, and is the reason we have never observed isolated quarks.  
 
-\begin{equation} \label{equ-ckm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Electroweak Symmetry Breaking} \label{subsec-ElectroweakSymmetryBreaking}
+
+The concept of spontaneous symmetry breaking of the electroweak symmetry first came to fruition in the 1960s and was postulated by the British physicist Peter Higgs \cite{PhysRevLett.13.508}, and independently by two groups: The first formed by the Belgian duo Francois Englert and Robert Brout \cite{PhysRevLett.13.321}, and the second by Gerald Guralnik, Carl Richard Hagen, and Tom Kibble \cite{PhysRevLett.13.585}.
+
+we must spontaneously break the internal $SU(2)$ gauge symmetry by introducing an external field with a non-zero vacuum expectation value (vev), $\phi_c(x)$. We therefore require an $SU(2)$ doublet of complex scalar fields, $\phi$, defined as
+
+\begin{equation}
+\Phi
+= 
+\begin{pmatrix}
+\phi^+ \\
+\phi^0
+\end{pmatrix}
+\end{equation}
+
+The doublet of complex scalar fields has a weak isospin, $I_W = 1/2$, and hypercharge $Y = 1$ thus leading to $+1$ for the upper members of the doublet, and 0 for the lower. Thus, in terms of real scalar fields $\phi_i$, we set
+
+\begin{equation}
+\phi^+ = \frac{\phi_1 + i \phi_2}{\sqrt{2}}, \quad \phi^0 = \frac{\phi_3 + i\phi_4}{\sqrt{2}}.
+\end{equation}
+
+The Lagrangian density for the Higgs is then created by adding the scalar contribution to the massless GSW models
+
+\begin{equation}
+\lumi_{Higgs} = (D_{\mu}\phi)^{\dagger}(D^{\mu}\phi) - V(\phi)
+\end{equation}
+
+where $D_{\mu}$ is the electroweak covariant derivative defined in Section \ref{subsec-ElectroweakTheory} such that the conjugate $\phi^{\dagger}$encompasses the antiparticles $(\phi^-\bar{\phi^0})$, and $V(\phi)$ is input as a the most general $SU(2)_L \otimes U(1)_Y$ invariant and renormalisable scalar potential defined as
+
+\begin{equation}
+V(\phi) = -\mu^2(\phi^{\dagger}\phi) + \lambda(\phi^{\dagger}\phi)^2.
+\end{equation}
+
+By defining $\lamdba < 0$ and $\mu^2 < 0$ such that $\lumi_{Higgs}$ includes a wrong-sign mass term ($-\mu^2\phi^{\dagger}\phi$). This means that the potential that we defined is now bounded below such that there will be an invariant manifold of minima that lies below $V(\phi)=0$ as we wanted. This produces what is known as the ``mexican hat" potential, as can be visualised in Figure \ref{fig-MHP}.
+
+\begin{figure} \label{fig-MHP}
+\begin{center}
+\includegraphics[width=0.7\textwidth]{Figures/MexicanHatPotential.png}
+\caption{The ``Mexican Hat Potential" describing the vacuum expectation value of the Higgs in the real and imaginary planes, such that the minima lies below zero.}
+\end{center}
+\end{figure}
+
+We now see that $\lumi_{Higgs}$ is invariant under a local $SU(2)_L \otimes U(1)_Y$ gauge transformation 
+
+\begin{equation}
+\phi \to \phi' = exp[-ig\frac{T^i}{2}\cdot \Delta - i\frac{g'}{2}\Lambda]\phi.
+\end{equation}
+
+We define the minima of $V(\phi)$ to be 
+
+\begin{equation}
+\frac{dV}{d(\phi^\dagger\phi)} = 0 \rightarrow \mu^2 - 2\lambda(\phi^{\dagger}\phi) = 0
+\end{equation}
+
+such that the degenerate minima are
+
+\begin{equation}
+\phi^{\dagger}\phi|_{min} = \frac{\mu^2}{2\lambda} = \frac{v^2}{2}.
+\end{equation}
+
+We then want to spontaneously break the $SU(2)_L \otimes U(1)Y$ symmetry by choosing a minimum corresponding to the lowest energy state, or vacuum. The choice of vacuum direction is in fact arbitrary, however in order for the photon to remain massless we must assign a non-zero value to a neutral field, and thus we use the conventional notation
+
+\begin{equation} \label{eqn-HiggsDoublet}
+\braket{0|\phi|0} = \frac{1}{\sqrt{2}}
+\begin{pmatrix}
+0 \\
+v
+\end{pmatrix}.
+\end{equation}
+
+$\phi$ is then expanded around the selected minimum, where we set $\phi$ to $v + H$ where H is the neutral scalar Higgs field.
+
+\begin{equation} \label{eqn-UnitaryGauge}
+\phi = \frac{1}{\sqrt{2}}
+\begin{pmatrix}
+0 \\
+v + H
+\end{pmatrix}
+\end{equation}
+
+In this way the fields with vevs set to zero, also called the ``Goldstone" fields. We can see this by applying a local gauge transformation to the field. Thus we see that a gauge transformation of Equation \ref{eqn-UnitaryGauge} is a gauge transformation of $\phi$ with four independent scalar fields. From this we arises our three massless gauge bosons, the $w^{\pm}$ and $Z^0$ which gain mass and acquire three extra longitudinal polarisation degrees of freedrom by ``absorbing" the three unphysical Goldstone bosons. We can now write the Lagrangian density as 
+
+\begin{equation} \label{eqn-HiggsLagrangian}
+\begin{split}
+\lumi_{Higgs} & = \frac{1}{2}(\partial_{\mu}H)(\partial^{\mu}H) + \frac{1}{4}g^2 (H^2 + 2vH + v^2) W^+_{\mu} W^{-\mu} \\
+& + \frac{1}{8} (g^2 + g'^2) (H^2 + 2vH + v^2) Z_{\mu} Z^{\mu} \\
+& - \mu^2 H^2 - \frac{\lambda}{4} (H^4 + 4vH^3)
+\end{split}
+\end{equation}
+
+where we used to have the relation $(g\cos\theta_W + g'\sin\theta_W)^2 = g^2 + g'^2$, but now we can directly read off the masses of the $W^{\pm}$ and the $Z^0$ by extracting the mass terms $m^2_W W^+_{\mu}W^{-\mu}$ and $\frac{1}{2}M^2_Z Z_{\mu} Z^{\mu}$ from Equation \ref{eqn-HiggsLagrangian}, where the photon still remains massless as we would expect. We can then write the masses of the bosons as 
+
+\begin{align}
+M_W & = \frac{1}{2}gv \\
+M_Z & = (g^2 + g'^2)^{\frac{1}{2}}v = \frac{1}{2} \frac{gv}{\cos\theta_W}.
+\end{align}
+ 
+For the Higgs scalar, we define the mass to be 
+
+\begin{equation}
+M_H = \sqrt{2}\mu = v\sqrt{2},
+\end{equation}
+
+and as a result of the above vector boson masses we note the following relation:
+
+\begin{equation}
+\frac{M_W}{M_Z} = \cos\theta_W.
+\end{equation}
+
+This vector boson mass relation is often called the ``weak $\Delta I = 1/2$" rule, and arises by our initial choice of Higgs doublet in order to perform spontaneous symmetry breaking.
+
+We can then use the Higgs mechanism in a similar fashion to introduce the masses for all other fermions. We do so by introducing a gauge-invariant term in $SU(2)_L \otimes U(1)_Y$ which is responsible for interactions between the Higgs and fermion fields --- the Yukawa term. We can then write a generalised Standard Model Lagrangian with the additional Yukawa terms for the first generation of fermions as such: 
+
+\begin{equation}
+\lumi_{Yukawa} = -Y^{ij}_e \bar{l}^i_L \phi e^i_R - Y^{ij}_u \bar{q}^i_L \epsilon \phi^{\dagger} u^j_R - Y^{ij}_d \bar{q}^i_L \phi d^j_R + h.c.
+\end{equation}
+
+where the Yukawa couplings, $Y^{ij}_{e,u,d}$ (e,u,d = electron, up, down), are $3\times3$ complex matrices and $\epsilon$ is the $2\times2$ antisymmetric tensor. In the Standard Model fermion masses are generated through the coupling of the Yukawa couplings to the Higgs doublet (Equation \ref{eqn-HiggsDoublet}) such that we are obtain mass terms such as:
+
+\begin{equation}
+M_e = Y_e\frac{v}{\sqrt{2}}
+\end{equation}
+
+where here we have generated, in a gauge invariant system, a mass term for the electron. By construction, a resultant feature of the Yukawa couplings is that the couplings of the Higgs boson are proportional to the masses (or squares of the masses) of particles with which it interacts. This feature is integral to the phenomenology of Higgs searches. The discovery of the Higgs boson in 2012 by both the ATLAS \cite{Aad:2012tfa} and CMS \cite{b846af59f42d440a9058d93ed5df44cf} experiments with a mass of $\sim125$ GeV, and with couplings calculated to be consistent with the Standard Model \cite{Chatrchyan:2013lba, Aad:2013wqa}. proved to be another triumph for the Standard Model. So far, we have developed a picture where we do not encounter fermions of different generations. The most successful theory of quark interactions came in the form of the CKM matrix.
+
+\subsection{The CKM matrix}
+
+Inspired by early work from Murray Gell-Mann and Maurice L ́evy, Italian physicist Nicola Cabibbo first introduced the Cabibbo rotation angle, $θ_c$, in 1963 \cite{PhysRevLett.10.531} in order to preserve the universality of the weak interaction. The Cabibbo angle was built on the idea that there is a relative probability for a down-type quark to decay into an up-type quark. At that time only two generations of quark were known to exist, however the charm quark was still only theorised, and so the relative probabilities only described the mixing of the up, down,
+and strange quark ($V_{ud}$ and $V_{us}$ ). It was also known that the probability of an up-type quark decaying to a down-type quark is zero, which is to say that quarks of the same up or down-type cannot mix without the help of a loop.
+
+The angle, $θ_c$, describes the rotation of the mass eigenstate vector space, formed by the mass eigenstates $\ket{d}$, $\ket{s}$, into the weak eigenstate vector space, formed by the weak eigenstates $\ket{d'}$ and $\ket{s'}$. From this we can say that the probability of an object coupling to an up-type quark through a charged weak interaction is a superposition of down-type quarks. This can be written as:
+
+\begin{equation}
+|d'> = V_{ud}\ket{d} + V_{us}\ket{s}
+\end{equation}
+
+or in terms of the Cabibbo angle 
+
+\begin{equation}
+|d'> = \cos\theta_c\ket{d} + \sin\theta_c\ket{s}
+\end{equation}
+
+Upon observing that CP violation could not be resolved within a four-quark model, Japanese physicists Makoto Kobayashi and Toshihide Maskawa sought to extend the Cabibbo rotation matrix to accommodate three generations of quark \cite{Kobayashi:1973fv}. This is written in the same manner as the Cabibbo rotation matrix, but including the top and bottom quark mixing phases, as seen in Equation \ref{eqn-ckm}, where d',s', and b' are the weak eigenstates written in terms of the mass eigenstates d,s,b. Kobayashi and Maskawa's predictions later came true when the bottom quark was discovered. Ever since the discovery of the bottom quark in 1977 at Fermilab, Chicago \cite{Innes:1977ae}, by a team led by Nobel prize-winning experimental physicist Leon Lederman, the top quark was theorised. The top quark was later discovered in 1995 with the CDF \cite{PhysRevLett.74.2626} and D0 \cite{PhysRevLett.74.2422} experiments, also at Fermilab, and thus a full third generation of quarks was in place. Kobayashi and Maskawa subsequently won the Nobel prize in physics in 2008 for their contribution to quark mixing in the Standard Model.   
+
+\begin{equation} \label{equ-CKM}
 \begin{pmatrix}
 d' \\
 s' \\
@@ -290,6 +436,8 @@ b
 \end{pmatrix}
 \end{equation}
 
+The CKM matrix describes the mixing of quark flavours where each term in the matrix represents the probability of that a quark transitioning into another quark. The values for each quark transition are given in Equation \ref{eqn-ckm}. We can see that the CKM matrix is essentially diagonal %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{equation} \label{equ-ckm}
 V_{CKM}
 =
@@ -300,90 +448,7 @@ V_{CKM}
 \end{pmatrix}
 \end{equation}
 
-
-
-\subsection{Electroweak Symmetry Breaking} \label{subsec-ElectroweakSymmetryBreaking}
-
-Peter Higgs \cite{PhysRevLett.13.508}
-
-Francois Englert and Robert Brout \cite{PhysRevLett.13.321}
-
-we form an $SU(2)$ doublet of complex scalar fields, $\phi$, defined as
-
-\begin{equation}
-\phi = 
-\begin{pmatrix}
-\phi^+ \\
-\phi^0
-\end{pmatrix}
-= \frac{1}{\sqrt{2}}
-\begin{pmatrix}
-\phi_1 + i \phi_2 \\
-\phi_3 + i\phi_4
-\end{pmatrix}
-\end{equation}
-
-the Lagrangian density for the Higgs is given by
-
-\begin{equation}
-\lumi_{Higgs} = (D_{\mu}\phi)^{\dagger}(D^{\mu}\phi) - V(\phi)
-\end{equation}
-
-where $D_{\mu}$ is the electroweak covariant derivative defined in Section \ref{subsec-ElectroweakTheory}, and $V(\phi)$ is input as a simple scalar potential defined as
-
-\begin{equation}
-V(\phi) = -\mu^2(\phi^{\dagger}\phi) + \lambda(\phi^{\dagger}\phi)^2
-\end{equation}
-
-\begin{figure}
-\begin{center}
-\includegraphics[width=0.7\textwidth]{Figures/MexicanHatPotential.png}
-\caption{The ``Mexican Hat Potential" describing the vacuum expectation value of the Higgs in the real and imaginary planes, such that the minima lies below zero.}
-\end{center}
-\end{figure}
-
-\begin{equation}
-\braket{0|\phi|0} = \frac{1}{\sqrt{2}}
-\begin{pmatrix}
-0 \\
-v
-\end{pmatrix}
-\end{equation}
-
-\begin{equation}
-\phi = \frac{1}{\sqrt{2}}
-\begin{pmatrix}
-0 \\
-v + H
-\end{pmatrix}
-\end{equation}
-
-\begin{equation}
-\begin{split}
-\lumi_{Higgs} & = \frac{1}{2}(\partial_{\mu}H)(\partial^{\mu}H) + \frac{1}{4}g^2 (H^2 + 2vH + v^2) W^+_{\mu} W^{-\mu} \\
-& + \frac{1}{8} (g^2 + g'^2) (H^2 + 2vH + v^2) Z_{\mu} Z^{\mu} - \mu^2 H^2 - \frac{\lambda}{4} (H^4 + 4vH^3)
-\end{split}
-\end{equation}
-
-\begin{figure}
-\begin{center}
-\includegraphics[width=\textwidth]{Figures/TopPhotonVertex.png}
-\caption{Top-photon vertex. Left: Leading Order (LO). Right: One-Loop correction (NLO).}
-\end{center}
-\end{figure}
-
-\begin{equation} \label{eqn-interactionlagrangian}
-\lumi_{\gamma t\bar{t}} = -eQ_t\bar{t}\gamma^{\mu}tA_{\mu} - e\bar{t}\frac{i\sigma^{\mu\nu}q_{\nu}}{m_t}(d^{\gamma}_V+id^{\gamma}_A\gamma^5)tA_{\mu}
-\end{equation}
-
-\begin{equation}
-\lumi^{eff.} = \Sum \frac{C_x}{\Lambda_x}O_x + ... ,
-\end{equation}
-
-\begin{align}\label{eqn-smparameterisations}
-\delta d^{\gamma}_V = \frac{\sqrt{2}}{e}\text{Re}[c_WC^{33}_{uB\phi} + s_WC^{33}_{uW}]\frac{vm_t}{\Lamdba^2} \\
-\delta d^{\gamma}_A = \frac{\sqrt{2}}{e}\text{Im}[c_WC^{33}_{uB\phi} + s_WC^{33}_{uW}]\frac{vm_t}{\Lamdba^2}
-\end{align}
+\section{The Top Quark} \label{sec-TheTopQuark}
 
 \begin{figure}
 \begin{center}
@@ -392,9 +457,64 @@ v + H
 \end{center}
 \end{figure}
 
-\section{The Top Quark} \label{sec-TheTopQuark}
+\subsection{Top quark anomalous couplings}
 
-\begin{table} \label{tab:mumu_cutflow}
+There is great interest as to the determination of the coupling of the top quark and photon, and probing the $t\bar{t}\gamma$ channel provides direct access to test
+this vertex. Any deviation from that of SM prediction would imply an anomalous structure of the vertex, thus revealing theorised physics beyond that of the SM. 
+
+A set of eight operators, $O_x$, known as effective operators, can be found to parametrise quark couplings up to a scale $\Lambda$ \cite{anom-coups}. They appear linearly in an
+interaction Lagrangian, which is written in the form of a Taylor expansion, with complex effective coefficients $C_x$:
+
+\begin{equation} \label{eqn-EffectiveOperators}
+\lumi^{eff.} = \Sum \frac{C_x}{\Lambda_x}O_x + ... ,
+\end{equation}
+
+\subsection{The top-photon vertex}
+
+\begin{figure} \label{fig-TopPhotonVertex}
+\begin{center}
+\includegraphics[width=\textwidth]{Figures/TopPhotonVertex.png}
+\caption{Top-photon vertex. Left: Leading Order (LO). Right: One-Loop correction (NLO).}
+\end{center}
+\end{figure}
+
+The interaction Lagrangian for the top-photon vertex, shown in Fig. \ref{fig-TopPhotonVertex}, can be written in the form \cite{anom-coups}:
+
+\begin{equation} \label{eqn-interactionlagrangian}
+\lumi_{\gamma t\bar{t}} = -eQ_t\bar{t}\gamma^{\mu}tA_{\mu} - e\bar{t}\frac{i\sigma^{\mu\nu}q_{\nu}}{m_t}(d^{\gamma}_V+id^{\gamma}_A\gamma^5)tA_{\mu}
+\end{equation}
+
+The first term in Equation \ref{eqn-interactionlagrangian} is a purely SM contribution, and is linear with respect to electrical charge, $Q_t$, such that the bare $t\bar{t}+\gamma$ cross-section is proportional to the square of the top-quark charge. The second term is described b  vector and axial form factors, $d^{\gamma}_V$ and $d^{\gamma}_A$, which arise from the contributions of first-order loop corrections, representing the magnetic and electric dipole moment of the top quark, respectively. The form factors, $d^{\gamma}_V$ and $d^{\gamma}_A$, comprise the operators $O^{33}_{uB\phi}$ and $O^{33}_{uW}$ from the eight effective operators described previously mentioned. They parametrise deviations from SM expectations of the form factors, $d^{\gamma}_V$ and $d^{\gamma}_A$, as such:
+
+\begin{align}\label{eqn-smparameterisations}
+\delta d^{\gamma}_V = \frac{\sqrt{2}}{e}\text{Re}[c_WC^{33}_{uB\phi} + s_WC^{33}_{uW}]\frac{vm_t}{\Lamdba^2} \\
+\delta d^{\gamma}_A = \frac{\sqrt{2}}{e}\text{Im}[c_WC^{33}_{uB\phi} + s_WC^{33}_{uW}]\frac{vm_t}{\Lamdba^2}
+\end{align}
+
+where $\delta d^{\gamma}_V$ and $\delta d^{\gamma}_A$ only receive non-zero contributions from phenomena beyond the SM. We are able to obtain a measurement of these constants by
+analysing the magnetic and electric dipole moments of the top quark.
+
+The magnetic dipole moment of the top quark is studied by measurements of spin correlation, whereas the electric dipole moment can be investigated through the $t\gamma$ vertex.
+Deviations from SM contributions are expected to manifest in the photon energy spectrum and angular photon distributions.
+
+Measuring $t\bar{t}+\gamma$ provides a direct test of the electromagnet coupling of the top quark in a way that is complementary to analyses that include an ``exotic" top quark with a charge of -4/3e \cite{top-charge}. One issue when investigating the $t\bar{t}+\gamma$ process is the large irreducible background of photons that are radiated by other charged particles than the top quark. It has also been proved that the interference of photon production from initial state radiation (ISR) and final state radiation (FSR) can not be deemed negligible \cite{topchargemeasurement}. This is also discussed with respect to Monte Carlo signal generation in Sec.\ref{subsec-mcsim}. Thus only inclusive observables of $t\bar{t}+\gamma$ can be probed, as we are unable to trace the photon back to its parent particle. We will also treat on- and off-shell radiation collectively. We will discuss prompt photon background in Section \ref{subsubsec-photonidbackgrounds}. 
+
+\subsection{Previous measurements}
+
+Presently, the determination of the operators $C^{33}_{uB\phi}$ and $C^{33}_{uW}$ is not possible, due to the statistical significance of recorded events at the LHC being low. This will become more accessible at higher centre-of-mass energy and luminosity. Until then, benchmark studies have been undertaken \cite{pidsemilept}.
+
+Both the CDF, at the Tevatron, and ATLAS, at the LHC, experiments have measure the inclusive $t\bar{t}+\gamma$ production cross-section at
+$\sigma^{CDF}_{t\bar{t}+\gamma} = 0.18 \pm 0.08$ pb \cite{CDFttgamma} and $\sigma^{ATLAS}_{t\bar{t}+\gamma} = 2.0 \pm 0.5 (\text{stat}) \pm 0.7 (\text{sys.}) \pm 0/08 (\text{lumi})$ pb at 7 TeV \cite{ATLASttgamma}, respectively. The SM expectations for these values are given as $\sigma^{Tevatron}_{t\bar{t}+\gamma} = 0.17 \pm 0.003$ pb and $\sigma^{LHC}_{t\bar{t}+\gamma} = 2.1 \pm 0.4$ pb, respectively, and thus the measurements observed are in accordance to those theorised. 
+
+In relation to the electrical charge of the top quark, the CMS and ATLAS experiments have also performed analyses, hypothesis tests, where the final state charges of the top quark are combined, and both yielded similar results. The experiments concluded that an electrical charge of $Q_t = -4/3e$ could be excluded  with a high significance \cite{topchargeconstraints, ATLAStopcharge}.
+
+Other top quark couplings have been measured at the Tevatron and the LHC, also. The structure of the $Wtb$ vertex has been investigated in helicity measurements of top quark correlated W bosons at the Tevatron and LHC, putting limits on anomalous couplings \cite{CDFD0combination, Whelicitytoppair, Wpolarisation}. The strength of $tW$ couplings can be tested through single top quark production and has been found to be consistent with SM expectations \cite{tsinglet, singlet}. Also, the inclusive $ttZ$ production cross-section has been measured by CMS, and exclusion limits on anomalous couplings are set \cite{vectorbosonassociatedproduction}. Another focus in the area is flavour changing neutral currents (FCNC) in top decays, $t \to qZ$ and $t \to q\gamma$ are also currently being studied. Limits are set for these processes \cite{tqZ, FCNC}, which confirm SM FCNC suppression. 
+
+It is important to note that a measurements of $t\bar{t}+\gamma$ are extremely challenging at the LHC with the current centre-of-mass energy and luminosity. This is due to the limited four-momentum resolution of partons, pile-up, and large background from QCD multi-jet events. It has been estimated that a 10\% resolution of the top quark's charge will be available at $\sqrt{s} = 14$ TeV with 10 fb$^{-1}$ \cite{topchargemeasurement}. A high energy $e^+e^-$ collider would be preferable for this study as it would be a much cleaner working environment,
+such that we could obtain a 5--10\% precision on axial form factor $d&{\gamma}_A$ can be achieved with 10 fb$^{-1}$ at $\sqrt{s} = 500$ GeV \cite{linearcollider}.
+
+
+\begin{table} \label{tab-}
 \begin{center}
 \begin{tabular}{lccc}
 \hline
