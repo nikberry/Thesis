@@ -15,6 +15,7 @@
 \usepackage{subcaption}
 \usepackage{amsmath}
 \usepackage{mathtools}
+\usepackage{stackengine}
 \usepackage{braket}
 \usepackage{rotating}
 \usepackage{afterpage,lscape}
@@ -229,6 +230,18 @@ The acknowledgements and the people to thank go here, don't forget to include yo
 \renewcommand{\thesection}{A.\arabic{section}}
 \renewcommand\thefigure{\thesection}
 \renewcommand\thetable{\thesection}
+
+\section{Operator contributions to $\gamma t \bar{t}$}
+
+Here we show the contributions to the effective $\gamma t \bar{t}$ vertices of the operators in Equation \ref{}. We use the shorthand $\alpha_x = C_x/\Lambda^2$ and drop the indices from the $\alpha$ constants.
+
+\begin{align}
+\alpha O^{33}_{uW} + \alpha^* (O^{33}_{uW})^{\dagger} & \supset \frac{v}{\sqrt{2}}s_W \lbrack \text{Re} \alpha\bar{t}\lambda^a g^{\mu \nu} t + i \text{Im} \alpha \bar{t}\lambda^a g^{\mu \nu} \gamma^5 t\rbrack G^a_{\nu} Z_{\mu}\\ 
+\alpha O^{33}_{uB\phi} + \alpha^* (O^{33}_{uB\phi})^{\dagger} & \supset \frac{v}{\sqrt{2}}c_W \lbrack \text{Re} \alpha\bar{t}\lambda^a g^{\mu \nu} t + i \text{Im} \alpha \bar{t}\lambda^a g^{\mu \nu} \gamma^5 t\rbrack G^a_{\nu} Z_{\mu}\\ 
+\alpha O^{33}_{qW} + \alpha^* (O^{33}_{qW})^{\dagger} & \supset s_W \lbrack \text{Re} \alpha\partial^{\nu}(\bar{t}_L\gamma^{\mu}t_L) + i \text{Im} \alpha \bar{t}_L\gamma^{\mu}\partial^{\nu}t_L \rbrack A_{\mu \nu}\\ 
+\alpha O^{33}_{qB} + \alpha^* (O^{33}_{qB})^{\dagger} & \supset c_W \lbrack \text{Re} \alpha\partial^{\nu}(\bar{t}_L\gamma^{\mu}t_L) + i \text{Im} \alpha \bar{t}_L\gamma^{\mu}\partial^{\nu}t_L \rbrack A_{\mu \nu}\\ 
+\alpha O^{33}_{uB} + \alpha^* (O^{33}_{uB})^{\dagger} & \supset c_W \lbrack \text{Re} \alpha\partial^{\nu}(\bar{t}_L\gamma^{\mu}t_L) + i \text{Im} \alpha \bar{t}_R\gamma^{\mu}\partial^{\nu}t_R \rbrack A_{\mu \nu}  
+\end{align}
 
 \section{Electron \& Muon Efficiencies}
 

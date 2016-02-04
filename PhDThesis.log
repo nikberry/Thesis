@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.22)  3 FEB 2016 17:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.22)  4 FEB 2016 15:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -299,23 +299,47 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_above_shortintertext_sep=\dimen141
 \l_MT_below_shortintertext_sep=\dimen142
 )
+(/usr/share/texlive/texmf-dist/tex/latex/stackengine/stackengine.sty
+Package: stackengine 2014/01/06 v3.24\ Stacking text and objects in convenient 
+ways
+
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count121
+)
+\etb@tempcnta=\count122
+)
+\c@@stackindex=\count123
+\@boxshift=\skip59
+\stack@tmplength=\skip60
+\temp@stkl=\skip61
+\@stackedboxwidth=\skip62
+\@addedbox=\box29
+\@anchorbox=\box30
+\stackedbox=\box31
+\@centerbox=\box32
+\c@ROWcellindex@=\count124
+)
 (/usr/share/texlive/texmf-dist/tex/latex/rotating/rotating.sty
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count121
-\rotFPtop=\skip59
-\rotFPbot=\skip60
-\rot@float@box=\box29
+\c@r@tfl@t=\count125
+\rotFPtop=\skip63
+\rotFPbot=\skip64
+\rot@float@box=\box33
 \rot@mess@toks=\toks23
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/afterpage.sty
 Package: afterpage 1995/10/27 v1.08 After-Page Package (DPC)
 \AP@output=\toks24
-\AP@partial=\box30
-\AP@footins=\box31
+\AP@partial=\box34
+\AP@footins=\box35
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
@@ -335,24 +359,24 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-\sc@wm@fontsize=\skip61
+\sc@wm@fontsize=\skip65
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip62
-\LTright=\skip63
-\LTpre=\skip64
-\LTpost=\skip65
-\LTchunksize=\count122
+\LTleft=\skip66
+\LTright=\skip67
+\LTpre=\skip68
+\LTpost=\skip69
+\LTchunksize=\count126
 \LTcapwidth=\dimen143
-\LT@head=\box32
-\LT@firsthead=\box33
-\LT@foot=\box34
-\LT@lastfoot=\box35
-\LT@cols=\count123
-\LT@rows=\count124
-\c@LT@tables=\count125
-\c@LT@chunks=\count126
+\LT@head=\box36
+\LT@firsthead=\box37
+\LT@foot=\box38
+\LT@lastfoot=\box39
+\LT@cols=\count127
+\LT@rows=\count128
+\c@LT@tables=\count129
+\c@LT@chunks=\count130
 \LT@p@ftn=\toks25
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -386,7 +410,6 @@ Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
 Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
-Package atveryend Info: \AP@enddocument detected (standard20110627).
 Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
@@ -395,13 +418,13 @@ Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen144
-\Hy@linkcounter=\count127
-\Hy@pagecounter=\count128
+\Hy@linkcounter=\count131
+\Hy@pagecounter=\count132
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count129
+\Hy@SavedSpaceFactor=\count133
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -413,7 +436,7 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count130
+\c@Hy@tempcnt=\count134
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
@@ -421,7 +444,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen145
-\Fld@menulength=\count131
+\Fld@menulength=\count135
 \Field@Width=\dimen146
 \Fld@charsize=\dimen147
 Package hyperref Info: Hyper figures OFF on input line 6295.
@@ -433,24 +456,24 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count132
-\c@Item=\count133
-\c@Hfootnote=\count134
+\Hy@abspage=\count136
+\c@Item=\count137
+\c@Hfootnote=\count138
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count135
-\c@bookmark@seq@number=\count136
+\Fld@listcount=\count139
+\c@bookmark@seq@number=\count140
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip66
+\Hy@SectionHShift=\skip70
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
@@ -494,7 +517,7 @@ l.211 \ifthenelse{\boolean{cms@external}}
 I'm ignoring this; it doesn't match any \if.
 
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 45.
+Package hyperref Info: Option `colorlinks' set `true' on input line 46.
  (./PhDThesis.aux
 
 LaTeX Warning: Label `eqn-DiracLagrangian' multiply defined.
@@ -502,32 +525,32 @@ LaTeX Warning: Label `eqn-DiracLagrangian' multiply defined.
 )
 \openout1 = `PhDThesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count137
+\scratchcounter=\count141
 \scratchdimen=\dimen148
-\scratchbox=\box36
-\nofMPsegments=\count138
-\nofMParguments=\count139
+\scratchbox=\box40
+\nofMPsegments=\count142
+\nofMParguments=\count143
 \everyMPshowfont=\toks26
-\MPscratchCnt=\count140
+\MPscratchCnt=\count144
 \MPscratchDim=\dimen149
-\MPnumerator=\count141
-\makeMPintoPDFobject=\count142
+\MPnumerator=\count145
+\makeMPintoPDFobject=\count146
 \everyMPtoPDFconversion=\toks27
 )
 *geometry* driver: auto-detecting
@@ -572,8 +595,8 @@ Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box37
-Package hyperref Info: Link coloring ON on input line 52.
+\AtBeginShipoutBox=\box41
+Package hyperref Info: Link coloring ON on input line 53.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -581,41 +604,41 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count143
+\c@section@level=\count147
 )
-LaTeX Info: Redefining \ref on input line 52.
-LaTeX Info: Redefining \pageref on input line 52.
-LaTeX Info: Redefining \nameref on input line 52.
+LaTeX Info: Redefining \ref on input line 53.
+LaTeX Info: Redefining \pageref on input line 53.
+LaTeX Info: Redefining \nameref on input line 53.
 
 (./PhDThesis.out) (./PhDThesis.out)
 \@outlinefile=\write3
 \openout3 = `PhDThesis.out'.
 
 
-<Figures/brunelshield.png, id=470, 213.79875pt x 289.08pt>
+<Figures/brunelshield.png, id=474, 213.79875pt x 289.08pt>
 File: Figures/brunelshield.png Graphic file (type png)
 
 <use Figures/brunelshield.png>
-Package pdftex.def Info: Figures/brunelshield.png used on input line 72.
+Package pdftex.def Info: Figures/brunelshield.png used on input line 73.
 (pdftex.def)             Requested size: 106.89911pt x 144.53964pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 84.
+LaTeX Font Info:    Try loading font information for U+msa on input line 85.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 84.
+LaTeX Font Info:    Try loading font information for U+msb on input line 85.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 84.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 85.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 
 LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <142.26378> not available
-(Font)              size <35.83> substituted on input line 101.
+(Font)              size <35.83> substituted on input line 102.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -627,14 +650,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.113 \begin{declaration}
+l.114 \begin{declaration}
                          
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
 
@@ -645,7 +668,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.130 \end{declaration}
+l.131 \end{declaration}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -655,19 +678,19 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.132 \clearpage
+l.133 \clearpage
                  [1] [2
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.162 \end{abstract}
+l.163 \end{abstract}
                      [1
 
 ]
 ! Undefined control sequence.
-l.170 \acknowledgements
+l.171 \acknowledgements
                        {\addtocontents{toc}{\vspace{1em}} % Add a gap in the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -679,17 +702,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.174 \clearpage
+l.175 \clearpage
                  % Start a new page [1
 
 ]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 183.
+less on input line 184.
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 184.
+less on input line 185.
 
 (./PhDThesis.toc [1
 
@@ -774,10 +797,17 @@ l.1 \chapter
 
 ]
 Chapter 1.
+<Figures/StandardModel.png, id=920, 376.40625pt x 283.0575pt>
+File: Figures/StandardModel.png Graphic file (type png)
+
+<use Figures/StandardModel.png>
+Package pdftex.def Info: Figures/StandardModel.png used on input line 12.
+(pdftex.def)             Requested size: 350.81174pt x 263.82814pt.
+
 ! Undefined control sequence.
 \lumi ->\ensuremath {\mathcal {L}}\xspace 
                                           
-l.28 \lumi
+l.35 \lumi
            = \bar{\psi}(i \gamma^{\mu}\partial_{\mu}-m)\psi
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -789,14 +819,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.29 \end{equation}
+l.36 \end{equation}
                     [2
 
 ]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3 <./Figures/StandardModel.png>]
 ! Undefined control sequence.
 \lumi ->\ensuremath {\mathcal {L}}\xspace 
                                           
-l.52 \lumi
+l.59 \lumi
            \to \lumi - [\partial_{\mu} \theta(x)] \bar{\psi} \gamma^{\mu} \psi.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -807,7 +844,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \lumi ->\ensuremath {\mathcal {L}}\xspace 
                                           
-l.52 \lumi \to \lumi
+l.59 \lumi \to \lumi
                      - [\partial_{\mu} \theta(x)] \bar{\psi} \gamma^{\mu} \psi.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -818,7 +855,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \lumi ->\ensuremath {\mathcal {L}}\xspace 
                                           
-l.58 \lumi
+l.65 \lumi
            = \bar{\psi}(i \gamma^{\mu}D_{\mu}-m)\psi
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -826,17 +863,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[3]
 ! Undefined control sequence.
 \lumi ->\ensuremath {\mathcal {L}}\xspace 
                                           
-l.82 \lumi
+l.89 \lumi
           _{QED} = \bar{\psi}(i \slashed{D}_{\mu} - m) \psi - \frac{1}{4}F_{...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -861,7 +891,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ! Undefined control sequence.
 \lumi ->\ensuremath {\mathcal {L}}\xspace 
                                           
-l.201 \end{split}
+l.208 \end{split}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -870,15 +900,15 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Command \i invalid in math mode on input line 201.
+LaTeX Warning: Command \i invalid in math mode on input line 208.
 
 
-LaTeX Warning: Command \i invalid in math mode on input line 201.
+LaTeX Warning: Command \i invalid in math mode on input line 208.
 
 ! Undefined control sequence.
 \lumi ->\ensuremath {\mathcal {L}}\xspace 
                                           
-l.201 \end{split}
+l.208 \end{split}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -887,10 +917,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Command \i invalid in math mode on input line 201.
+LaTeX Warning: Command \i invalid in math mode on input line 208.
 
 
-LaTeX Warning: Command \i invalid in math mode on input line 201.
+LaTeX Warning: Command \i invalid in math mode on input line 208.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -899,10 +929,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [6]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7]
 ! Undefined control sequence.
 \lumi ->\ensuremath {\mathcal {L}}\xspace 
                                           
-l.236 \lumi
+l.243 \lumi
            _{QCD} & = \bar{q}\left(\gamma^{\mu}\partial_{\mu} - m \right) q ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -911,7 +948,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Misplaced alignment tab character &.
-l.236 \lumi_{QCD} &
+l.243 \lumi_{QCD} &
                     = \bar{q}\left(\gamma^{\mu}\partial_{\mu} - m \right) q ...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -920,30 +957,23 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[7] <Figures/AlphaS.png, id=982, 383.4325pt x 315.1775pt>
+<Figures/AlphaS.png, id=987, 383.4325pt x 315.1775pt>
 File: Figures/AlphaS.png Graphic file (type png)
-
-<use Figures/AlphaS.png>
-Package pdftex.def Info: Figures/AlphaS.png used on input line 257.
+ <use Figures/AlphaS.png>
+Package pdftex.def Info: Figures/AlphaS.png used on input line 264.
 (pdftex.def)             Requested size: 219.2565pt x 180.23015pt.
 
-Overfull \hbox (2.11694pt too wide) in paragraph at lines 262--263
+Overfull \hbox (2.11694pt too wide) in paragraph at lines 269--270
 \T1/cmr/m/n/10.95 in-ter-ac-tions me-di-ated by vec-tor bosons is de-pen-dent o
 n the mag-ni-tude of q (energy-momentum
  []
 
 
-Package caption Warning: \label without proper \caption on input line 255.
+Package caption Warning: \label without proper \caption on input line 262.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig-AlphaS' on page 8 undefined on input line 268.
+LaTeX Warning: Reference `fig-AlphaS' on page 8 undefined on input line 275.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -951,11 +981,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8 <./Figures/AlphaS.png>]
+[8]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9 <./Figures/AlphaS.png>]
 ! Undefined control sequence.
 \lumi ->\ensuremath {\mathcal {L}}\xspace 
                                           
-l.300 \lumi
+l.307 \lumi
            _{Higgs} = (D_{\mu}\phi)^{\dagger}(D^{\mu}\phi) - V(\phi)
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -963,17 +1000,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[9]
 ! Undefined control sequence.
 <recently read> \lamdba 
                         
-l.309 By defining $\lamdba
+l.316 By defining $\lamdba
                            < 0$ and $\mu^2 < 0$ such that $\lumi_{Higgs}$ in...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -984,7 +1014,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \lumi ->\ensuremath {\mathcal {L}}\xspace 
                                           
-l.309 ...dba < 0$ and $\mu^2 < 0$ such that $\lumi
+l.316 ...dba < 0$ and $\mu^2 < 0$ such that $\lumi
                                                   _{Higgs}$ includes a wrong...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -993,24 +1023,24 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Package caption Warning: \label without proper \caption on input line 311.
+Package caption Warning: \label without proper \caption on input line 318.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig-MHP' on page 10 undefined on input line 309.
+LaTeX Warning: Reference `fig-MHP' on page 10 undefined on input line 316.
 
-<Figures/MexicanHatPotential.png, id=1019, 854.19125pt x 709.65125pt>
+<Figures/MexicanHatPotential.png, id=1024, 854.19125pt x 709.65125pt>
 File: Figures/MexicanHatPotential.png Graphic file (type png)
 
 <use Figures/MexicanHatPotential.png>
-Package pdftex.def Info: Figures/MexicanHatPotential.png used on input line 313
+Package pdftex.def Info: Figures/MexicanHatPotential.png used on input line 320
 .
 (pdftex.def)             Requested size: 306.95775pt x 255.00862pt.
 
 ! Undefined control sequence.
 \lumi ->\ensuremath {\mathcal {L}}\xspace 
                                           
-l.318 We now see that $\lumi
+l.325 We now see that $\lumi
                             _{Higgs}$ is invariant under a local $SU(2)_L \o...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1024,11 +1054,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10 <./Figures/MexicanHatPotential.png>]
+[10]
 ! Undefined control sequence.
 \lumi ->\ensuremath {\mathcal {L}}\xspace 
                                           
-l.363 \end{split}
+l.370 \end{split}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1039,7 +1069,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \lumi ->\ensuremath {\mathcal {L}}\xspace 
                                           
-l.363 \end{split}
+l.370 \end{split}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1053,11 +1083,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11]
+[11 <./Figures/MexicanHatPotential.png>]
 ! Undefined control sequence.
 \lumi ->\ensuremath {\mathcal {L}}\xspace 
                                           
-l.390 \lumi
+l.397 \lumi
            _{Yukawa} = -Y^{ij}_e \bar{l}^i_L \phi e^i_R - Y^{ij}_u \bar{q}^i...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1078,9 +1108,6 @@ Missing character: There is no Î in font cmr10!
 Missing character: There is no ¸ in font cmr10!
 
 
-LaTeX Warning: Reference `eqn-ckm' on page 13 undefined on input line 418.
-
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
@@ -1088,10 +1115,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [13]
 
-LaTeX Warning: Reference `eqn-ckm' on page 14 undefined on input line 439.
+LaTeX Warning: Reference `eqn-ckm' on page 14 undefined on input line 425.
+
+
+LaTeX Warning: Reference `eqn-ckm' on page 14 undefined on input line 446.
 
 ! Extra }, or forgotten $.
-l.447 ...006 & 0.040 \pm 0.0027 & 1.021 \pm 0.032}
+l.454 ...006 & 0.040 \pm 0.0027 & 1.021 \pm 0.032}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1099,24 +1129,39 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<Figures/StandardModel.png, id=1075, 376.40625pt x 283.0575pt>
-File: Figures/StandardModel.png Graphic file (type png)
-
-<use Figures/StandardModel.png>
-Package pdftex.def Info: Figures/StandardModel.png used on input line 455.
-(pdftex.def)             Requested size: 350.81174pt x 263.82814pt.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14 <./Figures/StandardModel.png>]
+[14]
 ! Undefined control sequence.
 \lumi ->\ensuremath {\mathcal {L}}\xspace 
                                           
-l.469 \lumi
+l.472 \end{split}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\lumi ->\ensuremath {\mathcal {L}}\xspace 
+                                          
+l.472 \end{split}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\lumi ->\ensuremath {\mathcal {L}}\xspace 
+                                          
+l.482 \lumi
            ^{eff.} = \Sum \frac{C_x}{\Lambda_x}O_x + ... ,
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1125,7 +1170,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.469 \lumi^{eff.} = \Sum
+l.482 \lumi^{eff.} = \Sum
                           \frac{C_x}{\Lambda_x}O_x + ... ,
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1133,25 +1178,31 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Figures/TopPhotonVertex.png, id=1084, 731.73375pt x 172.645pt>
+<Figures/TopPhotonVertex.png, id=1089, 731.73375pt x 172.645pt>
 File: Figures/TopPhotonVertex.png Graphic file (type png)
 
 <use Figures/TopPhotonVertex.png>
-Package pdftex.def Info: Figures/TopPhotonVertex.png used on input line 476.
+Package pdftex.def Info: Figures/TopPhotonVertex.png used on input line 489.
 (pdftex.def)             Requested size: 438.513pt x 103.46397pt.
 
 
-Package caption Warning: \label without proper \caption on input line 474.
+Package caption Warning: \label without proper \caption on input line 476.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `fig-TopPhotonVertex' on page 15 undefined on input li
-ne 481.
+ne 494.
+
+
+Overfull \hbox (5.04713pt too wide) in paragraph at lines 494--495
+\T1/cmr/m/n/10.95 The in-ter-ac-tion La-grangian for the top-photon ver-tex (sh
+own in Fig-ure [][][][][]) can be parametrised
+ []
 
 ! Undefined control sequence.
 \lumi ->\ensuremath {\mathcal {L}}\xspace 
                                           
-l.484 \lumi
+l.497 \lumi
            _{\gamma t\bar{t}} = -eQ_t\bar{t}\gamma^{\mu}tA_{\mu} - e\bar{t}\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1165,11 +1216,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15 <./Figures/TopPhotonVertex.png>]
+[15]
 ! Undefined control sequence.
 <argument> \Lamdba 
                    ^2
-l.492 \end{align}
+l.505 \end{align}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1180,7 +1231,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \Lamdba 
                    ^2
-l.492 \end{align}
+l.505 \end{align}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1191,7 +1242,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \Lamdba 
                    ^2
-l.492 \end{align}
+l.505 \end{align}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1202,7 +1253,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \Lamdba 
                    ^2
-l.492 \end{align}
+l.505 \end{align}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1211,12 +1262,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `subsec-mcsim' on page 16 undefined on input line 500.
+LaTeX Warning: Reference `subsec-mcsim' on page 16 undefined on input line 513.
 
 
 
 LaTeX Warning: Reference `subsubsec-photonidbackgrounds' on page 16 undefined o
-n input line 500.
+n input line 513.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1224,9 +1275,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16]
+[16 <./Figures/TopPhotonVertex.png>]
 ! Misplaced alignment tab character &.
-l.514 ...--10\% precision on axial form factor $d&
+l.527 ...--10\% precision on axial form factor $d&
                                                   {\gamma}_A$ can be achieve...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1235,36 +1286,36 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-<Figures/ttbarProductionLHC.png, id=1126, 656.4525pt x 400.49625pt>
+<Figures/ttbarProductionLHC.png, id=1129, 656.4525pt x 400.49625pt>
 File: Figures/ttbarProductionLHC.png Graphic file (type png)
 
 <use Figures/ttbarProductionLHC.png>
-Package pdftex.def Info: Figures/ttbarProductionLHC.png used on input line 537.
+Package pdftex.def Info: Figures/ttbarProductionLHC.png used on input line 550.
 
 (pdftex.def)             Requested size: 438.513pt x 267.53665pt.
 
-<Figures/singletopProductionLHC.png, id=1129, 666.49pt x 354.32375pt>
+<Figures/singletopProductionLHC.png, id=1132, 666.49pt x 354.32375pt>
 File: Figures/singletopProductionLHC.png Graphic file (type png)
 
 <use Figures/singletopProductionLHC.png>
 Package pdftex.def Info: Figures/singletopProductionLHC.png used on input line 
-544.
+557.
 (pdftex.def)             Requested size: 438.513pt x 233.12991pt.
 
-<Figures/ttbarDecayFractions.png, id=1132, 469.755pt x 463.7325pt>
+<Figures/ttbarDecayFractions.png, id=1135, 469.755pt x 463.7325pt>
 File: Figures/ttbarDecayFractions.png Graphic file (type png)
 
 <use Figures/ttbarDecayFractions.png>
-Package pdftex.def Info: Figures/ttbarDecayFractions.png used on input line 551
+Package pdftex.def Info: Figures/ttbarDecayFractions.png used on input line 564
 .
 (pdftex.def)             Requested size: 219.2565pt x 216.44711pt.
 
-<Figures/ttgammaFeynmanDiagram.pdf, id=1135, 569.12625pt x 259.97125pt>
+<Figures/ttgammaFeynmanDiagram.pdf, id=1138, 569.12625pt x 259.97125pt>
 File: Figures/ttgammaFeynmanDiagram.pdf Graphic file (type pdf)
 
 <use Figures/ttgammaFeynmanDiagram.pdf>
 Package pdftex.def Info: Figures/ttgammaFeynmanDiagram.pdf used on input line 5
-58.
+71.
 (pdftex.def)             Requested size: 394.65901pt x 180.28479pt.
 )
 (./Chapters/TheLHCAndTheCMSDetector.tex
@@ -1281,32 +1332,38 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18 <./Figures/ttbarProductionLHC.png> <./Figures/singletopProductionLHC.png>]
+[18 <./Figures/ttbarProductionLHC.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[19 <./Figures/ttbarDecayFractions.png> <./Figures/ttgammaFeynmanDiagram.pdf, p
-age is rotated 90 degrees>]
+[19 <./Figures/singletopProductionLHC.png> <./Figures/ttbarDecayFractions.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20 <./Figures/ttgammaFeynmanDiagram.pdf, page is rotated 90 degrees>]
 Chapter 2.
 
 Package caption Warning: \label without proper \caption on input line 9.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig-CERNAcceleratorComplex' on page 20 undefined on i
+LaTeX Warning: Reference `fig-CERNAcceleratorComplex' on page 21 undefined on i
 nput line 7.
 
-<Figures/CERNAcceleratorComplex.jpg, id=1204, 1689.31125pt x 1083.04625pt>
+<Figures/CERNAcceleratorComplex.jpg, id=1214, 1689.31125pt x 1083.04625pt>
 File: Figures/CERNAcceleratorComplex.jpg Graphic file (type jpg)
 
 <use Figures/CERNAcceleratorComplex.jpg>
 Package pdftex.def Info: Figures/CERNAcceleratorComplex.jpg used on input line 
 10.
 (pdftex.def)             Requested size: 438.513pt x 281.13918pt.
- [20
+ [21
 
 ]
 
@@ -1315,29 +1372,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21 <./Figures/CERNAcceleratorComplex.jpg>]
-
-Package caption Warning: \label without proper \caption on input line 24.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `tab-LHCparameters' on page 22 undefined on input line
- 22.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[22]
+[22 <./Figures/CERNAcceleratorComplex.jpg>]
 
 Package caption Warning: \label without proper \caption on input line 24.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `tab-LHCparameters' on page 23 undefined on input line
- 55.
+ 22.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1347,18 +1389,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [23]
 
-Package caption Warning: \label without proper \caption on input line 77.
+Package caption Warning: \label without proper \caption on input line 24.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig-LHClumi' on page 24 undefined on input line 73.
-
-
-Package caption Warning: \label without proper \caption on input line 82.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig-CMSlumi' on page 24 undefined on input line 73.
+LaTeX Warning: Reference `tab-LHCparameters' on page 24 undefined on input line
+ 55.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1366,34 +1402,55 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[24] <Figures/LHClumi2.png, id=1241, 998.73125pt x 641.39626pt>
+[24]
+
+Package caption Warning: \label without proper \caption on input line 77.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig-LHClumi' on page 25 undefined on input line 73.
+
+
+Package caption Warning: \label without proper \caption on input line 82.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig-CMSlumi' on page 25 undefined on input line 73.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25] <Figures/LHClumi2.png, id=1251, 998.73125pt x 641.39626pt>
 File: Figures/LHClumi2.png Graphic file (type png)
 
 <use Figures/LHClumi2.png>
 Package pdftex.def Info: Figures/LHClumi2.png used on input line 78.
 (pdftex.def)             Requested size: 219.2565pt x 140.80421pt.
 
-<Figures/LHClumi.png, id=1242, 602.25pt x 378.41376pt>
+<Figures/LHClumi.png, id=1252, 602.25pt x 378.41376pt>
 File: Figures/LHClumi.png Graphic file (type png)
 
 <use Figures/LHClumi.png>
 Package pdftex.def Info: Figures/LHClumi.png used on input line 78.
 (pdftex.def)             Requested size: 219.2565pt x 137.76476pt.
- <Figures/IntLumi2.png, id=1245, 578.16pt x 433.62pt>
+ <Figures/IntLumi2.png, id=1255, 578.16pt x 433.62pt>
 File: Figures/IntLumi2.png Graphic file (type png)
 
 <use Figures/IntLumi2.png>
 Package pdftex.def Info: Figures/IntLumi2.png used on input line 83.
 (pdftex.def)             Requested size: 219.2565pt x 164.43987pt.
 
-<Figures/CMSIntLumi.png, id=1246, 578.16pt x 433.62pt>
+<Figures/CMSIntLumi.png, id=1256, 578.16pt x 433.62pt>
 File: Figures/CMSIntLumi.png Graphic file (type png)
 
 <use Figures/CMSIntLumi.png>
 Package pdftex.def Info: Figures/CMSIntLumi.png used on input line 83.
 (pdftex.def)             Requested size: 219.2565pt x 164.43987pt.
 
-<Figures/CMSDetector.png, id=1247, 3189.9175pt x 2253.41875pt>
+<Figures/CMSDetector.png, id=1257, 3189.9175pt x 2253.41875pt>
 File: Figures/CMSDetector.png Graphic file (type png)
 
 <use Figures/CMSDetector.png>
@@ -1408,7 +1465,7 @@ Package caption Warning: \label without proper \caption on input line 91.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig-CMSDetector' on page 25 undefined on input line 9
+LaTeX Warning: Reference `fig-CMSDetector' on page 26 undefined on input line 9
 6.
 
 
@@ -1417,23 +1474,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[25 <./Figures/LHClumi2.png> <./Figures/LHClumi.png>]
+[26 <./Figures/LHClumi2.png> <./Figures/LHClumi.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[26 <./Figures/IntLumi2.png (PNG copy)> <./Figures/CMSIntLumi.png> <./Figures/C
+[27 <./Figures/IntLumi2.png (PNG copy)> <./Figures/CMSIntLumi.png> <./Figures/C
 MSDetector.png>]
 
 Package caption Warning: \label without proper \caption on input line 112.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig-Tracker' on page 27 undefined on input line 110.
+LaTeX Warning: Reference `fig-Tracker' on page 28 undefined on input line 110.
 
-<Figures/Tracker.png, id=1264, 1471.4975pt x 694.595pt>
+<Figures/Tracker.png, id=1274, 1471.4975pt x 694.595pt>
 File: Figures/Tracker.png Graphic file (type png)
 
 <use Figures/Tracker.png>
@@ -1446,13 +1503,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[27]
+[28]
 
 Package caption Warning: \label without proper \caption on input line 77.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig-LHClumi' on page 28 undefined on input line 121.
+LaTeX Warning: Reference `fig-LHClumi' on page 29 undefined on input line 121.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1460,17 +1517,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[28 <./Figures/Tracker.png (PNG copy)>]
+[29 <./Figures/Tracker.png (PNG copy)>]
 
 Package caption Warning: \label without proper \caption on input line 125.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig-MuonReconstructionEfficiency' on page 29 undefine
+LaTeX Warning: Reference `fig-MuonReconstructionEfficiency' on page 30 undefine
 d on input line 123.
 
 
-<Figures/MuonReconstructionEfficiency.png, id=1282, 785.93625pt x 392.46625pt>
+<Figures/MuonReconstructionEfficiency.png, id=1293, 785.93625pt x 392.46625pt>
 File: Figures/MuonReconstructionEfficiency.png Graphic file (type png)
 
 <use Figures/MuonReconstructionEfficiency.png>
@@ -1478,7 +1535,7 @@ Package pdftex.def Info: Figures/MuonReconstructionEfficiency.png used on input
  line 126.
 (pdftex.def)             Requested size: 438.513pt x 218.98311pt.
 
-<Figures/PVResolution.png, id=1285, 829.0975pt x 402.50375pt>
+<Figures/PVResolution.png, id=1296, 829.0975pt x 402.50375pt>
 File: Figures/PVResolution.png Graphic file (type png)
 
 <use Figures/PVResolution.png>
@@ -1490,7 +1547,7 @@ Package caption Warning: \label without proper \caption on input line 131.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig-PVResolution' on page 29 undefined on input line 
+LaTeX Warning: Reference `fig-PVResolution' on page 30 undefined on input line 
 137.
 
 
@@ -1499,16 +1556,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[29]
+[30]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[30 <./Figures/MuonReconstructionEfficiency.png> <./Figures/PVResolution.png>]
+[31 <./Figures/MuonReconstructionEfficiency.png> <./Figures/PVResolution.png>]
 
-LaTeX Warning: Reference `sec-' on page 31 undefined on input line 147.
+LaTeX Warning: Reference `sec-' on page 32 undefined on input line 147.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1516,15 +1573,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[31]
+[32]
 
 Package caption Warning: \label without proper \caption on input line 155.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig-ECAL' on page 32 undefined on input line 153.
+LaTeX Warning: Reference `fig-ECAL' on page 33 undefined on input line 153.
 
-<Figures/ECAL.png, id=1310, 1172.38pt x 803.0pt>
+<Figures/ECAL.png, id=1320, 1172.38pt x 803.0pt>
 File: Figures/ECAL.png Graphic file (type png)
  <use Figures/ECAL.png>
 Package pdftex.def Info: Figures/ECAL.png used on input line 156.
@@ -1536,16 +1593,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[32 <./Figures/ECAL.png (PNG copy)>]
+[33 <./Figures/ECAL.png (PNG copy)>]
 
 Package caption Warning: \label without proper \caption on input line 164.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig-ECALRapidity' on page 33 undefined on input line 
+LaTeX Warning: Reference `fig-ECALRapidity' on page 34 undefined on input line 
 162.
 
-<Figures/ECALRapidity.png, id=1320, 1441.385pt x 734.745pt>
+<Figures/ECALRapidity.png, id=1330, 1441.385pt x 734.745pt>
 File: Figures/ECALRapidity.png Graphic file (type png)
 
 <use Figures/ECALRapidity.png>
@@ -1558,15 +1615,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[33 <./Figures/ECALRapidity.png (PNG copy)>]
-<Figures/EcalInvariantMass.png, id=1330, 569.12625pt x 467.7475pt>
+[34 <./Figures/ECALRapidity.png (PNG copy)>]
+<Figures/EcalInvariantMass.png, id=1340, 569.12625pt x 467.7475pt>
 File: Figures/EcalInvariantMass.png Graphic file (type png)
 
 <use Figures/EcalInvariantMass.png>
 Package pdftex.def Info: Figures/EcalInvariantMass.png used on input line 186.
 (pdftex.def)             Requested size: 219.2565pt x 180.2011pt.
 
-<Figures/EcalEtaInclusive.png, id=1331, 1580.90625pt x 1202.4925pt>
+<Figures/EcalEtaInclusive.png, id=1341, 1580.90625pt x 1202.4925pt>
 File: Figures/EcalEtaInclusive.png Graphic file (type png)
 
 <use Figures/EcalEtaInclusive.png>
@@ -1582,7 +1639,7 @@ Package caption Warning: \label without proper \caption on input line 185.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig-ECALperformance' on page 34 undefined on input li
+LaTeX Warning: Reference `fig-ECALperformance' on page 35 undefined on input li
 ne 192.
 
 
@@ -1591,13 +1648,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[34]
+[35]
 
 Package caption Warning: \label without proper \caption on input line 206.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig-HCAL' on page 35 undefined on input line 202.
+LaTeX Warning: Reference `fig-HCAL' on page 36 undefined on input line 202.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1605,8 +1662,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[35 <./Figures/EcalInvariantMass.png (PNG copy)> <./Figures/EcalEtaInclusive.pn
-g>] <Figures/HCAL.png, id=1347, 1307.88625pt x 768.8725pt>
+[36 <./Figures/EcalInvariantMass.png (PNG copy)> <./Figures/EcalEtaInclusive.pn
+g>] <Figures/HCAL.png, id=1357, 1307.88625pt x 768.8725pt>
 File: Figures/HCAL.png Graphic file (type png)
 
 <use Figures/HCAL.png>
@@ -1618,7 +1675,7 @@ Package caption Warning: \label without proper \caption on input line 213.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab-HCALGranularity' on page 36 undefined on input li
+LaTeX Warning: Reference `tab-HCALGranularity' on page 37 undefined on input li
 ne 228.
 
 
@@ -1627,13 +1684,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[36 <./Figures/HCAL.png (PNG copy)>]
+[37 <./Figures/HCAL.png (PNG copy)>]
 
 Package caption Warning: \label without proper \caption on input line 262.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig-SuperconductingSolenoid' on page 37 undefined on 
+LaTeX Warning: Reference `fig-SuperconductingSolenoid' on page 38 undefined on 
 input line 236.
 
 
@@ -1641,7 +1698,7 @@ Package caption Warning: \label without proper \caption on input line 91.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig-CMSDetector' on page 37 undefined on input line 2
+LaTeX Warning: Reference `fig-CMSDetector' on page 38 undefined on input line 2
 60.
 
 
@@ -1649,7 +1706,7 @@ Package caption Warning: \label without proper \caption on input line 238.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab-SolenoidParameters' on page 37 undefined on input
+LaTeX Warning: Reference `tab-SolenoidParameters' on page 38 undefined on input
  line 260.
 
 
@@ -1658,7 +1715,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[37] <Figures/SuperconductingSolenoid.png, id=1370, 700.6175pt x 519.9425pt>
+[38] <Figures/SuperconductingSolenoid.png, id=1380, 700.6175pt x 519.9425pt>
 File: Figures/SuperconductingSolenoid.png Graphic file (type png)
 
 <use Figures/SuperconductingSolenoid.png>
@@ -1667,7 +1724,7 @@ Package pdftex.def Info: Figures/SuperconductingSolenoid.png used on input line
 (pdftex.def)             Requested size: 350.30789pt x 259.97061pt.
 
 
-LaTeX Warning: Reference `figCMSLongitudinalView' on page 38 undefined on input
+LaTeX Warning: Reference `figCMSLongitudinalView' on page 39 undefined on input
  line 272.
 
 
@@ -1676,7 +1733,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[38] <Figures/CMSLongitudinalView.png, id=1378, 679.53876pt x 448.67625pt>
+[39] <Figures/CMSLongitudinalView.png, id=1389, 679.53876pt x 448.67625pt>
 File: Figures/CMSLongitudinalView.png Graphic file (type png)
 
 <use Figures/CMSLongitudinalView.png>
@@ -1690,30 +1747,30 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[39 <./Figures/SuperconductingSolenoid.png>]
+[40 <./Figures/SuperconductingSolenoid.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[40 <./Figures/CMSLongitudinalView.png>]
+[41 <./Figures/CMSLongitudinalView.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[41]
+[42]
 
 Package caption Warning: \label without proper \caption on input line 297.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig-MuonEfficiencies' on page 42 undefined on input l
+LaTeX Warning: Reference `fig-MuonEfficiencies' on page 43 undefined on input l
 ine 295.
 
-<Figures/MuonEfficiencies.png, id=1402, 640.3925pt x 305.14pt>
+<Figures/MuonEfficiencies.png, id=1412, 640.3925pt x 305.14pt>
 File: Figures/MuonEfficiencies.png Graphic file (type png)
 
 <use Figures/MuonEfficiencies.png>
@@ -1726,16 +1783,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[42 <./Figures/MuonEfficiencies.png>]
+[43 <./Figures/MuonEfficiencies.png>]
 
 Package caption Warning: \label without proper \caption on input line 312.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig-L1Trigger' on page 43 undefined on input line 309
+LaTeX Warning: Reference `fig-L1Trigger' on page 44 undefined on input line 309
 .
 
-<Figures/L1Trigger.png, id=1410, 558.085pt x 381.425pt>
+<Figures/L1Trigger.png, id=1420, 558.085pt x 381.425pt>
 File: Figures/L1Trigger.png Graphic file (type png)
 
 <use Figures/L1Trigger.png>
@@ -1748,23 +1805,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[43]
+[44]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[44 <./Figures/L1Trigger.png>]
+[45 <./Figures/L1Trigger.png>]
 
 Package caption Warning: \label without proper \caption on input line 333.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig-SemiLeptEfficiencies' on page 45 undefined on inp
+LaTeX Warning: Reference `fig-SemiLeptEfficiencies' on page 46 undefined on inp
 ut line 331.
 
-<Figures/SemiLeptTriggerEfficiencies.png, id=1426, 945.5325pt x 445.665pt>
+<Figures/SemiLeptTriggerEfficiencies.png, id=1436, 945.5325pt x 445.665pt>
 File: Figures/SemiLeptTriggerEfficiencies.png Graphic file (type png)
 
 <use Figures/SemiLeptTriggerEfficiencies.png>
@@ -1779,23 +1836,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[45]
+[46]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[46 <./Figures/SemiLeptTriggerEfficiencies.png>]
+[47 <./Figures/SemiLeptTriggerEfficiencies.png>]
 Chapter 3.
-<Figures/HadronCollisionProcess.png, id=1441, 730.73pt x 651.43375pt>
+<Figures/HadronCollisionProcess.png, id=1452, 730.73pt x 651.43375pt>
 File: Figures/HadronCollisionProcess.png Graphic file (type png)
 
 <use Figures/HadronCollisionProcess.png>
 Package pdftex.def Info: Figures/HadronCollisionProcess.png used on input line 
 11.
 (pdftex.def)             Requested size: 401.90274pt x 358.28966pt.
- [47
+ [48
 
 ]
 
@@ -1804,13 +1861,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[48 <./Figures/HadronCollisionProcess.png>]
+[49 <./Figures/HadronCollisionProcess.png>]
 
 Package caption Warning: \label without proper \caption on input line 89.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab-MCSamples' on page 49 undefined on input line 28.
+LaTeX Warning: Reference `tab-MCSamples' on page 50 undefined on input line 28.
 
 
 
@@ -1819,7 +1876,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[49]
+[50]
 ! Undefined control sequence.
 \CMSSW ->{\textsc {cmssw}}\xspace 
                                   
@@ -1898,7 +1955,7 @@ Package caption Warning: \label without proper \caption on input line 53.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig-FullSim' on page 50 undefined on input line 51.
+LaTeX Warning: Reference `fig-FullSim' on page 51 undefined on input line 51.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1906,7 +1963,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[50] <Figures/FullSim.png, id=1472, 1010.77625pt x 361.35pt>
+[51] <Figures/FullSim.png, id=1482, 1010.77625pt x 361.35pt>
 File: Figures/FullSim.png Graphic file (type png)
 
 <use Figures/FullSim.png>
@@ -1918,7 +1975,7 @@ Package caption Warning: \label without proper \caption on input line 9.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig-HadronCollisionProcess' on page 51 undefined on i
+LaTeX Warning: Reference `fig-HadronCollisionProcess' on page 52 undefined on i
 nput line 64.
 
 
@@ -1927,7 +1984,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[51 <./Figures/FullSim.png>]
+[52 <./Figures/FullSim.png>]
 ! Undefined control sequence.
 \WHIZARD ->{\textsc {WHIZARD}}\xspace 
                                       
@@ -2088,7 +2145,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[52]
+[53]
 ! Undefined control sequence.
 \PYTHIA ->{\textsc {pythia}}\xspace 
                                     
@@ -2205,7 +2262,7 @@ Package caption Warning: \label without proper \caption on input line 89.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab-MCSamples' on page 53 undefined on input line 85.
+LaTeX Warning: Reference `tab-MCSamples' on page 54 undefined on input line 85.
 
 
 ! Undefined control sequence.
@@ -2258,7 +2315,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[53]
+[54]
 ! Undefined control sequence.
 \POWHEG ->{\textsc {powheg}}\xspace 
                                     
@@ -2411,7 +2468,7 @@ Package caption Warning: \label without proper \caption on input line 145.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig-MatrixElementCalculation' on page 54 undefined on
+LaTeX Warning: Reference `fig-MatrixElementCalculation' on page 55 undefined on
  input line 134.
 
 ! Undefined control sequence.
@@ -2475,14 +2532,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[54]
+[55]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[55] <Figures/MatrixElementCalculation.png, id=1530, 897.3525pt x 526.96875pt>
+[56] <Figures/MatrixElementCalculation.png, id=1540, 897.3525pt x 526.96875pt>
 File: Figures/MatrixElementCalculation.png Graphic file (type png)
 
 <use Figures/MatrixElementCalculation.png>
@@ -2550,13 +2607,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[56 <./Figures/MatrixElementCalculation.png>]
+[57 <./Figures/MatrixElementCalculation.png>]
 
 Package caption Warning: \label without proper \caption on input line 185.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig-WHIZARDfullvsfactorised' on page 57 undefined on 
+LaTeX Warning: Reference `fig-WHIZARDfullvsfactorised' on page 58 undefined on 
 input line 170.
 
 ! Undefined control sequence.
@@ -2587,7 +2644,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[57] <Figures/WHIZARDfullvsfactorisedPT.png, id=1547, 674.52pt x 445.665pt>
+[58] <Figures/WHIZARDfullvsfactorisedPT.png, id=1557, 674.52pt x 445.665pt>
 File: Figures/WHIZARDfullvsfactorisedPT.png Graphic file (type png)
 
 <use Figures/WHIZARDfullvsfactorisedPT.png>
@@ -2595,7 +2652,7 @@ Package pdftex.def Info: Figures/WHIZARDfullvsfactorisedPT.png used on input li
 ne 187.
 (pdftex.def)             Requested size: 306.95775pt x 202.81189pt.
 
-<Figures/WHIZARDfullvsfactorisedEta.png, id=1548, 662.475pt x 445.665pt>
+<Figures/WHIZARDfullvsfactorisedEta.png, id=1558, 662.475pt x 445.665pt>
 File: Figures/WHIZARDfullvsfactorisedEta.png Graphic file (type png)
 
 <use Figures/WHIZARDfullvsfactorisedEta.png>
@@ -2639,7 +2696,7 @@ Package caption Warning: \label without proper \caption on input line 205.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig-WHIZARDvsMADGRAPH' on page 58 undefined on input 
+LaTeX Warning: Reference `fig-WHIZARDvsMADGRAPH' on page 59 undefined on input 
 line 203.
 
 
@@ -2648,15 +2705,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[58]
+[59]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[59 <./Figures/WHIZARDfullvsfactorisedPT.png> <./Figures/WHIZARDfullvsfactorise
-dEta.png>] <Figures/WHIZARDvsMADGRAPHPT.png, id=1562, 626.34pt x 404.51125pt>
+[60 <./Figures/WHIZARDfullvsfactorisedPT.png> <./Figures/WHIZARDfullvsfactorise
+dEta.png>] <Figures/WHIZARDvsMADGRAPHPT.png, id=1572, 626.34pt x 404.51125pt>
 File: Figures/WHIZARDvsMADGRAPHPT.png Graphic file (type png)
 
 <use Figures/WHIZARDvsMADGRAPHPT.png>
@@ -2664,7 +2721,7 @@ Package pdftex.def Info: Figures/WHIZARDvsMADGRAPHPT.png used on input line 207
 .
 (pdftex.def)             Requested size: 306.95775pt x 198.24927pt.
 
-<Figures/WHIZARDvsMADGRAPHEta.png, id=1563, 626.34pt x 404.51125pt>
+<Figures/WHIZARDvsMADGRAPHEta.png, id=1573, 626.34pt x 404.51125pt>
 File: Figures/WHIZARDvsMADGRAPHEta.png Graphic file (type png)
 
 <use Figures/WHIZARDvsMADGRAPHEta.png>
@@ -2672,7 +2729,7 @@ Package pdftex.def Info: Figures/WHIZARDvsMADGRAPHEta.png used on input line 20
 8.
 (pdftex.def)             Requested size: 306.95775pt x 198.24927pt.
 
-<Figures/WHIZARDvsMADGRAPHDR.png, id=1564, 621.32124pt x 412.54124pt>
+<Figures/WHIZARDvsMADGRAPHDR.png, id=1574, 621.32124pt x 412.54124pt>
 File: Figures/WHIZARDvsMADGRAPHDR.png Graphic file (type png)
 
 <use Figures/WHIZARDvsMADGRAPHDR.png>
@@ -2752,14 +2809,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[60]
+[61]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[61 <./Figures/WHIZARDvsMADGRAPHPT.png> <./Figures/WHIZARDvsMADGRAPHEta.png> <.
+[62 <./Figures/WHIZARDvsMADGRAPHPT.png> <./Figures/WHIZARDvsMADGRAPHEta.png> <.
 /Figures/WHIZARDvsMADGRAPHDR.png>]
 ! Undefined control sequence.
 \GeV ...th {\,\text {Ge\hspace {-.08em}V}}\xspace 
@@ -2778,7 +2835,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[62]
+[63]
 Overfull \hbox (41.4633pt too wide) in paragraph at lines 250--251
 []\T1/cmr/m/n/10.95 The al-go-rithm it-er-ates over the pro-cess 6 times in or-
 der to fil-ter out as many fakes/misreconstructed
@@ -2790,7 +2847,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[63]
+[64]
 ! Undefined control sequence.
 \GeVc ...e {-0.16em}/\hspace {-0.08em}}c}}\xspace 
                                                   
@@ -2808,7 +2865,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[64]
+[65]
 ! Undefined control sequence.
 \MeVc ...e {-0.16em}/\hspace {-0.08em}}c}}\xspace 
                                                   
@@ -2826,19 +2883,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[65] <Figures/PF.png, id=1605, 372.39125pt x 341.275pt>
+[66] <Figures/PF.png, id=1615, 372.39125pt x 341.275pt>
 File: Figures/PF.png Graphic file (type png)
  <use Figures/PF.png>
 Package pdftex.def Info: Figures/PF.png used on input line 286.
 (pdftex.def)             Requested size: 263.11047pt x 241.13527pt.
 
-<Figures/PFECAL.png, id=1608, 279.0425pt x 240.9pt>
+<Figures/PFECAL.png, id=1618, 279.0425pt x 240.9pt>
 File: Figures/PFECAL.png Graphic file (type png)
  <use Figures/PFECAL.png>
 Package pdftex.def Info: Figures/PFECAL.png used on input line 294.
 (pdftex.def)             Requested size: 200.0pt x 172.6649pt.
 
-<Figures/PFHCAL.png, id=1611, 278.03876pt x 238.8925pt>
+<Figures/PFHCAL.png, id=1621, 278.03876pt x 238.8925pt>
 File: Figures/PFHCAL.png Graphic file (type png)
 
 <use Figures/PFHCAL.png>
@@ -2851,28 +2908,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[66]
+[67]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[67 <./Figures/PF.png>]
+[68 <./Figures/PF.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[68 <./Figures/PFECAL.png> <./Figures/PFHCAL.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[69]
+[69 <./Figures/PFECAL.png> <./Figures/PFHCAL.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -2880,6 +2930,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [70]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[71]
 ! Undefined control sequence.
 l.365 	$\left( E_{e} + \Sum
                             E_{\gamma} \right)/p_{in}$ & Ratio of the super-...
@@ -2910,7 +2967,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[71]
+[72]
 ! Undefined control sequence.
 \mus ->\ensuremath {\,\mu \text {s}}\xspace 
                                             
@@ -2950,9 +3007,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[72]
+[73]
 
-LaTeX Warning: Reference `sec-ChargedParticleReconstruction' on page 73 undefin
+LaTeX Warning: Reference `sec-ChargedParticleReconstruction' on page 74 undefin
 ed on input line 385.
 
 ! Undefined control sequence.
@@ -2994,17 +3051,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[73]
-
-LaTeX Warning: Reference `chap-Theory' on page 74 undefined on input line 414.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 [74]
+
+LaTeX Warning: Reference `chap-Theory' on page 75 undefined on input line 414.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -3020,13 +3070,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [76]
 
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[77]
+
 Package caption Warning: \label without proper \caption on input line 473.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig-CSV' on page 77 undefined on input line 471.
+LaTeX Warning: Reference `fig-CSV' on page 78 undefined on input line 471.
 
-<Figures/CSV.png, id=1698, 529.98pt x 560.0925pt>
+<Figures/CSV.png, id=1709, 529.98pt x 560.0925pt>
 File: Figures/CSV.png Graphic file (type png)
  <use Figures/CSV.png>
 Package pdftex.def Info: Figures/CSV.png used on input line 475.
@@ -3049,7 +3106,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[77]
+[78]
 ! Undefined control sequence.
 \GeVcc .../\hspace {-0.08em}}c^\text {2}}}\xspace 
                                                   
@@ -3099,7 +3156,7 @@ Package caption Warning: \label without proper \caption on input line 473.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig-CSV' on page 78 undefined on input line 493.
+LaTeX Warning: Reference `fig-CSV' on page 79 undefined on input line 493.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3107,8 +3164,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[78 <./Figures/CSV.png>]
-<Figures/CSVDiscriminator.png, id=1715, 608.2725pt x 437.635pt>
+[79 <./Figures/CSV.png>]
+<Figures/CSVDiscriminator.png, id=1725, 608.2725pt x 437.635pt>
 File: Figures/CSVDiscriminator.png Graphic file (type png)
 
 <use Figures/CSVDiscriminator.png>
@@ -3121,7 +3178,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[79 <./Figures/CSVDiscriminator.png>])
+[80 <./Figures/CSVDiscriminator.png>])
 (./Chapters/EventSelectionAndBackgroundEstimation.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3129,9 +3186,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[80]
+[81]
 Chapter 4.
-[81
+[82
 
 ]
 
@@ -3148,13 +3205,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[82]
+[83]
 
 Package caption Warning: \label without proper \caption on input line 52.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab-HLTriggers' on page 83 undefined on input line 50
+LaTeX Warning: Reference `tab-HLTriggers' on page 84 undefined on input line 50
 .
 
 
@@ -3195,7 +3252,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[83]
+[84]
 ! Undefined control sequence.
 \GeV ...th {\,\text {Ge\hspace {-.08em}V}}\xspace 
                                                   
@@ -3246,14 +3303,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[84]
+[85]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[85]
+[86]
 ! Undefined control sequence.
 \GeV ...th {\,\text {Ge\hspace {-.08em}V}}\xspace 
                                                   
@@ -3271,7 +3328,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[86]
+[87]
 ! Undefined control sequence.
 \GeV ...th {\,\text {Ge\hspace {-.08em}V}}\xspace 
                                                   
@@ -3289,7 +3346,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[87]
+[88]
 ! Undefined control sequence.
 \GeV ...th {\,\text {Ge\hspace {-.08em}V}}\xspace 
                                                   
@@ -3307,14 +3364,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[88]
+[89]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[89]
+[90]
 
 LaTeX Warning: File `Plots/ControlPlots/CutFlow/Log/TTbarMuMuRefSelection.pdf' 
 not found on input line 190.
@@ -3457,15 +3514,15 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 292.
 
 
-LaTeX Warning: Reference `sec-Preselection' on page 90 undefined on input line 
+LaTeX Warning: Reference `sec-Preselection' on page 91 undefined on input line 
 294.
 
 
-LaTeX Warning: Reference `fig-nminusoneMuMu' on page 90 undefined on input line
+LaTeX Warning: Reference `fig-nminusoneMuMu' on page 91 undefined on input line
  301.
 
 
-LaTeX Warning: Reference `fig-nminusoneEMu' on page 90 undefined on input line 
+LaTeX Warning: Reference `fig-nminusoneEMu' on page 91 undefined on input line 
 301.
 
 
@@ -3474,16 +3531,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[90]
+[91]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[91]
+[92]
 
-LaTeX Warning: Reference `fig-cutbasedMuMu1' on page 92 undefined on input line
+LaTeX Warning: Reference `fig-cutbasedMuMu1' on page 93 undefined on input line
  318.
 
 ! Missing $ inserted.
@@ -3503,21 +3560,21 @@ I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-LaTeX Warning: Reference `fig-cutbasedMuMu1' on page 92 undefined on input line
+LaTeX Warning: Reference `fig-cutbasedMuMu1' on page 93 undefined on input line
  320.
 
 
-LaTeX Warning: Reference `fig-cutbasedMuMu1' on page 92 undefined on input line
+LaTeX Warning: Reference `fig-cutbasedMuMu1' on page 93 undefined on input line
  327.
 
 
-LaTeX Warning: Reference `' on page 92 undefined on input line 329.
+LaTeX Warning: Reference `' on page 93 undefined on input line 329.
 
 
-LaTeX Warning: Reference `' on page 92 undefined on input line 332.
+LaTeX Warning: Reference `' on page 93 undefined on input line 332.
 
 
-LaTeX Warning: Reference `fig-cutbasedMuMu1' on page 92 undefined on input line
+LaTeX Warning: Reference `fig-cutbasedMuMu1' on page 93 undefined on input line
  335.
 
 
@@ -3531,9 +3588,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[92]
+[93]
 
-LaTeX Warning: Reference `' on page 93 undefined on input line 338.
+LaTeX Warning: Reference `' on page 94 undefined on input line 338.
 
 
 Overfull \hbox (16.56836pt too wide) in paragraph at lines 337--339
@@ -3541,7 +3598,7 @@ Overfull \hbox (16.56836pt too wide) in paragraph at lines 337--339
  []
 
 
-LaTeX Warning: Reference `' on page 93 undefined on input line 341.
+LaTeX Warning: Reference `' on page 94 undefined on input line 341.
 
 
 Overfull \hbox (8.70815pt too wide) in paragraph at lines 340--342
@@ -3597,7 +3654,7 @@ I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-LaTeX Warning: Citation `AN-12-485' on page 93 undefined on input line 363.
+LaTeX Warning: Citation `AN-12-485' on page 94 undefined on input line 363.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3605,13 +3662,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[93]
+[94]
 
 Package caption Warning: \label without proper \caption on input line 387.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig-SCFR' on page 94 undefined on input line 371.
+LaTeX Warning: Reference `fig-SCFR' on page 95 undefined on input line 371.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3619,7 +3676,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[94] <Figures/RandomCone3.pdf, id=1820, 366.21979pt x 440.91293pt>
+[95] <Figures/RandomCone3.pdf, id=1831, 366.21979pt x 440.91293pt>
 File: Figures/RandomCone3.pdf Graphic file (type pdf)
 
 <use Figures/RandomCone3.pdf>
@@ -3632,13 +3689,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[95]
+[96]
 
 Package caption Warning: \label without proper \caption on input line 407.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig-RandomConeIsolation' on page 96 undefined on inpu
+LaTeX Warning: Reference `fig-RandomConeIsolation' on page 97 undefined on inpu
 t line 401.
 
 
@@ -3647,15 +3704,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[96 <./Figures/RandomCone3.pdf>]
-<Figures/RandomCone1.png, id=1883, 412.54124pt x 440.64626pt>
+[97 <./Figures/RandomCone3.pdf>]
+<Figures/RandomCone1.png, id=1894, 412.54124pt x 440.64626pt>
 File: Figures/RandomCone1.png Graphic file (type png)
 
 <use Figures/RandomCone1.png>
 Package pdftex.def Info: Figures/RandomCone1.png used on input line 409.
 (pdftex.def)             Requested size: 197.3295pt x 210.7749pt.
 
-<Figures/RandomCone2.png, id=1884, 547.04375pt x 452.69125pt>
+<Figures/RandomCone2.png, id=1895, 547.04375pt x 452.69125pt>
 File: Figures/RandomCone2.png Graphic file (type png)
 
 <use Figures/RandomCone2.png>
@@ -3692,7 +3749,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[97 <./Figures/RandomCone1.png> <./Figures/RandomCone2.png>]
+[98 <./Figures/RandomCone1.png> <./Figures/RandomCone2.png>]
 
 LaTeX Warning: File `Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/Signal
 Photons/Photon_sigma_ietaieta_barrel_splitTTbar_ratio.pdf' not found on input l
@@ -3826,13 +3883,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[98]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 [99]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3869,6 +3919,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [104]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[105]
 Chapter 5.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -3882,7 +3939,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-<Figures/SignalPhotonPlot.png, id=1923, 756.8275pt x 680.5425pt>
+<Figures/SignalPhotonPlot.png, id=1933, 756.8275pt x 680.5425pt>
 File: Figures/SignalPhotonPlot.png Graphic file (type png)
 
 <use Figures/SignalPhotonPlot.png>
@@ -3890,35 +3947,35 @@ Package pdftex.def Info: Figures/SignalPhotonPlot.png used on input line 9.
 (pdftex.def)             Requested size: 249.75385pt x 224.57971pt.
 
 
-LaTeX Warning: Citation `MishaSignalDefinition' on page 105 undefined on input 
+LaTeX Warning: Citation `MishaSignalDefinition' on page 106 undefined on input 
 line 10.
 
 
-LaTeX Warning: Citation `MishaSignalDefinition' on page 105 undefined on input 
+LaTeX Warning: Citation `MishaSignalDefinition' on page 106 undefined on input 
 line 10.
 
-<Figures/BackgroundDiagrams.png, id=1924, 793.96625pt x 647.41875pt>
+<Figures/BackgroundDiagrams.png, id=1934, 793.96625pt x 647.41875pt>
 File: Figures/BackgroundDiagrams.png Graphic file (type png)
 
 <use Figures/BackgroundDiagrams.png>
 Package pdftex.def Info: Figures/BackgroundDiagrams.png used on input line 18.
 (pdftex.def)             Requested size: 438.513pt x 357.58298pt.
 
-<Figures/AnalysisFlowChart.png, id=1927, 475.7775pt x 677.53125pt>
+<Figures/AnalysisFlowChart.png, id=1937, 475.7775pt x 677.53125pt>
 File: Figures/AnalysisFlowChart.png Graphic file (type png)
 
 <use Figures/AnalysisFlowChart.png>
 Package pdftex.def Info: Figures/AnalysisFlowChart.png used on input line 25.
 (pdftex.def)             Requested size: 328.88475pt x 468.36548pt.
 
-<Figures/BackgroundISR.png, id=1928, 760.8425pt x 181.67876pt>
+<Figures/BackgroundISR.png, id=1938, 760.8425pt x 181.67876pt>
 File: Figures/BackgroundISR.png Graphic file (type png)
 
 <use Figures/BackgroundISR.png>
 Package pdftex.def Info: Figures/BackgroundISR.png used on input line 35.
 (pdftex.def)             Requested size: 438.513pt x 104.71396pt.
 
-<Figures/BackgroundFSR.png, id=1931, 742.775pt x 438.63875pt>
+<Figures/BackgroundFSR.png, id=1941, 742.775pt x 438.63875pt>
 File: Figures/BackgroundFSR.png Graphic file (type png)
 
 <use Figures/BackgroundFSR.png>
@@ -3937,7 +3994,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 48.
 
-[105
+[106
 
 ]
 ! Undefined control sequence.
@@ -3957,29 +4014,29 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[106 <./Figures/SignalPhotonPlot.png>]
+[107 <./Figures/SignalPhotonPlot.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[107 <./Figures/BackgroundDiagrams.png>]
+[108 <./Figures/BackgroundDiagrams.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[108 <./Figures/AnalysisFlowChart.png>]
+[109 <./Figures/AnalysisFlowChart.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[109 <./Figures/BackgroundISR.png> <./Figures/BackgroundFSR.png>]
-<Figures/photonphasespace.png, id=1956, 724.7075pt x 500.87125pt>
+[110 <./Figures/BackgroundISR.png> <./Figures/BackgroundFSR.png>]
+<Figures/photonphasespace.png, id=1966, 724.7075pt x 500.87125pt>
 File: Figures/photonphasespace.png Graphic file (type png)
 
 <use Figures/photonphasespace.png>
@@ -4042,7 +4099,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[110 <./Figures/photonphasespace.png>]
+[111 <./Figures/photonphasespace.png>]
 ! Undefined control sequence.
 \lumi ->\ensuremath {\mathcal {L}}\xspace 
                                           
@@ -4078,17 +4135,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[111]
-
-LaTeX Warning: Reference `' on page 112 undefined on input line 109.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 [112]
+
+LaTeX Warning: Reference `' on page 113 undefined on input line 109.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -4110,6 +4160,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [115]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[116]
 Missing character: There is no Â in font cmr10!
 Missing character: There is no ± in font cmr10!
 ) (./Chapters/SystematicUncertainties.tex
@@ -4119,13 +4176,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[116]
+[117]
 Chapter 6.
-[117
+[118
 
 ]
 
-LaTeX Warning: Citation `tangandprobe' on page 118 undefined on input line 26.
+LaTeX Warning: Citation `tangandprobe' on page 119 undefined on input line 26.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4133,7 +4190,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[118]
+[119]
 ! Undefined control sequence.
 \GeVcc .../\hspace {-0.08em}}c^\text {2}}}\xspace 
                                                   
@@ -4151,17 +4208,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[119]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 [120]
-
-LaTeX Warning: Reference `sec-' on page 121 undefined on input line 70.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -4170,12 +4217,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [121]
 
+LaTeX Warning: Reference `sec-' on page 122 undefined on input line 70.
+
+
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [122]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[123]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -4271,13 +4328,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[123]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 [124]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4286,13 +4336,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [125]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[126]
 Chapter 7.
 
 Package caption Warning: \label without proper \caption on input line 5.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab-xsectvariables' on page 126 undefined on input li
+LaTeX Warning: Reference `tab-xsectvariables' on page 127 undefined on input li
 ne 3.
 
 ! Missing $ inserted.
@@ -4333,7 +4390,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[126
+[127
 
 ]) (./Chapters/AnomolousCouplings.tex
 
@@ -4342,26 +4399,42 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[127]
+[128]
 Chapter 8.
-) (./Chapters/ElectronConversionVeto.tex [128
+) (./Chapters/ElectronConversionVeto.tex [129
 
 ]
 Chapter 9.
-) (./Chapters/Conclusions.tex [129
+) (./Chapters/Conclusions.tex [130
 
-]) [130
+]) [131
 
-] [131
+] [132
 
-] (./PhDThesis.bbl
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 234.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gamma' on input line 234.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 234.
+
+
+LaTeX Warning: Reference `' on page 133 undefined on input line 236.
+
+(./PhDThesis.bbl
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[132] [133
+[133] [134
 
 ]
 Missing character: There is no Î in font cmr10!
@@ -4384,14 +4457,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[134]
+[135]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[135]
+[136]
 Underfull \hbox (badness 2856) in paragraph at lines 262--267
 []\T1/cmr/m/n/10.95 T. Her-manns.  Stud-ies at the cms ex-per-i-ment on sil-i-c
 on mi-crostrip mod-
@@ -4418,7 +4491,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[136]
+[137]
 Underfull \hbox (badness 10000) in paragraph at lines 299--303
 []\T1/cmr/m/n/10.95 T. C. Col-lab-o-ra-tion.  W he-lic-ity in top pair events.
  []
@@ -4492,13 +4565,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[137]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 [138]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4527,8 +4593,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[142])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 272.
+[142]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[143])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 285.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4536,13 +4609,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[143]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 272.
+[144]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 285.
  (./PhDThesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 272.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 272.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 285.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 285.
 Package rerunfilecheck Info: File `PhDThesis.out' has not changed.
-(rerunfilecheck)             Checksum: E99C214AC37699A84CF0ED370342F609;8679.
+(rerunfilecheck)             Checksum: 018AF077AFC953E379B11ED8D5F0E9A8;8761.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -4554,13 +4627,12 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 272.
  ) 
 Here is how much of TeX's memory you used:
- 10779 strings out of 493304
- 162629 string characters out of 6139871
- 299340 words of memory out of 5000000
- 13357 multiletter control sequences out of 15000+600000
+ 11263 strings out of 493304
+ 168560 string characters out of 6139871
+ 310186 words of memory out of 5000000
+ 13821 multiletter control sequences out of 15000+600000
  44051 words of font info for 121 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  42i,18n,51p,2080b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -4596,10 +4668,10 @@ lic/cm-super/sfsl1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti109
 xmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf/fonts/type1/publ
 ic/cm-super/sfxc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1200
 .pfb>
-Output written on PhDThesis.pdf (157 pages, 8350960 bytes).
+Output written on PhDThesis.pdf (158 pages, 8355446 bytes).
 PDF statistics:
- 2408 PDF objects out of 2487 (max. 8388607)
- 2056 compressed objects within 21 object streams
- 553 named destinations out of 1000 (max. 500000)
- 1179 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2424 PDF objects out of 2487 (max. 8388607)
+ 2071 compressed objects within 21 object streams
+ 561 named destinations out of 1000 (max. 500000)
+ 1187 words of extra memory for PDF output out of 10000 (max. 10000000)
 

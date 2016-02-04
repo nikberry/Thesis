@@ -7,6 +7,13 @@ electric dipole moment and a top quark with 4/3 charge
 anomolous couplings
 talk about top quarks - different chapter maybe?
 
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.8\textwidth]{Figures/StandardModel.png}
+\caption{The Standard Model of particle physics.}
+\end{center}
+\end{figure}
+
 hard-scattering pp collisions
 \begin{equation}
 \sigma(pp \to X) = \int^1_0dx_1 \int^1_0dx_2 \sum_{a,b} f_a(x_1, \mu_F^2) f_b(x_2, \mu_F^2) \hat{\sigma}_{ab \to X}(Q^2, \mu_F^2)
@@ -450,20 +457,26 @@ V_{CKM}
 
 \section{The Top Quark} \label{sec-TheTopQuark}
 
-\begin{figure}
-\begin{center}
-\includegraphics[width=0.8\textwidth]{Figures/StandardModel.png}
-\caption{The Standard Model of particle physics.}
-\end{center}
-\end{figure}
-
 \subsection{Top quark anomalous couplings}
 
-There is great interest as to the determination of the coupling of the top quark and photon, and probing the $t\bar{t}\gamma$ channel provides direct access to test
-this vertex. Any deviation from that of SM prediction would imply an anomalous structure of the vertex, thus revealing theorised physics beyond that of the SM. 
+The measurement of the couplings between the known fermions and bosons is a standard tool in the search for physics beyond the Standard Model. At the LHC top quarks are produced in copious amounts, allowing us to probe top couplings to a great precision. The large mass of the top quark is directly related to the effects of new physics on its couplings such that deviations from Standard Model predictions may be detectable, therefore the LHC provides the perfect environment in which to study such effects.
 
-A set of eight operators, $O_x$, known as effective operators, can be found to parametrise quark couplings up to a scale $\Lambda$ \cite{anom-coups}. They appear linearly in an
+The top quark provides a direct test of the quark-photon vertex which is unique among the quarks, thus there is great interest as to the determination of the coupling of the top quark and photon, and probing the $t\bar{t}\gamma$ channel at the LHC with an energy of 8 TeV provides directly explore the top quarks role in the mechanism of electroweak symmetry breaking. Any deviation from that of SM prediction would imply an anomalous structure of the quark-photon vertex, and would thus reveal any physics beyond that of the Standard Model, such as exotic quarks, SUSY, technicolour. 
+
+In order to successfully create a model of interactions between fermions and bosons, we require a good enough parametrisation of the interactions in the form a Lagrangian. We can write a general parametrisation for the on-shell interaction of two fermions ($f_i$, $f_j$) and a boson ($V = W,Z,\gamma,g$) as
+
+\begin{equation}
+\begin{split}
+\lumi^{OS}_{Vf_if_j} = & \bar{f}_j\gamma^{\mu} (A_L P_L + A_R P_R)f_i V_{\mu} \\
+& + \bar{f}_j i \sigma^{\mu \nu} q_{\nu}(B_L P_L + B_R P_R) f_i V_{\mu} + \text{h.c.}
+\end{split}
+\end{equation}
+
+
+
+A set of eight dimension-six operators, $O_x$, known as effective operators, can be found to parametrise quark couplings up to a scale $\Lambda$ \cite{anom-coups}. They appear linearly in an
 interaction Lagrangian, which is written in the form of a Taylor expansion, with complex effective coefficients $C_x$:
+
 
 \begin{equation} \label{eqn-EffectiveOperators}
 \lumi^{eff.} = \Sum \frac{C_x}{\Lambda_x}O_x + ... ,
@@ -478,7 +491,7 @@ interaction Lagrangian, which is written in the form of a Taylor expansion, with
 \end{center}
 \end{figure}
 
-The interaction Lagrangian for the top-photon vertex, shown in Fig. \ref{fig-TopPhotonVertex}, can be written in the form \cite{anom-coups}:
+The interaction Lagrangian for the top-photon vertex (shown in Figure \ref{fig-TopPhotonVertex}) can be parametrised in terms of the dimension-six operators and written in the form \cite{anom-coups}:
 
 \begin{equation} \label{eqn-interactionlagrangian}
 \lumi_{\gamma t\bar{t}} = -eQ_t\bar{t}\gamma^{\mu}tA_{\mu} - e\bar{t}\frac{i\sigma^{\mu\nu}q_{\nu}}{m_t}(d^{\gamma}_V+id^{\gamma}_A\gamma^5)tA_{\mu}
