@@ -1,35 +1,40 @@
 \chapter{Theoretical Motivation} \label{chap-theory}
 
-DGLAP
-Higgs related to top
-interaction lagrangian with effective operators
-electric dipole moment and a top quark with 4/3 charge
-anomolous couplings
-talk about top quarks - different chapter maybe?
 
-\begin{figure}
+\section{The Standard Model of Particle Physics} \label{sec-StandardModel}
+
+The Standard Model (SM) of particle physics is the most successful physical theory to date, having been scrutinised and tested over and over again and still remaining strong. The SM is a quantum field theory that describes all known fundamental particles and their interactions with one another with the exception of gravity. It categorises fundamental particles and forces into three categories: three generations of quarks of type up and down, three generations of leptons, each linked to their corresponding neutrino type, and the forces. We can classify these categories into fermions, fundamental matter particles, and bosons, force particles carrying the quanta of the electromagnetic, weak, and strong forces. The three categories are shown in Figure \ref{fig-SM}. 
+
+The Standard Model was first introduced in the 1960s when Sheldon Glashow first combined the weak and electromagnetic forces \cite{Glashow:1961tr} to form an $SU(2)_L \otimes U(1)_Y$ gauge invariant electroweak model, which was then extended to incorporate the Higgs mechanism by Abdus Salam and Steven Weinberg \cite{PhysRevLett.19.1264, Salam:1959zz}. Quarks and gluons (the quanta of the strong force) were later found to posses a property called colour whereby the concept of quantum chromodynamics (QCD) \cite{GellMann:1964nj,PhysRevD.8.3633, PhysRevLett.30.1346} grew. These fundamental forces were combined in a gauge-invariant model, $SU(3)_C \otimes SU(2)_L \otimes U(1)_Y$, to form the modern day for of the Standard Model.
+
+
+It is a peculiar fact that only the first generation of quarks and leptons are needed to create the entire observable universe.
+
+DGLAP?
+
+\begin{figure} \label{fig-SM}
 \begin{center}
-\includegraphics[width=0.8\textwidth]{Figures/StandardModel.png}
+\includegraphics[width=0.9\textwidth]{Figures/StandardModel.png}
 \caption{The Standard Model of particle physics.}
 \end{center}
 \end{figure}
 
 hard-scattering pp collisions
+
 \begin{equation}
-\sigma(pp \to X) = \int^1_0dx_1 \int^1_0dx_2 \sum_{a,b} f_a(x_1, \mu_F^2) f_b(x_2, \mu_F^2) \hat{\sigma}_{ab \to X}(Q^2, \mu_F^2)
+\sigma_{pp \to X} = \int^1_0dx_1 \int^1_0dx_2 \sum_{a,b} f_a(x_1, \mu_F^2) f_b(x_2, \mu_F^2) \hat{\sigma}_{ab \to X}(Q^2, \mu_F^2)
 \end{equation}
 
-\section{The Standard Model of Particle Physics} \label{sec-StandardModel}
 
 \subsection{Gauge theory}
 
-Almost all of the physics within Standard Model arises directly from imposed symmetires. Interactions are produced by requiring local gauge invariance under specific symmetry groups. We define the Standard Model in group theory as the unification of two gauge symmetry groups, describing the electroweak and strong interactions. The Glashow-Weinberg-Salam electroweak model sees the electromagnetic and weak interactions combined to create the electroweak gauge symmetry group $SU(2)_L \otimes U(1)_Y$, where the gauge symmetry group for strong interactions is defined as $SU(3)_C$. Thus, we can define the gauge symmetry group of the Standard Model to be 
+Almost all of the physics within Standard Model arises directly from imposed symmetries. Interactions are produced by requiring local gauge invariance under specific symmetry groups. We define the Standard Model in group theory as the unification of two gauge symmetry groups, describing the electroweak and strong interactions. The Glashow-Weinberg-Salam electroweak model sees the electromagnetic and weak interactions combined to create the electroweak gauge symmetry group $SU(2)_L \otimes U(1)_Y$, where the gauge symmetry group for strong interactions is defined as $SU(3)_C$. Thus, we can define the gauge symmetry group of the Standard Model to be 
 
 \begin{equation}
 SU(3)_C \otimes SU(2)_L \otimes U(1)_Y.
 \end{equation}
 
-In order to explain the concept of gauge invariance we start by considering changes to the phase of the wavefunctions or fields. Let us take the Lagrangian density of a free Dirac field, $\psi$, describing all free-moving spin-$\frac{1}{2}$ fermions with a mass m:  
+In order to explain the concept of gauge invariance we start by considering changes to the phase of the wave-functions or fields. Let us take the Lagrangian density of a free Dirac field, $\psi$, describing all free-moving spin-$\frac{1}{2}$ fermions with a mass m:  
 
 \begin{equation} \label{eqn-DiracLagrangian}
 \lumi = \bar{\psi}(i \gamma^{\mu}\partial_{\mu}-m)\psi
@@ -59,7 +64,7 @@ which we can then express in terms of the Lagrangian as
 \lumi \to \lumi - [\partial_{\mu} \theta(x)] \bar{\psi} \gamma^{\mu} \psi.
 \end{equation}
 
-In order to restore local gauge invariance, we start by hypotheising that the fermions interact with a ``gauge field" $A_{\mu}$. We can then redefine our the interacting fermion Lagrangian 
+In order to restore local gauge invariance, we start by hypothesising that the fermions interact with a ``gauge field" $A_{\mu}$. We can then redefine our the interacting fermion Lagrangian 
 
 \begin{equation} \label{eqn-DiracLagrangian}
 \lumi = \bar{\psi}(i \gamma^{\mu}D_{\mu}-m)\psi
@@ -457,6 +462,10 @@ V_{CKM}
 
 \section{The Top Quark} \label{sec-TheTopQuark}
 
+\begin{equation}
+\sigma_{pp \to t\bar{t}+X} = \sum_{i,j} \int^1_0 dx_1 \int^1_0 dx_2 f_1(x_i, \mu_F)f_2(x_j, \mu_F)\hat{\sigma}_{i,j \to t\bar{t}}(\hat{s})
+\end{equation}
+
 \subsection{Top quark anomalous couplings}
 
 The measurement of the couplings between the known fermions and bosons is a standard tool in the search for physics beyond the Standard Model. At the LHC top quarks are produced in copious amounts, allowing us to probe top couplings to a great precision. The large mass of the top quark is directly related to the effects of new physics on its couplings such that deviations from Standard Model predictions may be detectable, therefore the LHC provides the perfect environment in which to study such effects.
@@ -467,20 +476,32 @@ In order to successfully create a model of interactions between fermions and bos
 
 \begin{equation}
 \begin{split}
-\lumi^{OS}_{Vf_if_j} = & \bar{f}_j\gamma^{\mu} (A_L P_L + A_R P_R)f_i V_{\mu} \\
-& + \bar{f}_j i \sigma^{\mu \nu} q_{\nu}(B_L P_L + B_R P_R) f_i V_{\mu} + \text{h.c.}
+\lumi^{OS}_{Vf_if_j} = & \bar{f}_j\gamma^{\mu} (\mathcal{A}_L P_L + \mathcal{A}_R P_R)f_i V_{\mu} \\
+& + \bar{f}_j i \sigma^{\mu \nu} q_{\nu}(\mathcal{B}_L P_L + \mathcal{B}_R P_R) f_i V_{\mu} + \text{h.c.}
 \end{split}
 \end{equation}
 
+where $q = p_i - p_j$ is the momentum of the outgoing boson and $\mathcal{A}_{L,R}$, $\mathcal{B}_{L,R}$ are form factors, which in general may depend on $q^2$, however for the flavour-conserving photon and gluon vertices we have $\mathcal{A}_L = \mathcal{A}_R$ and for flavour-changing $\mathcal{A}_{L,R} = 0$ due to gauge symmetry. 
 
-
-A set of eight dimension-six operators, $O_x$, known as effective operators, can be found to parametrise quark couplings up to a scale $\Lambda$ \cite{anom-coups}. They appear linearly in an
-interaction Lagrangian, which is written in the form of a Taylor expansion, with complex effective coefficients $C_x$:
-
+A set of dimension-six gauge-invariant operators, $O_x$, known as effective operators, can be found to parametrise quark couplings up to a scale $\Lambda$ \cite{anom-coups}. They appear linearly in an interaction Lagrangian, which is written in the form of a Taylor expansion, with complex effective coefficients $C_x$:
 
 \begin{equation} \label{eqn-EffectiveOperators}
 \lumi^{eff.} = \Sum \frac{C_x}{\Lambda_x}O_x + ... ,
 \end{equation}
+
+Among the operators defined in the effective Lagrangian \cite{Buchmuller:1985jz} fourteen contribute to the electroweak anomalous couplings. These are as so:
+
+\begin{align}
+& O^{(3, i, j}_{\phi q} = i(\phi^{\dagger}\tau^I D_{\mu} \phi)(\bar{q}_{Li}\gamma^{\mu}\tau^I q_{Lj}), \quad & O_{ij}_{Du} = (\bar{q}_{Li} D_{\mu} u_{Rj}) D^{\mu} \tilde{\phi}, \\
+& O^{(1, i, j)}_{\phi q} = i(\phi^{\dagger} D_{\mu} \phi)(\bar{q}_{Li}\gamma^{\mu} q_{Lj}), \quad & O_{ij}_{\bar{D}u} = (D_{\mu} \bar{q}_{Li} u_{Rj}) D^{\mu} \tilde{\phi}, \\
+& O^{ij}_{\phi \phi} = i(\phi^{\dagger} D_{\mu} \phi)(\bar{u}_{Ri}\gamma^{\mu} d_{Rj}), \quad & O_{ij}_{Dd} = (\bar{q}_{Li} D_{\mu} d_{Rj}) D^{\mu} \phi, \\
+& O^{ij}_{\phi u} = i(\phi^{\dagger} D_{\mu} \phi)(\bar{u}_{Ri}\gamma^{\mu} d_{Rj}), \quad & O_{ij}_{\bar{D}d} = (D_{\mu} \bar{q}_{Li} d_{Rj}) D^{\mu} \phi, \\
+& O^{ij}_{uW} = (\bar{q}_{Li} \sigma^{\mu \nu} \tau^I u_{Rj})\tilde{\phi} W^I_{\mu \nu}, \quad & O_{ij}_{qW} = \bar{q}_{Li} \gamma^{\mu} \tau^I D^{\nu} q_Lj W^I_{\mu \nu}\\
+& O^{ij}_{dW} = (\bar{q}_{Li} \sigma^{\mu \nu} \tau^I d_{Rj})\phi W^I_{\mu \nu}, \quad & O_{ij}_{qB} = \bar{q}_{Li} \gamma^{\mu} D^{\nu} q_Lj B_{\mu \nu}\\
+& O^{ij}_{uB\phi} = (\bar{q}_{Li} \sigma^{\mu \nu} u_{Rj})\tilde{\phi} B_{\mu \nu}, \quad & O_{ij}_{uB} = \bar{u}_{Ri} \gamma^{\mu} D^{\nu} u_Rj B_{\mu \nu}
+\end{align}
+
+for different flavours represented by the indices $i,j = 1,2,3$. $\bar{q}_{Li}$, $u_{Ri}$, and $d_{Ri}$ represent the quark fields as shown in Section \ref{subsec-ElectroweakTheory}. The operators where we have $i = j = 3$ contribute to the electroweak coupling processes $Wtb$, $Zt\bar{t}$, and $\gammat\bar{t}$. 
 
 \subsection{The top-photon vertex}
 
@@ -491,40 +512,36 @@ interaction Lagrangian, which is written in the form of a Taylor expansion, with
 \end{center}
 \end{figure}
 
-The interaction Lagrangian for the top-photon vertex (shown in Figure \ref{fig-TopPhotonVertex}) can be parametrised in terms of the dimension-six operators and written in the form \cite{anom-coups}:
+The general expression for the interaction Lagrangian for the top-photon ($\gamma t \bar{t}$) vertex (shown in Figure \ref{fig-TopPhotonVertex}) can be parametrised in terms of the dimension-six operators and written, not including the redundant operators, in the form \cite{anom-coups}:
 
 \begin{equation} \label{eqn-interactionlagrangian}
 \lumi_{\gamma t\bar{t}} = -eQ_t\bar{t}\gamma^{\mu}tA_{\mu} - e\bar{t}\frac{i\sigma^{\mu\nu}q_{\nu}}{m_t}(d^{\gamma}_V+id^{\gamma}_A\gamma^5)tA_{\mu}
 \end{equation}
 
-The first term in Equation \ref{eqn-interactionlagrangian} is a purely SM contribution, and is linear with respect to electrical charge, $Q_t$, such that the bare $t\bar{t}+\gamma$ cross-section is proportional to the square of the top-quark charge. The second term is described b  vector and axial form factors, $d^{\gamma}_V$ and $d^{\gamma}_A$, which arise from the contributions of first-order loop corrections, representing the magnetic and electric dipole moment of the top quark, respectively. The form factors, $d^{\gamma}_V$ and $d^{\gamma}_A$, comprise the operators $O^{33}_{uB\phi}$ and $O^{33}_{uW}$ from the eight effective operators described previously mentioned. They parametrise deviations from SM expectations of the form factors, $d^{\gamma}_V$ and $d^{\gamma}_A$, as such:
+The first term in Equation \ref{eqn-interactionlagrangian} is a purely SM contribution, and is linear with respect to electrical charge of the top, $Q_t$, such that the bare $t\bar{t}+\gamma$ cross-section is proportional to the square of the top-quark charge. The second term is described by the vector and axial form factors, $d^{\gamma}_V$ and $d^{\gamma}_A$, which arise from the contributions of first-order loop corrections, representing the magnetic and electric dipole moment of the top quark (where the latter is CP-violating), respectively. The couplings, $d^{\gamma}_V$ and $d^{\gamma}_A$, are real and comprise the operators $O^{33}_{uB\phi}$ and $O^{33}_{uW}$ from the eight effective operators described previously mentioned. They parametrise deviations from SM expectations of the form factors, $d^{\gamma}_V$ and $d^{\gamma}_A$, as such:
 
 \begin{align}\label{eqn-smparameterisations}
 \delta d^{\gamma}_V = \frac{\sqrt{2}}{e}\text{Re}[c_WC^{33}_{uB\phi} + s_WC^{33}_{uW}]\frac{vm_t}{\Lamdba^2} \\
 \delta d^{\gamma}_A = \frac{\sqrt{2}}{e}\text{Im}[c_WC^{33}_{uB\phi} + s_WC^{33}_{uW}]\frac{vm_t}{\Lamdba^2}
 \end{align}
 
-where $\delta d^{\gamma}_V$ and $\delta d^{\gamma}_A$ only receive non-zero contributions from phenomena beyond the SM. We are able to obtain a measurement of these constants by
-analysing the magnetic and electric dipole moments of the top quark.
+where $\delta d^{\gamma}_V$ and $\delta d^{\gamma}_A$ only receive non-zero contributions from phenomena beyond the SM. We are able to obtain a measurement of these constants by analysing the magnetic and electric dipole moments of the top quark. We note that the $\gamma^{\mu}$ term does not receive corrections from the dimension-six operators. If we had included the redundant effective operators ($O_{Wq}$, $O_{Bq}$, $O_{Bu}$) then the first two would incorporate additional corrections of $\sim q^2 \bar{t}_L \gamma^{\mu} t_R A_{\mu}$ and the last $q^2 \bar{t}_R \gamma^{\mu} t_R A_{\mu}$, no-vanishing only when the photon is off-shell.
 
-The magnetic dipole moment of the top quark is studied by measurements of spin correlation, whereas the electric dipole moment can be investigated through the $t\gamma$ vertex.
-Deviations from SM contributions are expected to manifest in the photon energy spectrum and angular photon distributions.
+The magnetic dipole moment of the top quark is studied by measurements of spin correlation, whereas the electric dipole moment can be investigated through the $t\gamma$ vertex. Deviations from SM contributions are expected to manifest in the photon energy spectrum and angular photon distributions.
 
-Measuring $t\bar{t}+\gamma$ provides a direct test of the electromagnet coupling of the top quark in a way that is complementary to analyses that include an ``exotic" top quark with a charge of -4/3e \cite{top-charge}. One issue when investigating the $t\bar{t}+\gamma$ process is the large irreducible background of photons that are radiated by other charged particles than the top quark. It has also been proved that the interference of photon production from initial state radiation (ISR) and final state radiation (FSR) can not be deemed negligible \cite{topchargemeasurement}. This is also discussed with respect to Monte Carlo signal generation in Sec.\ref{subsec-mcsim}. Thus only inclusive observables of $t\bar{t}+\gamma$ can be probed, as we are unable to trace the photon back to its parent particle. We will also treat on- and off-shell radiation collectively. We will discuss prompt photon background in Section \ref{subsubsec-photonidbackgrounds}. 
+Measuring $t\bar{t}+\gamma$ provides a direct test of the electromagnet coupling of the top quark in a way that is complementary to analyses that include an ``exotic" top quark with a charge of -4/3e \cite{top-charge}. One issue when investigating the $t\bar{t}+\gamma$ process is the large irreducible background of photons that are radiated by charged particles other than the top quark. It has also been proved that the interference of photon production from initial state radiation (ISR) and final state radiation (FSR) can not be deemed negligible \cite{topchargemeasurement}. This is also discussed with respect to Monte Carlo signal generation in Section \ref{sec-mcsim}. Thus only inclusive observables of $t\bar{t}+\gamma$ can be probed, as we are unable to trace the photon back to its parent particle. We will also treat on- and off-shell radiation collectively. We will discuss prompt photon backgrounds in Section \ref{chap-EventSelection}. 
 
 \subsection{Previous measurements}
 
-Presently, the determination of the operators $C^{33}_{uB\phi}$ and $C^{33}_{uW}$ is not possible, due to the statistical significance of recorded events at the LHC being low. This will become more accessible at higher centre-of-mass energy and luminosity. Until then, benchmark studies have been undertaken \cite{pidsemilept}.
+Presently, the determination of the operators $C^{33}_{uB\phi}$ and $C^{33}_{uW}$ is not possible due to the statistical significance of recorded events at the LHC being low. This will become more accessible at higher centre-of-mass energy and luminosity. Until then, benchmark studies have been undertaken \cite{pidsemilept}.
 
-Both the CDF, at the Tevatron, and ATLAS, at the LHC, experiments have measure the inclusive $t\bar{t}+\gamma$ production cross-section at
-$\sigma^{CDF}_{t\bar{t}+\gamma} = 0.18 \pm 0.08$ pb \cite{CDFttgamma} and $\sigma^{ATLAS}_{t\bar{t}+\gamma} = 2.0 \pm 0.5 (\text{stat}) \pm 0.7 (\text{sys.}) \pm 0/08 (\text{lumi})$ pb at 7 TeV \cite{ATLASttgamma}, respectively. The SM expectations for these values are given as $\sigma^{Tevatron}_{t\bar{t}+\gamma} = 0.17 \pm 0.003$ pb and $\sigma^{LHC}_{t\bar{t}+\gamma} = 2.1 \pm 0.4$ pb, respectively, and thus the measurements observed are in accordance to those theorised. 
+The CDF experiment at the Tevatron, along with the CMS and ATLAS experiments at the LHC, have measured the inclusive $t\bar{t}+\gamma$ production cross-section at $\sigma^{CDF}_{t\bar{t}+\gamma} = 0.18 \pm 0.08$ pb \cite{CDFttgamma}, $\sigma^{CMS}_{t\bar{t}+\gamma} = 2.4 \pm 0.2 (\text{stat}) \pm 0.6 (\text{syst.})$ \cite{CMS-PAS-TOP-13-011}, and $\sigma^{ATLAS}_{t\bar{t}+\gamma} = 2.0 \pm 0.5 (\text{stat}) \pm 0.7 (\text{syst.}) \pm 0/08 (\text{lumi})$ pb at 7 TeV \cite{ATLASttgamma}, respectively. The SM expectations for these values are given as $\sigma^{Tevatron}_{t\bar{t}+\gamma} = 0.17 \pm 0.003$ pb and $\sigma^{LHC}_{t\bar{t}+\gamma} = 2.1 \pm 0.4$ pb, respectively, and thus the measurements observed are in accordance to those theorised. 
 
-In relation to the electrical charge of the top quark, the CMS and ATLAS experiments have also performed analyses, hypothesis tests, where the final state charges of the top quark are combined, and both yielded similar results. The experiments concluded that an electrical charge of $Q_t = -4/3e$ could be excluded  with a high significance \cite{topchargeconstraints, ATLAStopcharge}.
+In relation to the electrical charge of the top quark, the CMS and ATLAS experiments have also performed analyses, hypothesis tests, where the final state charges of the top quark are combined, and both yield similar results. The experiments concluded that an electrical charge of $Q_t = -4/3e$ could be excluded  with a high significance \cite{topchargeconstraints, ATLAStopcharge}.
 
-Other top quark couplings have been measured at the Tevatron and the LHC, also. The structure of the $Wtb$ vertex has been investigated in helicity measurements of top quark correlated W bosons at the Tevatron and LHC, putting limits on anomalous couplings \cite{CDFD0combination, Whelicitytoppair, Wpolarisation}. The strength of $tW$ couplings can be tested through single top quark production and has been found to be consistent with SM expectations \cite{tsinglet, singlet}. Also, the inclusive $ttZ$ production cross-section has been measured by CMS, and exclusion limits on anomalous couplings are set \cite{vectorbosonassociatedproduction}. Another focus in the area is flavour changing neutral currents (FCNC) in top decays, $t \to qZ$ and $t \to q\gamma$ are also currently being studied. Limits are set for these processes \cite{tqZ, FCNC}, which confirm SM FCNC suppression. 
+Other top quark couplings have been measured at the Tevatron and the LHC, also. The structure of the $Wtb$ vertex has been investigated in helicity measurements of top quark correlated W bosons at the Tevatron and LHC, putting limits on anomalous couplings \cite{CDFD0combination, Whelicitytoppair, Wpolarisation}. The strength of $tW$ couplings can be tested through single top quark production and has been found to be consistent with SM expectations \cite{tsinglet, singlet}. Also, the inclusive $t\bar{t}W$ and $t\bar{t}Z$ production cross-sections have been measured by CMS to be $\sigma_{t\bar{t}W} = 170^{+90}_{-80}(\text{stat}.) \pm 70(\text{syst}.)$ fb and $\sigma_{t\bar{t}Z} = 200^{+80}_{-70}(\text{stat}.) ^{+40}_{-30}(\text{syst}.)$ fb, respectively, with the combined $t\bar{t}V$ cross-section as $\sigma_{t\bar{t}V} = 380^{+100}_{-90}(\text{stat}.)^{+80}_{-70}(syst.) $ fb, and exclusion limits on anomalous couplings are set \cite{Khachatryan:1712680}. Another focus in the area is flavour changing neutral currents (FCNC) in top decays, $t \to qZ$ and $t \to q\gamma$ are also currently being studied. Limits are set for these processes \cite{tqZ, FCNC}, which confirm SM FCNC suppression. 
 
-It is important to note that a measurements of $t\bar{t}+\gamma$ are extremely challenging at the LHC with the current centre-of-mass energy and luminosity. This is due to the limited four-momentum resolution of partons, pile-up, and large background from QCD multi-jet events. It has been estimated that a 10\% resolution of the top quark's charge will be available at $\sqrt{s} = 14$ TeV with 10 fb$^{-1}$ \cite{topchargemeasurement}. A high energy $e^+e^-$ collider would be preferable for this study as it would be a much cleaner working environment,
-such that we could obtain a 5--10\% precision on axial form factor $d&{\gamma}_A$ can be achieved with 10 fb$^{-1}$ at $\sqrt{s} = 500$ GeV \cite{linearcollider}.
+It is important to note that a measurements of $t\bar{t}+\gamma$ are extremely challenging at the LHC with the current centre-of-mass energy and luminosity. This is due to the limited four-momentum resolution of partons, pile-up, and large background from QCD multi-jet events. It has been estimated that a 10\% resolution of the top quark's charge will be available at $\sqrt{s} = 14$ TeV with 10 fb$^{-1}$ \cite{topchargemeasurement}. As teh energy is increased at the LHC the gluon fusion process becomes more dominant and thus fewer photons can be emitted in the form of initial state radiation. A high energy $e^+e^-$ collider would be preferable for this study as it would be a much cleaner working environment, such that we could obtain a 5--10\% precision on axial form factor $d&{\gamma}_A$ can be achieved with 10 fb$^{-1}$ at $\sqrt{s} = 500$ GeV \cite{linearcollider}.
 
 
 \begin{table} \label{tab-}

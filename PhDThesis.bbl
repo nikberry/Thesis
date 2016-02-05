@@ -131,11 +131,6 @@ CMS Collaboration.
 \newblock Reference muon id and isolation efficiencies.
 \newblock {\em https://twiki.cern.ch/twiki/bin/viewauth/CMS/MuonReferenceEffs}.
 
-\bibitem{PhysRev.96.191}
-C.~N. Yang and R.~L. Mills.
-\newblock Conservation of isotopic spin and isotopic gauge invariance.
-\newblock {\em Phys. Rev.}, 96:191--195, Oct 1954.
-
 \bibitem{Glashow:1961tr}
 S.~L. Glashow.
 \newblock {Partial Symmetries of Weak Interactions}.
@@ -151,6 +146,26 @@ Abdus Salam and John~Clive Ward.
 \newblock {Weak and electromagnetic interactions}.
 \newblock {\em Nuovo Cim.}, 11:568--577, 1959.
 
+\bibitem{GellMann:1964nj}
+Murray Gell-Mann.
+\newblock {A Schematic Model of Baryons and Mesons}.
+\newblock {\em Phys. Lett.}, 8:214--215, 1964.
+
+\bibitem{PhysRevD.8.3633}
+David~J. Gross and Frank Wilczek.
+\newblock Asymptotically free gauge theories. i.
+\newblock {\em Phys. Rev. D}, 8:3633--3652, Nov 1973.
+
+\bibitem{PhysRevLett.30.1346}
+H.~David Politzer.
+\newblock Reliable perturbative results for strong interactions?
+\newblock {\em Phys. Rev. Lett.}, 30:1346--1349, Jun 1973.
+
+\bibitem{PhysRev.96.191}
+C.~N. Yang and R.~L. Mills.
+\newblock Conservation of isotopic spin and isotopic gauge invariance.
+\newblock {\em Phys. Rev.}, 96:191--195, Oct 1954.
+
 \bibitem{PhysRev.105.1413}
 C.~S. Wu, E.~Ambler, R.~W. Hayward, D.~D. Hoppes, and R.~P. Hudson.
 \newblock Experimental test of parity conservation in beta decay.
@@ -160,16 +175,6 @@ C.~S. Wu, E.~Ambler, R.~W. Hayward, D.~D. Hoppes, and R.~P. Hudson.
 S.~Bethke.
 \newblock {Determination of the QCD coupling $\alpha_s$}.
 \newblock {\em J. Phys.}, G26:R27, 2000.
-
-\bibitem{PhysRevLett.30.1346}
-H.~David Politzer.
-\newblock Reliable perturbative results for strong interactions?
-\newblock {\em Phys. Rev. Lett.}, 30:1346--1349, Jun 1973.
-
-\bibitem{PhysRevD.8.3633}
-David~J. Gross and Frank Wilczek.
-\newblock Asymptotically free gauge theories. i.
-\newblock {\em Phys. Rev. D}, 8:3633--3652, Nov 1973.
 
 \bibitem{PhysRevLett.13.508}
 Peter~W. Higgs.
@@ -248,6 +253,12 @@ J.~Aguilar-Saavedra.
 \newblock A minimal set of top anomalous couplings.
 \newblock {\em Nucl.Phys.}, B812:181, 2009.
 
+\bibitem{Buchmuller:1985jz}
+W.~Buchmuller and D.~Wyler.
+\newblock {Effective Lagrangian Analysis of New Interactions and Flavor
+  Conservation}.
+\newblock {\em Nucl. Phys.}, B268:621--653, 1986.
+
 \bibitem{top-charge}
 Y.~Kuessel.
 \newblock Constraints on the top quark’s charge from top pair events.
@@ -270,6 +281,11 @@ CDF Collaboration.
 \newblock Evidence for $t\bar{t}\gamma$ production and measurement of
   $\sigma_{t\bar{t}\gamma}/\sigma_{t\bar{t}}$.
 \newblock {\em Phys.Rev.}, D48:031104, 2011.
+
+\bibitem{CMS-PAS-TOP-13-011}
+{Measurement of the inclusive top-quark pair + photon production cross section
+  in the muon + jets channel in pp collisions at 8 TeV}.
+\newblock Technical Report CMS-PAS-TOP-13-011, CERN, Geneva, 2014.
 
 \bibitem{ATLASttgamma}
 ATLAS Collaboration.
@@ -308,8 +324,8 @@ T.~A. Collaboratoin.
 \newblock {\em http://cdsweb.cern.ch/record/1376422}, 2011.
 
 \bibitem{tsinglet}
-C.~Collaboration.
-\newblock “measurement of the t-channel single top quark production
+CMS Collaboration.
+\newblock Measurement of the t-channel single top quark production
   cross-section in pp collisions at $\sqrt{s} = 7 \tev$.
 \newblock {\em Phys.Rev.Lett.107:091802}, 2011.
 
@@ -319,12 +335,14 @@ D.~Collaboration.
   $\abs{V_{tb}}$ in $p\bar{p}$ collisions at $\sqrt{s} = 1.96 \tev$.
 \newblock {\em arXiv:1108.3091}, 2011.
 
-\bibitem{vectorbosonassociatedproduction}
-C.~Collaboration.
-\newblock Measurement of the associated production of vector bosons with
-  top-antitop pairs at $\sqrt{s} 7 \tev$.
-\newblock {\em http://cdsweb.cern.ch/record/1460101}, pages no.
-  CMS--PAS--TOP--12--014, 2012.
+\bibitem{Khachatryan:1712680}
+Khachatryan.
+\newblock {Measurement of top quark-antiquark pair production in association
+  with a W or Z boson in pp collisions at $\sqrt{s}$ = 8 TeV}.
+\newblock {\em Eur. Phys. J. C}, 74(arXiv:1406.7830. CERN-PH-EP-2014-136.
+  CMS-TOP-12-036):3060. 37 p, Jun 2014.
+\newblock Comments: Replaced with published version. Added journal reference
+  and DOI.
 
 \bibitem{tqZ}
 T.~C. Collaboration.
