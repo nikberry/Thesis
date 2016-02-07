@@ -40,6 +40,11 @@ I was expecting a `,' or a `}'---line 2216 of file PhDThesis.bib
  :      eprint         = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2696 of file PhDThesis.bib
+ : 
+ : @article{Quadt:2007jk,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "MishaSignalDefinition"
 Warning--I didn't find a database entry for "AN-12-485"
 Warning--I didn't find a database entry for "tangandprobe"
@@ -59,6 +64,8 @@ Warning--empty author in CMS-PAS-PFT-09-001
 Warning--empty author and editor in HCALTdr
 Warning--empty year in ElectronEfficiencies
 Warning--empty year in MuonEfficiencies
+Warning--empty author in ATLAS:2014wva
+Warning--empty journal in ATLAS:2014wva
 Name 1 in "U. Baur, M. Buice, and L. H. Orr" has a comma at the end for entry topchargemeasurement
 while executing---line 944 of file unsrt.bst
 Warning--empty author in CMS-PAS-TOP-13-011
@@ -93,45 +100,45 @@ Warning--empty author in CMS:2011esa
 Warning--empty journal in CMS:2011esa
 Warning--empty author in BTAGPAS
 Warning--empty journal in BTAGPAS
-You've used 138 entries,
+You've used 144 entries,
             1791 wiz_defined-function locations,
-            1211 strings with 23330 characters,
-and the built_in function-call counts, 26651 in all, are:
-= -- 2413
-> -- 870
+            1249 strings with 24185 characters,
+and the built_in function-call counts, 27908 in all, are:
+= -- 2531
+> -- 899
 < -- 14
-+ -- 367
-- -- 229
-* -- 1605
-:= -- 4315
-add.period$ -- 410
-call.type$ -- 138
-change.case$ -- 137
++ -- 380
+- -- 236
+* -- 1698
+:= -- 4506
+add.period$ -- 427
+call.type$ -- 144
+change.case$ -- 143
 chr.to.int$ -- 0
-cite$ -- 170
-duplicate$ -- 1291
-empty$ -- 2728
-format.name$ -- 229
-if$ -- 5926
+cite$ -- 178
+duplicate$ -- 1344
+empty$ -- 2866
+format.name$ -- 236
+if$ -- 6206
 int.to.chr$ -- 0
-int.to.str$ -- 138
-missing$ -- 131
-newline$ -- 688
-num.names$ -- 128
-pop$ -- 276
+int.to.str$ -- 144
+missing$ -- 137
+newline$ -- 717
+num.names$ -- 133
+pop$ -- 287
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 593
+skip$ -- 614
 stack$ -- 0
-substring$ -- 1750
-swap$ -- 233
+substring$ -- 1877
+swap$ -- 238
 text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 32
-while$ -- 224
-width$ -- 141
-write$ -- 1460
-(There were 18 error messages)
+warning$ -- 34
+while$ -- 235
+width$ -- 147
+write$ -- 1522
+(There were 19 error messages)

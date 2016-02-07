@@ -173,21 +173,6 @@ B.~Pontecorvo.
 \newblock {\em Sov. Phys. JETP}, 26:984--988, 1968.
 \newblock [Zh. Eksp. Teor. Fiz.53,1717(1967)].
 
-\bibitem{PhysRev.96.191}
-C.~N. Yang and R.~L. Mills.
-\newblock Conservation of isotopic spin and isotopic gauge invariance.
-\newblock {\em Phys. Rev.}, 96:191--195, Oct 1954.
-
-\bibitem{PhysRev.105.1413}
-C.~S. Wu, E.~Ambler, R.~W. Hayward, D.~D. Hoppes, and R.~P. Hudson.
-\newblock Experimental test of parity conservation in beta decay.
-\newblock {\em Phys. Rev.}, 105:1413--1415, Feb 1957.
-
-\bibitem{Bethke:2000ai}
-S.~Bethke.
-\newblock {Determination of the QCD coupling $\alpha_s$}.
-\newblock {\em J. Phys.}, G26:R27, 2000.
-
 \bibitem{PhysRevLett.13.508}
 Peter~W. Higgs.
 \newblock Broken symmetries and the masses of gauge bosons.
@@ -215,6 +200,21 @@ CMS Collaboration.
   experiment at the lhc.
 \newblock {\em Physics Letters B - Nuclear Physics and Particle Physics},
   716(1):30--61, 9 2012.
+
+\bibitem{PhysRev.96.191}
+C.~N. Yang and R.~L. Mills.
+\newblock Conservation of isotopic spin and isotopic gauge invariance.
+\newblock {\em Phys. Rev.}, 96:191--195, Oct 1954.
+
+\bibitem{PhysRev.105.1413}
+C.~S. Wu, E.~Ambler, R.~W. Hayward, D.~D. Hoppes, and R.~P. Hudson.
+\newblock Experimental test of parity conservation in beta decay.
+\newblock {\em Phys. Rev.}, 105:1413--1415, Feb 1957.
+
+\bibitem{Bethke:2000ai}
+S.~Bethke.
+\newblock {Determination of the QCD coupling $\alpha_s$}.
+\newblock {\em J. Phys.}, G26:R27, 2000.
 
 \bibitem{Chatrchyan:2013lba}
 Serguei Chatrchyan et~al.
@@ -259,6 +259,39 @@ D0~Collaboration.
   $\sqrt{\mathit{s}}\phantom{\rule{0ex}{0ex}}=\phantom{\rule{0ex}{0ex}}$ 1.8
   tev.
 \newblock {\em Phys. Rev. Lett.}, 74:2422--2426, Mar 1995.
+
+\bibitem{PhysRevLett.35.1489}
+M.~L. Perl and Abrams et~al.
+\newblock Evidence for anomalous lepton production in ${e}^{+}-{e}^{-}$
+  annihilation.
+\newblock {\em Phys. Rev. Lett.}, 35:1489--1492, Dec 1975.
+
+\bibitem{ARNISON1983103}
+The~UA1 Collaboration.
+\newblock Experimental observation of isolated large transverse energy
+  electrons with associated missing energy at s=540 gev.
+\newblock {\em Physics Letters B}, 122(1):103 -- 116, 1983.
+
+\bibitem{Banner1983476}
+The~UA2 Collaboration.
+\newblock Observation of single isolated electrons of high transverse momentum
+  in events with missing transverse energy at the \{CERN\} pp collider.
+\newblock {\em Physics Letters B}, 122(5–6):476 -- 485, 1983.
+
+\bibitem{ATLAS:2014wva}
+{First combination of Tevatron and LHC measurements of the top-quark mass}.
+\newblock 2014.
+
+\bibitem{Quadt:2007jk}
+Arnulf Quadt.
+\newblock {Top quark physics at hadron colliders}.
+\newblock {\em Eur. Phys. J.}, C48:835--1000, 2006.
+
+\bibitem{0954-3899-37-7A-075021}
+K~Nakamura and Particle~Data Group.
+\newblock Review of particle physics.
+\newblock {\em Journal of Physics G: Nuclear and Particle Physics},
+  37(7A):075021, 2010.
 
 \bibitem{anom-coups}
 J.~Aguilar-Saavedra.
