@@ -470,11 +470,95 @@ V_{CKM}
 
 The top quark is the heaviest of all the fundamental particles and was first postulated, along with the bottom quark, in 1973 by Makoto Kobayashi and Toshihide Maskawa \cite{Kobayashi:1973fv} to explain the observations of CP violation in the kaon sector. It was with the discovery of the $\tau$ lepton \cite{PhysRevLett.35.1489} in 1975, and then the discovery of the bottom quark in 1977 \cite{Innes:1977ae} and the quark-lepton generation symmetry which lead to the postulation of the top quark. Event with the discovery of the W and Z bosons in 1985 with the UA1 \cite{ARNISON1983103} and UA2 \cite{Banner1983476} experiments at the Super Proton Synchrotron (SPS), CERN, the top quark was still nowhere to be seen, and at this point in time there was still no experimental apparatus capable of reaching the required energies needed to discover the top. It was in 1995 when the CDF \cite{PhysRevLett.74.2626} and D0 \cite{PhysRevLett.74.2422} experiments at the Tevatron (Fermilab, Illinois) first observed the top quark, which subsequently prompted Kobayashi and Maskawa to win the Nobel prize for their predictions in 2008.
 
-The most up-to-date measurement of the top mass has been calculated by combining results from the LHC and the Tevatron to be $173.34 \pm 0.27(stat.) \pm 0.71(syst.)$ GeV/c$^2$ \cite{ATLAS:2014wva}. sAs a direct result of the top quarks extremely large mass, it has a very short decay time which is shorter than the time required for quarks to hadronise and form composite particles with other quarks. The decay time of the top is approximately $5 \times 10^{-25}$ s \cite{Quadt:2007jk}, whereas the hadronisation time for quarks is given as $\tau_{had.} \approx 1/\Lamdba_{QCD} \aprox 10^{-23}$ s \cite{0954-3899-37-7A-075021}. Thus, we never observe $t\bar{t}$ bound states and the information relating to spin is inherited by the decay products of the top. Therefore the top quark provides unique opportunities to study precision tests of the Standard Model.
+The mass of the top quark is of critical importance due to the fact that the Yukawa coupling (coupling to the Higgs) of the top is close to unity, and is thus at the scale of electroweak symmetry breaking. The mass of the W boson and the top are two of the most important parameters to global electroweak fits constraining the Higgs potential. The most up-to-date measurement of the top mass has been calculated by combining results from the LHC and the Tevatron to be $m_{top} = 173.34 \pm 0.27(stat.) \pm 0.71(syst.)$ GeV/c$^2$ \cite{ATLAS:2014wva}. sAs a direct result of the top quarks extremely large mass, it has a very short decay time which is shorter than the time required for quarks to hadronise and form composite particles with other quarks. The decay time of the top is approximately $5 \times 10^{-25}$ s \cite{Quadt:2007jk}, whereas the hadronisation time for quarks is given as $\tau_{had.} \approx 1/\Lamdba_{QCD} \aprox 10^{-23}$ s \cite{0954-3899-37-7A-075021}. Thus, we never observe $t\bar{t}$ bound states and the information relating to spin is inherited by the decay products of the top. Therefore the top quark provides unique opportunities to study precision tests of the Standard Model.
 
-\begin{equation}
+%%%%%%%%%%%%%%% 
+
+\subsection{Top quark production at hadron colliders} \label{subsec-TopProduction}
+
+There are two processes whereby top quarks are produced at hadron colliders: single top quark production via the electroweak interaction in association with a quark or a vector boson, and top quark pair ($t\bar{t}$) production where a top quark is produced with it's antiparticle through the strong interaction. The latter of the two is the most prevalent of the production sources, and thus provides the signature for this analysis. The leading order (LO) Feynman diagrams for the production of top quark pair and single top processes can be seen in Figures \ref{fig-ttbarProductionLHC} and \ref{fig-singletopProductionLHC}. Single top production is of particular significance as it allows direct measurement of the $Wtb$ vertex, and thus we are able to measure the magnitude of the CKM matrix element $|V_{tb}|$.
+
+Due to the high centre-of-mass energy of the LHC, top quarks are produced in copious amounts such that it has obtained the title of ``top factory". Unlike the Tevatron, which did not have a high enough centre-of-mass energy to probe the properties of the top, the LHC is able to measure its properties to a high accuracy. The main production mechanism at the Tevatron saw quark-antiquark annihilation in 90\% \cite{Kidonakis:2012db} of collisions due to the collision of protons and anti-protons, where the secondary production process was gluon-gluon fusion in 10\% of collisions. At the LHC the converse is true, such that gluon-gluon fusion is the most prominent process and top pairs are produced in this way 80\% of the time at $\sqrt{s} = 8$ TeV. The rate for top production through gluon-gluon fusion increases with energy, and will rise to around 90\% at $\sqrt{s} = 14$ TeV. The reason for this lies in the parton distribution functions (pdfs) and how the energy of a hadron is distributed with the increase of energy. As the energy increases the gluons carry a much larger fraction of the hadron's energy. At the Tevatron quark-antiquark annihilation can arise from valence quarks of the hadron, whereas at the LHC the quarks must originate from the ``sea" quarks. The increase in $t\bar{t}$ events produced by gluon-gluon fusion events implies that the probability of the production of initial state radiation is reduced, and thus the sensitivity to the $t\gamma$ vertex is increased.
+
+One of the main observables in particle physics experiments is the production cross-section, $\sigma$, of a process. We define the cross-section for $\sigma_{i\tof}$ to be the probability for an initial statie, i, to transition into a final state, f. We calculate the cross-section of a process by convoluting the PDFs $f_1(x_i, \mu_F)$ and $f_2(x_j, \mu_F)$ of the initial particles (protons in this case) with the cross-section of the hard interaction process, $\hat{\sigma}_{i,j \to t\bar{t}}$, for all parton species $i,j$. We can also calculate the cross-section of top quark pairs with an associated particle, as measured in this analysis, as shown in Equation \ref{eqn-ttbarplusXcross-sect} below.
+
+\begin{equation} \label{eqn-ttbarplusXcross-sect}
 \sigma_{pp \to t\bar{t}+X} = \sum_{i,j} \int^1_0 dx_1 \int^1_0 dx_2 f_1(x_i, \mu_F)f_2(x_j, \mu_F)\hat{\sigma}_{i,j \to t\bar{t}}(\hat{s})
 \end{equation}
+
+\begin{figure} \label{fig-ttbarCombinedXsect}
+\begin{center}
+\includegraphics[width=0.8\textwidth]{Figures/ttbarCombinedXsect.pdf}
+\end{center}
+\caption{Summary of measurements of the top-pair production cross-section at 8 TeV compared to the exact NNLO QCD calculation complemented with NNLL re-summation (top++2.0). The theory band represents uncertainties due to renormalisation and factorisation scale, parton density functions and the strong coupling. The measurements and the theory calculation are quoted at $m_{top}=172.5$ GeV. \cite{ttbarXsectCombination}}
+\end{figure}
+
+The production cross-section of top quark pair events has been measured by both the ATLAS and CMS experiments to be  \cite{} and \cite{}. The LHC $t\bar{t}$ cross-section can been in Figure \ref{fig-ttbarCombinedXsect}. We can see the value of the $t\bar{t}$ and single top production cross-sections for different centre-of-mass energies, as measured by the LHC and the Tevatron, in Table \ref{tab-ttbarcrosssections}. 
+
+\begin{table} \label{tab-ttbarcrosssections}
+\begin{center}
+\begin{tabular}{lccccc}
+\hline
+\hline
+& \textbf{$\sqrt{s}$} & \textbf{s-channel} & \textbf{t-channel} & \textbf{tW-channel} & \textbf{$t\bar{t}$} \\
+\hline
+Tevatron & 1.9 &  & & & \\
+LHC & 7 & 172.0 &  & & \\ 
+ & 8 & 245.8 & & &\\
+ & 14 & 953.6 & & & \\
+\hline
+\hline
+\end{tabular}
+\caption{\cite{Czakon:2013goa}}
+\end{center}
+\end{table}
+
+\begin{figure} \label{fig-ttbarProductionLHC}
+\begin{center}
+\includegraphics[width=0.9\textwidth]{Figures/ttbarProductionLHC.png}
+\caption{Lowest level diagrams for $t\bar{t}$ production at the LHC. Gluon scattering processes, {(a)}, {(b)}, and {(c)}, are the dominant processes at LHC energies, while quark scattering, process {(d)}, is the dominant one at TeVatron energies. \cite{SergeyThesis}}
+\end{center}
+\end{figure}
+
+\begin{figure} \label{fig-singletopProductionLHC}
+\begin{center}
+\includegraphics[width=\textwidth]{Figures/singletopProductionLHC.png}
+\caption{Leading-order level diagrams for single top production at the LHC. {(a)} s-channel, {(b)} and {(c)} represent the t-channel, {(d)} and {(e)} both represent the two tW channels. \cite{SergeyThesis}}
+\end{center}
+\end{figure}
+
+\subsection{Top quark decay modes} \label{subsec-TopDecayModes}
+
+We observe that the top quark decays to a W boson and a bottom quark ($t \to Wb$) almost 100\% of the time, as other decay modes to lighter quarks $t \to Wq$ (q=d,s) are highly Cabibbo suppressed by the Standard Model. This can be seen by examining the matrix elements of the CKM matrix for top decays, such that the value of $|V_{tb}|$ gives
+
+\begin{equation}
+|V_{tb}| = 0.999146^{+0.000021}_{-0.000046}
+\end{equation}
+
+from the unitarity requirement of the CKM matrix \cite{PhysRevD.86.010001}. The value of $|V_{tb}|$ can be measured by calculating the productino cross-section of single top production, and the latest measurement is given to be \cite{Khachatryan:2014iya}:
+
+\begin{equation}
+|V_{tb}| = 0.998 \pm 0.038 (experimental) \pm 0.016 (theoretical)
+\end{equation}
+
+which lies in accordance with the unitarity condition imposed on the CKM matrix. 
+
+Providing that the top decays to a W boson and b quark 100\% of the time, we then categorise into three distinct decay modes: fully leptonic, semi-leptonic, and fully hadronic. 
+
+\begin{description}
+	\item[Fully leptonic]
+	\item[Semi-leptonic]
+	\item[Fully hadronic]
+\end{description}
+
+In this analysis we only consider the fully leptonic (or di-leptonic or dilepton) channel with the exclusion of $\tau$ leptons in the final state. This channel has the quality that it provides a very clean signature in the detector, at least for a final state containing muons. 
+
+\begin{figure} \label{fig-ttbarDecay}
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Figures/ttbarDecayFractions.png}
+\caption{Branching fractions of the W decays within top quark pairs. \cite{ttbarDecayFractions}}
+\end{center}
+\end{figure}
 
 \subsection{Top quark anomalous couplings}
 
@@ -513,6 +597,8 @@ Among the operators defined in the effective Lagrangian \cite{Buchmuller:1985jz}
 
 for different flavours represented by the indices $i,j = 1,2,3$. $\bar{q}_{Li}$, $u_{Ri}$, and $d_{Ri}$ represent the quark fields as shown in Section \ref{subsec-ElectroweakTheory}. The operators where we have $i = j = 3$ contribute to the electroweak coupling processes $Wtb$, $Zt\bar{t}$, and $\gammat\bar{t}$. 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \subsection{The top-photon vertex}
 
 \begin{figure} \label{fig-TopPhotonVertex}
@@ -539,7 +625,14 @@ where $\delta d^{\gamma}_V$ and $\delta d^{\gamma}_A$ only receive non-zero cont
 
 The magnetic dipole moment of the top quark is studied by measurements of spin correlation, whereas the electric dipole moment can be investigated through the $t\gamma$ vertex. Deviations from SM contributions are expected to manifest in the photon energy spectrum and angular photon distributions.
 
-Measuring $t\bar{t}+\gamma$ provides a direct test of the electromagnet coupling of the top quark in a way that is complementary to analyses that include an ``exotic" top quark with a charge of -4/3e \cite{top-charge}. One issue when investigating the $t\bar{t}+\gamma$ process is the large irreducible background of photons that are radiated by charged particles other than the top quark. It has also been proved that the interference of photon production from initial state radiation (ISR) and final state radiation (FSR) can not be deemed negligible \cite{topchargemeasurement}. This is also discussed with respect to Monte Carlo signal generation in Section \ref{sec-mcsim}. Thus only inclusive observables of $t\bar{t}+\gamma$ can be probed, as we are unable to trace the photon back to its parent particle. We will also treat on- and off-shell radiation collectively. We will discuss prompt photon backgrounds in Section \ref{chap-EventSelection}. 
+Measuring $t\bar{t}+\gamma$ provides a direct test of the electromagnet coupling of the top quark in a way that is complementary to analyses that include an ``exotic" top quark with a charge of -4/3e \cite{top-charge}. A sketch of the potential photon E$_T$ in relation to having extra couplings, or having a charge of $-4/3e$ can be seen in Figure \ref{fig-TopChargeSketch}. One issue when investigating the $t\bar{t}+\gamma$ process is the large irreducible background of photons that are radiated by charged particles other than the top quark. It has also been proved that the interference of photon production from initial state radiation (ISR) and final state radiation (FSR) can not be deemed negligible \cite{topchargemeasurement}. This is also discussed with respect to Monte Carlo signal generation in Section \ref{sec-mcsim}. Thus only inclusive observables of $t\bar{t}+\gamma$ can be probed, as we are unable to trace the photon back to its parent particle. We will also treat on- and off-shell radiation collectively. We will discuss prompt photon backgrounds in Section \ref{chap-EventSelection}. 
+
+\begin{figure} \label{fig-TopChargeSketch}
+\begin{center}
+\includegraphics[width=0.6\textwidth]{Figures/TopChargeHeiner.png}
+\caption{Sketch of expected photon energy spectra. The reference line is Standard Model ($q_{top} = +2/3$). A deviation of the top electrical charge yields a differently normalized photon rate ($q_{top} = −4/3$). Extra couplings, e.g. a large electrical dipole moment manifests in different kinematic shapes (dashed line). \cite{heinerthesis}}
+\end{center}
+\end{figure}
 
 \subsection{Previous measurements}
 
@@ -553,45 +646,6 @@ Other top quark couplings have been measured at the Tevatron and the LHC, also. 
 
 It is important to note that a measurements of $t\bar{t}+\gamma$ are extremely challenging at the LHC with the current centre-of-mass energy and luminosity. This is due to the limited four-momentum resolution of partons, pile-up, and large background from QCD multi-jet events. It has been estimated that a 10\% resolution of the top quark's charge will be available at $\sqrt{s} = 14$ TeV with 10 fb$^{-1}$ \cite{topchargemeasurement}. As teh energy is increased at the LHC the gluon fusion process becomes more dominant and thus fewer photons can be emitted in the form of initial state radiation. A high energy $e^+e^-$ collider would be preferable for this study as it would be a much cleaner working environment, such that we could obtain a 5--10\% precision on axial form factor $d&{\gamma}_A$ can be achieved with 10 fb$^{-1}$ at $\sqrt{s} = 500$ GeV \cite{linearcollider}.
 
-
-\begin{table} \label{tab-}
-\begin{center}
-\begin{tabular}{lccc}
-\hline
-\hline
-\textbf{$\sqrt{s}$} & \textbf{$\sigma_{tot.}$} & \textbf{scales [pb]} & \textbf{pdf [pb]} \\
-\hline
-Tevatron 1.9 TeV & 7.164 & & \\
-LHC TeV & 172.0 & $^4.4_5.8$ &  \\ 
-LHC 8 TeV & 245.8 & & \\
-LHC 14 TeV & 953.6 & & \\
-\hline
-\hline
-\end{tabular}
-\caption{\cite{Czakon:2013goa}}
-\end{center}
-\end{table}
-
-\begin{figure} \label{fig-ttbarProductionLHC}
-\begin{center}
-\includegraphics[width=\textwidth]{Figures/ttbarProductionLHC.png}
-\caption{Lowest level diagrams for $t\bar{t}$ production at the LHC. Gluon scattering processes, {(a)}, {(b)}, and {(c)}, are the dominant processes at LHC energies, while quark scattering, process {(d)}, is the dominant one at TeVatron energies. \cite{SergeyThesis}}
-\end{center}
-\end{figure}
-
-\begin{figure} \label{fig-singletopProductionLHC}
-\begin{center}
-\includegraphics[width=\textwidth]{Figures/singletopProductionLHC.png}
-\caption{Leading-order level diagrams for single top production at the LHC. {(a)} s-channel, {(b)} and {(c)} represent the t-channel, {(d)} and {(e)} both represent the two tW channels. \cite{SergeyThesis}}
-\end{center}
-\end{figure}
-
-\begin{figure}
-\begin{center}
-\includegraphics[width=0.5\textwidth]{Figures/ttbarDecayFractions.png}
-\caption{Branching fractions of the W decays within top quark pairs. \cite{ttbarDecayFractions}}
-\end{center}
-\end{figure}
 
 \begin{figure} \label{fig-ttgammaFeynmanDiagram}
 \begin{center}

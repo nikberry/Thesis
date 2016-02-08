@@ -40,11 +40,6 @@ I was expecting a `,' or a `}'---line 2216 of file PhDThesis.bib
  :      eprint         = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 2696 of file PhDThesis.bib
- : 
- : @article{Quadt:2007jk,
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "MishaSignalDefinition"
 Warning--I didn't find a database entry for "AN-12-485"
 Warning--I didn't find a database entry for "tangandprobe"
@@ -100,45 +95,45 @@ Warning--empty author in CMS:2011esa
 Warning--empty journal in CMS:2011esa
 Warning--empty author in BTAGPAS
 Warning--empty journal in BTAGPAS
-You've used 144 entries,
+You've used 148 entries,
             1791 wiz_defined-function locations,
-            1249 strings with 24185 characters,
-and the built_in function-call counts, 27908 in all, are:
-= -- 2531
-> -- 899
-< -- 14
-+ -- 380
-- -- 236
-* -- 1698
-:= -- 4506
-add.period$ -- 427
-call.type$ -- 144
-change.case$ -- 143
+            1270 strings with 24798 characters,
+and the built_in function-call counts, 28758 in all, are:
+= -- 2610
+> -- 919
+< -- 15
++ -- 389
+- -- 241
+* -- 1739
+:= -- 4635
+add.period$ -- 440
+call.type$ -- 148
+change.case$ -- 147
 chr.to.int$ -- 0
-cite$ -- 178
-duplicate$ -- 1344
-empty$ -- 2866
-format.name$ -- 236
-if$ -- 6206
+cite$ -- 182
+duplicate$ -- 1391
+empty$ -- 2959
+format.name$ -- 241
+if$ -- 6406
 int.to.chr$ -- 0
-int.to.str$ -- 144
-missing$ -- 137
-newline$ -- 717
-num.names$ -- 133
-pop$ -- 287
+int.to.str$ -- 148
+missing$ -- 141
+newline$ -- 738
+num.names$ -- 137
+pop$ -- 297
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 614
+skip$ -- 640
 stack$ -- 0
-substring$ -- 1877
-swap$ -- 238
-text.length$ -- 14
+substring$ -- 1932
+swap$ -- 252
+text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 34
-while$ -- 235
-width$ -- 147
-write$ -- 1522
-(There were 19 error messages)
+while$ -- 243
+width$ -- 151
+write$ -- 1567
+(There were 18 error messages)

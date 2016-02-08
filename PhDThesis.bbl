@@ -5,6 +5,11 @@ C.~Caso et~al. (Particle Data~Group).
 \newblock Review of particle physics.
 \newblock {\em Eur.Phys.J}, C3, 1998.
 
+\bibitem{ttbarXsectCombination}
+CMS Collaboration.
+\newblock Lhctopwg summary plots.
+\newblock {\em CMS TWiki}, Nov 2015.
+
 \bibitem{SergeyThesis}
 Sergey Senkin.
 \newblock Top quark physics at the lhc with the cms detector.
@@ -14,6 +19,13 @@ Sergey Senkin.
 Thomas Mueller.
 \newblock New results from the top quark.
 \newblock 2012.
+
+\bibitem{heinerthesis}
+H.~J.~A. Tholen and A.~Stah.
+\newblock Study of the inclusive $t\bar{t}+\gamma$ cross-section with the cms
+  experiment.
+\newblock {\em https://cds.cern.ch/record/1505276}, pages no.
+  CERN--THESIS--2012--222, 2012.
 
 \bibitem{LHClumi}
 Alemany-Fernandez et~al.
@@ -57,13 +69,6 @@ Stefan Höche.
 Andrea Giammanco.
 \newblock The fast simulation of the cms experiment.
 \newblock {\em Journal of Physics: Conference Series}, 513(2):022012, 2014.
-
-\bibitem{heinerthesis}
-H.~J.~A. Tholen and A.~Stah.
-\newblock Study of the inclusive $t\bar{t}+\gamma$ cross-section with the cms
-  experiment.
-\newblock {\em https://cds.cern.ch/record/1505276}, pages no.
-  CERN--THESIS--2012--222, 2012.
 
 \bibitem{ttgammasimulation}
 Mikhail Makouski Nik Berry Till Arndt Heiner~Tholen Heiko~Geenen,
@@ -292,6 +297,26 @@ K~Nakamura and Particle~Data Group.
 \newblock Review of particle physics.
 \newblock {\em Journal of Physics G: Nuclear and Particle Physics},
   37(7A):075021, 2010.
+
+\bibitem{Kidonakis:2012db}
+Nikolaos Kidonakis.
+\newblock {Differential and total cross sections for top pair and single top
+  production}.
+\newblock In {\em {Proceedings, 20th International Workshop on Deep-Inelastic
+  Scattering and Related Subjects (DIS 2012)}}, pages 831--834, 2012.
+\newblock [,831(2012)].
+
+\bibitem{PhysRevD.86.010001}
+J.~et~al. Beringer.
+\newblock Review of particle physics*.
+\newblock {\em Phys. Rev. D}, 86:010001, Jul 2012.
+
+\bibitem{Khachatryan:2014iya}
+Vardan Khachatryan et~al.
+\newblock {Measurement of the t-channel single-top-quark production cross
+  section and of the $\mid V_{tb} \mid$ CKM matrix element in pp collisions at
+  $\sqrt{s}$= 8 TeV}.
+\newblock {\em JHEP}, 06:090, 2014.
 
 \bibitem{anom-coups}
 J.~Aguilar-Saavedra.
