@@ -2,15 +2,16 @@
 
 Monte Carlo (MC) simulations are an essential part of current particle physics analyses and are used to mimic physical processes that correspond to those which are observed within the LHC, and other such experiments. Analysts compare findings in data to simulation in order to extract signal processes, and also to perform statistical analysis on results obtained. It is of the utmost importance that the simulated events must be as accurate as physically possible in order to mimic real life processes and perform a scientifically accurate analysis. Will talk about methods for generating events, including the different MC generators and tunes used in the evaluation of theoretical uncertainties, and interpretation in terms of the CMS detector in the first section of this chapter.
 
-Roughly speaking, we can divide the different steps of event reconstruction into three separate processes. The first of which records basic information, such as hits within the pixel detectors of the inner tracking system, and calorimeter energy clusters, for `low level' objects in each sub-detector. The information is then passed to the PF algorithm which uses information from all the sub-detectors in order to reconstruct events much more accurately. Finally, the events are refined by other complex statistic and mathematical techniques and used to reconstruct higher level objects, such as jets and MET. The second part of chapter will focus on the PF process \cite{CMS-PAS-PFT-09-001, CMS-PAS-PFT-10-001} as mentioned above.
+Roughly speaking, we can divide the different steps of event reconstruction into three separate processes. The first of which records basic information, such as hits within the pixel detectors of the inner tracking system, and calorimeter energy clusters, for `low level' objects in each sub-detector. The information is then passed to the PF algorithm (Section \ref{subsec-PFAlgorithm}) which uses information from all the sub-detectors in order to reconstruct events much more accurately. Finally, the events are refined by other complex statistic and mathematical techniques and used to reconstruct higher level objects, such as jets and MET. The second part of chapter will focus on the PF process \cite{CMS-PAS-PFT-09-001, CMS-PAS-PFT-10-001} as mentioned above.
 
 \section{Event Reconstruction} \label{sec-EventReconstruction}
 
-\begin{figure} [p!] \label{fig-HadronCollisionProcess}
+\begin{figure} [p!] 
 \begin{center}
 \includegraphics[scale=0.55]{Figures/HadronCollisionProcess.png}
-\caption{Schematic overview of a hadron collision process \cite{HadronCollisionProcess}.}
 \end{center}
+\caption{Graphic visualisation of a hadron collision process where two partons come in from the right and the left, represented by the directional arrows. Two gluons (purple) form the hard scattering interaction (red circle). This section of the process depicts the matrix element calculation. In the hard scattering interaction prompt decays and parton showers then take place as represented by the smaller red circles. Finally, the hadronisation process begins (green circles). We also observe collinear gluon emissions as well as underlying event particles stemming from a softer collision with other partons in the hadrons. This is represented by the purple circle. \cite{HadronCollisionProcess}.}
+\label{fig-HadronCollisionProcess}
 \end{figure}
 
 \section{Computing}
@@ -22,25 +23,25 @@ Physically, an event is the result of the hard scattering process created when t
 \begin{description}
 	\item[RAW] file formats contain very primal information about the data, including the L1 and HLT decisions. At this stage events have a size of roughly 1.5 MB. 
 	\item[RECO] is the next step in the formatting of data by reconstructing events obtained from the RAW format with pattern recognition and compression algorithms. This includes reconstructed detector hits, calorimeter clusters, and reconstructed physics objects such as electrons, jets etc. The typical event size at this level is around 250 kB.
-	\item[AOD] (Analysis Oriented Data) is created by filtering the RECO data from the reconstructed detector-level objects, where the higher level physics objects are calculated. The size of the events is reduced to $\sim50$ kB.	
+	\item[AOD] (Analysis Oriented Data) is created by filtering (performing quality checks etc) the RECO data from the reconstructed detector-level objects, where the higher level physics objects are calculated. The size of the events is reduced to $\sim50$ kB.	
 \end{description}
 
-Almost all physics analysis groups use the RECO and AOD data formats. All data used in this analysis uses the AOD data format, where event sizes are reduced by filtering the RECO data, as can be seen in Table \ref{tab-MCSamples}. The objects are delivered in the data files as C++ objects, which are then transformed into vectors or plain basic types. By selecting on the physics objects that are central to our analysis, we can further reduce the event size to $\sim$3 kB, thus reducing the run time of an analysis. The processing of RECO and AOD formats for analysis begins with taking the data and using a specifically designed framework to process a set of ``nTuples'' for each physics process, and categorising them into classes, such as objects. The benefit of constructing such ``nTuples'' lies in the reduction of processing time by allowing the analysis to be run locally, rathen than re-processing the full dataset in AOD, RECO, or RAW from each time. 
+Almost all physics analysis groups use the RECO and AOD data formats. All data used in this analysis uses the AOD data format, where event sizes are reduced by filtering the RECO data, as can be seen in Table \ref{tab-MCSamples}. The objects are delivered in the data files as C++ objects, which are then transformed into vectors or plain basic types. By selecting on the physics objects that are central to our analysis, we can further reduce the event size to $\sim$3 kB, which we call the ``skimming", thus reducing the run time of an analysis. The processing of RECO and AOD formats for analysis begins with taking the data and using a specifically designed framework to process a set of ``nTuples'' for each physics process, and categorising them into classes, such as objects. The benefit of constructing such ``nTuples'' lies in the reduction of processing time by allowing the analysis to be run locally, rather than re-processing the full dataset in AOD, RECO, or RAW from each time. 
 
 \subsection{Analysis Software} \label{subsec-AnalysisSoftware}
 
-Analysis is usually performed within a computing environment specific to an experiment. CMS provides an extensive software framework, CMSSW \cite{CMSSW}, that provides users with a large range of algorithms to create, handle, and analyse data. $\CMSSW$ is fundamental in regards to MC simulation, detector calibration and alignment, and the for the reconstruction of data and analysis thereof. The framework is a modular structure that combines a single configurable executable (cmsRun) with a number of plugin modules containing event processing algorithms etc. $\CMSSW$ is continuously being updated to keep up-to-date with new analysis techniques and processes. The versions of $\CMSSW$ used in this analysis are listed below:
+Analysis is usually performed within a computing environment specific to an experiment. CMS provides an extensive software framework, CMSSW \cite{CMSSW}, that provides users with a large range of algorithms to create, handle, and analyse data. $\CMSSW$ is fundamental in regards to MC simulation, detector calibration and alignment, and then for the reconstruction of data and analysis thereof. The framework is a modular structure that combines a single configurable executable (cmsRun) with a number of plugin modules containing event processing algorithms. $\CMSSW$ is continuously being updated to keep up-to-date with new analysis techniques and processes. The versions of $\CMSSW$ used in this analysis are listed below:
 
 \begin{itemize}
 	\item CMSSW\_5\_3\_9 for the analysis of $t\bar{t}+\gamma$.
 	\item CMSSW\_5\_2\_10\_nTuple for the ntuple processing for the $t\bar{t}+\gamma$ analysis.
 \end{itemize} 
 
-The framework used is modular similar to $\CMSSW$. The code is split into different modules designed to model the data at various stages of processing. We essentially design four modules to carry out the reading in of the data, transferring it into a readable C++ format, selecting and implementing cuts on our events, and outputting the information in the form of a histogram in order to statistically analyse the data, as described below. 
+The framework used is of a modular design, similar to $\CMSSW$. The code is split into different modules designed to model the data at various stages of processing. We essentially design four modules to carry out the reading-in of the data, transferring it into a readable C++ format, selecting and implementing cuts on our events, and outputting the information in the form of a histogram in order to statistically analyse the data, as described below. 
 
 \begin{itemize}
 	\item Reader files that translate plain data types stored in ROOT files into C++ objects. 
-	\item Reconstruction objects process the output of the readers in the format of real objects, such as leptons and quarks.
+	\item Reconstruction objects process the output of the readers in the form of real objects, such as leptons and quarks.
 	\item Selections are written for each decay channel in an analysis to select on objects that exist in the final state of an event.
 	\item Analysers are used to create histograms of different variables at various stages of selection, implement scale factors, and add weights to samples. 
 \end{itemize}
@@ -50,11 +51,12 @@ The framework used is modular similar to $\CMSSW$. The code is split into differ
 The simulation of the CMS detector is an incredibly complex task and very time consuming to run such a simulation. In order to perform such a procedure $\GEANTfour$ \cite{GEANT4} is used to simulate the geometry of the whole detector, divided into sub-detectors, and track the particles as they pass through the different materials. Implemented within the $\CMSSW$ framework are two packages that perform detector simulation, Full Simulation (FullSim) \cite{FullSim} and Fast Simulation (FastSim, previously named FAMOS) \cite{1742-6596-513-2-022012}.  
 In the FastSim package physical processes are described in detail, such as the electromagnetic and hadronic interactions, energy deposits, and electronic detector responses. The FastSim package is designed with a much lower level of detail incorporated and reduces the computational time by 3 orders of magnitude. This allows analysts to carry out custom MC productions within a reasonable time. A comparison between the two packages is shown in Figure \ref{fig-FullSim}. 
 
-\begin{figure} \label{fig-FullSim}
+\begin{figure} 
 \begin{center}
 \includegraphics[width=\textwidth]{Figures/FullSim.png}
-\caption{A radiography of a quarter of the simulated tracker geometry in the (a) fast and (b) full simulation \cite{1742-6596-513-2-022012}.}
 \end{center}
+\caption{A radiography of a quarter of the simulated tracker geometry in the (a) fast and (b) full simulation \cite{1742-6596-513-2-022012}. The data points are from the vertices of converted photons, whereby we have a much larger of simulated events in the fastsim.}
+\label{fig-FullSim}
 \end{figure}
 
 \section{Monte Carlo Simulation}
@@ -67,9 +69,9 @@ In the analysis presented in this thesis each physical process was simulated by 
 
 \begin{description}
 
-	\item[\WHIZARD] \cite{WHIZARD} is a LO event generator designed to calculate multi-particle scattering cross-sections efficiently and simulated event samples. Tree-level matrix elements are automatically generated for arbitrary partonic processes, in particular the MSSM is supported including an interface to the SUSY Les Houches Accord input format. It is also possible to interface matrix elements from alternative processes, such as loop corrections. $\WHIZARD$ uses a multi-channel method for phase space integration and is able to calculate numerically stable signal and background cross-sections and also generate unweighted event samples with a reasonable efficiency for final state events containing up to 6 or more particles. The polarisation of initial and final states is treated in the same manner, and quark and lepton flavours are automatically summed over where needed. For hadron collider physics studies, the standard LHAPDF library is incorporated. For fragmentation and hadronisation of the final states, $\PYTHIA$ and $\HERWIG$ interfaces are provided, both of which follow the Les Houches Accord.
+	\item[\WHIZARD] \cite{WHIZARD} is a LO event generator designed to calculate multi-particle scattering cross-sections efficiently and simulated event samples. Tree-level matrix elements are automatically generated for arbitrary partonic processes, in particular the MSSM is supported including an interface to the SUSY Les Houches Accord (LHA) input format. It is also possible to interface matrix elements from alternative processes, such as loop corrections. WHIZARD uses a multi-channel method for phase space integration, meaning that it involves simultaneous use of multiple phase space parametrisations corresponding to dominant Feynman diagrams, and is able to calculate numerically stable signal and background cross-sections and also generate unweighted event samples with a reasonable efficiency for final state events containing up to 6 or more particles, meaning that it generates uniformly distributed events each contributing the same event weight to the sample. The polarisation of initial and final states is treated in the same manner, and quark and lepton flavours are automatically summed over where needed. For hadron collider physics studies, the standard LHAPDF library is incorporated. For fragmentation and hadronisation of the final states, $\PYTHIA$ and $\HERWIG$ interfaces are provided, both of which follow the Les Houches Accord. 
 
-	\item[\MADGRAPH] \cite{MADGRAPH5} is a leading order multi-purpose matrix-element MC generator. Similar to the $\WHIZARD$ generator, $\MADGRAPH$ automatically generates matrix elements for scattering processes with up to 6 and above final state particles. The matching of matrix elements to parton showers is performed following the MLM prescription \cite{Hoche:2006ph} only if a parton-jet pair satisfies a predefined $\Delta R$ requirement, and if none, or more than one jets, are found then the event is rejected. There is also a certain p$_T$ threshold for partons that they must pass in order to be considered for matching.
+	\item[\MADGRAPH] \cite{MADGRAPH5} is a leading order multi-purpose matrix-element MC generator. Similar to the WHIZARD generator, $\MADGRAPH$ automatically generates matrix elements for scattering processes with up to 6 and above final state particles. The matching of matrix elements to parton showers is performed following the MLM prescription \cite{Hoche:2006ph} only if a parton-jet pair satisfies a predefined $\Delta R$ requirement, and if none, or more than one jets, are found then the event is rejected. There is also a certain p$_T$ threshold for partons that they must pass in order to be considered for matching.
 
 	\item[\PYTHIA] \cite{1126-6708-2006-05-026} is a widely used tool in the particle physics community. It is used for the generation of events within high-energy collisions, and it does so by utilising a complex set of physics models to process the evolution of a 2-body (or more) scattering to a complex multi-particle final state. The generator contains a library of hard processes, models for parton showers for initial and final states, matching among hard processes and parton showers, multi-parton interactions, beam remnants, string fragmentation and particle decays.  
 
@@ -86,7 +88,7 @@ As previously mentioned, different MC samples are simulated using different even
 
 Similarly, both Drell-Yan samples, W+Jets, $W+\gamma$, $Z+\gamma$, and diboson background samples are also simulated in the same fashion as the TTJets samples. Single top events are simulated in a slightly different fashion, whereby they are generated by the $\POWHEG$ generator, also described in Section \ref{subsec-MCEventGenerators}. Again, the events are then passed to $\PYTHIA$6 to model parton showering and hadronisation. Single top samples are also split into different decay modes: tW, s-channel, t-channel. Top quarks and anti-top quark processes are treated separately and simulated in different samples.
 
-\begin{sidewaystable} \label{tab-MCSamples}
+\begin{sidewaystable} 
 \begin{center}
 \resizebox{\textwidth}{!}{
 
@@ -124,8 +126,9 @@ Similarly, both Drell-Yan samples, W+Jets, $W+\gamma$, $Z+\gamma$, and diboson b
 \hline	
 \end{tabular}
 }
-\caption{Dataset information for signal and background MC samples.}
 \end{center}
+\caption{Dataset information for signal and background MC samples.}
+\label{tab-MCSamples}
 \end{sidewaystable}
 
 
@@ -133,7 +136,7 @@ Similarly, both Drell-Yan samples, W+Jets, $W+\gamma$, $Z+\gamma$, and diboson b
 
 Three different techniques were used to define the $t\bar{t}+\gamma$ signal process. The concepts are illustrated in Figure \ref{fig-MatrixElementCalculation} and shows the final state of the process using each technique \cite{heinerthesis}. The parton distribution function CTEQ6L1 \cite{Pumplin:2002vw} is interfaced to $\WHIZARD$ via LHAPDF \cite{Whalley:2005nh}. The process utilises variable renormalisation and factorisation scales. This is such that, event by event, the two are set to $172.5 \GeV$ (m$_t$) plus the E$_T$ of the generated photon. Upon varying the scale of each, we arrive at a systematic uncertainty of $^{+7.0}_{-8.3}\%$, as shown in Chapter \ref{chap-SystematicUncertainties}. Initial and final state radiation is taken into account, as well as hadronisation, and is simulated using \PYTHIA6 \cite{Sjostrand:2006za}, $\TAUOLA$ and $\PHOTOS$ \cite{Was:2006my} as preconfigured in CMSSW. We use the same configuration as for the top-pair sample.
 
-Restrictions on the final state particles have been set, named generation cuts, such that a proper integral is retained when calculating matrix elements. As a method to cope with infra-red divergences, a minimum energy or momentum is required. We treat collinear divergences by introducing a minimum distance in the $\eta - \phi$ plane. These cuts likely will not affect the measurement due to the cuts within selection being tighter than generator levels cuts. The different generation cuts are described in brief below:
+Restrictions on the final state particles have been set, named generation cuts, such that a proper integral is retained when calculating matrix elements. As a method to cope with infra-red divergences, soft gluon emissions, a minimum energy or momentum is required. We treat collinear divergences (collinear parton splitting) by introducing a minimum distance in the $\eta - \phi$ plane. These cuts likely will not affect the measurement due to the cuts within selection being tighter than generator levels cuts. The different generation cuts are described in brief below:
 
 \begin{description}
 \item[2 $\to$ 3] At this level only quantum mechanical interferences from initial state radiation are considered. The CPU time required in for tree level processes is moderate.
@@ -142,27 +145,28 @@ Restrictions on the final state particles have been set, named generation cuts, 
 
 \item[2 $\to$ 7] In this scenario we consider photon radiation and interference from all decay products. CPU time is much more intensive in this case due to the many more Feynman diagrams to be computed.                                                                            
 
-\begin{figure} \label{fig-MatrixElementCalculation}
+\begin{figure} 
 \begin{center}
 \includegraphics[width=\textwidth]{Figures/MatrixElementCalculation.png}
-\caption{Process generation. The red, blue, and green boxes depict the matrix element calculation. Background processes with the same final state are included as well \cite{heinerthesis}.}
 \end{center}
+\caption{Process generation. The red, blue, and green boxes depict the matrix element calculation. Background processes with the same final state are included as well \cite{heinerthesis}.}
+\label{fig-MatrixElementCalculation}
 \end{figure}
                                
 
 \end{description}
 
-Originally, this analysis used the $2 \to 5$ technique with initial generator level cuts of $E_T > 20$ GeV and $\Delta R(\gamma, b/\bar{b}) > 0.1$ using WHIZARD \cite{WHIZARD}, which is a leading order (LO) event generator. The variable factorisation and renormalisation scales are set to $m_{top} + E_T(\gamma)$, and a scale variation uncertainty of 8\% has been applied to the WHIZARD $t\bar{t}+\gamma$ cross-section result, which gives $1.8 \pm 0.5$ pb as the SM expectation for the signal process, where the scale variation uncertainty, and uncertainty on the k-factor are added in quadrature. 
+Originally, this analysis used the $2 \to 5$ technique with initial generator level cuts of $E_T > 20$ GeV and $\Delta R(\gamma, b/\bar{b}) > 0.1$ using WHIZARD \cite{WHIZARD}, which is a leading order (LO) event generator. The variable factorisation and renormalisation scales are set to $m_{top} + E_T(\gamma)$, and a scale variation uncertainty of 8\% has been applied to the WHIZARD $t\bar{t}+\gamma$ cross-section result, which gives $1.8 \pm 0.5$ pb as the SM expectation for the signal process, where the scale variation uncertainty, and uncertainty on the k-factor (the ratio between the NLO and LO cross sections as a function of some observable) are added in quadrature. 
 
 
-\subsection{Official $t\bar{t}+\gamma$ $2 \to 7$ process $\MADGRAPH$ Sample Production}
+\subsection{Official $t\bar{t}+\gamma$ $2 \to 7$ sample production}
 
-The final version of the analysis uses the factorised $2 \to 7$ process for the simulion of the $t\bar{t}+\gamma$ signal sample. Instead of computing one single matrix element for the complete $t\bar{t}+\gamma$ process, we factorise the process into individual processes and calculate the matrix element for each sub-process. The major restriction on the calculation of the matrix element lies in the computational time, such that using a factorised matrix element method vastly reduces the computation time to calculate the matrix element. The matrix element is divided in the following manner:
+The final version of the analysis uses the factorised $2 \to 7$ process for the simulation of the $t\bar{t}+\gamma$ signal sample. Instead of computing one single matrix element for the complete $t\bar{t}+\gamma$ process, we factorise the process into individual processes and calculate the matrix element for each sub-process. The major restriction on the calculation of the matrix element lies in the computational time, such that using a factorised matrix element method vastly reduces the computation time to calculate the matrix element. The matrix element is divided in the following manner:
 
 \begin{align}
-pp \to t\bar{t}+\gamma, \quad t \to bxx, \quad \bar{t} \to \bar{b}xx \\
-pp \to t\bar{t}, \quad t \to bxx\gamma, \quad \bar{t} \to \bar{b}xx \\
-pp \to t\bar{t}, \quad t \to bxx, \quad \bar{t} \to \bar{b}xx\gamma 
+pp \to t\bar{t}+\gamma, \quad t \to bxx', \quad \bar{t} \to \bar{b}xx' \\
+pp \to t\bar{t}, \quad t \to bxx'\gamma, \quad \bar{t} \to \bar{b}xx' \\
+pp \to t\bar{t}, \quad t \to bxx', \quad \bar{t} \to \bar{b}xx'\gamma 
 \end{align}
 
 where $x = u,d,s,c,\bar{u},\bar{d},\bar{s},\bar{c}, e^{\pm}, \mu^{\pm}, \tau^{\pm}, \nu_{e,\mu,\tau}, \bar{\nu}_{e,\mu,\tau}$.
@@ -180,42 +184,45 @@ For both generators, the original $pp \to t\bar{t}+\gamma$ process and the decay
 
 These cuts are required to be softer than the final generator cuts, due to the dilution of kinematics by resolution effects at the value of the cuts. This is such that if the value of cuts used for decays is too close to the final generator cuts, resolution effects may be modelled incorrectly. When calculating the cross-section, WHIZARD does not take the final generator cuts into consideration. They are simply used to select events which are then written to the output file. The cross-section must be re-weighted when taking individual efficiencies into account, leading to the simulation taking more time than it would with the final generator cuts included, where a vast amount of generated events are rejected by the tighter cuts.
 
-It must be noted that for simplicity, in the comparison we only select semi-leptonic events in the muon channel. However, for the full sample we incorporate all decay channels for the $t\bar{t}+\gamma$ $2 \to 7$ process in order to be inclusive as possible since the sample will be an official CMS sample. 
+It must be noted that for simplicity, in the comparison we only select semi-leptonic events in the muon channel. However, for the full sample we incorporate all decay channels for the $2 \to 7$ process in order to be inclusive as possible since the sample will be an official CMS sample. 
 
-\begin{figure} \label{fig-WHIZARDfullvsfactorised}
+\begin{figure} 
 \begin{center}
-\includegraphics[width=0.7\textwidth]{Figures/WHIZARDfullvsfactorisedPT.png} \\
-\includegraphics[width=0.7\textwidth]{Figures/WHIZARDfullvsfactorisedEta.png} \\
-\caption{Comparison between the full and the factorised $2 \to 7$ process using samples generated with WHIZARD. All distributions are normalised to unity. \cite{ttgammasimulation}}
+\includegraphics[width=0.9\textwidth]{Figures/WHIZARDfullvsfactorisedPT.png} \\
+\includegraphics[width=0.9\textwidth]{Figures/WHIZARDfullvsfactorisedEta.png} \\
 \end{center}
+\caption{Comparison between the full and the factorised $2 \to 7$ process using samples generated with WHIZARD. All distributions are normalised to unity. \cite{ttgammasimulation}}
+\label{fig-WHIZARDfullvsfactorised}
 \end{figure}  
 
 We calculate the cross-sections to be 
 
 \begin{equation}
-\WHIZARD : \sigma_{t\bar{t}+\gamma} = 1408, \fb \quad \MADGRAPH : \sigma_{t\bar{t}+\gamma} = 1227.1 \pm 0.4 fb
+\WHIZARD : \sigma_{t\bar{t}+\gamma} = 1408 \xspace \text{fb}, \quad \MADGRAPH : \sigma_{t\bar{t}+\gamma} = 1227.1 \pm 0.4 \xspace \text{fb}
 \end{equation}
 
 for each event generator, respectively. We note that there is no associated error with the WHIZARD cross-section, this is due to the cross-section calculated with this event generator not taking the final cuts on the decay products into account. The final cross-section is calculated from the remaining number of events. Additionally, the branching ratios for the top decays are not included within the cross-section calculation, as additional calculations are required by the user. This is more of a feature in channels where a photon is required. 
 
 The calculation steps, described previously, are estimated individually and the uncertainty on each usually contributes to the overall uncertainty by propagating them onto the final value. However, this is not calculated in this analysis, because the cross-sections are used to compare the event generators. Thus, an exact calculation of the errors is not necessary, and a NLO cross-section is used in the analysis which renders the differences inconsequential. The difference of 12.9\% observed between the two generators is thus within the expected range of deviation. 
 
-A comparison between the two event generators for the factorised $2 \to 7$ process, for three key variables, can be seen in Figure \ref{fig-WHIZARDvsMADGRAPH}. We observe a good agreement between the two event generators except for small discrepancies in the angle between the photon and b quark at low values of $\Delta R (\gamma, b)$. We regard this discrepancy as irrelevant to our analysis due to the manner in which jets and isolation is handled in a proton-proton collider experiment such as CMS. Another explanation could lie within the normalisation process of the WHIZARD sample, and could affect the shapes of the distributions.\ 
+A comparison between the two event generators for the factorised $2 \to 7$ process, for three key variables, can be seen in Figure \ref{fig-WHIZARDvsMADGRAPH}. We observe a good agreement between the two event generators except for small discrepancies in the angle between the photon and b quark at low values of $\Delta R (\gamma, b)$. We regard this discrepancy as irrelevant to our analysis due to the manner in which jets and isolation is handled in a proton-proton collider experiment such as CMS. Another explanation could lie within the normalisation process of the WHIZARD sample, and could affect the shapes of the distributions.
 
-\begin{figure} \label{fig-WHIZARDvsMADGRAPH}
+\begin{figure} 
 \begin{center}
-\includegraphics[width=0.7\textwidth]{Figures/WHIZARDvsMADGRAPHPT.png} \\
-\includegraphics[width=0.7\textwidth]{Figures/WHIZARDvsMADGRAPHEta.png} \\
-\includegraphics[width=0.7\textwidth]{Figures/WHIZARDvsMADGRAPHDR.png} \\
-\caption{Comparison between the $\MADGRAPH$ and WHIZARD generators for the factorized $2 \to 7$ process. All distributions are normalized to unity. \cite{ttgammasimulation}}
+\includegraphics[width=0.8\textwidth]{Figures/WHIZARDvsMADGRAPHPT.png} \\
+\includegraphics[width=0.8\textwidth]{Figures/WHIZARDvsMADGRAPHEta.png} \\
+\includegraphics[width=0.8\textwidth]{Figures/WHIZARDvsMADGRAPHDR.png} \\
 \end{center}
+\caption{Comparison between the $\MADGRAPH$ and WHIZARD generators for the factorized $2 \to 7$ process. All distributions are normalized to unity. \cite{ttgammasimulation}}
+\label{fig-WHIZARDvsMADGRAPH}
 \end{figure}  
 
+The cuts used in the generation of the \MADGRAPH MC sample are as shown below.
 
 \begin{itemize}
 	\item $p_T (\gamma) > 13 \GeV$
 	\item $|\eta(\gamma)| < 3.0$
-	\item $\Delta R (\gamma, all) > 0.3$, where `all' refers to any other generator level particle
+	\item $\Delta R (\gamma, all) > 0.3$, where ``all" refers to any other generator level particle
 	\item $p_T (jet) > 15 \GeV$
 	\item $p_T (b) > 20 \GeV$
 	\item $|\eta (b)| < 5.0$
@@ -240,23 +247,43 @@ Around two thirds of the particles than constitute a jet are charged particles, 
 One of the key parameters in object reconstruction is the track efficiency, the number of real tracks found over the number that incorrectly reconstructed or originate from a different source (`fake tracks'). Therefore, a high tracking efficiency is required in order to use the PF algorithm to it's full potential, and thus an iterative algorithm for tracking was designed \cite{1748-0221-9-10-P10009}. The tracking algorithm can be broken down into roughly 5 processes, which are described below:
 
 \begin{description}
-	\item[Local Reconstruction] records signals in the silicon strips and pixels, converts them into `digis' and then groups them into clusters. Both the position and uncertainty associated with an individual digi is calculated during this stage of reconstruction.
-	\item[Track Seeding] defines seeds, the basis of full particle reconstruction, by combining into `pairs' and `triplets' hits from the pixel detector of the inner tracker.
-	\item[Pattern Recognition] combines hits from the tracker and combines them in order to reconstruct potential particle trajectories, by starting at the centre of the tracker system and working outwards through each layer. The tracks are then filtered using a Combined Kalman Filter \cite{Billoir1989390}, which is a combinatorial variation on a Global Kalman Filter. All hits are taken into account from a single layer of the tracker and used as input information for a `proto-track', which is then used to calculate an estimate of the position and the uncertainty of the position in the next layer of the tracker. It is important that we must also take into account the energy loss as the particle traverses each layer of the detector. If we find several hits that are considered as signal, then we define multiple tracks. We must also include the case where a particle is highly energetic, such that it only leaves deposits within some of the tracker layers and not all.
-	\item[Fitting] The Kalman filter then fits each of the reconstructed hits twice from the different layers defined in the pattern recognition process. The first fitting process is performed using hits from central layers outwards, whereas the second fitting uses hits from the outer layers inwards. The two fits are complimentary to one another and remove any bias obtained during the track clustering stage.
-	\item[Quality Checking] removes tracks that are categorised as low quality, such that reconstructed hits have low hit multiplicity and a high $\chi^2$. Low quality tracks arise from aspects such as inconsistencies and misreconstructed hits in the track finding process; a single seed in the tracker layer can rise to multiple tracks, as well as multiple seeds originating from the same track, can be removed by performing the quality check of tracks. 
+	\item[Local Reconstruction] records signals in the silicon strips and pixels, converts them into `digis' and then groups them into 
+	clusters. Both the position and uncertainty associated with an individual digi is calculated during this stage of reconstruction.
+	\item[Track Seeding] defines seeds, the basis of full particle reconstruction, by combining into `pairs' and `triplets' hits from the pixel 
+	detector of the inner tracker.
+	\item[Pattern Recognition] combines hits from the tracker and combines them in order to reconstruct potential particle trajectories, by 
+	starting at the centre of the tracker system and working outwards through each layer. The tracks are then filtered using a Combined Kalman 
+	Filter \cite{Billoir1989390}, which is a combinatorial variation on a Global Kalman Filter. All hits are taken into account from a single 
+	layer of the tracker and used as input information for a `proto-track', which is then used to calculate an estimate of the position and the 
+	uncertainty of the position in the next layer of the tracker. It is important that we must also take into account the energy loss as the 
+	particle traverses each layer of the detector. If we find several hits that are considered as signal, then we define multiple tracks. We 
+	must also include the case where a particle is highly energetic, such that it only leaves deposits within some of the tracker layers and 
+	not all.
+	\item[Fitting] The Kalman filter then fits each of the reconstructed hits twice from the different layers defined in the pattern 
+	recognition process. The first fitting process is performed using hits from central layers outwards, whereas the second fitting uses hits 
+	from the outer layers inwards. The two fits are complimentary to one another and remove any bias obtained during the track clustering stage.
+	\item[Quality Checking] removes tracks that are categorised as low quality, such that reconstructed hits have low hit multiplicity and a 
+	high $\chi^2$. Low quality tracks arise from aspects such as inconsistencies and misreconstructed hits in the track finding process; a 
+	single seed in the tracker layer can rise to multiple tracks, as well as multiple seeds originating from the same track, can be removed by 
+	performing the quality check of tracks. 
 \end{description}
  
-The algorithm iterates over the process 6 times in order to filter out as many fakes/misreconstructed tracks as possible. For each iteration in the algorithm, cuts are loosened, such as the $p_T$, such that the tracking efficiency ($\epsilon$) is increased while minimising the number of fakes. At the end of each iteration, after passing the track quality testing, high quality tracks are removed and the iterative process restarts. For the first four iterations only the seeds from the pixel detector are incorporated into the algorithm, where the last two use information of hits from the silicon strip detector. By performing track reconstruction in this manner we include tracks that decay outside the pixel volume, such as long-lived particles, such as heavy flavour hadrons and $\tau$ leptons, and photon conversions. At the end of the process, we are able to reconstruct tracks for particles with at least 3 hits in the tracking system with a $p_T$ as low as 150 GeV, a primary vertex originating at least 50 cm from the beam axis, and all with a fake-rate of approximately $1\%$ \cite{1748-0221-9-10-P10009}.
-
+The algorithm iterates over the process 6 times in order to filter out as many fakes/misreconstructed tracks as possible. For each iteration in 
+the algorithm, cuts are loosened, such as the $p_T$, so that the tracking efficiency ($\epsilon$) is increased while minimising the number of 
+fakes. At the end of each iteration, after passing the track quality testing, high quality tracks are removed and the iterative process 
+restarts. For the first four iterations only the seeds from the pixel detector are incorporated into the algorithm, where the last two use 
+information of hits from the silicon strip detector. By performing track reconstruction in this manner we include tracks that decay outside the 
+pixel volume, such as long-lived particles, heavy flavour hadrons and $\tau$ leptons, and photon conversions. At the end of the 
+process, we are able to reconstruct tracks for particles with at least 3 hits in the tracking system with a $p_T$ as low as 150 GeV, a primary 
+vertex originating at least 50 cm from the beam axis, and all with a fake-rate of approximately $1\%$ \cite{1748-0221-9-10-P10009}. 
 
 \subsection{Primary Vertex Reconstruction} \label{subsec-PrimaryVertexReconstruction}
 
 Our ability to identify and reconstruct vertices of particles in events has a large impact on the reconstruction of whole event topologies and kinematics. If we are to correctly assign tracks to collisions, we must efficiently reconstruct the coordinates of the primary vertex. The same can also be said for secondary vertex reconstruction, used for the identification of heavy-flavour hadrons and $\tau$ leptons, as well as photon conversions. The main challenges encountered in vertex reconstruction stem from multiple overlapping events from a high track density and particle interactions within the tracker volume. 
 
-Once we have reconstructed all charged particle tracks to a sufficient degree of efficiency, we begin use this information to reconstruct the primary vertices for interactions within an event. Similar to the reconstruction of particle tracks, tracks must pass a selection criteria in order to be defined as originating from a primary vertex. A primary vertex must be defined as having a small impact parameter with respect to the beam line, a minimum number of hits in each layer of the pixel and silicon strips, and a small $\chi^2$ significance ($\chi^2/N_{d.o.f}$). For the tracks that meet the imposed requirements, they are then clustered along the z-axis at their point of closest approach to the beam. We then define these as our primary vertex candidates and begin the fitting process.
+Once we have reconstructed all charged particle tracks to a sufficient degree of efficiency, we begin use this information to reconstruct the primary vertices (PV) for interactions within an event. Similar to the reconstruction of particle tracks, tracks must pass a selection criteria in order to be defined as originating from a primary vertex. A primary vertex must be defined as having a small impact parameter with respect to the beam line, a minimum number of hits in each layer of the pixel and silicon strips, and a small $\chi^2$ significance ($\chi^2/N_{d.o.f}$). For the tracks that meet the imposed requirements, they are then clustered along the z-axis at their point of closest approach to the beam. We then define these as our primary vertex candidates and begin the fitting process.
 
-An Adaptive Vertex Fitter (AVF) \cite{1742-6596-110-9-092009} is then implemented and uses a 3D fit to reconstruct the PV candidates, whereby each track is assigned a weight that is a function of its $\chi^2$ contribution to the vertex. After each iteration of the fitting process, the given weights are translated to the new vertex position. 
+An Adaptive Vertex Fitter (AVF) \cite{1742-6596-110-9-092009} is then implemented and uses a 3D fit, reconstructing the tracks using (x,y,z)-values such that the track is three-dimensional, to reconstruct the PV candidates, whereby each track is assigned a weight that is a function of its $\chi^2$ contribution to the vertex. After each iteration of the fitting process, the given weights are translated to the new vertex position. 
 
 In order to discern the primary vertex from the hard-scattering event that we are interested in, vertices are listed in descending order of $p_T$. As we expect events from pile-up to have a lower sum of $p_T$ to the hard process, we take the primary vertex with the highest $p_T$ and assume the rest are from pile-up.  
 
@@ -266,7 +293,7 @@ The granularity of the CMS HCAL is 25 times coarser than ECAL in order to separa
 
 %%%% More 
 
-\subsection{The Particle Flow Algorithm} \label{subsec-PFAlgorithm}
+\subsection{The Particle Flow event reconstruction algorithm} \label{subsec-PFAlgorithm}
 
 The particle flow (PF) algorithm \cite{CMS-PAS-PFT-09-001} uses information from each sub-detector to reconstruct and identify all stable particles produced in proton-proton collisions at the LHC, such as electrons, muons, photons, charged hadrons, and neutral hadrons, and determine their direction, energy, and type. The information is then used in a similar manner to events from MC generators in order to reconstruct higher-order objects, such as jets (from which we infer the directions and energies of the quarks and gluons), missing transverse energy (giving a rough measurement of the direction and energy of invisible particles, such as neutrinos), and tau leptons, and to tag b-jets.  
 
@@ -277,41 +304,36 @@ of a hadron shower in the HCAL, where a distance parameter defines the quality o
 
 Once blocks are processed by the link algorithm, they are then passed to the PF algorithm, where the objects are reconstructed and identified on an event-by-event basis. When an object is fully reconstructed, the tracks and clusters from the block are then removed from the collection and the next object is reconstructed. The first object type to be reconstructed is the muon, due to the efficiency of identifying muons. We measure muons from their associated Global and Tracker tracks, such that if they are within 3 standard deviations from each other we call the object a PF muon. The tracks and clusters associated with the blocks are then removed from the collection. 
 
-Secondly, electrons are identified and reconstructed from the, now much smaller, collection of tracks. The GSF method of associating clusters is used to differentiate between charged hadrons and electrons, and the electromagnetic shower must be thin in $\eta$. Charged pions give rise to a source of fake electrons and are vetoed by other such parameters as the number hits and $\chi^2$. Many other variables are then input into a multivariate analysis tool which then provides a discriminant on whether or not the particle is an electron. If the particle passes the MVA (Table \ref{tab-ElectronMVAVariables}) it is then labelled as a particle flow electron.
+Secondly, electrons are identified and reconstructed from the, now much smaller, collection of tracks. The GSF method of associating clusters (described in Section \ref{subsec-ElectronReconstruction}) is used to differentiate between charged hadrons and electrons, and the electromagnetic shower must be narrow in $\eta$. Charged pions give rise to a source of fake electrons and are vetoed by other such parameters as the number hits and $\chi^2$. Many other variables are then input into a multivariate analysis (MVA) tool which then provides a discriminant on whether or not the particle is an electron. If the particle passes the MVA (Table \ref{tab-ElectronMVAID}) it is then labelled as a particle flow electron.
 
-By process of elimination, all that remains are charged hadron, neutral hadron, and photon candidates. By matching any charged tracks associated to a HCAL cluster, we can define these particles as PF charged hadrons. By implementing a distance parameter we make sure not to double count. We are then able to remove tracks associated with charged hadrons. Any remaining energy deposits in the HCAL is then known to originate from photons or neutral hadrons, differentiating between the two by the shower shape of the candidate. We can thus define PF neutral hadrons and PF photons. 
+By process of elimination, all that remains are charged hadron, neutral hadron, and photon candidates. By matching any charged tracks with an associated HCAL cluster, we can define these particles as PF charged hadrons. By implementing a distance parameter we make sure not to double count. We are then able to remove tracks associated with charged hadrons. Any remaining energy deposits in the HCAL is then known to originate from photons or neutral hadrons, differentiating between the two by the shower shape of the candidate. One can differentiate by using the energy profiles of electromagnetic showers, which are well predicted by Monte Carlo. We can thus define PF neutral hadrons and PF photons. 
 
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.6\textwidth]{Figures/PF.png}
-\caption{The (x, y) view \cite{CMS-PAS-PFT-09-001}.}
 \end{center}
+\caption{The (x, y) view \cite{CMS-PAS-PFT-09-001}.}
 \end{figure}
 
 \begin{figure}
 \begin{center}
-\begin{subfigure}{0.5\textwidth}
-    \centering\includegraphics[width=200pt]{Figures/PFECAL.png}
-    \caption{The ($\eta$, $\phi$) view on ECAL \cite{CMS-PAS-PFT-09-001}. \label{fig:fig1}}
-\end{subfigure}
-\begin{subfigure}{0.5\textwidth}
-    \centering\includegraphics[width=200pt]{Figures/PFHCAL.png}
-    \caption{The ($\eta$, $\phi$) view on HCAL \cite{CMS-PAS-PFT-09-001}. \label{fig:fig2}}
-\end{subfigure}
-\caption{}
+\includegraphics[width=0.7\textwidth]{Figures/PFECAL.png} \\
+\includegraphics[width=0.7\textwidth]{Figures/PFHCAL.png} \\
 \end{center}
+%\caption{The ($\eta$, $\phi$) view on ECAL \cite{CMS-PAS-PFT-09-001}. 
+\caption{The ($\eta$, $\phi$) view on HCAL \cite{CMS-PAS-PFT-09-001}.}
 \end{figure}
    
 
 \subsection{Electron reconstruction} \label{subsec-ElectronReconstruction}
 
-For the $t\bar{t}+\gamma$ analysis it is imperative that the identification and energy-momentum requirements are measured extremely accurately as final state electrons, which are required in two of the three decay modes, can imitate a photon by passing the same selection, and therefore contaminating signal events. In order for electrons to be reconstructed with these strict requirements they are processed in a specific way.
+For the $t\bar{t}+\gamma$ analysis it is imperative that the identification and energy-momentum requirements are measured extremely accurately as final state electrons, which are required in two of the three decay modes in the dilepton channel, can imitate a photon by passing the same selection, and therefore contaminating signal events. In order for electrons to be reconstructed with these strict requirements they are processed in a specific way.
 
-The CMS ECAL and tracker systems are extremely accurate detectors, however reconstruction of energy deposits within the ECAL is still a complex task due to the density of material. As a charged particle traverses the detector volume, the energy lost due to interaction with the material is not negligible. Most charged particles are heavy enough such that the energy lost manifests in the form of multiple Coulomb scattering as the particle passes between material. However, in the case of electrons, the dominant process by which the energy is lost is due to Bremsstrahlung, the process by which a photon is emitted upon interaction within a material. 
+The CMS ECAL and tracker systems are extremely accurate detectors, however reconstruction of energy deposits within the ECAL is still a complex task due to the density of material. As a charged particle traverses the detector volume, the energy lost due to interaction with the material is not negligible. Most charged particles are heavy enough such that the energy lost manifests in the form of multiple Coulomb scattering as the particle passes between material. However, in the case of electrons, the dominant process by which the energy is lost is due to Bremsstrahlung, the process by which photons are emitted upon passing through the electric and magnetic fields of a nucleus, such as the material in the detectors. 
 
-Kalman fitters are a key tool used for the fitting of tracks in CMS due to their ability to incorporate noise amongst other inconsistencies,such as multiple scattering in track fitting, as Gaussian fluctuations. However, Bremsstrahlung radiation is non-Gaussian, and as a result electron tracks are poorly reconstructed with the standard Kalman filter fitting. To account for this, CMS provides a dedicated tool for the reconstruction of electrons using a Gaussian-sum filter \cite{0954-3899-31-9-N01}. This method is implemented by calculating the trajectory of electrons using a `relaxed' Kalman filter, then re-fitted using a Gaussian-Sum Filter (GSF). The GSF method differs from the standard Kalman fitting method by computing uncertainties as the sum of multiple Gaussians rather than individual Gaussians. The downside to this method lies in the additional CPU time needed to process the events. 
+Kalman fitters are a key tool used for the fitting of tracks in CMS due to their ability to incorporate noise amongst other inconsistencies,such as multiple scattering in track fitting, as Gaussian fluctuations. However, Bremsstrahlung radiation is non-Gaussian, and as a result electron tracks are poorly reconstructed with the standard Kalman filter fitting. To account for this, CMS provides a dedicated tool for the reconstruction of electrons using a Gaussian-sum filter (GSF) \cite{0954-3899-31-9-N01}. This method is implemented by calculating the trajectory of electrons using a `relaxed' Kalman filter, then re-fitted using a Gaussian-Sum Filter. The GSF method differs from the standard Kalman fitting method by computing uncertainties as the sum of multiple Gaussians rather than individual Gaussians. The downside to this method lies in the additional CPU time needed to process the events. 
 
-The PF algorithm uses two different techniques of electron identification that are used as seeds when reconstructing electron \cite{CMS-PAS-PFT-10-003}. The first makes use of ECAL superclusters as seeds and projects back from the centre of the supercluster to the innermost layer of the pixel detector, and is thus known as `ECAL-seeding'. It makes use of ECAL track properties, such as a narrow width in $\eta$ and a wide spread in the azimuthal angle, $\phi$. The energy deposits of the object and its associated Bremsstrahlung form a single supercluster, where the performance of this method lies the ability to correctly identify this. The method performs much more accurately in the high p$_T$ region of the electrons, such that there are much fewer potential track seeds and energy clusters in the ECAL are less likely to overlap with deposits from other objects, such as jets. This is especially true if the electron is part of a jet structure, and thus not isolated. Moreover, a high track multiplicity can complicate the backwards propagation from a supercluster and mimic the signal of another object.
+The PF algorithm uses two different techniques of electron identification that are used as seeds when reconstructing electron \cite{CMS-PAS-PFT-10-003}. The first makes use of ECAL superclusters, extended clustering in $\phi$ due to Bremsstrahlung and photon conversions in the ECAL, as seeds and projects back from the centre of the supercluster to the innermost layer of the pixel detector, and is thus known as `ECAL-seeding'. It makes use of ECAL track properties, such as a narrow width in $\eta$ and a wide spread in the azimuthal angle, $\phi$. The energy deposits of the object and its associated Bremsstrahlung form a single supercluster, where the performance of this method lies the ability to correctly identify this. The method performs much more accurately in the high p$_T$ region of the electrons, such that there are much fewer potential track seeds and energy clusters in the ECAL are less likely to overlap with deposits from other objects, such as jets. This is especially true if the electron is part of a jet structure, and thus not isolated. Moreover, a high track multiplicity can complicate the backwards propagation from a supercluster and mimic the signal of another object.
 
 The second, tracker-driven, method is much more suited for the efficient reconstruction of non-isolated and low p$_T$ electrons as they will most likely emit negligible amounts of Bremsstrahlung, and thus be fully reconstructed by extrapolating the tracks to superclusters. The cluster energy is then measured along with the track momentum, and if the ratio $E/p$ is close enough to unity then the track is selected. However, Bremsstrahlung is not always negligible and other track properties are used in the calculation. For example, the number of hits recorded in the inner tracker and the $\chi^2_{KF}$ of the Kalman filter fit are taken into account before refitting using a GSF, before being characterised by a multivariate estimation tool \cite{Roe2005577}. 
 
@@ -332,7 +354,7 @@ Individual physics analyses in CMS require different identification requirements
 	\item[MVA ID] is a multivariate analysis identification technique, and the most robust and common technique in physics analysis. It is used to identify electrons originating from W and Z bosons. The variables, show in Table \ref{tab-ElectronMVAID}, are used to produce a single discriminating value. The value is optimised by so called ``training" of the MVA in different selection categories.
 \end{description}
 
-\begin{center} \label{tab-ElectronMVAID}
+\begin{center}
 \begin{longtable}{|l|p{11cm}|}
 \hline
 	\textbf{Variable} & \textbf{Description} \\
@@ -362,36 +384,37 @@ Individual physics analyses in CMS require different identification requirements
 \hline	
 	$\Delta \eta_{in} \Delta \phi_{in}$ & Distance in $\eta (\phi)$ between the super-cluster position and the extrapolated track position \\
 	$\Delta \eta_{vtx} \Delta \phi_{vtx}$ & Distance in $\eta (\phi)$ between the super-cluster position and the position of the GSF track at vertex \\
-	$\left( E_{e} + \Sum E_{\gamma} \right)/p_{in}$ & Ratio of the super-cluster energy to the inner track momentum \\
+	$\left( E_{e} + \sum E_{\gamma} \right)/p_{in}$ & Ratio of the super-cluster energy to the inner track momentum \\
 	$E_{e}/p_{out}$ & Ratio of the electron cluster energy to the outer track momentum \\
 	$1/E_{SC} - 1/p_T$ & Difference between inverse super-cluster energy and inverse track momentum \\
 \hline	
 	\multicolumn{2}{|c|}{\emph{Bremsstrahlung variables}} \\
 \hline	
 	$f_{brem}$ & Measured bremsstrahlung fraction, defined as: $f_{brem} = (p_{in} - p_{out})/p_{in}$, where $p_{in}$ is the initial track momentum at the vertex and $p_{out}$ is the track momentum at the last hit. \\
-	$\Sum E_{\gamma}/(p_{in - p_{out}})$ & Ratio between the Bremsstrahlung photon energy as measured by ECAL and by the tracker \\
-	$EarlyBrem$ & Flag of $E_{e} + \Sigma E_{\gamma}) > p_{in}$ inequality, corresponding to an electron emitting an ``early" Bremsstrahlung photon, i.e. before it has crossed at least three tracker layers \\
+	$\sum E_{\gamma}/(p_{in - p_{out}})$ & Ratio between the Bremsstrahlung photon energy as measured by ECAL and by the tracker \\
+	$EarlyBrem$ & Flag of $(E_{e} + \Sigma E_{\gamma}) > p_{in}$ inequality, corresponding to an electron emitting an ``early" Bremsstrahlung photon, i.e. before it has crossed at least three tracker layers \\
 	$LateBrem$ & Flag of $E_e > p_{out}$ inequality, corresponding to an electron emitting a ``late" Bremsstrahlung electron, when the ECAL clustering is not able to disentangle the overlapping electron and photon showers \\
 \hline
 \caption{Variables used in electron identification algorithms \cite{SergeyThesis}.}
-\label{tab-ElectronMVAVariables}
+\label{tab-ElectronMVAID}
 \end{longtable} 
 \end{center}
+
 
 \subsection{Muon reconstruction} \label{subsec-MuonReconstruction}
 
 Reconstructing muons efficiently was one of the major focuses in the design of the CMS experiment, as can be seen from the name. A muon has a lifetime of around $\tau \sim 2.2 \mus$, thus allowing them to travel a relatively large distance through the detector. Higher transverse momentum muons, $p_T > 20 \GeV$, are energetic enough to traverse the entire detector without feeling any effects from Coulomb scattering, while muons with a transverse momentum of $p_T < 5 \GeV$ are generally stopped within the detector volume and decay to an electron and two neutrinos via the electroweak force. Muons are also reconstructed using the particle flow algorithm (Section \ref{subsec-PFAlgorithm}), however there are subtle differences between the standard usage of the PF algorithm and PF for muon identification, as will be described in this section. In relation to a top quark analysis, muons are produced from the W boson produced from the decay of the top. As a result, the muon will be produced at a close proximity to the primary vertex, and also well isolated. 
 
-In order to reconstruct muons, two types of tracks are used: tracks reconstructed from hits in the inner tracker (tracker hits), and in the muon system known as `standalone-muon' tracks. Reconstruction in the muon system begins with hits in either the DC or CSC which have been merged to create short track segments. The Kalman Filter technique is then used to combine the segments into full tracks, as described in Section \ref{sec-ChargedParticleReconstruction}. We can then define muons in two ways \cite{1748-0221-7-10-P10002}: 
+In order to reconstruct muons, two types of tracks are used: tracks reconstructed from hits in the inner tracker (tracker hits), and in the muon system known as `standalone-muon' tracks. Reconstruction in the muon system begins with hits in either the DC or CSC which have been merged to create short track segments. The Kalman Filter technique is then used to combine the segments into full tracks, as described in Section \ref{subsec-ChargedParticleTracking}. We can then define muons in two ways \cite{1748-0221-7-10-P10002}: 
 
 \begin{description}
-	\item[Tracker Muons] are reconstructed such that every track found in the inner tracker with $p_T > 0.5 \GeV$ and $|p| > 2.5$ is regarded as a muon candidate. The standalone-muon candidate is then extrapolated to the muon system, while taking into account factors such as the magnetic field, energy losses from traversing the detector volume, and uncertainties from multiple scattering. If the muon candidate satisfies both conditions of being in the tracker and extrapolated to the muon system, then we define the object as a muon. The method is also known as the `inside-out' method.
+	\item[Tracker Muons] are reconstructed such that every track found in the inner tracker with $p_T > 0.5 \GeV$ and $|p| > 2.5$ GeV is regarded as a muon candidate. The standalone-muon candidate is then extrapolated to the muon system, while taking into account factors such as the magnetic field, energy losses from traversing the detector volume, and uncertainties from multiple scattering. If the muon candidate satisfies both conditions of being in the tracker and extrapolated to the muon system, then we define the object as a muon. The method is also known as the `inside-out' method.
 	\item[Global Muons] use the `outside-in' method to reconstruct muons, conversely to tracker muons. The method works by taking a standalone-muon reconstructed in the muon system and matching it with a tracker muon by propagating onto a common surface. A global fit is then performed with the properties of both muon candidates, thus giving a \emph{global muon}. 
 \end{description}
 
-The two techniques for muon reconstruction are used in conjunction with one another due to the efficiency for tagging muons at different $p_T$ thresholds. For the case of global muons, a muon with a higher $p_T$($p_T > 20 \GeV$) is more efficiently reconstruction due to the the tracking depositing energy in each of the muon chambers. Conversely, muons with a lower $p_T$ ($p_T < 5 \GeV$) are more efficiently reconstructed in the tracking system, requiring a single muon segment. For the $t\bar{t}+\gamma$ analysis, the requirement of one or two reasonably high $p_T$ muons means that it benefits from the use of both types of reconstruction method.
+The two techniques for muon reconstruction are used in conjunction with one another due to the efficiency for tagging muons at different $p_T$ thresholds. For the case of global muons, a muon with a higher transverse momentum ($p_T > 20 \GeV$) is more efficiently reconstruction due to the the tracking depositing energy in each of the muon chambers. Conversely, muons with a lower $p_T$ ($p_T < 5 \GeV$) are more efficiently reconstructed in the tracking system, requiring a single muon segment. For the $t\bar{t}+\gamma$ analysis, the requirement of one or two reasonably high $p_T$ muons means that it benefits from the use of both types of reconstruction method.
 
-Once reconstructed, muons must undergo a series of quality checks in order to suppress punch through hadrons (hadrons that have a high enough energy to penetrate into the muon system from the HCAL). The following properties are used to select good muons for analysis.
+Once reconstructed, muons must undergo a series of quality checks in order to suppress punch through hadrons (hadrons that have a high enough energy to penetrate into the muon system from the HCAL). The following properties are used to select good muons for the $t\bar{t}+\gamma$ analysis.
 
 \begin{itemize}
 	\item The number of hit in the muon chamber in the global muon fit.
@@ -411,7 +434,7 @@ In this section we describe different techniques to reconstruct higher-level obj
 
 \subsection{Jet reconstruction} \label{subsec-JetReconstruction}
 
-We define a jet when a quark or gluon hadronises in an event, producing a narrow cone of collinear objects moving in the same direction. As described in Section \ref{chap-Theory}, particles can not exist in an unbounded state as they carry a property known as colour and are confined within a hadron, and as a result they must fragment and form a hadron to be observed directly. Essentially, by reconstructing the sub-structures of jets, we are reverse-engineering the quantum-mechanical process of fragmentation and hadronisation. Therefore, if we wish to measure the initial energy and momentum, we must measure the combined properties of the reconstructed jet. 
+We define a jet when a quark or gluon hadronises in an event, producing a narrow cone of collinear objects moving in the same direction. As described in Section \ref{chap-theory}, particles can not exist in an unbounded state as they carry a property known as colour and are confined within a hadron, and as a result they must fragment and form a hadron to be observed directly. Essentially, by reconstructing the sub-structures of jets, we are reverse-engineering the quantum-mechanical process of fragmentation and hadronisation. Therefore, if we wish to measure the initial energy and momentum, we must measure the combined properties of the reconstructed jet. 
 
 Jets play an integral part in the identification of top quark events where, at the very least, there are two jets in the final state due to the hadronisation of b quarks. In the di-lepton channels the case is as described previously, however in the semi-leptonic and fully hadronic top decay channels, at least four jets are present in the final state. The jets originate from the hadronisation of the b quark, and W boson decaying to quarks, which in turn hadronise to create jets.  
 
@@ -424,9 +447,7 @@ In order to reconstruct jets, we first implement the PF algorithm in order to re
 
 A low sensitivity to pileup and underlying events is also preferred in a jet clustering algorithm.
 
-The anti-$k_t$ algorithm is particularly insensitive to pileup and underlying events
-
-We start by defining a distance parameter, $d_{i,j}$, between entities (particles, pseudojets), and distance parameter $d_{iB}$ between entity i and the beam, B. The clustering method then begins by identifying the smallest of the distances, and if the smallest is $d_{i,j}$ then it recombines objects i and j, otherwise if the smallest distance is $d_{iB}$ then i is defined as a jet and is removed from the list of objects. The procedure is then repeated in an iterative fashion until there are no more objects to run over. The distances $d_{i,j}$ and $d_{iB}$ are defined as
+The anti-$k_t$ algorithm is particularly insensitive to pileup and underlying events. We start by defining a distance parameter, $d_{i,j}$, between entities (particles, pseudojets), and distance parameter $d_{iB}$ between entity i and the beam, B. The clustering method then begins by identifying the smallest of the distances, and if the smallest is $d_{i,j}$ then it recombines objects i and j, otherwise if the smallest distance is $d_{iB}$ then i is defined as a jet and is removed from the list of objects. The procedure is then repeated in an iterative fashion until there are no more objects to run over. The distances $d_{i,j}$ and $d_{iB}$ are defined as
 
 \begin{equation}
 d_{ij} = min\left(\frac{1}{k^2_{t,i}}, \frac{1}{k^2_{t,j}} \right) \cdot \frac{\Delta^2_{i,j}}{R^2}
@@ -468,13 +489,14 @@ There is also an extra component in the correction factor calculation that arise
 
 \subsection{B-tagged Jets}
 
-We define a b-tagged jet to be a jet that manifests from the hadronisation of a b-quark. The process of identification of b-jets, b-tagging, is an extremely important and vital part of physics analysis, and top quark physics in particular. As the top quark decays to a W boson and a b quark almost 100\% of the time, efficiently identifying b-jets significantly decreases the background contamination of our top quark signal process, and thus there is a strong need for b-tagging. Similar to non b-tagged jets, there are various algorithms that have developed by CMS that measure b-tagged jets \cite{Chatrchyan:2012jua}, with the most successful being the Combined Secondary Vertex (CSV) algorithm. This method is derived from the prolonged life-time of the b-quark ($10^{-12}s$), and the fact that they decay to up and charm quarks, transitions which are Cabibbo suppressed by the standard model and can be seen in the CKM matrix. A highly-relativistic b-quark will travel through the detector around $450 \mu m$, as a product of its long life-time, which is an observable length that can be measured by the pixel detector. This allows for a displaced secondary vertex to be used as a tool for the identification of b-jets, as seen in Figure \ref{fig-CSV}
+We define a b-tagged jet to be a jet that manifests from the hadronisation of a b-quark. The process of identification of b-jets, b-tagging, is an extremely important and vital part of physics analysis, and top quark physics in particular. As the top quark decays to a W boson and a b quark almost 100\% of the time, efficiently identifying b-jets significantly decreases the background contamination of our top quark signal process, and thus there is a strong need for b-tagging. Similar to non b-tagged jets, there are various algorithms that have developed by CMS that measure b-tagged jets \cite{Chatrchyan:2012jua}, with the most successful being the Combined Secondary Vertex (CSV) algorithm \cite{CSV}. This method is derived from the prolonged life-time of the b-quark ($10^{-12}s$), and the fact that they decay to up and charm quarks, transitions which are Cabibbo suppressed by the standard model and can be seen in the CKM matrix. A highly-relativistic b-quark will travel through the detector around $450 \mu m$, as a product of its long life-time, which is an observable length that can be measured by the pixel detector. This allows for a displaced secondary vertex to be used as a tool for the identification of b-jets, as seen in Figure \ref{fig-CSV}
 
-\begin{figure} \label{fig-CSV}
+\begin{figure} 
 \begin{center}
 \includegraphics[width=0.5\textwidth]{Figures/CSV.png}
-\caption{Schematic showing a displaced secondary vertex due to a b-quark decay from the primary vertex forming a b-jet. The impact parameter. $d_0$, measures the displacement with respect to the primary vertex along the z-axis, and $L_{xy}$ measures the displacement from the primary vertex in the transverse plane.}
 \end{center}
+\caption{Schematic showing a displaced secondary vertex due to a b-quark decay from the primary vertex forming a b-jet. The impact parameter. $d_0$, measures the displacement with respect to the primary vertex along the z-axis, and $L_{xy}$ measures the displacement from the primary vertex in the transverse plane.}
+\label{fig-CSV}
 \end{figure}
 
 B-tagged jets are particularly prominent due to their large mass, $4.18 \GeVcc$, and thus a large multiplicity of charged particles are produced during hadronisation carrying the majority of the jet energy. The most commonly used b-tagging algorithm is the Combined Secondary Vertex \cite{CSV} algorithm, which takes the following input parameters:
@@ -492,11 +514,12 @@ B-tagged jets are particularly prominent due to their large mass, $4.18 \GeVcc$,
 
 The algorithm begins by looking for a secondary vertex with the properties listed above. Using all particles in the jet, the algorithm uses a similar Kalman Filter \cite{VertexFitting} as for the reconstruction of primary vertices in order to reconstruct secondary vertices. If a secondary vertex is not found with this information, then a `pseudo-secondary vertex' is computed using information from the tracks that are were found to not be compatible with a primary vertex. The algorithm combines all of the information from the observables and calculates a discriminating value which is used to designate whether a jet is a `light jet' (a jet that manifests from a u,d, or s quark), a charmed jet (from a c quark), or a b-tagged jet. The CSV discriminator output can be seen in Figure \ref{fig-CSV}, showing the efficiency of correctly identifying a b-jet.
 
-\begin{figure} \label{fig-CSVDiscriminator}
+\begin{figure}
 \begin{center}
 \includegraphics[width=0.8\textwidth]{Figures/CSVDiscriminator.png}
-\caption{Logarithmic distribution of the partons as a function of the CSV b-tagging discriminant \cite{PhilThesis}.}
 \end{center}
+\caption{Logarithmic distribution of the partons as a function of the CSV b-tagging discriminant \cite{PhilThesis}.}
+ \label{fig-CSVDiscriminator}
 \end{figure}
 
 

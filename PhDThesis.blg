@@ -3,81 +3,25 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: PhDThesis.aux
 The style file: unsrt.bst
 Database file #1: PhDThesis.bib
-Repeated entry---line 1421 of file PhDThesis.bib
- : @article{Sjostrand:2006za
- :                          ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1509 of file PhDThesis.bib
- : @techreport{CMS-PAS-PFT-09-001
- :                               ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1676 of file PhDThesis.bib
- : @techreport{CMS-PAS-JME-10-003
- :                               ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1687 of file PhDThesis.bib
- : @article{Cacciari:2008gp
- :                         ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1856 of file PhDThesis.bib
- : @article{1748-0221-6-11-P11002
- :                               ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1919 of file PhDThesis.bib
- : @techreport{CMS-PAS-PFT-09-001
- :                               ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1932 of file PhDThesis.bib
- : @techreport{CMS-PAS-PFT-09-001
- :                               ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2093 of file PhDThesis.bib
- : @article{Chatrchyan:2013sba
- :                            ,
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 2216 of file PhDThesis.bib
- :      
- :      eprint         = "",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "MishaSignalDefinition"
-Warning--I didn't find a database entry for "AN-12-485"
-Warning--I didn't find a database entry for "tangandprobe"
 Warning--empty journal in ttbarDecayFractions
 Warning--empty journal in TrackingResults
-Name 1 in "Junghwan Goh, Min Suk Kim, Eunhyang Kwon, Jiwoong Seo, and Intae Yu" has a comma at the end for entry MUO-12-482
-while executing---line 944 of file unsrt.bst
-Too many commas in name 1 of "Junghwan Goh, Min Suk Kim, Eunhyang Kwon, Jiwoong Seo, and Intae Yu" for entry MUO-12-482
-while executing---line 944 of file unsrt.bst
-Too many commas in name 1 of "Heiko Geenen, Yurii Maravin, Mikhail Makouski, Nik Berry, Till Arndt, Heiner Tholen" for entry ttgammasimulation
-while executing---line 944 of file unsrt.bst
-Too many commas in name 1 of "Heiko Geenen, Yurii Maravin, Mikhail Makouski, Nik Berry, Till Arndt, Heiner Tholen" for entry ttgammasimulation
-while executing---line 944 of file unsrt.bst
-Too many commas in name 1 of "Heiko Geenen, Yurii Maravin, Mikhail Makouski, Nik Berry, Till Arndt, Heiner Tholen" for entry ttgammasimulation
-while executing---line 944 of file unsrt.bst
 Warning--empty author in CMS-PAS-PFT-09-001
 Warning--empty author and editor in HCALTdr
 Warning--empty year in ElectronEfficiencies
 Warning--empty year in MuonEfficiencies
 Warning--empty author in ATLAS:2014wva
 Warning--empty journal in ATLAS:2014wva
-Name 1 in "U. Baur, M. Buice, and L. H. Orr" has a comma at the end for entry topchargemeasurement
-while executing---line 944 of file unsrt.bst
 Warning--empty author in CMS-PAS-TOP-13-011
 Warning--empty journal in CDFD0combination
+Warning--empty journal in Whelicitytoppair
+Warning--empty author in Wpolarisation
 Warning--empty year in SiliconStripSensors1
 Warning--empty author in CMS-PAS-PFT-10-001
 Warning--empty institution in CMS-PAS-PFT-10-001
 Warning--empty year in CMS-PAS-PFT-10-001
 Warning--empty journal in CMSSW
 Warning--empty year in CMSSW
-Name 1 in "W. Kilian, T. Ohl, and J. Reuter" has a comma at the end for entry WHIZARD
-while executing---line 944 of file unsrt.bst
 Warning--empty author in CMS-PAS-PFT-10-003
-Name 1 in "Thomas Speer, Kirill Prokofiev, R Frhwirth, Wolfgang Waltenberger, and Pascal Vanlaer." has a comma at the end for entry VertexFitting
-while executing---line 944 of file unsrt.bst
-Too many commas in name 1 of "Thomas Speer, Kirill Prokofiev, R Frhwirth, Wolfgang Waltenberger, and Pascal Vanlaer." for entry VertexFitting
-while executing---line 944 of file unsrt.bst
 Warning--empty year in TopEventSelection
 Warning--empty year in TOPEGM1
 Warning--empty year in TOPMUO1
@@ -95,45 +39,45 @@ Warning--empty author in CMS:2011esa
 Warning--empty journal in CMS:2011esa
 Warning--empty author in BTAGPAS
 Warning--empty journal in BTAGPAS
-You've used 148 entries,
+You've used 150 entries,
             1791 wiz_defined-function locations,
-            1270 strings with 24798 characters,
-and the built_in function-call counts, 28758 in all, are:
-= -- 2610
-> -- 919
-< -- 15
-+ -- 389
-- -- 241
+            1266 strings with 24788 characters,
+and the built_in function-call counts, 28360 in all, are:
+= -- 2528
+> -- 964
+< -- 14
++ -- 405
+- -- 255
 * -- 1739
-:= -- 4635
-add.period$ -- 440
-call.type$ -- 148
-change.case$ -- 147
+:= -- 4644
+add.period$ -- 445
+call.type$ -- 150
+change.case$ -- 149
 chr.to.int$ -- 0
-cite$ -- 182
-duplicate$ -- 1391
-empty$ -- 2959
-format.name$ -- 241
-if$ -- 6406
+cite$ -- 186
+duplicate$ -- 1368
+empty$ -- 2916
+format.name$ -- 255
+if$ -- 6264
 int.to.chr$ -- 0
-int.to.str$ -- 148
-missing$ -- 141
-newline$ -- 738
-num.names$ -- 137
-pop$ -- 297
+int.to.str$ -- 150
+missing$ -- 142
+newline$ -- 747
+num.names$ -- 138
+pop$ -- 300
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 640
+skip$ -- 592
 stack$ -- 0
-substring$ -- 1932
-swap$ -- 252
-text.length$ -- 15
+substring$ -- 1762
+swap$ -- 217
+text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 34
-while$ -- 243
-width$ -- 151
-write$ -- 1567
-(There were 18 error messages)
+warning$ -- 36
+while$ -- 240
+width$ -- 153
+write$ -- 1586
+(There were 36 warnings)

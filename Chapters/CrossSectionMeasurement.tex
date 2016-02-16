@@ -4,11 +4,12 @@
 
 \subsection{Signal definition}
 
-\begin{figure} \label{fig-signalphotonplot}
+\begin{figure} 
 \begin{center}
 \includegraphics[scale=0.33]{Figures/SignalPhotonPlot.png}
-\caption{Graphic representation of the signal and background definitions \cite{MishaSignalDefinition}.}
 \end{center}
+\caption{Graphic representation of the signal and background definitions \cite{MishaThesis}.}
+\label{fig-signalphotonplot}
 \end{figure}
 
 \subsection{Background processes}
@@ -16,33 +17,36 @@
 \begin{figure}
 \begin{center}
 \includegraphics[width=\textwidth]{Figures/BackgroundDiagrams.png}
-\caption{Examples of Feynman graphs of the considered $t\bar{t}$ backgrounds. QCD showering is necessary in all cases to obtain the required jet multiplicity \cite{ttgammabackgroundestimation}.}
 \end{center}
+\caption{Examples of Feynman graphs of the considered $t\bar{t}$ backgrounds. QCD showering is necessary in all cases to obtain the required jet multiplicity \cite{ttgammabackgroundestimation}.}
 \end{figure}
 
-\begin{figure}\label{fig-AnalysisFlowChart}
+\begin{figure}
 \begin{center}
 \includegraphics[width=0.75\textwidth]{Figures/AnalysisFlowChart.png}
+\end{center}
 \caption{Flow chart showing each stage of the analysis. The box numbers represent the outlined
 analysis steps.}
-\end{center}
+\label{fig-AnalysisFlowChart}
 \end{figure}
 
 \subsection{Backgrounds of photon signature}
 
-\begin{figure} \label{fig-BackgroundISR}
+\begin{figure} 
 \begin{center}
 \includegraphics[width=\textwidth]{Figures/BackgroundISR.png}
-\caption{Background of photon identification: Initial state radiation (ISR). Left: Quark fusion. Right: Gluon fusion does not give rise to ISR (based on \cite{photonbackgrounds}).}
 \end{center}
+\caption{Background of photon identification: Initial state radiation (ISR). Left: Quark fusion. Right: Gluon fusion does not give rise to ISR (based on \cite{photonbackgrounds}).}
+\label{fig-BackgroundISR}
 \end{figure}
 
 
-\begin{figure} \label{fig-BackgroundFSR}
+\begin{figure} 
 \begin{center}
 \includegraphics[width=\textwidth]{Figures/BackgroundFSR.png}
-\caption{Background of photon identification: Final state radiation (FSR). All charged particles in the top-pair decay tree contribute to FSR \cite{photonbackgrounds}.}
 \end{center}
+\caption{Background of photon identification: Final state radiation (FSR). All charged particles in the top-pair decay tree contribute to FSR \cite{photonbackgrounds}.}
+\label{fig-BackgroundFSR}
 \end{figure}
 
 \section{$t\bar{t}+\gamma$ Signal Simulation}
@@ -70,11 +74,12 @@ The last cut is implemented in order to suppress photons from showers. In such c
 
  Similarly, we also observe an overlap between Z+Jets and ZGamma processes, and between W+Jets and WGamma samples, for the same reasons as described above. The phase space overlap removal procedure is applied on Z+Jets and W+Jets samples to remove events containing generator-level photons. Events containing generated photons are removed in the case in which they are from initial state radiation (emitted from the colliding partons) or final state radiation (emitted from W or Z bosons or their decay products), since these are already included in the WGamma and ZGamma simulations. The overlap removal procedure removes approximately one percent of the events in the W+Jets sample, and approximately three to four percent of the events from the TTJets and Z+Jets samples.
 
-\begin{figure} \label{fig-photonphasespace}
+\begin{figure} 
 \begin{center}
 \includegraphics[scale=0.5]{Figures/photonphasespace.png}
-\caption{}
 \end{center}
+\caption{}
+\label{fig-photonphasespace}
 \end{figure}
 
 \section{Measurement of the cross-section ratio $R = \sigma_{t\bar{t}+\gamma}/\sigma_{t\bar{t}}$}
@@ -99,14 +104,14 @@ In order to simplify the calculation, we are able to take the ratio of the $t\ba
 
 \begin{equation}
 R = \frac{\sigma_{t\bar{t}+\gamma}}{\sigma_{t\bar{t}}} = \frac{N_{signal}}{\epsilon^{t\bar{t}+\gamma}_{top} A^{t\bar{t}+\gamma}_{top} 
-\epsilon^{t\bar{t}+\gamma}_{\gamma} A^{t\bar{t}+\gamma}_{\gamma}}} \cdot \frac{\epsilon^{t\bar{t}}_{top} A^{t\bar{t}}_{top}}{N_{t\bar{t}}}
+\epsilon^{t\bar{t}+\gamma}_{\gamma} A^{t\bar{t}+\gamma}_{\gamma}} \cdot \frac{\epsilon^{t\bar{t}}_{top} A^{t\bar{t}}_{top}}{N_{t\bar{t}}}
 \end{equation}
 
-We now introduce a second term into the cross-section calculation which includes three new variables that stem from the $t\bar{t}$ inclusive cross-section: where $\epsilon^{t\bar{t}}_{top}$ and $A^{t\bar{t}}_{top}}$ $N_{t\bar{t}}$ are the efficiency and acceptance of the $t\bar{t}$ process, and $N_{t\bar{t}}$ is the number of top pair events passing the full top selection, prior to the photon selection. The efficiencies for both top pair selection and top pair with a photon selection is very similar due to the ordering of the event selection - the selection of leptons, jets, b-jets, and MET are the same in each scenario. As the acceptance calculation depends on individual samples generator cuts and even selection, we must calculate this variable separately for each stage of the selection process. By taking the ratio of each cross-section we cancel out the luminosity parameter.
+We now introduce a second term into the cross-section calculation which includes three new variables that stem from the $t\bar{t}$ inclusive cross-section: where $\epsilon^{t\bar{t}}_{top}$ and $A^{t\bar{t}}_{top}$ $N_{t\bar{t}}$ are the efficiency and acceptance of the $t\bar{t}$ process, and $N_{t\bar{t}}$ is the number of top pair events passing the full top selection, prior to the photon selection. The efficiencies for both top pair selection and top pair with a photon selection is very similar due to the ordering of the event selection - the selection of leptons, jets, b-jets, and MET are the same in each scenario. As the acceptance calculation depends on individual samples generator cuts and even selection, we must calculate this variable separately for each stage of the selection process. By taking the ratio of each cross-section we cancel out the luminosity parameter.
 
 The prominent feature of this analysis is the addition of a radiated photon from one of the decay products of a di-leptonic $t\bar{t}$ decay. In order to correctly measure the number of signal $t\bar{t}+\gamma$ events we must make sure that we have correctly identified our signal events. Even though an object may pass the full photon ID selection requirements, it may not be our signal photon. Electrons and jets are likely to pass photon ID selection and be recorded as real signal photons, thus we must remove these `fakes' from our signal events.
 
-For jets that pass the photon ID requirements and are thus misidentified, we must note that they do not contain a genuine photon. Electrons that have been misidentified as photons are more difficult to remove as they hold the same properties as a photon, including isolated electromagnetic shower etc. Electrons differ from our signal photons because of the addition of a charged track pointing in the direction of the energy deposit. As a result, we treat each source of `fakes' in a different manner, described in Section \ref{}.   
+For jets that pass the photon ID requirements and are thus misidentified, we must note that they do not contain a genuine photon. Electrons that have been misidentified as photons are more difficult to remove as they hold the same properties as a photon, including isolated electromagnetic shower etc. Electrons differ from our signal photons because of the addition of a charged track pointing in the direction of the energy deposit. As a result, we treat each source of ``fakes" in a different manner, described in Section \ref{sec-PhotonPurityEstimation}.   
 
 
 

@@ -145,7 +145,7 @@
 
 
 
-\ifthenelse{\boolean{cms@italic}}{\newcommand{\cmsSymbolFace}{\relax}}{\newcommand{\cmsSymbolFace}{\mathrm}}
+%\ifthenelse{\boolean{cms@italic}}{\newcommand{\cmsSymbolFace}{\relax}}{\newcommand{\cmsSymbolFace}{\mathrm}}
 
 % Particle names which track the italic/non-italic face convention
 \newcommand{\zp}{\ensuremath{\cmsSymbolFace{Z}^\prime}\xspace} % plain Z'
@@ -208,11 +208,11 @@
 \providecommand{\PZpr}{\ensuremath{\cmsSymbolFace{Z}^\prime}} % plain Z'
 
 % for APS style tables
-\ifthenelse{\boolean{cms@external}}{%
-\newenvironment{scotch}[1]{\protect\centering\ruledtabular\tabular{#1}}{\endtabular\endruledtabular}
-}{
-\newenvironment{scotch}[1]{\protect\centering\tabular{#1}\hline\hline}{\hline\endtabular}
-}
+%\ifthenelse{\boolean{cms@external}}{%
+%\newenvironment{scotch}[1]{\protect\centering\ruledtabular\tabular{#1}}{\endtabular\endruledtabular}
+%}{
+%\newenvironment{scotch}[1]{\protect\centering\tabular{#1}\hline\hline}{\hline\endtabular}
+%}
 
 % SM (still to be classified)
 

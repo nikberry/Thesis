@@ -46,12 +46,12 @@
 \BOOKMARK [2][-]{subsection.3.4.1}{Monte Carlo event generators}{section.3.4}% 46
 \BOOKMARK [1][-]{section.3.5}{Simulated samples for the t+ analysis}{chapter.3}% 47
 \BOOKMARK [1][-]{section.3.6}{Simulation of the t+ Signal Sample}{chapter.3}% 48
-\BOOKMARK [2][-]{subsection.3.6.1}{Official t+ 2 7 process MadGraph Sample Production}{section.3.6}% 49
+\BOOKMARK [2][-]{subsection.3.6.1}{Official t+ 2 7 sample production}{section.3.6}% 49
 \BOOKMARK [1][-]{section.3.7}{Physics Object Reconstruction}{chapter.3}% 50
 \BOOKMARK [2][-]{subsection.3.7.1}{Charged Particle Tracking}{section.3.7}% 51
 \BOOKMARK [2][-]{subsection.3.7.2}{Primary Vertex Reconstruction}{section.3.7}% 52
 \BOOKMARK [2][-]{subsection.3.7.3}{Calorimeter Clustering Algorithm}{section.3.7}% 53
-\BOOKMARK [2][-]{subsection.3.7.4}{The Particle Flow Algorithm}{section.3.7}% 54
+\BOOKMARK [2][-]{subsection.3.7.4}{The Particle Flow event reconstruction algorithm}{section.3.7}% 54
 \BOOKMARK [2][-]{subsection.3.7.5}{Electron reconstruction}{section.3.7}% 55
 \BOOKMARK [2][-]{subsection.3.7.6}{Electron identification}{section.3.7}% 56
 \BOOKMARK [2][-]{subsection.3.7.7}{Muon reconstruction}{section.3.7}% 57
@@ -113,8 +113,8 @@
 \BOOKMARK [0][-]{chapter.7}{Results}{}% 113
 \BOOKMARK [0][-]{chapter.8}{Measurement of the anomalous couplings of the photon to the top quark}{}% 114
 \BOOKMARK [0][-]{chapter.9}{Electron Conversion Veto}{}% 115
-\BOOKMARK [0][-]{chapter*.66}{Conclusions}{}% 116
-\BOOKMARK [0][-]{section*.67}{Appendices}{}% 117
-\BOOKMARK [1][-]{section.Alph0.1}{Operator contributions to t }{section*.67}% 118
-\BOOKMARK [1][-]{section.Alph0.2}{Electron \046 Muon Efficiencies}{section*.67}% 119
-\BOOKMARK [0][-]{appendix*.70}{Bibliography}{}% 120
+\BOOKMARK [0][-]{chapter*.64}{Conclusions}{}% 116
+\BOOKMARK [0][-]{section*.65}{Appendices}{}% 117
+\BOOKMARK [1][-]{section.Alph0.1}{Operator contributions to t }{section*.65}% 118
+\BOOKMARK [1][-]{section.Alph0.2}{Electron \046 Muon Efficiencies}{section*.65}% 119
+\BOOKMARK [0][-]{appendix*.68}{Bibliography}{}% 120

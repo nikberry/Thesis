@@ -49,7 +49,7 @@ Cristina Biino.
 \newblock {\em Journal of Physics: Conference Series}, 587(1):012001, 2015.
 
 \bibitem{MUO-12-482}
-Eunhyang Kwon Jiwoong~Seo Junghwan~Goh, Min Suk~Kim and Intae Yu.
+Junghwan Goh, Min~Suk Kim, Eunhyang Kwon, Jiwoong Seo, and Intae Yu.
 \newblock Muon reconstruction and identification in the rpc detector with
   tracker tracks.
 \newblock {\em CMS Internal Note}, v2, 2013.
@@ -71,8 +71,8 @@ Andrea Giammanco.
 \newblock {\em Journal of Physics: Conference Series}, 513(2):022012, 2014.
 
 \bibitem{ttgammasimulation}
-Mikhail Makouski Nik Berry Till Arndt Heiner~Tholen Heiko~Geenen,
-  Yurii~Maravin.
+Heiko Geenen, Yurii Maravin, Mikhail Makouski, Nik Berry, Till Arndt, and
+  Heiner Tholen.
 \newblock Monte carlo simulation of the top quark pair plus photon production.
 \newblock {\em CMS Note}, 2013/382, 2013.
 
@@ -93,6 +93,12 @@ Marco Peruzzi.
   pp collisions with the cms experiment.
 \newblock {\em CMS Thesis}, 2015.
 
+\bibitem{MishaThesis}
+Mikhail Makouski.
+\newblock A measurement of top quark pair and photon production cross section
+  with cms detector.
+\newblock {\em PhD Thesis}, 2015.
+
 \bibitem{ttgammabackgroundestimation}
 Thomas Steeger.
 \newblock Background estimation in a search for $t\bar{t}+\gamma$ events.
@@ -101,7 +107,7 @@ Thomas Steeger.
 \bibitem{photonbackgrounds}
 Thomas Hermanns.
 \newblock Studies at the cms experiment on silicon microstrip module defects
-  and on photon identification in semileptonic $t\bar{T}$ events.
+  and on photon identification in semileptonic $t\bar{t}$ events.
 \newblock {\em PhD Thesis}, CERN-THESIS-2008-111, 12/008.
 
 \bibitem{Czakon:2013goa}
@@ -128,13 +134,12 @@ CMS Collaboration.
 \bibitem{ElectronEfficiencies}
 CMS Collaboration.
 \newblock Electron efficiencies for top quark analysis.
-\newblock {\em
-  https://twiki.cern.ch/twiki/bin/viewauth/CMS/KoPFAElectronTagAndProbe}.
+\newblock {\em CMS TWiki}.
 
 \bibitem{MuonEfficiencies}
 CMS Collaboration.
 \newblock Reference muon id and isolation efficiencies.
-\newblock {\em https://twiki.cern.ch/twiki/bin/viewauth/CMS/MuonReferenceEffs}.
+\newblock {\em CMS TWiki}.
 
 \bibitem{Glashow:1961tr}
 S.~L. Glashow.
@@ -224,7 +229,7 @@ S.~Bethke.
 \bibitem{Chatrchyan:2013lba}
 Serguei Chatrchyan et~al.
 \newblock {Observation of a new boson with mass near 125 GeV in pp collisions
-  at $\sqrt{s}$ = 7 and 8 TeV}.
+  at $\sqrt{s} = 7$ and 8 TeV}.
 \newblock {\em JHEP}, 06:081, 2013.
 
 \bibitem{Aad:2013wqa}
@@ -249,13 +254,6 @@ Walter~R. Innes et~al.
 \newblock {Observation of structure in the $\Upsilon$ region}.
 \newblock {\em Phys. Rev. Lett.}, 39:1240, 1977.
 \newblock [Erratum: Phys. Rev. Lett.39,1640(1977)].
-
-\bibitem{PhysRevLett.74.2626}
-CDF Collaboration.
-\newblock Observation of top quark production in
-  $\overline{\mathit{p}}\mathit{p}$ collisions with the collider detector at
-  fermilab.
-\newblock {\em Phys. Rev. Lett.}, 74:2626--2631, Apr 1995.
 
 \bibitem{PhysRevLett.74.2422}
 D0~Collaboration.
@@ -282,6 +280,13 @@ The~UA2 Collaboration.
 \newblock Observation of single isolated electrons of high transverse momentum
   in events with missing transverse energy at the \{CERN\} pp collider.
 \newblock {\em Physics Letters B}, 122(5–6):476 -- 485, 1983.
+
+\bibitem{PhysRevLett.74.2626}
+CDF Collaboration.
+\newblock Observation of top quark production in
+  $\overline{\mathit{p}}\mathit{p}$ collisions with the collider detector at
+  fermilab.
+\newblock {\em Phys. Rev. Lett.}, 74:2626--2631, Apr 1995.
 
 \bibitem{ATLAS:2014wva}
 {First combination of Tevatron and LHC measurements of the top-quark mass}.
@@ -315,7 +320,7 @@ J.~et~al. Beringer.
 Vardan Khachatryan et~al.
 \newblock {Measurement of the t-channel single-top-quark production cross
   section and of the $\mid V_{tb} \mid$ CKM matrix element in pp collisions at
-  $\sqrt{s}$= 8 TeV}.
+  $\sqrt{s}= 8$ TeV}.
 \newblock {\em JHEP}, 06:090, 2014.
 
 \bibitem{anom-coups}
@@ -335,16 +340,9 @@ Y.~Kuessel.
 \newblock {\em PhD Thesis}, 2012.
 
 \bibitem{topchargemeasurement}
-M.~Buice U.~Baur and L.~H. Orr.
+U.~Baur, M.~Buice, and L.~H. Orr.
 \newblock “direct measurement of the top quark charge at hadron colliders.
 \newblock {\em Phys.Rev.}, D64:094019, 2001.
-
-\bibitem{pidsemilept}
-T.~Hermanns.
-\newblock Studies at the cms experiment on silicon microstrip module defects
-  and on photon identification in semileptonic ttbar-events.
-\newblock {\em http://cdsweb.cern.ch/record/1292768}, pages no.
-  CERN--THESIS--2008--111, 2008.
 
 \bibitem{CDFttgamma}
 CDF Collaboration.
@@ -371,8 +369,8 @@ T.~C. Collaboration.
 
 \bibitem{ATLAStopcharge}
 T.~A. Collaboration.
-\newblock Measurement of the top quark charge in pp collisions at $\sqrt{s} =7
-  \tev$ in the atlas experiment.
+\newblock Measurement of the top quark charge in pp collisions at $\sqrt{s} =7$
+  tev in the atlas experiment.
 \newblock {\em http://cdsweb.cern.ch/record/1385517}, 2011.
 
 \bibitem{CDFD0combination}
@@ -382,33 +380,31 @@ T.~CDF and D.~Collaborations.
 \newblock 2012.
 
 \bibitem{Whelicitytoppair}
-T.~C. Collaboration.
-\newblock W helicity in top pair events.
-\newblock {\em http://cdsweb.cern.ch/record/1423370}, pages no.
-  CMS--PAS--TOP--11--020, 2012.
+CMS Collaboration.
+\newblock {W helicity in top pair events}.
+\newblock 2012.
 
 \bibitem{Wpolarisation}
-T.~A. Collaboratoin.
-\newblock Measurement of the w boson polarisation in top quark decays in 0.70
-  $fb^{−1}$ of pp collisions at $\sqrt{s}=7 \tev$ with the atlas detector.
-\newblock {\em http://cdsweb.cern.ch/record/1376422}, 2011.
+{Measurement of the W boson polarisation in top quark decays in 0.70 fb$^{-1}$
+  of pp collisions at sqrt(s)=7 TeV with the ATLAS detector}.
+\newblock Technical Report ATLAS-CONF-2011-122, CERN, Geneva, Aug 2011.
 
 \bibitem{tsinglet}
 CMS Collaboration.
 \newblock Measurement of the t-channel single top quark production
-  cross-section in pp collisions at $\sqrt{s} = 7 \tev$.
+  cross-section in pp collisions at $\sqrt{s} = 7$ tev.
 \newblock {\em Phys.Rev.Lett.107:091802}, 2011.
 
 \bibitem{singlet}
 D.~Collaboration.
 \newblock Measurements of single top quark production cross sections and
-  $\abs{V_{tb}}$ in $p\bar{p}$ collisions at $\sqrt{s} = 1.96 \tev$.
+  $\abs{V_{tb}}$ in $p\bar{p}$ collisions at $\sqrt{s} = 1.96$ tev.
 \newblock {\em arXiv:1108.3091}, 2011.
 
 \bibitem{Khachatryan:1712680}
 Khachatryan.
 \newblock {Measurement of top quark-antiquark pair production in association
-  with a W or Z boson in pp collisions at $\sqrt{s}$ = 8 TeV}.
+  with a W or Z boson in pp collisions at $\sqrt{s} = 8$ TeV}.
 \newblock {\em Eur. Phys. J. C}, 74(arXiv:1406.7830. CERN-PH-EP-2014-136.
   CMS-TOP-12-036):3060. 37 p, Jun 2014.
 \newblock Comments: Replaced with published version. Added journal reference
@@ -422,15 +418,14 @@ T.~C. Collaboration.
 
 \bibitem{FCNC}
 T.~A. Collaboration.
-\newblock Search for fcnc top quark processes at 7 $\tev$ with the atlas
-  detector.
+\newblock Search for fcnc top quark processes at 7 tev with the atlas detector.
 \newblock {\em http://cdsweb.cern.ch/record/1345084}, 2011.
 
 \bibitem{linearcollider}
 T.~Abe.
 \newblock Linear collider physics resource book for snowmass 2001.
-\newblock {\em arXiv:hep-ex/0106055, arXiv:hep-ex/0106056,
-  arXiv:hep-ex/0106057, arXiv:hep-ex/0106058}, 2001.
+\newblock {\em arXiv:hep-ex/0106055 and arXiv:hep-ex/0106056 and
+  arXiv:hep-ex/0106057 and arXiv:hep-ex/0106058}, 2001.
 
 \bibitem{LHCStorageAccelerators}
 John~P. Blewett.
@@ -539,7 +534,7 @@ et~al. D.~Acosta, CMS~Collaboration.
 \newblock {\em CERN/LHCC, Geneva, Switzerland}, 2, 2006.
 
 \bibitem{WHIZARD}
-T.~Ohl W.~Kilian and J.~Reuter.
+W.~Kilian, T.~Ohl, and J.~Reuter.
 \newblock Whizard: Simulating multi-particle processes at lhc and ilc.
 \newblock {\em Eur.Phys.J.}, C71:1742, 2011.
 
@@ -657,8 +652,8 @@ S.~Baffioni, C.~Charlot, F.~Ferri, D.~Futyan, P.~Meridiani, I.~Puljak,
 
 \bibitem{1748-0221-7-10-P10002}
 The~CMS collaboration.
-\newblock Performance of cms muon reconstruction in pp collision events at √s
-  = 7 tev.
+\newblock Performance of cms muon reconstruction in pp collision events at
+  $\sqrt{s} = 7$ tev.
 \newblock {\em Journal of Instrumentation}, 7(10):P10002, 2012.
 
 \bibitem{Ellis:1993tq}
@@ -705,7 +700,7 @@ Christian Weiser.
 \newblock {\em Technical Report}, CMS-NOTE-2006-014, CERN, Geneva, Jan 2006.
 
 \bibitem{VertexFitting}
-R~Frhwirth Wolfgang~Waltenberger Thomas~Speer, Kirill~Prokofiev and Pascal
+Thomas Speer, Kirill Prokofiev, R~Frhwirth, Wolfgang Waltenberger, and Pascal
   Vanlaer.
 \newblock Vertex fitting in the cms tracker.
 \newblock {\em Technical Report}, CMS-NOTE-2006-032, CERN, Geneva, Feb 2006.
@@ -739,6 +734,12 @@ CMS Collaboration.
 CMS Collaboration.
 \newblock Simple cut based id 2012.
 \newblock {\em CMS Twiki}.
+
+\bibitem{diffxsectdiphoton}
+CMS Collaboration.
+\newblock Measurement of differential cross sections for the production of a
+  pair of isolated photons in pp collisions at $\sqrt{s}=7$ tev.
+\newblock {\em The European Physical Journal C}, 74(11), 2014.
 
 \bibitem{ttbarXsectiondilepton}
 CMS Colaboration.
@@ -782,16 +783,22 @@ Simon White.
 {CMS Luminosity Based on Pixel Cluster Counting - Summer 2013 Update}.
 \newblock Technical Report CMS-PAS-LUM-13-001, CERN, Geneva, 2013.
 
+\bibitem{tagandprobe}
+V.~Khachatryan.
+\newblock Measurements of inclusive w and z cross sections in pp collisions at
+  $\sqrt{s} = 7$ tev.
+\newblock {\em Journal of High Energy Physics}, 2011(1), 2011.
+
 \bibitem{Khachatryan:2015hwa}
 Vardan Khachatryan et~al.
 \newblock {Performance of Electron Reconstruction and Selection with the CMS
-  Detector in Proton-Proton Collisions at √s = 8 TeV}.
+  Detector in Proton-Proton Collisions at $\sqrt{s} = 8$ TeV}.
 \newblock {\em JINST}, 10(06):P06005, 2015.
 
 \bibitem{1748-0221-8-11-P11002}
 The~CMS collaboration.
 \newblock The performance of the cms muon detector in proton-proton collisions
-  at √ s = 7 tev at the lhc.
+  at $\sqrt{s} = 7$ tev at the lhc.
 \newblock {\em Journal of Instrumentation}, 8(11):P11002, 2013.
 
 \bibitem{Vogt:2004mw}
@@ -817,7 +824,7 @@ Jun Gao, Marco Guzzi, Joey Huston, Hung-Liang Lai, Zhao Li, Pavel Nadolsky, Jon
 \newblock Oct 2013.
 
 \bibitem{CMS:2011esa}
-{Jet Energy Resolution in CMS at sqrt(s)=7 TeV}.
+{Jet Energy Resolution in CMS at $sqrt(s)=7$ TeV}.
 \newblock 2011.
 
 \bibitem{BTAGPAS}

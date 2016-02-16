@@ -185,15 +185,17 @@ These cuts help to avoid picking detector noise and ECAL spikes as jets. We also
 
 \section{Comparison of Data to MC} \label{sec-dataMCcomparison}
 
-\begin{figure}
-\begin{center}
-\includegraphics[width=0.7\textwidth]{Plots/ControlPlots/CutFlow/Log/TTbarMuMuRefSelection.pdf}
-\includegraphics[width=0.7\textwidth]{Plots/ControlPlots/CutFlow/Log/TTbarEERefSelection.pdf}
-\includegraphics[width=0.7\textwidth]{Plots/ControlPlots/CutFlow/Log/TTbarEMuRefSelection.pdf}
-\end{center}
-\end{figure}
+% \begin{figure} 
+% \begin{center}
+% \includegraphics[width=0.7\textwidth]{Plots/ControlPlots/CutFlow/Log/TTbarMuMuRefSelection.pdf}
+% \includegraphics[width=0.7\textwidth]{Plots/ControlPlots/CutFlow/Log/TTbarEERefSelection.pdf}
+% \includegraphics[width=0.7\textwidth]{Plots/ControlPlots/CutFlow/Log/TTbarEMuRefSelection.pdf}
+% \end{center}
+% \caption{}
+% \label{fig-CutFlow}
+% \end{figure}
 
-\begin{sidewaystable}[h!]
+\begin{sidewaystable}
   \centering 
 %  \caption{Cut Flow table for the $\mu^+\mu^-$ selection.}
 %  \label{tab:mumu_cutflow}
@@ -281,13 +283,13 @@ $\geq$ 1 Good Photon Postsel & 40 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 23 $\p
 \caption{The number of expected events in MC and events observed in data for the $e\mu$ channel, before the fitting process, including statistical uncertainties.}
 \end{sidewaystable}
 
-\begin{figure}
-\begin{center}
-\includegraphics[width=0.5\textwidth]{Plots/}\includegraphics[width=0.5\textwidth]{Plots/}
-\includegraphics[width=0.5\textwidth]{Plots/}\includegraphics[width=0.5\textwidth]{Plots/}
-\caption{}
-\end{center}
-\end{figure}
+% \begin{figure}
+% \begin{center}
+% \includegraphics[width=0.5\textwidth]{Plots/}\includegraphics[width=0.5\textwidth]{Plots/}
+% \includegraphics[width=0.5\textwidth]{Plots/}\includegraphics[width=0.5\textwidth]{Plots/}
+% \end{center}
+% \caption{}
+% \end{figure}
 
 \section{Selection of $t\bar{t}+\gamma$ events} \label{sec-postselection}
 
@@ -317,7 +319,7 @@ The cut-based photon isolation cuts are taken from the recommended values \cite{
 \item[Tower Based H/E] The ratio of energy deposited in the Hadronic Calorimeter (HCal) over the fraction of energy deposited in the Electromagnetic Calorimeter(ECal). This cut is
 set so that the energy ratio should be less than 5\% (see Fig.\ref{fig-cutbasedMuMu1} right).
 
-\item[Shower Width \sigma_{i\eta i\eta}] The shower shape weighted by energy (see Fig.\ref{fig-cutbasedMuMu1} right), defined as: 
+\item[Shower Width $\sigma_{i\eta i\eta}$] The shower shape weighted by energy (see Fig.\ref{fig-cutbasedMuMu1} right), defined as: 
 
 \begin{equation}
 \sigma_{i\eta i\eta} = \left(\frac{\sum(\eta_i - \bar{\eta})\omega_i}{\sum\omega_i}\right)^{1/2};  \bar{\eta} = \frac{\sum\eta_i\omega}{\sum\omega_i};  \omega_i = \text{max}\left(0, 4.7 +
@@ -349,18 +351,18 @@ It must be noted that only super-cluster footprint-removed charged hadron isolat
 It is crucial that initial and final state radiation (ISR/FSR) is modelled correctly for this analysis as photons from initial and final state radiation are not considered as signal and we therefore implement cuts in $\eta$ and $\phi$ to reduce these events. The definition of isolation has been modified from the recommended values in order to make the data-driven estimate of the selection purity more robust.
 
 \begin{description}
-\item[\Delta R(\gamma, leptons)] In order to diminish FSR in final state leptons, e.g photons radiated off high $p_T$ muons, a minimum distance criterion in the $\eta - \phi$ plane is implemented. The cut is given as $\Delta R(\gamma, leptons) > 0.3$.
+\item[$\Delta R(\gamma, leptons)$] In order to diminish FSR in final state leptons, e.g photons radiated off high $p_T$ muons, a minimum distance criterion in the $\eta - \phi$ plane is implemented. The cut is given as $\Delta R(\gamma, leptons) > 0.3$.
 
-\item[\Delta R(\gamma, jets)] In order to reduce FSR in final state partons a minimum distance criterion in the $\eta - \phi$ plane is implemented. The cut is given as $\Delta R(\gamma, jets) > 0.3$.
+\item[$\Delta R(\gamma, jets)$] In order to reduce FSR in final state partons a minimum distance criterion in the $\eta - \phi$ plane is implemented. The cut is given as $\Delta R(\gamma, jets) > 0.3$.
 
-\item[\Delta R(leptons, jets)] In order to reduce FSR in final state partons a minimum distance criterion in the $\eta - \phi$ plane is implemented. The cut is given as $\Delta R(leptons, jets) > 0.3$.
+\item[$\Delta R(leptons, jets)$] In order to reduce FSR in final state partons a minimum distance criterion in the $\eta - \phi$ plane is implemented. The cut is given as $\Delta R(leptons, jets) > 0.3$.
 \end{description}
 
 A significance test was performed in an attempt to optimise the $\Delta R$ cut between final state leptons and jets, however this proved inconclusive due to an initial cut of $\Delta R > 0.1$ at generator level.
 
 \subsection{Super-cluster footprint-removal for photon isolation} \label{subsec-SCFR}
 
-The $t\bar{t}+\gamma$ analysis uses a method of removing the photon shower energy deposit, or ``footprint", from the isolation cone in order to remove the energy deposits of the selected photon from the isolation sum, and thus minimise correlation the between shower shape and isolation components in our signal process --- super-cluster footprint removal (SCFR). With this method the footprint is, effectively, cleaned so that the isolation sum is not biased from the presence of the photon at the centre of the cone. Shower-shape variables, defined within the super-cluster, are then decoupled from the isolation computation, defined outside of the super-cluster. When the footprint of the photon has finally been removed, the isolation sum for prompt photons is due only to pileup and underlying events. The process calculates each isolation component individually, however we only consider the charged hadron component of the isolation sum using this technique, which is then used to model our background and signal processes. This method was first implemented as a technique upon measuring the diphoton cross-section with 7 TeV data \cite{AN-12-485}. The main features of this module are improvement in the agreement between data and MC for ECAL detector-based isolation, better discriminating power against the misidentification of photons, and it allows us to use a fully data-driven method for constructing our template fit.
+The $t\bar{t}+\gamma$ analysis uses a method of removing the photon shower energy deposit, or ``footprint", from the isolation cone in order to remove the energy deposits of the selected photon from the isolation sum, and thus minimise correlation the between shower shape and isolation components in our signal process --- super-cluster footprint removal (SCFR). With this method the footprint is, effectively, cleaned so that the isolation sum is not biased from the presence of the photon at the centre of the cone. Shower-shape variables, defined within the super-cluster, are then decoupled from the isolation computation, defined outside of the super-cluster. When the footprint of the photon has finally been removed, the isolation sum for prompt photons is due only to pileup and underlying events. The process calculates each isolation component individually, however we only consider the charged hadron component of the isolation sum using this technique, which is then used to model our background and signal processes. This method was first implemented as a technique upon measuring the diphoton cross-section with 7 TeV data \cite{diffxsectdiphoton}. The main features of this module are improvement in the agreement between data and MC for ECAL detector-based isolation, better discriminating power against the misidentification of photons, and it allows us to use a fully data-driven method for constructing our template fit.
 
 We define photon isolation as the sum of the transverse momenta of all particles falling within the isolation cone surrounding the photon candidate. We define the isolation cone to be within a $\Delta R < 0.3$, where $\Delta R = \sqrt{(\Delta\eta)^2+(\Delta\phi)^2}$. The momentum of the prompt photon should not contribute to the isolation sum, and thus particles found close to the photon footprint are not included within the sum. 
 
@@ -384,11 +386,12 @@ This does not have too much of an impact when using the standard cut-based parti
 
 Super-cluster footprint-removed isolation deals with PF candidates, whereas PF isolation deals with identified particles. This reduces the probability for the first pit-fall to happen. The second pit-fall arises due to the leakage of energy from the photon into the isolation cone around the super-cluster. Therefore, a different method for defining the isolation cone is implemented to overcome this problem, whereby summing the transverse momentum of particle flow candidates that fall within the isolation cone, but which are not close to the super-cluster in the ECAL. The $\eta$ and $\phi$ coordinates of the super-cluster are calculated by checking the position of hits recorded, and if a PF candidate that has been propagated to the surface of the calorimeter lies within the super-cluster, enlarged by 25\%, then the photon is not considered isolation and thus the candidate is not added to the isolation sum. The standard CMS implementation for energy density correction, $\rho$, is applied to the isolation to account for pileup. 
 
-\begin{figure} \label{fig-SCFR}
+\begin{figure} 
 \begin{center}
 \includegraphics[width=0.4\textwidth]{Figures/RandomCone3.pdf}
-\caption{Graphic representation of the PF candidate footprint (in red) from the primary interaction vertex, within the isolation cone (green). \cite{MarcoThesis}}
 \end{center}
+\caption{Graphic representation of the PF candidate footprint (in red) from the primary interaction vertex, within the isolation cone (green). \cite{MarcoThesis}}
+\label{fig-SCFR}
 \end{figure}
 
 \subsection{Signal template construction using the random cone method}
@@ -404,11 +407,12 @@ Contributions from these effects, generally, do not vary for an isolation sum wh
 
 We then calculate the isolation sum within a cone centred on our chosen direction. The difference when performing footprint removal now is that there is no super-cluster lying along the cone axis, and therefore it must be performed in a different way: the area corresponding to that in which the photon super-cluster lies, which is rotated in $\phi_{Rand.Cone}$ in order to align with the random cone axis, is not included within the calculation process. In this manner, both the area which we consider for the isolation sum, and the area throughout the centre of the cone replacing the photon candidate footprint, has exactly the same shape and extension in the photon and random cone directions.   
 
-\begin{figure} \label{fig-RandomConeIsolation}
+\begin{figure} 
 \begin{center}
 \includegraphics[width=0.45\textwidth]{Figures/RandomCone1.png}\includegraphics[width=0.55\textwidth]{Figures/RandomCone2.png}
-\caption{Illustration of the random cone technique. Under the assumption that the footprint of the photon (red) is completely removed from the isolation sum, the energy deposited in the random-cone area (green in right image) predicts the energy deposited in the isolation cone (green area in left image). \cite{MarcoThesis}}
 \end{center}
+\caption{Illustration of the random cone technique. Under the assumption that the footprint of the photon (red) is completely removed from the isolation sum, the energy deposited in the random-cone area (green in right image) predicts the energy deposited in the isolation cone (green area in left image). \cite{MarcoThesis}}
+\label{fig-RandomConeIsolation}
 \end{figure}
 
 \section{Background Estimation}
@@ -423,27 +427,29 @@ We calculate the shower shape of the photon by measuring energy deposits from wi
 
 Talk about agreement between data and simulation. 
 
-\begin{figure} \label{fig-PhotonShowerShape}
-\begin{center}
-\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_sigma_ietaieta_barrel_splitTTbar_ratio.pdf}
-\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_sigma_ietaieta_barrel_splitTTbar_ratio.pdf}
-\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_sigma_ietaieta_barrel_splitTTbar_ratio.pdf}
-\caption{}
-\end{center}
-\end{figure}
+% \begin{figure} 
+% \begin{center}
+% \includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_sigma_ietaieta_barrel_splitTTbar_ratio.pdf}
+% \includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_sigma_ietaieta_barrel_splitTTbar_ratio.pdf}
+% \includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_sigma_ietaieta_barrel_splitTTbar_ratio.pdf}
+% \end{center}
+% \caption{}
+% \label{fig-PhotonShowerShape}
+% \end{figure}
 
-\begin{figure} \label{fig-SCFRChargedHadronIso}
-\begin{center}
-\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_RhoCorrectedSCChIso_barrel_splitTTbar_ratio.pdf}
-\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_RhoCorrectedSCChIso_barrel_splitTTbar_ratio.pdf}
-\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_RhoCorrectedSCChIso_barrel_splitTTbar_ratio.pdf}
-\caption{}
-\end{center}
-\end{figure}
+% \begin{figure} \label{fig-SCFRChargedHadronIso}
+% \begin{center}
+% \includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_RhoCorrectedSCChIso_barrel_splitTTbar_ratio.pdf}
+% \includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_RhoCorrectedSCChIso_barrel_splitTTbar_ratio.pdf}
+% \includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_RhoCorrectedSCChIso_barrel_splitTTbar_ratio.pdf}
+% \end{center}
+% \caption{}
+% \label{fig-SCFRChargedHadronIso}
+% \end{figure}
 
 
 
-\begin{sidewaystable} \label{tab-datasets}
+\begin{sidewaystable} 
 \begin{center}
 \begin{tabular}{|l|c|c|}
 \hline
@@ -471,7 +477,8 @@ Talk about agreement between data and simulation.
 	Total & & 19.7\\	
 \hline	
 \end{tabular}	
-\caption{Dataset information for each run in each respective decay channel.}
 \end{center}
+\caption{Dataset information for each run in each respective decay channel.}
+\label{tab-datasets}
 \end{sidewaystable}
 

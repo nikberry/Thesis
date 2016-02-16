@@ -9,6 +9,7 @@
 \usepackage[margin=1.1in]{geometry}
 \usepackage{lineno}
 \usepackage{bbold}
+\usepackage{xspace}
 \usepackage{epstopdf}
 \usepackage{slashed}
 \usepackage{fancyhdr}
@@ -36,6 +37,7 @@
 %\include{pdefs}
 \usepackage{ptdr-definitions}
 \usepackage{caption,subcaption}
+\setlength{\headheight}{14pt} 
 
 \hypersetup{
     colorlinks,
@@ -74,7 +76,7 @@
 \textsc{\Large Doctoral Thesis}\\[0.5cm] % Thesis type
 
 \HRule \\[0.4cm] % Horizontal line
-{\huge \bfseries Measurement of the inclusive top-quark pair plus a radiated photon production cross section in the dilepton channel in pp collisions at 8TeV}\\[0.3cm] 
+{\huge \bfseries Measurement of the inclusive top-quark pair plus a radiated photon production cross section in the dilepton channel in pp collisions at 8 TeV}\\[0.3cm] 
 \HRule \\[1.5cm] % Horizontal line
  
 \begin{minipage}{0.4\textwidth}
@@ -111,7 +113,7 @@ Prof. Peter Hobson
 
 \newpage
 
-\begin{declaration}
+%\begin{declaration}
 \begin{center}
  \begin{large}
 \textbf{Declaration of Authorship}
@@ -128,7 +130,7 @@ SIGNED: $...............................................................$  DATE:
 \vspace{12pt}
 \end{center}
 \null\vfill
-\end{declaration}
+%\end{declaration}
 
 \clearpage
 
@@ -168,10 +170,10 @@ section, $R=\frac{\sigma_{t\bar{t}+\gamma}}{\sigma_{t\bar{t}}}$, is exploited in
 %Acknowledgements
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\acknowledgements{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+%\acknowledgements{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
 
 The acknowledgements and the people to thank go here, don't forget to include your project advisor\ldots
-}
+%}
 \clearpage % Start a new page
 
 % Insert biography and acknowledgements code here
@@ -181,7 +183,7 @@ The acknowledgements and the people to thank go here, don't forget to include yo
 \pagenumbering{roman}
 
 \pagestyle{fancy}
-\fancyhead[LE,RO]{\slshape \nouppercase } %\rightmark
+\fancyhead[L,RO]{\slshape \nouppercase } %\rightmark
 \fancyhead[RE,LO]{\slshape \nouppercase \leftmark}
 
 \tableofcontents
@@ -233,7 +235,7 @@ The acknowledgements and the people to thank go here, don't forget to include yo
 
 \section{Operator contributions to $\gamma t \bar{t}$}
 
-Here we show the contributions to the effective $\gamma t \bar{t}$ vertices of the operators in Equation \ref{}. We use the shorthand $\alpha_x = C_x/\Lambda^2$ and drop the indices from the $\alpha$ constants.
+Here we show the contributions to the effective $\gamma t \bar{t}$ vertices of the operators in Equation \ref{eqn-effectiveOperators}. We use the shorthand $\alpha_x = C_x/\Lambda^2$ and drop the indices from the $\alpha$ constants.
 
 \begin{align}
 \alpha O^{33}_{uW} + \alpha^* (O^{33}_{uW})^{\dagger} & \supset \frac{v}{\sqrt{2}}s_W \lbrack \text{Re} \alpha\bar{t}\lambda^a g^{\mu \nu} t + i \text{Im} \alpha \bar{t}\lambda^a g^{\mu \nu} \gamma^5 t\rbrack G^a_{\nu} Z_{\mu}\\ 
@@ -245,7 +247,7 @@ Here we show the contributions to the effective $\gamma t \bar{t}$ vertices of t
 
 \section{Electron \& Muon Efficiencies}
 
-\begin{table} \label{tab-ElectronEfficiencies}
+\begin{table} 
 \begin{center}
 \resizebox{\columnwidth}{!} {
 \begin{tabular}{|c|c|c|c|c|}
@@ -259,11 +261,12 @@ Here we show the contributions to the effective $\gamma t \bar{t}$ vertices of t
 \hline	
 \end{tabular}
 }
-\caption{Electron ID \& isolation efficiencies \cite{ElectronEfficiencies}.}
 \end{center}
+\caption{Electron ID \& isolation efficiencies \cite{ElectronEfficiencies}.}
+\label{tab-ElectronEfficiencies}
 \end{table}
 
-\begin{table} \label{tab-MuonEfficiencies}
+\begin{table} 
 \begin{center}
 \begin{tabular}{|c|c|}
 \hline
@@ -275,11 +278,13 @@ Here we show the contributions to the effective $\gamma t \bar{t}$ vertices of t
 	$2.1 < |\eta| < 2.5$ & 1.0000 $\pm$ 0.0003 \\
 \hline	
 \end{tabular}
-\caption{Muon ID \& isolation efficiencies \cite{MuonEfficiencies}.}
 \end{center}
+\caption{Muon ID \& isolation efficiencies \cite{MuonEfficiencies}.}
+\label{tab-MuonEfficiencies}
 \end{table}
 
 \bibliography{PhDThesis}
 \bibliographystyle{unsrt}
+%\bibliographystyle{plain}
 \addcontentsline{toc}{chapter}{Bibliography}
 \end{document}
