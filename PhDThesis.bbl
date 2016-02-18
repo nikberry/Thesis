@@ -20,6 +20,17 @@ Thomas Mueller.
 \newblock New results from the top quark.
 \newblock 2012.
 
+\bibitem{ttgammabackgroundestimation}
+Thomas Steeger.
+\newblock Background estimation in a search for $t\bar{t}+\gamma$ events.
+\newblock {\em Bachelor Thesis}, August, 2012.
+
+\bibitem{photonbackgrounds}
+Thomas Hermanns.
+\newblock Studies at the cms experiment on silicon microstrip module defects
+  and on photon identification in semileptonic $t\bar{t}$ events.
+\newblock {\em PhD Thesis}, CERN-THESIS-2008-111, 12/008.
+
 \bibitem{heinerthesis}
 H.~J.~A. Tholen and A.~Stah.
 \newblock Study of the inclusive $t\bar{t}+\gamma$ cross-section with the cms
@@ -98,17 +109,6 @@ Mikhail Makouski.
 \newblock A measurement of top quark pair and photon production cross section
   with cms detector.
 \newblock {\em PhD Thesis}, 2015.
-
-\bibitem{ttgammabackgroundestimation}
-Thomas Steeger.
-\newblock Background estimation in a search for $t\bar{t}+\gamma$ events.
-\newblock {\em Bachelor Thesis}, August, 2012.
-
-\bibitem{photonbackgrounds}
-Thomas Hermanns.
-\newblock Studies at the cms experiment on silicon microstrip module defects
-  and on photon identification in semileptonic $t\bar{t}$ events.
-\newblock {\em PhD Thesis}, CERN-THESIS-2008-111, 12/008.
 
 \bibitem{Czakon:2013goa}
 Michał Czakon, Paul Fiedler, and Alexander Mitov.
@@ -287,6 +287,18 @@ CDF Collaboration.
   $\overline{\mathit{p}}\mathit{p}$ collisions with the collider detector at
   fermilab.
 \newblock {\em Phys. Rev. Lett.}, 74:2626--2631, Apr 1995.
+
+\bibitem{Melnikov:2000qh}
+Kirill Melnikov and Timo~van Ritbergen.
+\newblock {The Three loop relation between the MS-bar and the pole quark
+  masses}.
+\newblock {\em Phys. Lett.}, B482:99--108, 2000.
+
+\bibitem{Jegerlehner:2012kn}
+Fred Jegerlehner, Mikhail~{\relax Yu}. Kalmykov, and Bernd~A. Kniehl.
+\newblock {On the difference between the pole and the $\overline {MS}$ masses
+  of the top quark at the electroweak scale}.
+\newblock {\em Phys. Lett.}, B722:123--129, 2013.
 
 \bibitem{ATLAS:2014wva}
 {First combination of Tevatron and LHC measurements of the top-quark mass}.

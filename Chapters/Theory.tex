@@ -16,7 +16,7 @@ again and still remaining strong. The SM is a quantum field theory that describe
 one another with the exception of gravity. It categorises fundamental particles and forces into three categories: three generations of quarks 
 of type up and down, three generations of leptons, each linked to their corresponding neutrino type, and the forces. We can classify these 
 categories into fermions, fundamental matter particles, and bosons, force particles carrying the quanta of the electromagnetic, weak, and 
-strong forces. The three categories are shown in Figure \ref{fig-SM}. 
+strong forces. The three categories are shown in Figure \ref{fig-SM}. Each fundamental particle holds a property called ``spin", which is the intrinsic angular momentum of that particle. Fermions are all spin-1/2 particles, whereas the bosons are all spin-1 particles --- with the exception of the Higgs, which has a spin of 0.
 
 The Standard Model was first introduced in the 1960s when Sheldon Glashow first combined the weak and electromagnetic forces \cite{
 Glashow:1961tr} to form an $SU(2)_L \otimes U(1)_Y$ gauge invariant electroweak model, which was then extended to incorporate the Higgs 
@@ -41,17 +41,6 @@ thus the acquisition of mass in fundamental particles. Although first postulated
 PhysRevLett.13.585}, the Higgs mechanism was only recently verified with the discovery of the Higgs boson with the ATLAS \cite{Aad:2012tfa} and 
 CMS \cite{b846af59f42d440a9058d93ed5df44cf} experiments at the Large Hadron Collider (LHC), CERN. This Higgs mechanism essentially completes 
 our picture of the Standard Model, with the exception of various short-comings described in Section \ref{subsec-SMFailures}.
-
-
-% It is a peculiar fact that only the first generation of quarks and leptons are needed to create the entire observable universe.
-
-% DGLAP?
-
-% hard-scattering pp collisions
-
-% \begin{equation}
-% \sigma_{pp \to X} = \int^1_0dx_1 \int^1_0dx_2 \sum_{a,b} f_a(x_1, \mu_F^2) f_b(x_2, \mu_F^2) \hat{\sigma}_{ab \to X}(Q^2, \mu_F^2)
-% \end{equation}
 
 
 \subsection{Gauge theory}
@@ -546,16 +535,26 @@ V_{CKM}
 
 \subsection{Where the Standard Model fails} \label{subsec-SMFailures}
 
-The Standard Model of particle physics is has come under intense scrutiny for the past 50 years, and has always prevailed. Although the model is so finely crafted, it does not come without its failures. 
+The Standard Model of particle physics is has come under intense scrutiny for the past 50 years, and has always prevailed. Although the model is so finely crafted, it does not come without its failures. For example, as we know that neutrinos are in fact massive particles, we must incorporate new parameters to include the masses of the neutrinos. Despite all measurements conducted using all currently available experimental data describing the Standard Model to a high accuracy, there are still a number of questions that it does not answer:
 
-GUT
+\begin{itemize}
+	\item What are the values of the neutrino mass parameters?
+	\item Why is the top quark so much heavier than the other fundamental particles?
+	\item Why is gravity not incorporated within the Standard Model?
+	\item Can CP-violation explain the abundance of matter over anti-matter in the universe?
+	\item Why is the electroweak scale so much smaller than the GUT scale and so much larger than the Planck scale? 
+	\item What is Dark Matter and Dark Energy?
+\end{itemize} 
 
+At present we do not posses any definitive answers to any of these questions. However, there are a number of theoretical models motivated by Beyond the Standard Model (BSM) physics trying to address these problems. Unfortunately, we are yet to observe any evidence in agreement with any of these models. Some of the more prominent and accepted models to address problems in the Standard Model are listed below.
 
-Most of the new physics models that are created are done so in order to overcome the so called \emph{hierarchy problem}, i.e. why is it that 
-the electroweak scale is much larger than the Planck scale, where gravity is much stronger, and so much less than GUT scales? Usually whene we 
-refer to the hierarchy problem we refer to the technical hierarchy problem, relating to the mass of the Higgs boson. When considering the mass 
-of the Higgs boson, we observe quantum corrections in the form of fermion loops, as shown in Figure \ref{fig-HiggsCorrections}. 
-
+\begin{description}
+	\item[Grand Unified Theory] A Grand Unified Theory (GUT) was one of the original ideas proposed to overcome problems in the SM. The premise is that the SM gauge group $SU(3)_C \otimes SU(2)_L \otimes U(1)_Y$ is actually just a subset of a larger gauge symmetry, the simplest of which is a $SU(5)$ gauge symmetry. This simplest case implies that $SU(5)$ has $5^2 - 1 = 24$ generators in the group, and thus 24 gauge bosons in the model, and thus 12 more gauge bosons than in the SM. In this new theory there are two stages of symmetry breaking, whereby the $SU(5)$ symmetry is broken at the GUT scale and the new bosons acquire mass, and at the electroweak scale symmetry breaking proceeds as usual. However, we can identify three problems with this theory: couplings do not unify at the GUT scale; why is the GUT scale higher than the electroweak scale; and protons are described to decay via the exchange of the new scalar bosons in the GUT model.
+	\item[Hierarchy Problem] Most of the new physics models that are created are done so in order to overcome the so called \emph{hierarchy problem}, i.e. why is it that the electroweak scale is much larger than the Planck scale, where gravity is much stronger, and so much less than GUT scales? Usually when we refer to the hierarchy problem we refer to the technical hierarchy problem, relating to the mass of the Higgs boson. When considering the mass of the Higgs boson, we observe quantum corrections in the form of fermion loops, as shown in Figure \ref{fig-HiggsCorrections}. 
+	\item[Technicolour] One of the oldest solutions to the hierarchy problem, Technicolour says that as the main problems arise from the inclusion of a fundamental scalar particle, they can be solved by not incorporating one. This is done by introducing a new set of gauge interactions, \emph{Technicolour}, which acts on the new ``technifermions". This process can be described in a similar manner to QCD with the use of different gauge groups. Technifermions are created in bound states with the lightest being the technipions, and using the Higgs mechanism, the longitudinal components of the $W^{\pm}$ and $Z^0$ bosons arise, generating the gauge boson masses. However, there must also be a mechanism whereby the technifermions acquire their masses. \emph{Extended Technicolour} models have been hard to construct which have not already been ruled out. This idea lost favour until recent models containing a ``little Higgs" have sparked a resurgence of the idea.
+	\item[Supersymmetry] In Supersymmetry (SUSY) we have for every fermionic degree of freedom a corresponding bosonic degree of freedom and visa versa. That is to say that each fermionic particle in the SM has two corresponding bosonic supersymmetric particles, with spin-0 for bosonic partners, and each bosonic SM particle has one fermionic supersymmetric particle with a spin of 1/2. The supersymmetric partners to SM particles can be seen, for the first generation at least, in Table \ref{tab-SUSYParticles}. In SUSY we require two Higgs doublets to give mass to both up- and down-type quarks such that the transformation is still invariant under a local gauge transformation. If we introduce a scalar loop into the Higgs propagator, as shown in Figure \ref{fig-SUSYHiggs}, we introduce a new contribution to the Higgs mass. This property is one of the main aspects of SUSY as introducing two scalars, with the same mass, for every fermion then cancels out the quadratic divergences. SUSY also incorporates dark matter by introducing a particle called the ``lightest supersymmetric particle" which is a dark matter particle. 
+	\item[Extra Dimensions] Another way to overcome the hierarchy principle comes in the form of extra dimensions. There are many models that describe the universe in more than 4 dimensions --- the most popular theories describe the universe in 10 or 11 dimensions. In these theories gravity is said to propagate through our current three dimensions into smaller extra dimensions, and thus leads to a reduction in the hierarchy between the electroweak and Planck scales.
+\end{description}
 
 \begin{figure}
 \begin{center}
@@ -564,23 +563,6 @@ of the Higgs boson, we observe quantum corrections in the form of fermion loops,
 \caption{Quantum correction to the mass of the Higgs boson via a fermion loop.}
 \label{fig-HiggsCorrections}
 \end{figure}
-
- If we look at the Higgs mass there
-are quantum corrections from fermion loops such as that shown in Fig. 38. This gives a
-correction to the Higgs mass
-
-Dark matter
-Dark Energy
-CP violation 
-Neutrino mass heierarchy 
-No right-handed neutrinos
-Majorana neutrinos?
-Gravity
-
-
-models to solve these issues
-
-SUSY
 
 \begin{table}
 \begin{center}
@@ -610,13 +592,23 @@ $H^+$ & 0 & Higgsino & 1/2 \\
 \label{tab-SUSYParticles}
 \end{table}
 
-Technicolour
-FCNC
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.4\textwidth]{Figures/SUSYHiggs.png}
+\end{center}
+\caption{The introduction of a new scalar boson loop in the Higgs boson propagator.}
+\label{fig-SUSYHiggs}
+\end{figure}
 
+There are a number of ways of searching for BSM effects, including the following:
 
-Extra dimensions
+\begin{description}
+	\item[Collider Experiments] If the theory is correct, then BSM particles should be detectable at collider experiments, such as the LHC, and decay to SM particles. These types of particles would be detected by all-purpose discovery machines like the ATLAS and CMS experiments.
+	\item[Precision Experiments] By measuring SM processes to an extremely high precision, we are able to compare the results to theoretical prediction and measure any deviations. Experiments such as LEP ($e^+e^-$ collider) provide high precision measurements of the $Z^0$ pole, and the $g - 2$ experiment which measures the anomalous magnetic moment of the muon.
+	\item[Rare Decay/Process Measurements] Measurements can be conducted my calculating the cross-section or decay rate of a rare decay/process which is predicted to be extremely small within the SM. Examples of such experiments include: the NA62 experiment, which measures rare decays of kaons, neutron electric dipole moment experiments, proton decay experiments, neutrino mixing experiments (T2K/SuperKamiokande), and CP violation experiments such as LHCb and Belle. 
+\end{description}
 
-% http://www.stfc.ac.uk/stfc/includes/themes/MuraSTFC/assets/legacy/2592_res_6.pdf
+In practice we see that several detection techniques are in fact complimentary to one another, for example CP-violation is a process that must be studied by dedicated experiments, however if the results from these experiments differ from that of the SM then there should be new particles which should be observable in collider experiments. 
 
 \section{The Top Quark} \label{sec-TheTopQuark}
 
@@ -631,16 +623,12 @@ Fermilab, Illinois) first observed the top quark, which subsequently prompted Ko
 predictions in 2008.
 
 The mass of the top quark is of critical importance due to the fact that the Yukawa coupling (coupling to the Higgs) of the top is close to 
-unity, and is thus at the scale of electroweak symmetry breaking. The mass of the W boson and the top are two of the most important parameters 
-to global electroweak fits constraining the Higgs potential. The most up-to-date measurement of the top mass has been calculated by combining 
-results from the LHC and the Tevatron to be $m_{top} = 173.34 \pm 0.27(stat.) \pm 0.71(syst.)$ GeV/c$^2$ \cite{ATLAS:2014wva}. sAs a direct 
-result of the top quarks extremely large mass, it has a very short decay time which is shorter than the time required for quarks to hadronise 
-and form composite particles with other quarks. The decay time of the top is approximately $5 \times 10^{-25}$ s \cite{Quadt:2007jk}, whereas 
-the hadronisation time for quarks is given as $\tau_{had.} \approx 1/\Lambda_{QCD} \approx 10^{-23}$ s \cite{0954-3899-37-7A-075021}. Thus, we 
-never observe $t\bar{t}$ bound states and the information relating to spin is inherited by the decay products of the top. Therefore the top 
-quark provides unique opportunities to study precision tests of the Standard Model.
+unity, and is thus at the scale of electroweak symmetry breaking. Although the top quark mass is a vital parameter in the SM, there is a 
+conceptual problem when defining the mass of the top. The problem arises when we consider free particles, such as leptons, where the mass is 
+well defined, but when we consider confined states then there is no straight forward way in which we can measure the mass of that particle. We must infer the mass of the top and define a scheme by which to measure this property, noting that the value is subject to change depending on the scheme used. The two main interpretations of the top mass are the pole mass and minimal subtraction ($\overline{MS}$) schemes. When we consider the pole mass we treat the top mass as a physical mass term in the quark propagator, similar to any other free particle. This works well in perturbation theory, however the non-perturbative infra-red effects in QCD, additional loops from self-interacting gluons, are not accounted for in this scheme. In order to define a realistic and finite value for the mass of the top, a renormalisation scheme is introduced --- the $\overline{MS}$ scheme. The scheme is often called the running mass, due to its dependence on the renormalisation scale, $\mu$, which is essentially arbitrary. It is possible for the mass derived from the $\overline{MS}$ scheme to be calculated from the pole mass \cite{Melnikov:2000qh}, however the $\overline{MS}$ top quark mass can be extracted straight from data, and is thus a more preferential method. A recent result shows that, when incorporating electroweak corrections for a Higgs mass of 125 GeV, the difference between the pole and $\overline{MS}$ schemes results in around a 1 GeV difference \cite{Jegerlehner:2012kn}. 
 
-%%%%%%%%%%%%%%% 
+The mass of the W boson and the top are two of the most important parameters to global electroweak fits constraining the Higgs potential. The most up-to-date measurement of the top mass has been calculated by combining results from the LHC and the Tevatron to be $m_{top} = 173.34 \pm 0.27(stat.) \pm 0.71(syst.)$ GeV/c$^2$ \cite{ATLAS:2014wva}. As a direct result of the top quarks extremely large mass, it has a very short decay time which is shorter than the time required for quarks to hadronise and form composite particles with other quarks. The decay time of the top is approximately $5 \times 10^{-25}$ s \cite{Quadt:2007jk}, whereas the hadronisation time for quarks is given as $\tau_{had.} \approx 1/\Lambda_{QCD} \approx 10^{-23}$ s \cite{0954-3899-37-7A-075021}. Thus, we never observe $t\bar{t}$ bound states and the information relating to spin is inherited by the decay products of the top. Therefore the top quark provides unique opportunities to study precision tests of the Standard Model.
+
 
 \subsection{Top quark production at hadron colliders} \label{subsec-TopProduction}
 
@@ -755,11 +743,58 @@ In this analysis we only consider the fully leptonic (or di-leptonic or dilepton
 \label{fig-ttgammaFeynmanDiagram}
 \end{figure}
 
+\subsection{$t\bar{t}+\gamma$ background processes} \label{subsec-ttgammabackgrounds}
+
+\begin{figure} [h!]
+\begin{center}
+\includegraphics[width=\textwidth]{Figures/BackgroundDiagrams.png}
+\end{center}
+\caption{Examples of Feynman graphs of the considered $t\bar{t}$ backgrounds. QCD showering is necessary in all cases to obtain the required jet multiplicity \cite{ttgammabackgroundestimation}.}
+\label{fig-SignalBackgrounds}
+\end{figure}
+
+Many processes produced in collisions at the LHC mimic top quark pair decay, and as a result it is important that we glean a good understanding of these background processes in order to produce an accurate and reliable measurement. The most significant background processes are shown in Figure \ref{fig-SignalBackgrounds}. In order for these signatures to mimic our signal process they must contain at least two oppositely-signed leptons and two jets by $\alpha_S$ showering (gluon radiation). We categorise the background processes for the $t\bar{t}+\gamma$ analysis into top-pair and photon-related backgrounds, and the most significant of these are described in greater detail below.
+
+\begin{description}
+	\item[W+Jets] The production of a W boson with additional jet activity is shown in Figure \ref{fig-SignalBackgrounds} (a). In this process a W boson is produced which decays to a single lepton (electron or muon) and corresponding neutrino in the form of missing transverse energy. If the there are at least two jets in the final state for this decay, and one jet is wrongly identified as a muon, then it is likely that it would mimic a dileptonic $t\bar{t}$ event. However, leptons and jets originating from the W+Jets process are usually much softer than those of $t\bar{t}$ decay, due to the top quarks large mass. Therefore it is even less probable that jets from W+Jets are b-tagged jets, which are required in our signal process, thus by implementing cuts on the transverse momenta of jets and leptons will reduce the probability of a false signal identification.  
+	\item[DY+Jets] The Drell-Yan plus jets process is similar to W+Jets, and is the production of a $Z^0$ boson or photon with additional jets. The bosons then produce two oppositely signed electrons or muons, and with the additional jet activity this results in the same final state as our signal process. Therefore, several techniques must be applied to veto on/reduce this background, such as placing a veto on events that fall into the window such that the invariant mass of the two final state leptons form the Z mass, and also placing a requirement on the missing transverse energy of the event as the DY+Jets process does not include neutrinos. Similar to the W+jets background process, the yield can be drastically reduced by placing a requirement of at least two jets, where one is a b-tagged jet, in the final state. 
+	\item[Single Top] We observe single top quark contributions in three channels: s-channel, t-channel, and associated with a W boson (see Figure \ref{fig-singletopProductionLHC}). Although the cross-section is small for these processes, they may contribute significantly to the selection of top pairs, due to their event topology. Their signature may still contain the same final state particles as the dilepton $t\bar{t}$ channel, thus mimicking our signal. Single top production generally contains a lower number of jets in the final state, compared to $t\bar{t}$, however additional jets can emerge from initial and final state radiation (ISR/FSR).  
+	\item[QCD Multi-jet] Due to the topology of dilepton events, and the energy of jets originating from QCD being low, we deem this background negligible and do not include it in this analysis. 
+	\item[Other $t\bar{t}$ decay modes] Top pair decays other than the dilepton channel (such as the semi-leptonic, fully hadronic, and decay modes that involve tau leptons) are not treated separately. As these decay modes may radiate a photon, it is possible that they can contribute to the $t\bar{t}+\gamma$ signal yield. This is however considered to be small.  
+\end{description}
+
+Other background processes, such as diboson production, are considered negligible and are not included due to their very small cross-sections and selection efficiencies.
+
+\subsection{Backgrounds of photon signature}
+
+Photon related background processes are subdivided into three classes. The first two of these comprise the irreducible backgrounds (backgrounds which contain real photons) radiated from initial state partons (ISR), shown in Figure \ref{fig-BackgroundISR}, and photons radiated from final state partons in the hard scattering interactions (FSR), shown in Figure \ref{fig-BackgroundFSR}. The third category contains what we call ``fake photons" originating from electrons passing the same cuts as photons, and jets reconstructed as photons. It is assumed that photon showering in background samples describes the photon background sufficiently for these events. 
+
+%%%%%%%%%%%%%%%
+
+\newpage
+
+\begin{figure} [h!]
+\begin{center}
+\includegraphics[width=\textwidth]{Figures/BackgroundISR.png}
+\end{center}
+\caption{Background of photon identification: Initial state radiation (ISR). Left: Quark fusion. Right: Gluon fusion does not give rise to ISR (based on \cite{photonbackgrounds}).}
+\label{fig-BackgroundISR}
+\end{figure}
+
+\begin{figure} [h!]
+\begin{center}
+\includegraphics[width=\textwidth]{Figures/BackgroundFSR.png}
+\end{center}
+\caption{Background of photon identification: Final state radiation (FSR). All charged particles in the top-pair decay tree contribute to FSR \cite{photonbackgrounds}.}
+\label{fig-BackgroundFSR}
+\end{figure}
+
+
 \subsection{Top quark anomalous couplings}
 
 The measurement of the couplings between the known fermions and bosons is a standard tool in the search for physics beyond the Standard Model. At the LHC top quarks are produced in copious amounts, allowing us to probe top couplings to a great precision. The large mass of the top quark is directly related to the effects of new physics on its couplings such that deviations from Standard Model predictions may be detectable, therefore the LHC provides the perfect environment in which to study such effects.
 
-The top quark provides a direct test of the quark-photon vertex which is unique among the quarks, thus there is great interest as to the determination of the coupling of the top quark and photon, and probing the $t\bar{t}\gamma$ channel at the LHC with an energy of 8 TeV provides directly explore the top quarks role in the mechanism of electroweak symmetry breaking. Any deviation from that of SM prediction would imply an anomalous structure of the quark-photon vertex, and would thus reveal any physics beyond that of the Standard Model, such as exotic quarks, SUSY, technicolour. 
+The top quark provides a direct test of the quark-photon vertex which is unique among the quarks, thus there is great interest as to the determination of the coupling of the top quark and photon, and probing the $t\bar{t}\gamma$ channel at the LHC with an energy of 8 TeV provides directly explore the top quarks role in the mechanism of electroweak symmetry breaking. Any deviation from that of SM prediction would imply an anomalous structure of the quark-photon vertex, and would thus reveal any physics beyond that of the Standard Model, such as exotic quarks, SUSY, and technicolour, as described in Section \ref{subsec-SMFailures}. 
 
 In order to successfully create a model of interactions between fermions and bosons, we require a good enough parametrisation of the interactions in the form a Lagrangian. We can write a general parametrisation for the on-shell interaction of two fermions ($f_i$, $f_j$) and a boson ($V = W,Z,\gamma,g$) as
 
@@ -791,6 +826,8 @@ Among the operators defined in the effective Lagrangian \cite{Buchmuller:1985jz}
 \end{align} \label{eqn-effectiveOperators}
 
 for different flavours represented by the indices $i,j = 1,2,3$. $\bar{q}_{Li}$, $u_{Ri}$, and $d_{Ri}$ represent the quark fields as shown in Section \ref{subsec-ElectroweakTheory}. The operators where we have $i = j = 3$ contribute to the electroweak coupling processes $Wtb$, $Zt\bar{t}$, and $\gamma t\bar{t}$. 
+
+% \cite{Whisnant:1997qu} \cite{Yang:1997iv}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

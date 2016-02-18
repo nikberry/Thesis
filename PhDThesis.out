@@ -10,83 +10,83 @@
 \BOOKMARK [1][-]{section.1.2}{The Top Quark}{chapter.1}% 10
 \BOOKMARK [2][-]{subsection.1.2.1}{Top quark production at hadron colliders}{section.1.2}% 11
 \BOOKMARK [2][-]{subsection.1.2.2}{Top quark decay modes}{section.1.2}% 12
-\BOOKMARK [2][-]{subsection.1.2.3}{Top quark anomalous couplings}{section.1.2}% 13
-\BOOKMARK [2][-]{subsection.1.2.4}{The top-photon vertex}{section.1.2}% 14
-\BOOKMARK [2][-]{subsection.1.2.5}{Previous measurements}{section.1.2}% 15
-\BOOKMARK [0][-]{chapter.2}{The LHC and the CMS Detector}{}% 16
-\BOOKMARK [1][-]{section.2.1}{The Large Hadron Collider}{chapter.2}% 17
-\BOOKMARK [2][-]{subsection.2.1.1}{Pre-LHC accelerator complex}{section.2.1}% 18
-\BOOKMARK [2][-]{subsection.2.1.2}{Design of the LHC}{section.2.1}% 19
-\BOOKMARK [2][-]{subsection.2.1.3}{Physics goals}{section.2.1}% 20
-\BOOKMARK [2][-]{subsection.2.1.4}{Luminosity at the LHC}{section.2.1}% 21
-\BOOKMARK [2][-]{subsection.2.1.5}{Performance throughout run I}{section.2.1}% 22
-\BOOKMARK [1][-]{section.2.2}{The CMS Detector}{chapter.2}% 23
-\BOOKMARK [1][-]{section.2.3}{Inner Tracking System}{chapter.2}% 24
-\BOOKMARK [2][-]{subsection.2.3.1}{Tracker performance in Run I}{section.2.3}% 25
-\BOOKMARK [1][-]{section.2.4}{Electromagnetic Calorimeter}{chapter.2}% 26
-\BOOKMARK [2][-]{subsection.2.4.1}{Overview}{section.2.4}% 27
-\BOOKMARK [2][-]{subsection.2.4.2}{Composition of the ECAL}{section.2.4}% 28
-\BOOKMARK [2][-]{subsection.2.4.3}{Photodetectors}{section.2.4}% 29
-\BOOKMARK [2][-]{subsection.2.4.4}{Performance of the ECAL throughout Run I}{section.2.4}% 30
-\BOOKMARK [1][-]{section.2.5}{Hadron Calorimeter}{chapter.2}% 31
-\BOOKMARK [2][-]{subsection.2.5.1}{Overview}{section.2.5}% 32
-\BOOKMARK [2][-]{subsection.2.5.2}{Performance of the HCAL in Run I}{section.2.5}% 33
-\BOOKMARK [1][-]{section.2.6}{Superconducting Solenoid}{chapter.2}% 34
-\BOOKMARK [1][-]{section.2.7}{Muon System}{chapter.2}% 35
-\BOOKMARK [2][-]{subsection.2.7.1}{Performance of the muon system in Run I}{section.2.7}% 36
-\BOOKMARK [1][-]{section.2.8}{Trigger and Data Acquisition}{chapter.2}% 37
-\BOOKMARK [2][-]{subsection.2.8.1}{Performance of the Trigger in Run 1}{section.2.8}% 38
-\BOOKMARK [0][-]{chapter.3}{Event Reconstruction \046 Simulation}{}% 39
-\BOOKMARK [1][-]{section.3.1}{Event Reconstruction}{chapter.3}% 40
-\BOOKMARK [1][-]{section.3.2}{Computing}{chapter.3}% 41
-\BOOKMARK [2][-]{subsection.3.2.1}{Event Data Model}{section.3.2}% 42
-\BOOKMARK [2][-]{subsection.3.2.2}{Analysis Software}{section.3.2}% 43
-\BOOKMARK [1][-]{section.3.3}{Simulation of the CMS detector}{chapter.3}% 44
-\BOOKMARK [1][-]{section.3.4}{Monte Carlo Simulation}{chapter.3}% 45
-\BOOKMARK [2][-]{subsection.3.4.1}{Monte Carlo event generators}{section.3.4}% 46
-\BOOKMARK [1][-]{section.3.5}{Simulated samples for the t+ analysis}{chapter.3}% 47
-\BOOKMARK [1][-]{section.3.6}{Simulation of the t+ Signal Sample}{chapter.3}% 48
-\BOOKMARK [2][-]{subsection.3.6.1}{Official t+ 2 7 sample production}{section.3.6}% 49
-\BOOKMARK [1][-]{section.3.7}{Physics Object Reconstruction}{chapter.3}% 50
-\BOOKMARK [2][-]{subsection.3.7.1}{Charged Particle Tracking}{section.3.7}% 51
-\BOOKMARK [2][-]{subsection.3.7.2}{Primary Vertex Reconstruction}{section.3.7}% 52
-\BOOKMARK [2][-]{subsection.3.7.3}{Calorimeter Clustering Algorithm}{section.3.7}% 53
-\BOOKMARK [2][-]{subsection.3.7.4}{The Particle Flow event reconstruction algorithm}{section.3.7}% 54
-\BOOKMARK [2][-]{subsection.3.7.5}{Electron reconstruction}{section.3.7}% 55
-\BOOKMARK [2][-]{subsection.3.7.6}{Electron identification}{section.3.7}% 56
-\BOOKMARK [2][-]{subsection.3.7.7}{Muon reconstruction}{section.3.7}% 57
-\BOOKMARK [1][-]{section.3.8}{Higher-level Object Reconstruction}{chapter.3}% 58
-\BOOKMARK [2][-]{subsection.3.8.1}{Jet reconstruction}{section.3.8}% 59
-\BOOKMARK [2][-]{subsection.3.8.2}{Jet Identification}{section.3.8}% 60
-\BOOKMARK [2][-]{subsection.3.8.3}{Jet energy corrections}{section.3.8}% 61
-\BOOKMARK [2][-]{subsection.3.8.4}{B-tagged Jets}{section.3.8}% 62
-\BOOKMARK [2][-]{subsection.3.8.5}{Reconstruction of Missing Transverse Energy}{section.3.8}% 63
-\BOOKMARK [0][-]{chapter.4}{Event Selection \046 Background Estimation}{}% 64
-\BOOKMARK [1][-]{section.4.1}{Event Selection}{chapter.4}% 65
-\BOOKMARK [1][-]{section.4.2}{Pre-selection: Selection of t Events}{chapter.4}% 66
-\BOOKMARK [1][-]{section.4.3}{Skim}{chapter.4}% 67
-\BOOKMARK [1][-]{section.4.4}{Trigger and Event Cleaning}{chapter.4}% 68
-\BOOKMARK [2][-]{subsection.4.4.1}{Trigger selection}{section.4.4}% 69
-\BOOKMARK [2][-]{subsection.4.4.2}{Filtering}{section.4.4}% 70
-\BOOKMARK [1][-]{section.4.5}{Di-lepton Selection and Vetoes}{chapter.4}% 71
-\BOOKMARK [2][-]{subsection.4.5.1}{Electrons}{section.4.5}% 72
-\BOOKMARK [2][-]{subsection.4.5.2}{Muons}{section.4.5}% 73
-\BOOKMARK [2][-]{subsection.4.5.3}{Corrections to simulated events}{section.4.5}% 74
-\BOOKMARK [1][-]{section.4.6}{Jet Selection and b-tag Requirements}{chapter.4}% 75
-\BOOKMARK [1][-]{section.4.7}{Missing Transverse Energy}{chapter.4}% 76
-\BOOKMARK [1][-]{section.4.8}{Comparison of Data to MC}{chapter.4}% 77
-\BOOKMARK [1][-]{section.4.9}{Selection of t+ events}{chapter.4}% 78
-\BOOKMARK [2][-]{subsection.4.9.1}{Cut based photon ID}{section.4.9}% 79
-\BOOKMARK [2][-]{subsection.4.9.2}{FSR suppression}{section.4.9}% 80
-\BOOKMARK [2][-]{subsection.4.9.3}{Super-cluster footprint-removal for photon isolation}{section.4.9}% 81
-\BOOKMARK [2][-]{subsection.4.9.4}{Signal template construction using the random cone method}{section.4.9}% 82
-\BOOKMARK [1][-]{section.4.10}{Background Estimation}{chapter.4}% 83
-\BOOKMARK [2][-]{subsection.4.10.1}{Background estimation using the i i \040side-band method}{section.4.10}% 84
-\BOOKMARK [0][-]{chapter.5}{Measurement of the inclusive t+ cross-section}{}% 85
-\BOOKMARK [1][-]{section.5.1}{Signal Definition and Background Processes}{chapter.5}% 86
-\BOOKMARK [2][-]{subsection.5.1.1}{Signal definition}{section.5.1}% 87
-\BOOKMARK [2][-]{subsection.5.1.2}{Background processes}{section.5.1}% 88
-\BOOKMARK [2][-]{subsection.5.1.3}{Backgrounds of photon signature}{section.5.1}% 89
+\BOOKMARK [2][-]{subsection.1.2.3}{t+ background processes}{section.1.2}% 13
+\BOOKMARK [2][-]{subsection.1.2.4}{Backgrounds of photon signature}{section.1.2}% 14
+\BOOKMARK [2][-]{subsection.1.2.5}{Top quark anomalous couplings}{section.1.2}% 15
+\BOOKMARK [2][-]{subsection.1.2.6}{The top-photon vertex}{section.1.2}% 16
+\BOOKMARK [2][-]{subsection.1.2.7}{Previous measurements}{section.1.2}% 17
+\BOOKMARK [0][-]{chapter.2}{The LHC and the CMS Detector}{}% 18
+\BOOKMARK [1][-]{section.2.1}{The Large Hadron Collider}{chapter.2}% 19
+\BOOKMARK [2][-]{subsection.2.1.1}{Pre-LHC accelerator complex}{section.2.1}% 20
+\BOOKMARK [2][-]{subsection.2.1.2}{Design of the LHC}{section.2.1}% 21
+\BOOKMARK [2][-]{subsection.2.1.3}{Physics goals}{section.2.1}% 22
+\BOOKMARK [2][-]{subsection.2.1.4}{Luminosity at the LHC}{section.2.1}% 23
+\BOOKMARK [2][-]{subsection.2.1.5}{Performance throughout run I}{section.2.1}% 24
+\BOOKMARK [1][-]{section.2.2}{The CMS Detector}{chapter.2}% 25
+\BOOKMARK [1][-]{section.2.3}{Inner Tracking System}{chapter.2}% 26
+\BOOKMARK [2][-]{subsection.2.3.1}{Tracker performance in Run I}{section.2.3}% 27
+\BOOKMARK [1][-]{section.2.4}{Electromagnetic Calorimeter}{chapter.2}% 28
+\BOOKMARK [2][-]{subsection.2.4.1}{Overview}{section.2.4}% 29
+\BOOKMARK [2][-]{subsection.2.4.2}{Composition of the ECAL}{section.2.4}% 30
+\BOOKMARK [2][-]{subsection.2.4.3}{Photodetectors}{section.2.4}% 31
+\BOOKMARK [2][-]{subsection.2.4.4}{Performance of the ECAL throughout Run I}{section.2.4}% 32
+\BOOKMARK [1][-]{section.2.5}{Hadron Calorimeter}{chapter.2}% 33
+\BOOKMARK [2][-]{subsection.2.5.1}{Overview}{section.2.5}% 34
+\BOOKMARK [2][-]{subsection.2.5.2}{Performance of the HCAL in Run I}{section.2.5}% 35
+\BOOKMARK [1][-]{section.2.6}{Superconducting Solenoid}{chapter.2}% 36
+\BOOKMARK [1][-]{section.2.7}{Muon System}{chapter.2}% 37
+\BOOKMARK [2][-]{subsection.2.7.1}{Performance of the muon system in Run I}{section.2.7}% 38
+\BOOKMARK [1][-]{section.2.8}{Trigger and Data Acquisition}{chapter.2}% 39
+\BOOKMARK [2][-]{subsection.2.8.1}{Performance of the Trigger in Run 1}{section.2.8}% 40
+\BOOKMARK [0][-]{chapter.3}{Event Reconstruction \046 Simulation}{}% 41
+\BOOKMARK [1][-]{section.3.1}{Event Reconstruction}{chapter.3}% 42
+\BOOKMARK [1][-]{section.3.2}{Computing}{chapter.3}% 43
+\BOOKMARK [2][-]{subsection.3.2.1}{Event Data Model}{section.3.2}% 44
+\BOOKMARK [2][-]{subsection.3.2.2}{Analysis Software}{section.3.2}% 45
+\BOOKMARK [1][-]{section.3.3}{Simulation of the CMS detector}{chapter.3}% 46
+\BOOKMARK [1][-]{section.3.4}{Monte Carlo Simulation}{chapter.3}% 47
+\BOOKMARK [2][-]{subsection.3.4.1}{Monte Carlo event generators}{section.3.4}% 48
+\BOOKMARK [1][-]{section.3.5}{Simulated samples for the t+ analysis}{chapter.3}% 49
+\BOOKMARK [1][-]{section.3.6}{Simulation of the t+ Signal Sample}{chapter.3}% 50
+\BOOKMARK [2][-]{subsection.3.6.1}{Official t+ 2 7 sample production}{section.3.6}% 51
+\BOOKMARK [1][-]{section.3.7}{Physics Object Reconstruction}{chapter.3}% 52
+\BOOKMARK [2][-]{subsection.3.7.1}{Charged Particle Tracking}{section.3.7}% 53
+\BOOKMARK [2][-]{subsection.3.7.2}{Primary Vertex Reconstruction}{section.3.7}% 54
+\BOOKMARK [2][-]{subsection.3.7.3}{Calorimeter Clustering Algorithm}{section.3.7}% 55
+\BOOKMARK [2][-]{subsection.3.7.4}{The Particle Flow event reconstruction algorithm}{section.3.7}% 56
+\BOOKMARK [2][-]{subsection.3.7.5}{Electron reconstruction}{section.3.7}% 57
+\BOOKMARK [2][-]{subsection.3.7.6}{Electron identification}{section.3.7}% 58
+\BOOKMARK [2][-]{subsection.3.7.7}{Muon reconstruction}{section.3.7}% 59
+\BOOKMARK [1][-]{section.3.8}{Higher-level Object Reconstruction}{chapter.3}% 60
+\BOOKMARK [2][-]{subsection.3.8.1}{Jet reconstruction}{section.3.8}% 61
+\BOOKMARK [2][-]{subsection.3.8.2}{Jet Identification}{section.3.8}% 62
+\BOOKMARK [2][-]{subsection.3.8.3}{Jet energy corrections}{section.3.8}% 63
+\BOOKMARK [2][-]{subsection.3.8.4}{B-tagged Jets}{section.3.8}% 64
+\BOOKMARK [2][-]{subsection.3.8.5}{Reconstruction of Missing Transverse Energy}{section.3.8}% 65
+\BOOKMARK [0][-]{chapter.4}{Event Selection \046 Background Estimation}{}% 66
+\BOOKMARK [1][-]{section.4.1}{Event Selection}{chapter.4}% 67
+\BOOKMARK [1][-]{section.4.2}{Pre-selection: Selection of t Events}{chapter.4}% 68
+\BOOKMARK [1][-]{section.4.3}{Skim}{chapter.4}% 69
+\BOOKMARK [1][-]{section.4.4}{Trigger and Event Cleaning}{chapter.4}% 70
+\BOOKMARK [2][-]{subsection.4.4.1}{Trigger selection}{section.4.4}% 71
+\BOOKMARK [2][-]{subsection.4.4.2}{Filtering}{section.4.4}% 72
+\BOOKMARK [1][-]{section.4.5}{Di-lepton Selection and Vetoes}{chapter.4}% 73
+\BOOKMARK [2][-]{subsection.4.5.1}{Electrons}{section.4.5}% 74
+\BOOKMARK [2][-]{subsection.4.5.2}{Muons}{section.4.5}% 75
+\BOOKMARK [2][-]{subsection.4.5.3}{Corrections to simulated events}{section.4.5}% 76
+\BOOKMARK [1][-]{section.4.6}{Jet Selection and b-tag Requirements}{chapter.4}% 77
+\BOOKMARK [1][-]{section.4.7}{Missing Transverse Energy}{chapter.4}% 78
+\BOOKMARK [1][-]{section.4.8}{Comparison of Data to MC}{chapter.4}% 79
+\BOOKMARK [1][-]{section.4.9}{Selection of t+ events}{chapter.4}% 80
+\BOOKMARK [2][-]{subsection.4.9.1}{Cut based photon ID}{section.4.9}% 81
+\BOOKMARK [2][-]{subsection.4.9.2}{FSR suppression}{section.4.9}% 82
+\BOOKMARK [2][-]{subsection.4.9.3}{Super-cluster footprint-removal for photon isolation}{section.4.9}% 83
+\BOOKMARK [2][-]{subsection.4.9.4}{Signal template construction using the random cone method}{section.4.9}% 84
+\BOOKMARK [1][-]{section.4.10}{Background Estimation}{chapter.4}% 85
+\BOOKMARK [2][-]{subsection.4.10.1}{Background estimation using the i i \040side-band method}{section.4.10}% 86
+\BOOKMARK [0][-]{chapter.5}{Measurement of the inclusive t+ cross-section}{}% 87
+\BOOKMARK [1][-]{section.5.1}{Signal Definition and Background Processes}{chapter.5}% 88
+\BOOKMARK [2][-]{subsection.5.1.1}{Signal definition}{section.5.1}% 89
 \BOOKMARK [1][-]{section.5.2}{t+ Signal Simulation}{chapter.5}% 90
 \BOOKMARK [1][-]{section.5.3}{Phase Space Overlap Removal}{chapter.5}% 91
 \BOOKMARK [1][-]{section.5.4}{Measurement of the cross-section ratio R = t+/t}{chapter.5}% 92
@@ -113,8 +113,8 @@
 \BOOKMARK [0][-]{chapter.7}{Results}{}% 113
 \BOOKMARK [0][-]{chapter.8}{Measurement of the anomalous couplings of the photon to the top quark}{}% 114
 \BOOKMARK [0][-]{chapter.9}{Electron Conversion Veto}{}% 115
-\BOOKMARK [0][-]{chapter*.64}{Conclusions}{}% 116
-\BOOKMARK [0][-]{section*.65}{Appendices}{}% 117
-\BOOKMARK [1][-]{section.Alph0.1}{Operator contributions to t }{section*.65}% 118
-\BOOKMARK [1][-]{section.Alph0.2}{Electron \046 Muon Efficiencies}{section*.65}% 119
-\BOOKMARK [0][-]{appendix*.68}{Bibliography}{}% 120
+\BOOKMARK [0][-]{chapter*.65}{Conclusions}{}% 116
+\BOOKMARK [0][-]{section*.66}{Appendices}{}% 117
+\BOOKMARK [1][-]{section.Alph0.1}{Operator contributions to t }{section*.66}% 118
+\BOOKMARK [1][-]{section.Alph0.2}{Electron \046 Muon Efficiencies}{section*.66}% 119
+\BOOKMARK [0][-]{appendix*.69}{Bibliography}{}% 120
