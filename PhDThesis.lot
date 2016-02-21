@@ -1,27 +1,27 @@
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1.1}{\ignorespaces Standard Model particles and their supersymmetric counterparts and spin values.\relax }}{18}{table.caption.9}
-\contentsline {table}{\numberline {1.2}{\ignorespaces The Standard Model cross-sections for both single top and $t\mathaccentV {bar}016{t}$ processes at the Tevatron and the LHC. All cross-sections are calculated at next-to-next-to-leading-order and measured in pb. \cite {Czakon:2013goa}\relax }}{22}{table.caption.12}
+\contentsline {table}{\numberline {1.1}{\ignorespaces Standard Model particles and their supersymmetric counterparts and spin values.\relax }}{19}{table.caption.9}
+\contentsline {table}{\numberline {1.2}{\ignorespaces The Standard Model cross-sections for both single top and $t\mathaccentV {bar}016{t}$ processes at the Tevatron and the LHC. All cross-sections are calculated at next-to-next-to-leading-order and measured in pb. \cite {Czakon:2013goa}\relax }}{23}{table.caption.12}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces LHC design parameters \cite {LHCDesignReport}.\relax }}{39}{table.caption.23}
-\contentsline {table}{\numberline {2.2}{\ignorespaces Tower segmentation in azimuthal and polar angle for the hadronic barrel, endcap and forward calorimeter \cite {HCALTdr}.\relax }}{53}{table.caption.34}
-\contentsline {table}{\numberline {2.3}{\ignorespaces Parameters of the LHC superconducting solenoid \cite {MagneticField}.\relax }}{54}{table.caption.35}
+\contentsline {table}{\numberline {2.1}{\ignorespaces LHC design parameters \cite {LHCDesignReport}.\relax }}{40}{table.caption.23}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Tower segmentation in azimuthal and polar angle for the hadronic barrel, endcap and forward calorimeter \cite {HCALTdr}.\relax }}{54}{table.caption.34}
+\contentsline {table}{\numberline {2.3}{\ignorespaces Parameters of the LHC superconducting solenoid \cite {MagneticField}.\relax }}{55}{table.caption.35}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Dataset information for signal and background MC samples.\relax }}{71}{table.caption.43}
-\contentsline {table}{\numberline {3.2}{\ignorespaces Variables used in electron identification algorithms \cite {SergeyThesis}.}}{89}{table.3.2}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Dataset information for signal and background MC samples.\relax }}{72}{table.caption.43}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Variables used in electron identification algorithms \cite {SergeyThesis}.}}{90}{table.3.2}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Triggers for each di-lepton channel.\relax }}{101}{table.caption.51}
-\contentsline {table}{\numberline {4.2}{\ignorespaces The number of expected events in MC and events observed in data for the $\mu ^+\mu ^-$ channel, before the fitting process, including statistical uncertainties.\relax }}{108}{table.caption.52}
-\contentsline {table}{\numberline {4.3}{\ignorespaces The number of expected events in MC and events observed in data for the $e^+e^-$ channel, before the fitting process, including statistical uncertainties.\relax }}{116}{table.caption.53}
-\contentsline {table}{\numberline {4.4}{\ignorespaces The number of expected events in MC and events observed in data for the $e\mu $ channel, before the fitting process, including statistical uncertainties.\relax }}{117}{table.caption.54}
-\contentsline {table}{\numberline {4.5}{\ignorespaces Dataset information for each run in each respective decay channel.\relax }}{118}{table.caption.57}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Systematic uncertainties and their contribution to the cross-section ratio.\relax }}{136}{table.caption.61}
-\contentsline {table}{\numberline {6.2}{\ignorespaces \relax }}{137}{table.caption.62}
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Values used for calculating the cross section ratios in the $\mu ^+\mu ^-$, $e^+e^-$, and $e\mu $ channels.\relax }}{138}{table.caption.63}
-\contentsline {table}{\numberline {7.2}{\ignorespaces \relax }}{139}{table.caption.64}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Triggers for each di-lepton channel.\relax }}{102}{table.caption.51}
+\contentsline {table}{\numberline {4.2}{\ignorespaces The number of expected events in MC and events observed in data for the $\mu ^+\mu ^-$ channel, before the fitting process, including statistical uncertainties.\relax }}{109}{table.caption.52}
+\contentsline {table}{\numberline {4.3}{\ignorespaces The number of expected events in MC and events observed in data for the $e^+e^-$ channel, before the fitting process, including statistical uncertainties.\relax }}{117}{table.caption.53}
+\contentsline {table}{\numberline {4.4}{\ignorespaces The number of expected events in MC and events observed in data for the $e\mu $ channel, before the fitting process, including statistical uncertainties.\relax }}{118}{table.caption.54}
+\contentsline {table}{\numberline {4.5}{\ignorespaces Dataset information for each run in each respective decay channel.\relax }}{119}{table.caption.57}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {A.2}{\ignorespaces Electron ID \& isolation efficiencies \cite {ElectronEfficiencies}.\relax }}{144}{table.caption.67}
-\contentsline {table}{\numberline {A.2}{\ignorespaces Muon ID \& isolation efficiencies \cite {MuonEfficiencies}.\relax }}{144}{table.caption.68}
+\contentsline {table}{\numberline {6.1}{\ignorespaces Systematic uncertainties and their contribution to the cross-section ratio.\relax }}{137}{table.caption.61}
+\contentsline {table}{\numberline {6.2}{\ignorespaces \relax }}{138}{table.caption.62}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces Values used for calculating the cross section ratios in the $\mu ^+\mu ^-$, $e^+e^-$, and $e\mu $ channels.\relax }}{139}{table.caption.63}
+\contentsline {table}{\numberline {7.2}{\ignorespaces \relax }}{140}{table.caption.64}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.2}{\ignorespaces Electron ID \& isolation efficiencies \cite {ElectronEfficiencies}.\relax }}{145}{table.caption.67}
+\contentsline {table}{\numberline {A.2}{\ignorespaces Muon ID \& isolation efficiencies \cite {MuonEfficiencies}.\relax }}{145}{table.caption.68}
