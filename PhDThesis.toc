@@ -1,120 +1,120 @@
 \contentsline {chapter}{Introduction}{1}{chapter*.3}
-\contentsline {chapter}{\numberline {1}Theoretical Motivation}{3}{chapter.1}
-\contentsline {section}{\numberline {1.1}The Standard Model of Particle Physics}{3}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Gauge theory}{5}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}The Electroweak Theory}{7}{subsection.1.1.2}
-\contentsline {subsection}{\numberline {1.1.3}Quantum Chromodynamics}{9}{subsection.1.1.3}
-\contentsline {subsection}{\numberline {1.1.4}Electroweak Symmetry Breaking}{11}{subsection.1.1.4}
-\contentsline {subsection}{\numberline {1.1.5}The CKM matrix}{15}{subsection.1.1.5}
-\contentsline {subsection}{\numberline {1.1.6}Where the Standard Model fails}{16}{subsection.1.1.6}
-\contentsline {section}{\numberline {1.2}The Top Quark}{20}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Top quark production at hadron colliders}{22}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Top quark decay modes}{23}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}$t\mathaccentV {bar}016{t}+\gamma $ background processes}{27}{subsection.1.2.3}
-\contentsline {subsection}{\numberline {1.2.4}Backgrounds of photon signature}{30}{subsection.1.2.4}
-\contentsline {subsection}{\numberline {1.2.5}Top quark anomalous couplings}{31}{subsection.1.2.5}
-\contentsline {subsection}{\numberline {1.2.6}The top-photon vertex}{33}{subsection.1.2.6}
-\contentsline {subsection}{\numberline {1.2.7}Previous measurements}{34}{subsection.1.2.7}
-\contentsline {chapter}{\numberline {2}The LHC and the CMS Detector}{37}{chapter.2}
-\contentsline {section}{\numberline {2.1}The Large Hadron Collider}{37}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Pre-LHC accelerator complex}{37}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Design of the LHC}{39}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Physics goals}{39}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}Luminosity at the LHC}{40}{subsection.2.1.4}
-\contentsline {subsection}{\numberline {2.1.5}Performance throughout run I}{41}{subsection.2.1.5}
-\contentsline {section}{\numberline {2.2}The CMS Detector}{42}{section.2.2}
-\contentsline {section}{\numberline {2.3}Inner Tracking System}{44}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Tracker performance in Run I}{46}{subsection.2.3.1}
-\contentsline {section}{\numberline {2.4}Electromagnetic Calorimeter}{48}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Overview}{48}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Composition of the ECAL}{49}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Photodetectors}{51}{subsection.2.4.3}
-\contentsline {subsection}{\numberline {2.4.4}Performance of the ECAL throughout Run I}{51}{subsection.2.4.4}
-\contentsline {section}{\numberline {2.5}Hadron Calorimeter}{52}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Overview}{52}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Performance of the HCAL in Run I}{54}{subsection.2.5.2}
-\contentsline {section}{\numberline {2.6}Superconducting Solenoid}{54}{section.2.6}
-\contentsline {section}{\numberline {2.7}Muon System}{55}{section.2.7}
-\contentsline {subsection}{\numberline {2.7.1}Performance of the muon system in Run I}{58}{subsection.2.7.1}
-\contentsline {section}{\numberline {2.8}Trigger and Data Acquisition}{59}{section.2.8}
-\contentsline {subsection}{\numberline {2.8.1}Performance of the Trigger in Run 1}{61}{subsection.2.8.1}
-\contentsline {chapter}{\numberline {3}Event Reconstruction \& Simulation}{64}{chapter.3}
-\contentsline {section}{\numberline {3.1}Event Reconstruction}{66}{section.3.1}
-\contentsline {section}{\numberline {3.2}Computing}{66}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Event Data Model}{66}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Analysis Software}{67}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Simulation of the CMS detector}{68}{section.3.3}
-\contentsline {section}{\numberline {3.4}Monte Carlo Simulation}{68}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Monte Carlo event generators}{68}{subsection.3.4.1}
-\contentsline {section}{\numberline {3.5}Simulated samples for the $t\mathaccentV {bar}016{t}+\gamma $ analysis}{71}{section.3.5}
-\contentsline {section}{\numberline {3.6}Simulation of the $t\mathaccentV {bar}016{t}+\gamma $ Signal Sample}{71}{section.3.6}
-\contentsline {subsection}{\numberline {3.6.1}Official $t\mathaccentV {bar}016{t}+\gamma $ $2 \to 7$ sample production}{73}{subsection.3.6.1}
-\contentsline {section}{\numberline {3.7}Physics Object Reconstruction}{79}{section.3.7}
-\contentsline {subsection}{\numberline {3.7.1}Charged Particle Tracking}{79}{subsection.3.7.1}
-\contentsline {subsection}{\numberline {3.7.2}Primary Vertex Reconstruction}{81}{subsection.3.7.2}
-\contentsline {subsection}{\numberline {3.7.3}Calorimeter Clustering Algorithm}{82}{subsection.3.7.3}
-\contentsline {subsection}{\numberline {3.7.4}The Particle Flow event reconstruction algorithm}{82}{subsection.3.7.4}
-\contentsline {subsection}{\numberline {3.7.5}Electron reconstruction}{84}{subsection.3.7.5}
-\contentsline {subsection}{\numberline {3.7.6}Electron identification}{87}{subsection.3.7.6}
-\contentsline {subsection}{\numberline {3.7.7}Muon reconstruction}{90}{subsection.3.7.7}
-\contentsline {section}{\numberline {3.8}Higher-level Object Reconstruction}{92}{section.3.8}
-\contentsline {subsection}{\numberline {3.8.1}Jet reconstruction}{92}{subsection.3.8.1}
-\contentsline {subsection}{\numberline {3.8.2}Jet Identification}{93}{subsection.3.8.2}
-\contentsline {subsection}{\numberline {3.8.3}Jet energy corrections}{94}{subsection.3.8.3}
-\contentsline {subsection}{\numberline {3.8.4}B-tagged Jets}{95}{subsection.3.8.4}
-\contentsline {subsection}{\numberline {3.8.5}Reconstruction of Missing Transverse Energy}{96}{subsection.3.8.5}
-\contentsline {chapter}{\numberline {4}Event Selection \& Background Estimation}{99}{chapter.4}
-\contentsline {section}{\numberline {4.1}Event Selection}{99}{section.4.1}
-\contentsline {section}{\numberline {4.2}Pre-selection: Selection of $t\mathaccentV {bar}016{t}$ Events}{100}{section.4.2}
-\contentsline {section}{\numberline {4.3}Skim}{101}{section.4.3}
-\contentsline {section}{\numberline {4.4}Trigger and Event Cleaning}{101}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Trigger selection}{101}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Filtering}{103}{subsection.4.4.2}
-\contentsline {section}{\numberline {4.5}Di-lepton Selection and Vetoes}{104}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Electrons}{104}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Muons}{106}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Corrections to simulated events}{107}{subsection.4.5.3}
-\contentsline {section}{\numberline {4.6}Jet Selection and b-tag Requirements}{107}{section.4.6}
-\contentsline {section}{\numberline {4.7}Missing Transverse Energy}{108}{section.4.7}
-\contentsline {section}{\numberline {4.8}Comparison of Data to MC}{108}{section.4.8}
-\contentsline {section}{\numberline {4.9}Selection of $t\mathaccentV {bar}016{t}+\gamma $ events}{108}{section.4.9}
-\contentsline {subsection}{\numberline {4.9.1}Cut based photon ID}{110}{subsection.4.9.1}
-\contentsline {subsection}{\numberline {4.9.2}FSR suppression}{111}{subsection.4.9.2}
-\contentsline {subsection}{\numberline {4.9.3}Super-cluster footprint-removal for photon isolation}{111}{subsection.4.9.3}
-\contentsline {subsection}{\numberline {4.9.4}Signal template construction using the random cone method}{113}{subsection.4.9.4}
-\contentsline {section}{\numberline {4.10}Background Estimation}{115}{section.4.10}
-\contentsline {subsection}{\numberline {4.10.1}Background estimation using the $\sigma _{i \eta i \eta }$ side-band method}{115}{subsection.4.10.1}
-\contentsline {chapter}{\numberline {5}Measurement of the inclusive $t\mathaccentV {bar}016{t}+\gamma $ cross-section}{120}{chapter.5}
-\contentsline {section}{\numberline {5.1}Signal Definition and Background Processes}{120}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Signal definition}{120}{subsection.5.1.1}
-\contentsline {section}{\numberline {5.2}$t\mathaccentV {bar}016{t}+\gamma $ Signal Simulation}{120}{section.5.2}
-\contentsline {section}{\numberline {5.3}Phase Space Overlap Removal}{120}{section.5.3}
-\contentsline {section}{\numberline {5.4}Measurement of the cross-section ratio $R = \sigma _{t\mathaccentV {bar}016{t}+\gamma }/\sigma _{t\mathaccentV {bar}016{t}}$}{123}{section.5.4}
-\contentsline {section}{\numberline {5.5}Number of top pair events}{125}{section.5.5}
-\contentsline {section}{\numberline {5.6}Photon Purity Estimation}{125}{section.5.6}
-\contentsline {section}{\numberline {5.7}Number of signal events in data}{127}{section.5.7}
-\contentsline {section}{\numberline {5.8}Signal Acceptance Calculation}{127}{section.5.8}
-\contentsline {chapter}{\numberline {6}Systematic Uncertainties}{130}{chapter.6}
-\contentsline {section}{\numberline {6.1}Flat Rate Uncertainties}{131}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Luminosity}{131}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Lepton Efficiencies}{132}{subsection.6.1.2}
-\contentsline {section}{\numberline {6.2}Shape Uncertainties}{133}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Parton Distribution Function}{133}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Pile-up Re-weighting}{134}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Jet Energy Corrections}{134}{subsection.6.2.3}
-\contentsline {subsection}{\numberline {6.2.4}Missing Transverse Energy}{135}{subsection.6.2.4}
-\contentsline {subsection}{\numberline {6.2.5}B-tagging Efficiency}{136}{subsection.6.2.5}
-\contentsline {subsection}{\numberline {6.2.6}Data-driven Re-weighting}{136}{subsection.6.2.6}
-\contentsline {section}{\numberline {6.3}Modelling Uncertainties}{136}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}QCD Renormalisation and factorisation scales}{136}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Parton-level matching thresholds}{136}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Analysis-dependent modelling uncertainties}{136}{subsection.6.3.3}
-\contentsline {section}{\numberline {6.4}Impact of uncertainties}{136}{section.6.4}
-\contentsline {chapter}{\numberline {7}Results}{139}{chapter.7}
-\contentsline {chapter}{\numberline {8}Measurement of the anomalous couplings of the photon to the top quark}{141}{chapter.8}
-\contentsline {chapter}{\numberline {9}Electron Conversion Veto}{142}{chapter.9}
-\contentsline {chapter}{Conclusions}{143}{chapter*.65}
-\contentsline {chapter}{Appendices}{145}{section*.66}
-\contentsline {section}{\numberline {A.1}Operator contributions to $\gamma t \mathaccentV {bar}016{t}$}{145}{section.Alph0.1}
-\contentsline {section}{\numberline {A.2}Electron \& Muon Efficiencies}{145}{section.Alph0.2}
-\contentsline {chapter}{Bibliography}{157}{appendix*.69}
+\contentsline {chapter}{\numberline {1}Theoretical Motivation}{4}{chapter.1}
+\contentsline {section}{\numberline {1.1}The Standard Model of Particle Physics}{4}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Gauge theory}{6}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}The Electroweak Theory}{8}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Quantum Chromodynamics}{10}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.4}Electroweak Symmetry Breaking}{12}{subsection.1.1.4}
+\contentsline {subsection}{\numberline {1.1.5}The CKM matrix}{16}{subsection.1.1.5}
+\contentsline {subsection}{\numberline {1.1.6}Where the Standard Model fails}{17}{subsection.1.1.6}
+\contentsline {section}{\numberline {1.2}The Top Quark}{21}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Top quark production at hadron colliders}{23}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Top quark decay modes}{24}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}$t\mathaccentV {bar}016{t}+\gamma $ background processes}{28}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Backgrounds of photon signature}{31}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.5}Top quark anomalous couplings}{32}{subsection.1.2.5}
+\contentsline {subsection}{\numberline {1.2.6}The top-photon vertex}{34}{subsection.1.2.6}
+\contentsline {subsection}{\numberline {1.2.7}Previous measurements}{35}{subsection.1.2.7}
+\contentsline {chapter}{\numberline {2}The LHC and the CMS Detector}{38}{chapter.2}
+\contentsline {section}{\numberline {2.1}The Large Hadron Collider}{38}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Pre-LHC accelerator complex}{38}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Design of the LHC}{40}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Physics goals}{40}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Luminosity at the LHC}{41}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2.1.5}Performance throughout run I}{42}{subsection.2.1.5}
+\contentsline {section}{\numberline {2.2}The CMS Detector}{43}{section.2.2}
+\contentsline {section}{\numberline {2.3}Inner Tracking System}{45}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Tracker performance in Run I}{47}{subsection.2.3.1}
+\contentsline {section}{\numberline {2.4}Electromagnetic Calorimeter}{49}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Overview}{49}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Composition of the ECAL}{50}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Photodetectors}{52}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Performance of the ECAL throughout Run I}{52}{subsection.2.4.4}
+\contentsline {section}{\numberline {2.5}Hadron Calorimeter}{53}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Overview}{53}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Performance of the HCAL in Run I}{55}{subsection.2.5.2}
+\contentsline {section}{\numberline {2.6}Superconducting Solenoid}{55}{section.2.6}
+\contentsline {section}{\numberline {2.7}Muon System}{56}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}Performance of the muon system in Run I}{59}{subsection.2.7.1}
+\contentsline {section}{\numberline {2.8}Trigger and Data Acquisition}{60}{section.2.8}
+\contentsline {subsection}{\numberline {2.8.1}Performance of the Trigger in Run 1}{62}{subsection.2.8.1}
+\contentsline {chapter}{\numberline {3}Event Reconstruction \& Simulation}{65}{chapter.3}
+\contentsline {section}{\numberline {3.1}Event Reconstruction}{67}{section.3.1}
+\contentsline {section}{\numberline {3.2}Computing}{67}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Event Data Model}{67}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Analysis Software}{68}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Simulation of the CMS detector}{69}{section.3.3}
+\contentsline {section}{\numberline {3.4}Monte Carlo Simulation}{69}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Monte Carlo event generators}{69}{subsection.3.4.1}
+\contentsline {section}{\numberline {3.5}Simulated samples for the $t\mathaccentV {bar}016{t}+\gamma $ analysis}{72}{section.3.5}
+\contentsline {section}{\numberline {3.6}Simulation of the $t\mathaccentV {bar}016{t}+\gamma $ Signal Sample}{72}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Official $t\mathaccentV {bar}016{t}+\gamma $ $2 \to 7$ sample production}{74}{subsection.3.6.1}
+\contentsline {section}{\numberline {3.7}Physics Object Reconstruction}{80}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}Charged Particle Tracking}{80}{subsection.3.7.1}
+\contentsline {subsection}{\numberline {3.7.2}Primary Vertex Reconstruction}{82}{subsection.3.7.2}
+\contentsline {subsection}{\numberline {3.7.3}Calorimeter Clustering Algorithm}{83}{subsection.3.7.3}
+\contentsline {subsection}{\numberline {3.7.4}The Particle Flow event reconstruction algorithm}{83}{subsection.3.7.4}
+\contentsline {subsection}{\numberline {3.7.5}Electron reconstruction}{85}{subsection.3.7.5}
+\contentsline {subsection}{\numberline {3.7.6}Electron identification}{88}{subsection.3.7.6}
+\contentsline {subsection}{\numberline {3.7.7}Muon reconstruction}{91}{subsection.3.7.7}
+\contentsline {section}{\numberline {3.8}Higher-level Object Reconstruction}{93}{section.3.8}
+\contentsline {subsection}{\numberline {3.8.1}Jet reconstruction}{93}{subsection.3.8.1}
+\contentsline {subsection}{\numberline {3.8.2}Jet Identification}{94}{subsection.3.8.2}
+\contentsline {subsection}{\numberline {3.8.3}Jet energy corrections}{95}{subsection.3.8.3}
+\contentsline {subsection}{\numberline {3.8.4}B-tagged Jets}{96}{subsection.3.8.4}
+\contentsline {subsection}{\numberline {3.8.5}Reconstruction of Missing Transverse Energy}{97}{subsection.3.8.5}
+\contentsline {chapter}{\numberline {4}Event Selection \& Background Estimation}{100}{chapter.4}
+\contentsline {section}{\numberline {4.1}Event Selection}{100}{section.4.1}
+\contentsline {section}{\numberline {4.2}Pre-selection: Selection of $t\mathaccentV {bar}016{t}$ Events}{101}{section.4.2}
+\contentsline {section}{\numberline {4.3}Skim}{102}{section.4.3}
+\contentsline {section}{\numberline {4.4}Trigger and Event Cleaning}{102}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Trigger selection}{102}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Filtering}{104}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}Di-lepton Selection and Vetoes}{105}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Electrons}{105}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Muons}{107}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Corrections to simulated events}{108}{subsection.4.5.3}
+\contentsline {section}{\numberline {4.6}Jet Selection and b-tag Requirements}{108}{section.4.6}
+\contentsline {section}{\numberline {4.7}Missing Transverse Energy}{109}{section.4.7}
+\contentsline {section}{\numberline {4.8}Comparison of Data to MC}{109}{section.4.8}
+\contentsline {section}{\numberline {4.9}Selection of $t\mathaccentV {bar}016{t}+\gamma $ events}{109}{section.4.9}
+\contentsline {subsection}{\numberline {4.9.1}Cut based photon ID}{111}{subsection.4.9.1}
+\contentsline {subsection}{\numberline {4.9.2}FSR suppression}{112}{subsection.4.9.2}
+\contentsline {subsection}{\numberline {4.9.3}Super-cluster footprint-removal for photon isolation}{112}{subsection.4.9.3}
+\contentsline {subsection}{\numberline {4.9.4}Signal template construction using the random cone method}{114}{subsection.4.9.4}
+\contentsline {section}{\numberline {4.10}Background Estimation}{116}{section.4.10}
+\contentsline {subsection}{\numberline {4.10.1}Background estimation using the $\sigma _{i \eta i \eta }$ side-band method}{116}{subsection.4.10.1}
+\contentsline {chapter}{\numberline {5}Measurement of the inclusive $t\mathaccentV {bar}016{t}+\gamma $ cross-section}{121}{chapter.5}
+\contentsline {section}{\numberline {5.1}Signal Definition and Background Processes}{121}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Signal definition}{121}{subsection.5.1.1}
+\contentsline {section}{\numberline {5.2}$t\mathaccentV {bar}016{t}+\gamma $ Signal Simulation}{121}{section.5.2}
+\contentsline {section}{\numberline {5.3}Phase Space Overlap Removal}{121}{section.5.3}
+\contentsline {section}{\numberline {5.4}Measurement of the cross-section ratio $R = \sigma _{t\mathaccentV {bar}016{t}+\gamma }/\sigma _{t\mathaccentV {bar}016{t}}$}{124}{section.5.4}
+\contentsline {section}{\numberline {5.5}Number of top pair events}{126}{section.5.5}
+\contentsline {section}{\numberline {5.6}Photon Purity Estimation}{126}{section.5.6}
+\contentsline {section}{\numberline {5.7}Number of signal events in data}{128}{section.5.7}
+\contentsline {section}{\numberline {5.8}Signal Acceptance Calculation}{128}{section.5.8}
+\contentsline {chapter}{\numberline {6}Systematic Uncertainties}{131}{chapter.6}
+\contentsline {section}{\numberline {6.1}Flat Rate Uncertainties}{132}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Luminosity}{132}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Lepton Efficiencies}{133}{subsection.6.1.2}
+\contentsline {section}{\numberline {6.2}Shape Uncertainties}{134}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Parton Distribution Function}{134}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Pile-up Re-weighting}{135}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Jet Energy Corrections}{135}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Missing Transverse Energy}{136}{subsection.6.2.4}
+\contentsline {subsection}{\numberline {6.2.5}B-tagging Efficiency}{137}{subsection.6.2.5}
+\contentsline {subsection}{\numberline {6.2.6}Data-driven Re-weighting}{137}{subsection.6.2.6}
+\contentsline {section}{\numberline {6.3}Modelling Uncertainties}{137}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}QCD Renormalisation and factorisation scales}{137}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Parton-level matching thresholds}{137}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Analysis-dependent modelling uncertainties}{137}{subsection.6.3.3}
+\contentsline {section}{\numberline {6.4}Impact of uncertainties}{137}{section.6.4}
+\contentsline {chapter}{\numberline {7}Results}{140}{chapter.7}
+\contentsline {chapter}{\numberline {8}Measurement of the anomalous couplings of the photon to the top quark}{142}{chapter.8}
+\contentsline {chapter}{\numberline {9}Electron Conversion Veto}{143}{chapter.9}
+\contentsline {chapter}{Conclusions}{144}{chapter*.65}
+\contentsline {chapter}{Appendices}{146}{section*.66}
+\contentsline {section}{\numberline {A.1}Operator contributions to $\gamma t \mathaccentV {bar}016{t}$}{146}{section.Alph0.1}
+\contentsline {section}{\numberline {A.2}Electron \& Muon Efficiencies}{146}{section.Alph0.2}
+\contentsline {chapter}{Bibliography}{158}{appendix*.69}
