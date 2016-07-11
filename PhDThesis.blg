@@ -1,8 +1,13 @@
 This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: PhDThesis.aux
+White space in argument---line 247 of file PhDThesis.aux
+ : \citation{CMSHiggs.
+ :                     ATLASHiggs}
+I'm skipping whatever remains of this command
 The style file: unsrt.bst
 Database file #1: PhDThesis.bib
+Warning--empty year in ttbarXsectPlot
 Warning--empty journal in ttbarDecayFractions
 Warning--empty journal in TrackingResults
 Warning--empty author in CMS-PAS-PFT-09-001
@@ -39,45 +44,45 @@ Warning--empty author in CMS:2011esa
 Warning--empty journal in CMS:2011esa
 Warning--empty author in BTAGPAS
 Warning--empty journal in BTAGPAS
-You've used 152 entries,
+You've used 154 entries,
             1791 wiz_defined-function locations,
-            1278 strings with 25168 characters,
-and the built_in function-call counts, 28814 in all, are:
-= -- 2569
-> -- 983
+            1290 strings with 25664 characters,
+and the built_in function-call counts, 29201 in all, are:
+= -- 2599
+> -- 1005
 < -- 14
-+ -- 412
-- -- 260
-* -- 1771
-:= -- 4718
-add.period$ -- 451
-call.type$ -- 152
-change.case$ -- 151
++ -- 420
+- -- 266
+* -- 1797
+:= -- 4785
+add.period$ -- 457
+call.type$ -- 154
+change.case$ -- 153
 chr.to.int$ -- 0
-cite$ -- 188
-duplicate$ -- 1386
-empty$ -- 2961
-format.name$ -- 260
-if$ -- 6366
+cite$ -- 191
+duplicate$ -- 1403
+empty$ -- 2997
+format.name$ -- 266
+if$ -- 6448
 int.to.chr$ -- 0
-int.to.str$ -- 152
-missing$ -- 144
-newline$ -- 757
-num.names$ -- 140
-pop$ -- 302
+int.to.str$ -- 154
+missing$ -- 146
+newline$ -- 767
+num.names$ -- 142
+pop$ -- 307
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 599
+skip$ -- 606
 stack$ -- 0
-substring$ -- 1801
-swap$ -- 219
+substring$ -- 1819
+swap$ -- 221
 text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 36
-while$ -- 244
-width$ -- 155
-write$ -- 1608
-(There were 36 warnings)
+warning$ -- 37
+while$ -- 247
+width$ -- 157
+write$ -- 1628
+(There was 1 error message)

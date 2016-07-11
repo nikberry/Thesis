@@ -28,7 +28,7 @@ The event selection steps for pre-selection di-muon and di-electron channels are
 	\item $\geq 1$ CSV b-jet 
 \end{itemize}
 
-For the mixed channel we select two oppositely signed leptons where one is an electron and the other a muon. Because of this feature, Drell-Yan is significantly reduced, and therefore there is no need for a Z-mass veto. TWe also do not require a cut on the missing transverse energy. The event selection for mixed final state event topologies are as shown below.
+For the mixed channel we select two oppositely signed leptons where one is an electron and the other a muon. Because of this feature, Drell-Yan is significantly reduced, and therefore there is no need for a Z-mass veto. We also do not require a cut on the missing transverse energy. The event selection for mixed final state event topologies are as shown below.
 
 \begin{itemize}
 	\item Skim
@@ -49,7 +49,7 @@ Each step will be discussed in greater detail within the following sections.
 
 As the $t\bar{t}+\gamma$ analysis is studied as a di-lepton final state, the requirement of at least two oppositely charged leptons (electrons or muons only) is essential. These datasets are identified by the trigger system (as described in Section \ref{sec-Trigger}) to contain two leptons. Triggers are generally divided into two categories; single object triggers fire on one or more objects of the same flavour passing certain pre-selection requirements, such as p$_T$ and $\eta$, and cross-triggers which select two objects of different flavours as predetermined by the user. For this analysis, both types of triggers are implemented in order to select the three final states in question. The list of trigger paths can be seen in Table \ref{tab-HLTriggers}. 
 
-\begin{table} \label{tab-HLTriggers}
+\begin{table} 
 \begin{center}
 \begin{tabular}{|c|p{11.5cm}|}
 \hline
@@ -58,11 +58,12 @@ As the $t\bar{t}+\gamma$ analysis is studied as a di-lepton final state, the req
 	$\mu^+\mu^-$ & HLT\_Mu17\_Mu8\_v* \\
 	$e^+e^-$ & HLT\_Ele17\_CaloIdT\_CaloIsoVL\_TrkIdVL\_TrkIsoVL
 				\_Ele8\_CaloIdT\_CaloIsoVL\_TrkIdVL\_TrkIsoVL\_v* \\
-	$e\mu$ & HLT\_Mu17\_Ele8\_CaloIdT\_CaloIsoVL\_TrkIdVL\_TrkIsoVL\_v*, HLT\_Mu8\_Ele17\_CaloIdT\_CaloIsoVL\_TrkIdVL\_TrkIsoVL\_v*s \\
+	$e\mu$ & HLT\_Mu17\_Ele8\_CaloIdT\_CaloIsoVL\_TrkIdVL\_TrkIsoVL\_v*, HLT\_Mu8\_Ele17\_CaloIdT\_CaloIsoVL\_TrkIdVL\_TrkIsoVL\_v* \\
 \hline	
 \end{tabular}
-\caption{Triggers for each di-lepton channel.}
 \end{center}
+\caption{Triggers for each di-lepton channel.}
+\label{tab-HLTriggers}
 \end{table}
 
 Each trigger path name explains the selection requirements on the objects that it triggers on. The term Mu refers to a reconstructed muon and Ele refers to a reconstructed electron, where the succeeding number represents an associated energy threshold of the particle. For example, the the di-muon channel uses a single flavour object trigger to select two muons and is used with the requirements that one of the muons has a p$_T$ greater than 8 $\GeV$ and the second greater than 17 $\GeV$. The version of the trigger is denoted in the trigger path as v*, as the trigger path changes with the trigger table used. It should be noted that a different trigger version does not in fact require a change in trigger path. At this level the number of energy deposits within the calorimetry is still too large for the trigger rate to be usable, and thus extra selection requirements on the trigger system must be imposed.
@@ -75,7 +76,7 @@ HLTs are used for the $t\bar{t}+\gamma$ analysis such that if the event does not
 
 Known anomalies derived from detector and accelerator effects are a prominent feature in the processing of data. To counter these effects we incorporate several `cleaning' filters after trigger selection, but before any further selection cuts are applied. The first of which vetoes on \textbf{beam scraping} and includes a \textbf{tight CSC Beam Halo Filter}. We find that, even with the accuracy and precision that the LHC provides on accelerating bunches of protons, protons have a tendency to diverge radially from the bunch and form what is known as the beam halo that circulates the accelerator with the bunch. In early analyses it was found that the beam halo particles can be picked up in the detectors and be reconstructed as being part of an event in which it is not. Due to sensitivity to beam halo particles in the muon detectors, a filter is introduced based on muon tracking kinematics and thus veto on such events. Beam halo particles can also be removed from the beam within the LHC by introducing collimating blocks around the beam line at various points on the accelerator. This, however, presents another problem in the form of showering as the particles interact with the collimator blocks, beam scraping, and be detected by the experiments. These events are accounted for and removed from analyses by introducing the requirement that at least 25\% of reconstructed tracks within the inner detector pass the high purity threshold (see Section \ref{subsec-ChargedParticleTracking}). 
 
-Similarly, we employ a \textbf{HCAL noise filter} in order remove events with anomalous noise within the HCAL. CMS expects a certain degree of noise, stemming from the electronic of the detector, to be present when recording data, however the majority of anomalous noise is found to originate in the Hybrid Photo-Triodes (HPT) and their corresponding read-out boxes. At the current energy scale this is not a problem as the noise appears as large, isolated energy deposits. Anomalous events have easily-identifiable signatures such as the isolation and isolation of the HCAL readout, and the multiplicity in the read-out boxes. So, if a signal demonstrates very little change in the pulse shape over time, and the read-out boxes display a high multiplicity, then an event is rejected. The next filter system comes in the form of the \textbf{HCAL laser filter}. The need for the laser filter first manifested during the 2011 data taking period when a much greater number of events were observed than was expected - $\sim5000$ htis per event. The HCAL laser filter was then designed and introduced for the 2012 data taking period.  
+Similarly, we employ a \textbf{HCAL noise filter} in order remove events with anomalous noise within the HCAL. CMS expects a certain degree of noise, stemming from the electronic of the detector, to be present when recording data, however the majority of anomalous noise is found to originate in the Hybrid Photo-Triodes (HPT) and their corresponding read-out boxes. At the current energy scale this is not a problem as the noise appears as large, isolated energy deposits. Anomalous events have easily-identifiable signatures such as the isolation of the HCAL readout, and the multiplicity in the read-out boxes. So, if a signal demonstrates very little change in the pulse shape over time, and the read-out boxes display a high multiplicity, then an event is rejected. The next filter system comes in the form of the \textbf{HCAL laser filter}. The need for the laser filter first manifested during the 2011 data taking period when a much greater number of hits per event events were observed than was expected - $\sim5000$. The HCAL laser filter was then designed and introduced for the 2012 data taking period.  
 
 %%%%%%%%%%%%%%%%%%More
 
@@ -185,15 +186,27 @@ These cuts help to avoid picking detector noise and ECAL spikes as jets. We also
 
 \section{Comparison of Data to MC} \label{sec-dataMCcomparison}
 
-% \begin{figure} 
-% \begin{center}
-% \includegraphics[width=0.7\textwidth]{Plots/ControlPlots/CutFlow/Log/TTbarMuMuRefSelection.pdf}
-% \includegraphics[width=0.7\textwidth]{Plots/ControlPlots/CutFlow/Log/TTbarEERefSelection.pdf}
-% \includegraphics[width=0.7\textwidth]{Plots/ControlPlots/CutFlow/Log/TTbarEMuRefSelection.pdf}
-% \end{center}
-% \caption{}
-% \label{fig-CutFlow}
-% \end{figure}
+\begin{figure}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Photon_ET_splitTTbar_ratio.pdf}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Photon_AbsEta_splitTTbar_ratio.pdf}\\
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Photon_ET_splitTTbar_ratio.pdf}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Photon_AbsEta_splitTTbar_ratio.pdf}\\
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Photon_ET_splitTTbar_ratio.pdf}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Photon_AbsEta_splitTTbar_ratio.pdf}
+\caption{Comparison of the E$_{T}$ and $|\eta|$ distributions in data and simulation in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels after $t\bar{t}$ selection.}
+\label{fig-ttbarETandEta}
+\end{figure}
+
+\begin{figure} 
+%\begin{center}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/CutFlow/Log/TTbarMuMuRefSelection_splitTTbar_ratio.pdf}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/CutFlow/Log/TTbarEERefSelection_splitTTbar_ratio.pdf} \\
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/CutFlow/Log/TTbarEMuRefSelection_splitTTbar_ratio.pdf}
+\end{center}
+\caption{Cutflow plots showing the number of events remaining after individual cuts are introduced, comparing distributions in data and simulation in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels.}
+\label{fig-CutFlow}
+\end{figure}
 
 \begin{sidewaystable}
   \centering 
@@ -293,60 +306,74 @@ $\geq$ 1 Good Photon Postsel & 40 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 23 $\p
 
 \section{Selection of $t\bar{t}+\gamma$ events} \label{sec-postselection}
 
-From the set of $t\bar{t}$ preselected events in Section \ref{sec-Preselection}, we select only events with a photon candidate present. Main fiducial requirements are implemented as cuts in $\abs{\eta}$ and $E_T$. CMS recommended cuts are added for fiducialisation and photon selection (loose cut-based photon ID 2012 with particle flow based isolation, \cite{CutBasedIsolation2012}).In order to suppress FSR from final state particles a $\Delta R$ cut of photons between jets and leptons is applied. All simulated data is scaled to the luminosity of the recorded data used.  
+From the set of $t\bar{t}$ preselected events in Section \ref{sec-Preselection}, we select only events with a photon candidate present.  Fiducial requirements are implemented as cuts in $\abs{\eta}$ and $E_T$. CMS recommended cuts are added for fiducialisation and photon selection (loose cut-based photon ID 2012 with particle flow based isolation, \cite{CutBasedIsolation2012}).In order to suppress FSR from final state particles a $\Delta R$ cut of photons between jets and leptons is applied. All simulated data is scaled to the luminosity of the recorded data used.  
 
 The fiducial cuts on the photon are given as:
 
 \begin{description}
 
 \item[Transverse energy] A transverse energy cut of $E_T > 25$ is implemented in order to suppress the numerous low energy fake photons and photons from other vertices other than the primary
-vertex. The transverse energy distribution for each channel can be seen on the left in Figs.\ref{fig-nminusoneMuMu} --- \ref{fig-nminusoneEMu}.
+vertex. The transverse energy distribution for each decay channel can be seen in Figure.\ref{fig-photonSelectionETandEta}.
 
-\item[Pseudorapidity] An acceptance cut on the fiducial region of just the CMS ECAL barrel (EB), $\abs{\eta} < 1.4442$, is applied to verify that the electromagnetic shower of
-the photon will be fully reconstructed. We will not be including the ECAL Endcap (EE) in this analysis due to the difficulty in identifying a photon thus giving very low
-statistics.
+\item[Pseudorapidity] An acceptance cut on the fiducial region of just the CMS ECAL barrel (EB), $\abs{\eta} < 1.4442$, is applied to verify that the electromagnetic shower of the photon will be fully reconstructed. We will not be including the ECAL Endcap (EE) in this analysis due to the difficulty in identifying a photon thus giving very low statistics.
 
 \end{description}
 
+\begin{figure}
+% \begin{center}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_ET_splitTTbar_ratio.pdf}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_AbsEta_splitTTbar_ratio.pdf} \\
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_ET_splitTTbar_ratio.pdf}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_AbsEta_splitTTbar_ratio.pdf} \\
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_ET_splitTTbar_ratio.pdf}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_AbsEta_splitTTbar_ratio.pdf} 
+% \end{center}
+\caption{Comparison of photon E$_{T}$ and $|\eta|$ distributions in data and simulation in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels after photon selection.}
+\label{fig-photonSelectionETandEta}
+\end{figure}
+
+
+
 \subsection{Cut based photon ID}
 
-The cut-based photon isolation cuts are taken from the recommended values \cite{CutBasedIsolation2012}, with the inclusion of super-cluster footprint-removed isolation (see Section \ref{subsec-SCFR}), and can be seen below.
+The cut-based photon isolation cuts are taken from the recommended values \cite{CutBasedIsolation2012}, with the inclusion of supercluster footprint-removed isolation (see Section \ref{subsec-SCFR}), and are descirbed below.
 
 \begin{description}
 
 \item[Electron Conversion Veto] A boolean to help distinguish an electron from a photon. We should not see a track seed in the pixel detector when identifying a photon. 
 
-\item[Tower Based H/E] The ratio of energy deposited in the Hadronic Calorimeter (HCal) over the fraction of energy deposited in the Electromagnetic Calorimeter(ECal). This cut is
-set so that the energy ratio should be less than 5\% (see Fig.\ref{fig-cutbasedMuMu1} right).
+\item[Tower Based H/E] The ratio of energy deposited in the Hadronic Calorimeter (HCAL) divided by the fraction of energy deposited in the Electromagnetic Calorimeter (ECAL). This cut is introduced with the requirement that the energy ratio should be less than 5\%.
 
-\item[Shower Width $\sigma_{i\eta i\eta}$] The shower shape weighted by energy (see Fig.\ref{fig-cutbasedMuMu1} right), defined as: 
+\item[Shower Width $\sigma_{i\eta i\eta}$] The shower shape weighted by energy, defined as: 
 
 \begin{equation}
 \sigma_{i\eta i\eta} = \left(\frac{\sum(\eta_i - \bar{\eta})\omega_i}{\sum\omega_i}\right)^{1/2};  \bar{\eta} = \frac{\sum\eta_i\omega}{\sum\omega_i};  \omega_i = \text{max}\left(0, 4.7 +
 \text{log}\frac{E_i}{E_{5x5}}\right).
 \end{equation}
 
-\item[Charged Hadron Isolation] The isolation of charged hadrons with energy density correction, $\rho$, applied. Cut given as $I_{char.had} < 1.5 GeV + 0.04*E_T(\gamma)$. See Fig.\ref{fig-cutbasedMuMu1}.
+This is a key variable in this analysis and will be discussed in greater detail in Section \ref{sec-BackgroundEstimation}.
 
-\item[Neutral Hadron Isolation] The isolation of neutral hadrons with energy density correction , $\rho$, applied. Cut given as $I_{neut.had} < 1.0 GeV + 0.005*E_T(\gamma)$. See Fig.\ref{}.
+\item[Charged Hadron Isolation] The isolation of charged hadrons with energy density correction, $\rho$, applied. Cut given as $I_{Char.had} < 1.5 + 0.04*E_T(\gamma)$ GeV. 
 
-\item[Photon Isolation] The isolation of the photon $I_{\gamma}$, with energy density correction applied. Cut given as $I_{\gamma} < 1.0 GeV + 0.005*E_T(\gamma)$. See
-Fig.\ref{}.
+\item[Neutral Hadron Isolation] The isolation of neutral hadrons with energy density correction , $\rho$, applied. Cut given as $I_{Neut.had} < 1.0 + 0.005*E_T(\gamma)$ GeV. 
 
-\item[super-cluster Footprint-removed Charged Hadron Isolation] The super-cluster footprint-removed isolation of charged hadrons with energy density correction, $\rho$, applied.
-Cut given as $I_{char.had}(SCFR) < 5 \ \text{GeV} $. See Fig.\ref{fig-cutbasedMuMu1}.
+\item[Photon Isolation] The isolation of the photon $I_{\gamma}$, with energy density correction applied. Cut given as $I_{\gamma} < 1.0 + 0.005*E_T(\gamma)$ GeV.
 
-\item[super-cluster Footprint-removed Neutral Hadron Isolation] The super-cluster footprint-removed isolation of neutral hadrons with energy density correction , $\rho$, applied.
-Cut given as $I_{neut.had} < 1.0 GeV + 0.005*E_T(\gamma)$. See Fig.\ref{}.
 
-\item[super-cluster Footprint-removed Photon Isolation] The super-cluster footprint-removed isolation of the photon $I_{\gamma}$, with energy density correction applied. Cut given
-as $I_{\gamma} < 1.0 GeV + 0.005*E_T(\gamma)$. See Fig.\ref{}. 
+\item[Supercluster footprint-removed Charged Hadron Isolation] The super-cluster footprint-removed isolation of charged hadrons with energy density correction, $\rho$, applied.
+Cut given as $I_{char.had} < 5 \ \text{GeV} $. 
+
+\item[Supercluster footprint-removed Neutral Hadron Isolation] The super-cluster footprint-removed isolation of neutral hadrons with energy density correction , $\rho$, applied.
+Cut given as $I_{neut.had} < 1.0 + 0.005*E_T(\gamma)$ GeV. 
+
+\item[Supercluster footprint-removed Photon Isolation] The super-cluster footprint-removed isolation of the photon $I_{\gamma}$, with energy density correction applied. Cut given
+as $I_{\gamma} < 1.0 + 0.005*E_T(\gamma)$ GeV. 
 
 \end{description}
 
-It must be noted that only super-cluster footprint-removed charged hadron isolation is used in this analysis, where PF isolation is used for neutral hadron and photon isolation.
+It must be noted that only supercluster footprint-removed charged hadron isolation is used in this analysis, where PF isolation is used for neutral hadron and photon isolation as described above. 
 
-\subsection{FSR suppression}
+\subsection{Final state radiation suppression}
 
 It is crucial that initial and final state radiation (ISR/FSR) is modelled correctly for this analysis as photons from initial and final state radiation are not considered as signal and we therefore implement cuts in $\eta$ and $\phi$ to reduce these events. The definition of isolation has been modified from the recommended values in order to make the data-driven estimate of the selection purity more robust.
 
@@ -359,6 +386,17 @@ It is crucial that initial and final state radiation (ISR/FSR) is modelled corre
 \end{description}
 
 A significance test was performed in an attempt to optimise the $\Delta R$ cut between final state leptons and jets, however this proved inconclusive due to an initial cut of $\Delta R > 0.1$ at generator level.
+
+\begin{figure}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_deltaR_electrons_splitTTbar_ratio.pdf}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_deltaR_jets_splitTTbar_ratio.pdf} \\
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_deltaR_electrons_splitTTbar_ratio.pdf}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_deltaR_jets_splitTTbar_ratio.pdf}\\
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_deltaR_electrons_splitTTbar_ratio.pdf}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_deltaR_jets_splitTTbar_ratio.pdf}
+\caption{Comparison of the $\Delta R(\gamma, electrons)$ and $\Delta R(\gamma, jets)$ distributions in data and simulation in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels after photon selection.}
+\label{fig-photonDeltaR}
+\end{figure}
 
 \subsection{Super-cluster footprint-removal for photon isolation} \label{subsec-SCFR}
 
@@ -415,9 +453,9 @@ We then calculate the isolation sum within a cone centred on our chosen directio
 \label{fig-RandomConeIsolation}
 \end{figure}
 
-\section{Background Estimation}
+\section{Background Estimation} \label{sec-BackgroundEstimation}
 
-\subsection{Background estimation using the $\sigma_{i \eta i \eta}$ side-band method}
+\subsection{Background estimation using the $\sigma_{i \eta i \eta}$ side-band method} 
 
 Background events are identified as non-prompt or misidentified photons. We define a template to model our background by selecting photon candidates that fail one selection requirement, which we call the ``side-band" region. The logic behind this method is such that by inverting a particular cut on the photon selection, then we have a sample that is rich in ``photon-like" jets (whereby the hadronisation process resolves to a neutral boosted meson with very little activity around it). In order to model the background correctly, we must select the requirements on the side-band region such that they do not differ too greatly from the full selection, and thus we do not incorrectly reject a genuine jet. 
 
@@ -447,34 +485,54 @@ Talk about agreement between data and simulation.
 % \label{fig-SCFRChargedHadronIso}
 % \end{figure}
 
+\begin{figure}
+\includegraphics[width=0.5\textwidth]{Plots/Fits/TTbarPhotonAnalysis/MuMu/central/FitTemplate.pdf}
+\includegraphics[width=0.5\textwidth]{Plots/Fits/TTbarPhotonAnalysis/EE/central/FitTemplate.pdf}\\
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Plots/Fits/TTbarPhotonAnalysis/EMu/central/FitTemplate.pdf}
+\end{center}
+\caption{Fit to charged hadron isolation templates in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels.}
+\label{fig-fitTemplates}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=0.5\textwidth]{Plots/Fits/TTbarPhotonAnalysis/MuMu/central/Fit.pdf}
+\includegraphics[width=0.5\textwidth]{Plots/Fits/TTbarPhotonAnalysis/EE/central/Fit.pdf}\\
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Plots/Fits/TTbarPhotonAnalysis/EMu/central/Fit.pdf}
+\end{center}
+\caption{Fit to charged hadron isolation in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels.}
+\label{fig-fits}
+\end{figure}
+
 
 
 \begin{sidewaystable} 
 \begin{center}
-\begin{tabular}{|l|c|c|}
+\begin{tabular}{|l|c|}
 \hline
-	\textbf{Dataset} & \textbf{Run Range} & \textbf{Integrated Luminosity ($pb^{-1}$)}\\
+	\textbf{Dataset} & \textbf{Integrated Luminosity ($pb^{-1}$)}\\
 \hline
-	/DoubleMuParked/Run2012A-22Jan2013-v1/AOD &  & 876 \\
-	/DoubleMuParked/Run2012B-22Jan2013-v1/AOD &  & 4412 \\
-	/DoubleMuParked/Run2012C-22Jan2013-v1/AOD &  & 7017 \\
-	/DoubleMuParked/Run2012D-22Jan2013-v1/AOD &  & 7369 \\
+	/DoubleMuParked/Run2012A-22Jan2013-v1/AOD  & 876 \\
+	/DoubleMuParked/Run2012B-22Jan2013-v1/AOD  & 4412 \\
+	/DoubleMuParked/Run2012C-22Jan2013-v1/AOD  & 7017 \\
+	/DoubleMuParked/Run2012D-22Jan2013-v1/AOD  & 7369 \\
 \hline
-	Total & & 19.7\\	
+	Total & 19.7\\	
 \hline
-	/DoubleElectron/Run2012A-22Jan2013-v1/AOD &  & 875 \\
-	/DoubleElectron/Run2012B-22Jan2013-v1/AOD &  & 4412 \\
-	/DoubleElectron/Run2012C-22Jan2013-v1/AOD &  & 7055 \\
-	/DoubleElectron/Run2012D-22Jan2013-v1/AOD &  & 7369 \\
+	/DoubleElectron/Run2012A-22Jan2013-v1/AOD  & 875 \\
+	/DoubleElectron/Run2012B-22Jan2013-v1/AOD  & 4412 \\
+	/DoubleElectron/Run2012C-22Jan2013-v1/AOD  & 7055 \\
+	/DoubleElectron/Run2012D-22Jan2013-v1/AOD  & 7369 \\
 \hline
-	Total & & 19.7\\	
+	Total & 19.7\\	
 \hline
-	/MuEG/Run2012A-22Jan2013-v1/AOD &  & 876 \\
-	/MuEG/Run2012B-22Jan2013-v1/AOD &  & 4411 \\
-	/MuEG/Run2012C-22Jan2013-v1/AOD &  & 7055 \\
-	/MuEG/Run2012D-22Jan2013-v1/AOD &  & 7360 \\
+	/MuEG/Run2012A-22Jan2013-v1/AOD  & 876 \\
+	/MuEG/Run2012B-22Jan2013-v1/AOD  & 4411 \\
+	/MuEG/Run2012C-22Jan2013-v1/AOD  & 7055 \\
+	/MuEG/Run2012D-22Jan2013-v1/AOD  & 7360 \\
 \hline
-	Total & & 19.7\\	
+	Total & 19.7\\	
 \hline	
 \end{tabular}	
 \end{center}
