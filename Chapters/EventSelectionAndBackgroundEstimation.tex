@@ -157,7 +157,17 @@ The production of muons from inn-flight decays is found to be much more prominen
 	\item Identified as both a tracker and global muon
 \end{itemize}
 
-\subsection{Corrections to simulated events} \label{subsec-SimulatedEventsCorrection}
+Dilepton kinematic and mass distributions can be seen in Figure \ref{leptonPlots}.
+
+\begin{figure}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/LeadLepton_Pt_splitTTbar_ratio.pdf}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/SecondLepton_Pt_splitTTbar_ratio.pdf}\\
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/diLepton_Mass_splitTTbar_ratio.pdf}
+\end{center}
+\caption{Lead lepton p$_T$ (top left), second lepton p$_T$ (top right), and dilepton mass (bottom) for the $\mu^{+}\mu^{-}$ channel only after $t\bar{t}$ selection.}
+\label{fig-leptonPlots}
+\end{figure}
 
 \section{Jet Selection and b-tag Requirements} \label{sec-JetSelection}
 
@@ -179,12 +189,33 @@ These cuts help to avoid picking detector noise and ECAL spikes as jets. We also
  \textbf{B-tagged jets} are identified with the Combined Secondary Vertex b-tagging algorithm using the loose working point (CSVL). Event re-weighting is applied to correct for the difference in b-tagging efficiency in data and simulation as explained in Section \ref{subsec-SimulatedEventsCorrection}. The loose working point refers to a b-tagging efficiency of  and a misidentification probability of 24.4\%.
 
  In each channel the requirement of at least 2 good jets, where a good jet passes all the aforementioned selection requirements, and at least one b-jet. By applying these requirements the contribution from the most prominent backgrounds, $t\bar{t}$ and events with additional loose jets, are removed. 
+
+\begin{figure}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/all_jet_pT_splitTTbar_ratio.pdf}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/all_jet_eta_splitTTbar_ratio.pdf}\\
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/N_Jets_splitTTbar_ratio.pdf}
+\end{center}
+\caption{Comparison of the sum of the transverse momentum and $\eta$ in all reconstructed jets (top), and number of jets (bottom) per event for the $\mu^{+}\mu^{-}$ channel only after $t\bar{t}$ selection.}
+\label{fig-jetPlots}
+\end{figure}
  
 \section{Missing Transverse Energy} \label{sec-METSelection}
 
+The missing transverse energy (MET) selection cut is implemented only within the di-muon and di-electron channels as the mixed channel is better defined with different flavour quarks in the final state, and therefore less likely to be misreconstructed in the detector. Due to the small cross-section of the $t\bar{t}+\gamma$ decay, and the much smaller branching ratio of the dilepton channel relative to the semileptonic channel, a MET cut of $>20$ GeV is used in order to increase statistics. Figure \ref{fig-METplots} shows the MET, the azimuthal angle $\phi$ of the MET, and the MET significance, where the MET significance assesses on an event-by-event basis the likelihood that an observed MET is consistent with a fluctuation from zero due to detector-related limitations, such as finite measurement resolution. 
 
+\begin{figure}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/MET/patType1CorrectedPFMet/MET_splitTTbar_ratio.pdf}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/MET/patType1CorrectedPFMet/MET_phi_splitTTbar_ratio.pdf}\\
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/MET/patType1CorrectedPFMet/METsignificance_splitTTbar_ratio.pdf}
+\end{center}
+\caption{The missing transverse energy distributions in terms of missing energy, azimuthal angle $\phi$, and MET significance for the $\mu^{+}\mu^{-}$ channel only after $t\bar{t}$ selection.}
+\label{fig-METplots}
+\end{figure}
 
-\section{Comparison of Data to MC} \label{sec-dataMCcomparison}
+\subsection{Corrections to simulated events} \label{subsec-SimulatedEventsCorrection}
+
 
 \begin{figure}
 \includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Photon_ET_splitTTbar_ratio.pdf}
@@ -196,6 +227,8 @@ These cuts help to avoid picking detector noise and ECAL spikes as jets. We also
 \caption{Comparison of the E$_{T}$ and $|\eta|$ distributions in data and simulation in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels after $t\bar{t}$ selection.}
 \label{fig-ttbarETandEta}
 \end{figure}
+
+The distributions for the other variables can be seen in Figure \ref{fig-ttbarPlots}.
 
 \begin{figure} 
 %\begin{center}
@@ -319,6 +352,8 @@ vertex. The transverse energy distribution for each decay channel can be seen in
 
 \end{description}
 
+The fiducial variable distributions are shown in Figure \ref{fig-photonSelectionETandEta}.
+
 \begin{figure}
 % \begin{center}
 \includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_ET_splitTTbar_ratio.pdf}
@@ -331,8 +366,6 @@ vertex. The transverse energy distribution for each decay channel can be seen in
 \caption{Comparison of photon E$_{T}$ and $|\eta|$ distributions in data and simulation in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels after photon selection.}
 \label{fig-photonSelectionETandEta}
 \end{figure}
-
-
 
 \subsection{Cut based photon ID}
 
@@ -385,18 +418,19 @@ It is crucial that initial and final state radiation (ISR/FSR) is modelled corre
 \item[$\Delta R(leptons, jets)$] In order to reduce FSR in final state partons a minimum distance criterion in the $\eta - \phi$ plane is implemented. The cut is given as $\Delta R(leptons, jets) > 0.3$.
 \end{description}
 
-A significance test was performed in an attempt to optimise the $\Delta R$ cut between final state leptons and jets, however this proved inconclusive due to an initial cut of $\Delta R > 0.1$ at generator level.
+A significance test was performed in an attempt to optimise the $\Delta R$ cut between final state leptons and jets, however this proved inconclusive due to an initial cut of $\Delta R > 0.1$ at generator level. Figure \ref{fig-photonDRjets} shows the $\Delta R$ distributions after photon selection.
 
 \begin{figure}
-\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_deltaR_electrons_splitTTbar_ratio.pdf}
-\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_deltaR_jets_splitTTbar_ratio.pdf} \\
-\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_deltaR_electrons_splitTTbar_ratio.pdf}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_deltaR_jets_splitTTbar_ratio.pdf}
 \includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_deltaR_jets_splitTTbar_ratio.pdf}\\
-\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_deltaR_electrons_splitTTbar_ratio.pdf}
+\begin{center}
 \includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_deltaR_jets_splitTTbar_ratio.pdf}
-\caption{Comparison of the $\Delta R(\gamma, electrons)$ and $\Delta R(\gamma, jets)$ distributions in data and simulation in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels after photon selection.}
-\label{fig-photonDeltaR}
+\end{center}
+\caption{Comparison of the $\Delta R(\gamma, jets)$ distributions in data and simulation in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels after photon selection.}
+\label{fig-photonDRjets}
 \end{figure}
+
+The distributions for the other photon variables can be seen in Figure \ref{fig-photonPlots}
 
 \subsection{Super-cluster footprint-removal for photon isolation} \label{subsec-SCFR}
 
@@ -465,25 +499,27 @@ We calculate the shower shape of the photon by measuring energy deposits from wi
 
 Talk about agreement between data and simulation. 
 
-% \begin{figure} 
-% \begin{center}
-% \includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_sigma_ietaieta_barrel_splitTTbar_ratio.pdf}
-% \includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_sigma_ietaieta_barrel_splitTTbar_ratio.pdf}
-% \includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_sigma_ietaieta_barrel_splitTTbar_ratio.pdf}
-% \end{center}
-% \caption{}
-% \label{fig-PhotonShowerShape}
-% \end{figure}
+\begin{figure}
+\includegraphics[width=0.5\textwidth]{Plots/signalComparison/MuMu/sigComparison.pdf}
+\includegraphics[width=0.5\textwidth]{Plots/signalComparison/EE/sigComparison.pdf}
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Plots/signalComparison/EMu/sigComparison.pdf}
+\end{center}
+\caption{Comparison of the shape from random cone isolation and isolated photons identified from generator particle matching in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels.}
+\label{fig-signalComparison}
+\end{figure}
 
-% \begin{figure} \label{fig-SCFRChargedHadronIso}
-% \begin{center}
-% \includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_RhoCorrectedSCChIso_barrel_splitTTbar_ratio.pdf}
-% \includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_RhoCorrectedSCChIso_barrel_splitTTbar_ratio.pdf}
-% \includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_RhoCorrectedSCChIso_barrel_splitTTbar_ratio.pdf}
-% \end{center}
-% \caption{}
-% \label{fig-SCFRChargedHadronIso}
-% \end{figure}
+
+\begin{figure}
+\includegraphics[width=0.5\textwidth]{Plots/signalComparison/MuMu/bkgdComparison.pdf}
+\includegraphics[width=0.5\textwidth]{Plots/signalComparison/EE/bkgdComparison.pdf}
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Plots/signalComparison/EMu/bkgdComparison.pdf}
+\end{center}
+\caption{Comparison of the isolation profiles from the side band region and isolation of hadronic photons identified from generator particle matching in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels.}
+\label{fig-backgroundComparison}
+\end{figure}
+
 
 \begin{figure}
 \includegraphics[width=0.5\textwidth]{Plots/Fits/TTbarPhotonAnalysis/MuMu/central/FitTemplate.pdf}
