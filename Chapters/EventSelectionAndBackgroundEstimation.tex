@@ -214,8 +214,14 @@ The missing transverse energy (MET) selection cut is implemented only within the
 \label{fig-METplots}
 \end{figure}
 
-\subsection{Corrections to simulated events} \label{subsec-SimulatedEventsCorrection}
+\section{Corrections to simulated events} \label{sec-SimulatedEventsCorrection}
 
+\begin{description}
+	\item[Pileup Reweighting]
+	\item[B-tagging Reweighting]
+	\item[Lepton Efficiencies]
+	\item[Z+Jets Scale Factors]
+\end{description}
 
 \begin{figure}
 \includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Photon_ET_splitTTbar_ratio.pdf}
@@ -432,7 +438,7 @@ A significance test was performed in an attempt to optimise the $\Delta R$ cut b
 
 The distributions for the other photon variables can be seen in Figure \ref{fig-photonPlots}
 
-\subsection{Super-cluster footprint-removal for photon isolation} \label{subsec-SCFR}
+\subsection{Supercluster footprint-removal for photon isolation} \label{subsec-SCFR}
 
 The $t\bar{t}+\gamma$ analysis uses a method of removing the photon shower energy deposit, or ``footprint", from the isolation cone in order to remove the energy deposits of the selected photon from the isolation sum, and thus minimise correlation the between shower shape and isolation components in our signal process --- super-cluster footprint removal (SCFR). With this method the footprint is, effectively, cleaned so that the isolation sum is not biased from the presence of the photon at the centre of the cone. Shower-shape variables, defined within the super-cluster, are then decoupled from the isolation computation, defined outside of the super-cluster. When the footprint of the photon has finally been removed, the isolation sum for prompt photons is due only to pileup and underlying events. The process calculates each isolation component individually, however we only consider the charged hadron component of the isolation sum using this technique, which is then used to model our background and signal processes. This method was first implemented as a technique upon measuring the diphoton cross-section with 7 TeV data \cite{diffxsectdiphoton}. The main features of this module are improvement in the agreement between data and MC for ECAL detector-based isolation, better discriminating power against the misidentification of photons, and it allows us to use a fully data-driven method for constructing our template fit.
 
@@ -466,9 +472,49 @@ Super-cluster footprint-removed isolation deals with PF candidates, whereas PF i
 \label{fig-SCFR}
 \end{figure}
 
+\section{Photon Purity Estimation} \label{sec-PhotonPurityEstimation}
+
+We define the photon purity, $\pi$, as the number of photons that are prompt and pass the photon ID selection over the total number of photon candidates. Prompt photons are created in the hard-scattering process and are emitted from the high-$p_T$ hard-scattering particles. The main sources of non-prompt photons comes from charged particles interacting with the detector material and from quark hadronisation, and are generally not isolated and have a low $p_T$. We also obtain a source of photons from $\pi^0$ decays, whereby two very collinear photons are produced. 
+
+One method to find the photon purity is through simulation, where we have access to information of all the particles simulated by the MC event generator. We match reconstructed photons to generator photons by using information of their mother particles in order to determine the origin of the photons. From this we can divide our events into three categories based on the event generator matching to a reconstructed photon. 
+
+\begin{itemize}
+	\item Signal: reconstructed photon is matched to a generated photon
+	\item Misidentified electron: reconstructed photon is matched to a generated electron
+	\item Misidentified jet: photon is not matched to either a generated photon or electron
+\end{itemize}
+
+In order to find if our photon is prompt (signal), we use our matching process to find a generator-level photon that matches its properties. We use the transverse momentum along with the $\eta$ and $\phi$ coordinates of the reconstructed and generator-level photon to implement a $p_T$ and $\Delta R$ requirement on the matching process. Events are iterated over in the order in which they were created by the generator, and if we find the $\Delta R$ between the reconstructed photon and generated photon is \textbf{less than 0.2} and $|p^{reco}_T - p^{gen}_T|/p^{gen}_T$ is \textbf{less than 1.0} then we consider it a match and stop the iteration process. The parentage of the matched photon is then inspected to verify its origin, such that if it descends from a quark, gluon, charged lepton, or boson then we determine it to be prompt. We must, however, also verify that the photon is isolated. A photon maybe produced in the hard-scattering process, however we may observe hadronisation and showering in close by, such that our signal photon will not be isolated. In order to ensure that these photons are not lost to the nearby non-signal activity, we must introduce additional selection cuts to differentiate between our prompt signal photons and non-isolated photons.  
+
+\begin{itemize}
+	\item $\left(p_T^{reco} - p_T^{gen}\right)/p_T^{gen} < 0.1$
+	\item $\Delta R ( \gamma^{gen}, other ) > 0.2$ where other particles include leptons, photons and final state
+particles (hadrons, leptons, photons) with transverse momenta above 5 GeV
+	\item $|\Delta\eta ( \gamma^{reco}, \gamma^{gen} )| < 0.005$
+	\item $\Delta R ( \gamma^{reco}, \gamma^{gen} ) < 0.01$
+\end{itemize}
+
+The listed additional cuts help to select photons that are well isolated and do not have any undesired activity nearby.
+
+As described above, electrons leave a very similar trace to photons as it showers within the electromagnetic calorimeter, except for an additional charged track pointing towards the energy deposit. We implement specific selection criteria in order to minimise the fake-rate of electrons misidentified as photons within the event selection. However, it is observed that a large number of electrons still pass photon selection requirements and are recorded as signal. We thus include a criteria to find well isolated generator-level electrons in the same manner as for photons, however in this scenario we consider electrons from W and Z decays only. The cuts are shown below.
+
+\begin{itemize}
+	\item $\left( p_T^{reco} - p_T^{gen} \right) /p_T^{gen} < 0.1$
+	\item $\Delta R ( e, other ) > 0.2$ where other particles include leptons, photons and final state
+		  particles (hadrons, leptons, photons) with transverse momenta above 5 GeV
+	\item $ \Delta\eta ( \gamma^{reco}, e )| < 0.005$
+	\item $\Delta R ( \gamma^{reco}, e ) < 0.04$
+\end{itemize}
+
+The cuts have been cross-checked with the di-leponic $t\bar{t}$ sample as it contains a significant amount of electrons identified as photons.
+
+All reconstructed photons that pass the cuts described previously and is matched with a generator-level photon is then defined as a real photon. If it is instead matched to a generator-level electron it is then defined as a misidentified electron. Any other event that is not matched to a generator-level electron or photon is then classified as a misidentified jet.
+
+As the photon purity directly affects the cross-section ratio measurement, we do not want to rely explicitly on simulation, and therefore it would be preferable to compute the photon purity via a data-driven method. We make use of the fact that our signal photon, whether a real signal photon or misidentified electron, are isolated objects, while misidentified jets and non-prompt photons close to or within a jet. We use the supercluster footprint-removed charged hadron isolation, described above, as our discriminating variable in the fit. We compute template shapes for our signal process of a prompt isolated photon (including those originating from a misidentified electron), and non-isolated hadronic photons as our background template. The template fit provides us with estimate yields of photons originating from real photons or misidentified electrons.   
+
 \subsection{Signal template construction using the random cone method}
 
-We construct our prompt signal photon template using the ``random cone" method. The events that pass our full photon event selection are used as the method relies on the assumption that a prompt photon is isolated, such that the activity recorded within the detector around the prompt photon, not regarding the area affected by the energy deposit from the photon, arises only from pile-up, underlying events, and electronic noise in the ECAL.  
+We construct our prompt signal photon template using the ``random cone" method, similar to that found in \cite{diffxsectdiphoton}. The events that pass our full photon event selection are used as the method relies on the assumption that a prompt photon is isolated, such that the activity recorded within the detector around the prompt photon, not regarding the area affected by the energy deposit from the photon, arises only from pile-up, underlying events, and electronic noise in the ECAL.  
 
 Contributions from these effects, generally, do not vary for an isolation sum which is calculated in a region which is separate from the photon candidate, but using the same pseudorapidity range, $\phi$. A suitable orientation of the isolation cone is chosen by using the proceeding steps:
 
@@ -477,7 +523,7 @@ Contributions from these effects, generally, do not vary for an isolation sum wh
 	\item We then check for objects lying within the region, such that there is no energy originating from anything other than pile-up, underlying events, or electrical noise in the ECAL. Such that there are no AK5\footnote{Anti-$k_T$ jet clustering algorithm with cone size of $\Delta R = 0.5$ (see Section \ref{subsec-JetReconstruction})} PF jets with a p$_T$ of at least 20 GeV at $\Delta R < 0.8$, photons with p$_T$ less than 10 GeV at $\Delta R < 0.8$, or muons at $\Delta R < 0.4$ with respect to the random cone axis. If such an object is found to fulfil our requirements, then we perform the same search again to generate another random angle, $\phi_{Rand.Cone}$, until a suitable direction is found. In practice, the procedure is not repeated more than twice in order to find a suitable direction.   
 \end{itemize}
 
-We then calculate the isolation sum within a cone centred on our chosen direction. The difference when performing footprint removal now is that there is no super-cluster lying along the cone axis, and therefore it must be performed in a different way: the area corresponding to that in which the photon super-cluster lies, which is rotated in $\phi_{Rand.Cone}$ in order to align with the random cone axis, is not included within the calculation process. In this manner, both the area which we consider for the isolation sum, and the area throughout the centre of the cone replacing the photon candidate footprint, has exactly the same shape and extension in the photon and random cone directions.   
+We then calculate the isolation sum within a cone centred on our chosen direction. The difference when performing footprint removal now is that there is no supercluster lying along the cone axis, and therefore it must be performed in a different way: the area corresponding to that in which the photon super-cluster lies, which is rotated in $\phi_{Rand.Cone}$ in order to align with the random cone axis, is not included within the calculation process. In this manner, both the area which we consider for the isolation sum, and the area throughout the centre of the cone replacing the photon candidate footprint, has exactly the same shape and extension in the photon and random cone directions.   
 
 \begin{figure} 
 \begin{center}
@@ -487,17 +533,7 @@ We then calculate the isolation sum within a cone centred on our chosen directio
 \label{fig-RandomConeIsolation}
 \end{figure}
 
-\section{Background Estimation} \label{sec-BackgroundEstimation}
-
-\subsection{Background estimation using the $\sigma_{i \eta i \eta}$ side-band method} 
-
-Background events are identified as non-prompt or misidentified photons. We define a template to model our background by selecting photon candidates that fail one selection requirement, which we call the ``side-band" region. The logic behind this method is such that by inverting a particular cut on the photon selection, then we have a sample that is rich in ``photon-like" jets (whereby the hadronisation process resolves to a neutral boosted meson with very little activity around it). In order to model the background correctly, we must select the requirements on the side-band region such that they do not differ too greatly from the full selection, and thus we do not incorrectly reject a genuine jet. 
-
-For the $t\bar{t}+\gamma$ analysis, we create a side-band region by inverting the shower-shape selection cut, thus giving a cut of $0.12 < \sigma_{i \eta i \eta} < 0.20$ where all other photon ID selection requirements still remain the same. When considering a side-band variable, we choose a variable with little to no correlation with our template variable in order to optimise the performance of the method. The shape of the side-band template will then closely resemble the isolation distribution for photons that are not prompt but pass the photon ID requirements. 
-
-We calculate the shower shape of the photon by measuring energy deposits from within a $5 \times 5$ matrix of crystals, centred around the crystal with the largest energy in the super-cluster. As the super-cluster footprint-removal technique removes the super-cluster from the isolation sum, then we have no shared input between the two variables (shower shape and isolation) effectively removing any correlation between the two. However, no two variables are ever truly uncorrelated, and any residual correlation can be attributed to the properties of hadronisation of jets. As our main source of fake photons arises in the form of jets misidentified as photons, we use the super-cluster footprint-removed charged hadron isolation as our background template variable to discriminate against the fake photons.
-
-Talk about agreement between data and simulation. 
+Figure \ref{fig-signalComparison} shows the comparison of templates from the random cone isolation method and the isolation in MC events which encompass genuine prompt photons and misidentified electrons for each decay channel. We observe a good agreement between data-driven and expected MC templates.   
 
 \begin{figure}
 \includegraphics[width=0.5\textwidth]{Plots/signalComparison/MuMu/sigComparison.pdf}
@@ -508,6 +544,16 @@ Talk about agreement between data and simulation.
 \caption{Comparison of the shape from random cone isolation and isolated photons identified from generator particle matching in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels.}
 \label{fig-signalComparison}
 \end{figure}
+
+\subsection{Background estimation using the $\sigma_{i \eta i \eta}$ side-band method} 
+
+Background events in our template fit are identified as non-prompt photons. We define a template to model our background by selecting photon candidates that fail one selection requirement, which we call the ``side-band" region. The logic behind this method is such that by inverting a particular cut on the photon selection, then we have a sample that is rich in ``photon-like" jets (whereby the hadronisation process resolves to a neutral boosted meson with very little activity around it). In order to model the background correctly, we must select the requirements on the side-band region such that they do not differ too greatly from the full selection, and thus we do not incorrectly reject a genuine jet. 
+
+For the $t\bar{t}+\gamma$ analysis, we create a side-band region by inverting the photon shower-shape ($\sigma_{i\eta i\eta}$) selection cut, thus giving a cut of $0.12 < \sigma_{i \eta i \eta} < 0.20$ where all other photon ID selection requirements still remain the same. When considering a side-band variable, we choose a variable with little to no correlation with our template variable in order to optimise the performance of the method. The shape of the side-band template will then closely resemble the isolation distribution for photons that are not prompt but pass the photon ID requirements. 
+
+We calculate the shower shape of the photon by measuring energy deposits from within a $5 \times 5$ matrix of crystals, centred around the crystal with the largest energy in the super-cluster. As the super-cluster footprint-removal technique removes the super-cluster from the isolation sum, then we have no shared input between the two variables (shower shape and isolation) effectively removing any correlation between the two. However, no two variables are ever truly uncorrelated, and any residual correlation can be attributed to the properties of hadronisation of jets. As our main source of fake photons arises in the form of jets misidentified as photons, we use the supercluster footprint-removed charged hadron isolation (as described in Section \ref{subsec-SCFR}) as our background template variable to discriminate against fake photons.
+
+In Figure \ref{fig-backgroundComparison} we show a comparison of the photon shower shape side-band distributions from our data-driven and MC templates. We observe a good agreement between the distributions.  
 
 
 \begin{figure}
@@ -520,6 +566,36 @@ Talk about agreement between data and simulation.
 \label{fig-backgroundComparison}
 \end{figure}
 
+\subsection{Fit to charged hadron isolation}
+
+We perform the fit in the SCFR charged hadron isolation less than 20 GeV in order to ensure a good description of background. Loose photon candidates are used for the fit to increase statistics as the dilepton channels are statistically limited. After the fit is computed the result is corrected by applying the nominal isolation cut on the templates, then computing the true number of genuine photons, misidentified electrons, and jets identified as photons. 
+
+.
+.
+.
+
+
+In an attempt to verify that the fit works well across a range of potential photon purity values, and thus not having a bias towards predicted values, we perform the fit with while varying the photon purity value. Due to the $t\bar{t}+\gamma$ simulated sample comprising predominantly prompt photon events, by scaling the $t\bar{t}+\gamma$ contribution we vary the photon purity value. Figure \ref{fig-photonPurityComparison} shows a comparison of the photon purity value and and the corresponding value measured by the fit to the charged hadron isolation. 
+
+\begin{figure}
+\includegraphics[width=0.3]{Plots/purityComparison/MuMu/photonPurity.pdf}
+\includegraphics[width=0.3]{Plots/purityComparison/EE/photonPurity.pdf}
+\includegraphics[width=0.3]{Plots/purityComparison/EMu/photonPurity.pdf}
+\caption{}
+\label{fig-photonPuritiyComparison}
+\end{figure}
+
+We can see the template fit to the charged hadron isolation for the full data set in Figure \ref{fig-fitTemplates} for each decay channel.
+
+Statistical uncertainty given by RooFit does not include variation of the templates but only
+uncertainty of data. However since templates are data-driven and suffer from low statistics
+we have to take this uncertainty into account. We perform pseudo experiments where for
+data, isolated and hadronic photon templates in each bin the value is randomly chosen by
+Poisson distribution with mean of the bin content in the original histogram. The width of
+the distribution of the photon purity in these pseudo experiments is taken as the statistical
+uncertainty. The photon purity is calculated using only the portion of the isolation distribution
+that passes the original 5 GeV isolation cut. From the fit, the photon purity is measured to be
+0.57 ± 0.06 in the e + jets channel and 0.53 ± 0.06 in the μ + jets channel.
 
 \begin{figure}
 \includegraphics[width=0.5\textwidth]{Plots/Fits/TTbarPhotonAnalysis/MuMu/central/FitTemplate.pdf}
@@ -576,3 +652,139 @@ Talk about agreement between data and simulation.
 \label{tab-datasets}
 \end{sidewaystable}
 
+\section{Number of signal events in data} \label{sec-SigEventsInData}
+
+\begin{table}
+\begin{center}
+\begin{tabular}{l|ccc|c}
+\hline
+	\textbf{Sample} & \textbf{Genuine Photon} & \textbf{MisID Electron} & \textbf{Hadronic} & \textbf{Total} \\
+\hline
+	$t\bar{t}+\gamma$ & & & & \\
+	$t\bar{t}+jets$ & & & & \\
+	$W+\gamma$ &  & & & \\
+	$W+jets$ & & & & \\
+	$Z+\gamma$ & & & & \\
+	$Z+jets$ &  &  &  & \\
+	Single Top &  & & & \\
+	Di-boson  & & & & \\
+\hline
+	Total & & & & \\
+	Data & & & & \\
+\hline	
+\end{tabular}
+\end{center}
+\caption{}
+\label{}
+\end{table}	
+
+\begin{table}
+\begin{center}
+\begin{tabular}{l|ccc|c}
+\hline
+	\textbf{Sample} & \textbf{Genuine Photon} & \textbf{MisID Electron} & \textbf{Hadronic} & \textbf{Total} \\
+\hline
+	$t\bar{t}+\gamma$ & & & & \\
+	$t\bar{t}+jets$ & & & & \\
+	$W+\gamma$ &  & & & \\
+	$W+jets$ & & & & \\
+	$Z+\gamma$ & & & & \\
+	$Z+jets$ &  &  &  & \\
+	Single Top &  & & & \\
+	Di-boson  & & & & \\
+\hline
+	Total & & & & \\
+	Data & & & & \\
+\hline	
+\end{tabular}
+\end{center}
+\caption{}
+\label{}
+\end{table}	
+
+\begin{table}
+\begin{center}
+\begin{tabular}{l|ccc|c}
+\hline
+	\textbf{Sample} & \textbf{Genuine Photon} & \textbf{MisID Electron} & \textbf{Hadronic} & \textbf{Total} \\
+\hline
+	$t\bar{t}+\gamma$ & & & & \\
+	$t\bar{t}+jets$ & & & & \\
+	$W+\gamma$ &  & & & \\
+	$W+jets$ & & & & \\
+	$Z+\gamma$ & & & & \\
+	$Z+jets$ &  &  &  & \\
+	Single Top &  & & & \\
+	Di-boson  & & & & \\
+\hline
+	Total & & & & \\
+	Data & & & & \\
+\hline	
+\end{tabular}
+\end{center}
+\caption{}
+\label{}
+\end{table}	
+
+\begin{equation}
+\chi^2(SF_{t\bar{t}+\gamma},SF_{V+\gamma},SF_{jet\to\gamma}) = \frac{\left(\pi^{data}_{e\gamma} - \pi^{MC}_{e\gamma}\right)^2}{\sigma^2_{\pi_{e\gamma}}} + \frac{\left(\pi^{data}_{t\bar{t}} - \pi^{MC}_{t\bar{t}}\right)^2}{\sigma^2_{\pi_{t\bar{t}}}} + \frac{\left(N^{data}_{events} - N^{MC}_{events}\right)^2}{\sigma^2_{N_{events}}}
+\end{equation}	
+
+\begin{table}
+\begin{center}
+\begin{tabular}{l|cc|cc|cc}
+\hline
+	& \multicolumn{2}{c|}{$\mu^{+}\mu^{-}$} & \multicolumn{2}{c|}{$e^{+}e^{-}$} & \multicolumn{2}{c}{$e\mu$} \\
+	& data & MC & data & MC & data & MC \\
+\hline
+	Photon purity & & & & & &\\
+	Top purity & & & & & &\\
+	$N_{events}$ data & & & & & & \\
+\hline	
+\end{tabular}
+\end{center}
+\caption{Measured quantities used in the likelihood fit for the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels.}
+\label{fig-likelihoodVariables}
+\end{table}		
+
+\begin{figure}
+\includegraphics[width=0.333\textwidth]{Plots/likelihoodfits/MuMu/ttgamma_likelihood_fit.pdf}
+\includegraphics[width=0.333\textwidth]{Plots/likelihoodfits/MuMu/vgamma_likelihood_fit.pdf}
+\includegraphics[width=0.333\textwidth]{Plots/likelihoodfits/MuMu/jgamma_likelihood_fit.pdf}
+\caption{Likelihood distributions for the $t\bar{t}+\gamma$, $V+\gamma$, and $jets\to \gamma$ scale factors in the $\mu^{+}\mu^{-}$ channel.}
+\label{fig-SFLikelihoodFitsMuMu}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=0.333\textwidth]{Plots/likelihoodfits/EE/ttgamma_likelihood_fit.pdf}
+\includegraphics[width=0.333\textwidth]{Plots/likelihoodfits/EE/vgamma_likelihood_fit.pdf}
+\includegraphics[width=0.333\textwidth]{Plots/likelihoodfits/EE/jgamma_likelihood_fit.pdf}
+\caption{Likelihood distributions for the $t\bar{t}+\gamma$, $V+\gamma$, and $jets\to \gamma$ scale factors in the $e^{+}e^{-}$ channel.}
+\label{fig-SFLikelihoodFitsEE}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=0.333\textwidth]{Plots/likelihoodfits/EMu/ttgamma_likelihood_fit.pdf}
+\includegraphics[width=0.333\textwidth]{Plots/likelihoodfits/EMu/vgamma_likelihood_fit.pdf}
+\includegraphics[width=0.333\textwidth]{Plots/likelihoodfits/EMu/jgamma_likelihood_fit.pdf}
+\caption{Likelihood distributions for the $t\bar{t}+\gamma$, $V+\gamma$, and $jets\to \gamma$ scale factors in the $e\mu$ channel.}
+\label{fig-SFLikelihoodFitsEMu}
+\end{figure}
+
+\section{Combination of channels} \label{sec-CombinationOfChannels}
+
+\begin{figure}
+\includegraphics[width=0.333\textwidth]{Plots/likelihoodfits/Combination/ttgamma_likelihood_fit.pdf}
+\includegraphics[width=0.333\textwidth]{Plots/likelihoodfits/Combination/vgamma_likelihood_fit.pdf}
+\includegraphics[width=0.333\textwidth]{Plots/likelihoodfits/Combination/jgamma_likelihood_fit.pdf}
+\caption{Likelihood distributions for the $t\bar{t}+\gamma$, $V+\gamma$, and $jets\to \gamma$ scale factors when combining channels.}
+\label{fig-SFLikelihoodFitsCombination}
+\end{figure}
+
+\begin{equation}
+\begin{split}
+\chi^2(SF_{t\bar{t}+\gamma},SF_{V+\gamma},SF_{jet\to\gamma}) & = \frac{\left(\pi^{data,\mu^+\mu^-}_{e\gamma} - \pi^{MC,\mu^+\mu^-}_{e\gamma}\right)^2}{\sigma^2_{\pi_{e\gamma},\mu^+\mu^-}} + \frac{\left(\pi^{data,\mu^+\mu^-}_{t\bar{t}} - \pi^{MC,\mu^+\mu^-}_{t\bar{t}}\right)^2}{\sigma^2_{\pi_{t\bar{t}},\mu^+\mu^-}} + \frac{\left(N^{data,\mu^+\mu^-}_{events} - N^{MC,\mu^+\mu^-}_{events}\right)^2}{\sigma^2_{N_{events,\mu^+\mu^-}}} \\
+& + \frac{\left(\pi^{data,e^+e^-}_{e\gamma} - \pi^{MC,e^+e^-}_{e\gamma}\right)^2}{\sigma^2_{\pi_{e\gamma},e^+e^-}} + \frac{\left(\pi^{data,e^+e^-}_{t\bar{t}} - \pi^{MC,e^+e^-}_{t\bar{t}}\right)^2}{\sigma^2_{\pi_{t\bar{t}},e^+e^-}} + \frac{\left(N^{data,e^+e^-}_{events} - N^{MC,e^+e^-}_{events}\right)^2}{\sigma^2_{N_{events,e^+e^-}}} \\
+& + \frac{\left(\pi^{data,e\mu}_{e\gamma} - \pi^{MC,e\mu}_{e\gamma}\right)^2}{\sigma^2_{\pi_{e\gamma},e\mu}} + \frac{\left(\pi^{data,e\mu}_{t\bar{t}} - \pi^{MC,e\mu}_{t\bar{t}}\right)^2}{\sigma^2_{\pi_{t\bar{t}},e\mu}} + \frac{\left(N^{data,e\mu}_{events} - N^{MC,e\mu}_{events}\right)^2}{\sigma^2_{N_{events,e\mu}}} 
+\end{split}
+\end{equation}

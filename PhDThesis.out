@@ -73,48 +73,56 @@
 \BOOKMARK [1][-]{section.4.5}{Di-lepton Selection and Vetoes}{chapter.4}% 73
 \BOOKMARK [2][-]{subsection.4.5.1}{Electrons}{section.4.5}% 74
 \BOOKMARK [2][-]{subsection.4.5.2}{Muons}{section.4.5}% 75
-\BOOKMARK [2][-]{subsection.4.5.3}{Corrections to simulated events}{section.4.5}% 76
-\BOOKMARK [1][-]{section.4.6}{Jet Selection and b-tag Requirements}{chapter.4}% 77
-\BOOKMARK [1][-]{section.4.7}{Missing Transverse Energy}{chapter.4}% 78
-\BOOKMARK [1][-]{section.4.8}{Comparison of Data to MC}{chapter.4}% 79
-\BOOKMARK [1][-]{section.4.9}{Selection of t+ events}{chapter.4}% 80
-\BOOKMARK [2][-]{subsection.4.9.1}{Cut based photon ID}{section.4.9}% 81
-\BOOKMARK [2][-]{subsection.4.9.2}{Final state radiation suppression}{section.4.9}% 82
-\BOOKMARK [2][-]{subsection.4.9.3}{Super-cluster footprint-removal for photon isolation}{section.4.9}% 83
-\BOOKMARK [2][-]{subsection.4.9.4}{Signal template construction using the random cone method}{section.4.9}% 84
-\BOOKMARK [1][-]{section.4.10}{Background Estimation}{chapter.4}% 85
-\BOOKMARK [2][-]{subsection.4.10.1}{Background estimation using the i i \040side-band method}{section.4.10}% 86
-\BOOKMARK [0][-]{chapter.5}{Measurement of the inclusive t+ cross-section}{}% 87
-\BOOKMARK [1][-]{section.5.1}{Signal Definition and Background Processes}{chapter.5}% 88
-\BOOKMARK [2][-]{subsection.5.1.1}{Signal definition}{section.5.1}% 89
-\BOOKMARK [1][-]{section.5.2}{t+ Signal Simulation}{chapter.5}% 90
-\BOOKMARK [1][-]{section.5.3}{Phase Space Overlap Removal}{chapter.5}% 91
-\BOOKMARK [1][-]{section.5.4}{Measurement of the cross-section ratio R = t+/t}{chapter.5}% 92
-\BOOKMARK [1][-]{section.5.5}{Number of top pair events}{chapter.5}% 93
-\BOOKMARK [1][-]{section.5.6}{Photon Purity Estimation}{chapter.5}% 94
-\BOOKMARK [1][-]{section.5.7}{Number of signal events in data}{chapter.5}% 95
-\BOOKMARK [1][-]{section.5.8}{Signal Acceptance Calculation}{chapter.5}% 96
-\BOOKMARK [0][-]{chapter.6}{Systematic Uncertainties}{}% 97
-\BOOKMARK [1][-]{section.6.1}{Flat Rate Uncertainties}{chapter.6}% 98
-\BOOKMARK [2][-]{subsection.6.1.1}{Luminosity}{section.6.1}% 99
-\BOOKMARK [2][-]{subsection.6.1.2}{Lepton Efficiencies}{section.6.1}% 100
-\BOOKMARK [1][-]{section.6.2}{Shape Uncertainties}{chapter.6}% 101
-\BOOKMARK [2][-]{subsection.6.2.1}{Parton Distribution Function}{section.6.2}% 102
-\BOOKMARK [2][-]{subsection.6.2.2}{Pile-up Re-weighting}{section.6.2}% 103
-\BOOKMARK [2][-]{subsection.6.2.3}{Jet Energy Corrections}{section.6.2}% 104
-\BOOKMARK [2][-]{subsection.6.2.4}{Missing Transverse Energy}{section.6.2}% 105
-\BOOKMARK [2][-]{subsection.6.2.5}{B-tagging Efficiency}{section.6.2}% 106
-\BOOKMARK [2][-]{subsection.6.2.6}{Data-driven Re-weighting}{section.6.2}% 107
-\BOOKMARK [1][-]{section.6.3}{Modelling Uncertainties}{chapter.6}% 108
-\BOOKMARK [2][-]{subsection.6.3.1}{QCD Renormalisation and factorisation scales}{section.6.3}% 109
-\BOOKMARK [2][-]{subsection.6.3.2}{Parton-level matching thresholds}{section.6.3}% 110
-\BOOKMARK [2][-]{subsection.6.3.3}{Analysis-dependent modelling uncertainties}{section.6.3}% 111
-\BOOKMARK [1][-]{section.6.4}{Impact of uncertainties}{chapter.6}% 112
-\BOOKMARK [0][-]{chapter.7}{Results}{}% 113
-\BOOKMARK [0][-]{chapter.8}{Measurement of the anomalous couplings of the photon to the top quark}{}% 114
-\BOOKMARK [0][-]{chapter.9}{Electron Conversion Veto}{}% 115
-\BOOKMARK [0][-]{chapter*.72}{Conclusions}{}% 116
-\BOOKMARK [0][-]{section*.73}{Appendices}{}% 117
-\BOOKMARK [1][-]{section.Alph0.1}{Operator contributions to t }{section*.73}% 118
-\BOOKMARK [1][-]{section.Alph0.2}{Electron \046 Muon Efficiencies}{section*.73}% 119
-\BOOKMARK [0][-]{appendix*.76}{Bibliography}{}% 120
+\BOOKMARK [1][-]{section.4.6}{Jet Selection and b-tag Requirements}{chapter.4}% 76
+\BOOKMARK [1][-]{section.4.7}{Missing Transverse Energy}{chapter.4}% 77
+\BOOKMARK [1][-]{section.4.8}{Corrections to simulated events}{chapter.4}% 78
+\BOOKMARK [1][-]{section.4.9}{Selection of t+ events}{chapter.4}% 79
+\BOOKMARK [2][-]{subsection.4.9.1}{Cut based photon ID}{section.4.9}% 80
+\BOOKMARK [2][-]{subsection.4.9.2}{Final state radiation suppression}{section.4.9}% 81
+\BOOKMARK [2][-]{subsection.4.9.3}{Supercluster footprint-removal for photon isolation}{section.4.9}% 82
+\BOOKMARK [1][-]{section.4.10}{Photon Purity Estimation}{chapter.4}% 83
+\BOOKMARK [2][-]{subsection.4.10.1}{Signal template construction using the random cone method}{section.4.10}% 84
+\BOOKMARK [2][-]{subsection.4.10.2}{Background estimation using the i i \040side-band method}{section.4.10}% 85
+\BOOKMARK [2][-]{subsection.4.10.3}{Fit to charged hadron isolation}{section.4.10}% 86
+\BOOKMARK [1][-]{section.4.11}{Number of signal events in data}{chapter.4}% 87
+\BOOKMARK [1][-]{section.4.12}{Combination of channels}{chapter.4}% 88
+\BOOKMARK [0][-]{chapter.5}{Measurement of the inclusive t+ cross-section}{}% 89
+\BOOKMARK [1][-]{section.5.1}{Signal Definition and Background Processes}{chapter.5}% 90
+\BOOKMARK [2][-]{subsection.5.1.1}{Signal definition}{section.5.1}% 91
+\BOOKMARK [1][-]{section.5.2}{t+ Signal Simulation}{chapter.5}% 92
+\BOOKMARK [1][-]{section.5.3}{Phase Space Overlap Removal}{chapter.5}% 93
+\BOOKMARK [1][-]{section.5.4}{Measurement of the cross-section ratio R = t+/t}{chapter.5}% 94
+\BOOKMARK [1][-]{section.5.5}{Number of top pair events}{chapter.5}% 95
+\BOOKMARK [1][-]{section.5.6}{Photon Purity Estimation}{chapter.5}% 96
+\BOOKMARK [1][-]{section.5.7}{Number of signal events in data}{chapter.5}% 97
+\BOOKMARK [1][-]{section.5.8}{Signal Acceptance Calculation}{chapter.5}% 98
+\BOOKMARK [0][-]{chapter.6}{Systematic Uncertainties}{}% 99
+\BOOKMARK [1][-]{section.6.1}{Flat Rate Uncertainties}{chapter.6}% 100
+\BOOKMARK [2][-]{subsection.6.1.1}{Luminosity}{section.6.1}% 101
+\BOOKMARK [2][-]{subsection.6.1.2}{Lepton Efficiencies}{section.6.1}% 102
+\BOOKMARK [1][-]{section.6.2}{Shape Uncertainties}{chapter.6}% 103
+\BOOKMARK [2][-]{subsection.6.2.1}{Parton Distribution Function}{section.6.2}% 104
+\BOOKMARK [2][-]{subsection.6.2.2}{Pile-up Re-weighting}{section.6.2}% 105
+\BOOKMARK [2][-]{subsection.6.2.3}{Jet Energy Corrections}{section.6.2}% 106
+\BOOKMARK [2][-]{subsection.6.2.4}{Missing Transverse Energy}{section.6.2}% 107
+\BOOKMARK [2][-]{subsection.6.2.5}{B-tagging Efficiency}{section.6.2}% 108
+\BOOKMARK [2][-]{subsection.6.2.6}{Data-driven Re-weighting}{section.6.2}% 109
+\BOOKMARK [1][-]{section.6.3}{Modelling Uncertainties}{chapter.6}% 110
+\BOOKMARK [2][-]{subsection.6.3.1}{QCD Renormalisation and factorisation scales}{section.6.3}% 111
+\BOOKMARK [2][-]{subsection.6.3.2}{Parton-level matching thresholds}{section.6.3}% 112
+\BOOKMARK [2][-]{subsection.6.3.3}{Analysis-dependent modelling uncertainties}{section.6.3}% 113
+\BOOKMARK [1][-]{section.6.4}{Impact of uncertainties}{chapter.6}% 114
+\BOOKMARK [0][-]{chapter.7}{Results}{}% 115
+\BOOKMARK [0][-]{chapter.8}{Measurement of the anomalous couplings of the photon to the top quark}{}% 116
+\BOOKMARK [0][-]{chapter.9}{Electron Conversion Veto}{}% 117
+\BOOKMARK [0][-]{chapter*.86}{Conclusions}{}% 118
+\BOOKMARK [0][-]{section*.87}{Appendices}{}% 119
+\BOOKMARK [1][-]{section.Alph0.1}{Operator contributions to t }{section*.87}% 120
+\BOOKMARK [1][-]{section.Alph0.2}{Electron \046 Muon Efficiencies}{section*.87}% 121
+\BOOKMARK [1][-]{section.Alph0.3}{Variable distributions}{section*.87}% 122
+\BOOKMARK [2][-]{subsection.Alph0.3.1}{Lepton variables}{section.Alph0.3}% 123
+\BOOKMARK [2][-]{subsection.Alph0.3.2}{Jet variables}{section.Alph0.3}% 124
+\BOOKMARK [2][-]{subsection.Alph0.3.3}{MET variables}{section.Alph0.3}% 125
+\BOOKMARK [2][-]{subsection.Alph0.3.4}{t photon variables}{section.Alph0.3}% 126
+\BOOKMARK [2][-]{subsection.Alph0.3.5}{t+ photon variables}{section.Alph0.3}% 127
+\BOOKMARK [0][-]{appendix*.106}{Bibliography}{}% 128
