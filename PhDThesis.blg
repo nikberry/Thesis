@@ -1,10 +1,6 @@
 This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: PhDThesis.aux
-White space in argument---line 247 of file PhDThesis.aux
- : \citation{CMSHiggs.
- :                     ATLASHiggs}
-I'm skipping whatever remains of this command
 The style file: unsrt.bst
 Database file #1: PhDThesis.bib
 Warning--empty year in ttbarXsectPlot
@@ -31,6 +27,8 @@ Warning--empty year in TopEventSelection
 Warning--empty year in TOPEGM1
 Warning--empty year in TOPMUO1
 Warning--empty institution in CMS-PAS-JME-10-003
+Warning--empty author in CMS-DP-2013-005
+Warning--empty journal in CMS-DP-2013-005
 Warning--empty year in CutBasedIsolation2012
 Warning--empty journal in lumiScans
 Warning--empty author in PCC
@@ -44,36 +42,36 @@ Warning--empty author in CMS:2011esa
 Warning--empty journal in CMS:2011esa
 Warning--empty author in BTAGPAS
 Warning--empty journal in BTAGPAS
-You've used 154 entries,
+You've used 155 entries,
             1791 wiz_defined-function locations,
-            1290 strings with 25664 characters,
-and the built_in function-call counts, 29201 in all, are:
-= -- 2599
-> -- 1005
+            1293 strings with 25754 characters,
+and the built_in function-call counts, 29311 in all, are:
+= -- 2607
+> -- 1006
 < -- 14
-+ -- 420
++ -- 421
 - -- 266
-* -- 1797
-:= -- 4785
-add.period$ -- 457
-call.type$ -- 154
-change.case$ -- 153
+* -- 1805
+:= -- 4798
+add.period$ -- 459
+call.type$ -- 155
+change.case$ -- 154
 chr.to.int$ -- 0
-cite$ -- 191
-duplicate$ -- 1403
-empty$ -- 2997
+cite$ -- 194
+duplicate$ -- 1411
+empty$ -- 3011
 format.name$ -- 266
-if$ -- 6448
+if$ -- 6472
 int.to.chr$ -- 0
-int.to.str$ -- 154
-missing$ -- 146
-newline$ -- 767
+int.to.str$ -- 155
+missing$ -- 147
+newline$ -- 771
 num.names$ -- 142
-pop$ -- 307
+pop$ -- 313
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 606
+skip$ -- 610
 stack$ -- 0
 substring$ -- 1819
 swap$ -- 221
@@ -81,8 +79,8 @@ text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 37
+warning$ -- 39
 while$ -- 247
-width$ -- 157
-write$ -- 1628
-(There was 1 error message)
+width$ -- 158
+write$ -- 1635
+(There were 39 warnings)

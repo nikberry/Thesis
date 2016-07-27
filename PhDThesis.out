@@ -75,11 +75,11 @@
 \BOOKMARK [2][-]{subsection.4.5.2}{Muons}{section.4.5}% 75
 \BOOKMARK [1][-]{section.4.6}{Jet Selection and b-tag Requirements}{chapter.4}% 76
 \BOOKMARK [1][-]{section.4.7}{Missing Transverse Energy}{chapter.4}% 77
-\BOOKMARK [1][-]{section.4.8}{Corrections to simulated events}{chapter.4}% 78
-\BOOKMARK [1][-]{section.4.9}{Selection of t+ events}{chapter.4}% 79
-\BOOKMARK [2][-]{subsection.4.9.1}{Cut based photon ID}{section.4.9}% 80
-\BOOKMARK [2][-]{subsection.4.9.2}{Final state radiation suppression}{section.4.9}% 81
-\BOOKMARK [2][-]{subsection.4.9.3}{Supercluster footprint-removal for photon isolation}{section.4.9}% 82
+\BOOKMARK [1][-]{section.4.8}{Selection of t+ events}{chapter.4}% 78
+\BOOKMARK [2][-]{subsection.4.8.1}{Cut based photon ID}{section.4.8}% 79
+\BOOKMARK [2][-]{subsection.4.8.2}{Final state radiation suppression}{section.4.8}% 80
+\BOOKMARK [1][-]{section.4.9}{Corrections to simulated events}{chapter.4}% 81
+\BOOKMARK [2][-]{subsection.4.9.1}{Supercluster footprint-removal for photon isolation}{section.4.9}% 82
 \BOOKMARK [1][-]{section.4.10}{Photon Purity Estimation}{chapter.4}% 83
 \BOOKMARK [2][-]{subsection.4.10.1}{Signal template construction using the random cone method}{section.4.10}% 84
 \BOOKMARK [2][-]{subsection.4.10.2}{Background estimation using the i i \040side-band method}{section.4.10}% 85
@@ -125,4 +125,4 @@
 \BOOKMARK [2][-]{subsection.Alph0.3.3}{MET variables}{section.Alph0.3}% 125
 \BOOKMARK [2][-]{subsection.Alph0.3.4}{t photon variables}{section.Alph0.3}% 126
 \BOOKMARK [2][-]{subsection.Alph0.3.5}{t+ photon variables}{section.Alph0.3}% 127
-\BOOKMARK [0][-]{appendix*.106}{Bibliography}{}% 128
+\BOOKMARK [0][-]{appendix*.107}{Bibliography}{}% 128

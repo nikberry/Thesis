@@ -214,15 +214,6 @@ The missing transverse energy (MET) selection cut is implemented only within the
 \label{fig-METplots}
 \end{figure}
 
-\section{Corrections to simulated events} \label{sec-SimulatedEventsCorrection}
-
-\begin{description}
-	\item[Pileup Reweighting]
-	\item[B-tagging Reweighting]
-	\item[Lepton Efficiencies]
-	\item[Z+Jets Scale Factors]
-\end{description}
-
 \begin{figure}
 \includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Photon_ET_splitTTbar_ratio.pdf}
 \includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Photon_AbsEta_splitTTbar_ratio.pdf}\\
@@ -437,6 +428,38 @@ A significance test was performed in an attempt to optimise the $\Delta R$ cut b
 \end{figure}
 
 The distributions for the other photon variables can be seen in Figure \ref{fig-photonPlots}
+
+\section{Corrections to simulated events} \label{sec-SimulatedEventsCorrection}
+
+Although we heavily rely on simulation to model the processes that we are interested in, there are various processes that arise as a product of hadron-hadron collisions in which it does not always perfectly describe. In order to model a process accurately, we want to have a model that lies as close to the observed data as possible without introducing any form of bias. Therefore, we calculate a Scale Factor (SF) to account for the mismatch of data against simulation for each process. We must also calculate a weighting for individual MC samples in order to reweight the total number of generated events as follows:  
+
+\begin{equation}
+SF_{MC} = \frac{\lumi \times \sigma}{N_{events}}
+\end{equation}
+
+where $\lumi$ is the integrated luminosity of the data, $\sigma$ the theoretical cross-section of the simulated process, and $N_{events}$ the number of processed events for a particular process. The scale factors are calculated on an event-by-event basis and are defined as the product of individual scale factors for each correction type, as shown in Equation \ref{eqn-SFProduct}. 
+
+\begin{equation}
+SF = SF_{MC} \times SF_{Trig} \times SF_{Lep} \times SF_{PU} \times SF_{Btag}
+\end{equation} \label{eqn-SFProduct}
+
+A reweighting of the p$_T$ distribution of top pairs is also incorporated and described in Section \ref{}. The different event correction types are described below.
+
+\begin{description}
+	\item[Pileup Reweighting] The number of pileup interactions per event varies depending on many factors, such as the luminosity of collisions. Generated events are produced with a nominal number of pileup interactions and this must be corrected in order to match with that observed in data. To correct the number of pileup interactions per event, we must have knowledge of the number of pileup in simulation,the luminosity of the dataset we are correcting for, and the total inelastic cross-section of proton-proton collisions, such that $N_{PU} = \lumi \times \sigma_{pp}$.    
+	\item[B-tagging Reweighting] It is observed that the efficiency of correctly tagging a b-jet varies in simulation compared to that observed in data. The efficiency is calculated as the number of b-tagged jets over the total number of jets, given as 
+	\begin{equation}
+	\epsilon_f = \frac{N_f^{b-tagged}}{N_{f}^{Total}}
+	\end{equation}
+	where f is the flavour of jet. We apply a p$_T$-dependent scale factor to simulated events to account for this discrepancy \cite{CMS-DP-2013-005} following the BTV group prescription. To calculate the weight for each event containing one of more b-tags, we find the probability of having exactly zero b-tags ($\Pi_i = \left(1 - SF_i\right)$), and iterating over the events found to contain one b-jet in simulation. We then calculate the probability of an additional b-jet to be $1 - \Pi_i\left(1 - SF_i\right)$.  
+	\item[Lepton Efficiencies] Lepton efficiencies manifest in three forms: lepton trigger, isolation, and identification scale factors. Lepton triggers are used in simulation to replicate the triggers used in data, however this strategy does not always mirror the process accurately enough, and thus a trigger scale factor must be implemented to account for this difference. The trigger scale factor is computed using the tag-and-probe method \cite{tagandprobe} described in Section \ref{subsec-LeptonEfficiencies}. The efficiency is calculated as a function of p$_T$ and $\eta$, and is give by the ratio
+	\begin{equation}
+	SF_{Trig.} = \frac{\epsilon_{data}}{\epsilon_{MC}}
+	\end{equation}
+	The trigger scale factors used in this analysis were centrally produced by the CMS EGamma and Muon physics object groups for the 2012 data set and are defined as \ref{tab-leptonTriggerSFs}. The same technique can be applied when computing scale factors for lepton isolation and identification.  
+	\item[Z+Jets Scale Factors]
+\end{description} 
+
 
 \subsection{Supercluster footprint-removal for photon isolation} \label{subsec-SCFR}
 
@@ -654,6 +677,10 @@ that passes the original 5 GeV isolation cut. From the fit, the photon purity is
 
 \section{Number of signal events in data} \label{sec-SigEventsInData}
 
+Tables \ref{tab-SigPhotonsMuMu}, \ref{tab-SigPhotonsEE}, and \ref{tab-SigPhotonsEMu} show the number of photons after full selection broken down into categories of origin for individual MC samples, shown for each $t\bar{t}+\gamma$ decay channel. This method is used in order to extract the true number of signal $t\bar{t}+\gamma$ events to be used as a variable in the cross-section calculation. 
+
+We divide the resultant photons into three categories: genuine prompt and isolated photons, isolated misidentified electrons, and jets reconstructed as photons. Individual simulated samples contribute to each category differently, therefore we introduce scale factors to correct for mismodelling of the three categories. 
+
 \begin{table}
 \begin{center}
 \begin{tabular}{l|ccc|c}
@@ -674,8 +701,8 @@ that passes the original 5 GeV isolation cut. From the fit, the photon purity is
 \hline	
 \end{tabular}
 \end{center}
-\caption{}
-\label{}
+\caption{Simulated samples categorised by origin of reconstructed origin after nominal selection in the $\mu^+\mu^-$ channel. Events are normalized by process theoretical cross-sections. Data-driven QCD sample is not expected to have signal photons or electrons. All errors are statistical.}
+\label{tab-SigPhotonsMuMu}
 \end{table}	
 
 \begin{table}
@@ -698,8 +725,8 @@ that passes the original 5 GeV isolation cut. From the fit, the photon purity is
 \hline	
 \end{tabular}
 \end{center}
-\caption{}
-\label{}
+\caption{Simulated samples categorised by origin of reconstructed origin after nominal selection in the $e^+e^-$ channel. Events are normalized by process theoretical cross-sections. Data-driven QCD sample is not expected to have signal photons or electrons. All errors are statistical.}
+\label{tab-SigPhotonsEE}
 \end{table}	
 
 \begin{table}
@@ -722,13 +749,27 @@ that passes the original 5 GeV isolation cut. From the fit, the photon purity is
 \hline	
 \end{tabular}
 \end{center}
-\caption{}
-\label{}
+\caption{Simulated samples categorised by origin of reconstructed origin after nominal selection in the $e\mu$ channel. Events are normalized by process theoretical cross-sections. Data-driven QCD sample is not expected to have signal photons or electrons. All errors are statistical.}
+\label{tab-SigPhotonsEMu}
 \end{table}	
+
+The behaviour of the TTJets, WJets, ZJets, and DiBoson samples is well understood and has been cross-checked, and corrected, by different template fits to data. Thus leaving the contribution from the TTGamma and VGamma (the combination of WGamma and ZGamma) samples that are not as well understood, both being the largest contributors to our signal process. The VGamma sample is normalised to its NLO theoretical cross-section, and known to potentially be mismodelled to the order of 20\% \cite{PhysRevD.89.092005}. The VGamma sample has the second largest contribution to signal events out of all MC samples, and therefore it is critical that we cross-check the normalisation before including it. Single top events are also well modelled, however they do not contribute significantly to the signal process.
+
+We are thus left we three unknowns:
+
+\begin{itemize}
+	\item TTGamma scale factor (or normalization, the main unknown) 
+	\item VGamma scale factor
+	\item Jet to photon misidentification scale factor
+\end{itemize}
+
+From the events derived from data we can define the photon purity, $\pi_{e\gamma}$, taken from the charged hadron isolation data-driven template fit, which also includes electrons misidentified as photons. We can also compute the $t\bar{t}$ purity, $\pi_{t\bar{t}}$, and the total number of selected events in data. For every measured quantity we attach an associated uncertainty and propagate through to the unknown quantities described above. By relating the known quantities to the unknowns we can construct a likelihood function $\lumi(SF_{t\bar{t}+\gamma},SF_{V+\gamma},SF_{jet\to\gamma}) = e^{-\chi^2/2}$, where $\chi^2$ is the sum of the three chi-squared terms for each scale factor, given as   
 
 \begin{equation}
 \chi^2(SF_{t\bar{t}+\gamma},SF_{V+\gamma},SF_{jet\to\gamma}) = \frac{\left(\pi^{data}_{e\gamma} - \pi^{MC}_{e\gamma}\right)^2}{\sigma^2_{\pi_{e\gamma}}} + \frac{\left(\pi^{data}_{t\bar{t}} - \pi^{MC}_{t\bar{t}}\right)^2}{\sigma^2_{\pi_{t\bar{t}}}} + \frac{\left(N^{data}_{events} - N^{MC}_{events}\right)^2}{\sigma^2_{N_{events}}}
-\end{equation}	
+\end{equation}
+
+We use the three unknown quantities in order to correct event counts from relevant contributions in simulation. These quantities are: $\pi_{e\gamma}^{MC}$, ratio of events with a reconstructed photon matched to an isolated electron or photon over all events in simulation, $\pi_{t\bar{t}}^{MC}$ the ratio of top pair events over all events from simulation, and $\pi_{events}^{MC}$ the total number of selected events in MC.	
 
 \begin{table}
 \begin{center}
