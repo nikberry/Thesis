@@ -1,18 +1,5 @@
 \chapter{Measurement of the inclusive $t\bar{t}+\gamma$ cross-section}\label{chap-crosssection}
 
-\section{Signal Definition and Background Processes}
-
-\subsection{Signal definition}
-
-\begin{figure} 
-\begin{center}
-\includegraphics[scale=0.33]{Figures/SignalPhotonPlot.png}
-\end{center}
-\caption{Graphic representation of the signal and background definitions \cite{MishaThesis}.}
-\label{fig-signalphotonplot}
-\end{figure}
-
-
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.75\textwidth]{Figures/AnalysisFlowChart.png}
@@ -20,39 +7,6 @@
 \caption{Flow chart showing each stage of the analysis. The box numbers represent the outlined
 analysis steps.}
 \label{fig-AnalysisFlowChart}
-\end{figure}
-
-\section{$t\bar{t}+\gamma$ Signal Simulation}
-
-WHIZARD
-
-then
-
-MADGRAPH
-
-Factorised matrix element 
-
-\section{Phase Space Overlap Removal} \label{sec-PhaseSpaceOverlapRemoval}
-
-Events of the $t\bar{t}+\gamma$ process lie within a small region of $t\bar{t}$ phase space, and thus our signal sample events are expected to overlap with TTJets events in the case where a hard photon is radiated by initial state quarks, top quarks, b quarks, W and its decay products: electrons, muons, and their corresponding neutrino. In order to prevent the double counting of events we apply an overlap removal procedure to remove such events from our TTJets samples. In order for an event to be considered as overlapping with TTGamma, an event has to have at least one generator-level photon with the following properties:
-
-\begin{itemize}
-	\item p$_T(\gamma) > 13$ GeV
-	\item $|\eta| < 3.0$
-	\item Only gluons, bosons, or leptons are in the parents list. This ensures that photons from $\pi^0$ decays are not considered as signal
-	\item $\Delta R(\gamma, other) > 0.2$ where other particles include leptons, b quarks and final state particles (hadrons, charged leptons, photons) with transverse momenta above $5 \GeV$.
-\end{itemize}
-
-The last cut is implemented in order to suppress photons from showers. In such cases the information from the parent particle will show that a photon is radiated by an electron, however the photon may be collinear with it. In particular in TTJets di-lepton events, such as described in this analysis, where a considerable fraction of the reconstructed photons comes from electrons radiating photons.
-
- Similarly, we also observe an overlap between Z+Jets and ZGamma processes, and between W+Jets and WGamma samples, for the same reasons as described above. The phase space overlap removal procedure is applied on Z+Jets and W+Jets samples to remove events containing generator-level photons. Events containing generated photons are removed in the case in which they are from initial state radiation (emitted from the colliding partons) or final state radiation (emitted from W or Z bosons or their decay products), since these are already included in the WGamma and ZGamma simulations. The overlap removal procedure removes approximately one percent of the events in the W+Jets sample, and approximately three to four percent of the events from the TTJets and Z+Jets samples.
-
-\begin{figure} 
-\begin{center}
-\includegraphics[scale=0.5]{Figures/photonphasespace.png}
-\end{center}
-\caption{}
-\label{fig-photonphasespace}
 \end{figure}
 
 \section{Measurement of the cross-section ratio $R = \sigma_{t\bar{t}+\gamma}/\sigma_{t\bar{t}}$}
@@ -71,32 +25,45 @@ Due to the nature of the analysis, event selection is performed in two separate 
 \sigma_{t\bar{t}+\gamma} = \frac{N_{signal}}{\lumi \epsilon_{top} A_{top} \epsilon_{\gamma} A_{\gamma}}
 \end{equation}
 
-where $\epsilon_{top}$ and $A_{top}$ are the efficiency and acceptance of top selection for our signal top pair events. Thus, $\epsilon_{\gamma}$ and $A_{\gamma}$ are the efficiency and acceptance of the photon selection, introduced after the top quark pair event selection. Here we consider our signal as a top quark pair, decaying to leptons and b-jets, plus a prompt radiatied photon as our signal. We take the number of obvserved, $N_{signal}$, as the number of events counted from data after top pair and photon selections have been applied.
+where $\epsilon_{top}$ and $A_{top}$ are the efficiency and acceptance of top selection for our signal top pair events. Thus, $\epsilon_{\gamma}$ and $A_{\gamma}$ are the efficiency and acceptance of the photon selection, introduced after the top quark pair event selection. Here we consider our signal as a top quark pair, decaying to leptons and b-jets, plus a prompt radiatied photon as our signal. We take the number of observed, $N_{signal}$, as the number of events counted from data after top pair and photon selections have been applied.
 
-In order to simplify the calculation, we are able to take the ratio of the $t\bar{t}+\gamma$ cross-section to the $t\bar{t}$ cross-section, as previously measured by the CMS experiment \cite{ttbarXsectiondilepton}. In doing this, we simplfy the treatment of systematic uncertainties and cancel shared terms from each measurement, such as luminosity. The new ratio is calculated using the following equation
+Within this analysis, we measure the fiducial cross-section by calculating the cross-section of all events that fall within our chosen kinematic selection requirements introduced by the top and photon selection parameters. In reality, we calculate the fiducial cross-section, $t\bar{t}+\gamma$, by diving by the acceptance as such:
 
 \begin{equation}
-R = \frac{\sigma_{t\bar{t}+\gamma}}{\sigma_{t\bar{t}}} = \frac{N_{signal}}{\epsilon^{t\bar{t}+\gamma}_{top} A^{t\bar{t}+\gamma}_{top} 
-\epsilon^{t\bar{t}+\gamma}_{\gamma} A^{t\bar{t}+\gamma}_{\gamma}} \cdot \frac{\epsilon^{t\bar{t}}_{top} A^{t\bar{t}}_{top}}{N_{t\bar{t}}}
+\sigma_{t\bar{t}+\gamma}^{fid.} = \frac{N_{t\bar{t}+\gamma}}{\epsilon \cdot \lumi}, \quad \sigma_{t\bar{t}+\gamma} = \frac{N_{t\bar{t}+\gamma}}{A \cdot \epsilon \cdot \lumi} = \frac{\sigma_{t\bar{t}+\gamma}^{fid.}}{A}
 \end{equation}
 
-We now introduce a second term into the cross-section calculation which includes three new variables that stem from the $t\bar{t}$ inclusive cross-section: where $\epsilon^{t\bar{t}}_{top}$ and $A^{t\bar{t}}_{top}$ $N_{t\bar{t}}$ are the efficiency and acceptance of the $t\bar{t}$ process, and $N_{t\bar{t}}$ is the number of top pair events passing the full top selection, prior to the photon selection. The efficiencies for both top pair selection and top pair with a photon selection is very similar due to the ordering of the event selection - the selection of leptons, jets, b-jets, and MET are the same in each scenario. As the acceptance calculation depends on individual samples generator cuts and even selection, we must calculate this variable separately for each stage of the selection process. By taking the ratio of each cross-section we cancel out the luminosity parameter.
+In order to simplify the calculation, we are able to take the ratio of the fiducial $t\bar{t}+\gamma$ cross-section to the inclusive $t\bar{t}$ cross-section, as previously measured by the CMS experiment \cite{ttbarXsectiondilepton}. In doing this, we simplfy the treatment of systematic uncertainties and cancel shared terms from each measurement, such as luminosity. The new ratio is calculated using the following equation
 
-The prominent feature of this analysis is the addition of a radiated photon from one of the decay products of a di-leptonic $t\bar{t}$ decay. In order to correctly measure the number of signal $t\bar{t}+\gamma$ events we must make sure that we have correctly identified our signal events. Even though an object may pass the full photon ID selection requirements, it may not be our signal photon. Electrons and jets are likely to pass photon ID selection and be recorded as real signal photons, thus we must remove these `fakes' from our signal events.
+\begin{equation}
+R = \frac{\sigma_{t\bar{t}+\gamma}^{fid.}}{\sigma_{t\bar{t}}^{incl.}} = \frac{\sigma_{t\bar{t}+\gamma}^{fid.}}{1}\cdot\frac{1}{\sigma_{t\bar{t}}^{incl.}} = \frac{N_{t\bar{t}+\gamma}^{signal}}{\epsilon_{t\bar{t}+\gamma}^{top+pho.}} \cdot \frac{(\epsilon \cdot A)_{t\bar{t}}^{top}}{N_{t\bar{t}}}
+\end{equation}
 
-For jets that pass the photon ID requirements and are thus misidentified, we must note that they do not contain a genuine photon. Electrons that have been misidentified as photons are more difficult to remove as they hold the same properties as a photon, including isolated electromagnetic shower etc. Electrons differ from our signal photons because of the addition of a charged track pointing in the direction of the energy deposit. As a result, we treat each source of ``fakes" in a different manner, described in Section \ref{sec-PhotonPurityEstimation}.   
+We now introduce a second term into the cross-section calculation which includes three new variables that stem from the $t\bar{t}$ inclusive cross-section: where $\epsilon_{t\bar{t}}^{top}$ and $A_{t\bar{t}}^{top}$ are the efficiency and acceptance of the $t\bar{t}$ process, and $N_{t\bar{t}}$ is the number of top pair events passing the full top selection, prior to the photon selection. The efficiencies for both top pair selection and top pair with a photon selection is very similar due to the ordering of the event selection - the selection of leptons, jets, b-jets, and MET are the same in each scenario. As the acceptance calculation depends on individual samples generator cuts and even selection, we must calculate this variable separately for each stage of the selection process. By taking the ratio of each cross-section we cancel out the luminosity parameter.
+
+The prominent feature of this analysis is the addition of a radiated photon from one of the decay products of a dileptonic $t\bar{t}$ decay. In order to correctly measure the number of signal $t\bar{t}+\gamma$ events we must make sure that we have correctly identified our signal events. Even though an object may pass the full photon ID selection requirements, it may not be our signal photon. Electrons and jets are likely to pass photon ID selection and be recorded as real signal photons, thus we must remove these ``fakes" from our signal events.
+
+For jets that pass the photon ID requirements and are thus misidentified, we must note that they do not contain a genuine photon. Electrons that have been misidentified as photons are more difficult to remove as they hold the same properties as a photon, including isolated electromagnetic shower etc. Electrons differ from our signal photons because of the addition of a charged track pointing in the direction of the energy deposit. As a result, we treat each source of ``fakes" in a different manner, described in Section \ref{sec-PhotonPurityEstimation}.
 
 
 
-\section{Number of top pair events}
+% \section{Number of top pair events}
 
-
+% \cite{PhysRevD.89.092005}
 
 \section{Photon Purity Estimation} \label{sec-PhotonPurityEstimation}
 
-We define the photon purity, $\pi$, as the number of photons that are prompt and pass the photon ID selection over the total number of photon candidates. Prompt photons are created in the hard-scattering process and are emitted from the high-$p_T$ hard-scattering particles. The main sources of non-prompt photons comes from charged particles interacting with the detector material and from quark hadronisation, and are generally not isolated and have a low $p_T$. We also obtain a source of photons from $\pi^0$ decays, whereby two very collinear photons are produced. 
+We define the photon purity, $\pi$, as the number of photons that are prompt and pass the photon ID selection over the total number of photon candidates. Prompt photons are created in the hard-scattering process and are emitted from the high-$p_T$ hard-scattering particles. The main sources of non-prompt photons comes from charged particles interacting with the detector material and from quark hadronisation, and are generally not isolated and have a low $p_T$. We also obtain a source of photons from $\pi^0$ decays, whereby two very collinear photons are produced. A graphical representation of the definitions of signal and background for the $t\bar{t}+\gamma$ process can be seen in Figure \ref{fig-signalphotonplot}
 
-One method to find the photon purity is through simulation, where we have access to information of all the particles simulated by the MC event generator. We match reconstructed photons to generator photons by using information of their mother particles in order to determine the origin of the photons. From this, we can divide our events into three categories based on the event generator matching to a reconstructed photon. 
+\begin{figure} 
+\begin{center}
+\includegraphics[scale=0.33]{Figures/SignalPhotonPlot.png}
+\end{center}
+\caption{Graphic representation of the signal and background definitions \cite{MishaThesis}.}
+\label{fig-signalphotonplot}
+\end{figure} 
+
+One method to find the photon purity is through simulation, where we have access to information of all the particles simulated by the MC event generator. We match reconstructed photons to generator photons by using information of their mother particles in order to determine the origin of the photons. From this we can divide our events into three categories based on the event generator matching to a reconstructed photon. 
 
 \begin{itemize}
 	\item Signal: reconstructed photon is matched to a generated photon
@@ -130,26 +97,325 @@ The cuts have been cross-checked with the di-leponic $t\bar{t}$ sample as it con
 
 All reconstructed photons that pass the cuts described previously and is matched with a generator-level photon is then defined as a real photon. If it is instead matched to a generator-level electron it is then defined as a misidentified electron. Any other event that is not matched to a generator-level electron or photon is then classified as a misidentified jet.
 
-As the photon purity directly affects the cross-section ratio measurement, we do not want to reply explicitly on simulation, and therefore it would be preferable to compute the photon purity via a data-driven method. We make use of the fact that our signal photon, whether a real signal photon or misidentified electron, are isolated objects, while misidentified jets and non-prompt photons close to or within a jet. 
+As the photon purity directly affects the cross-section ratio measurement, we do not want to rely explicitly on simulation, and therefore it would be preferable to compute the photon purity via a data-driven method. We make use of the fact that our signal photon, whether a real signal photon or misidentified electron, are isolated objects, while misidentified jets and non-prompt photons close to or within a jet. We use the supercluster footprint-removed charged hadron isolation, described above, as our discriminating variable in the fit. We compute template shapes for our signal process of a prompt isolated photon (including those originating from a misidentified electron), and non-isolated hadronic photons as our background template. The template fit provides us with estimate yields of photons originating from real photons or misidentified electrons.   
 
-%  We use super cluster removed charged hadron isolation as discriminating variable. Then
-% the template shape fit is performed to find the fraction of prompt photons. The template fit
-% provides an estimate of the fraction of events originating from real photons or misidentified
-% electrons
+\subsection{Signal template construction using the random cone method}
 
-\cite{PhysRevD.89.092005}
+We construct our prompt signal photon template using the ``random cone" method, similar to that found in \cite{diffxsectdiphoton}. The events that pass our full photon event selection are used as the method relies on the assumption that a prompt photon is isolated, such that the activity recorded within the detector around the prompt photon, not regarding the area affected by the energy deposit from the photon, arises only from pile-up, underlying events, and electronic noise in the ECAL.  
 
-\section{Number of signal events in data} \label{sec-SigEventsData}
+Contributions from these effects, generally, do not vary for an isolation sum which is calculated in a region which is separate from the photon candidate, but using the same pseudorapidity range, $\phi$. A suitable orientation of the isolation cone is chosen by using the proceeding steps:
+
+\begin{itemize}
+	\item We define a direction which is obtained from the photon candidate direction, and then rotating by a random angle, $\phi_{Rand.Cone}$ between $0.8$ and $2\pi - 0.8$ radians, around the z-axis of the detector system (or rotating in $\phi$ with a fixed $\eta$) as shown in Figure \ref{fig-RandomConeIsolation}. This is designed such that an isolation cone with $\Delta R = 0.4$ centred on the random cone axis would not overlap with an isolation cone which is centred on the photon candidate, or an object that is produced back-to-back with respect to it.
+	\item We then check for objects lying within the region, such that there is no energy originating from anything other than pile-up, underlying events, or electrical noise in the ECAL. Such that there are no AK5\footnote{Anti-$k_T$ jet clustering algorithm with cone size of $\Delta R = 0.5$ (see Section \ref{subsec-JetReconstruction})} PF jets with a p$_T$ of at least 20 GeV at $\Delta R < 0.8$, photons with p$_T$ less than 10 GeV at $\Delta R < 0.8$, or muons at $\Delta R < 0.4$ with respect to the random cone axis. If such an object is found to fulfil our requirements, then we perform the same search again to generate another random angle, $\phi_{Rand.Cone}$, until a suitable direction is found. In practice, the procedure is not repeated more than twice in order to find a suitable direction.   
+\end{itemize}
+
+We then calculate the isolation sum within a cone centred on our chosen direction. The difference when performing footprint removal now is that there is no supercluster lying along the cone axis, and therefore it must be performed in a different way: the area corresponding to that in which the photon super-cluster lies, which is rotated in $\phi_{Rand.Cone}$ in order to align with the random cone axis, is not included within the calculation process. In this manner, both the area which we consider for the isolation sum, and the area throughout the centre of the cone replacing the photon candidate footprint, has exactly the same shape and extension in the photon and random cone directions.   
+
+\begin{figure} 
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Figures/RandomCone1.png}\includegraphics[width=0.55\textwidth]{Figures/RandomCone2.png}
+\end{center}
+\caption{Illustration of the random cone technique. Under the assumption that the footprint of the photon (red) is completely removed from the isolation sum, the energy deposited in the random-cone area (green in right image) predicts the energy deposited in the isolation cone (green area in left image). \cite{MarcoThesis}}
+\label{fig-RandomConeIsolation}
+\end{figure}
+
+Figure \ref{fig-signalComparison} shows the comparison of templates from the random cone isolation method and the isolation in MC events which encompass genuine prompt photons and misidentified electrons for each decay channel. We observe a good agreement between data-driven and expected MC templates.   
+
+\begin{figure}
+\includegraphics[width=0.5\textwidth]{Plots/signalComparison/MuMu/sigComparison.pdf}
+\includegraphics[width=0.5\textwidth]{Plots/signalComparison/EE/sigComparison.pdf}
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Plots/signalComparison/EMu/sigComparison.pdf}
+\end{center}
+\caption{Comparison of the shape from random cone isolation and isolated photons identified from generator particle matching in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels.}
+\label{fig-signalComparison}
+\end{figure}
+
+\subsection{Background estimation using the $\sigma_{i \eta i \eta}$ side-band method} \label{subsec-BackgroundEstimation}
+
+Background events in our template fit are identified as non-prompt photons. We define a template to model our background by selecting photon candidates that fail one selection requirement, which we call the ``side-band" region. The logic behind this method is such that by inverting a particular cut on the photon selection, then we have a sample that is rich in ``photon-like" jets (whereby the hadronisation process resolves to a neutral boosted meson with very little activity around it). In order to model the background correctly, we must select the requirements on the side-band region such that they do not differ too greatly from the full selection, and thus we do not incorrectly reject a genuine jet. 
+
+For the $t\bar{t}+\gamma$ analysis, we create a side-band region by inverting the photon shower-shape ($\sigma_{i\eta i\eta}$) selection cut, thus giving a cut of $0.12 < \sigma_{i \eta i \eta} < 0.20$ where all other photon ID selection requirements still remain the same. When considering a side-band variable, we choose a variable with little to no correlation with our template variable in order to optimise the performance of the method. The shape of the side-band template will then closely resemble the isolation distribution for photons that are not prompt but pass the photon ID requirements. 
+
+We calculate the shower shape of the photon by measuring energy deposits from within a $5 \times 5$ matrix of crystals, centred around the crystal with the largest energy in the super-cluster. As the super-cluster footprint-removal technique removes the super-cluster from the isolation sum, then we have no shared input between the two variables (shower shape and isolation) effectively removing any correlation between the two. However, no two variables are ever truly uncorrelated, and any residual correlation can be attributed to the properties of hadronisation of jets. As our main source of fake photons arises in the form of jets misidentified as photons, we use the supercluster footprint-removed charged hadron isolation (as described in Section \ref{subsec-SCFR}) as our background template variable to discriminate against fake photons.
+
+In Figure \ref{fig-backgroundComparison} we show a comparison of the photon shower shape side-band distributions from our data-driven and MC templates. We observe a good agreement between the distributions.  
+
+
+\begin{figure}
+\includegraphics[width=0.5\textwidth]{Plots/signalComparison/MuMu/bkgdComparison.pdf}
+\includegraphics[width=0.5\textwidth]{Plots/signalComparison/EE/bkgdComparison.pdf}
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Plots/signalComparison/EMu/bkgdComparison.pdf}
+\end{center}
+\caption{Comparison of the isolation profiles from the side band region and isolation of hadronic photons identified from generator particle matching in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels.}
+\label{fig-backgroundComparison}
+\end{figure}
+
+\subsection{Fit to charged hadron isolation}
+
+We perform the fit in the SCFR charged hadron isolation less than 20 GeV in order to ensure a good description of background. Loose photon candidates are used for the fit to increase statistics as the dilepton channels are statistically limited. After the fit is computed, the result is corrected by applying the nominal isolation cut on the templates, then computing the true number of genuine photons, misidentified electrons, and jets identified as photons. 
+
+We wish to cross-check our fitting method and we do so by applying it to the collection of simulated samples weighted by their theoretical cross-section and integrated luminosity of the data used in the analysis, whereby creating a pseudo-set of data. By performing the fit on a pseudo-set of data we can cross-reference the results of the fit, photon purity calculation, and cross-reference if the photon purity measurement is in agreement with generator information. We can see the fit templates and fit in Figures \ref{fig-pseudofitTemplates} and \ref{fig-pseudofit}, respectively.
+
+
+\begin{figure}
+\includegraphics[width=0.5\textwidth]{Plots/Fits/TTbarPhotonAnalysis/MuMu/central/pseudoFitTemplate.pdf}
+\includegraphics[width=0.5\textwidth]{Plots/Fits/TTbarPhotonAnalysis/EE/central/pseudoFitTemplate.pdf}\\
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Plots/Fits/TTbarPhotonAnalysis/EMu/central/pseudoFitTemplate.pdf}
+\end{center}
+\caption{Fit to charged hadron isolation templates with pseudo-data in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels.}
+\label{fig-pseudofitTemplates}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=0.5\textwidth]{Plots/Fits/TTbarPhotonAnalysis/MuMu/central/pseudoFit.pdf}
+\includegraphics[width=0.5\textwidth]{Plots/Fits/TTbarPhotonAnalysis/EE/central/pseudoFit.pdf}\\
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Plots/Fits/TTbarPhotonAnalysis/EMu/central/pseudoFit.pdf}
+\end{center}
+\caption{Fit to charged hadron isolation with pseudo-data in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels.}
+\label{fig-pseudofit}
+\end{figure}
+
+In an attempt to verify that the fit works well across a range of potential photon purity values, and thus not having a bias towards predicted values, we perform the fit while varying the photon purity value. Due to the $t\bar{t}+\gamma$ simulated sample comprising predominantly prompt photon events, by scaling the $t\bar{t}+\gamma$ contribution we vary the photon purity value. Figure \ref{fig-photonPurityComparison} shows a comparison of the photon purity value and and the corresponding value measured by the fit to the charged hadron isolation. 
+
+
+\begin{figure}
+\includegraphics[width=0.3\textwidth]{Plots/purityComparison/MuMu/photonPurity.pdf}
+\includegraphics[width=0.3\textwidth]{Plots/purityComparison/EE/photonPurity.pdf}
+\includegraphics[width=0.3\textwidth]{Plots/purityComparison/EMu/photonPurity.pdf}
+\caption{Comparison of the photon purity of pseudo-data sets to the values measured by the fit to the charged hadron isolation in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels.}
+\label{fig-photonPuritiyComparison}
+\end{figure}
+
+We can see the template fit to the charged hadron isolation for the full data set in Figure \ref{fig-fitTemplates} for each decay channel. After the fit is conducted, we find photon purity values of $0.634 \pm 0.054$, $0.634 \pm 0.054$, and $0.634 \pm 0.054$ (including statistical uncertainties only for pseudo-data) compared to photon purity values of $0.634 \pm 0.054$, $0.634 \pm 0.054$, and $0.634 \pm 0.054$ from generator level information, in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels, respectively. 
+
+% Statistical uncertainty given by RooFit does not include variation of the templates but only
+% uncertainty of data. However since templates are data-driven and suffer from low statistics
+% we have to take this uncertainty into account. We perform pseudo experiments where for
+% data, isolated and hadronic photon templates in each bin the value is randomly chosen by
+% Poisson distribution with mean of the bin content in the original histogram. The width of
+% the distribution of the photon purity in these pseudo experiments is taken as the statistical
+% uncertainty. The photon purity is calculated using only the portion of the isolation distribution
+% that passes the original 5 GeV isolation cut. From the fit, the photon purity is measured to be
+% 0.57 ± 0.06 in the e + jets channel and 0.53 ± 0.06 in the μ + jets channel.
+
+\begin{figure}
+\includegraphics[width=0.5\textwidth]{Plots/Fits/TTbarPhotonAnalysis/MuMu/central/FitTemplate.pdf}
+\includegraphics[width=0.5\textwidth]{Plots/Fits/TTbarPhotonAnalysis/EE/central/FitTemplate.pdf}\\
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Plots/Fits/TTbarPhotonAnalysis/EMu/central/FitTemplate.pdf}
+\end{center}
+\caption{Fit to charged hadron isolation templates in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels.}
+\label{fig-fitTemplates}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=0.5\textwidth]{Plots/Fits/TTbarPhotonAnalysis/MuMu/central/Fit.pdf}
+\includegraphics[width=0.5\textwidth]{Plots/Fits/TTbarPhotonAnalysis/EE/central/Fit.pdf}\\
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Plots/Fits/TTbarPhotonAnalysis/EMu/central/Fit.pdf}
+\end{center}
+\caption{Fit to charged hadron isolation in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels.}
+\label{fig-fits}
+\end{figure}
+
+
+
+\begin{sidewaystable} 
+\begin{center}
+\begin{tabular}{|l|c|}
+\hline
+	\textbf{Dataset} & \textbf{Integrated Luminosity ($pb^{-1}$)}\\
+\hline
+	/DoubleMuParked/Run2012A-22Jan2013-v1/AOD  & 876 \\
+	/DoubleMuParked/Run2012B-22Jan2013-v1/AOD  & 4412 \\
+	/DoubleMuParked/Run2012C-22Jan2013-v1/AOD  & 7017 \\
+	/DoubleMuParked/Run2012D-22Jan2013-v1/AOD  & 7369 \\
+\hline
+	Total & 19.7\\	
+\hline
+	/DoubleElectron/Run2012A-22Jan2013-v1/AOD  & 875 \\
+	/DoubleElectron/Run2012B-22Jan2013-v1/AOD  & 4412 \\
+	/DoubleElectron/Run2012C-22Jan2013-v1/AOD  & 7055 \\
+	/DoubleElectron/Run2012D-22Jan2013-v1/AOD  & 7369 \\
+\hline
+	Total & 19.7\\	
+\hline
+	/MuEG/Run2012A-22Jan2013-v1/AOD  & 876 \\
+	/MuEG/Run2012B-22Jan2013-v1/AOD  & 4411 \\
+	/MuEG/Run2012C-22Jan2013-v1/AOD  & 7055 \\
+	/MuEG/Run2012D-22Jan2013-v1/AOD  & 7360 \\
+\hline
+	Total & 19.7\\	
+\hline	
+\end{tabular}	
+\end{center}
+\caption{Dataset information for each run in each respective decay channel.}
+\label{tab-datasets}
+\end{sidewaystable}
+
+\section{Number of signal events in data} \label{sec-SigEventsInData}
+
+Tables \ref{tab-SigPhotonsMuMu}, \ref{tab-SigPhotonsEE}, and \ref{tab-SigPhotonsEMu} show the number of photons after full selection broken down into categories of origin for individual MC samples, shown for each $t\bar{t}+\gamma$ decay channel. This method is used in order to extract the true number of signal $t\bar{t}+\gamma$ events to be used as a variable in the cross-section calculation. 
+
+We divide the resultant photons into three categories: genuine prompt and isolated photons, isolated misidentified electrons, and jets reconstructed as photons. Individual simulated samples contribute to each category differently, therefore we introduce scale factors to correct for mismodelling of the three categories. 
+
+\begin{table}
+\begin{center}
+\begin{tabular}{l|ccc|c}
+\hline
+	\textbf{Sample} & \textbf{Genuine Photon} & \textbf{MisID Electron} & \textbf{Hadronic} & \textbf{Total} \\
+\hline
+	$t\bar{t}+\gamma$ & & & & \\
+	$t\bar{t}+jets$ & & & & \\
+	$W+\gamma$ &  & & & \\
+	$W+jets$ & & & & \\
+	$Z+\gamma$ & & & & \\
+	$Z+jets$ &  &  &  & \\
+	Single Top &  & & & \\
+	Di-boson  & & & & \\
+\hline
+	Total & & & & \\
+	Data & & & & \\
+\hline	
+\end{tabular}
+\end{center}
+\caption{Simulated samples categorised by origin of reconstructed origin after nominal selection in the $\mu^+\mu^-$ channel. Events are normalized by process theoretical cross-sections. Data-driven QCD sample is not expected to have signal photons or electrons. All errors are statistical.}
+\label{tab-SigPhotonsMuMu}
+\end{table}	
+
+\begin{table}
+\begin{center}
+\begin{tabular}{l|ccc|c}
+\hline
+	\textbf{Sample} & \textbf{Genuine Photon} & \textbf{MisID Electron} & \textbf{Hadronic} & \textbf{Total} \\
+\hline
+	$t\bar{t}+\gamma$ & & & & \\
+	$t\bar{t}+jets$ & & & & \\
+	$W+\gamma$ &  & & & \\
+	$W+jets$ & & & & \\
+	$Z+\gamma$ & & & & \\
+	$Z+jets$ &  &  &  & \\
+	Single Top &  & & & \\
+	Di-boson  & & & & \\
+\hline
+	Total & & & & \\
+	Data & & & & \\
+\hline	
+\end{tabular}
+\end{center}
+\caption{Simulated samples categorised by origin of reconstructed origin after nominal selection in the $e^+e^-$ channel. Events are normalized by process theoretical cross-sections. Data-driven QCD sample is not expected to have signal photons or electrons. All errors are statistical.}
+\label{tab-SigPhotonsEE}
+\end{table}	
+
+\begin{table}
+\begin{center}
+\begin{tabular}{l|ccc|c}
+\hline
+	\textbf{Sample} & \textbf{Genuine Photon} & \textbf{MisID Electron} & \textbf{Hadronic} & \textbf{Total} \\
+\hline
+	$t\bar{t}+\gamma$ & & & & \\
+	$t\bar{t}+jets$ & & & & \\
+	$W+\gamma$ &  & & & \\
+	$W+jets$ & & & & \\
+	$Z+\gamma$ & & & & \\
+	$Z+jets$ &  &  &  & \\
+	Single Top &  & & & \\
+	Di-boson  & & & & \\
+\hline
+	Total & & & & \\
+	Data & & & & \\
+\hline	
+\end{tabular}
+\end{center}
+\caption{Simulated samples categorised by origin of reconstructed origin after nominal selection in the $e\mu$ channel. Events are normalized by process theoretical cross-sections. Data-driven QCD sample is not expected to have signal photons or electrons. All errors are statistical.}
+\label{tab-SigPhotonsEMu}
+\end{table}	
+
+The behaviour of the TTJets, WJets, ZJets, and DiBoson samples is well understood and has been cross-checked, and corrected, by different template fits to data. Thus leaving the contribution from the TTGamma and VGamma (the combination of WGamma and ZGamma) samples that are not as well understood, both being the largest contributors to our signal process. The VGamma sample is normalised to its NLO theoretical cross-section, and known to potentially be mismodelled to the order of 20\% \cite{PhysRevD.89.092005}. The VGamma sample has the second largest contribution to signal events out of all MC samples, and therefore it is critical that we cross-check the normalisation before including it. Single top events are also well modelled, however they do not contribute significantly to the signal process.
+
+We are thus left we three unknowns:
+
+\begin{itemize}
+	\item TTGamma scale factor (or normalisation, the main unknown) 
+	\item VGamma scale factor
+	\item Jet to photon misidentification scale factor
+\end{itemize}
+
+From the events derived from data we can define the photon purity, $\pi_{e\gamma}$, taken from the charged hadron isolation data-driven template fit, which also includes electrons misidentified as photons. We can also compute the $t\bar{t}$ purity, $\pi_{t\bar{t}}$, and the total number of selected events in data. For every measured quantity we attach an associated uncertainty and propagate through to the unknown quantities described above. By relating the known quantities to the unknowns we can construct a likelihood function $\lumi(SF_{t\bar{t}+\gamma},SF_{V+\gamma},SF_{jet\to\gamma}) = e^{-\chi^2/2}$, where $\chi^2$ is the sum of the three chi-squared terms for each scale factor, given as   
+
+\begin{equation}
+\chi^2(SF_{t\bar{t}+\gamma},SF_{V+\gamma},SF_{jet\to\gamma}) = \frac{\left(\pi^{data}_{e\gamma} - \pi^{MC}_{e\gamma}\right)^2}{\sigma^2_{\pi_{e\gamma}}} + \frac{\left(\pi^{data}_{t\bar{t}} - \pi^{MC}_{t\bar{t}}\right)^2}{\sigma^2_{\pi_{t\bar{t}}}} + \frac{\left(N^{data}_{events} - N^{MC}_{events}\right)^2}{\sigma^2_{N_{events}}}
+\end{equation}
+
+We use the three unknown quantities in order to correct event counts from relevant contributions in simulation. These quantities are: $\pi_{e\gamma}^{MC}$, ratio of events with a reconstructed photon matched to an isolated electron or photon and all events in simulation, $\pi_{t\bar{t}}^{MC}$ the ratio of top pair events and all events from simulation, and $\pi_{events}^{MC}$ the total number of selected events in MC. The values of these parameters for both data and MC can be seen in Table \ref{tab-likelihoodVariables}	
+
+As we wish to find the combination of parameters with the best likelihood, we perform a scan over possible values of the parameters. We then compute the negative log-likelihood ratio by maximising the likelihood where we fix one parameter to a specific value, and then taking the ratio of the maximum likelihood value at this point to the global maximum likelihood. We take the 68\% confidence interval to be the range of values for which the negative log-likelihood ratio is less than 0.5. Figures \ref{fig-SFLikelihoodFitsMuMu}, \ref{fig-SFLikelihoodFitsMuMu}, and \ref{fig-SFLikelihoodFitsMuMu} show the negative log-likelihood ratio distributions for the $\mu^+\mu^-$, $e^+e^-$, and $e\mu$ channels, respectively. 
+
+\begin{table}
+\begin{center}
+\begin{tabular}{l|cc|cc|cc}
+\hline
+	& \multicolumn{2}{c|}{$\mu^{+}\mu^{-}$} & \multicolumn{2}{c|}{$e^{+}e^{-}$} & \multicolumn{2}{c}{$e\mu$} \\
+	& data & MC & data & MC & data & MC \\
+\hline
+	Photon purity & & & & & &\\
+	Top purity & & & & & &\\
+	$N_{events}$ data & & & & & & \\
+\hline	
+\end{tabular}
+\end{center}
+\caption{Measured quantities used in the likelihood fit for the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels.}
+\label{tab-likelihoodVariables}
+\end{table}		
+
+\begin{figure}
+\includegraphics[width=0.3\textwidth]{Plots/likelihoodfits/MuMu/ttgamma_likelihood_fit.pdf}
+\includegraphics[width=0.3\textwidth]{Plots/likelihoodfits/MuMu/vgamma_likelihood_fit.pdf}
+\includegraphics[width=0.3\textwidth]{Plots/likelihoodfits/MuMu/jgamma_likelihood_fit.pdf}
+\caption{Likelihood distributions for the $t\bar{t}+\gamma$, $V+\gamma$, and $jets\to \gamma$ scale factors in the $\mu^{+}\mu^{-}$ channel.}
+\label{fig-SFLikelihoodFitsMuMu}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=0.3\textwidth]{Plots/likelihoodfits/EE/ttgamma_likelihood_fit.pdf}
+\includegraphics[width=0.3\textwidth]{Plots/likelihoodfits/EE/vgamma_likelihood_fit.pdf}
+\includegraphics[width=0.3\textwidth]{Plots/likelihoodfits/EE/jgamma_likelihood_fit.pdf}
+\caption{Likelihood distributions for the $t\bar{t}+\gamma$, $V+\gamma$, and $jets\to \gamma$ scale factors in the $e^{+}e^{-}$ channel.}
+\label{fig-SFLikelihoodFitsEE}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=0.3\textwidth]{Plots/likelihoodfits/EMu/ttgamma_likelihood_fit.pdf}
+\includegraphics[width=0.3\textwidth]{Plots/likelihoodfits/EMu/vgamma_likelihood_fit.pdf}
+\includegraphics[width=0.3\textwidth]{Plots/likelihoodfits/EMu/jgamma_likelihood_fit.pdf}
+\caption{Likelihood distributions for the $t\bar{t}+\gamma$, $V+\gamma$, and $jets\to \gamma$ scale factors in the $e\mu$ channel.}
+\label{fig-SFLikelihoodFitsEMu}
+\end{figure}
+
+
+
+% The best agreement is achieved for these values of parameters, with errors from the width of
+% the likelihood, are SF tt + γ = 1.16 ± 0.26, SF V + γ = 0.95 ± 0.85, SF jet → γ = 1.17 ± 0.19 in the e + jets
+% channel and SF tt + γ = 0.89 ± 0.21, SF V + γ = 1.13 ± 0.45, SF jet → γ = 1.22 ± 0.18 for the μ + jets
+% channel. It brings simulated photon purity, top fraction and number of events to excellent
+% agreement with quantities measured in data, as shown in Table 6. Tables 7 and 8 show the
+% number of events in simulation, scaled to the results of the likelihood fit.
+
 
 \section{Signal Acceptance Calculation} \label{subsec-SignalAcceptanceCalculation}
 
 Acceptance calculation for this analysis differs from usual inclusive cross section measurements because we measure ratio of cross sections. The event selection is chosen to make use of this fact: two steps (top selection and photon selection) are done sequentially. For the inclusive $t\bar{t}$ process, we start with number of generated events (within some fiducial phase space) and count how many events are left after top event selection. The acceptance times efficiency is defined for the $t\bar{t}$ top selection as:
 
 \begin{equation}
-	\epsilon^{t\bar{t}}_{top} \cdot A^{t\bar{t}}_{top} = \frac{N_{t\bar{t}.preselection}}{N_{t\bar{t}.generated}} 
+	\epsilon_{t\bar{t}}^{top} \cdot A_{t\bar{t}}^{top} = \frac{N_{t\bar{t}.preselection}}{N_{t\bar{t}.generated}} 
 \end{equation}
 
-This gives the acceptance times efficiency of the inclusive $t\bar{t}$ process to be $\epsilon^{t\bar{t}}_{top} \cdot A^{t\bar{t}}_{top} =   \pm  (stat.)$ in the di-muon channel, $\epsilon^{t\bar{t}}_{top} \cdot A^{t\bar{t}}_{top} =  \pm  (stat.)$ in the di-electron channel, and $\epsilon^{t\bar{t}}_{top} \cdot A^{t\bar{t}}_{top} =  \pm  (stat.)$ in the mixed final state.
+This gives the acceptance times efficiency of the inclusive $t\bar{t}$ process to be $\epsilon_{t\bar{t}}^{top} \cdot A_{t\bar{t}}^{top} =   \pm  (stat.)$ in the di-muon channel, $\epsilon_{t\bar{t}}^{top} \cdot A_{t\bar{t}}^{top} =  \pm  (stat.)$ in the di-electron channel, and $\epsilon_{t\bar{t}}^{top} \cdot A_{t\bar{t}}^{top} =  \pm  (stat.)$ in the mixed final state.
 
 The same can be done for the $t\bar{t}+\gamma$ (signal sample). To get the acceptance times efficiency we have to divide the number of events passing top selection by the total number of events considered. However, in this case we have to choose what we take as the denominator. The signal $t\bar{t}+\gamma$ sample is inclusive, but theoretical calculations for the cross section are done for final states with 1 and 2 leptons \cite{QCDCorrectionsttgamma2011}. To make comparison with theory easier we consider the fiducial space for signal when 1 or 2 leptons are present. The $t\bar{t}+\gamma$ acceptance times efficiency of the top selection is defined for the signal samples with 1 or 2 leptons as:
 
@@ -182,3 +448,23 @@ The $t\bar{t}+\gamma$ visible photon selection efficiency is calculated as the r
 \end{equation}
 
 The visible top selection efficiency is found to be $\epsilon^{t\bar{t}+\gamma Vis}_{top} = 0.0712 \pm 0.0005$, $\epsilon^{t\bar{t}+\gamma Vis}_{\gamma} = 0.0928 \pm 0.0006$, and $\epsilon^{t\bar{t}+\gamma Vis}_{\gamma}$ in the di-muon, di-electron and mixed channels, respectively. The value of the visible photon selection efficiency is found to be $\epsilon^{t\bar{t}+\gamma Vis}_{\gamma} = 0.287 \pm 0.004 ( stat.)$ for the di-muon final state, $\epsilon^{t\bar{t}+\gamma Vis}_{\gamma} = 0.286 ± 0.004 (stat.)$ for the di-electron channel, and $\epsilon^{t\bar{t}+\gamma Vis}_{\gamma} = 0.287 \pm 0.004 ( stat.)$ for the mixed final state.
+
+\begin{table}
+\begin{center}
+\begin{tabular}{l|ccc}
+\hline
+	 & \textbf{$\mu^+\mu^-$} & \textbf{$e^+e^-$} & \textbf{$e\mu$}  \\
+\hline
+	$\epsilon_{t\bar{t}}$ & & &  \\
+	$\epsilon_{\gamma}$ & & &  \\
+	Total &  & &  \\
+\hline
+	Branching Ratio & & &  \\
+	Kinematic Acceptance & & & \\
+	Total &  &  & \\
+\hline	
+\end{tabular}
+\end{center}
+\caption{Efficiency and acceptance of the $t\bar{t}+\gamma$ selection in the $\mu^+\mu^-$, $e^+e^-$, and $e\mu$ final states. Uncertainties are from MC statistics.}
+\label{tab-efficiencyAndAcceptance}
+\end{table}	

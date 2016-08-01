@@ -1,4 +1,4 @@
-\chapter{Event Selection \& Background Estimation} \label{chap-EventSelection}
+\chapter{Event Selection} \label{chap-EventSelection}
 
 When we finally arrive at a point when we have identified and reconstructed all the objects in the data, as described in Section \ref{chap-EventReconstruction&Simulation}, we impose a set of kinematic and topological cuts to each of the objects in order to provide a subset of the data containing mainly our signal events. The signal sample still contains background events and is corrected in several ways. Simulated MC samples are produced and used to optimise the number of signal events within this sample, and thus rejecting as much background as possible. The selection process, including kinematic, topological, and fiducial cuts on our final state objects is described in detail in the first part of this chapter.
 
@@ -13,7 +13,7 @@ The pre-selection events have been constructed by following the CMS recommendati
 
 \section{Pre-selection: Selection of $t\bar{t}$ Events} \label{sec-preselection}
 
-The pre-selection steps define our $t\bar{t}$ events before the addition of a radiated photon. The selection follows the recommended selection from the TOP Reference Selections and Recommendations (Run1) \cite{TopEventSelection} designed to select di-lepton final states with two isolated oppositely charged leptons, at least 2 jets where at least one is a b-tagged jet, and two neutrinos from missing transverse energy. All objects in the selection are reconstructed using the PF algorithm as described in Section \ref{subsec-PFAlgorithm}.  
+The pre-selection steps define our $t\bar{t}$ events before the addition of a radiated photon. The selection follows the recommended selection from the TOP Reference Selections and Recommendations (Run1) \cite{TopEventSelection} designed to select dilepton final states with two isolated oppositely charged leptons, at least 2 jets where at least one is a b-tagged jet, and two neutrinos from missing transverse energy. All objects in the selection are reconstructed using the PF algorithm as described in Section \ref{subsec-PFAlgorithm}.  
 
 The event selection steps for pre-selection di-muon and di-electron channels are listed as follows:  
 
@@ -47,7 +47,7 @@ Each step will be discussed in greater detail within the following sections.
 
 \subsection{Trigger selection}
 
-As the $t\bar{t}+\gamma$ analysis is studied as a di-lepton final state, the requirement of at least two oppositely charged leptons (electrons or muons only) is essential. These datasets are identified by the trigger system (as described in Section \ref{sec-Trigger}) to contain two leptons. Triggers are generally divided into two categories; single object triggers fire on one or more objects of the same flavour passing certain pre-selection requirements, such as p$_T$ and $\eta$, and cross-triggers which select two objects of different flavours as predetermined by the user. For this analysis, both types of triggers are implemented in order to select the three final states in question. The list of trigger paths can be seen in Table \ref{tab-HLTriggers}. 
+As the $t\bar{t}+\gamma$ analysis is studied as a dilepton final state, the requirement of at least two oppositely charged leptons (electrons or muons only) is essential. These datasets are identified by the trigger system (as described in Section \ref{sec-Trigger}) to contain two leptons. Triggers are generally divided into two categories; single object triggers fire on one or more objects of the same flavour passing certain pre-selection requirements, such as p$_T$ and $\eta$, and cross-triggers which select two objects of different flavours as predetermined by the user. For this analysis, both types of triggers are implemented in order to select the three final states in question. The list of trigger paths can be seen in Table \ref{tab-HLTriggers}. 
 
 \begin{table} 
 \begin{center}
@@ -62,7 +62,7 @@ As the $t\bar{t}+\gamma$ analysis is studied as a di-lepton final state, the req
 \hline	
 \end{tabular}
 \end{center}
-\caption{Triggers for each di-lepton channel.}
+\caption{Triggers for each dilepton channel.}
 \label{tab-HLTriggers}
 \end{table}
 
@@ -80,7 +80,7 @@ Similarly, we employ a \textbf{HCAL noise filter} in order remove events with an
 
 %%%%%%%%%%%%%%%%%%More
 
-\section{Di-lepton Selection and Vetoes}
+\section{Dilepton Selection and Vetoes}
 
 For the $t\bar{t}+\gamma$ analysis leptons mark our signature for our final state events. The leptons are taken from the list of PF-reconstructed objects and then required to pass additional selection cuts to refine the events further after trigger selection in Section \ref{sec-TriggerAndEventCleaning}. Along with our signal leptons, a set of `looser' PF objects are selected as veto objects, such that our signal leptons are a subset of these objects. If an event has multiple loose selection leptons then the event is removed from the list of possible signal candidates.
 
@@ -157,7 +157,7 @@ The production of muons from inn-flight decays is found to be much more prominen
 	\item Identified as both a tracker and global muon
 \end{itemize}
 
-Dilepton kinematic and mass distributions can be seen in Figure \ref{leptonPlots}.
+Dilepton kinematic and mass distributions can be seen in Figure \ref{subsec-leptonPlots}.
 
 \begin{figure}
 \includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/LeadLepton_Pt_splitTTbar_ratio.pdf}
@@ -186,7 +186,7 @@ Jets are reconstructed with the PF AK5 algorithm, anti-$k_T$ with jet size param
 
 These cuts help to avoid picking detector noise and ECAL spikes as jets. We also impose a selection criterion that if a lepton lies within a cone of $\Delta R = 0.3$, then the lepton is included within the jet calculation. CMS improves the quality of reconstructed jets by the requirement that the energy deposits from a jet are recorded in both the ECAL and HCAL, where jets that manifest from anomalous deposits of energy in just one of the sub-detector are able to be removed from the sample \cite{CMS-PAS-JME-10-003}.
 
- \textbf{B-tagged jets} are identified with the Combined Secondary Vertex b-tagging algorithm using the loose working point (CSVL). Event re-weighting is applied to correct for the difference in b-tagging efficiency in data and simulation as explained in Section \ref{subsec-SimulatedEventsCorrection}. The loose working point refers to a b-tagging efficiency of  and a misidentification probability of 24.4\%.
+ \textbf{B-tagged jets} are identified with the Combined Secondary Vertex b-tagging algorithm using the loose working point (CSVL). Event re-weighting is applied to correct for the difference in b-tagging efficiency in data and simulation as explained in Section \ref{sec-SimulatedEventsCorrection}. The loose working point refers to a b-tagging efficiency of  and a misidentification probability of 24.4\%.
 
  In each channel the requirement of at least 2 good jets, where a good jet passes all the aforementioned selection requirements, and at least one b-jet. By applying these requirements the contribution from the most prominent backgrounds, $t\bar{t}$ and events with additional loose jets, are removed. 
 
@@ -225,7 +225,7 @@ The missing transverse energy (MET) selection cut is implemented only within the
 \label{fig-ttbarETandEta}
 \end{figure}
 
-The distributions for the other variables can be seen in Figure \ref{fig-ttbarPlots}.
+The distributions for the other variables can be seen in Figure \ref{subsec-METPlots}.
 
 \begin{figure} 
 %\begin{center}
@@ -252,7 +252,7 @@ The distributions for the other variables can be seen in Figure \ref{fig-ttbarPl
 \hline
 Skim & 3650 $\pm$ 12 \ & 18015 $\pm$ 38 \ & 141668 $\pm$ 117 \ & 147272 $\pm$ 84 \ & 213643 $\pm$ 1763 \ & 1318833 $\pm$ 1868 \ & 16881 $\pm$ 33 \ & 33315 $\pm$ 365 \ & 21035073 $\pm$ 153027\ & 22928349 $\pm$ 153049 \ & 2413504 $\pm$ 1554 \\
 Cleaning and HLT & 1018 $\pm$ 6 \ & 3117 $\pm$ 16 \ & 36105 $\pm$ 59 \ & 46211 $\pm$ 47 \ & 10348 $\pm$ 387 \ & 624329 $\pm$ 1273 \ & 5977 $\pm$ 17 \ & 8049 $\pm$ 176 \ & 1737634 $\pm$ 21436\ & 2472789 $\pm$ 21478 \ & 1887786 $\pm$ 1374 \\
-Di-lepton Sel & 292 $\pm$ 3 \ & 0 $\pm$ 0 \ & 149 $\pm$ 4 \ & 21477 $\pm$ 31 \ & 47 $\pm$ 25 \ & 422524 $\pm$ 1027 \ & 4348 $\pm$ 14 \ & 1186 $\pm$ 24 \ & 2437 $\pm$ 605\ & 452461 $\pm$ 1193 \ & 459842 $\pm$ 678 \\
+dilepton Sel & 292 $\pm$ 3 \ & 0 $\pm$ 0 \ & 149 $\pm$ 4 \ & 21477 $\pm$ 31 \ & 47 $\pm$ 25 \ & 422524 $\pm$ 1027 \ & 4348 $\pm$ 14 \ & 1186 $\pm$ 24 \ & 2437 $\pm$ 605\ & 452461 $\pm$ 1193 \ & 459842 $\pm$ 678 \\
 m(Z) veto & 262 $\pm$ 3 \ & 0 $\pm$ 0 \ & 126 $\pm$ 3 \ & 19169 $\pm$ 30 \ & 47 $\pm$ 25 \ & 82812 $\pm$ 489 \ & 1047 $\pm$ 8 \ & 1062 $\pm$ 23 \ & 2001 $\pm$ 559\ & 106525 $\pm$ 744 \ & 114102 $\pm$ 338 \\
 $\geq$ 1 jet & 241 $\pm$ 3 \ & 0 $\pm$ 0 \ & 104 $\pm$ 3 \ & 18574 $\pm$ 29 \ & 32 $\pm$ 20 \ & 61503 $\pm$ 431 \ & 915 $\pm$ 8 \ & 1001 $\pm$ 22 \ & 368 $\pm$ 261\ & 82738 $\pm$ 506 \ & 88692 $\pm$ 298 \\
 $\geq$ 2 jets & 210 $\pm$ 3 \ & 0 $\pm$ 0 \ & 64 $\pm$ 2 \ & 17585 $\pm$ 28 \ & 32 $\pm$ 20 \ & 47551 $\pm$ 379 \ & 772 $\pm$ 7 \ & 878 $\pm$ 21 \ & 368 $\pm$ 261\ & 67462 $\pm$ 462 \ & 71800 $\pm$ 268 \\
@@ -282,7 +282,7 @@ $\geq$ 1 Good Photon Postsel & 17 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 12 $\p
 \hline
 Skim & 3632 $\pm$ 12 \ & 18015 $\pm$ 38 \ & 141660 $\pm$ 117 \ & 146469 $\pm$ 83 \ & 213610 $\pm$ 1763 \ & 1295804 $\pm$ 1838 \ & 16644 $\pm$ 33 \ & 33257 $\pm$ 365 \ & 21035139 $\pm$ 153027\ & 22904230 $\pm$ 153048 \ & 1137895 $\pm$ 1067 \\
 Cleaning and HLT & 533 $\pm$ 5 \ & 142 $\pm$ 3 \ & 4302 $\pm$ 20 \ & 25215 $\pm$ 34 \ & 10504 $\pm$ 390 \ & 438516 $\pm$ 1038 \ & 4631 $\pm$ 15 \ & 2072 $\pm$ 66 \ & 206158 $\pm$ 19623\ & 692073 $\pm$ 19655 \ & 817968 $\pm$ 904 \\
-Di-lepton Sel & 275 $\pm$ 3 \ & 0 $\pm$ 0 \ & 109 $\pm$ 3 \ & 17942 $\pm$ 28 \ & 299 $\pm$ 59 \ & 303836 $\pm$ 837 \ & 3389 $\pm$ 12 \ & 974 $\pm$ 22 \ & 257 $\pm$ 182\ & 327080 $\pm$ 860 \ & 384642 $\pm$ 620 \\
+dilepton Sel & 275 $\pm$ 3 \ & 0 $\pm$ 0 \ & 109 $\pm$ 3 \ & 17942 $\pm$ 28 \ & 299 $\pm$ 59 \ & 303836 $\pm$ 837 \ & 3389 $\pm$ 12 \ & 974 $\pm$ 22 \ & 257 $\pm$ 182\ & 327080 $\pm$ 860 \ & 384642 $\pm$ 620 \\
 m(Z) veto & 247 $\pm$ 3 \ & 0 $\pm$ 0 \ & 93 $\pm$ 3 \ & 16018 $\pm$ 26 \ & 248 $\pm$ 54 \ & 66531 $\pm$ 418 \ & 852 $\pm$ 7 \ & 874 $\pm$ 21 \ & 257 $\pm$ 182\ & 85120 $\pm$ 460 \ & 106244 $\pm$ 326 \\
 $\geq$ 1 jet & 220 $\pm$ 3 \ & 0 $\pm$ 0 \ & 85 $\pm$ 3 \ & 15296 $\pm$ 26 \ & 166 $\pm$ 44 \ & 51367 $\pm$ 375 \ & 757 $\pm$ 7 \ & 838 $\pm$ 21 \ & 257 $\pm$ 182\ & 68987 $\pm$ 420 \ & 83739 $\pm$ 289 \\
 $\geq$ 2 jets & 188 $\pm$ 3 \ & 0 $\pm$ 0 \ & 72 $\pm$ 2 \ & 14501 $\pm$ 25 \ & 97 $\pm$ 34 \ & 40075 $\pm$ 332 \ & 654 $\pm$ 6 \ & 754 $\pm$ 19 \ & 137 $\pm$ 137\ & 56478 $\pm$ 362 \ & 67769 $\pm$ 260 \\
@@ -312,7 +312,7 @@ $\geq$ 1 Good Photon Postsel & 15 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 9 $\pm
 \hline
 Skim & 3610 $\pm$ 12 \ & 18015 $\pm$ 38 \ & 141648 $\pm$ 117 \ & 144829 $\pm$ 82 \ & 213614 $\pm$ 1763 \ & 1334209 $\pm$ 1889 \ & 16963 $\pm$ 33 \ & 33168 $\pm$ 365 \ & 21035027 $\pm$ 153027 \ & 22941082 $\pm$ 153049\ & 2125311 $\pm$ 1458 \\
 Cleaning and HLT & 1407 $\pm$ 8 \ & 1147 $\pm$ 10 \ & 34466 $\pm$ 58 \ & 63666 $\pm$ 54 \ & 22308 $\pm$ 570 \ & 28157 $\pm$ 277 \ & 2018 $\pm$ 14 \ & 8624 $\pm$ 167 \ & 1410492 $\pm$ 34863 \ & 1572284 $\pm$ 34869\ & 875176 $\pm$ 936 \\
-Di-lepton Sel & 560 $\pm$ 5 \ & 0 $\pm$ 0 \ & 261 $\pm$ 5 \ & 38902 $\pm$ 41 \ & 313 $\pm$ 62 \ & 2776 $\pm$ 80 \ & 852 $\pm$ 9 \ & 2114 $\pm$ 35 \ & 1301 $\pm$ 406 \ & 47079 $\pm$ 422\ & 50564 $\pm$ 225 \\
+dilepton Sel & 560 $\pm$ 5 \ & 0 $\pm$ 0 \ & 261 $\pm$ 5 \ & 38902 $\pm$ 41 \ & 313 $\pm$ 62 \ & 2776 $\pm$ 80 \ & 852 $\pm$ 9 \ & 2114 $\pm$ 35 \ & 1301 $\pm$ 406 \ & 47079 $\pm$ 422\ & 50564 $\pm$ 225 \\
 $\geq$ 1 jet & 508 $\pm$ 4 \ & 0 $\pm$ 0 \ & 226 $\pm$ 4 \ & 37416 $\pm$ 41 \ & 230 $\pm$ 53 \ & 2253 $\pm$ 73 \ & 713 $\pm$ 8 \ & 2009 $\pm$ 35 \ & 145 $\pm$ 131 \ & 43499 $\pm$ 168\ & 47188 $\pm$ 217 \\
 $\geq$ 2 jets & 440 $\pm$ 4 \ & 0 $\pm$ 0 \ & 172 $\pm$ 4 \ & 35445 $\pm$ 40 \ & 157 $\pm$ 43 \ & 1676 $\pm$ 63 \ & 572 $\pm$ 8 \ & 1767 $\pm$ 29 \ & 0 $\pm$ 0 \ & 40230 $\pm$ 91\ & 43107 $\pm$ 208 \\
 $\geq$ 1 CSV b-tag & 404 $\pm$ 4 \ & 0 $\pm$ 0 \ & 142 $\pm$ 3 \ & 32569 $\pm$ 38 \ & 90 $\pm$ 34 \ & 622 $\pm$ 39 \ & 219 $\pm$ 5 \ & 1529 $\pm$ 27 \ & 0 $\pm$ 0 \ & 35575 $\pm$ 70\ & 38657 $\pm$ 197 \\
@@ -336,7 +336,7 @@ $\geq$ 1 Good Photon Postsel & 40 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 23 $\p
 
 \section{Selection of $t\bar{t}+\gamma$ events} \label{sec-postselection}
 
-From the set of $t\bar{t}$ preselected events in Section \ref{sec-Preselection}, we select only events with a photon candidate present.  Fiducial requirements are implemented as cuts in $\abs{\eta}$ and $E_T$. CMS recommended cuts are added for fiducialisation and photon selection (loose cut-based photon ID 2012 with particle flow based isolation, \cite{CutBasedIsolation2012}).In order to suppress FSR from final state particles a $\Delta R$ cut of photons between jets and leptons is applied. All simulated data is scaled to the luminosity of the recorded data used.  
+From the set of $t\bar{t}$ preselected events in Section \ref{sec-preselection}, we select only events with a photon candidate present.  Fiducial requirements are implemented as cuts in $\abs{\eta}$ and $E_T$. CMS recommended cuts are added for fiducialisation and photon selection (loose cut-based photon ID 2012 with particle flow based isolation, \cite{CutBasedIsolation2012}).In order to suppress FSR from final state particles a $\Delta R$ cut of photons between jets and leptons is applied. All simulated data is scaled to the luminosity of the recorded data used.  
 
 The fiducial cuts on the photon are given as:
 
@@ -381,7 +381,7 @@ The cut-based photon isolation cuts are taken from the recommended values \cite{
 \text{log}\frac{E_i}{E_{5x5}}\right).
 \end{equation}
 
-This is a key variable in this analysis and will be discussed in greater detail in Section \ref{sec-BackgroundEstimation}.
+This is a key variable in this analysis and will be discussed in greater detail in Section \ref{subsec-BackgroundEstimation}.
 
 \item[Charged Hadron Isolation] The isolation of charged hadrons with energy density correction, $\rho$, applied. Cut given as $I_{Char.had} < 1.5 + 0.04*E_T(\gamma)$ GeV. 
 
@@ -427,38 +427,7 @@ A significance test was performed in an attempt to optimise the $\Delta R$ cut b
 \label{fig-photonDRjets}
 \end{figure}
 
-The distributions for the other photon variables can be seen in Figure \ref{fig-photonPlots}
-
-\section{Corrections to simulated events} \label{sec-SimulatedEventsCorrection}
-
-Although we heavily rely on simulation to model the processes that we are interested in, there are various processes that arise as a product of hadron-hadron collisions in which it does not always perfectly describe. In order to model a process accurately, we want to have a model that lies as close to the observed data as possible without introducing any form of bias. Therefore, we calculate a Scale Factor (SF) to account for the mismatch of data against simulation for each process. We must also calculate a weighting for individual MC samples in order to reweight the total number of generated events as follows:  
-
-\begin{equation}
-SF_{MC} = \frac{\lumi \times \sigma}{N_{events}}
-\end{equation}
-
-where $\lumi$ is the integrated luminosity of the data, $\sigma$ the theoretical cross-section of the simulated process, and $N_{events}$ the number of processed events for a particular process. The scale factors are calculated on an event-by-event basis and are defined as the product of individual scale factors for each correction type, as shown in Equation \ref{eqn-SFProduct}. 
-
-\begin{equation}
-SF = SF_{MC} \times SF_{Trig} \times SF_{Lep} \times SF_{PU} \times SF_{Btag}
-\end{equation} \label{eqn-SFProduct}
-
-A reweighting of the p$_T$ distribution of top pairs is also incorporated and described in Section \ref{}. The different event correction types are described below.
-
-\begin{description}
-	\item[Pileup Reweighting] The number of pileup interactions per event varies depending on many factors, such as the luminosity of collisions. Generated events are produced with a nominal number of pileup interactions and this must be corrected in order to match with that observed in data. To correct the number of pileup interactions per event, we must have knowledge of the number of pileup in simulation,the luminosity of the dataset we are correcting for, and the total inelastic cross-section of proton-proton collisions, such that $N_{PU} = \lumi \times \sigma_{pp}$.    
-	\item[B-tagging Reweighting] It is observed that the efficiency of correctly tagging a b-jet varies in simulation compared to that observed in data. The efficiency is calculated as the number of b-tagged jets over the total number of jets, given as 
-	\begin{equation}
-	\epsilon_f = \frac{N_f^{b-tagged}}{N_{f}^{Total}}
-	\end{equation}
-	where f is the flavour of jet. We apply a p$_T$-dependent scale factor to simulated events to account for this discrepancy \cite{CMS-DP-2013-005} following the BTV group prescription. To calculate the weight for each event containing one of more b-tags, we find the probability of having exactly zero b-tags ($\Pi_i = \left(1 - SF_i\right)$), and iterating over the events found to contain one b-jet in simulation. We then calculate the probability of an additional b-jet to be $1 - \Pi_i\left(1 - SF_i\right)$.  
-	\item[Lepton Efficiencies] Lepton efficiencies manifest in three forms: lepton trigger, isolation, and identification scale factors. Lepton triggers are used in simulation to replicate the triggers used in data, however this strategy does not always mirror the process accurately enough, and thus a trigger scale factor must be implemented to account for this difference. The trigger scale factor is computed using the tag-and-probe method \cite{tagandprobe} described in Section \ref{subsec-LeptonEfficiencies}. The efficiency is calculated as a function of p$_T$ and $\eta$, and is give by the ratio
-	\begin{equation}
-	SF_{Trig.} = \frac{\epsilon_{data}}{\epsilon_{MC}}
-	\end{equation}
-	The trigger scale factors used in this analysis were centrally produced by the CMS EGamma and Muon physics object groups for the 2012 data set and are defined as \ref{tab-leptonTriggerSFs}. The same technique can be applied when computing scale factors for lepton isolation and identification.  
-	\item[Z+Jets Scale Factors]
-\end{description} 
+The distributions for the other photon variables can be seen in Figure \ref{subsec-photonVariables}
 
 
 \subsection{Supercluster footprint-removal for photon isolation} \label{subsec-SCFR}
@@ -495,337 +464,57 @@ Super-cluster footprint-removed isolation deals with PF candidates, whereas PF i
 \label{fig-SCFR}
 \end{figure}
 
-\section{Photon Purity Estimation} \label{sec-PhotonPurityEstimation}
+\section{Phase Space Overlap Removal} \label{sec-PhaseSpaceOverlapRemoval}
 
-We define the photon purity, $\pi$, as the number of photons that are prompt and pass the photon ID selection over the total number of photon candidates. Prompt photons are created in the hard-scattering process and are emitted from the high-$p_T$ hard-scattering particles. The main sources of non-prompt photons comes from charged particles interacting with the detector material and from quark hadronisation, and are generally not isolated and have a low $p_T$. We also obtain a source of photons from $\pi^0$ decays, whereby two very collinear photons are produced. 
-
-One method to find the photon purity is through simulation, where we have access to information of all the particles simulated by the MC event generator. We match reconstructed photons to generator photons by using information of their mother particles in order to determine the origin of the photons. From this we can divide our events into three categories based on the event generator matching to a reconstructed photon. 
+Events of the $t\bar{t}+\gamma$ process lie within a small region of $t\bar{t}$ phase space (see Figure \ref{fig-photonphasespace}), and thus our signal sample events are expected to overlap with TTJets events in the case where a hard photon is radiated by initial state quarks, top quarks, b quarks, W and its decay products: electrons, muons, and their corresponding neutrino. In order to prevent the double counting of events we apply an overlap removal procedure to remove such events from our TTJets samples. In order for an event to be considered as overlapping with TTGamma, an event has to have at least one generator-level photon with the following properties:
 
 \begin{itemize}
-	\item Signal: reconstructed photon is matched to a generated photon
-	\item Misidentified electron: reconstructed photon is matched to a generated electron
-	\item Misidentified jet: photon is not matched to either a generated photon or electron
+	\item p$_T(\gamma) > 13$ GeV
+	\item $|\eta| < 3.0$
+	\item Only gluons, bosons, or leptons are in the parents list. This ensures that photons from $\pi^0$ decays are not considered as signal
+	\item $\Delta R(\gamma, other) > 0.2$ where other particles include leptons, b quarks and final state particles (hadrons, charged leptons, photons) with transverse momenta above $5 \GeV$.
 \end{itemize}
 
-In order to find if our photon is prompt (signal), we use our matching process to find a generator-level photon that matches its properties. We use the transverse momentum along with the $\eta$ and $\phi$ coordinates of the reconstructed and generator-level photon to implement a $p_T$ and $\Delta R$ requirement on the matching process. Events are iterated over in the order in which they were created by the generator, and if we find the $\Delta R$ between the reconstructed photon and generated photon is \textbf{less than 0.2} and $|p^{reco}_T - p^{gen}_T|/p^{gen}_T$ is \textbf{less than 1.0} then we consider it a match and stop the iteration process. The parentage of the matched photon is then inspected to verify its origin, such that if it descends from a quark, gluon, charged lepton, or boson then we determine it to be prompt. We must, however, also verify that the photon is isolated. A photon maybe produced in the hard-scattering process, however we may observe hadronisation and showering in close by, such that our signal photon will not be isolated. In order to ensure that these photons are not lost to the nearby non-signal activity, we must introduce additional selection cuts to differentiate between our prompt signal photons and non-isolated photons.  
+The last cut is implemented in order to suppress photons from showers. In such cases the information from the parent particle will show that a photon is radiated by an electron, however the photon may be collinear with it. In particular, in TTJets dilepton events, such as described in this analysis, where a considerable fraction of the reconstructed photons comes from electrons radiating photons.
 
-\begin{itemize}
-	\item $\left(p_T^{reco} - p_T^{gen}\right)/p_T^{gen} < 0.1$
-	\item $\Delta R ( \gamma^{gen}, other ) > 0.2$ where other particles include leptons, photons and final state
-particles (hadrons, leptons, photons) with transverse momenta above 5 GeV
-	\item $|\Delta\eta ( \gamma^{reco}, \gamma^{gen} )| < 0.005$
-	\item $\Delta R ( \gamma^{reco}, \gamma^{gen} ) < 0.01$
-\end{itemize}
-
-The listed additional cuts help to select photons that are well isolated and do not have any undesired activity nearby.
-
-As described above, electrons leave a very similar trace to photons as it showers within the electromagnetic calorimeter, except for an additional charged track pointing towards the energy deposit. We implement specific selection criteria in order to minimise the fake-rate of electrons misidentified as photons within the event selection. However, it is observed that a large number of electrons still pass photon selection requirements and are recorded as signal. We thus include a criteria to find well isolated generator-level electrons in the same manner as for photons, however in this scenario we consider electrons from W and Z decays only. The cuts are shown below.
-
-\begin{itemize}
-	\item $\left( p_T^{reco} - p_T^{gen} \right) /p_T^{gen} < 0.1$
-	\item $\Delta R ( e, other ) > 0.2$ where other particles include leptons, photons and final state
-		  particles (hadrons, leptons, photons) with transverse momenta above 5 GeV
-	\item $ \Delta\eta ( \gamma^{reco}, e )| < 0.005$
-	\item $\Delta R ( \gamma^{reco}, e ) < 0.04$
-\end{itemize}
-
-The cuts have been cross-checked with the di-leponic $t\bar{t}$ sample as it contains a significant amount of electrons identified as photons.
-
-All reconstructed photons that pass the cuts described previously and is matched with a generator-level photon is then defined as a real photon. If it is instead matched to a generator-level electron it is then defined as a misidentified electron. Any other event that is not matched to a generator-level electron or photon is then classified as a misidentified jet.
-
-As the photon purity directly affects the cross-section ratio measurement, we do not want to rely explicitly on simulation, and therefore it would be preferable to compute the photon purity via a data-driven method. We make use of the fact that our signal photon, whether a real signal photon or misidentified electron, are isolated objects, while misidentified jets and non-prompt photons close to or within a jet. We use the supercluster footprint-removed charged hadron isolation, described above, as our discriminating variable in the fit. We compute template shapes for our signal process of a prompt isolated photon (including those originating from a misidentified electron), and non-isolated hadronic photons as our background template. The template fit provides us with estimate yields of photons originating from real photons or misidentified electrons.   
-
-\subsection{Signal template construction using the random cone method}
-
-We construct our prompt signal photon template using the ``random cone" method, similar to that found in \cite{diffxsectdiphoton}. The events that pass our full photon event selection are used as the method relies on the assumption that a prompt photon is isolated, such that the activity recorded within the detector around the prompt photon, not regarding the area affected by the energy deposit from the photon, arises only from pile-up, underlying events, and electronic noise in the ECAL.  
-
-Contributions from these effects, generally, do not vary for an isolation sum which is calculated in a region which is separate from the photon candidate, but using the same pseudorapidity range, $\phi$. A suitable orientation of the isolation cone is chosen by using the proceeding steps:
-
-\begin{itemize}
-	\item We define a direction which is obtained from the photon candidate direction, and then rotating by a random angle, $\phi_{Rand.Cone}$ between $0.8$ and $2\pi - 0.8$ radians, around the z-axis of the detector system (or rotating in $\phi$ with a fixed $\eta$) as shown in Figure \ref{fig-RandomConeIsolation}. This is designed such that an isolation cone with $\Delta R = 0.4$ centred on the random cone axis would not overlap with an isolation cone which is centred on the photon candidate, or an object that is produced back-to-back with respect to it.
-	\item We then check for objects lying within the region, such that there is no energy originating from anything other than pile-up, underlying events, or electrical noise in the ECAL. Such that there are no AK5\footnote{Anti-$k_T$ jet clustering algorithm with cone size of $\Delta R = 0.5$ (see Section \ref{subsec-JetReconstruction})} PF jets with a p$_T$ of at least 20 GeV at $\Delta R < 0.8$, photons with p$_T$ less than 10 GeV at $\Delta R < 0.8$, or muons at $\Delta R < 0.4$ with respect to the random cone axis. If such an object is found to fulfil our requirements, then we perform the same search again to generate another random angle, $\phi_{Rand.Cone}$, until a suitable direction is found. In practice, the procedure is not repeated more than twice in order to find a suitable direction.   
-\end{itemize}
-
-We then calculate the isolation sum within a cone centred on our chosen direction. The difference when performing footprint removal now is that there is no supercluster lying along the cone axis, and therefore it must be performed in a different way: the area corresponding to that in which the photon super-cluster lies, which is rotated in $\phi_{Rand.Cone}$ in order to align with the random cone axis, is not included within the calculation process. In this manner, both the area which we consider for the isolation sum, and the area throughout the centre of the cone replacing the photon candidate footprint, has exactly the same shape and extension in the photon and random cone directions.   
+ Similarly, we also observe an overlap between $Z+Jets$ and $Z+\gamma$ processes, and between W+Jets and WGamma samples, for the same reasons as described above. The phase space overlap removal procedure is applied on Z+Jets and W+Jets samples to remove events containing generator-level photons. Events containing generated photons are removed in the case in which they are from initial state radiation (emitted from the colliding partons) or final state radiation (emitted from W or Z bosons or their decay products), since these are already included in the WGamma and ZGamma simulations. The overlap removal procedure removes approximately one percent of the events in the W+Jets sample, and approximately three to four percent of the events from the TTJets and Z+Jets samples.
 
 \begin{figure} 
 \begin{center}
-\includegraphics[width=0.45\textwidth]{Figures/RandomCone1.png}\includegraphics[width=0.55\textwidth]{Figures/RandomCone2.png}
+\includegraphics[scale=0.5]{Figures/photonphasespace.png}
 \end{center}
-\caption{Illustration of the random cone technique. Under the assumption that the footprint of the photon (red) is completely removed from the isolation sum, the energy deposited in the random-cone area (green in right image) predicts the energy deposited in the isolation cone (green area in left image). \cite{MarcoThesis}}
-\label{fig-RandomConeIsolation}
-\end{figure}
-
-Figure \ref{fig-signalComparison} shows the comparison of templates from the random cone isolation method and the isolation in MC events which encompass genuine prompt photons and misidentified electrons for each decay channel. We observe a good agreement between data-driven and expected MC templates.   
-
-\begin{figure}
-\includegraphics[width=0.5\textwidth]{Plots/signalComparison/MuMu/sigComparison.pdf}
-\includegraphics[width=0.5\textwidth]{Plots/signalComparison/EE/sigComparison.pdf}
-\begin{center}
-\includegraphics[width=0.5\textwidth]{Plots/signalComparison/EMu/sigComparison.pdf}
-\end{center}
-\caption{Comparison of the shape from random cone isolation and isolated photons identified from generator particle matching in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels.}
-\label{fig-signalComparison}
-\end{figure}
-
-\subsection{Background estimation using the $\sigma_{i \eta i \eta}$ side-band method} 
-
-Background events in our template fit are identified as non-prompt photons. We define a template to model our background by selecting photon candidates that fail one selection requirement, which we call the ``side-band" region. The logic behind this method is such that by inverting a particular cut on the photon selection, then we have a sample that is rich in ``photon-like" jets (whereby the hadronisation process resolves to a neutral boosted meson with very little activity around it). In order to model the background correctly, we must select the requirements on the side-band region such that they do not differ too greatly from the full selection, and thus we do not incorrectly reject a genuine jet. 
-
-For the $t\bar{t}+\gamma$ analysis, we create a side-band region by inverting the photon shower-shape ($\sigma_{i\eta i\eta}$) selection cut, thus giving a cut of $0.12 < \sigma_{i \eta i \eta} < 0.20$ where all other photon ID selection requirements still remain the same. When considering a side-band variable, we choose a variable with little to no correlation with our template variable in order to optimise the performance of the method. The shape of the side-band template will then closely resemble the isolation distribution for photons that are not prompt but pass the photon ID requirements. 
-
-We calculate the shower shape of the photon by measuring energy deposits from within a $5 \times 5$ matrix of crystals, centred around the crystal with the largest energy in the super-cluster. As the super-cluster footprint-removal technique removes the super-cluster from the isolation sum, then we have no shared input between the two variables (shower shape and isolation) effectively removing any correlation between the two. However, no two variables are ever truly uncorrelated, and any residual correlation can be attributed to the properties of hadronisation of jets. As our main source of fake photons arises in the form of jets misidentified as photons, we use the supercluster footprint-removed charged hadron isolation (as described in Section \ref{subsec-SCFR}) as our background template variable to discriminate against fake photons.
-
-In Figure \ref{fig-backgroundComparison} we show a comparison of the photon shower shape side-band distributions from our data-driven and MC templates. We observe a good agreement between the distributions.  
-
-
-\begin{figure}
-\includegraphics[width=0.5\textwidth]{Plots/signalComparison/MuMu/bkgdComparison.pdf}
-\includegraphics[width=0.5\textwidth]{Plots/signalComparison/EE/bkgdComparison.pdf}
-\begin{center}
-\includegraphics[width=0.5\textwidth]{Plots/signalComparison/EMu/bkgdComparison.pdf}
-\end{center}
-\caption{Comparison of the isolation profiles from the side band region and isolation of hadronic photons identified from generator particle matching in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels.}
-\label{fig-backgroundComparison}
-\end{figure}
-
-\subsection{Fit to charged hadron isolation}
-
-We perform the fit in the SCFR charged hadron isolation less than 20 GeV in order to ensure a good description of background. Loose photon candidates are used for the fit to increase statistics as the dilepton channels are statistically limited. After the fit is computed the result is corrected by applying the nominal isolation cut on the templates, then computing the true number of genuine photons, misidentified electrons, and jets identified as photons. 
-
-.
-.
-.
-
-
-In an attempt to verify that the fit works well across a range of potential photon purity values, and thus not having a bias towards predicted values, we perform the fit with while varying the photon purity value. Due to the $t\bar{t}+\gamma$ simulated sample comprising predominantly prompt photon events, by scaling the $t\bar{t}+\gamma$ contribution we vary the photon purity value. Figure \ref{fig-photonPurityComparison} shows a comparison of the photon purity value and and the corresponding value measured by the fit to the charged hadron isolation. 
-
-\begin{figure}
-\includegraphics[width=0.3]{Plots/purityComparison/MuMu/photonPurity.pdf}
-\includegraphics[width=0.3]{Plots/purityComparison/EE/photonPurity.pdf}
-\includegraphics[width=0.3]{Plots/purityComparison/EMu/photonPurity.pdf}
 \caption{}
-\label{fig-photonPuritiyComparison}
+\label{fig-photonphasespace}
 \end{figure}
 
-We can see the template fit to the charged hadron isolation for the full data set in Figure \ref{fig-fitTemplates} for each decay channel.
+\section{Corrections to simulated events} \label{sec-SimulatedEventsCorrection}
 
-Statistical uncertainty given by RooFit does not include variation of the templates but only
-uncertainty of data. However since templates are data-driven and suffer from low statistics
-we have to take this uncertainty into account. We perform pseudo experiments where for
-data, isolated and hadronic photon templates in each bin the value is randomly chosen by
-Poisson distribution with mean of the bin content in the original histogram. The width of
-the distribution of the photon purity in these pseudo experiments is taken as the statistical
-uncertainty. The photon purity is calculated using only the portion of the isolation distribution
-that passes the original 5 GeV isolation cut. From the fit, the photon purity is measured to be
-0.57 ± 0.06 in the e + jets channel and 0.53 ± 0.06 in the μ + jets channel.
-
-\begin{figure}
-\includegraphics[width=0.5\textwidth]{Plots/Fits/TTbarPhotonAnalysis/MuMu/central/FitTemplate.pdf}
-\includegraphics[width=0.5\textwidth]{Plots/Fits/TTbarPhotonAnalysis/EE/central/FitTemplate.pdf}\\
-\begin{center}
-\includegraphics[width=0.5\textwidth]{Plots/Fits/TTbarPhotonAnalysis/EMu/central/FitTemplate.pdf}
-\end{center}
-\caption{Fit to charged hadron isolation templates in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels.}
-\label{fig-fitTemplates}
-\end{figure}
-
-\begin{figure}
-\includegraphics[width=0.5\textwidth]{Plots/Fits/TTbarPhotonAnalysis/MuMu/central/Fit.pdf}
-\includegraphics[width=0.5\textwidth]{Plots/Fits/TTbarPhotonAnalysis/EE/central/Fit.pdf}\\
-\begin{center}
-\includegraphics[width=0.5\textwidth]{Plots/Fits/TTbarPhotonAnalysis/EMu/central/Fit.pdf}
-\end{center}
-\caption{Fit to charged hadron isolation in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels.}
-\label{fig-fits}
-\end{figure}
-
-
-
-\begin{sidewaystable} 
-\begin{center}
-\begin{tabular}{|l|c|}
-\hline
-	\textbf{Dataset} & \textbf{Integrated Luminosity ($pb^{-1}$)}\\
-\hline
-	/DoubleMuParked/Run2012A-22Jan2013-v1/AOD  & 876 \\
-	/DoubleMuParked/Run2012B-22Jan2013-v1/AOD  & 4412 \\
-	/DoubleMuParked/Run2012C-22Jan2013-v1/AOD  & 7017 \\
-	/DoubleMuParked/Run2012D-22Jan2013-v1/AOD  & 7369 \\
-\hline
-	Total & 19.7\\	
-\hline
-	/DoubleElectron/Run2012A-22Jan2013-v1/AOD  & 875 \\
-	/DoubleElectron/Run2012B-22Jan2013-v1/AOD  & 4412 \\
-	/DoubleElectron/Run2012C-22Jan2013-v1/AOD  & 7055 \\
-	/DoubleElectron/Run2012D-22Jan2013-v1/AOD  & 7369 \\
-\hline
-	Total & 19.7\\	
-\hline
-	/MuEG/Run2012A-22Jan2013-v1/AOD  & 876 \\
-	/MuEG/Run2012B-22Jan2013-v1/AOD  & 4411 \\
-	/MuEG/Run2012C-22Jan2013-v1/AOD  & 7055 \\
-	/MuEG/Run2012D-22Jan2013-v1/AOD  & 7360 \\
-\hline
-	Total & 19.7\\	
-\hline	
-\end{tabular}	
-\end{center}
-\caption{Dataset information for each run in each respective decay channel.}
-\label{tab-datasets}
-\end{sidewaystable}
-
-\section{Number of signal events in data} \label{sec-SigEventsInData}
-
-Tables \ref{tab-SigPhotonsMuMu}, \ref{tab-SigPhotonsEE}, and \ref{tab-SigPhotonsEMu} show the number of photons after full selection broken down into categories of origin for individual MC samples, shown for each $t\bar{t}+\gamma$ decay channel. This method is used in order to extract the true number of signal $t\bar{t}+\gamma$ events to be used as a variable in the cross-section calculation. 
-
-We divide the resultant photons into three categories: genuine prompt and isolated photons, isolated misidentified electrons, and jets reconstructed as photons. Individual simulated samples contribute to each category differently, therefore we introduce scale factors to correct for mismodelling of the three categories. 
-
-\begin{table}
-\begin{center}
-\begin{tabular}{l|ccc|c}
-\hline
-	\textbf{Sample} & \textbf{Genuine Photon} & \textbf{MisID Electron} & \textbf{Hadronic} & \textbf{Total} \\
-\hline
-	$t\bar{t}+\gamma$ & & & & \\
-	$t\bar{t}+jets$ & & & & \\
-	$W+\gamma$ &  & & & \\
-	$W+jets$ & & & & \\
-	$Z+\gamma$ & & & & \\
-	$Z+jets$ &  &  &  & \\
-	Single Top &  & & & \\
-	Di-boson  & & & & \\
-\hline
-	Total & & & & \\
-	Data & & & & \\
-\hline	
-\end{tabular}
-\end{center}
-\caption{Simulated samples categorised by origin of reconstructed origin after nominal selection in the $\mu^+\mu^-$ channel. Events are normalized by process theoretical cross-sections. Data-driven QCD sample is not expected to have signal photons or electrons. All errors are statistical.}
-\label{tab-SigPhotonsMuMu}
-\end{table}	
-
-\begin{table}
-\begin{center}
-\begin{tabular}{l|ccc|c}
-\hline
-	\textbf{Sample} & \textbf{Genuine Photon} & \textbf{MisID Electron} & \textbf{Hadronic} & \textbf{Total} \\
-\hline
-	$t\bar{t}+\gamma$ & & & & \\
-	$t\bar{t}+jets$ & & & & \\
-	$W+\gamma$ &  & & & \\
-	$W+jets$ & & & & \\
-	$Z+\gamma$ & & & & \\
-	$Z+jets$ &  &  &  & \\
-	Single Top &  & & & \\
-	Di-boson  & & & & \\
-\hline
-	Total & & & & \\
-	Data & & & & \\
-\hline	
-\end{tabular}
-\end{center}
-\caption{Simulated samples categorised by origin of reconstructed origin after nominal selection in the $e^+e^-$ channel. Events are normalized by process theoretical cross-sections. Data-driven QCD sample is not expected to have signal photons or electrons. All errors are statistical.}
-\label{tab-SigPhotonsEE}
-\end{table}	
-
-\begin{table}
-\begin{center}
-\begin{tabular}{l|ccc|c}
-\hline
-	\textbf{Sample} & \textbf{Genuine Photon} & \textbf{MisID Electron} & \textbf{Hadronic} & \textbf{Total} \\
-\hline
-	$t\bar{t}+\gamma$ & & & & \\
-	$t\bar{t}+jets$ & & & & \\
-	$W+\gamma$ &  & & & \\
-	$W+jets$ & & & & \\
-	$Z+\gamma$ & & & & \\
-	$Z+jets$ &  &  &  & \\
-	Single Top &  & & & \\
-	Di-boson  & & & & \\
-\hline
-	Total & & & & \\
-	Data & & & & \\
-\hline	
-\end{tabular}
-\end{center}
-\caption{Simulated samples categorised by origin of reconstructed origin after nominal selection in the $e\mu$ channel. Events are normalized by process theoretical cross-sections. Data-driven QCD sample is not expected to have signal photons or electrons. All errors are statistical.}
-\label{tab-SigPhotonsEMu}
-\end{table}	
-
-The behaviour of the TTJets, WJets, ZJets, and DiBoson samples is well understood and has been cross-checked, and corrected, by different template fits to data. Thus leaving the contribution from the TTGamma and VGamma (the combination of WGamma and ZGamma) samples that are not as well understood, both being the largest contributors to our signal process. The VGamma sample is normalised to its NLO theoretical cross-section, and known to potentially be mismodelled to the order of 20\% \cite{PhysRevD.89.092005}. The VGamma sample has the second largest contribution to signal events out of all MC samples, and therefore it is critical that we cross-check the normalisation before including it. Single top events are also well modelled, however they do not contribute significantly to the signal process.
-
-We are thus left we three unknowns:
-
-\begin{itemize}
-	\item TTGamma scale factor (or normalization, the main unknown) 
-	\item VGamma scale factor
-	\item Jet to photon misidentification scale factor
-\end{itemize}
-
-From the events derived from data we can define the photon purity, $\pi_{e\gamma}$, taken from the charged hadron isolation data-driven template fit, which also includes electrons misidentified as photons. We can also compute the $t\bar{t}$ purity, $\pi_{t\bar{t}}$, and the total number of selected events in data. For every measured quantity we attach an associated uncertainty and propagate through to the unknown quantities described above. By relating the known quantities to the unknowns we can construct a likelihood function $\lumi(SF_{t\bar{t}+\gamma},SF_{V+\gamma},SF_{jet\to\gamma}) = e^{-\chi^2/2}$, where $\chi^2$ is the sum of the three chi-squared terms for each scale factor, given as   
+Although we heavily rely on simulation to model the processes that we are interested in, there are various processes that arise as a product of hadron-hadron collisions in which it does not always perfectly describe. In order to model a process accurately, we want to have a model that lies as close to the observed data as possible without introducing any form of bias. Therefore, we calculate a Scale Factor (SF) to account for the mismatch of data against simulation for each process. We must also calculate a weighting for individual MC samples in order to reweight the total number of generated events as follows:  
 
 \begin{equation}
-\chi^2(SF_{t\bar{t}+\gamma},SF_{V+\gamma},SF_{jet\to\gamma}) = \frac{\left(\pi^{data}_{e\gamma} - \pi^{MC}_{e\gamma}\right)^2}{\sigma^2_{\pi_{e\gamma}}} + \frac{\left(\pi^{data}_{t\bar{t}} - \pi^{MC}_{t\bar{t}}\right)^2}{\sigma^2_{\pi_{t\bar{t}}}} + \frac{\left(N^{data}_{events} - N^{MC}_{events}\right)^2}{\sigma^2_{N_{events}}}
+SF_{MC} = \frac{\lumi \times \sigma}{N_{events}}
 \end{equation}
 
-We use the three unknown quantities in order to correct event counts from relevant contributions in simulation. These quantities are: $\pi_{e\gamma}^{MC}$, ratio of events with a reconstructed photon matched to an isolated electron or photon over all events in simulation, $\pi_{t\bar{t}}^{MC}$ the ratio of top pair events over all events from simulation, and $\pi_{events}^{MC}$ the total number of selected events in MC.	
-
-\begin{table}
-\begin{center}
-\begin{tabular}{l|cc|cc|cc}
-\hline
-	& \multicolumn{2}{c|}{$\mu^{+}\mu^{-}$} & \multicolumn{2}{c|}{$e^{+}e^{-}$} & \multicolumn{2}{c}{$e\mu$} \\
-	& data & MC & data & MC & data & MC \\
-\hline
-	Photon purity & & & & & &\\
-	Top purity & & & & & &\\
-	$N_{events}$ data & & & & & & \\
-\hline	
-\end{tabular}
-\end{center}
-\caption{Measured quantities used in the likelihood fit for the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels.}
-\label{fig-likelihoodVariables}
-\end{table}		
-
-\begin{figure}
-\includegraphics[width=0.333\textwidth]{Plots/likelihoodfits/MuMu/ttgamma_likelihood_fit.pdf}
-\includegraphics[width=0.333\textwidth]{Plots/likelihoodfits/MuMu/vgamma_likelihood_fit.pdf}
-\includegraphics[width=0.333\textwidth]{Plots/likelihoodfits/MuMu/jgamma_likelihood_fit.pdf}
-\caption{Likelihood distributions for the $t\bar{t}+\gamma$, $V+\gamma$, and $jets\to \gamma$ scale factors in the $\mu^{+}\mu^{-}$ channel.}
-\label{fig-SFLikelihoodFitsMuMu}
-\end{figure}
-
-\begin{figure}
-\includegraphics[width=0.333\textwidth]{Plots/likelihoodfits/EE/ttgamma_likelihood_fit.pdf}
-\includegraphics[width=0.333\textwidth]{Plots/likelihoodfits/EE/vgamma_likelihood_fit.pdf}
-\includegraphics[width=0.333\textwidth]{Plots/likelihoodfits/EE/jgamma_likelihood_fit.pdf}
-\caption{Likelihood distributions for the $t\bar{t}+\gamma$, $V+\gamma$, and $jets\to \gamma$ scale factors in the $e^{+}e^{-}$ channel.}
-\label{fig-SFLikelihoodFitsEE}
-\end{figure}
-
-\begin{figure}
-\includegraphics[width=0.333\textwidth]{Plots/likelihoodfits/EMu/ttgamma_likelihood_fit.pdf}
-\includegraphics[width=0.333\textwidth]{Plots/likelihoodfits/EMu/vgamma_likelihood_fit.pdf}
-\includegraphics[width=0.333\textwidth]{Plots/likelihoodfits/EMu/jgamma_likelihood_fit.pdf}
-\caption{Likelihood distributions for the $t\bar{t}+\gamma$, $V+\gamma$, and $jets\to \gamma$ scale factors in the $e\mu$ channel.}
-\label{fig-SFLikelihoodFitsEMu}
-\end{figure}
-
-\section{Combination of channels} \label{sec-CombinationOfChannels}
-
-\begin{figure}
-\includegraphics[width=0.333\textwidth]{Plots/likelihoodfits/Combination/ttgamma_likelihood_fit.pdf}
-\includegraphics[width=0.333\textwidth]{Plots/likelihoodfits/Combination/vgamma_likelihood_fit.pdf}
-\includegraphics[width=0.333\textwidth]{Plots/likelihoodfits/Combination/jgamma_likelihood_fit.pdf}
-\caption{Likelihood distributions for the $t\bar{t}+\gamma$, $V+\gamma$, and $jets\to \gamma$ scale factors when combining channels.}
-\label{fig-SFLikelihoodFitsCombination}
-\end{figure}
+where $\lumi$ is the integrated luminosity of the data, $\sigma$ the theoretical cross-section of the simulated process, and $N_{events}$ the number of processed events for a particular process. The scale factors are calculated on an event-by-event basis and are defined as the product of individual scale factors for each correction type, as shown in Equation \ref{eqn-SFProduct}. 
 
 \begin{equation}
-\begin{split}
-\chi^2(SF_{t\bar{t}+\gamma},SF_{V+\gamma},SF_{jet\to\gamma}) & = \frac{\left(\pi^{data,\mu^+\mu^-}_{e\gamma} - \pi^{MC,\mu^+\mu^-}_{e\gamma}\right)^2}{\sigma^2_{\pi_{e\gamma},\mu^+\mu^-}} + \frac{\left(\pi^{data,\mu^+\mu^-}_{t\bar{t}} - \pi^{MC,\mu^+\mu^-}_{t\bar{t}}\right)^2}{\sigma^2_{\pi_{t\bar{t}},\mu^+\mu^-}} + \frac{\left(N^{data,\mu^+\mu^-}_{events} - N^{MC,\mu^+\mu^-}_{events}\right)^2}{\sigma^2_{N_{events,\mu^+\mu^-}}} \\
-& + \frac{\left(\pi^{data,e^+e^-}_{e\gamma} - \pi^{MC,e^+e^-}_{e\gamma}\right)^2}{\sigma^2_{\pi_{e\gamma},e^+e^-}} + \frac{\left(\pi^{data,e^+e^-}_{t\bar{t}} - \pi^{MC,e^+e^-}_{t\bar{t}}\right)^2}{\sigma^2_{\pi_{t\bar{t}},e^+e^-}} + \frac{\left(N^{data,e^+e^-}_{events} - N^{MC,e^+e^-}_{events}\right)^2}{\sigma^2_{N_{events,e^+e^-}}} \\
-& + \frac{\left(\pi^{data,e\mu}_{e\gamma} - \pi^{MC,e\mu}_{e\gamma}\right)^2}{\sigma^2_{\pi_{e\gamma},e\mu}} + \frac{\left(\pi^{data,e\mu}_{t\bar{t}} - \pi^{MC,e\mu}_{t\bar{t}}\right)^2}{\sigma^2_{\pi_{t\bar{t}},e\mu}} + \frac{\left(N^{data,e\mu}_{events} - N^{MC,e\mu}_{events}\right)^2}{\sigma^2_{N_{events,e\mu}}} 
-\end{split}
-\end{equation}
+SF = SF_{MC} \times SF_{Trig} \times SF_{Lep} \times SF_{PU} \times SF_{Btag}
+\end{equation} \label{eqn-SFProduct}
+
+A reweighting of the p$_T$ distribution of top pairs is also incorporated and described in Section \ref{}. The different event correction types are described below.
+
+\begin{description}
+	\item[Pileup Reweighting] The number of pileup interactions per event varies depending on many factors, such as the luminosity of collisions. Generated events are produced with a nominal number of pileup interactions and this must be corrected in order to match with that observed in data. To correct the number of pileup interactions per event, we must have knowledge of the number of pileup in simulation,the luminosity of the dataset we are correcting for, and the total inelastic cross-section of proton-proton collisions, such that $N_{PU} = \lumi \times \sigma_{pp}$.    
+	\item[B-tagging Reweighting] It is observed that the efficiency of correctly tagging a b-jet varies in simulation compared to that observed in data. The efficiency is calculated as the number of b-tagged jets over the total number of jets, given as 
+	\begin{equation}
+	\epsilon_f = \frac{N_f^{b-tagged}}{N_{f}^{Total}}
+	\end{equation}
+	where f is the flavour of jet. We apply a p$_T$-dependent scale factor to simulated events to account for this discrepancy \cite{CMS-DP-2013-005} following the BTV group prescription. To calculate the weight for each event containing one of more b-tags, we find the probability of having exactly zero b-tags ($\Pi_i = \left(1 - SF_i\right)$), and iterating over the events found to contain one b-jet in simulation. We then calculate the probability of an additional b-jet to be $1 - \Pi_i\left(1 - SF_i\right)$.  
+	\item[Lepton Efficiencies] Lepton efficiencies manifest in three forms: lepton trigger, isolation, and identification scale factors. Lepton triggers are used in simulation to replicate the triggers used in data, however this strategy does not always mirror the process accurately enough, and thus a trigger scale factor must be implemented to account for this difference. The trigger scale factor is computed using the tag-and-probe method \cite{tagandprobe} described in Section \ref{subsec-LeptonEfficiencies}. The efficiency is calculated as a function of p$_T$ and $\eta$, and is give by the ratio
+	\begin{equation}
+	SF_{Trig.} = \frac{\epsilon_{data}}{\epsilon_{MC}}
+	\end{equation}
+	The trigger scale factors used in this analysis were centrally produced by the CMS EGamma and Muon physics object groups for the 2012 data set and are defined as \ref{tab-leptonTriggerSFs}. The same technique can be applied when computing scale factors for lepton isolation and identification.  
+	\item[Z+Jets Scale Factors]
+\end{description} 
+
