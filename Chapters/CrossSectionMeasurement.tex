@@ -39,7 +39,14 @@ In order to simplify the calculation, we are able to take the ratio of the fiduc
 R = \frac{\sigma_{t\bar{t}+\gamma}^{fid.}}{\sigma_{t\bar{t}}^{incl.}} = \frac{\sigma_{t\bar{t}+\gamma}^{fid.}}{1}\cdot\frac{1}{\sigma_{t\bar{t}}^{incl.}} = \frac{N_{t\bar{t}+\gamma}^{signal}}{\epsilon_{t\bar{t}+\gamma}^{top+pho.}} \cdot \frac{(\epsilon \cdot A)_{t\bar{t}}^{top}}{N_{t\bar{t}}}
 \end{equation}
 
-We now introduce a second term into the cross-section calculation which includes three new variables that stem from the $t\bar{t}$ inclusive cross-section: where $\epsilon_{t\bar{t}}^{top}$ and $A_{t\bar{t}}^{top}$ are the efficiency and acceptance of the $t\bar{t}$ process, and $N_{t\bar{t}}$ is the number of top pair events passing the full top selection, prior to the photon selection. The efficiencies for both top pair selection and top pair with a photon selection is very similar due to the ordering of the event selection - the selection of leptons, jets, b-jets, and MET are the same in each scenario. As the acceptance calculation depends on individual samples generator cuts and even selection, we must calculate this variable separately for each stage of the selection process. By taking the ratio of each cross-section we cancel out the luminosity parameter.
+We now introduce a second term into the cross-section calculation which includes three new variables that stem from the $t\bar{t}$ inclusive cross-section: where $\epsilon_{t\bar{t}}^{top}$ and $A_{t\bar{t}}^{top}$ are the efficiency and acceptance of the $t\bar{t}$ process, $N_{t\bar{t}}$ is the number of top pair events passing the full top selection prior to the photon selection, and $\epsilon_{t\bar{t}+\gamma}^{top+pho.}$the efficiency of finding $t\bar{t}+\gamma$ events after top and photon selection. We define the efficiency for $t\bar{t}+\gamma$ with top pair and photon selection as
+
+\begin{equation}
+\epsilon_{t\bar{t}+\gamma}^{top+pho.} = \frac{N_{t\bar{t}+\gamma}^{pho.}}{N_{t\bar{t}+\gamma}^{gen. fid.}}
+\end{equation}
+
+
+where $N_{t\bar{t}+\gamma}^{pho.}$ is the number of $t\bar{t}+\gamma$ events passing photon selection, including migration into the fiducial region, and $N_{t\bar{t}+\gamma}^{gen. fid.}$ is the number of $t\bar{t}+\gamma$ events at generator level passing fiducial cuts, where fiducial cuts include both top and photon selection requirements. The efficiencies for both top pair selection and top pair with a photon selection is very similar due to the ordering of the event selection - the selection of leptons, jets, b-jets, and MET are the same in each scenario. As the acceptance calculation depends on individual samples generator cuts and even selection, we must calculate this variable separately for each stage of the selection process. By taking the ratio of each cross-section we cancel out the luminosity parameter.
 
 The prominent feature of this analysis is the addition of a radiated photon from one of the decay products of a dileptonic $t\bar{t}$ decay. In order to correctly measure the number of signal $t\bar{t}+\gamma$ events we must make sure that we have correctly identified our signal events. Even though an object may pass the full photon ID selection requirements, it may not be our signal photon. Electrons and jets are likely to pass photon ID selection and be recorded as real signal photons, thus we must remove these ``fakes" from our signal events.
 
@@ -399,23 +406,26 @@ As we wish to find the combination of parameters with the best likelihood, we pe
 
 
 
-% The best agreement is achieved for these values of parameters, with errors from the width of
-% the likelihood, are SF tt + γ = 1.16 ± 0.26, SF V + γ = 0.95 ± 0.85, SF jet → γ = 1.17 ± 0.19 in the e + jets
-% channel and SF tt + γ = 0.89 ± 0.21, SF V + γ = 1.13 ± 0.45, SF jet → γ = 1.22 ± 0.18 for the μ + jets
-% channel. It brings simulated photon purity, top fraction and number of events to excellent
-% agreement with quantities measured in data, as shown in Table 6. Tables 7 and 8 show the
-% number of events in simulation, scaled to the results of the likelihood fit.
+We find that the best agreement is achieved for these values of parameters, with errors from the width of the likelihood, are $SF_{t\bar{t}+\gamma} = 1.16 \pm 0.26$, $SF_{V+\gamma} = 0.95 \pm 0.85$, $SF_{jet\to\gamma} = 1.17 \pm 0.19$ for the $\mu^+\mu^-$ channel, $SF_{t\bar{t}+\gamma} = 0.89 \pm 0.21$, $SF_{V+\gamma} = 1.13 \pm 0.45$, $SF_{jet\to\gamma} = 1.22 \pm  0.18$ for the $e^+e^-$ channel, and $SF_{t\bar{t}+\gamma} = 0.89 \pm 0.21$, $SF_{V+\gamma} = 1.13 \pm 0.45$, $SF_{jet\to\gamma} = 1.22 \pm 0.18$ for the $e\mu$ channel. Therefore, we see an excellent agreement between the photon purity, fraction of top events, and number of events in simulation and in data. Tables \ref{}, \ref{}, \ref{} show the number of events from simulation scaled to the results of the likelihood fit.  
 
 
 \section{Signal Acceptance Calculation} \label{subsec-SignalAcceptanceCalculation}
 
-Acceptance calculation for this analysis differs from usual inclusive cross section measurements because we measure ratio of cross sections. The event selection is chosen to make use of this fact: two steps (top selection and photon selection) are done sequentially. For the inclusive $t\bar{t}$ process, we start with number of generated events (within some fiducial phase space) and count how many events are left after top event selection. The acceptance times efficiency is defined for the $t\bar{t}$ top selection as:
+%  Additionally,
+% the acceptance can be split into two parts, the portion coming from the branching fraction of
+% the tt pair, and the portion coming from the kinematic phase space requirements.
+
+
+The acceptance calculation for this analysis differs from usual inclusive cross section measurements because we measure ratio of cross sections. We measure the both the efficiency and acceptance from simulation, where the acceptance is determined at generator level by requiring events to lie within the phase space chosen for the analysis. We define events to contain exactly two oppositely-signed leptons (excluding $\tau$ leptons) in the visible phase space. For muons, we require a transverse momentum greater than 20 GeV and to lie within a pseudorapidity region of $|\eta| < 2.4$, excluding the region of $1.4442 < \eta < 1.5660$ between the barrel and endcaps. Similarly, the visible phase space for electrons lies in the requirement of a transverse momentum greater than 20 GeV and $|\eta| < 2.4$. We require the MET to be greater than 20 GeV. Finally, we require the selection of generated photon with transverse energy greater than 25 GeV and lie in the pseudorapidity region $|\eta| < 1.4442$ (the barrel region). We define the acceptance to be the fraction of generated events that pass these generator level cuts. 
+
+
+The event selection is chosen to make use of this fact: two steps (top selection and photon selection) are done sequentially. For the inclusive $t\bar{t}$ process, we start with number of generated events (within some fiducial phase space) and count how many events are left after top event selection. The acceptance times efficiency is defined for the $t\bar{t}$ top selection as:
 
 \begin{equation}
-	\epsilon_{t\bar{t}}^{top} \cdot A_{t\bar{t}}^{top} = \frac{N_{t\bar{t}.preselection}}{N_{t\bar{t}.generated}} 
+	(\epsilon \cdot A)_{t\bar{t}}^{top} = \frac{N_{t\bar{t}.preselection}}{N_{t\bar{t}.generated}} 
 \end{equation}
 
-This gives the acceptance times efficiency of the inclusive $t\bar{t}$ process to be $\epsilon_{t\bar{t}}^{top} \cdot A_{t\bar{t}}^{top} =   \pm  (stat.)$ in the di-muon channel, $\epsilon_{t\bar{t}}^{top} \cdot A_{t\bar{t}}^{top} =  \pm  (stat.)$ in the di-electron channel, and $\epsilon_{t\bar{t}}^{top} \cdot A_{t\bar{t}}^{top} =  \pm  (stat.)$ in the mixed final state.
+This gives the acceptance times efficiency of the inclusive $t\bar{t}$ process to be $(\epsilon \cdot A)_{t\bar{t}}^{top} =   \pm  (stat.)$ in the di-muon channel, $(\epsilon \cdot A)_{t\bar{t}}^{top} =  \pm  (stat.)$ in the di-electron channel, and $(\epsilon \cdot A)_{t\bar{t}}^{top} =  \pm  (stat.)$ in the mixed final state.
 
 The same can be done for the $t\bar{t}+\gamma$ (signal sample). To get the acceptance times efficiency we have to divide the number of events passing top selection by the total number of events considered. However, in this case we have to choose what we take as the denominator. The signal $t\bar{t}+\gamma$ sample is inclusive, but theoretical calculations for the cross section are done for final states with 1 and 2 leptons \cite{QCDCorrectionsttgamma2011}. To make comparison with theory easier we consider the fiducial space for signal when 1 or 2 leptons are present. The $t\bar{t}+\gamma$ acceptance times efficiency of the top selection is defined for the signal samples with 1 or 2 leptons as:
 
