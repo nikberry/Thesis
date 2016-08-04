@@ -106,7 +106,7 @@
 \contentsline {subsection}{\numberline {6.3.3}Analysis-dependent modelling uncertainties}{157}{subsection.6.3.3}
 \contentsline {section}{\numberline {6.4}Impact of uncertainties}{157}{section.6.4}
 \contentsline {chapter}{\numberline {7}Results}{160}{chapter.7}
-\contentsline {section}{\numberline {7.1}Combination of channels}{162}{section.7.1}
+\contentsline {section}{\numberline {7.1}Combination of channels}{161}{section.7.1}
 \contentsline {chapter}{\numberline {8}Measurement of the anomalous couplings of the photon to the top quark}{163}{chapter.8}
 \contentsline {chapter}{\numberline {9}Electron Conversion Veto}{164}{chapter.9}
 \contentsline {chapter}{Conclusions}{165}{chapter*.89}

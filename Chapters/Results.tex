@@ -70,13 +70,7 @@ Another result is visible cross section ratio where we do not extrapolate the me
 
 \section{Combination of channels} \label{sec-CombinationOfChannels}
 
-\begin{figure}
-\includegraphics[width=0.3\textwidth]{Plots/likelihoodfits/Combination/ttgamma_likelihood_fit.pdf}
-\includegraphics[width=0.3\textwidth]{Plots/likelihoodfits/Combination/vgamma_likelihood_fit.pdf}
-\includegraphics[width=0.3\textwidth]{Plots/likelihoodfits/Combination/jgamma_likelihood_fit.pdf}
-\caption{Likelihood distributions for the $t\bar{t}+\gamma$, $V+\gamma$, and $jets\to \gamma$ scale factors when combining channels.}
-\label{fig-SFLikelihoodFitsCombination}
-\end{figure}
+In order to improve our measurement, we combine each decay channel to produce a single result for the cross-section ratio. This is done by using a single likelihood fit, similar to that seen previously in Section \ref{sec-SigEventsInData}. The incorporates nine input parameters: the top purity, photon purity, and number of data events for each dilepton decay channel while fitting to the same three scale factors. We therefore define a modified chi-squared calculation to be the sum of the nine terms, given as:
 
 \begin{equation}
 \begin{split}
@@ -85,3 +79,13 @@ Another result is visible cross section ratio where we do not extrapolate the me
 & + \frac{\left(\pi^{data,e\mu}_{e\gamma} - \pi^{MC,e\mu}_{e\gamma}\right)^2}{\sigma^2_{\pi_{e\gamma},e\mu}} + \frac{\left(\pi^{data,e\mu}_{t\bar{t}} - \pi^{MC,e\mu}_{t\bar{t}}\right)^2}{\sigma^2_{\pi_{t\bar{t}},e\mu}} + \frac{\left(N^{data,e\mu}_{events} - N^{MC,e\mu}_{events}\right)^2}{\sigma^2_{N_{events,e\mu}}} 
 \end{split}
 \end{equation}
+
+The values of the top purity, photon purity, and number of events in data are the same as used previously from individual channels. The values are listed in Table \ref{tab-likelihoodVariables}.  
+
+\begin{figure}
+\includegraphics[width=0.3\textwidth]{Plots/likelihoodfits/Combination/ttgamma_likelihood_fit.pdf}
+\includegraphics[width=0.3\textwidth]{Plots/likelihoodfits/Combination/vgamma_likelihood_fit.pdf}
+\includegraphics[width=0.3\textwidth]{Plots/likelihoodfits/Combination/jgamma_likelihood_fit.pdf}
+\caption{Likelihood distributions for the $t\bar{t}+\gamma$, $V+\gamma$, and $jets\to \gamma$ scale factors when combining channels.}
+\label{fig-SFLikelihoodFitsCombination}
+\end{figure}
