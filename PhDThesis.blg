@@ -12,6 +12,7 @@ Warning--empty year in ElectronEfficiencies
 Warning--empty year in MuonEfficiencies
 Warning--empty author in ATLAS:2014wva
 Warning--empty journal in ATLAS:2014wva
+Warning--empty journal in Khachatryan:2016mqs
 Warning--empty author in CMS-PAS-TOP-13-011
 Warning--empty journal in CDFD0combination
 Warning--empty journal in Whelicitytoppair
@@ -27,9 +28,9 @@ Warning--empty year in TopEventSelection
 Warning--empty year in TOPEGM1
 Warning--empty year in TOPMUO1
 Warning--empty institution in CMS-PAS-JME-10-003
+Warning--empty year in CutBasedIsolation2012
 Warning--empty author in CMS-DP-2013-005
 Warning--empty journal in CMS-DP-2013-005
-Warning--empty year in CutBasedIsolation2012
 Warning--empty journal in lumiScans
 Warning--empty author in PCC
 Warning--empty journal in PCC
@@ -42,45 +43,45 @@ Warning--empty author in CMS:2011esa
 Warning--empty journal in CMS:2011esa
 Warning--empty author in BTAGPAS
 Warning--empty journal in BTAGPAS
-You've used 155 entries,
+You've used 157 entries,
             1791 wiz_defined-function locations,
-            1293 strings with 25754 characters,
-and the built_in function-call counts, 29311 in all, are:
-= -- 2607
-> -- 1006
+            1302 strings with 26156 characters,
+and the built_in function-call counts, 29655 in all, are:
+= -- 2635
+> -- 1022
 < -- 14
-+ -- 421
-- -- 266
-* -- 1805
-:= -- 4798
-add.period$ -- 459
-call.type$ -- 155
-change.case$ -- 154
++ -- 427
+- -- 270
+* -- 1823
+:= -- 4857
+add.period$ -- 465
+call.type$ -- 157
+change.case$ -- 156
 chr.to.int$ -- 0
-cite$ -- 194
-duplicate$ -- 1411
-empty$ -- 3011
-format.name$ -- 266
-if$ -- 6472
+cite$ -- 197
+duplicate$ -- 1428
+empty$ -- 3046
+format.name$ -- 270
+if$ -- 6547
 int.to.chr$ -- 0
-int.to.str$ -- 155
-missing$ -- 147
-newline$ -- 771
-num.names$ -- 142
-pop$ -- 313
+int.to.str$ -- 157
+missing$ -- 149
+newline$ -- 781
+num.names$ -- 144
+pop$ -- 319
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 610
+skip$ -- 618
 stack$ -- 0
-substring$ -- 1819
-swap$ -- 221
+substring$ -- 1831
+swap$ -- 222
 text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 39
-while$ -- 247
-width$ -- 158
-write$ -- 1635
-(There were 39 warnings)
+warning$ -- 40
+while$ -- 250
+width$ -- 160
+write$ -- 1655
+(There were 40 warnings)

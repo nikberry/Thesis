@@ -348,6 +348,20 @@ Nikolaos Kidonakis.
   Scattering and Related Subjects (DIS 2012)}}, pages 831--834, 2012.
 \newblock [,831(2012)].
 
+\bibitem{Aad:2014kva}
+Georges Aad et~al.
+\newblock {Measurement of the $t\overline{t}$ production cross-section using
+  $e\mu $ events with $b$ -tagged jets in $pp$ collisions at $\sqrt{s}=7$ and 8
+  TeV with the ATLAS detector}.
+\newblock {\em Eur. Phys. J.}, C74(10):3109, 2014.
+
+\bibitem{Khachatryan:2016mqs}
+Vardan Khachatryan et~al.
+\newblock {Measurement of the $\mathrm{ t \bar{t} }$ production cross section
+  in the $\mathrm{ e \mu }$ channel in proton-proton collisions at $\sqrt{s} =$
+  7 and 8 TeV}.
+\newblock 2016.
+
 \bibitem{PhysRevD.86.010001}
 J.~et~al. Beringer.
 \newblock Review of particle physics*.
@@ -755,10 +769,6 @@ CMS Collaboration.
 \newblock Jet performance in pp collisions at $\sqrt{s}$=7 {TeV}.
 \newblock CMS Physics Analysis Summary CMS-PAS-JME-10-003, 2010.
 
-\bibitem{CMS-DP-2013-005}
-{Results on b-tagging identification in 8 TeV pp collisions}.
-\newblock Feb 2013.
-
 \bibitem{CutBasedIsolation2012}
 CMS Collaboration.
 \newblock Simple cut based id 2012.
@@ -769,6 +779,16 @@ CMS Collaboration.
 \newblock Measurement of differential cross sections for the production of a
   pair of isolated photons in pp collisions at $\sqrt{s}=7$ tev.
 \newblock {\em The European Physical Journal C}, 74(11), 2014.
+
+\bibitem{CMS-DP-2013-005}
+{Results on b-tagging identification in 8 TeV pp collisions}.
+\newblock Feb 2013.
+
+\bibitem{tagandprobe}
+V.~Khachatryan.
+\newblock Measurements of inclusive w and z cross sections in pp collisions at
+  $\sqrt{s} = 7$ tev.
+\newblock {\em Journal of High Energy Physics}, 2011(1), 2011.
 
 \bibitem{ttbarXsectiondilepton}
 CMS Colaboration.
@@ -781,12 +801,6 @@ CMS Collaboration.
   inclusive cross sections in $pp$ collisions at $\sqrt{s}=7\text{ }\text{
   }\mathrm{TeV}$ and limits on anomalous triple gauge boson couplings.
 \newblock {\em Phys. Rev. D}, 89:092005, May 2014.
-
-\bibitem{QCDCorrectionsttgamma2011}
-Kirill Melnikov, Markus Schulze, and Andreas Scharf.
-\newblock {QCD corrections to top quark pair production in association with a
-  photon at hadron colliders}.
-\newblock {\em Phys. Rev.}, D83:074013, 2011.
 
 \bibitem{lumiScans}
 Simon White.
@@ -811,12 +825,6 @@ Simon White.
 \bibitem{CMS-PAS-LUM-13-001}
 {CMS Luminosity Based on Pixel Cluster Counting - Summer 2013 Update}.
 \newblock Technical Report CMS-PAS-LUM-13-001, CERN, Geneva, 2013.
-
-\bibitem{tagandprobe}
-V.~Khachatryan.
-\newblock Measurements of inclusive w and z cross sections in pp collisions at
-  $\sqrt{s} = 7$ tev.
-\newblock {\em Journal of High Energy Physics}, 2011(1), 2011.
 
 \bibitem{Khachatryan:2015hwa}
 Vardan Khachatryan et~al.
@@ -860,6 +868,12 @@ Jun Gao, Marco Guzzi, Joey Huston, Hung-Liang Lai, Zhao Li, Pavel Nadolsky, Jon
 Performance of b tagging at $\sqrt{s} = 8$ tev in multijet, $t\bar{t}$ and
   boosted topology events.
 \newblock Oct 2013.
+
+\bibitem{QCDCorrectionsttgamma2011}
+Kirill Melnikov, Markus Schulze, and Andreas Scharf.
+\newblock {QCD corrections to top quark pair production in association with a
+  photon at hadron colliders}.
+\newblock {\em Phys. Rev.}, D83:074013, 2011.
 
 \bibitem{OneLoopQCDCorrection}
 Valentin Hirschi, Rikkert Frederix, Stefano Frixione, Maria~Vittoria Garzelli,
