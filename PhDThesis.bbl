@@ -869,16 +869,10 @@ Performance of b tagging at $\sqrt{s} = 8$ tev in multijet, $t\bar{t}$ and
   boosted topology events.
 \newblock Oct 2013.
 
-\bibitem{QCDCorrectionsttgamma2011}
-Kirill Melnikov, Markus Schulze, and Andreas Scharf.
-\newblock {QCD corrections to top quark pair production in association with a
-  photon at hadron colliders}.
-\newblock {\em Phys. Rev.}, D83:074013, 2011.
-
-\bibitem{OneLoopQCDCorrection}
-Valentin Hirschi, Rikkert Frederix, Stefano Frixione, Maria~Vittoria Garzelli,
-  Fabio Maltoni, and Roberto Pittau.
-\newblock {Automation of one-loop QCD corrections}.
-\newblock {\em JHEP}, 05:044, 2011.
+\bibitem{Mangano:2006rw}
+Michelangelo~L. Mangano, Mauro Moretti, Fulvio Piccinini, and Michele Treccani.
+\newblock {Matching matrix elements and shower evolution for top-quark
+  production in hadronic collisions}.
+\newblock {\em JHEP}, 01:013, 2007.
 
 \end{thebibliography}
