@@ -6,10 +6,19 @@ Even though we model data using simulated MC samples, which are an essential too
 
 \section{Event Selection} \label{sec-EventSelection}
 
-For the $t\bar{t}+\gamma$ analysis the selection of objects is computed in three stages; A \textbf{skim} is implemented when processing signal and background MC samples in order to reduce the rate of events at analysis level and become much more manageable, a \textbf{pre-selection} of $t\bar{t}$ events is then computed for each final state respectively following the recommended top event selection group reference, and finally the full \textbf{selection} which includes an isolated photon radiated from top quark or its decay products.   
+For the $t\bar{t}+\gamma$ analysis the selection of objects is computed in three stages; A \textbf{skim} is implemented when processing signal and background MC samples in order to reduce the rate of events at analysis level and become much more manageable, a \textbf{pre-selection} of $t\bar{t}$ events is then computed for each final state respectively following the recommended top event selection group reference, and finally the full \textbf{selection} which includes an isolated photon radiated from top quark or its decay products. The full analysis work-flow can be seen in Figure \ref{fig-AnalysisFlowChart}   
 
 It is important to reconstruct the number of $t\bar{t}$ events before we can include our radiated photon such that our sample is much cleaner. 
 The pre-selection events have been constructed by following the CMS recommendation for cut-based selection of top-quark pair events with the requirement of at least two jets of which at least one is a b-tagged jet. Individual objects are reconstructed based on specific criteria, such as electrons, loose electrons, muons, loose muons, jets, and photons. Then an additional set of selection requirements is applied based on the relative positions of the objects ($\Delta R$ cuts). After that, the final decision is made if the event is to be considered in the further analysis. Pre-selection cuts are described in Section \ref{sec-preselection}.
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.75\textwidth]{Figures/AnalysisFlowChart2.png}
+\end{center}
+\caption{Flow chart showing each stage of the analysis. The box numbers represent the outlined
+analysis steps.}
+\label{fig-AnalysisFlowChart}
+\end{figure}
 
 \section{Pre-selection: Selection of $t\bar{t}$ Events} \label{sec-preselection}
 
@@ -399,13 +408,13 @@ This is a key variable in this analysis and will be discussed in greater detail 
 \item[Photon Isolation] The isolation of the photon $I_{\gamma}$, with energy density correction applied. Cut given as $I_{\gamma} < 1.0 + 0.005*E_T(\gamma)$ GeV.
 
 
-\item[Supercluster footprint-removed Charged Hadron Isolation] The super-cluster footprint-removed isolation of charged hadrons with energy density correction, $\rho$, applied.
+\item[Supercluster footprint-removed Charged Hadron Isolation] The supercluster footprint-removed isolation of charged hadrons with energy density correction, $\rho$, applied.
 Cut given as $I_{char.had} < 5 \ \text{GeV} $. 
 
-\item[Supercluster footprint-removed Neutral Hadron Isolation] The super-cluster footprint-removed isolation of neutral hadrons with energy density correction , $\rho$, applied.
+\item[Supercluster footprint-removed Neutral Hadron Isolation] The supercluster footprint-removed isolation of neutral hadrons with energy density correction , $\rho$, applied.
 Cut given as $I_{neut.had} < 1.0 + 0.005*E_T(\gamma)$ GeV. 
 
-\item[Supercluster footprint-removed Photon Isolation] The super-cluster footprint-removed isolation of the photon $I_{\gamma}$, with energy density correction applied. Cut given
+\item[Supercluster footprint-removed Photon Isolation] The supercluster footprint-removed isolation of the photon $I_{\gamma}$, with energy density correction applied. Cut given
 as $I_{\gamma} < 1.0 + 0.005*E_T(\gamma)$ GeV. 
 
 \end{description}
@@ -441,7 +450,7 @@ The distributions for the other photon variables can be seen in Figure \ref{subs
 
 \subsection{Supercluster footprint-removal for photon isolation} \label{subsec-SCFR}
 
-The $t\bar{t}+\gamma$ analysis uses a method of removing the photon shower energy deposit, or ``footprint", from the isolation cone in order to remove the energy deposits of the selected photon from the isolation sum, and thus minimise correlation the between shower shape and isolation components in our signal process --- super-cluster footprint removal (SCFR). With this method the footprint is, effectively, cleaned so that the isolation sum is not biased from the presence of the photon at the centre of the cone. Shower-shape variables, defined within the super-cluster, are then decoupled from the isolation computation, defined outside of the super-cluster. When the footprint of the photon has finally been removed, the isolation sum for prompt photons is due only to pileup and underlying events. The process calculates each isolation component individually, however we only consider the charged hadron component of the isolation sum using this technique, which is then used to model our background and signal processes. This method was first implemented as a technique upon measuring the diphoton cross-section with 7 TeV data \cite{diffxsectdiphoton}. The main features of this module are improvement in the agreement between data and MC for ECAL detector-based isolation, better discriminating power against the misidentification of photons, and it allows us to use a fully data-driven method for constructing our template fit.
+The $t\bar{t}+\gamma$ analysis uses a method of removing the photon shower energy deposit, or ``footprint", from the isolation cone in order to remove the energy deposits of the selected photon from the isolation sum, and thus minimise correlation the between shower shape and isolation components in our signal process --- supercluster footprint removal (SCFR). With this method the footprint is, effectively, cleaned so that the isolation sum is not biased from the presence of the photon at the centre of the cone. Shower-shape variables, defined within the supercluster, are then decoupled from the isolation computation, defined outside of the supercluster. When the footprint of the photon has finally been removed, the isolation sum for prompt photons is due only to pileup and underlying events. The process calculates each isolation component individually, however we only consider the charged hadron component of the isolation sum using this technique, which is then used to model our background and signal processes. This method was first implemented as a technique upon measuring the diphoton cross-section with 7 TeV data \cite{diffxsectdiphoton}. The main features of this module are improvement in the agreement between data and MC for ECAL detector-based isolation, better discriminating power against the misidentification of photons, and it allows us to use a fully data-driven method for constructing our template fit.
 
 We define photon isolation as the sum of the transverse momenta of all particles falling within the isolation cone surrounding the photon candidate. We define the isolation cone to be within a $\Delta R < 0.3$, where $\Delta R = \sqrt{(\Delta\eta)^2+(\Delta\phi)^2}$. The momentum of the prompt photon should not contribute to the isolation sum, and thus particles found close to the photon footprint are not included within the sum. 
 
@@ -449,10 +458,10 @@ SCFR is a purely geometrical procedure which is computed as follows:
 
 \begin{description}
 	\item[Step 1]: Propagate the PF candidate trajectory from the primary vertex to the surface of the ECAL. We must take into account the magnetic field for charged hadron candidates. The impact parameter, $d_z$, is calculated in the z direction with respect to the primary vertex, neglecting the transverse distance, $d_{xy}$. 
-	\item[Step 2]: If the propagated PF candidate is found to hit the surface of a crystal lying within the super-cluster, then the candidate is therefore removed from the isolation sum, as shown in Figure \ref{fig-SCFR}. The PF candidate is allowed to fall within a volume of 25\% of the crystal size around the crystal, in order to account for the fact that the PF candidate's energy deposit has a finite extension in the ECAL, and thus has a reasonably large effect at the edges of the super-cluster. 
+	\item[Step 2]: If the propagated PF candidate is found to hit the surface of a crystal lying within the supercluster, then the candidate is therefore removed from the isolation sum, as shown in Figure \ref{fig-SCFR}. The PF candidate is allowed to fall within a volume of 25\% of the crystal size around the crystal, in order to account for the fact that the PF candidate's energy deposit has a finite extension in the ECAL, and thus has a reasonably large effect at the edges of the supercluster. 
 \end{description}
 
-This is such that the super-cluster shape defines the region which is excluded from the isolation cone in each event.
+This is such that the supercluster shape defines the region which is excluded from the isolation cone in each event.
 
 In the standard particle flow algorithm isolation is calculated on an individual basis for PF candidates divided into three groups: Charged hadrons, neutral hadrons, and photons. This procedure carries potential pit-falls, listed below.
 
@@ -463,7 +472,7 @@ In the standard particle flow algorithm isolation is calculated on an individual
 
 This does not have too much of an impact when using the standard cut-based particle IDs, such as used in this analysis, however as we are interested in the isolation profile shape some improvements can be made. 
 
-Super-cluster footprint-removed isolation deals with PF candidates, whereas PF isolation deals with identified particles. This reduces the probability for the first pit-fall to happen. The second pit-fall arises due to the leakage of energy from the photon into the isolation cone around the super-cluster. Therefore, a different method for defining the isolation cone is implemented to overcome this problem, whereby summing the transverse momentum of particle flow candidates that fall within the isolation cone, but which are not close to the super-cluster in the ECAL. The $\eta$ and $\phi$ coordinates of the super-cluster are calculated by checking the position of hits recorded, and if a PF candidate that has been propagated to the surface of the calorimeter lies within the super-cluster, enlarged by 25\%, then the photon is not considered isolation and thus the candidate is not added to the isolation sum. The standard CMS implementation for energy density correction, $\rho$, is applied to the isolation to account for pileup. 
+supercluster footprint-removed isolation deals with PF candidates, whereas PF isolation deals with identified particles. This reduces the probability for the first pit-fall to happen. The second pit-fall arises due to the leakage of energy from the photon into the isolation cone around the supercluster. Therefore, a different method for defining the isolation cone is implemented to overcome this problem, whereby summing the transverse momentum of particle flow candidates that fall within the isolation cone, but which are not close to the supercluster in the ECAL. The $\eta$ and $\phi$ coordinates of the supercluster are calculated by checking the position of hits recorded, and if a PF candidate that has been propagated to the surface of the calorimeter lies within the supercluster, enlarged by 25\%, then the photon is not considered isolation and thus the candidate is not added to the isolation sum. The standard CMS implementation for energy density correction, $\rho$, is applied to the isolation to account for pileup. 
 
 \begin{figure} 
 \begin{center}

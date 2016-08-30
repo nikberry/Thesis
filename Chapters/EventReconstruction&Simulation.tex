@@ -4,7 +4,7 @@ Monte Carlo (MC) simulations are an essential part of current particle physics a
 
 Roughly speaking, we can divide the different steps of event reconstruction into three separate processes. The first of which records basic information, such as hits within the pixel detectors of the inner tracking system, and calorimeter energy clusters, for `low level' objects in each sub-detector. The information is then passed to the PF algorithm (Section \ref{subsec-PFAlgorithm}) which uses information from all the sub-detectors in order to reconstruct events much more accurately. Finally, the events are refined by other complex statistic and mathematical techniques and used to reconstruct higher level objects, such as jets and MET. The second part of chapter will focus on the PF process \cite{CMS-PAS-PFT-09-001, CMS-PAS-PFT-10-001} as mentioned above.
 
-\section{Event Reconstruction} \label{sec-EventReconstruction}
+\section{Event Reconstruction and Computing} \label{sec-EventReconstruction}
 
 \begin{figure} [p!] 
 \begin{center}
@@ -13,8 +13,6 @@ Roughly speaking, we can divide the different steps of event reconstruction into
 \caption{Graphic visualisation of a hadron collision process where two partons come in from the right and the left, represented by the directional arrows. Two gluons (purple) form the hard scattering interaction (red circle). This section of the process depicts the matrix element calculation. In the hard scattering interaction prompt decays and parton showers then take place as represented by the smaller red circles. Finally, the hadronisation process begins (green circles). We also observe collinear gluon emissions as well as underlying event particles stemming from a softer collision with other partons in the hadrons. This is represented by the purple circle. \cite{HadronCollisionProcess}.}
 \label{fig-HadronCollisionProcess}
 \end{figure}
-
-\section{Computing}
 
 \subsection{Event Data Model}
 
@@ -26,7 +24,40 @@ Physically, an event is the result of the hard scattering process created when t
 	\item[AOD] (Analysis Oriented Data) is created by filtering (performing quality checks etc) the RECO data from the reconstructed detector-level objects, where the higher level physics objects are calculated. The size of the events is reduced to $\sim50$ kB.	
 \end{description}
 
-Almost all physics analysis groups use the RECO and AOD data formats. All data used in this analysis uses the AOD data format, where event sizes are reduced by filtering the RECO data, as can be seen in Table \ref{tab-MCSamples}. The objects are delivered in the data files as C++ objects, which are then transformed into vectors or plain basic types. By selecting on the physics objects that are central to our analysis, we can further reduce the event size to $\sim$3 kB, which we call the ``skimming", thus reducing the run time of an analysis. The processing of RECO and AOD formats for analysis begins with taking the data and using a specifically designed framework to process a set of ``nTuples'' for each physics process, and categorising them into classes, such as objects. The benefit of constructing such ``nTuples'' lies in the reduction of processing time by allowing the analysis to be run locally, rather than re-processing the full dataset in AOD, RECO, or RAW from each time. 
+Almost all physics analysis groups use the RECO and AOD data formats. All data used in this analysis uses the AOD data format, where event sizes are reduced by filtering the RECO data, as can be seen in Table \ref{tab-MCSamples}. The objects are delivered in the data files as C++ objects, which are then transformed into vectors or plain basic types. By selecting on the physics objects that are central to our analysis, we can further reduce the event size to $\sim$3 kB, which we call the ``skimming", thus reducing the run time of an analysis. The processing of RECO and AOD formats for analysis begins with taking the data and using a specifically designed framework to process a set of ``nTuples'' for each physics process, and categorising them into classes, such as objects. The benefit of constructing such ``nTuples'' lies in the reduction of processing time by allowing the analysis to be run locally, rather than re-processing the full dataset in AOD, RECO, or RAW from each time. The datasets used in this analysis can be seen in Table \ref{tab-datasets}
+
+\begin{sidewaystable} 
+\begin{center}
+\begin{tabular}{|l|c|}
+\hline
+	\textbf{Dataset} & \textbf{Integrated Luminosity ($pb^{-1}$)}\\
+\hline
+	/DoubleMuParked/Run2012A-22Jan2013-v1/AOD  & 876 \\
+	/DoubleMuParked/Run2012B-22Jan2013-v1/AOD  & 4412 \\
+	/DoubleMuParked/Run2012C-22Jan2013-v1/AOD  & 7017 \\
+	/DoubleMuParked/Run2012D-22Jan2013-v1/AOD  & 7369 \\
+\hline
+	Total & 19.7\\	
+\hline
+	/DoubleElectron/Run2012A-22Jan2013-v1/AOD  & 875 \\
+	/DoubleElectron/Run2012B-22Jan2013-v1/AOD  & 4412 \\
+	/DoubleElectron/Run2012C-22Jan2013-v1/AOD  & 7055 \\
+	/DoubleElectron/Run2012D-22Jan2013-v1/AOD  & 7369 \\
+\hline
+	Total & 19.7\\	
+\hline
+	/MuEG/Run2012A-22Jan2013-v1/AOD  & 876 \\
+	/MuEG/Run2012B-22Jan2013-v1/AOD  & 4411 \\
+	/MuEG/Run2012C-22Jan2013-v1/AOD  & 7055 \\
+	/MuEG/Run2012D-22Jan2013-v1/AOD  & 7360 \\
+\hline
+	Total & 19.7\\	
+\hline	
+\end{tabular}	
+\end{center}
+\caption{Dataset information for each run in each respective decay channel.}
+\label{tab-datasets}
+\end{sidewaystable}
 
 \subsection{Analysis Software} \label{subsec-AnalysisSoftware}
 
@@ -371,22 +402,22 @@ Individual physics analyses in CMS require different identification requirements
 \hline	
 	$\sigma_{i \eta i \eta}$ & Cluster shape variable that gives a measure of the width of the cluster in $\eta$, using the distribution of energy in a $5 \time 5$ block of crystals around the seed crystal (the one with the highest energy) \cite{Baffioni:2006cd}: $\sigma^2_{i \eta i \eta} = \Sigma_{5 \times 5 crystals} (\eta_i \eta_{seed cluster})^2 E_i/E_{seed cluster}$ \\
 	$\sigma^2_{i \phi i \phi}$ & Cluster shape in $\phi$ \\
-	$\eta_{SC}(\phi_{SC})$ & Width of the super-cluster in $\eta (\phi)$ \\
+	$\eta_{SC}(\phi_{SC})$ & Width of the supercluster in $\eta (\phi)$ \\
 	$1-E_{1 \times 5}/E_{5 \times 5}$ & $E_{1 \times 5}$ is the energy in the central $1 \times 5$ strip of the $5 \times 5$ electron cluster, and $E_{5 \times 5}$ is its total energy. \\
-	$E_{3 \times 3}/E_{SC,raw}$ & Ratio of the energy in the preshower detector to the raw super-cluster energy (only in the endcap region). \\
+	$E_{3 \times 3}/E_{SC,raw}$ & Ratio of the energy in the preshower detector to the raw supercluster energy (only in the endcap region). \\
 \hline	
 	\multicolumn{2}{|c|}{\emph{Longitudinal shower shape variables}} \\
 \hline	
-	$H/E$ & Ratio of the hadronic energy associated with the electron candidate to the super-cluster energy. The hadronic energy is found by summing the HCAL towers in a cone of radius $\Delta R = 0.15$, centred at the super-cluster position. \\
+	$H/E$ & Ratio of the hadronic energy associated with the electron candidate to the supercluster energy. The hadronic energy is found by summing the HCAL towers in a cone of radius $\Delta R = 0.15$, centred at the supercluster position. \\
 	$H/(H+E_{e})$ & Hadron fraction of the shower, where H is the energy of the hadron cluster linked to the GSF track.\\
 \hline	
-	\multicolumn{2}{|c|}{\emph{Track/super-cluster matching variables}}\\
+	\multicolumn{2}{|c|}{\emph{Track/supercluster matching variables}}\\
 \hline	
-	$\Delta \eta_{in} \Delta \phi_{in}$ & Distance in $\eta (\phi)$ between the super-cluster position and the extrapolated track position \\
-	$\Delta \eta_{vtx} \Delta \phi_{vtx}$ & Distance in $\eta (\phi)$ between the super-cluster position and the position of the GSF track at vertex \\
-	$\left( E_{e} + \sum E_{\gamma} \right)/p_{in}$ & Ratio of the super-cluster energy to the inner track momentum \\
+	$\Delta \eta_{in} \Delta \phi_{in}$ & Distance in $\eta (\phi)$ between the supercluster position and the extrapolated track position \\
+	$\Delta \eta_{vtx} \Delta \phi_{vtx}$ & Distance in $\eta (\phi)$ between the supercluster position and the position of the GSF track at vertex \\
+	$\left( E_{e} + \sum E_{\gamma} \right)/p_{in}$ & Ratio of the supercluster energy to the inner track momentum \\
 	$E_{e}/p_{out}$ & Ratio of the electron cluster energy to the outer track momentum \\
-	$1/E_{SC} - 1/p_T$ & Difference between inverse super-cluster energy and inverse track momentum \\
+	$1/E_{SC} - 1/p_T$ & Difference between inverse supercluster energy and inverse track momentum \\
 \hline	
 	\multicolumn{2}{|c|}{\emph{Bremsstrahlung variables}} \\
 \hline	
@@ -436,7 +467,7 @@ In this section we describe different techniques to reconstruct higher-level obj
 
 We define a jet when a quark or gluon hadronises in an event, producing a narrow cone of collinear objects moving in the same direction. As described in Section \ref{chap-theory}, particles can not exist in an unbounded state as they carry a property known as colour and are confined within a hadron, and as a result they must fragment and form a hadron to be observed directly. Essentially, by reconstructing the sub-structures of jets, we are reverse-engineering the quantum-mechanical process of fragmentation and hadronisation. Therefore, if we wish to measure the initial energy and momentum, we must measure the combined properties of the reconstructed jet. 
 
-Jets play an integral part in the identification of top quark events where, at the very least, there are two jets in the final state due to the hadronisation of b quarks. In the di-lepton channels the case is as described previously, however in the semi-leptonic and fully hadronic top decay channels, at least four jets are present in the final state. The jets originate from the hadronisation of the b quark, and W boson decaying to quarks, which in turn hadronise to create jets.  
+Jets play an integral part in the identification of top quark events where, at the very least, there are two jets in the final state due to the hadronisation of b quarks. In the dilepton channels the case is as described previously, however in the semi-leptonic and fully hadronic top decay channels, at least four jets are present in the final state. The jets originate from the hadronisation of the b quark, and W boson decaying to quarks, which in turn hadronise to create jets.  
 
 In order to reconstruct jets, we first implement the PF algorithm in order to reconstruct single objects (muons, electrons, charged hadrons, neutral hadrons, and photons) before using clustering techniques to combine collinear particles to form jets. Various algorithms have been developed to compute the clustering of objects to form jets, such as the $k_t$ \cite{Ellis:1993tq}, Cambridge/Aachen \cite{Dokshitzer:1997in}, and SISCone \cite{Blazey:2000qt} jet clustering algorithms. However, the most widely used jet clustering algorithm is the anti-$k_t$ \cite{Cacciari:2008gp} algorithm, which is used by the majority of the CMS collaboration. There are two main requirements that reconstructed jets must comply with:
 
@@ -482,7 +513,7 @@ CMS has developed a factorised three tier system in order to apply jet energy co
 \begin{itemize}
 	\item \textbf{L1 Pile-up} corrects for any energy that does not originate from the hard-scattering event, including detector noise from electronics, and pile-up events.
 	\item \textbf{L2 Relative Jet Correction} derives an $\eta$-dependent scale factor in order to flatten the detector response in order to account for the non-uniformity of the detector. MC and data-driven methods are used to calculate the relative correction scale factors using the dijet balance method. The corrections are measured using only the barrel region ($|\eta| < 1.3$) and in bins of $p_T$, such that they are completely uncorrelated with the L3 absolute correction described below. 
-	\item \textbf{L3 Absolute Jet Correction} is a $p_T$-dependent correction used to correct back to particle level by applying absolute $p_T$ correction. This is derived using MC truth information, or data-driven di-leptonic decays from $Z/\gamma^*+Jets$ samples, with the aim of flattening the jet response in $p_T$. 
+	\item \textbf{L3 Absolute Jet Correction} is a $p_T$-dependent correction used to correct back to particle level by applying absolute $p_T$ correction. This is derived using MC truth information, or data-driven dileptonic decays from $Z/\gamma^*+Jets$ samples, with the aim of flattening the jet response in $p_T$. 
 \end{itemize} 
 
 There is also an extra component in the correction factor calculation that arises from discrepancies between MC modelling and data. We define this step as \textbf{L2L3 Residual} and is only applied to data \cite{1748-0221-6-11-P11002}. Higher order jet corrections, due to flavour-dependency, are also computed, however these are no included in this analysis. Uncertainties from each of the stages of correction are then convoluted into a single JEC systematic uncertainty included in the final result.  
@@ -533,7 +564,7 @@ E^{miss}_T = - \sum_i(p^2_x + p^2_y)^{1/2}
 
 where $p_x$ and $p_y$ are the transverse momenta of reconstructed particles (partons) in the x and y axes.
 
-The reconstruction of MET is of particular importance when dealing with a measurement where the presence of weakly-interacting standard model particles are measured in the final state, such as neutrinos.  With respect to the $t\bar{t}+\gamma$ analysis, we expect a large amount of MET due to the presence of two neutrinos in the final state for each decay mode (excluding the $e\mu$ channel) of the di-lepton channel, as the W from the top quark will for decay to a lepton-neutrino pair $1/9th$ of the time. These channels, and other similar analysis, rely on the efficient reconstruction of MET in order to accurately measure certain processes, and any misidentification or poorly reconstructed particles add to the MET sum further reducing the accuracy of a measurement.  
+The reconstruction of MET is of particular importance when dealing with a measurement where the presence of weakly-interacting standard model particles are measured in the final state, such as neutrinos.  With respect to the $t\bar{t}+\gamma$ analysis, we expect a large amount of MET due to the presence of two neutrinos in the final state for each decay mode (excluding the $e\mu$ channel) of the dilepton channel, as the W from the top quark will for decay to a lepton-neutrino pair $1/9th$ of the time. These channels, and other similar analysis, rely on the efficient reconstruction of MET in order to accurately measure certain processes, and any misidentification or poorly reconstructed particles add to the MET sum further reducing the accuracy of a measurement.  
 
 Various methods on the reconstruction of MET in events have been conducted and are available \cite{1748-0221-6-09-P09001}. The current most accurate method for the measurement of the MET is by using the PF algorithm, and is used throughout this analysis. The PF algorithm calculates the value of the MET from the list of PF particles, thus producing a `raw' MET output which is systematically different from the final MET calculation. The `raw' MET value is calculated without taking into account the non-linearity of the calorimeters, noise from electronics, pile-up, along with any other effects. We, therefore, implement a set of corrections as described below.
 

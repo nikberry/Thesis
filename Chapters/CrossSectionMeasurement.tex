@@ -1,14 +1,5 @@
 \chapter{Measurement of the inclusive $t\bar{t}+\gamma$ cross-section}\label{chap-crosssection}
 
-\begin{figure}
-\begin{center}
-\includegraphics[width=0.75\textwidth]{Figures/AnalysisFlowChart2.png}
-\end{center}
-\caption{Flow chart showing each stage of the analysis. The box numbers represent the outlined
-analysis steps.}
-\label{fig-AnalysisFlowChart}
-\end{figure}
-
 \section{Measurement of the cross-section ratio $R = \sigma_{t\bar{t}+\gamma}/\sigma_{t\bar{t}}$}
 
 A common form of cross-section calculation for a ``counting'' analysis can be written as
@@ -19,7 +10,7 @@ A common form of cross-section calculation for a ``counting'' analysis can be wr
 
 where $N_{signal}$ is the number of signal events found in data passing the full event selection requirements, $\lumi$ is the integrated luminosity of the data, $A$ is the signal acceptance, defined as the fraction of signal events that fall into the region of phase-space that is chosen for our event selection, and $\epsilon$ is the efficiency of correctly selecting a signal event (the fraction of signal events passing event selection after acceptance cuts are implemented). The number of signal events, $N_{signal}$, must be modified to account for the presence of background events in our data, and thus becomes the number of observed events minus the number of background events, $N_{observed} - N_{background}$, where the number of background events is estimated in a different manner. 
 
-Due to the nature of the analysis, event selection is performed in two separate steps (see Section \ref{chap-EventSelection}); di-leptonic top pair selection and photon selection. This feature changes the way in which we must compute the cross-section in Equation \ref{eqn-CountingXsect}. The changed cross-section is written as
+Due to the nature of the analysis, event selection is performed in two separate steps (see Section \ref{chap-EventSelection}); dileptonic top pair selection and photon selection. This feature changes the way in which we must compute the cross-section in Equation \ref{eqn-CountingXsect}. The changed cross-section is written as
 
 \begin{equation}
 \sigma_{t\bar{t}+\gamma} = \frac{N_{signal}}{\lumi \epsilon_{top} A_{top} \epsilon_{\gamma} A_{\gamma}}
@@ -117,7 +108,7 @@ Contributions from these effects, generally, do not vary for an isolation sum wh
 	\item We then check for objects lying within the region, such that there is no energy originating from anything other than pile-up, underlying events, or electrical noise in the ECAL. Such that there are no AK5\footnote{Anti-$k_T$ jet clustering algorithm with cone size of $\Delta R = 0.5$ (see Section \ref{subsec-JetReconstruction})} PF jets with a p$_T$ of at least 20 GeV at $\Delta R < 0.8$, photons with p$_T$ less than 10 GeV at $\Delta R < 0.8$, or muons at $\Delta R < 0.4$ with respect to the random cone axis. If such an object is found to fulfil our requirements, then we perform the same search again to generate another random angle, $\phi_{Rand.Cone}$, until a suitable direction is found. In practice, the procedure is not repeated more than twice in order to find a suitable direction.   
 \end{itemize}
 
-We then calculate the isolation sum within a cone centred on our chosen direction. The difference when performing footprint removal now is that there is no supercluster lying along the cone axis, and therefore it must be performed in a different way: the area corresponding to that in which the photon super-cluster lies, which is rotated in $\phi_{Rand.Cone}$ in order to align with the random cone axis, is not included within the calculation process. In this manner, both the area which we consider for the isolation sum, and the area throughout the centre of the cone replacing the photon candidate footprint, has exactly the same shape and extension in the photon and random cone directions.   
+We then calculate the isolation sum within a cone centred on our chosen direction. The difference when performing footprint removal now is that there is no supercluster lying along the cone axis, and therefore it must be performed in a different way: the area corresponding to that in which the photon supercluster lies, which is rotated in $\phi_{Rand.Cone}$ in order to align with the random cone axis, is not included within the calculation process. In this manner, both the area which we consider for the isolation sum, and the area throughout the centre of the cone replacing the photon candidate footprint, has exactly the same shape and extension in the photon and random cone directions.   
 
 \begin{figure} 
 \begin{center}
@@ -145,7 +136,7 @@ Background events in our template fit are identified as non-prompt photons. We d
 
 For the $t\bar{t}+\gamma$ analysis, we create a side-band region by inverting the photon shower-shape ($\sigma_{i\eta i\eta}$) selection cut, thus giving a cut of $0.12 < \sigma_{i \eta i \eta} < 0.20$ where all other photon ID selection requirements still remain the same. When considering a side-band variable, we choose a variable with little to no correlation with our template variable in order to optimise the performance of the method. The shape of the side-band template will then closely resemble the isolation distribution for photons that are not prompt but pass the photon ID requirements. 
 
-We calculate the shower shape of the photon by measuring energy deposits from within a $5 \times 5$ matrix of crystals, centred around the crystal with the largest energy in the super-cluster. As the super-cluster footprint-removal technique removes the super-cluster from the isolation sum, then we have no shared input between the two variables (shower shape and isolation) effectively removing any correlation between the two. However, no two variables are ever truly uncorrelated, and any residual correlation can be attributed to the properties of hadronisation of jets. As our main source of fake photons arises in the form of jets misidentified as photons, we use the supercluster footprint-removed charged hadron isolation (as described in Section \ref{subsec-SCFR}) as our background template variable to discriminate against fake photons.
+We calculate the shower shape of the photon by measuring energy deposits from within a $5 \times 5$ matrix of crystals, centred around the crystal with the largest energy in the supercluster. As the supercluster footprint-removal technique removes the supercluster from the isolation sum, then we have no shared input between the two variables (shower shape and isolation) effectively removing any correlation between the two. However, no two variables are ever truly uncorrelated, and any residual correlation can be attributed to the properties of hadronisation of jets. As our main source of fake photons arises in the form of jets misidentified as photons, we use the supercluster footprint-removed charged hadron isolation (as described in Section \ref{subsec-SCFR}) as our background template variable to discriminate against fake photons.
 
 In Figure \ref{fig-backgroundComparison} we show a comparison of the photon shower shape side-band distributions from our data-driven and MC templates. We observe a good agreement between the distributions.  
 
@@ -195,7 +186,7 @@ In an attempt to verify that the fit works well across a range of potential phot
 \includegraphics[width=0.3\textwidth]{Plots/purityComparison/EE/photonPurity.pdf}
 \includegraphics[width=0.3\textwidth]{Plots/purityComparison/EMu/photonPurity.pdf}
 \caption{Comparison of the photon purity of pseudo-data sets to the values measured by the fit to the charged hadron isolation in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels.}
-\label{fig-photonPuritiyComparison}
+\label{fig-photonPurityComparison}
 \end{figure}
 
 We can see the template fit to the charged hadron isolation for the full data set in Figure \ref{fig-fitTemplates} for each decay channel. After the fit is conducted, we find photon purity values of $0.634 \pm 0.054$, $0.634 \pm 0.054$, and $0.634 \pm 0.054$ (including statistical uncertainties only for pseudo-data) compared to photon purity values of $0.634 \pm 0.054$, $0.634 \pm 0.054$, and $0.634 \pm 0.054$ from generator level information, in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels, respectively. 
@@ -230,41 +221,6 @@ We can see the template fit to the charged hadron isolation for the full data se
 \label{fig-fits}
 \end{figure}
 
-
-
-\begin{sidewaystable} 
-\begin{center}
-\begin{tabular}{|l|c|}
-\hline
-	\textbf{Dataset} & \textbf{Integrated Luminosity ($pb^{-1}$)}\\
-\hline
-	/DoubleMuParked/Run2012A-22Jan2013-v1/AOD  & 876 \\
-	/DoubleMuParked/Run2012B-22Jan2013-v1/AOD  & 4412 \\
-	/DoubleMuParked/Run2012C-22Jan2013-v1/AOD  & 7017 \\
-	/DoubleMuParked/Run2012D-22Jan2013-v1/AOD  & 7369 \\
-\hline
-	Total & 19.7\\	
-\hline
-	/DoubleElectron/Run2012A-22Jan2013-v1/AOD  & 875 \\
-	/DoubleElectron/Run2012B-22Jan2013-v1/AOD  & 4412 \\
-	/DoubleElectron/Run2012C-22Jan2013-v1/AOD  & 7055 \\
-	/DoubleElectron/Run2012D-22Jan2013-v1/AOD  & 7369 \\
-\hline
-	Total & 19.7\\	
-\hline
-	/MuEG/Run2012A-22Jan2013-v1/AOD  & 876 \\
-	/MuEG/Run2012B-22Jan2013-v1/AOD  & 4411 \\
-	/MuEG/Run2012C-22Jan2013-v1/AOD  & 7055 \\
-	/MuEG/Run2012D-22Jan2013-v1/AOD  & 7360 \\
-\hline
-	Total & 19.7\\	
-\hline	
-\end{tabular}	
-\end{center}
-\caption{Dataset information for each run in each respective decay channel.}
-\label{tab-datasets}
-\end{sidewaystable}
-
 \section{Number of signal events in data} \label{sec-SigEventsInData}
 
 Tables \ref{tab-SigPhotonsMuMu}, \ref{tab-SigPhotonsEE}, and \ref{tab-SigPhotonsEMu} show the number of photons after full selection broken down into categories of origin for individual MC samples, shown for each $t\bar{t}+\gamma$ decay channel. This method is used in order to extract the true number of signal $t\bar{t}+\gamma$ events to be used as a variable in the cross-section calculation. 
@@ -291,7 +247,6 @@ Data  & --- & --- & --- & 36 $\pm$ 6 \\
 \hline	
 \end{tabular}
 }
-\end{center}
 \caption{Simulated samples categorised by origin of reconstructed origin after nominal selection in the $\mu^+\mu^-$ channel. Events are normalized by process theoretical cross-sections. Data-driven QCD sample is not expected to have signal photons or electrons. All errors are statistical.}
 \label{tab-SigPhotonsMuMu}
 \end{table}	
