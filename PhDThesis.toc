@@ -106,15 +106,15 @@
 \contentsline {section}{\numberline {6.4}Impact of uncertainties}{159}{section.6.4}
 \contentsline {chapter}{\numberline {7}Results}{163}{chapter.7}
 \contentsline {section}{\numberline {7.1}Combination of channels}{164}{section.7.1}
-\contentsline {section}{\numberline {7.2}Future Outlook}{166}{section.7.2}
-\contentsline {chapter}{Conclusions}{166}{section.7.2}
-\contentsline {chapter}{Appendices}{168}{section*.95}
-\contentsline {section}{\numberline {A.1}Operator contributions to $\gamma t \mathaccentV {bar}016{t}$}{168}{section.Alph0.1}
-\contentsline {section}{\numberline {A.2}Electron \& Muon Efficiencies}{176}{section.Alph0.2}
-\contentsline {section}{\numberline {A.3}Variable distributions}{176}{section.Alph0.3}
-\contentsline {subsection}{\numberline {A.3.1}Lepton variables}{176}{subsection.Alph0.3.1}
-\contentsline {subsection}{\numberline {A.3.2}Jet variables}{176}{subsection.Alph0.3.2}
-\contentsline {subsection}{\numberline {A.3.3}MET variables}{176}{subsection.Alph0.3.3}
-\contentsline {subsection}{\numberline {A.3.4}$t\mathaccentV {bar}016{t}$ photon variables}{176}{subsection.Alph0.3.4}
-\contentsline {subsection}{\numberline {A.3.5}$t\mathaccentV {bar}016{t}+\gamma $ photon variables}{176}{subsection.Alph0.3.5}
-\contentsline {chapter}{Bibliography}{197}{appendix*.115}
+\contentsline {section}{\numberline {7.2}Future Outlook}{167}{section.7.2}
+\contentsline {chapter}{Conclusions}{167}{section.7.2}
+\contentsline {chapter}{Appendices}{169}{section*.95}
+\contentsline {section}{\numberline {A.1}Operator contributions to $\gamma t \mathaccentV {bar}016{t}$}{169}{section.Alph0.1}
+\contentsline {section}{\numberline {A.2}Electron \& Muon Efficiencies}{177}{section.Alph0.2}
+\contentsline {section}{\numberline {A.3}Variable distributions}{177}{section.Alph0.3}
+\contentsline {subsection}{\numberline {A.3.1}Lepton variables}{177}{subsection.Alph0.3.1}
+\contentsline {subsection}{\numberline {A.3.2}Jet variables}{177}{subsection.Alph0.3.2}
+\contentsline {subsection}{\numberline {A.3.3}MET variables}{177}{subsection.Alph0.3.3}
+\contentsline {subsection}{\numberline {A.3.4}$t\mathaccentV {bar}016{t}$ photon variables}{177}{subsection.Alph0.3.4}
+\contentsline {subsection}{\numberline {A.3.5}$t\mathaccentV {bar}016{t}+\gamma $ photon variables}{177}{subsection.Alph0.3.5}
+\contentsline {chapter}{Bibliography}{198}{appendix*.115}
