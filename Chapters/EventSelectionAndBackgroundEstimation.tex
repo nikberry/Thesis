@@ -1,6 +1,6 @@
 \chapter{Event Selection} \label{chap-EventSelection}
 
-When we finally arrive at a point when we have identified and reconstructed all the objects in the data, as described in Section \ref{chap-EventReconstruction&Simulation}, we impose a set of kinematic and topological cuts to each of the objects in order to provide a subset of the data containing mainly our signal events. The signal sample still contains background events and is corrected in several ways. Simulated MC samples are produced and used to optimise the number of signal events within this sample, and thus rejecting as much background as possible. The selection process, including kinematic, topological, and fiducial cuts on our final state objects is described in detail in the first part of this chapter.
+When we finally arrive at a point when we have identified and reconstructed all the objects in the data, as described in Chapter \ref{chap-EventReconstruction&Simulation}, we impose a set of kinematic and topological cuts to each of the objects in order to provide a subset of the data containing mainly our signal events. The signal sample still contains background events and is corrected in several ways. Simulated MC samples are produced and used to optimise the number of signal events within this sample, and thus rejecting as much background as possible. The selection process, including kinematic, topological, and fiducial cuts on our final state objects is described in detail in the first part of this chapter.
 
 Even though we model data using simulated MC samples, which are an essential tool for modelling distributions in particle physics, this is not always enough to provide a robust and accurate measurement of a process. In this case, additional methods for the calculation of background processes are used to purify our signal sample by removing events that are not in fact our final state signal event. These methods can be MC-driven and data-driven, and both are described in the second part of the chapter in greater detail pertaining to the $t\bar{t}+\gamma$ analysis.  
 
@@ -42,6 +42,15 @@ For the mixed channel we select two oppositely signed leptons where one is an el
 Each step will be discussed in greater detail within the following sections. 
 
 \section{Skim}
+
+As mentioned above, we introduce a ``skim" in order to reduce the number of events, and thus size of ntuples, for offline analysis. Implementing a skim reduces computing time considerably. For the skim, we require the following set of nominal selection cuts:
+
+\begin{itemize}
+	\item The requirement of at least two leptons, excluding $\tau$ leptons.
+	\item Electrons are defined as loose electrons and are required to have a transverse momentum of $p_T(e) > 20$ GeV and lie in the pseudorapidity range $|\eta(e)| < 2.5$.
+	\item Muons are defined as loose electrons and are required to have a transverse momentum of $p_T(\mu) > 20$ GeV and lie in the pseudorapidity range $|\eta(\mu)| < 2.4$.
+	\item Jets are required to have a transverse momentum of $p_T(jet) > 30$ GeV and lie within a pseudorapitiy range of $|\eta(jet)| < 2.6$.
+\end{itemize}
 
 \section{Trigger and Event Cleaning} \label{sec-TriggerAndEventCleaning}
 
@@ -238,7 +247,7 @@ The distributions for the other variables can be seen in Figure \ref{subsec-METP
 \label{fig-CutFlow}
 \end{figure}
 
-\begin{sidewaystable}
+\begin{sidewaystable}[h!]
   \centering 
 %  \caption{Cut Flow table for the $\mu^+\mu^-$ selection.}
 %  \label{tab:mumu_cutflow}
@@ -481,9 +490,9 @@ The last cut is implemented in order to suppress photons from showers. In such c
 
 \begin{figure} 
 \begin{center}
-\includegraphics[scale=0.5]{Figures/photonphasespace.png}
+\includegraphics[scale=0.5]{Figures/photonphasespace2.png}
 \end{center}
-\caption{}
+\caption{Graphic representation of the $t\bar{t}+\gamma$ phase space relative to the $t\bar{t}$ phase space.}
 \label{fig-photonphasespace}
 \end{figure}
 

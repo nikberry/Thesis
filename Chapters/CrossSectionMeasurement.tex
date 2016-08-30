@@ -2,7 +2,7 @@
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.75\textwidth]{Figures/AnalysisFlowChart.png}
+\includegraphics[width=0.75\textwidth]{Figures/AnalysisFlowChart2.png}
 \end{center}
 \caption{Flow chart showing each stage of the analysis. The box numbers represent the outlined
 analysis steps.}
@@ -187,7 +187,7 @@ We wish to cross-check our fitting method and we do so by applying it to the col
 \label{fig-pseudofit}
 \end{figure}
 
-In an attempt to verify that the fit works well across a range of potential photon purity values, and thus not having a bias towards predicted values, we perform the fit while varying the photon purity value. Due to the $t\bar{t}+\gamma$ simulated sample comprising predominantly prompt photon events, by scaling the $t\bar{t}+\gamma$ contribution we vary the photon purity value. Figure \ref{fig-photonPurityComparison} shows a comparison of the photon purity value and and the corresponding value measured by the fit to the charged hadron isolation. 
+In an attempt to verify that the fit works well across a range of potential photon purity values, and thus not having a bias towards predicted values, we perform the fit while varying the photon purity value. Due to the $t\bar{t}+\gamma$ simulated sample comprising predominantly prompt photon events, by scaling the $t\bar{t}+\gamma$ contribution we vary the photon purity value. Figure \ref{fig-photonPurityComparison} shows a comparison of the photon purity value and the corresponding value measured by the fit to the charged hadron isolation. 
 
 
 \begin{figure}
@@ -272,7 +272,6 @@ Tables \ref{tab-SigPhotonsMuMu}, \ref{tab-SigPhotonsEE}, and \ref{tab-SigPhotons
 We divide the resultant photons into three categories: genuine prompt and isolated photons, isolated misidentified electrons, and jets reconstructed as photons. Individual simulated samples contribute to each category differently, therefore we introduce scale factors to correct for mismodelling of the three categories. 
 
 \begin{table}
-\begin{center}
 \resizebox{\columnwidth}{!} {
 \begin{tabular}{l|ccc|c}
 \hline
@@ -412,7 +411,85 @@ As we wish to find the combination of parameters with the best likelihood, we pe
 
 
 
-We find that the best agreement is achieved for these values of parameters, with errors from the width of the likelihood, are $SF_{t\bar{t}+\gamma} = 1.16 \pm 0.26$, $SF_{V+\gamma} = 0.95 \pm 0.85$, $SF_{jet\to\gamma} = 1.17 \pm 0.19$ for the $\mu^+\mu^-$ channel, $SF_{t\bar{t}+\gamma} = 0.89 \pm 0.21$, $SF_{V+\gamma} = 1.13 \pm 0.45$, $SF_{jet\to\gamma} = 1.22 \pm  0.18$ for the $e^+e^-$ channel, and $SF_{t\bar{t}+\gamma} = 0.89 \pm 0.21$, $SF_{V+\gamma} = 1.13 \pm 0.45$, $SF_{jet\to\gamma} = 1.22 \pm 0.18$ for the $e\mu$ channel. Therefore, we see an excellent agreement between the photon purity, fraction of top events, and number of events in simulation and in data. Tables \ref{}, \ref{}, \ref{} show the number of events from simulation scaled to the results of the likelihood fit.  
+We find that the best agreement is achieved for these values of parameters, with errors from the width of the likelihood, are $SF_{t\bar{t}+\gamma} = 1.16 \pm 0.26$, $SF_{V+\gamma} = 0.95 \pm 0.85$, $SF_{jet\to\gamma} = 1.17 \pm 0.19$ for the $\mu^+\mu^-$ channel, $SF_{t\bar{t}+\gamma} = 0.89 \pm 0.21$, $SF_{V+\gamma} = 1.13 \pm 0.45$, $SF_{jet\to\gamma} = 1.22 \pm  0.18$ for the $e^+e^-$ channel, and $SF_{t\bar{t}+\gamma} = 0.89 \pm 0.21$, $SF_{V+\gamma} = 1.13 \pm 0.45$, $SF_{jet\to\gamma} = 1.22 \pm 0.18$ for the $e\mu$ channel. Therefore, we see an excellent agreement between the photon purity, fraction of top events, and number of events in simulation and in data. Tables \ref{tab-SigPhotonsMuMuScaled}, \ref{tab-SigPhotonsEEScaled}, \ref{tab-SigPhotonsEMuScaled} show the number of events from simulation scaled to the results of the likelihood fit.  
+
+\begin{table}
+\begin{center}
+\resizebox{\columnwidth}{!} {
+\begin{tabular}{l|ccc|c}
+\hline
+	\textbf{Sample} & \textbf{Genuine Photon} & \textbf{MisID Electron} & \textbf{Hadronic} & \textbf{Total} \\
+\hline
+$t\bar{t}+\gamma$  & 11.5597 $\pm$ 0.677995 & 0 $\pm$ 0 & 6.41284 $\pm$ 0.508448 & 17.9725 $\pm$ 0.847465 \\
+$t\bar{t}+jets$  & 1.84297 $\pm$ 0.299532 & 0 $\pm$ 0 & 4.03535 $\pm$ 0.454349 & 5.87832 $\pm$ 0.544199 \\
+$W+\gamma$  & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 \\
+$W+jets$  & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 \\
+$Z+\gamma$  & 4.97919 $\pm$ 1.8975 & 0 $\pm$ 0 & 0.644821 $\pm$ 0.644821 & 5.62401 $\pm$ 2.00407 \\
+$Z+jets$  & 3.97058 $\pm$ 3.06254 & 0 $\pm$ 0 & 0 $\pm$ 0 & 3.97058 $\pm$ 3.06254 \\
+Single Top  & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 \\
+Diboson  & 0.296448 $\pm$ 0.112047 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0.296448 $\pm$ 0.112047 \\
+\hline
+Total  & 22.9453 $\pm$ 3.6816 & 0 $\pm$ 0 & 11.093 $\pm$ 0.938482 & 34.0383 $\pm$ 3.79933 \\
+Data  & --- & --- & --- & 36 $\pm$ 6 \\
+\hline	
+\end{tabular}
+}
+\end{center}
+\caption{Simulated samples categorised by origin of reconstructed origin after nominal selection in the $\mu^+\mu^-$ channel. Events are rescaled according to the $SF_{t\bar{t}+\gamma}$, $SF_{jet\to\gamma}$, and $SF_{V+\gamma}$ scale factors obtained in the likelihod fit.}
+\label{tab-SigPhotonsMuMuScaled}
+\end{table}	
+
+\begin{table}
+\begin{center}
+\resizebox{\columnwidth}{!} {
+\begin{tabular}{l|ccc|c}
+\hline
+	\textbf{Sample} & \textbf{Genuine Photon} & \textbf{MisID Electron} & \textbf{Hadronic} & \textbf{Total} \\
+\hline
+$t\bar{t}+\gamma$  & 11.5597 $\pm$ 0.677995 & 0 $\pm$ 0 & 6.41284 $\pm$ 0.508448 & 17.9725 $\pm$ 0.847465 \\
+$t\bar{t}+jets$  & 1.84297 $\pm$ 0.299532 & 0 $\pm$ 0 & 4.03535 $\pm$ 0.454349 & 5.87832 $\pm$ 0.544199 \\
+$W+\gamma$  & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 \\
+$W+jets$  & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 \\
+$Z+\gamma$  & 4.97919 $\pm$ 1.8975 & 0 $\pm$ 0 & 0.644821 $\pm$ 0.644821 & 5.62401 $\pm$ 2.00407 \\
+$Z+jets$  & 3.97058 $\pm$ 3.06254 & 0 $\pm$ 0 & 0 $\pm$ 0 & 3.97058 $\pm$ 3.06254 \\
+Single Top  & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 \\
+Diboson  & 0.296448 $\pm$ 0.112047 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0.296448 $\pm$ 0.112047 \\
+\hline
+Total  & 18.2628 $\pm$ 1.90184 & 0.0578557 $\pm$ 0.0578557 & 13.4295 $\pm$ 2.97618 & 31.7501 $\pm$ 3.53242 \\
+Data  & --- & --- & --- & 26 $\pm$ 5.09902 \\
+\hline	
+\end{tabular}
+}
+\end{center}
+\caption{Simulated samples categorised by origin of reconstructed origin after nominal selection in the $e^+e^-$ channel. Events are rescaled according to the $SF_{t\bar{t}+\gamma}$, $SF_{jet\to\gamma}$, and $SF_{V+\gamma}$ scale factors obtained in the likelihod fit.}
+\label{tab-SigPhotonsEEScaled}
+\end{table}	
+
+\begin{table}
+\begin{center}
+\resizebox{\columnwidth}{!} {
+\begin{tabular}{l|ccc|c}
+\hline
+	\textbf{Sample} & \textbf{Genuine Photon} & \textbf{MisID Electron} & \textbf{Hadronic} & \textbf{Total} \\
+\hline
+$t\bar{t}+\gamma$  & 29.3472 $\pm$ 1.09904 & 0 $\pm$ 0 & 13.3482 $\pm$ 0.73033 & 42.6954 $\pm$ 1.31957 \\
+$t\bar{t}+jets$  & 3.23091 $\pm$ 0.403224 & 0.0641023 $\pm$ 0.0641023 & 8.4431 $\pm$ 0.633878 & 11.7381 $\pm$ 0.75399 \\
+$W+\gamma$  & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 \\
+$W+jets$  & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 \\
+$Z+\gamma$  & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 \\
+$Z+jets$  & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 \\
+Single Top  & 0.270833 $\pm$ 0.270833 & 0 $\pm$ 0 & 0.70516 $\pm$ 0.70516 & 0.975993 $\pm$ 0.755381 \\
+Diboson  & 0.176487 $\pm$ 0.176487 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0.176487 $\pm$ 0.176487 \\
+\hline
+Total  & 33.2019 $\pm$ 1.22724 & 0.0641023 $\pm$ 0.0641023 & 22.4965 $\pm$ 1.19684 & 55.7625 $\pm$ 1.71542 \\
+Data  & --- & --- & --- & 28 $\pm$ 5.2915 \\
+\hline	
+\end{tabular}
+}
+\end{center}
+\caption{Simulated samples categorised by origin of reconstructed origin after nominal selection in the $e\mu$ channel. Events are rescaled according to the $SF_{t\bar{t}+\gamma}$, $SF_{jet\to\gamma}$, and $SF_{V+\gamma}$ scale factors obtained in the likelihod fit.}
+\label{tab-SigPhotonsEMuScaled}
+\end{table}	
 
 
 \section{Signal Acceptance Calculation} \label{subsec-SignalAcceptanceCalculation}
