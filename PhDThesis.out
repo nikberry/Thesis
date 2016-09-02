@@ -32,89 +32,88 @@
 \BOOKMARK [2][-]{subsection.2.4.4}{Performance of the ECAL throughout Run I}{section.2.4}% 32
 \BOOKMARK [1][-]{section.2.5}{Hadron Calorimeter}{chapter.2}% 33
 \BOOKMARK [2][-]{subsection.2.5.1}{Overview}{section.2.5}% 34
-\BOOKMARK [2][-]{subsection.2.5.2}{Performance of the HCAL in Run I}{section.2.5}% 35
-\BOOKMARK [1][-]{section.2.6}{Superconducting Solenoid}{chapter.2}% 36
-\BOOKMARK [1][-]{section.2.7}{Muon System}{chapter.2}% 37
-\BOOKMARK [2][-]{subsection.2.7.1}{Performance of the muon system in Run I}{section.2.7}% 38
-\BOOKMARK [1][-]{section.2.8}{Trigger and Data Acquisition}{chapter.2}% 39
-\BOOKMARK [2][-]{subsection.2.8.1}{Performance of the Trigger in Run 1}{section.2.8}% 40
-\BOOKMARK [0][-]{chapter.3}{Event Reconstruction \046 Simulation}{}% 41
-\BOOKMARK [1][-]{section.3.1}{Event Reconstruction and Computing}{chapter.3}% 42
-\BOOKMARK [2][-]{subsection.3.1.1}{Event Data Model}{section.3.1}% 43
-\BOOKMARK [2][-]{subsection.3.1.2}{Analysis Software}{section.3.1}% 44
-\BOOKMARK [1][-]{section.3.2}{Simulation of the CMS detector}{chapter.3}% 45
-\BOOKMARK [1][-]{section.3.3}{Monte Carlo Simulation}{chapter.3}% 46
-\BOOKMARK [2][-]{subsection.3.3.1}{Monte Carlo event generators}{section.3.3}% 47
-\BOOKMARK [1][-]{section.3.4}{Simulated samples for the t+ analysis}{chapter.3}% 48
-\BOOKMARK [1][-]{section.3.5}{Simulation of the t+ Signal Sample}{chapter.3}% 49
-\BOOKMARK [2][-]{subsection.3.5.1}{Official t+ 2 7 sample production}{section.3.5}% 50
-\BOOKMARK [1][-]{section.3.6}{Physics Object Reconstruction}{chapter.3}% 51
-\BOOKMARK [2][-]{subsection.3.6.1}{Charged Particle Tracking}{section.3.6}% 52
-\BOOKMARK [2][-]{subsection.3.6.2}{Primary Vertex Reconstruction}{section.3.6}% 53
-\BOOKMARK [2][-]{subsection.3.6.3}{Calorimeter Clustering Algorithm}{section.3.6}% 54
-\BOOKMARK [2][-]{subsection.3.6.4}{The Particle Flow event reconstruction algorithm}{section.3.6}% 55
-\BOOKMARK [2][-]{subsection.3.6.5}{Electron reconstruction}{section.3.6}% 56
-\BOOKMARK [2][-]{subsection.3.6.6}{Electron identification}{section.3.6}% 57
-\BOOKMARK [2][-]{subsection.3.6.7}{Muon reconstruction}{section.3.6}% 58
-\BOOKMARK [1][-]{section.3.7}{Higher-level Object Reconstruction}{chapter.3}% 59
-\BOOKMARK [2][-]{subsection.3.7.1}{Jet reconstruction}{section.3.7}% 60
-\BOOKMARK [2][-]{subsection.3.7.2}{Jet Identification}{section.3.7}% 61
-\BOOKMARK [2][-]{subsection.3.7.3}{Jet energy corrections}{section.3.7}% 62
-\BOOKMARK [2][-]{subsection.3.7.4}{B-tagged Jets}{section.3.7}% 63
-\BOOKMARK [2][-]{subsection.3.7.5}{Reconstruction of Missing Transverse Energy}{section.3.7}% 64
-\BOOKMARK [0][-]{chapter.4}{Event Selection}{}% 65
-\BOOKMARK [1][-]{section.4.1}{Event Selection}{chapter.4}% 66
-\BOOKMARK [1][-]{section.4.2}{Pre-selection: Selection of t Events}{chapter.4}% 67
-\BOOKMARK [1][-]{section.4.3}{Skim}{chapter.4}% 68
-\BOOKMARK [1][-]{section.4.4}{Trigger and Event Cleaning}{chapter.4}% 69
-\BOOKMARK [2][-]{subsection.4.4.1}{Trigger selection}{section.4.4}% 70
-\BOOKMARK [2][-]{subsection.4.4.2}{Filtering}{section.4.4}% 71
-\BOOKMARK [1][-]{section.4.5}{Dilepton Selection and Vetoes}{chapter.4}% 72
-\BOOKMARK [2][-]{subsection.4.5.1}{Electrons}{section.4.5}% 73
-\BOOKMARK [2][-]{subsection.4.5.2}{Muons}{section.4.5}% 74
-\BOOKMARK [1][-]{section.4.6}{Jet Selection and b-tag Requirements}{chapter.4}% 75
-\BOOKMARK [1][-]{section.4.7}{Missing Transverse Energy}{chapter.4}% 76
-\BOOKMARK [1][-]{section.4.8}{Selection of t+ events}{chapter.4}% 77
-\BOOKMARK [2][-]{subsection.4.8.1}{Cut based photon ID}{section.4.8}% 78
-\BOOKMARK [2][-]{subsection.4.8.2}{Final state radiation suppression}{section.4.8}% 79
-\BOOKMARK [2][-]{subsection.4.8.3}{Supercluster footprint-removal for photon isolation}{section.4.8}% 80
-\BOOKMARK [1][-]{section.4.9}{Phase Space Overlap Removal}{chapter.4}% 81
-\BOOKMARK [1][-]{section.4.10}{Corrections to simulated events}{chapter.4}% 82
-\BOOKMARK [0][-]{chapter.5}{Measurement of the inclusive t+ cross-section}{}% 83
-\BOOKMARK [1][-]{section.5.1}{Measurement of the cross-section ratio R = t+/t}{chapter.5}% 84
-\BOOKMARK [1][-]{section.5.2}{Photon Purity Estimation}{chapter.5}% 85
-\BOOKMARK [2][-]{subsection.5.2.1}{Signal template construction using the random cone method}{section.5.2}% 86
-\BOOKMARK [2][-]{subsection.5.2.2}{Background estimation using the i i \040side-band method}{section.5.2}% 87
-\BOOKMARK [2][-]{subsection.5.2.3}{Fit to charged hadron isolation}{section.5.2}% 88
-\BOOKMARK [1][-]{section.5.3}{Number of signal events in data}{chapter.5}% 89
-\BOOKMARK [1][-]{section.5.4}{Signal Acceptance Calculation}{chapter.5}% 90
-\BOOKMARK [0][-]{chapter.6}{Systematic Uncertainties}{}% 91
-\BOOKMARK [1][-]{section.6.1}{Flat Rate Uncertainties}{chapter.6}% 92
-\BOOKMARK [2][-]{subsection.6.1.1}{Luminosity}{section.6.1}% 93
-\BOOKMARK [2][-]{subsection.6.1.2}{Lepton Efficiencies}{section.6.1}% 94
-\BOOKMARK [1][-]{section.6.2}{Shape Uncertainties}{chapter.6}% 95
-\BOOKMARK [2][-]{subsection.6.2.1}{Parton Distribution Function}{section.6.2}% 96
-\BOOKMARK [2][-]{subsection.6.2.2}{Pile-up Re-weighting}{section.6.2}% 97
-\BOOKMARK [2][-]{subsection.6.2.3}{Jet Energy Corrections}{section.6.2}% 98
-\BOOKMARK [2][-]{subsection.6.2.4}{Missing Transverse Energy}{section.6.2}% 99
-\BOOKMARK [2][-]{subsection.6.2.5}{B-tagging Efficiency}{section.6.2}% 100
-\BOOKMARK [2][-]{subsection.6.2.6}{Data-driven Re-weighting}{section.6.2}% 101
-\BOOKMARK [1][-]{section.6.3}{Modelling Uncertainties}{chapter.6}% 102
-\BOOKMARK [2][-]{subsection.6.3.1}{Renormalisation and factorisation scales}{section.6.3}% 103
-\BOOKMARK [2][-]{subsection.6.3.2}{Parton-level matching thresholds}{section.6.3}% 104
-\BOOKMARK [2][-]{subsection.6.3.3}{Analysis-dependent modelling uncertainties}{section.6.3}% 105
-\BOOKMARK [1][-]{section.6.4}{Impact of uncertainties}{chapter.6}% 106
-\BOOKMARK [0][-]{chapter.7}{Results}{}% 107
-\BOOKMARK [1][-]{section.7.1}{Combination of channels}{chapter.7}% 108
-\BOOKMARK [1][-]{section.7.2}{Future Outlook}{chapter.7}% 109
-\BOOKMARK [0][-]{section.7.2}{Conclusions}{}% 110
-\BOOKMARK [0][-]{section*.95}{Appendices}{}% 111
-\BOOKMARK [1][-]{section.Alph0.1}{Operator contributions to t }{section*.95}% 112
-\BOOKMARK [1][-]{section.Alph0.2}{Electron \046 Muon Efficiencies}{section*.95}% 113
-\BOOKMARK [1][-]{section.Alph0.3}{Variable distributions}{section*.95}% 114
-\BOOKMARK [2][-]{subsection.Alph0.3.1}{Lepton variables}{section.Alph0.3}% 115
-\BOOKMARK [2][-]{subsection.Alph0.3.2}{Jet variables}{section.Alph0.3}% 116
-\BOOKMARK [2][-]{subsection.Alph0.3.3}{MET variables}{section.Alph0.3}% 117
-\BOOKMARK [2][-]{subsection.Alph0.3.4}{t photon variables}{section.Alph0.3}% 118
-\BOOKMARK [2][-]{subsection.Alph0.3.5}{t+ photon variables}{section.Alph0.3}% 119
-\BOOKMARK [0][-]{appendix*.115}{Bibliography}{}% 120
+\BOOKMARK [1][-]{section.2.6}{Superconducting Solenoid}{chapter.2}% 35
+\BOOKMARK [1][-]{section.2.7}{Muon System}{chapter.2}% 36
+\BOOKMARK [2][-]{subsection.2.7.1}{Performance of the muon system in Run I}{section.2.7}% 37
+\BOOKMARK [1][-]{section.2.8}{Trigger and Data Acquisition}{chapter.2}% 38
+\BOOKMARK [2][-]{subsection.2.8.1}{Performance of the Trigger in Run 1}{section.2.8}% 39
+\BOOKMARK [0][-]{chapter.3}{Event Reconstruction \046 Simulation}{}% 40
+\BOOKMARK [1][-]{section.3.1}{Event Reconstruction and Computing}{chapter.3}% 41
+\BOOKMARK [2][-]{subsection.3.1.1}{Event Data Model}{section.3.1}% 42
+\BOOKMARK [2][-]{subsection.3.1.2}{Analysis Software}{section.3.1}% 43
+\BOOKMARK [1][-]{section.3.2}{Simulation of the CMS detector}{chapter.3}% 44
+\BOOKMARK [1][-]{section.3.3}{Monte Carlo Simulation}{chapter.3}% 45
+\BOOKMARK [2][-]{subsection.3.3.1}{Monte Carlo event generators}{section.3.3}% 46
+\BOOKMARK [1][-]{section.3.4}{Simulated samples for the t+ analysis}{chapter.3}% 47
+\BOOKMARK [1][-]{section.3.5}{Simulation of the t+ Signal Sample}{chapter.3}% 48
+\BOOKMARK [2][-]{subsection.3.5.1}{Official t+ 2 7 sample production}{section.3.5}% 49
+\BOOKMARK [1][-]{section.3.6}{Physics Object Reconstruction}{chapter.3}% 50
+\BOOKMARK [2][-]{subsection.3.6.1}{Charged Particle Tracking}{section.3.6}% 51
+\BOOKMARK [2][-]{subsection.3.6.2}{Primary Vertex Reconstruction}{section.3.6}% 52
+\BOOKMARK [2][-]{subsection.3.6.3}{Calorimeter Clustering Algorithm}{section.3.6}% 53
+\BOOKMARK [2][-]{subsection.3.6.4}{The Particle Flow event reconstruction algorithm}{section.3.6}% 54
+\BOOKMARK [2][-]{subsection.3.6.5}{Electron reconstruction}{section.3.6}% 55
+\BOOKMARK [2][-]{subsection.3.6.6}{Electron identification}{section.3.6}% 56
+\BOOKMARK [2][-]{subsection.3.6.7}{Muon reconstruction}{section.3.6}% 57
+\BOOKMARK [1][-]{section.3.7}{Higher-level Object Reconstruction}{chapter.3}% 58
+\BOOKMARK [2][-]{subsection.3.7.1}{Jet reconstruction}{section.3.7}% 59
+\BOOKMARK [2][-]{subsection.3.7.2}{Jet Identification}{section.3.7}% 60
+\BOOKMARK [2][-]{subsection.3.7.3}{Jet energy corrections}{section.3.7}% 61
+\BOOKMARK [2][-]{subsection.3.7.4}{B-tagged Jets}{section.3.7}% 62
+\BOOKMARK [2][-]{subsection.3.7.5}{Reconstruction of Missing Transverse Energy}{section.3.7}% 63
+\BOOKMARK [0][-]{chapter.4}{Event Selection}{}% 64
+\BOOKMARK [1][-]{section.4.1}{Event Selection}{chapter.4}% 65
+\BOOKMARK [1][-]{section.4.2}{Pre-selection: Selection of t Events}{chapter.4}% 66
+\BOOKMARK [1][-]{section.4.3}{Skim}{chapter.4}% 67
+\BOOKMARK [1][-]{section.4.4}{Trigger and Event Cleaning}{chapter.4}% 68
+\BOOKMARK [2][-]{subsection.4.4.1}{Trigger selection}{section.4.4}% 69
+\BOOKMARK [2][-]{subsection.4.4.2}{Filtering}{section.4.4}% 70
+\BOOKMARK [1][-]{section.4.5}{Dilepton Selection and Vetoes}{chapter.4}% 71
+\BOOKMARK [2][-]{subsection.4.5.1}{Electrons}{section.4.5}% 72
+\BOOKMARK [2][-]{subsection.4.5.2}{Muons}{section.4.5}% 73
+\BOOKMARK [1][-]{section.4.6}{Jet Selection and b-tag Requirements}{chapter.4}% 74
+\BOOKMARK [1][-]{section.4.7}{Missing Transverse Energy}{chapter.4}% 75
+\BOOKMARK [1][-]{section.4.8}{Selection of t+ events}{chapter.4}% 76
+\BOOKMARK [2][-]{subsection.4.8.1}{Cut based photon identification}{section.4.8}% 77
+\BOOKMARK [2][-]{subsection.4.8.2}{Final state radiation suppression}{section.4.8}% 78
+\BOOKMARK [2][-]{subsection.4.8.3}{Supercluster footprint-removal for photon isolation}{section.4.8}% 79
+\BOOKMARK [1][-]{section.4.9}{Phase Space Overlap Removal}{chapter.4}% 80
+\BOOKMARK [1][-]{section.4.10}{Corrections to simulated events}{chapter.4}% 81
+\BOOKMARK [0][-]{chapter.5}{Measurement of the inclusive t+ cross-section}{}% 82
+\BOOKMARK [1][-]{section.5.1}{Measurement of the cross-section ratio R = t+/t}{chapter.5}% 83
+\BOOKMARK [1][-]{section.5.2}{Photon Purity Estimation}{chapter.5}% 84
+\BOOKMARK [2][-]{subsection.5.2.1}{Signal template construction using the random cone method}{section.5.2}% 85
+\BOOKMARK [2][-]{subsection.5.2.2}{Background estimation using the i i \040side-band method}{section.5.2}% 86
+\BOOKMARK [2][-]{subsection.5.2.3}{Fit to charged hadron isolation}{section.5.2}% 87
+\BOOKMARK [1][-]{section.5.3}{Number of signal events in data}{chapter.5}% 88
+\BOOKMARK [1][-]{section.5.4}{Signal Acceptance Calculation}{chapter.5}% 89
+\BOOKMARK [0][-]{chapter.6}{Systematic Uncertainties}{}% 90
+\BOOKMARK [1][-]{section.6.1}{Flat Rate Uncertainties}{chapter.6}% 91
+\BOOKMARK [2][-]{subsection.6.1.1}{Luminosity}{section.6.1}% 92
+\BOOKMARK [2][-]{subsection.6.1.2}{Lepton Efficiencies}{section.6.1}% 93
+\BOOKMARK [1][-]{section.6.2}{Shape Uncertainties}{chapter.6}% 94
+\BOOKMARK [2][-]{subsection.6.2.1}{Parton Distribution Function}{section.6.2}% 95
+\BOOKMARK [2][-]{subsection.6.2.2}{Pile-up Re-weighting}{section.6.2}% 96
+\BOOKMARK [2][-]{subsection.6.2.3}{Jet Energy Corrections}{section.6.2}% 97
+\BOOKMARK [2][-]{subsection.6.2.4}{Missing Transverse Energy}{section.6.2}% 98
+\BOOKMARK [2][-]{subsection.6.2.5}{B-tagging Efficiency}{section.6.2}% 99
+\BOOKMARK [2][-]{subsection.6.2.6}{Data-driven Re-weighting}{section.6.2}% 100
+\BOOKMARK [1][-]{section.6.3}{Modelling Uncertainties}{chapter.6}% 101
+\BOOKMARK [2][-]{subsection.6.3.1}{Renormalisation and factorisation scales}{section.6.3}% 102
+\BOOKMARK [2][-]{subsection.6.3.2}{Parton-level matching thresholds}{section.6.3}% 103
+\BOOKMARK [2][-]{subsection.6.3.3}{Analysis-dependent modelling uncertainties}{section.6.3}% 104
+\BOOKMARK [1][-]{section.6.4}{Impact of uncertainties}{chapter.6}% 105
+\BOOKMARK [0][-]{chapter.7}{Results}{}% 106
+\BOOKMARK [1][-]{section.7.1}{Combination of channels}{chapter.7}% 107
+\BOOKMARK [1][-]{section.7.2}{Future Outlook}{chapter.7}% 108
+\BOOKMARK [0][-]{section.7.2}{Conclusions}{}% 109
+\BOOKMARK [0][-]{section*.95}{Appendices}{}% 110
+\BOOKMARK [1][-]{section.Alph0.1}{Operator contributions to t }{section*.95}% 111
+\BOOKMARK [1][-]{section.Alph0.2}{Electron \046 Muon Efficiencies}{section*.95}% 112
+\BOOKMARK [1][-]{section.Alph0.3}{Variable distributions}{section*.95}% 113
+\BOOKMARK [2][-]{subsection.Alph0.3.1}{Lepton variables}{section.Alph0.3}% 114
+\BOOKMARK [2][-]{subsection.Alph0.3.2}{Jet variables}{section.Alph0.3}% 115
+\BOOKMARK [2][-]{subsection.Alph0.3.3}{MET variables}{section.Alph0.3}% 116
+\BOOKMARK [2][-]{subsection.Alph0.3.4}{t photon variables}{section.Alph0.3}% 117
+\BOOKMARK [2][-]{subsection.Alph0.3.5}{t+ photon variables}{section.Alph0.3}% 118
+\BOOKMARK [0][-]{appendix*.115}{Bibliography}{}% 119

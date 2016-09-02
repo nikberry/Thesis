@@ -1,15 +1,15 @@
 \chapter{Event Selection} \label{chap-EventSelection}
 
-When we finally arrive at a point when we have identified and reconstructed all the objects in the data, as described in Chapter \ref{chap-EventReconstruction&Simulation}, we impose a set of kinematic and topological cuts to each of the objects in order to provide a subset of the data containing mainly our signal events. The signal sample still contains background events and is corrected in several ways. Simulated MC samples are produced and used to optimise the number of signal events within this sample, and thus rejecting as much background as possible. The selection process, including kinematic, topological, and fiducial cuts on our final state objects is described in detail in the first part of this chapter.
+When we finally arrive at a point where we have identified and reconstructed all the physics objects in the data, as described in Chapter \ref{chap-EventReconstruction&Simulation}, we impose a set of kinematic and topological selection requirements on each of the objects in order to provide a subset of the data enriched in signal events. The signal sample still contains background contamination which must be corrected for. Simulated MC samples are produced and used to optimise the number of signal events within this sample, thus rejecting as much background as possible. The selection process, including kinematic, topological, and fiducial selection requirements on our final state objects is described in detail in the first part of this chapter.
 
-Even though we model data using simulated MC samples, which are an essential tool for modelling distributions in particle physics, this is not always enough to provide a robust and accurate measurement of a process. In this case, additional methods for the calculation of background processes are used to purify our signal sample by removing events that are not in fact our final state signal event. These methods can be MC-driven and data-driven, and both are described in the second part of the chapter in greater detail pertaining to the $t\bar{t}+\gamma$ analysis.  
+Even though the data is modelled using simulated MC samples, which are an essential tool for modelling distributions in particle physics, this is not always enough to provide a robust and accurate estimate of the yield associated with any given process. In this case, additional methods for the estimation of background processes are used to purify the signal sample by removing events that are not, in fact, the final state signal event. These methods can be MC-driven and data-driven, and are described in the second part of this chapter. 
 
 \section{Event Selection} \label{sec-EventSelection}
 
-For the $t\bar{t}+\gamma$ analysis the selection of objects is computed in three stages; A \textbf{skim} is implemented when processing signal and background MC samples in order to reduce the rate of events at analysis level and become much more manageable, a \textbf{pre-selection} of $t\bar{t}$ events is then computed for each final state respectively following the recommended top event selection group reference, and finally the full \textbf{selection} which includes an isolated photon radiated from top quark or its decay products. The full analysis work-flow can be seen in Figure \ref{fig-AnalysisFlowChart}   
+For the $t\bar{t}+\gamma$ analysis the selection of physics objects is computed in three stages: A \textbf{skim} is implemented when processing signal and background MC samples in order to reduce the number of events at analysis level and become much more manageable, a \textbf{pre-selection} of $t\bar{t}$ events is then computed for each final state, respectively, following the recommended top event selection group reference \cite{TopEventSelection}, and finally the full \textbf{selection}, which includes an isolated photon radiated from a top quark or its decay products. The full analysis work-flow can be seen in Figure \ref{fig-AnalysisFlowChart}   
 
-It is important to reconstruct the number of $t\bar{t}$ events before we can include our radiated photon such that our sample is much cleaner. 
-The pre-selection events have been constructed by following the CMS recommendation for cut-based selection of top-quark pair events with the requirement of at least two jets of which at least one is a b-tagged jet. Individual objects are reconstructed based on specific criteria, such as electrons, loose electrons, muons, loose muons, jets, and photons. Then an additional set of selection requirements is applied based on the relative positions of the objects ($\Delta R$ cuts). After that, the final decision is made if the event is to be considered in the further analysis. Pre-selection cuts are described in Section \ref{sec-preselection}.
+It is important to reconstruct the number of $t\bar{t}$ events before including a radiated photon such that the sample is much cleaner. 
+The pre-selection events have been constructed by following the CMS recommendation for cut-based selection of top-quark pair events with the requirement of the presence of at least two jets, of which at least one is a b-tagged jet. Individual objects are reconstructed based on specific criteria, such as electrons, muons, jets, and photons. Then an additional set of selection requirements is applied based on the relative positions of the objects ($\Delta R$ selection requirements). After that, the final decision is made as to whether the event is to be retained for further analysis. The pre-selection requirements are described in Section \ref{sec-preselection}.
 
 \begin{figure}
 \begin{center}
@@ -22,9 +22,9 @@ analysis steps.}
 
 \section{Pre-selection: Selection of $t\bar{t}$ Events} \label{sec-preselection}
 
-The pre-selection steps define our $t\bar{t}$ events before the addition of a radiated photon. The selection follows the recommended selection from the TOP Reference Selections and Recommendations (Run1) \cite{TopEventSelection} designed to select dilepton final states with two isolated oppositely charged leptons, at least 2 jets where at least one is a b-tagged jet, and two neutrinos from missing transverse energy. All objects in the selection are reconstructed using the PF algorithm as described in Section \ref{subsec-PFAlgorithm}.  
+The pre-selection steps define a sample of $t\bar{t}$ events before requiring the presence of a radiated photon. The selection follows the recommended selection from the TOP Reference Selections and Recommendations (Run 1) \cite{TopEventSelection} designed to select dilepton final states with two isolated oppositely charged leptons, at least 2 jets where at least one is a b-tagged jet, and missing transverse energy to account for the two neutrinos produced in W boson decay alongside the leptons. All objects in the selection are reconstructed using the PF algorithm as described in Section \ref{subsec-PFAlgorithm}.  
 
-The event selection steps for pre-selection di-muon and di-electron channels are listed as follows:  
+The steps for selecting di-muon and di-electron events are as follows:  
 
 \begin{itemize}
 	\item Skim
@@ -37,7 +37,7 @@ The event selection steps for pre-selection di-muon and di-electron channels are
 	\item $\geq 1$ CSV b-jet 
 \end{itemize}
 
-For the mixed channel we select two oppositely signed leptons where one is an electron and the other a muon. Because of this feature, Drell-Yan is significantly reduced, and therefore there is no need for a Z-mass veto. We also do not require a cut on the missing transverse energy. The event selection for mixed final state event topologies are as shown below.
+For the mixed channel events are selected with two oppositely signed leptons, where one is an electron and the other a muon. Due to the final state containing different flavour leptons, the number of events stemming from the Drell-Yan process is significantly reduced, and therefore there is no need for a Z-mass veto such that is used for the same flavour lepton channels. For the same reason, there is no requirement for a cut on the missing transverse energy. The event selection for mixed final state event topologies are as shown below:
 
 \begin{itemize}
 	\item Skim
@@ -65,7 +65,7 @@ As mentioned above, we introduce a ``skim" in order to reduce the number of even
 
 \subsection{Trigger selection}
 
-As the $t\bar{t}+\gamma$ analysis is studied as a dilepton final state, the requirement of at least two oppositely charged leptons (electrons or muons only) is essential. These datasets are identified by the trigger system (as described in Section \ref{sec-Trigger}) to contain two leptons. Triggers are generally divided into two categories; single object triggers fire on one or more objects of the same flavour passing certain pre-selection requirements, such as p$_T$ and $\eta$, and cross-triggers which select two objects of different flavours as predetermined by the user. For this analysis, both types of triggers are implemented in order to select the three final states in question. The list of trigger paths can be seen in Table \ref{tab-HLTriggers}. 
+As the $t\bar{t}+\gamma$ analysis is studied as a dilepton final state, the requirement of at least two oppositely charged leptons (electrons or muons only) is essential. These datasets are identified by the trigger system (as described in Section \ref{sec-Trigger}) to contain two leptons. Triggers are generally divided into two categories: single object triggers fire on one or more objects of the same flavour passing certain pre-selection requirements, such as p$_T$ and $\eta$, and cross-triggers that select two objects of different flavour as predetermined by the user. For this analysis, both types of triggers are implemented in order to select the three final states in question. The list of trigger paths can be seen in Table \ref{tab-HLTriggers}. 
 
 \begin{table} 
 \begin{center}
@@ -84,95 +84,95 @@ As the $t\bar{t}+\gamma$ analysis is studied as a dilepton final state, the requ
 \label{tab-HLTriggers}
 \end{table}
 
-Each trigger path name explains the selection requirements on the objects that it triggers on. The term Mu refers to a reconstructed muon and Ele refers to a reconstructed electron, where the succeeding number represents an associated energy threshold of the particle. For example, the the di-muon channel uses a single flavour object trigger to select two muons and is used with the requirements that one of the muons has a p$_T$ greater than 8 $\GeV$ and the second greater than 17 $\GeV$. The version of the trigger is denoted in the trigger path as v*, as the trigger path changes with the trigger table used. It should be noted that a different trigger version does not in fact require a change in trigger path. At this level the number of energy deposits within the calorimetry is still too large for the trigger rate to be usable, and thus extra selection requirements on the trigger system must be imposed.
+Each trigger path name explains the selection requirements on the objects that it triggers on. The first term in the trigger path, in this case HLT, refers to the Higher Level Trigger which is described in Section \ref{sec-Trigger}. The term Mu refers to a reconstructed muon and Ele refers to a reconstructed electron, where the succeeding number represents an associated energy threshold for the particle. For example, the the di-muon channel uses a single flavour object trigger to select two muons and is used with the requirements that one of the muons has a p$_T$ greater than 8 $\GeV$ and the second greater than 17 $\GeV$. The version of the trigger is denoted in the trigger path as v*, as the trigger path changes with the trigger table used. It should be noted that a different trigger version does not in fact require a change in trigger path. At this level the number of energy deposits within the calorimetry is still too large for the trigger rate to be usable, and thus extra selection requirements on top of those required by the trigger system must be imposed.
 
-A way to reduce the trigger rate is to impose cuts on the energy threshold of the particles in question greater than that required by the trigger, however this holds drawbacks for analyses who then wish to implement tighter cuts within offline analysis. Another method, and one that is used primarily in electron trigger studies, is to reduce trigger rates to a more feasible level is to introduce isolation and Id cuts, the `Iso' and `Id' terms that can be seen in the di-electron and $e\mu$ trigger path names. The objects must then also pass simple isolation and id criteria and thus reducing the trigger rate. The information for each is obtained from both the calorimeter (e.g CaloIso) and tracker (e.g TrkId) by placing requirements on such parameters as the shape of the energy cluster, the total number of energy depositions, and the angular separation between the ECAL and tracker energy deposits. Three categories of selection are implemented for each kinematic cut, and are listed as Tight (T), Loose (L), and Very Loose (VL) as can be seen in the trigger paths. These signify the harshness of the cuts when applied. This can be visualised, for example, in the the di-electron channel where the HLT calls for two electrons, where one must pass an energy threshold of 8 $\GeV$ with a tight requirement on calorimeter Id, and very loose requirements on calorimeter isolation and tracker Id and isolation. The other electron must pass an energy threshold of 17 $\GeV$ with the same calorimeter and tracker isolation and Id cuts.
+One way to reduce the trigger rate is to impose a selection requirement on the transverse momentum threshold of the particles in question greater than that required by the trigger; however, this holds drawbacks for analyses that then wish to implement more stringent selection requirements within offline analysis. Another method, and one that is used primarily in electron trigger studies, is to reduce trigger rates to a more feasible level by introducing isolation and identification requirements; these are indicated by the `Iso' and `Id' terms that can be seen in the di-electron and $e\mu$ trigger path names. The objects must then also pass simple isolation and identification criteria, thus reducing the trigger rate. The information for each is obtained from both the calorimeter (e.g CaloIso) and tracker (e.g TrkId) by placing requirements on such parameters as the shape of the energy cluster in the ECAL, the total number of energy depositions in the ECAL, and the angular separation between the ECAL and tracker-energy deposits. Three categories of selection are implemented for each kinematic selection requirement, and are listed as Tight (T), Loose (L), and Very Loose (VL) as can be seen in the trigger paths. These signify the harshness of the cuts when applied. This can be visualised, for example, in the di-electron channel where the HLT calls for two electrons, where one must pass an transverse momentum threshold of 8 $\GeV$ with a tight requirement on calorimeter identification, and very loose requirements on calorimeter isolation and tracker identification and isolation. The other electron must pass an transverse momentum threshold of 17 $\GeV$ with the same calorimeter and tracker isolation and identification requirements.
 
-HLTs are used for the $t\bar{t}+\gamma$ analysis such that if the event does not pass the requirement of the trigger, then it is not included in the calculation. Single object triggers are used for both the di-muon and di-electron channels, and two cross-triggers were used for the $e\mu$ channel as the final state selection requires two oppositely charged leptons (electrons or muons) where one is an electron and the other a muon. The triggers were processed specifically for the $\sqrt{s}=8 \TeV$ data-taking period with 19.6 $\fbinv$.
+HLTs paths are used for the $t\bar{t}+\gamma$ analysis such that if the event does not pass the requirement of the trigger, then it is not included in the result. Single object triggers are used for both the di-muon and di-electron channels, and two cross-triggers were used for the $e\mu$ channel as the final state selection requires two oppositely charged leptons (electrons or muons) where one is an electron and the other a muon. The triggers were processed specifically for the $\sqrt{s}=8 \TeV$ data-taking period that corresponds to an integrated luminosity of 19.6 $\fbinv$.
 
 \subsection{Filtering}
 
-Known anomalies derived from detector and accelerator effects are a prominent feature in the processing of data. To counter these effects we incorporate several `cleaning' filters after trigger selection, but before any further selection cuts are applied. The first of which vetoes on \textbf{beam scraping} and includes a \textbf{tight CSC Beam Halo Filter}. We find that, even with the accuracy and precision that the LHC provides on accelerating bunches of protons, protons have a tendency to diverge radially from the bunch and form what is known as the beam halo that circulates the accelerator with the bunch. In early analyses it was found that the beam halo particles can be picked up in the detectors and be reconstructed as being part of an event in which it is not. Due to sensitivity to beam halo particles in the muon detectors, a filter is introduced based on muon tracking kinematics and thus veto on such events. Beam halo particles can also be removed from the beam within the LHC by introducing collimating blocks around the beam line at various points on the accelerator. This, however, presents another problem in the form of showering as the particles interact with the collimator blocks, beam scraping, and be detected by the experiments. These events are accounted for and removed from analyses by introducing the requirement that at least 25\% of reconstructed tracks within the inner detector pass the high purity threshold (see Section \ref{subsec-ChargedParticleTracking}). 
+Known anomalies derived from detector and accelerator effects have to be accounted for in the processing of data. To counter these effects, several `cleaning' filters are incorporated after trigger selection, but before any further selection cuts are applied. The first of these replicates \textbf{beam scraping} by including a \textbf{tight CSC Beam Halo Filter}. We find that, even with the accuracy and precision that the LHC provides on accelerating bunches of protons, protons have a tendency to diverge radially from the bunch and form what is known as the beam halo that circulates the accelerator with each bunch. In early analyses it was found that the beam halo particles can be picked up in the detectors and be reconstructed as part of an event. Due to sensitivity to beam halo particles in the muon detectors, a filter is introduced based on muon tracking kinematics that allows these events to be vetoed. Beam halo particles can also be removed from the beam within the LHC by introducing collimating blocks around the beam line at various points around the accelerator. This, however, presents another problem in the form of showering as the particles interact with the collimator blocks, and are then detected by the experiments. This is known as beam scraping. These events are accounted for and removed from analyses by introducing the requirement that at least 25\% of reconstructed tracks within the inner detector pass the high purity threshold (see Section \ref{subsec-ChargedParticleTracking}). 
 
-Similarly, we employ a \textbf{HCAL noise filter} in order remove events with anomalous noise within the HCAL. CMS expects a certain degree of noise, stemming from the electronic of the detector, to be present when recording data, however the majority of anomalous noise is found to originate in the Hybrid Photo-Triodes (HPT) and their corresponding read-out boxes. At the current energy scale this is not a problem as the noise appears as large, isolated energy deposits. Anomalous events have easily-identifiable signatures such as the isolation of the HCAL readout, and the multiplicity in the read-out boxes. So, if a signal demonstrates very little change in the pulse shape over time, and the read-out boxes display a high multiplicity, then an event is rejected. The next filter system comes in the form of the \textbf{HCAL laser filter}. The need for the laser filter first manifested during the 2011 data taking period when a much greater number of hits per event events were observed than was expected - $\sim5000$. The HCAL laser filter was then designed and introduced for the 2012 data taking period.  
+Similarly, a \textbf{HCAL noise filter} is employed in order to remove events with anomalous noise within the HCAL. CMS expects a certain degree of noise, stemming from the electronics of the detector, to be present when recording data, however the majority of anomalous noise in the HCAL is found to originate in the Hybrid Photo-Triodes (HPT) and their corresponding read-out boxes. At the current energy scale this is not a problem as the noise appears as large, isolated energy deposits. Anomalous events have easily-identifiable signatures such as the isolation of the noise within HCAL, and the multiplicity in the individual read-out boxes. So, if a signal demonstrates very little change in pulse shape over time, and the read-out boxes display a high multiplicity, then an event is rejected. The next filter comes in the form of the \textbf{HCAL laser filter}. The need for the laser filter first manifested during the 2011 data taking period when a much greater number of hits per event was observed than was expected: approximately 5000 per event. The HCAL laser filter was then designed and introduced for the 2012 data taking period.  
 
 %%%%%%%%%%%%%%%%%%More
 
 \section{Dilepton Selection and Vetoes}
 
-For the $t\bar{t}+\gamma$ analysis leptons mark our signature for our final state events. The leptons are taken from the list of PF-reconstructed objects and then required to pass additional selection cuts to refine the events further after trigger selection in Section \ref{sec-TriggerAndEventCleaning}. Along with our signal leptons, a set of `looser' PF objects are selected as veto objects, such that our signal leptons are a subset of these objects. If an event has multiple loose selection leptons then the event is removed from the list of possible signal candidates.
+For the $t\bar{t}+\gamma$ analysis leptons form a key part of the signature in the final state. The leptons are taken from the list of PF-reconstructed objects and then required to pass additional selection requirements to refine the events further after the trigger selection described in Section \ref{sec-TriggerAndEventCleaning} has been applied. Along with the signal leptons, a set of `looser' PF objects are selected as veto objects, such that the signal leptons are a subset of these objects. If an event has multiple loose selection leptons then the event is removed from the list of possible signal candidates.
 
-The number of selected leptons differs for each decay mode, and thus three separate selections must be created for the di-muon, di-electron, and mixed channels, respectively. Cuts on leptons vary depending on the channel, but are taken from the recommended values produced by the central `Top Event Selection' group \cite{TopEventSelection}. 
+The number of selected leptons differs for each decay mode, and thus three separate sets of selection criteria must be created for the di-muon, di-electron, and mixed channels, respectively. Selection requirements on the leptons vary depending on the channel, but are taken from the recommended values produced by the central `Top Event Selection' group \cite{TopEventSelection}. 
 
 \subsection{Electrons}
 
-PF electron candidates are selected for di-electron and $e\mu$ final states if they have been identified by the GSF method, as described in Section \ref{subsec-ElectronIdentification} and pass the HLT for each channel respectively. The rates are then reduced by imposing a further set of cuts taken from the recommended top reference selection cuts \cite{TOPEGM1}. The cuts are as follows:
+PF electron candidates are selected for the di-electron and $e\mu$ channel if they have been identified using the GSF method, as described in Section \ref{subsec-ElectronIdentification}, and pass the HLT for each channel, respectively. The purity of top pair events is then improved by imposing a further set of selection requirements taken from the recommended top reference selection \cite{TOPEGM1}. The selection requirements for a ``tight" electron are as follows:
 
 \begin{itemize}
-	\item Passes a p$_T$ threshold of > 20 \GeV.
-	\item Lies within the pseudorapidity region $|\eta| < 2.5$, excluding the EB-EE transition region $1.4442 < |\eta| < 1.5660$.
-	\item The transverse IP of the electron (GSF) track with respect to the first offline primary vertex must be less than 0.04 cm. 
-	\item Combined relative Particle Flow (PF) $\rho$ corrected isolation in cone 0.3 less than 0.15.
-	\item Trigger version of electron multivariate discriminator Trigger MVAID greater than 0.5.
-	\item Conversion rejection: there should be no extra tracks pointing in the same direction.
+	\item Electrons must satisfy a p$_T$ threshold of > 20 \GeV.
+	\item Electrons must lie within the pseudorapidity region $|\eta| < 2.5$, excluding the EB-EE transition region $1.4442 < |\eta| < 1.5660$;
+	\item The transverse IP of the electron (GSF) track with respect to the first offline primary vertex must be less than 0.04 cm; 
+	\item The combined relative Particle Flow (PF) $\rho$-corrected isolation in a cone of radius 0.3 must be less than 0.15;
+	\item The trigger version of the electron multivariate discriminator Trigger MVAID must be greater than 0.5;
+	\item Conversion rejection: there should be no extra tracks pointing in the same direction;
 	\item The ratio of energy deposited in the HCAL over the energy deposited in the ECAL to be less than 0.05.
 \end{itemize} 
 
-For electrons, an additional identification process is included, which uses a multivariate analysis to combine the information of several variables to produce a discrimination value between -1 and 1, such that the greater the number the more likely the event is to be an electron, (as described in Section \ref{subsec-ElectronIdentification}). Depending on whether the HLT requires an electron or not, a different version of the discriminant is used. 
+For electrons, an additional identification process is included, which uses a multivariate analysis to combine the information from several variables to produce a discriminator value between -1 and 1, such that the greater the number the more likely the object is to be an electron (as described in Section \ref{subsec-ElectronIdentification}). Depending on whether the HLT requires an electron or not, a different version of the discriminant is used. 
 
-One of the main criteria for lepton selection is the requirement of isolation. Generally, we define the isolation to be the sum of the p$_T$ of the reconstructed objects within a cone by which we define the radius, and then diving by the p$_T$ of the object. If we find that this produced a small number, then we say that the object is isolated. We must, however, include the effect of event PU into the calculation of isolation, and thus we introduce a correction factor. We are able to remove charged hadron tracks from the isolation sum if they do not originate from the event's primary vertex. For the case of neutral hadrons and photons which originate from PU, an effective area is defined for the electron and then an average energy is subtracted over this area. The effective area is extended into the ECAL due to the emittance of Bremsstrahlung radiation. For the case of electrons, we can define the isolation as so
+One of the main criteria for lepton selection is the requirement of isolation. Generally, the isolation is defined to be the sum of the p$_T$ of the reconstructed objects within a cone by which we define the radius, and then dividing by the p$_T$ of the object. If it is found that this produced a small number, then it is said that the object is isolated. It is necessary to include the effect of event PU into the calculation of isolation, and thus introduce a correction factor. It is then possible to remove charged hadron tracks from the isolation sum if they do not originate from the event's primary vertex. For the case of neutral hadrons and photons that originate from PU, an effective area is defined for the electron and then an average energy is subtracted over this area. For electrons, the isolation is defined as follows:
 
 \begin{equation} \label{eq-RelativeIsolation}
 I_{\rho} = \frac{I_{ChargedHadron}+max\left(I_{NeutralHadron} + I_{\gamma} - \rho \cdot Eff.Area_{electron}, 0 \right)}{p_T}
 \end{equation}
 
-such that $I_{ChargedHadron}$, $I_{NeutralHadron}$, and $I_{\gamma}$ are the are the isolation cones with a fixed radius of $\Delta R = 0.3$ containing the energy deposits for each category of particle; charged hadron, neutral hadron, and photon isolation. The $\rho$ and $Eff.Area_{electron}$ parameters are the energy density of the event and the effective area for the electron which is calculated by taking the $\eta_{SC}$ and electron p$_T$. 
+such that $I_{ChargedHadron}$, $I_{NeutralHadron}$, and $I_{\gamma}$ are the are the isolation cones with a fixed radius of $\Delta R = 0.3$ containing the energy deposits for each category of particle: charged hadron, neutral hadron, and photon. The $\rho$ and $Eff.Area_{electron}$ parameters are the energy density of the event and the effective area for the electron which is calculated by taking the supercluster pseudorapidity $\eta_{SC}$ and electron p$_T$. 
 
-When a photon produced in collisions interacts with the detector material of the inner tracker it can pair-produce two electrons, thus mimicking the signature of an electron. The false signature has been calculated to represent a large source of fake electrons. The CMS EGamma working group have developed two methods in order to mitigate the fake electron signatures from the hard scattering process: measuring missing hits within the tracker system and measuring associated secondary tracks. The first technique measures the number of hits in the layers of the tracker and looks for any missing hits in the electrons associated track. If there are any missing hits, then the electron is considered as converted and discarded. The second method requires a secondary electron/positron track such that it reconstructs the pair under a certain criteria. If a second track is not found to be within 0.02 cm in the $r - \phi$ plane and the $\cot\theta$ differs by less than 0.02 then the electron is considered a conversion. 
+When a photon produced in collisions interacts with the detector material of the inner tracker it can pair-produce two electrons, thus mimicking the signature of an electron: this is known as a conversion. This has been found to represent a large source of fake electrons. The CMS EGamma working group have developed two methods in order to mitigate this effect: measuring missing hits within the tracker system and measuring associated secondary tracks. The first technique measures the number of hits in the layers of the tracker and looks for any missing hits in the electron's associated track. If there are any missing hits, then the electron is considered to be a conversion, and is discarded. The second method requires a secondary electron/positron track such that it reconstructs the pair under a certain criteria: if that second track is not found to be within 0.02 cm in the $r - \phi$ plane and the $\cot\theta$ between the two tracks differs by less than 0.02 then the electron is considered a conversion. 
 
-We define a set of loose electron candidates by applying the recommended cuts as for our signal electrons but with less stringent requirements, such that our signal electrons are a subset of the loose electrons. The difference between loose and signal electrons is given by a p$_T$ cut of $> 10 \GeV$, non-triggering ID greater than zero, and several other cuts which are implemented for the identification of signal electrons are not included for loose. The \textbf{loose electrons} are defined to have the following cuts:
+A set of loose electron candidates is defined by applying the recommended cuts as for signal electrons but with less stringent requirements, such that the signal electrons are a subset of the loose electrons. \textbf{Loose electrons} are defined to have the following cuts:
 
 \begin{itemize}
-	\item Transverse momentum $p_T$ greater than 10 GeV
-	\item Absolute value of pseudorapidity less than 2.5
-	\item Combined relative Particle Flow (PF) $\rho$ corrected isolation in cone 0.3 less than 0.15
-	\item Trigger version of electron multivariate discriminator Non-Trigger MVAID greater than 0
+	\item Transverse momentum $p_T$ greater than 10 GeV;
+	\item Absolute value of pseudorapidity less than 2.5;
+	\item Combined relative Particle Flow (PF) $\rho$ corrected isolation in cone 0.3 less than 0.15;
+	\item Trigger version of electron multivariate discriminator: Non-Trigger MVAID greater than 0.
 \end{itemize}
 
 \subsection{Muons}
 
-For our \textbf{signal muons}, once they have passed PF selection as described in Section \ref{subsec-MuonReconstruction}, additional cuts taken from the recommended muon physics object group (POG) \cite{TOPMUO1} are imposed as follows:
+For the \textbf{signal muons}, once they have passed the PF selection described in Section \ref{subsec-MuonReconstruction}, additional requirements taken from the recommended Muon Physics Object Group (POG) \cite{TOPMUO1} are imposed as follows:
 
 \begin{itemize}
-	\item Transverse momentum p$_T$ greater than 20 \GeV.
-	\item Lies within the pseudorapidity region $|\eta| < 2.4$, excluding the EB-EE transition region $1.4442 < |\eta| < 1.5660$.
-	\item Combined relative Particle Flow (PF) $\rho$ corrected isolation in cone 0.4 less than 0.2
-	% \item At least 5 hits in the tracker (with at least one coming from the pixel detector)
+	\item Transverse momentum p$_T$ greater than 20 \GeV;
+	\item Muons must lies within the pseudorapidity region $|\eta| < 2.4$, excluding the EB-EE transition region $1.4442 < |\eta| < 1.5660$;
+	\item The combined relative Particle Flow (PF) $\rho$-corrected isolation in cone 0.4 must be less than 0.2;
+	% \item at least 5 hits in the tracker (with at least one coming from the pixel detector)
 	% \item At least one hit in the muon detector
-	\item Identified as a particle flow muon
-	\item Identified as both a tracker and global muon
+	\item Identified as a particle flow muon;
+	\item Identified as both a tracker and global muon.
 \end{itemize}
 
-The analogous relative isolation for the signal muon candidates is pileup correction and much less complicated to compute. The technique is known as $\Delta \beta$ correction and removes the neutral hadron and photon isolation from the isolation sum within a fixed cone of radius $\Delta R = 0.4$. The relative isolation can be computed as so 
+The relative isolation for the signal muon candidates is pileup correction, which is much less complicated to compute than electron relative isolation. The technique for computing muon relative isolation by way of pileup correction is known as $\Delta \beta$ correction and removes the neutral hadron and photon isolation from the isolation sum within a fixed cone of radius $\Delta R = 0.4$. The relative isolation for muons can be computed as follows:
 
 \begin{equation}
 I_{\Delta \beta} = \frac{I_{ChargedHadron} + max\left(I_{NeutralHadron} + I_{\gamma} - 0.5 \cdot I_{Pileup}, 0 \right)}{p_T}
 \end{equation}
 
-where the $I_{Pileup}$ parameter is the neutral hadron energy within the cone, and the factor of 0.5 is a rough estimation of the ratio of neutral hadron to charged hadron in pileup events. We categorise a muon as being isolated if the isolation sum is less than $I_{\Delta \beta} < 0.2$ within an isolation cone of $\Delta R = 0.4$. 
+where the $I_{Pileup}$ parameter is the neutral hadron energy within the cone, and the factor of 0.5 is a rough estimate of the ratio of neutral hadron to charged hadron in pileup events. Muons are categorised as being isolated if it satisfies $I_{\Delta \beta} < 0.2$ within an isolation cone of $\Delta R = 0.4$. 
 
-The production of muons from inn-flight decays is found to be much more prominent in data than is modelled in simulation. This results in a number of fake muons being recorded. In order to account for the number of fakes, the implementation of further cuts is required such that at least one hit is required in each of the pixel detector and muon detectors, and at least 6 hits recorded in the inner tracking system with two corresponding hits in the outer muon system.  
+The production of muons from in-flight decays is found to be much more prominent in data than in simulation. This results in a number of fake muons being recorded. In order to account for the number of fakes, the implementation of further selection requirements is needed, such that at least one hit is required in each of the pixel detector and muon detector, and that at least 6 hits are recorded in the inner tracking system, with two corresponding hits in the outer muon system (the drift tubes).  
 
-\textbf{Loose Muons} are selected from PF muons failing the muon selection that have, and are selected to have less severe requirements as listed below:
+\textbf{Loose Muons} are selected from PF muons failing the muon selection that have, and are selected to have, less severe requirements as listed below:
 
 \begin{itemize}
-	\item Transverse momentum $p_T$ greater than 10 GeV
-	\item Absolute value of pseudorapidity less than 2.5
-	\item Combined relative Particle Flow (PF) $\rho$ corrected isolation in cone 0.4 less than 0.2
+	\item Transverse momentum $p_T$ greater than 10 GeV;
+	\item Absolute value of pseudorapidity less than 2.5;
+	\item Combined relative Particle Flow (PF) $\rho$ corrected isolation in cone 0.4 less than 0.2;
 	% \item At least 5 hits in the tracker (with at least one coming from the pixel detector)
 	% \item At least one hit in the muon detector
-	\item Identified as a particle flow muon
-	\item Identified as both a tracker and global muon
+	\item Identified as a particle flow muon;
+	\item Identified as both a tracker and global muon.
 \end{itemize}
 
 Dilepton kinematic and mass distributions can be seen in Figure \ref{subsec-leptonPlots}.
@@ -189,24 +189,24 @@ Dilepton kinematic and mass distributions can be seen in Figure \ref{subsec-lept
 
 \section{Jet Selection and b-tag Requirements} \label{sec-JetSelection}
 
-Jets are reconstructed with the PF AK5 algorithm, anti-$k_T$ with jet size parameter (R) of 5 in the jet reconstruction model, and the following selections are made (PF loose Jet ID). Before applying any selection the following corrections are made to account for imperfect jet energy measurement: Jet Energy Scale correction, and Jet Energy Resolution smearing, as described in Section \ref{subsec-JetReconstruction}. After jets are identified and reconstructed, the following set of cuts are implemented with the requirements:
+Jets are reconstructed with the AK5 PF algorithm, which is the anti-$k_T$ algorithm with jet size parameter (R) of 5 in the jet reconstruction model. Before applying any selection the following corrections are made to account for imperfect jet energy measurement: Jet Energy Scale correction and Jet Energy Resolution smearing, as described in Section \ref{subsec-JetReconstruction}. After jets are identified and reconstructed, the following set of selection requirements are applied:
 
 \begin{itemize}
-	\item Transverse momentum greater than 30 GeV
-	\item Absolute value of pseudorapidity less than 2.4
-	\item Number of constituents greater than 1
-	\item Charge multiplicity greater than 0
-	\item Neutral hadron fraction of energy less than 0.99
-	\item Neutral electromagnetic energy fraction less than 0.99
-	\item Charged EM energy fraction less than 0.99
-	\item Charged hadron energy fraction greater than 0
+	\item Transverse momentum greater than 30 GeV;
+	\item Absolute value of pseudorapidity less than 2.4;
+	\item Number of constituents greater than 1;
+	\item Charge multiplicity greater than 0;
+	\item Neutral hadron fraction of energy less than 0.99;
+	\item Neutral electromagnetic energy fraction less than 0.99;
+	\item Charged EM energy fraction less than 0.99;
+	\item Charged hadron energy fraction greater than 0.
 \end{itemize}
 
-These cuts help to avoid picking detector noise and ECAL spikes as jets. We also impose a selection criterion that if a lepton lies within a cone of $\Delta R = 0.3$, then the lepton is included within the jet calculation. CMS improves the quality of reconstructed jets by the requirement that the energy deposits from a jet are recorded in both the ECAL and HCAL, where jets that manifest from anomalous deposits of energy in just one of the sub-detector are able to be removed from the sample \cite{CMS-PAS-JME-10-003}.
+These selection requirements help to avoid picking up detector noise and ECAL spikes as jets. A selection criterion is also imposed such that if a lepton lies within a cone of $\Delta R = 0.3$ then the lepton is included within the jet calculation. CMS improves the quality of reconstructed jets by the requirement that the energy deposits from a jet are recorded in both the ECAL and HCAL, where jets that manifest from anomalous deposits of energy in just one of the sub-detector are able to be removed from the sample \cite{CMS-PAS-JME-10-003}.
 
- \textbf{B-tagged jets} are identified with the Combined Secondary Vertex b-tagging algorithm using the loose working point (CSVL). Event re-weighting is applied to correct for the difference in b-tagging efficiency in data and simulation as explained in Section \ref{sec-SimulatedEventsCorrection}. The loose working point refers to a b-tagging efficiency of  and a misidentification probability of 24.4\%.
+ \textbf{B-tagged jets} are identified with the Combined Secondary Vertex b-tagging algorithm using the loose working point (CSVL). Event re-weighting is applied to correct for the difference in b-tagging efficiency between data and simulation as explained in Section \ref{sec-SimulatedEventsCorrection}. The loose working point refers to a b-tagging misidentification probability of 24.4\%.
 
- In each channel the requirement of at least 2 good jets, where a good jet passes all the aforementioned selection requirements, and at least one b-jet. By applying these requirements the contribution from the most prominent backgrounds, $t\bar{t}$ and events with additional loose jets, are removed. 
+ In each decay channel is the requirement of at least 2 good jets, where a good jet passes all the aforementioned selection requirements, where at least one of the jets is a b-tagged jet. By applying these requirements the contribution from the most prominent backgrounds, $t\bar{t}$ and events with additional loose jets, are removed. 
 
 \begin{figure}
 \includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/all_jet_pT_splitTTbar_ratio.pdf}
@@ -220,7 +220,7 @@ These cuts help to avoid picking detector noise and ECAL spikes as jets. We also
  
 \section{Missing Transverse Energy} \label{sec-METSelection}
 
-The missing transverse energy (MET) selection cut is implemented only within the di-muon and di-electron channels as the mixed channel is better defined with different flavour quarks in the final state, and therefore less likely to be misreconstructed in the detector. Due to the small cross-section of the $t\bar{t}+\gamma$ decay, and the much smaller branching ratio of the dilepton channel relative to the semileptonic channel, a MET cut of $>20$ GeV is used in order to increase statistics. Figure \ref{fig-METplots} shows the MET, the azimuthal angle $\phi$ of the MET, and the MET significance, where the MET significance assesses on an event-by-event basis the likelihood that an observed MET is consistent with a fluctuation from zero due to detector-related limitations, such as finite measurement resolution. 
+The missing transverse energy (MET) selection requirement is implemented only within the di-muon and di-electron channels as the mixed channel is better defined such that different flavour quarks in the final state reduce the contribution from Drell-Yann process considerably, and therefore less likely to be misreconstructed in the detector. Due to the small cross-section for the $t\bar{t}+\gamma$ process, and the much smaller branching ratio of the dilepton channel relative to the semileptonic channel, the requirement of $>20$ GeV, compared to the nominal 40 GeV, is imposed in order to increase statistics. Figure \ref{fig-METphiSig} shows the MET, the azimuthal angle $\phi$ of the MET, and the MET significance, where the MET significance assesses on an event-by-event basis the likelihood that an observed MET is consistent with a fluctuation from zero due to detector-related limitations, such as finite measurement resolution. The distributions for the other variables can be seen in Figure \ref{subsec-METPlots}.
 
 \begin{figure}
 \includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/MET/patType1CorrectedPFMet/MET_splitTTbar_ratio.pdf}
@@ -229,7 +229,7 @@ The missing transverse energy (MET) selection cut is implemented only within the
 \includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/MET/patType1CorrectedPFMet/METsignificance_splitTTbar_ratio.pdf}
 \end{center}
 \caption{The missing transverse energy distributions in terms of missing energy, azimuthal angle $\phi$, and MET significance for the $\mu^{+}\mu^{-}$ channel only after $t\bar{t}$ selection.}
-\label{fig-METplots}
+\label{fig-METphiSig}
 \end{figure}
 
 \begin{figure}
@@ -239,11 +239,9 @@ The missing transverse energy (MET) selection cut is implemented only within the
 \includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Photon_AbsEta_splitTTbar_ratio.pdf}\\
 \includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Photon_ET_splitTTbar_ratio.pdf}
 \includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Photon_AbsEta_splitTTbar_ratio.pdf}
-\caption{Comparison of the E$_{T}$ and $|\eta|$ distributions in data and simulation in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels after $t\bar{t}$ selection.}
+\caption{Comparison of the photon E$_{T}$ and $|\eta|$ distributions in data and simulation in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels after $t\bar{t}$ selection.}
 \label{fig-ttbarETandEta}
 \end{figure}
-
-The distributions for the other variables can be seen in Figure \ref{subsec-METPlots}.
 
 \begin{figure} 
 %\begin{center}
@@ -343,26 +341,17 @@ $\geq$ 1 Good Photon Postsel & 38 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 21 $\p
 \caption{The number of expected events in MC and events observed in data for the $e\mu$ channel, before the fitting process, including statistical uncertainties.}
 \end{sidewaystable}
 
-% \begin{figure}
-% \begin{center}
-% \includegraphics[width=0.5\textwidth]{Plots/}\includegraphics[width=0.5\textwidth]{Plots/}
-% \includegraphics[width=0.5\textwidth]{Plots/}\includegraphics[width=0.5\textwidth]{Plots/}
-% \end{center}
-% \caption{}
-% \end{figure}
-
 \section{Selection of $t\bar{t}+\gamma$ events} \label{sec-postselection}
 
-From the set of $t\bar{t}$ preselected events in Section \ref{sec-preselection}, we select only events with a photon candidate present.  Fiducial requirements are implemented as cuts in $\abs{\eta}$ and $E_T$. CMS recommended cuts are added for fiducialisation and photon selection (loose cut-based photon ID 2012 with particle flow based isolation, \cite{CutBasedIsolation2012}).In order to suppress FSR from final state particles a $\Delta R$ cut of photons between jets and leptons is applied. All simulated data is scaled to the luminosity of the recorded data used.  
+From the set of $t\bar{t}$ preselected events in Section \ref{sec-preselection}, only events with a photon candidate present are selected.  Fiducial requirements are implemented in both $\abs{\eta}$ and $E_T$. CMS recommended selection requirements are implemented and photon selection (loose cut-based photon ID 2012 with particle flow-based isolation, \cite{CutBasedIsolation2012}).In order to suppress Final State Radiation (FSR), a $\Delta R$ requirement for photons between jets and leptons is applied.
 
-The fiducial cuts on the photon are given as:
+The fiducial cuts on the photon are given as follows:
 
 \begin{description}
 
-\item[Transverse energy] A transverse energy cut of $E_T > 25$ GeV is implemented in order to suppress the numerous low energy fake photons and photons from other vertices other than the primary
-vertex. The transverse energy distribution for each decay channel can be seen in Figure.\ref{fig-photonSelectionETandEta}.
+\item[Transverse energy] A transverse energy cut of $E_T > 25$ GeV is implemented in order to suppress the numerous low energy fake photons and photons from vertices other than the primary vertex. The transverse energy distribution for each decay channel can be seen in Figure \ref{fig-photonSelectionETandEta}, where we observe a good agreement between data and MC.
 
-\item[Pseudorapidity] An acceptance cut on the fiducial region of just the CMS ECAL barrel (EB), $\abs{\eta} < 1.4442$, is applied to verify that the electromagnetic shower of the photon will be fully reconstructed. We will not be including the ECAL Endcap (EE) in this analysis due to the difficulty in identifying a photon thus giving very low statistics.
+\item[Pseudorapidity] An acceptance cut on the fiducial region of just the CMS ECAL barrel (EB), $\abs{\eta} < 1.4442$, is applied to ensure that the electromagnetic shower of the photon will be fully reconstructed. The ECAL Endcap (EE) is not included in this analysis due to the difficulty in identifying a photon in this region.
 
 \end{description}
 
@@ -381,30 +370,30 @@ The fiducial variable distributions are shown in Figure \ref{fig-photonSelection
 \label{fig-photonSelectionETandEta}
 \end{figure}
 
-\subsection{Cut based photon ID}
+\subsection{Cut based photon identification}
 
-The cut-based photon isolation cuts are taken from the recommended values \cite{CutBasedIsolation2012}, with the inclusion of supercluster footprint-removed isolation (see Section \ref{subsec-SCFR}), and are descirbed below.
+The cut-based photon isolation requirements are taken from the recommended values \cite{CutBasedIsolation2012}, with the inclusion of supercluster footprint-removed isolation (see Section \ref{subsec-SCFR}). They are described below.
 
 \begin{description}
 
-\item[Electron Conversion Veto] A boolean to help distinguish an electron from a photon. We should not see a track seed in the pixel detector when identifying a photon. 
+\item[Electron Conversion Veto] A boolean to help distinguish an electron from a photon. A track seed should not be seen in the pixel detector when identifying a photon. 
 
-\item[Tower Based H/E] The ratio of energy deposited in the Hadronic Calorimeter (HCAL) divided by the fraction of energy deposited in the Electromagnetic Calorimeter (ECAL). This cut is introduced with the requirement that the energy ratio should be less than 5\%.
+\item[Tower Based H/E] The ratio of energy deposited in the HCAL divided by the fraction of energy deposited in the ECAL. The ratio is required to be less than 5\%.
 
-\item[Shower Width $\sigma_{i\eta i\eta}$] The shower shape weighted by energy, defined as: 
+\item[Shower Width $\sigma_{i\eta i\eta}$] The shower shape weighted by energy, is defined as: 
 
 \begin{equation}
-\sigma_{i\eta i\eta} = \left(\frac{\sum(\eta_i - \bar{\eta})\omega_i}{\sum\omega_i}\right)^{1/2};  \bar{\eta} = \frac{\sum\eta_i\omega}{\sum\omega_i};  \omega_i = \text{max}\left(0, 4.7 +
-\text{log}\frac{E_i}{E_{5x5}}\right).
+\sigma_{i\eta i\eta} = \left(\frac{\sum(\eta_i - \bar{\eta})\omega_i}{\sum\omega_i}\right)^{1/2}; \quad \bar{\eta} = \frac{\sum\eta_i\omega}{\sum\omega_i}; \quad  \omega_i = \text{max}\left(0, 4.7 +
+\text{log}\frac{E_i}{E_{5\times5}}\right).
 \end{equation}
 
 This is a key variable in this analysis and will be discussed in greater detail in Section \ref{subsec-BackgroundEstimation}.
 
-\item[Charged Hadron Isolation] The isolation of charged hadrons with energy density correction, $\rho$, applied. Cut given as $I_{Char.had} < 1.5 + 0.04*E_T(\gamma)$ GeV. 
+\item[Charged Hadron Isolation] The isolation of charged hadrons with energy density correction, $\rho$, applied. The requirement is given as $I_{Char.had} < 1.5 + 0.04*E_T(\gamma)$ GeV. 
 
-\item[Neutral Hadron Isolation] The isolation of neutral hadrons with energy density correction , $\rho$, applied. Cut given as $I_{Neut.had} < 1.0 + 0.005*E_T(\gamma)$ GeV. 
+\item[Neutral Hadron Isolation] The isolation of neutral hadrons with energy density correction , $\rho$, applied. The requirement is given as $I_{Neut.had} < 1.0 + 0.005*E_T(\gamma)$ GeV. 
 
-\item[Photon Isolation] The isolation of the photon $I_{\gamma}$, with energy density correction applied. Cut given as $I_{\gamma} < 1.0 + 0.005*E_T(\gamma)$ GeV.
+\item[Photon Isolation] The isolation of the photon, $I_{\gamma}$, with energy density correction applied. The requirement is given as $I_{\gamma} < 1.0 + 0.005*E_T(\gamma)$ GeV.
 
 
 \item[Supercluster footprint-removed Charged Hadron Isolation] The supercluster footprint-removed isolation of charged hadrons with energy density correction, $\rho$, applied.
@@ -418,18 +407,18 @@ as $I_{\gamma} < 1.0 + 0.005*E_T(\gamma)$ GeV.
 
 \end{description}
 
-It must be noted that only supercluster footprint-removed charged hadron isolation is used in this analysis, where PF isolation is used for neutral hadron and photon isolation as described above. 
+It must be noted that only supercluster footprint-removed charged hadron isolation is used in this analysis, whereas PF isolation is used for neutral hadron and photon isolation as described above. This is because it is used in the modelling of background events.
 
 \subsection{Final state radiation suppression}
 
-It is crucial that initial and final state radiation (ISR/FSR) is modelled correctly for this analysis as photons from initial and final state radiation are not considered as signal and we therefore implement cuts in $\eta$ and $\phi$ to reduce these events. The definition of isolation has been modified from the recommended values in order to make the data-driven estimate of the selection purity more robust.
+It is crucial that initial and final state radiation (ISR/FSR) is modelled correctly for this analysis as photons from initial and final state radiation are not considered as signal and therefore  $\Delat R$  constraints are applied to remove these events. The definition of isolation has been modified from the recommended values in order to make the data-driven estimate of the selection purity more robust. The requirements are as follows:
 
 \begin{description}
-\item[$\Delta R(\gamma, leptons)$] In order to diminish FSR in final state leptons, e.g photons radiated off high $p_T$ muons, a minimum distance criterion in the $\eta - \phi$ plane is implemented. The cut is given as $\Delta R(\gamma, leptons) > 0.3$.
+\item[$\Delta R(\gamma, leptons)$] In order to reduce FSR in final state leptons, e.g photons radiated off high $p_T$ muons, a minimum distance criterion in the $\eta - \phi$ plane is implemented. The requirement is given as $\Delta R(\gamma, leptons) > 0.3$.
 
-\item[$\Delta R(\gamma, jets)$] In order to reduce FSR in final state partons a minimum distance criterion in the $\eta - \phi$ plane is implemented. The cut is given as $\Delta R(\gamma, jets) > 0.3$.
+\item[$\Delta R(\gamma, jets)$] In order to reduce FSR from final state partons. A requirement of $\Delta R(\gamma, jets) > 0.3$ is applied, where $\Delta R(\gamma, jets)$ is the angular separation between the photon and the nearest jet.
 
-\item[$\Delta R(leptons, jets)$] In order to reduce FSR in final state partons a minimum distance criterion in the $\eta - \phi$ plane is implemented. The cut is given as $\Delta R(leptons, jets) > 0.3$.
+\item[$\Delta R(leptons, jets)$] In order to reduce FSR from final state partons. A requirement of $\Delta R(leptons, jets) > 0.3$ is applied, where $\Delta R(leptons, jets)$ is the angular separation between the leptons and the nearest jet.
 \end{description}
 
 A significance test was performed in an attempt to optimise the $\Delta R$ cut between final state leptons and jets, however this proved inconclusive due to an initial cut of $\Delta R > 0.1$ at generator level. Figure \ref{fig-photonDRjets} shows the $\Delta R$ distributions after photon selection.
@@ -449,35 +438,35 @@ The distributions for the other photon variables can be seen in Figure \ref{subs
 
 \subsection{Supercluster footprint-removal for photon isolation} \label{subsec-SCFR}
 
-The $t\bar{t}+\gamma$ analysis uses a method of removing the photon shower energy deposit, or ``footprint", from the isolation cone in order to remove the energy deposits of the selected photon from the isolation sum, and thus minimise correlation the between shower shape and isolation components in our signal process --- supercluster footprint removal (SCFR). With this method the footprint is, effectively, cleaned so that the isolation sum is not biased from the presence of the photon at the centre of the cone. Shower-shape variables, defined within the supercluster, are then decoupled from the isolation computation, defined outside of the supercluster. When the footprint of the photon has finally been removed, the isolation sum for prompt photons is due only to pileup and underlying events. The process calculates each isolation component individually, however we only consider the charged hadron component of the isolation sum using this technique, which is then used to model our background and signal processes. This method was first implemented as a technique upon measuring the diphoton cross-section with 7 TeV data \cite{diffxsectdiphoton}. The main features of this module are improvement in the agreement between data and MC for ECAL detector-based isolation, better discriminating power against the misidentification of photons, and it allows us to use a fully data-driven method for constructing our template fit.
+The $t\bar{t}+\gamma$ analysis uses a method of removing the photon energy deposit, or ``footprint", from the isolation cone in order to remove the energy deposits of the selected photon from the isolation sum, and thus minimise correlation the between shower shape and isolation components in our signal process --- supercluster footprint removal (SCFR). With this method the footprint is, effectively, cleaned so that the isolation sum is not biased from the presence of the photon at the centre of the cone. Shower-shape variables, defined within the supercluster, are then decoupled from the isolation computation, defined outside of the supercluster. When the footprint of the photon has finally been removed, the isolation sum for prompt photons is due only to pileup and underlying events. The process calculates each isolation component individually, however only the charged hadron component of the isolation sum is considered using this technique, which is then used to model our background and signal processes. This method was first used in the measurement of the diphoton cross-section with 7 TeV data \cite{diffxsectdiphoton}. Usage of this results in an improvement in the agreement between data and MC for ECAL detector-based isolation, better discriminating power against the misidentification of photons, and it allows the use of a fully data-driven method for constructing the template fit.
 
-We define photon isolation as the sum of the transverse momenta of all particles falling within the isolation cone surrounding the photon candidate. We define the isolation cone to be within a $\Delta R < 0.3$, where $\Delta R = \sqrt{(\Delta\eta)^2+(\Delta\phi)^2}$. The momentum of the prompt photon should not contribute to the isolation sum, and thus particles found close to the photon footprint are not included within the sum. 
+The photon isolation is defined as the sum of the transverse momenta of all particles falling within the isolation cone surrounding the photon candidate. The isolation cone is defined to be within a $\Delta R < 0.3$, where $\Delta R = \sqrt{(\Delta\eta)^2+(\Delta\phi)^2}$. The momentum of the prompt photon should not contribute to the isolation sum, and thus particles found close to the photon footprint are not included within the sum. 
 
-SCFR is a purely geometrical procedure which is computed as follows:
+SCFR is a purely geometrical procedure that is computed as follows:
 
 \begin{description}
-	\item[Step 1]: Propagate the PF candidate trajectory from the primary vertex to the surface of the ECAL. We must take into account the magnetic field for charged hadron candidates. The impact parameter, $d_z$, is calculated in the z direction with respect to the primary vertex, neglecting the transverse distance, $d_{xy}$. 
-	\item[Step 2]: If the propagated PF candidate is found to hit the surface of a crystal lying within the supercluster, then the candidate is therefore removed from the isolation sum, as shown in Figure \ref{fig-SCFR}. The PF candidate is allowed to fall within a volume of 25\% of the crystal size around the crystal, in order to account for the fact that the PF candidate's energy deposit has a finite extension in the ECAL, and thus has a reasonably large effect at the edges of the supercluster. 
+	\item[Step 1]: Propagate the PF candidate trajectory from the primary vertex to the surface of the ECAL, taking into account the magnetic field when considering charged hadron candidates. The impact parameter, $d_z$, is calculated in the z-axis direction with respect to the primary vertex, neglecting the transverse distance, $d_{xy}$. 
+	\item[Step 2]: If the propagated PF candidate is found to hit the surface of a crystal lying within the supercluster, then the candidate is removed from the isolation sum, as shown in Figure \ref{fig-SCFR}. The PF candidate is allowed to fall within a volume of 25\% of the crystal size around the crystal, in order to account for the fact that the PF candidate's energy deposit has a finite extension in the ECAL, and thus has a reasonably large effect at the edges of the supercluster. 
 \end{description}
 
-This is such that the supercluster shape defines the region which is excluded from the isolation cone in each event.
+This ensures that such that the supercluster shape defines the region that is excluded from the isolation cone in each event.
 
-In the standard particle flow algorithm isolation is calculated on an individual basis for PF candidates divided into three groups: Charged hadrons, neutral hadrons, and photons. This procedure carries potential pit-falls, listed below.
+In the standard particle flow algorithm isolation is calculated on an individual basis for PF candidates can be divided into three groups: Charged hadrons, neutral hadrons, and photons. This procedure carries potential pit-falls, as described below:
 
 \begin{itemize}
-	\item When computing the sum of isolation, any energy deposit that is not associated with a reconstructed particle is not included within the sum.  
+	\item When computing the isolation sum, any energy deposit that is not associated with a reconstructed particle is not included within the sum.  
 	\item When reconstructing a photon, its energy may be dispersed over a large radius within the detector, and thus reconstructed as several particles. This will greatly affect the isolation of the photon.
 \end{itemize}
 
-This does not have too much of an impact when using the standard cut-based particle IDs, such as used in this analysis, however as we are interested in the isolation profile shape some improvements can be made. 
+This does not have too much of an impact when using the standard cut-based particle identification methods, such as those used in this analysis. However, as we are interested in the isolation profile shape, some improvements must be made. 
 
-supercluster footprint-removed isolation deals with PF candidates, whereas PF isolation deals with identified particles. This reduces the probability for the first pit-fall to happen. The second pit-fall arises due to the leakage of energy from the photon into the isolation cone around the supercluster. Therefore, a different method for defining the isolation cone is implemented to overcome this problem, whereby summing the transverse momentum of particle flow candidates that fall within the isolation cone, but which are not close to the supercluster in the ECAL. The $\eta$ and $\phi$ coordinates of the supercluster are calculated by checking the position of hits recorded, and if a PF candidate that has been propagated to the surface of the calorimeter lies within the supercluster, enlarged by 25\%, then the photon is not considered isolation and thus the candidate is not added to the isolation sum. The standard CMS implementation for energy density correction, $\rho$, is applied to the isolation to account for pileup. 
+Supercluster footprint-removed isolation is applied to PF candidates, whereas PF isolation is applied to identified particles. This reduces the probability for the first of these issues to occur. The second pit-fall is a result of the leakage of energy from the photon into the isolation cone around the supercluster. Therefore, a different method for defining the isolation cone must be implemented to overcome this problem.  Summing the transverse momentum of particle flow candidates that fall within the isolation cone, but which are not close to the supercluster in the ECAL. The $\eta$ and $\phi$ coordinates of the supercluster are calculated by checking the position of hits recorded in the tracker, and if a PF candidate that has been propagated to the surface of the calorimeter lies within the supercluster, enlarged by 25\%, then the photon is not considered isolation and thus the candidate is not added to the isolation sum. The standard CMS implementation for energy density correction, $\rho$, is applied to the isolation to account for pileup. 
 
 \begin{figure} 
 \begin{center}
 \includegraphics[width=0.4\textwidth]{Figures/RandomCone3.pdf}
 \end{center}
-\caption{Graphic representation of the PF candidate footprint (in red) from the primary interaction vertex, within the isolation cone (green). \cite{MarcoThesis}}
+\caption{Graphical representation of the PF candidate footprint (red) from the primary interaction vertex, within the isolation cone (green). \cite{MarcoThesis}}
 \label{fig-SCFR}
 \end{figure}
 
