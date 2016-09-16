@@ -202,7 +202,7 @@ Jets are reconstructed with the AK5 PF algorithm, which is the anti-$k_T$ algori
 	\item Charged hadron energy fraction greater than 0.
 \end{itemize}
 
-These selection requirements help to avoid picking up detector noise and ECAL spikes as jets. A selection criterion is also imposed such that if a lepton lies within a cone of $\Delta R = 0.3$ then the lepton is included within the jet calculation. CMS improves the quality of reconstructed jets by the requirement that the energy deposits from a jet are recorded in both the ECAL and HCAL, where jets that manifest from anomalous deposits of energy in just one of the sub-detector are able to be removed from the sample \cite{CMS-PAS-JME-10-003}.
+These selection requirements help to avoid picking up detector noise and ECAL spikes as jets. A selection criterion is also imposed such that if a lepton lies within a cone of $\Delta R = 0.3$ then the lepton is included within the jet calculation. CMS improves the quality of reconstructed jets by the requirement that the energy deposits from a jet are recorded in both the ECAL and HCAL, where jets that manifest from anomalous deposits of energy in just one of the sub-detector are able to be removed from the sample \cite{CMS-PAS-JME-10-003}. The jet transverse momentum, pseudorapidity, and number of jets in the di-muon channel can be seen in Figure \ref{fig-jetPlots}. All other variables for each decay channel can be seen in Section \ref{subsec-jetPlots}
 
  \textbf{B-tagged jets} are identified with the Combined Secondary Vertex b-tagging algorithm using the loose working point (CSVL). Event re-weighting is applied to correct for the difference in b-tagging efficiency between data and simulation as explained in Section \ref{sec-SimulatedEventsCorrection}. The loose working point refers to a b-tagging misidentification probability of 24.4\%.
 
@@ -232,6 +232,10 @@ The missing transverse energy (MET) selection requirement is implemented only wi
 \label{fig-METphiSig}
 \end{figure}
 
+\section{Comparison of data and simulation for $t\bar{t}$ selection}
+
+After implementing all of the aforementioned selection requirements for $t\bar{t}$ events, a comparison of the events from data and from simulation can be conducted in order to test the agreement between the two. Figure \ref{fig-ttbarETandEta} shows the photon transverse energy and absolute pseudorapidity for each of the decay channels, and it can be seen that, after all selection requirements have been introduced in both data and simulation, there is good agreement between data and simulation. 
+
 \begin{figure}
 \includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Photon_ET_splitTTbar_ratio.pdf}
 \includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Photon_AbsEta_splitTTbar_ratio.pdf}\\
@@ -242,104 +246,6 @@ The missing transverse energy (MET) selection requirement is implemented only wi
 \caption{Comparison of the photon E$_{T}$ and $|\eta|$ distributions in data and simulation in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels after $t\bar{t}$ selection.}
 \label{fig-ttbarETandEta}
 \end{figure}
-
-\begin{figure} 
-%\begin{center}
-\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/CutFlow/Log/TTbarMuMuRefSelection_splitTTbar_ratio.pdf}
-\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/CutFlow/Log/TTbarEERefSelection_splitTTbar_ratio.pdf} \\
-\begin{center}
-\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/CutFlow/Log/TTbarEMuRefSelection_splitTTbar_ratio.pdf}
-\end{center}
-\caption{Cutflow plots showing the number of events remaining after individual cuts are introduced, comparing distributions in data and simulation in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels.}
-\label{fig-CutFlow}
-\end{figure}
-
-\begin{sidewaystable}[h!]
-  \centering 
-%  \caption{Cut Flow table for the $\mu^+\mu^-$ selection.}
-%  \label{tab:mumu_cutflow}
-\resizebox{\columnwidth}{!} {
-
-\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
-\hline
-\multicolumn{14}{|c|}{\textbf{Cut Flow table for the $\mu^+\mu^-$ selection}} \\
-\hline
- & $t\bar{t}+\gamma$ & $t\bar{t} 0l$ & $t\bar{t} 1l$ & $t\bar{t} 2l$ & w+jets & z+jets & $W+\gamma$ & $Z+\gamma$ & diboson & single-t & qcd & all MC & data \\
- \hline
-Skim & 3418 $\pm$ 12 \ & 16912 $\pm$ 37 \ & 132676 $\pm$ 113 \ & 137147 $\pm$ 81 \ & 166712 $\pm$ 1559 \ & 1013494 $\pm$ 1639 \ & 10326 $\pm$ 166 \ & 73574 $\pm$ 208 \ & 13909 $\pm$ 30 \ & 27811 $\pm$ 339 \ & 16621473 $\pm$ 136970\ & 18217451 $\pm$ 136990 \ & 1885535 $\pm$ 1373 \\
-Cleaning and HLT & 952 $\pm$ 6 \ & 2925 $\pm$ 15 \ & 33828 $\pm$ 57 \ & 43049 $\pm$ 45 \ & 7927 $\pm$ 339 \ & 479975 $\pm$ 1117 \ & 321 $\pm$ 30 \ & 34586 $\pm$ 142 \ & 4920 $\pm$ 15 \ & 6677 $\pm$ 162 \ & 1389098 $\pm$ 19616\ & 2004257 $\pm$ 19652 \ & 1473970 $\pm$ 1214 \\
-Di-lepton Sel & 274 $\pm$ 3 \ & 0 $\pm$ 0 \ & 139 $\pm$ 4 \ & 20006 $\pm$ 30 \ & 32 $\pm$ 20 \ & 324348 $\pm$ 901 \ & 2 $\pm$ 2 \ & 21270 $\pm$ 110 \ & 3579 $\pm$ 13 \ & 992 $\pm$ 22 \ & 1976 $\pm$ 556\ & 372618 $\pm$ 1065 \ & 359665 $\pm$ 600 \\
-m(Z) veto & 245 $\pm$ 3 \ & 0 $\pm$ 0 \ & 117 $\pm$ 3 \ & 17856 $\pm$ 29 \ & 32 $\pm$ 20 \ & 63584 $\pm$ 430 \ & 2 $\pm$ 2 \ & 11378 $\pm$ 81 \ & 866 $\pm$ 8 \ & 886 $\pm$ 21 \ & 1601 $\pm$ 509\ & 96567 $\pm$ 672 \ & 89425 $\pm$ 299 \\
-$\geq$ 1 jet & 225 $\pm$ 3 \ & 0 $\pm$ 0 \ & 97 $\pm$ 3 \ & 17305 $\pm$ 28 \ & 32 $\pm$ 20 \ & 47361 $\pm$ 381 \ & 2 $\pm$ 2 \ & 8374 $\pm$ 70 \ & 755 $\pm$ 7 \ & 838 $\pm$ 20 \ & 368 $\pm$ 261\ & 75357 $\pm$ 469 \ & 69447 $\pm$ 264 \\
-$\geq$ 2 jets & 197 $\pm$ 3 \ & 0 $\pm$ 0 \ & 60 $\pm$ 2 \ & 16382 $\pm$ 27 \ & 32 $\pm$ 20 \ & 36544 $\pm$ 334 \ & 0 $\pm$ 0 \ & 6138 $\pm$ 60 \ & 636 $\pm$ 6 \ & 733 $\pm$ 19 \ & 368 $\pm$ 261\ & 61089 $\pm$ 430 \ & 56136 $\pm$ 237 \\
-$\slash{E_{T}}$ cut & 183 $\pm$ 3 \ & 0 $\pm$ 0 \ & 55 $\pm$ 2 \ & 15343 $\pm$ 26 \ & 32 $\pm$ 20 \ & 16589 $\pm$ 224 \ & 0 $\pm$ 0 \ & 2553 $\pm$ 38 \ & 399 $\pm$ 5 \ & 689 $\pm$ 18 \ & 0 $\pm$ 0\ & 35843 $\pm$ 231 \ & 33323 $\pm$ 183 \\
-$\geq$ 1 CSV b-tag & 167 $\pm$ 3 \ & 0 $\pm$ 0 \ & 44 $\pm$ 2 \ & 14090 $\pm$ 25 \ & 32 $\pm$ 20 \ & 6342 $\pm$ 145 \ & 0 $\pm$ 0 \ & 829 $\pm$ 23 \ & 169 $\pm$ 4 \ & 606 $\pm$ 17 \ & 0 $\pm$ 0\ & 22280 $\pm$ 151 \ & 20680 $\pm$ 144 \\\
-$\geq$ 1 Photon Presel & 162 $\pm$ 2 \ & 0 $\pm$ 0 \ & 35 $\pm$ 2 \ & 10336 $\pm$ 21 \ & 23 $\pm$ 17 \ & 4749 $\pm$ 131 \ & 0 $\pm$ 0 \ & 774 $\pm$ 23 \ & 123 $\pm$ 3 \ & 419 $\pm$ 14 \ & 0 $\pm$ 0\ & 16620 $\pm$ 137 \ & 14912 $\pm$ 122 \\
-$\geq$ 1 Good Photon Postsel & 17 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 11 $\pm$ 1 \ & 0 $\pm$ 0 \ & 9 $\pm$ 5 \ & 0 $\pm$ 0 \ & 27 $\pm$ 5 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0\ & 63 $\pm$ 7 \ & 36 $\pm$ 6 \\
-1 Good Photon Postsel & 16 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 11 $\pm$ 1 \ & 0 $\pm$ 0 \ & 10 $\pm$ 6 \ & 0 $\pm$ 0 \ & 30 $\pm$ 6 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0\ & 68 $\pm$ 9 \ & 36 $\pm$ 6 \\
-\hline
-\end{tabular}
-}
-\caption{The number of expected events in MC and events observed in data for the $\mu^+\mu^-$ channel, before the fitting process, including statistical uncertainties.}
-\end{sidewaystable}
-
-\begin{sidewaystable}[h!]
-  \centering
-%  \caption{Cut Flow table for the  $e^+e^-$ selection.}
-  %\label{tab:mumu_cutflow}
-\resizebox{\columnwidth}{!} {
-
-\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
-\hline
-\multicolumn{14}{|c|}{\textbf{Cut Flow table for the $e^+e^-$ selection}} \\
-\hline
- & $t\bar{t}+\gamma$ & $t\bar{t} 0l$ & $t\bar{t} 1l$ & $t\bar{t} 2l$ & w+jets & z+jets & $W+\gamma$ & $Z+\gamma$ & diboson & single-t & qcd & all MC & data\\
- \hline
-Skim & 3401 $\pm$ 12 \ & 16912 $\pm$ 37 \ & 132668 $\pm$ 113 \ & 136401 $\pm$ 80 \ & 166688 $\pm$ 1559 \ & 995825 $\pm$ 1613 \ & 10318 $\pm$ 166 \ & 72151 $\pm$ 204 \ & 13714 $\pm$ 30 \ & 27765 $\pm$ 339 \ & 16621534 $\pm$ 136970\ & 18197376 $\pm$ 136989 \ & 874451 $\pm$ 935 \\
-Cleaning and HLT & 500 $\pm$ 4 \ & 133 $\pm$ 3 \ & 4022 $\pm$ 20 \ & 23478 $\pm$ 32 \ & 8332 $\pm$ 350 \ & 336588 $\pm$ 910 \ & 994 $\pm$ 51 \ & 24409 $\pm$ 116 \ & 3811 $\pm$ 13 \ & 1729 $\pm$ 63 \ & 181955 $\pm$ 18817\ & 585950 $\pm$ 18842 \ & 628336 $\pm$ 793 \\
-Di-lepton Sel & 257 $\pm$ 3 \ & 0 $\pm$ 0 \ & 102 $\pm$ 3 \ & 16702 $\pm$ 27 \ & 211 $\pm$ 49 \ & 233172 $\pm$ 734 \ & 56 $\pm$ 11 \ & 16968 $\pm$ 94 \ & 2789 $\pm$ 11 \ & 805 $\pm$ 20 \ & 137 $\pm$ 137\ & 271199 $\pm$ 755 \ & 295843 $\pm$ 544 \\
-m(Z) veto & 232 $\pm$ 3 \ & 0 $\pm$ 0 \ & 87 $\pm$ 3 \ & 14912 $\pm$ 25 \ & 174 $\pm$ 44 \ & 50987 $\pm$ 366 \ & 54 $\pm$ 11 \ & 9457 $\pm$ 70 \ & 703 $\pm$ 6 \ & 729 $\pm$ 19 \ & 137 $\pm$ 137\ & 77473 $\pm$ 401 \ & 81793 $\pm$ 286 \\
-$\geq$ 1 jet & 206 $\pm$ 3 \ & 0 $\pm$ 0 \ & 80 $\pm$ 3 \ & 14241 $\pm$ 25 \ & 114 $\pm$ 35 \ & 39348 $\pm$ 328 \ & 45 $\pm$ 10 \ & 6702 $\pm$ 60 \ & 626 $\pm$ 6 \ & 699 $\pm$ 19 \ & 137 $\pm$ 137\ & 62198 $\pm$ 364 \ & 64598 $\pm$ 254 \\
-$\geq$ 2 jets & 176 $\pm$ 3 \ & 0 $\pm$ 0 \ & 68 $\pm$ 2 \ & 13504 $\pm$ 24 \ & 72 $\pm$ 29 \ & 30625 $\pm$ 290 \ & 29 $\pm$ 8 \ & 4698 $\pm$ 50 \ & 542 $\pm$ 6 \ & 629 $\pm$ 17 \ & 137 $\pm$ 137\ & 50480 $\pm$ 327 \ & 52275 $\pm$ 229 \\
-$\slash{E_{T}}$ cut & 164 $\pm$ 2 \ & 0 $\pm$ 0 \ & 61 $\pm$ 2 \ & 12663 $\pm$ 23 \ & 56 $\pm$ 26 \ & 13958 $\pm$ 194 \ & 26 $\pm$ 8 \ & 1953 $\pm$ 32 \ & 336 $\pm$ 5 \ & 584 $\pm$ 17 \ & 137 $\pm$ 137\ & 29938 $\pm$ 242 \ & 30842 $\pm$ 176 \\
-$\geq$ 1 CSV b-tag & 151 $\pm$ 2 \ & 0 $\pm$ 0 \ & 52 $\pm$ 2 \ & 11627 $\pm$ 22 \ & 15 $\pm$ 15 \ & 5301 $\pm$ 126 \ & 10 $\pm$ 5 \ & 666 $\pm$ 20 \ & 143 $\pm$ 3 \ & 499 $\pm$ 15 \ & 134 $\pm$ 134\ & 18598 $\pm$ 188 \ & 18880 $\pm$ 137 \\
-$\geq$ 1 Photon Presel & 148 $\pm$ 2 \ & 0 $\pm$ 0 \ & 51 $\pm$ 2 \ & 11373 $\pm$ 22 \ & 18 $\pm$ 18 \ & 5773 $\pm$ 139 \ & 11 $\pm$ 6 \ & 731 $\pm$ 22 \ & 152 $\pm$ 3 \ & 486 $\pm$ 15 \ & 131 $\pm$ 131\ & 18873 $\pm$ 195 \ & 18880 $\pm$ 137 \\
-$\geq$ 1 Good Photon Postsel & 14 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 8 $\pm$ 1 \ & 0 $\pm$ 0 \ & 8 $\pm$ 4 \ & 0 $\pm$ 0 \ & 19 $\pm$ 4 \ & 0 $\pm$ 0 \ & 1 $\pm$ 1 \ & 0 $\pm$ 0\ & 51 $\pm$ 6 \ & 26 $\pm$ 5 \\
-1 Good Photon Postsel & 14 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 8 $\pm$ 1 \ & 0 $\pm$ 0 \ & 8 $\pm$ 4 \ & 0 $\pm$ 0 \ & 22 $\pm$ 5 \ & 1 $\pm$ 0 \ & 1 $\pm$ 0 \ & 0 $\pm$ 0\ & 53 $\pm$ 6 \ & 26 $\pm$ 5 \\
-
-
-\hline
-\end{tabular}
-}
-\caption{The number of expected events in MC and events observed in data for the $e^+e^-$ channel, before the fitting process, including statistical uncertainties.}
-\end{sidewaystable}
-
-\begin{sidewaystable}[h!]
-  \centering
-%  \caption{Cut Flow table for the e \mu$ selection.}
-%  \label{tab:mumu_cutflow}
-\resizebox{\columnwidth}{!} {
-
-\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
-\hline
-\multicolumn{14}{|c|}{\textbf{Cut Flow table for the e$\mu$ selection}} \\
-\hline
- & $t\bar{t}+\gamma$ & $t\bar{t} 0l$ & $t\bar{t} 1l$ & $t\bar{t} 2l$ & w+jets & z+jets & $W+\gamma$ & $Z+\gamma$ & diboson & single-t & qcd & all MC & data \\
-\hline 
-Skim & 3381 $\pm$ 12 \ & 16912 $\pm$ 37 \ & 132656 $\pm$ 113 \ & 134872 $\pm$ 80 \ & 166686 $\pm$ 1559 \ & 1025297 $\pm$ 1657 \ & 10318 $\pm$ 166 \ & 74347 $\pm$ 210 \ & 13976 $\pm$ 30 \ & 27689 $\pm$ 339 \ & 16621450 $\pm$ 136970 \ & 18227586 $\pm$ 136990\ & 1627603 $\pm$ 1276 \\
-Cleaning and HLT & 1318 $\pm$ 7 \ & 1078 $\pm$ 9 \ & 32289 $\pm$ 56 \ & 59290 $\pm$ 52 \ & 17195 $\pm$ 501 \ & 21633 $\pm$ 243 \ & 1422 $\pm$ 62 \ & 2542 $\pm$ 39 \ & 1664 $\pm$ 12 \ & 7225 $\pm$ 155 \ & 1107226 $\pm$ 31346 \ & 1252882 $\pm$ 31352\ & 670525 $\pm$ 819 \\
-Di-lepton Sel & 526 $\pm$ 4 \ & 0 $\pm$ 0 \ & 244 $\pm$ 5 \ & 36230 $\pm$ 40 \ & 265 $\pm$ 57 \ & 2150 $\pm$ 71 \ & 70 $\pm$ 13 \ & 148 $\pm$ 9 \ & 701 $\pm$ 8 \ & 1774 $\pm$ 31 \ & 908 $\pm$ 338 \ & 43014 $\pm$ 354\ & 38687 $\pm$ 197 \\
-$\geq$ 1 jet & 477 $\pm$ 4 \ & 0 $\pm$ 0 \ & 211 $\pm$ 4 \ & 34848 $\pm$ 39 \ & 181 $\pm$ 47 \ & 1749 $\pm$ 64 \ & 58 $\pm$ 12 \ & 124 $\pm$ 8 \ & 588 $\pm$ 8 \ & 1685 $\pm$ 31 \ & 145 $\pm$ 131 \ & 40066 $\pm$ 162\ & 36082 $\pm$ 190 \\
-$\geq$ 2 jets & 414 $\pm$ 4 \ & 0 $\pm$ 0 \ & 160 $\pm$ 4 \ & 33015 $\pm$ 38 \ & 109 $\pm$ 35 \ & 1296 $\pm$ 56 \ & 40 $\pm$ 11 \ & 96 $\pm$ 7 \ & 472 $\pm$ 7 \ & 1484 $\pm$ 27 \ & 0 $\pm$ 0 \ & 37086 $\pm$ 82\ & 32964 $\pm$ 182 \\
-$\geq$ 1 CSV b-tag & 379 $\pm$ 4 \ & 0 $\pm$ 0 \ & 132 $\pm$ 3 \ & 30336 $\pm$ 36 \ & 52 $\pm$ 25 \ & 461 $\pm$ 34 \ & 20 $\pm$ 8 \ & 35 $\pm$ 5 \ & 183 $\pm$ 4 \ & 1282 $\pm$ 24 \ & 0 $\pm$ 0 \ & 32881 $\pm$ 62\ & 29570 $\pm$ 172 \\
-$\geq$ 1 Photon Presel & 371 $\pm$ 4 \ & 0 $\pm$ 0 \ & 129 $\pm$ 3 \ & 29671 $\pm$ 35 \ & 56 $\pm$ 27 \ & 502 $\pm$ 37 \ & 22 $\pm$ 9 \ & 39 $\pm$ 5 \ & 200 $\pm$ 5 \ & 1249 $\pm$ 24 \ & 0 $\pm$ 0 \ & 32240 $\pm$ 64\ & 29570 $\pm$ 172 \\
-$\geq$ 1 Good Photon Postsel & 38 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 21 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 1 $\pm$ 1 \ & 0 $\pm$ 0 \ & 60 $\pm$ 2\ & 28 $\pm$ 5 \\
-1 Good Photon Postsel & 37 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 21 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 1 $\pm$ 1 \ & 0 $\pm$ 0 \ & 59 $\pm$ 2\ & 28 $\pm$ 5 \\
-\hline
-\end{tabular}
-}
-\caption{The number of expected events in MC and events observed in data for the $e\mu$ channel, before the fitting process, including statistical uncertainties.}
-\end{sidewaystable}
 
 \section{Selection of $t\bar{t}+\gamma$ events} \label{sec-postselection}
 
@@ -389,21 +295,21 @@ The cut-based photon isolation requirements are taken from the recommended value
 
 This is a key variable in this analysis and will be discussed in greater detail in Section \ref{subsec-BackgroundEstimation}.
 
-\item[Charged Hadron Isolation] The isolation of charged hadrons with energy density correction, $\rho$, applied. The requirement is given as $I_{Char.had} < 1.5 + 0.04*E_T(\gamma)$ GeV. 
+\item[Charged Hadron Isolation] The isolation of charged hadrons with energy density correction, $\rho$, applied. The requirement is given as $I_{Char.had} < 1.5 + 0.04 \times E_T(\gamma)$ GeV. 
 
-\item[Neutral Hadron Isolation] The isolation of neutral hadrons with energy density correction , $\rho$, applied. The requirement is given as $I_{Neut.had} < 1.0 + 0.005*E_T(\gamma)$ GeV. 
+\item[Neutral Hadron Isolation] The isolation of neutral hadrons with energy density correction , $\rho$, applied. The requirement is given as $I_{Neut.had} < 1.0 + 0.005 \times E_T(\gamma)$ GeV. 
 
-\item[Photon Isolation] The isolation of the photon, $I_{\gamma}$, with energy density correction applied. The requirement is given as $I_{\gamma} < 1.0 + 0.005*E_T(\gamma)$ GeV.
+\item[Photon Isolation] The isolation of the photon, $I_{\gamma}$, with energy density correction applied. The requirement is given as $I_{\gamma} < 1.0 + 0.005 \times E_T(\gamma)$ GeV.
 
 
 \item[Supercluster footprint-removed Charged Hadron Isolation] The supercluster footprint-removed isolation of charged hadrons with energy density correction, $\rho$, applied.
 Cut given as $I_{char.had} < 5 \ \text{GeV} $. 
 
 \item[Supercluster footprint-removed Neutral Hadron Isolation] The supercluster footprint-removed isolation of neutral hadrons with energy density correction , $\rho$, applied.
-Cut given as $I_{neut.had} < 1.0 + 0.005*E_T(\gamma)$ GeV. 
+Cut given as $I_{neut.had} < 1.0 + 0.005 \times E_T(\gamma)$ GeV. 
 
 \item[Supercluster footprint-removed Photon Isolation] The supercluster footprint-removed isolation of the photon $I_{\gamma}$, with energy density correction applied. Cut given
-as $I_{\gamma} < 1.0 + 0.005*E_T(\gamma)$ GeV. 
+as $I_{\gamma} < 1.0 + 0.005 \times E_T(\gamma)$ GeV. 
 
 \end{description}
 
@@ -411,7 +317,7 @@ It must be noted that only supercluster footprint-removed charged hadron isolati
 
 \subsection{Final state radiation suppression}
 
-It is crucial that initial and final state radiation (ISR/FSR) is modelled correctly for this analysis as photons from initial and final state radiation are not considered as signal and therefore  $\Delat R$  constraints are applied to remove these events. The definition of isolation has been modified from the recommended values in order to make the data-driven estimate of the selection purity more robust. The requirements are as follows:
+It is crucial that initial and final state radiation (ISR/FSR) is modelled correctly for this analysis as photons from initial and final state radiation are not considered as signal and therefore  $\Delta R$  constraints are applied to remove these events. The definition of isolation has been modified from the recommended values in order to make the data-driven estimate of the selection purity more robust. The requirements are as follows:
 
 \begin{description}
 \item[$\Delta R(\gamma, leptons)$] In order to reduce FSR in final state leptons, e.g photons radiated off high $p_T$ muons, a minimum distance criterion in the $\eta - \phi$ plane is implemented. The requirement is given as $\Delta R(\gamma, leptons) > 0.3$.
@@ -523,4 +429,113 @@ A reweighting of the p$_T$ distribution of top pairs is also incorporated and de
 	The trigger scale factors used in this analysis were centrally produced by the CMS EGamma and Muon physics object groups for the 2012 data set and are defined as \ref{tab-leptonTriggerSFs}. The same technique can be applied when computing scale factors for lepton isolation and identification.  
 	\item[Z+Jets Scale Factors]
 \end{description} 
+
+\section{Event selection cut flow} \label{sec-cutflow}
+
+After all selection and identification requirements are applied, it is useful to see which selection requirements have the most impact. This is called the cut flow. Figure \ref{fig-CutFlow} shows the number of events after each step of the selection process for each decay channel, along with the ratio of number of events in data to that in the Monte Carlo. It is quite clear that QCD is the dominant process a priori any selection requirements. After the implementation of $t\bar{t}$ selection requirements the most dominant process becomes $t\bar{t}$, then becoming the signal $t\bar{t}+\gamma$ upon the inclusion of photon-specific selection requirements. 
+
+An excellent agreement is observed between the data and simulation, disregarding the first bin of Figure \ref{fig-CutFlow}. This discrepancy between the data and MC can be attributed to the trigger not being applied to MC until the ``Cleaning \& HLT" step of the selection process, whereas it is initially applied to the data. A large reduction of QCD can be seen upon selecting two oppositely signed isolated leptons as multi-jet events seldom produce isolated leptons. The largest remaining backgrounds, other than $t\bar{t}$, are vector boson events ($W+jets$, $Z+jets$) and vector bosons with a radiated photon ($W+\gamma$, $Z+\gamma$). This is largely reduced in the $e\mu$ decay channel due to the selection of two oppositely-signed and opposite-flavour leptons. 
+
+The events yields after each selection step, and for each Monte Carlo sample, is shown in Tables \ref{tab-cutflowMuMu}, \ref{tab-cutflowEE},and \ref{tab-cutflowEMu}, for each decay channel, respectively. 
+
+\begin{figure} 
+%\begin{center}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/CutFlow/Log/TTbarMuMuRefSelection_splitTTbar_ratio.pdf}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/CutFlow/Log/TTbarEERefSelection_splitTTbar_ratio.pdf} \\
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Plots/ControlPlots/CutFlow/Log/TTbarEMuRefSelection_splitTTbar_ratio.pdf}
+\end{center}
+\caption{Cutflow plots showing the number of events remaining after individual cuts are introduced, comparing distributions in data and simulation in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels.}
+\label{fig-CutFlow}
+\end{figure}
+
+\begin{sidewaystable}[h!]
+  \centering 
+%  \caption{Cut Flow table for the $\mu^+\mu^-$ selection.}
+%  \label{tab:mumu_cutflow}
+\resizebox{\columnwidth}{!} {
+
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
+\hline
+\multicolumn{14}{|c|}{\textbf{Cut Flow table for the $\mu^+\mu^-$ selection}} \\
+\hline
+ & $t\bar{t}+\gamma$ & $t\bar{t} 0l$ & $t\bar{t} 1l$ & $t\bar{t} 2l$ & w+jets & z+jets & $W+\gamma$ & $Z+\gamma$ & diboson & single-t & qcd & all MC & data \\
+ \hline
+Skim & 3418 $\pm$ 12 \ & 16912 $\pm$ 37 \ & 132676 $\pm$ 113 \ & 137147 $\pm$ 81 \ & 166712 $\pm$ 1559 \ & 1013494 $\pm$ 1639 \ & 10326 $\pm$ 166 \ & 73574 $\pm$ 208 \ & 13909 $\pm$ 30 \ & 27811 $\pm$ 339 \ & 16621473 $\pm$ 136970\ & 18217451 $\pm$ 136990 \ & 1885535 $\pm$ 1373 \\
+Cleaning and HLT & 952 $\pm$ 6 \ & 2925 $\pm$ 15 \ & 33828 $\pm$ 57 \ & 43049 $\pm$ 45 \ & 7927 $\pm$ 339 \ & 479975 $\pm$ 1117 \ & 321 $\pm$ 30 \ & 34586 $\pm$ 142 \ & 4920 $\pm$ 15 \ & 6677 $\pm$ 162 \ & 1389098 $\pm$ 19616\ & 2004257 $\pm$ 19652 \ & 1473970 $\pm$ 1214 \\
+Di-lepton Sel & 274 $\pm$ 3 \ & 0 $\pm$ 0 \ & 139 $\pm$ 4 \ & 20006 $\pm$ 30 \ & 32 $\pm$ 20 \ & 324348 $\pm$ 901 \ & 2 $\pm$ 2 \ & 21270 $\pm$ 110 \ & 3579 $\pm$ 13 \ & 992 $\pm$ 22 \ & 1976 $\pm$ 556\ & 372618 $\pm$ 1065 \ & 359665 $\pm$ 600 \\
+m(Z) veto & 245 $\pm$ 3 \ & 0 $\pm$ 0 \ & 117 $\pm$ 3 \ & 17856 $\pm$ 29 \ & 32 $\pm$ 20 \ & 63584 $\pm$ 430 \ & 2 $\pm$ 2 \ & 11378 $\pm$ 81 \ & 866 $\pm$ 8 \ & 886 $\pm$ 21 \ & 1601 $\pm$ 509\ & 96567 $\pm$ 672 \ & 89425 $\pm$ 299 \\
+$\geq$ 1 jet & 225 $\pm$ 3 \ & 0 $\pm$ 0 \ & 97 $\pm$ 3 \ & 17305 $\pm$ 28 \ & 32 $\pm$ 20 \ & 47361 $\pm$ 381 \ & 2 $\pm$ 2 \ & 8374 $\pm$ 70 \ & 755 $\pm$ 7 \ & 838 $\pm$ 20 \ & 368 $\pm$ 261\ & 75357 $\pm$ 469 \ & 69447 $\pm$ 264 \\
+$\geq$ 2 jets & 197 $\pm$ 3 \ & 0 $\pm$ 0 \ & 60 $\pm$ 2 \ & 16382 $\pm$ 27 \ & 32 $\pm$ 20 \ & 36544 $\pm$ 334 \ & 0 $\pm$ 0 \ & 6138 $\pm$ 60 \ & 636 $\pm$ 6 \ & 733 $\pm$ 19 \ & 368 $\pm$ 261\ & 61089 $\pm$ 430 \ & 56136 $\pm$ 237 \\
+$\slash{E_{T}}$ cut & 183 $\pm$ 3 \ & 0 $\pm$ 0 \ & 55 $\pm$ 2 \ & 15343 $\pm$ 26 \ & 32 $\pm$ 20 \ & 16589 $\pm$ 224 \ & 0 $\pm$ 0 \ & 2553 $\pm$ 38 \ & 399 $\pm$ 5 \ & 689 $\pm$ 18 \ & 0 $\pm$ 0\ & 35843 $\pm$ 231 \ & 33323 $\pm$ 183 \\
+$\geq$ 1 CSV b-tag & 167 $\pm$ 3 \ & 0 $\pm$ 0 \ & 44 $\pm$ 2 \ & 14090 $\pm$ 25 \ & 32 $\pm$ 20 \ & 6342 $\pm$ 145 \ & 0 $\pm$ 0 \ & 829 $\pm$ 23 \ & 169 $\pm$ 4 \ & 606 $\pm$ 17 \ & 0 $\pm$ 0\ & 22280 $\pm$ 151 \ & 20680 $\pm$ 144 \\\
+$\geq$ 1 Photon Presel & 162 $\pm$ 2 \ & 0 $\pm$ 0 \ & 35 $\pm$ 2 \ & 10336 $\pm$ 21 \ & 23 $\pm$ 17 \ & 4749 $\pm$ 131 \ & 0 $\pm$ 0 \ & 774 $\pm$ 23 \ & 123 $\pm$ 3 \ & 419 $\pm$ 14 \ & 0 $\pm$ 0\ & 16620 $\pm$ 137 \ & 14912 $\pm$ 122 \\
+$\geq$ 1 Good Photon Postsel & 17 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 11 $\pm$ 1 \ & 0 $\pm$ 0 \ & 9 $\pm$ 5 \ & 0 $\pm$ 0 \ & 27 $\pm$ 5 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0\ & 63 $\pm$ 7 \ & 36 $\pm$ 6 \\
+1 Good Photon Postsel & 16 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 11 $\pm$ 1 \ & 0 $\pm$ 0 \ & 10 $\pm$ 6 \ & 0 $\pm$ 0 \ & 30 $\pm$ 6 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0\ & 68 $\pm$ 9 \ & 36 $\pm$ 6 \\
+\hline
+\end{tabular}
+}
+\caption{The number of expected events in MC and events observed in data for the $\mu^+\mu^-$ channel, before the fitting process, including statistical uncertainties.}
+\label{tab-cutflowMuMu}
+\end{sidewaystable}
+
+\begin{sidewaystable}[h!]
+  \centering
+%  \caption{Cut Flow table for the  $e^+e^-$ selection.}
+  %\label{tab:mumu_cutflow}
+\resizebox{\columnwidth}{!} {
+
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
+\hline
+\multicolumn{14}{|c|}{\textbf{Cut Flow table for the $e^+e^-$ selection}} \\
+\hline
+ & $t\bar{t}+\gamma$ & $t\bar{t} 0l$ & $t\bar{t} 1l$ & $t\bar{t} 2l$ & w+jets & z+jets & $W+\gamma$ & $Z+\gamma$ & diboson & single-t & qcd & all MC & data\\
+ \hline
+Skim & 3401 $\pm$ 12 \ & 16912 $\pm$ 37 \ & 132668 $\pm$ 113 \ & 136401 $\pm$ 80 \ & 166688 $\pm$ 1559 \ & 995825 $\pm$ 1613 \ & 10318 $\pm$ 166 \ & 72151 $\pm$ 204 \ & 13714 $\pm$ 30 \ & 27765 $\pm$ 339 \ & 16621534 $\pm$ 136970\ & 18197376 $\pm$ 136989 \ & 874451 $\pm$ 935 \\
+Cleaning and HLT & 500 $\pm$ 4 \ & 133 $\pm$ 3 \ & 4022 $\pm$ 20 \ & 23478 $\pm$ 32 \ & 8332 $\pm$ 350 \ & 336588 $\pm$ 910 \ & 994 $\pm$ 51 \ & 24409 $\pm$ 116 \ & 3811 $\pm$ 13 \ & 1729 $\pm$ 63 \ & 181955 $\pm$ 18817\ & 585950 $\pm$ 18842 \ & 628336 $\pm$ 793 \\
+Di-lepton Sel & 257 $\pm$ 3 \ & 0 $\pm$ 0 \ & 102 $\pm$ 3 \ & 16702 $\pm$ 27 \ & 211 $\pm$ 49 \ & 233172 $\pm$ 734 \ & 56 $\pm$ 11 \ & 16968 $\pm$ 94 \ & 2789 $\pm$ 11 \ & 805 $\pm$ 20 \ & 137 $\pm$ 137\ & 271199 $\pm$ 755 \ & 295843 $\pm$ 544 \\
+m(Z) veto & 232 $\pm$ 3 \ & 0 $\pm$ 0 \ & 87 $\pm$ 3 \ & 14912 $\pm$ 25 \ & 174 $\pm$ 44 \ & 50987 $\pm$ 366 \ & 54 $\pm$ 11 \ & 9457 $\pm$ 70 \ & 703 $\pm$ 6 \ & 729 $\pm$ 19 \ & 137 $\pm$ 137\ & 77473 $\pm$ 401 \ & 81793 $\pm$ 286 \\
+$\geq$ 1 jet & 206 $\pm$ 3 \ & 0 $\pm$ 0 \ & 80 $\pm$ 3 \ & 14241 $\pm$ 25 \ & 114 $\pm$ 35 \ & 39348 $\pm$ 328 \ & 45 $\pm$ 10 \ & 6702 $\pm$ 60 \ & 626 $\pm$ 6 \ & 699 $\pm$ 19 \ & 137 $\pm$ 137\ & 62198 $\pm$ 364 \ & 64598 $\pm$ 254 \\
+$\geq$ 2 jets & 176 $\pm$ 3 \ & 0 $\pm$ 0 \ & 68 $\pm$ 2 \ & 13504 $\pm$ 24 \ & 72 $\pm$ 29 \ & 30625 $\pm$ 290 \ & 29 $\pm$ 8 \ & 4698 $\pm$ 50 \ & 542 $\pm$ 6 \ & 629 $\pm$ 17 \ & 137 $\pm$ 137\ & 50480 $\pm$ 327 \ & 52275 $\pm$ 229 \\
+$\slash{E_{T}}$ cut & 164 $\pm$ 2 \ & 0 $\pm$ 0 \ & 61 $\pm$ 2 \ & 12663 $\pm$ 23 \ & 56 $\pm$ 26 \ & 13958 $\pm$ 194 \ & 26 $\pm$ 8 \ & 1953 $\pm$ 32 \ & 336 $\pm$ 5 \ & 584 $\pm$ 17 \ & 137 $\pm$ 137\ & 29938 $\pm$ 242 \ & 30842 $\pm$ 176 \\
+$\geq$ 1 CSV b-tag & 151 $\pm$ 2 \ & 0 $\pm$ 0 \ & 52 $\pm$ 2 \ & 11627 $\pm$ 22 \ & 15 $\pm$ 15 \ & 5301 $\pm$ 126 \ & 10 $\pm$ 5 \ & 666 $\pm$ 20 \ & 143 $\pm$ 3 \ & 499 $\pm$ 15 \ & 134 $\pm$ 134\ & 18598 $\pm$ 188 \ & 18880 $\pm$ 137 \\
+$\geq$ 1 Photon Presel & 148 $\pm$ 2 \ & 0 $\pm$ 0 \ & 51 $\pm$ 2 \ & 11373 $\pm$ 22 \ & 18 $\pm$ 18 \ & 5773 $\pm$ 139 \ & 11 $\pm$ 6 \ & 731 $\pm$ 22 \ & 152 $\pm$ 3 \ & 486 $\pm$ 15 \ & 131 $\pm$ 131\ & 18873 $\pm$ 195 \ & 18880 $\pm$ 137 \\
+$\geq$ 1 Good Photon Postsel & 14 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 8 $\pm$ 1 \ & 0 $\pm$ 0 \ & 8 $\pm$ 4 \ & 0 $\pm$ 0 \ & 19 $\pm$ 4 \ & 0 $\pm$ 0 \ & 1 $\pm$ 1 \ & 0 $\pm$ 0\ & 51 $\pm$ 6 \ & 26 $\pm$ 5 \\
+1 Good Photon Postsel & 14 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 8 $\pm$ 1 \ & 0 $\pm$ 0 \ & 8 $\pm$ 4 \ & 0 $\pm$ 0 \ & 22 $\pm$ 5 \ & 1 $\pm$ 0 \ & 1 $\pm$ 0 \ & 0 $\pm$ 0\ & 53 $\pm$ 6 \ & 26 $\pm$ 5 \\
+
+
+\hline
+\end{tabular}
+}
+\caption{The number of expected events in MC and events observed in data for the $e^+e^-$ channel, before the fitting process, including statistical uncertainties.}
+\label{tab-cutflowEE}
+\end{sidewaystable}
+
+\begin{sidewaystable}[h!]
+  \centering
+%  \caption{Cut Flow table for the e \mu$ selection.}
+%  \label{tab:mumu_cutflow}
+\resizebox{\columnwidth}{!} {
+
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
+\hline
+\multicolumn{14}{|c|}{\textbf{Cut Flow table for the e$\mu$ selection}} \\
+\hline
+ & $t\bar{t}+\gamma$ & $t\bar{t} 0l$ & $t\bar{t} 1l$ & $t\bar{t} 2l$ & w+jets & z+jets & $W+\gamma$ & $Z+\gamma$ & diboson & single-t & qcd & all MC & data \\
+\hline 
+Skim & 3381 $\pm$ 12 \ & 16912 $\pm$ 37 \ & 132656 $\pm$ 113 \ & 134872 $\pm$ 80 \ & 166686 $\pm$ 1559 \ & 1025297 $\pm$ 1657 \ & 10318 $\pm$ 166 \ & 74347 $\pm$ 210 \ & 13976 $\pm$ 30 \ & 27689 $\pm$ 339 \ & 16621450 $\pm$ 136970 \ & 18227586 $\pm$ 136990\ & 1627603 $\pm$ 1276 \\
+Cleaning and HLT & 1318 $\pm$ 7 \ & 1078 $\pm$ 9 \ & 32289 $\pm$ 56 \ & 59290 $\pm$ 52 \ & 17195 $\pm$ 501 \ & 21633 $\pm$ 243 \ & 1422 $\pm$ 62 \ & 2542 $\pm$ 39 \ & 1664 $\pm$ 12 \ & 7225 $\pm$ 155 \ & 1107226 $\pm$ 31346 \ & 1252882 $\pm$ 31352\ & 670525 $\pm$ 819 \\
+Di-lepton Sel & 526 $\pm$ 4 \ & 0 $\pm$ 0 \ & 244 $\pm$ 5 \ & 36230 $\pm$ 40 \ & 265 $\pm$ 57 \ & 2150 $\pm$ 71 \ & 70 $\pm$ 13 \ & 148 $\pm$ 9 \ & 701 $\pm$ 8 \ & 1774 $\pm$ 31 \ & 908 $\pm$ 338 \ & 43014 $\pm$ 354\ & 38687 $\pm$ 197 \\
+$\geq$ 1 jet & 477 $\pm$ 4 \ & 0 $\pm$ 0 \ & 211 $\pm$ 4 \ & 34848 $\pm$ 39 \ & 181 $\pm$ 47 \ & 1749 $\pm$ 64 \ & 58 $\pm$ 12 \ & 124 $\pm$ 8 \ & 588 $\pm$ 8 \ & 1685 $\pm$ 31 \ & 145 $\pm$ 131 \ & 40066 $\pm$ 162\ & 36082 $\pm$ 190 \\
+$\geq$ 2 jets & 414 $\pm$ 4 \ & 0 $\pm$ 0 \ & 160 $\pm$ 4 \ & 33015 $\pm$ 38 \ & 109 $\pm$ 35 \ & 1296 $\pm$ 56 \ & 40 $\pm$ 11 \ & 96 $\pm$ 7 \ & 472 $\pm$ 7 \ & 1484 $\pm$ 27 \ & 0 $\pm$ 0 \ & 37086 $\pm$ 82\ & 32964 $\pm$ 182 \\
+$\geq$ 1 CSV b-tag & 379 $\pm$ 4 \ & 0 $\pm$ 0 \ & 132 $\pm$ 3 \ & 30336 $\pm$ 36 \ & 52 $\pm$ 25 \ & 461 $\pm$ 34 \ & 20 $\pm$ 8 \ & 35 $\pm$ 5 \ & 183 $\pm$ 4 \ & 1282 $\pm$ 24 \ & 0 $\pm$ 0 \ & 32881 $\pm$ 62\ & 29570 $\pm$ 172 \\
+$\geq$ 1 Photon Presel & 371 $\pm$ 4 \ & 0 $\pm$ 0 \ & 129 $\pm$ 3 \ & 29671 $\pm$ 35 \ & 56 $\pm$ 27 \ & 502 $\pm$ 37 \ & 22 $\pm$ 9 \ & 39 $\pm$ 5 \ & 200 $\pm$ 5 \ & 1249 $\pm$ 24 \ & 0 $\pm$ 0 \ & 32240 $\pm$ 64\ & 29570 $\pm$ 172 \\
+$\geq$ 1 Good Photon Postsel & 38 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 21 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 1 $\pm$ 1 \ & 0 $\pm$ 0 \ & 60 $\pm$ 2\ & 28 $\pm$ 5 \\
+1 Good Photon Postsel & 37 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 21 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 1 $\pm$ 1 \ & 0 $\pm$ 0 \ & 59 $\pm$ 2\ & 28 $\pm$ 5 \\
+\hline
+\end{tabular}
+}
+\caption{The number of expected events in MC and events observed in data for the $e\mu$ channel, before the fitting process, including statistical uncertainties.}
+\label{tab-cutflowEMu}
+\end{sidewaystable}
 
