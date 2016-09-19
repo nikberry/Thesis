@@ -100,7 +100,7 @@ Similarly, a \textbf{HCAL noise filter} is employed in order to remove events wi
 
 \section{Dilepton Selection and Vetoes}
 
-For the $t\bar{t}+\gamma$ analysis leptons form a key part of the signature in the final state. The leptons are taken from the list of PF-reconstructed objects and then required to pass additional selection requirements to refine the events further after the trigger selection described in Section \ref{sec-TriggerAndEventCleaning} has been applied. Along with the signal leptons, a set of `looser' PF objects are selected as veto objects, such that the signal leptons are a subset of these objects. If an event has multiple loose selection leptons then the event is removed from the list of possible signal candidates.
+For the $t\bar{t}+\gamma$ analysis, leptons form a key part of the signature in the final state. The leptons are taken from the list of PF-reconstructed objects and then required to pass additional selection requirements to refine the events further after the trigger selection described in Section \ref{sec-TriggerAndEventCleaning} has been applied. Along with the signal leptons, a set of `looser' PF objects are selected as veto objects, such that the signal leptons are a subset of these objects. If an event has multiple loose selection leptons then the event is removed from the list of possible signal candidates.
 
 The number of selected leptons differs for each decay mode, and thus three separate sets of selection criteria must be created for the di-muon, di-electron, and mixed channels, respectively. Selection requirements on the leptons vary depending on the channel, but are taken from the recommended values produced by the central `Top Event Selection' group \cite{TopEventSelection}. 
 
@@ -175,7 +175,7 @@ The production of muons from in-flight decays is found to be much more prominent
 	\item Identified as both a tracker and global muon.
 \end{itemize}
 
-Dilepton kinematic and mass distributions can be seen in Figure \ref{subsec-leptonPlots}.
+The lead and second lepton transverse momentum distributions, along with the invariant mass of the two selected leptons, are shown in Figure \ref{fig-leptonPlots}. All other dilepton kinematic and mass distributions can be seen in Figure \ref{subsec-leptonPlots}, and we see a good agreement between the data and simulation.
 
 \begin{figure}
 \includegraphics[width=0.5\textwidth]{Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/LeadLepton_Pt_splitTTbar_ratio.pdf}
@@ -434,11 +434,9 @@ A reweighting of the p$_T$ distribution of top pairs is also incorporated and de
 
 After all selection and identification requirements are applied, it is useful to see which selection requirements have the most impact. This is called the cut flow. Figure \ref{fig-CutFlow} shows the number of events after each step of the selection process for each decay channel, along with the ratio of number of events in data to that in the Monte Carlo. It is quite clear that QCD is the dominant process a priori any selection requirements. After the implementation of $t\bar{t}$ selection requirements the most dominant process becomes $t\bar{t}$, then becoming the signal $t\bar{t}+\gamma$ upon the inclusion of photon-specific selection requirements. 
 
-An excellent agreement is observed between the data and simulation, disregarding the first bin of Figure \ref{fig-CutFlow}. This discrepancy between the data and MC can be attributed to the trigger not being applied to MC until the ``Cleaning \& HLT" step of the selection process, whereas it is initially applied to the data. A large reduction of QCD can be seen upon selecting two oppositely signed isolated leptons as multi-jet events seldom produce isolated leptons. The largest remaining backgrounds, other than $t\bar{t}$, are vector boson events ($W+jets$, $Z+jets$) and vector bosons with a radiated photon ($W+\gamma$, $Z+\gamma$). This is largely reduced in the $e\mu$ decay channel due to the selection of two oppositely-signed and opposite-flavour leptons. 
+An excellent agreement is observed between the data and simulation, disregarding the first bin of Figure \ref{fig-CutFlow}. This discrepancy between the data and MC can be attributed to the trigger not being applied to MC until the ``Cleaning \& HLT" step of the selection process, whereas it is initially applied to the data. A large reduction of QCD can be seen upon selecting two oppositely signed isolated leptons as multi-jet events seldom produce isolated leptons. The largest remaining backgrounds, other than $t\bar{t}$, are vector boson events ($W+jets$, $Z+jets$) and vector bosons with a radiated photon ($W+\gamma$, $Z+\gamma$). This is largely reduced in the $e\mu$ decay channel due to the selection of two oppositely-signed and opposite-flavour leptons. The events yields after each selection step, and for each Monte Carlo sample, is shown in Tables \ref{tab-cutflowMuMu}, \ref{tab-cutflowEE},and \ref{tab-cutflowEMu}, for each decay channel, respectively. 
 
-The events yields after each selection step, and for each Monte Carlo sample, is shown in Tables \ref{tab-cutflowMuMu}, \ref{tab-cutflowEE},and \ref{tab-cutflowEMu}, for each decay channel, respectively. 
-
-\begin{figure} 
+\begin{figure} [h]
 %\begin{center}
 \includegraphics[width=0.5\textwidth]{Plots/ControlPlots/CutFlow/Log/TTbarMuMuRefSelection_splitTTbar_ratio.pdf}
 \includegraphics[width=0.5\textwidth]{Plots/ControlPlots/CutFlow/Log/TTbarEERefSelection_splitTTbar_ratio.pdf} \\
@@ -477,10 +475,10 @@ $\geq$ 1 Good Photon Postsel & 17 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 11 $\p
 }
 \caption{The number of expected events in MC and events observed in data for the $\mu^+\mu^-$ channel, before the fitting process, including statistical uncertainties.}
 \label{tab-cutflowMuMu}
-\end{sidewaystable}
+%\end{sidewaystable}
 
-\begin{sidewaystable}[h!]
-  \centering
+%\begin{sidewaystable}[h!]
+%  \centering
 %  \caption{Cut Flow table for the  $e^+e^-$ selection.}
   %\label{tab:mumu_cutflow}
 \resizebox{\columnwidth}{!} {

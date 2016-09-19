@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.22)  16 SEP 2016 19:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.22)  19 SEP 2016 15:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -533,15 +533,15 @@ LaTeX Font Info:    ... okay on input line 56.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(79.49744pt, 438.513pt, 79.49744pt)
-* v-part:(T,H,B)=(79.49744pt, 686.05197pt, 79.49744pt)
+* h-part:(L,W,R)=(113.81102pt, 426.79135pt, 56.9055pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=438.513pt
-* \textheight=686.05197pt
-* \oddsidemargin=7.22745pt
-* \evensidemargin=7.22745pt
-* \topmargin=-29.77255pt
+* \textwidth=426.79135pt
+* \textheight=591.5302pt
+* \oddsidemargin=41.54103pt
+* \evensidemargin=41.54103pt
+* \topmargin=-7.86334pt
 * \headheight=14.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
@@ -587,35 +587,36 @@ LaTeX Info: Redefining \nameref on input line 56.
 \openout3 = `PhDThesis.out'.
 
 
-<Figures/brunelshield.png, id=489, 213.79875pt x 289.08pt>
-File: Figures/brunelshield.png Graphic file (type png)
+<Figures/BrunelUniversityLogo.png, id=489, 1467.4825pt x 580.1675pt>
+File: Figures/BrunelUniversityLogo.png Graphic file (type png)
 
-<use Figures/brunelshield.png>
-Package pdftex.def Info: Figures/brunelshield.png used on input line 76.
-(pdftex.def)             Requested size: 106.89911pt x 144.53964pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 88.
+<use Figures/BrunelUniversityLogo.png>
+Package pdftex.def Info: Figures/BrunelUniversityLogo.png used on input line 77
+.
+(pdftex.def)             Requested size: 277.41176pt x 109.6664pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 89.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 88.
+LaTeX Font Info:    Try loading font information for U+msb on input line 89.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 88.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 89.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 
 LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <142.26378> not available
-(Font)              size <35.83> substituted on input line 105.
+(Font)              size <35.83> substituted on input line 111.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
- <./Figures/brunelshield.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
+ <./Figures/BrunelUniversityLogo.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
@@ -623,58 +624,62 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.136 \clearpage
+l.140 \clearpage
                  [1] [2
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.164 \end{abstract}
+l.168 \end{abstract}
                      [1
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.191 \clearpage
-                 % Start a new page [1
+l.191 
+       [1
 
-]
+]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.195 \clearpage
+                 % Start a new page [2]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 201.
+less on input line 205.
 
 (./PhDThesis.toc [1
 
 
-] [2] [3])
+] [2] [3] [4])
 \tf@toc=\write4
 \openout4 = `PhDThesis.toc'.
 
- [4] (./PhDThesis.lof [5
+ [5] (./PhDThesis.lof [6
 
 ]
+Overfull \hbox (3.85501pt too wide) in paragraph at lines 15--15
+ [][] [][][]\T1/cmr/m/n/10.95 Background of pho-ton iden-ti-fi-ca-tion: Fi-nal 
+state ra-di-a-tion (FSR). All charged 
+ []
+
 Missing character: There is no â in font cmr10!
 Missing character: There is no ˆ in font cmr10!
 Missing character: There is no ’ in font cmr10!
-
-Overfull \hbox (7.14215pt too wide) in paragraph at lines 23--23
- \T1/cmr/m/n/10.95 TIB=inner bar-rel, TID=inner disc, TEC=endcaps, PIXEL=pixeld
-etector. Each 
- []
-
-[6] [7] [8] [9] [10])
+[7] [8] [9] [10] [11] [12])
 \tf@lof=\write5
 \openout5 = `PhDThesis.lof'.
 
- [11] (./PhDThesis.lot [12
+ [13] (./PhDThesis.lot [14
 
-] [13])
+] [15])
 \tf@lot=\write6
 \openout6 = `PhDThesis.lot'.
 
- [14]
+ [16]
 (./Chapters/Introduction.texpdfTeX warning (ext4): destination with the same id
 entifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
@@ -688,39 +693,46 @@ l.8
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.16 
+l.14 
       [2]) (./Chapters/Theory.tex [3]
 Chapter 1.
-<Figures/StandardModel.png, id=1174, 376.40625pt x 283.0575pt>
+<Figures/StandardModel.png, id=1189, 376.40625pt x 283.0575pt>
 File: Figures/StandardModel.png Graphic file (type png)
 
 <use Figures/StandardModel.png>
 Package pdftex.def Info: Figures/StandardModel.png used on input line 8.
-(pdftex.def)             Requested size: 394.65901pt x 296.80449pt.
+(pdftex.def)             Requested size: 384.1096pt x 288.8703pt.
  [4
 
 ] [5 <./Figures/StandardModel.png>] [6]
-[7] [8] [9] [10] <Figures/AlphaS.png, id=1272, 383.4325pt x 315.1775pt>
+[7] [8] [9] [10] [11] [12]
+<Figures/AlphaS.png, id=1299, 383.4325pt x 315.1775pt>
 File: Figures/AlphaS.png Graphic file (type png)
 
 <use Figures/AlphaS.png>
 Package pdftex.def Info: Figures/AlphaS.png used on input line 304.
-(pdftex.def)             Requested size: 219.2565pt x 180.23015pt.
+(pdftex.def)             Requested size: 213.39568pt x 175.4113pt.
 
-Overfull \hbox (2.11694pt too wide) in paragraph at lines 310--313
-\T1/cmr/m/n/10.95 in-ter-ac-tions me-di-ated by vec-tor bosons is de-pen-dent o
-n the mag-ni-tude of q (energy-momentum
+Overfull \hbox (0.85352pt too wide) in paragraph at lines 310--313
+[]\T1/cmr/m/n/10.95 Once we in-clude higher-order cor-rec-tions to our cal-cu-l
+a-tion we dis-cover that the strength
  []
 
-[11] [12 <./Figures/AlphaS.png>]
-<Figures/MexicanHatPotential.png, id=1306, 854.19125pt x 709.65125pt>
+[13 <./Figures/AlphaS.png>] [14]
+<Figures/MexicanHatPotential.png, id=1329, 854.19125pt x 709.65125pt>
 File: Figures/MexicanHatPotential.png Graphic file (type png)
 
 <use Figures/MexicanHatPotential.png>
 Package pdftex.def Info: Figures/MexicanHatPotential.png used on input line 376
 .
-(pdftex.def)             Requested size: 306.95775pt x 255.00862pt.
- [13] [14 <./Figures/MexicanHatPotential.png>] [15] [16] [17]
+(pdftex.def)             Requested size: 298.75264pt x 248.19757pt.
+ [15] [16 <./Figures/MexicanHatPotential.png>] [17] [18]
+Overfull \hbox (7.25827pt too wide) in paragraph at lines 492--501
+\T1/cmr/m/n/10.95 Japanese physi-cists Makoto Kobayashi and Toshi-hide Maskawa 
+sought to ex-tend the Cabibbo
+ []
+
+[19] [20]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 541.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
@@ -728,72 +740,75 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 541.
-
-[18] [19] <Figures/HiggsCorrection.png, id=1383, 257.96375pt x 126.4725pt>
+ [21]
+[22] <Figures/HiggsCorrection.png, id=1412, 257.96375pt x 126.4725pt>
 File: Figures/HiggsCorrection.png Graphic file (type png)
 
 <use Figures/HiggsCorrection.png>
 Package pdftex.def Info: Figures/HiggsCorrection.png used on input line 561.
-(pdftex.def)             Requested size: 175.40251pt x 85.99821pt.
+(pdftex.def)             Requested size: 170.71393pt x 83.69789pt.
 
-<Figures/SUSYHiggs.png, id=1384, 307.1475pt x 130.4875pt>
+<Figures/SUSYHiggs.png, id=1413, 307.1475pt x 130.4875pt>
 File: Figures/SUSYHiggs.png Graphic file (type png)
 
 <use Figures/SUSYHiggs.png>
 Package pdftex.def Info: Figures/SUSYHiggs.png used on input line 597.
-(pdftex.def)             Requested size: 175.40251pt x 74.518pt.
- [20 <./Figures/HiggsCorrection.png>] [21 <./Figures/SUSYHiggs.png>] [22] [23]
-<Figures/ttbarCombinedXsect.pdf, id=1427, 569.12625pt x 700.6175pt>
+(pdftex.def)             Requested size: 170.71393pt x 72.52693pt.
+ [23 <./Figures/HiggsCorrection.png> <./Figures/SUSYHiggs.png>]
+Overfull \hbox (22.26169pt too wide) in paragraph at lines 608--609
+\T1/cmr/m/n/10.95 ments, pro-ton de-cay ex-per-i-ments, neu-trino mix-ing ex-pe
+r-i-ments (T2K/SuperKamiokande),
+ []
+
+[24] [25] [26] [27]
+<Figures/ttbarCombinedXsect.pdf, id=1460, 569.12625pt x 700.6175pt>
 File: Figures/ttbarCombinedXsect.pdf Graphic file (type pdf)
 
 <use Figures/ttbarCombinedXsect.pdf>
 Package pdftex.def Info: Figures/ttbarCombinedXsect.pdf used on input line 661.
 
-(pdftex.def)             Requested size: 350.81174pt x 431.87677pt.
+(pdftex.def)             Requested size: 341.43437pt x 420.34166pt.
 
-<Figures/ttbarXsectPlot.png, id=1435, 1003.75pt x 678.535pt>
+<Figures/ttbarXsectPlot.png, id=1468, 1003.75pt x 678.535pt>
 File: Figures/ttbarXsectPlot.png Graphic file (type png)
 
 <use Figures/ttbarXsectPlot.png>
 Package pdftex.def Info: Figures/ttbarXsectPlot.png used on input line 671.
-(pdftex.def)             Requested size: 306.95775pt x 207.50679pt.
+(pdftex.def)             Requested size: 298.75264pt x 201.95726pt.
 
-<Figures/ttbarProductionLHC.png, id=1440, 656.4525pt x 400.49625pt>
+<Figures/ttbarProductionLHC.png, id=1473, 656.4525pt x 400.49625pt>
 File: Figures/ttbarProductionLHC.png Graphic file (type png)
 
 <use Figures/ttbarProductionLHC.png>
 Package pdftex.def Info: Figures/ttbarProductionLHC.png used on input line 698.
 
-(pdftex.def)             Requested size: 394.65901pt x 240.78238pt.
+(pdftex.def)             Requested size: 384.1096pt x 234.34131pt.
 
-<Figures/singletopProductionLHC.png, id=1443, 666.49pt x 354.32375pt>
+<Figures/singletopProductionLHC.png, id=1476, 666.49pt x 354.32375pt>
 File: Figures/singletopProductionLHC.png Graphic file (type png)
 
 <use Figures/singletopProductionLHC.png>
 Package pdftex.def Info: Figures/singletopProductionLHC.png used on input line 
 706.
-(pdftex.def)             Requested size: 438.513pt x 233.12991pt.
- [24] [25 <./Figures/ttbarCombinedXsect.pdf>] [26 <./Figures/ttbarXsectPlot.png
-> <./Figures/ttbarProductionLHC.png>]
-[27 <./Figures/singletopProductionLHC.png>]
-<Figures/ttbarDecayFractions.png, id=1518, 469.755pt x 463.7325pt>
+(pdftex.def)             Requested size: 426.79135pt x 226.89618pt.
+ [28] [29 <./Figures/ttbarCombinedXsect.pdf>] [30 <./Figures/ttbarXsectPlot.png
+>] [31 <./Figures/ttbarProductionLHC.png>] [32 <./Figures/singletopProductionLH
+C.png>] [33]
+<Figures/ttbarDecayFractions.png, id=1560, 469.755pt x 463.7325pt>
 File: Figures/ttbarDecayFractions.png Graphic file (type png)
 
 <use Figures/ttbarDecayFractions.png>
 Package pdftex.def Info: Figures/ttbarDecayFractions.png used on input line 740
 .
-(pdftex.def)             Requested size: 219.2565pt x 216.44711pt.
+(pdftex.def)             Requested size: 213.39568pt x 210.65897pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Figures/ttgammaFeynmanDiagram.pdf, id=1521, 569.12625pt x 259.97125pt>
+<Figures/ttgammaFeynmanDiagram.pdf, id=1563, 569.12625pt x 259.97125pt>
 File: Figures/ttgammaFeynmanDiagram.pdf Graphic file (type pdf)
 
 <use Figures/ttgammaFeynmanDiagram.pdf>
 Package pdftex.def Info: Figures/ttgammaFeynmanDiagram.pdf used on input line 7
 48.
-(pdftex.def)             Requested size: 394.65901pt x 180.28479pt.
+(pdftex.def)             Requested size: 384.1096pt x 175.46509pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -807,229 +822,233 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 754.
 
-<Figures/BackgroundDiagrams.png, id=1522, 793.96625pt x 647.41875pt>
+<Figures/BackgroundDiagrams.png, id=1564, 793.96625pt x 647.41875pt>
 File: Figures/BackgroundDiagrams.png Graphic file (type png)
 
 <use Figures/BackgroundDiagrams.png>
 Package pdftex.def Info: Figures/BackgroundDiagrams.png used on input line 758.
 
-(pdftex.def)             Requested size: 438.513pt x 357.58298pt.
+(pdftex.def)             Requested size: 426.79135pt x 348.02031pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[28] [29 <./Figures/ttbarDecayFractions.png>] [30 <./Figures/ttgammaFeynmanDiag
-ram.pdf, page is rotated 90 degrees>] [31 <./Figures/BackgroundDiagrams.png>]
-<Figures/BackgroundISR.png, id=1593, 760.8425pt x 181.67876pt>
+[34 <./Figures/ttbarDecayFractions.png>] [35 <./Figures/ttgammaFeynmanDiagram.p
+df, page is rotated 90 degrees>] [36 <./Figures/BackgroundDiagrams.png>]
+[37] [38] <Figures/BackgroundISR.png, id=1637, 760.8425pt x 181.67876pt>
 File: Figures/BackgroundISR.png Graphic file (type png)
 
 <use Figures/BackgroundISR.png>
 Package pdftex.def Info: Figures/BackgroundISR.png used on input line 786.
-(pdftex.def)             Requested size: 438.513pt x 104.71396pt.
+(pdftex.def)             Requested size: 426.79135pt x 101.91405pt.
 
-<Figures/BackgroundFSR.png, id=1596, 742.775pt x 438.63875pt>
+<Figures/BackgroundFSR.png, id=1640, 742.775pt x 438.63875pt>
 File: Figures/BackgroundFSR.png Graphic file (type png)
 
 <use Figures/BackgroundFSR.png>
 Package pdftex.def Info: Figures/BackgroundFSR.png used on input line 794.
-(pdftex.def)             Requested size: 438.513pt x 258.96193pt.
- [32 <./Figures/BackgroundISR.png> <./Figures/BackgroundFSR.png>] [33]
-<Figures/TopPhotonVertex.png, id=1615, 731.73375pt x 172.645pt>
+(pdftex.def)             Requested size: 426.79135pt x 252.04129pt.
+ [39 <./Figures/BackgroundISR.png> <./Figures/BackgroundFSR.png>] [40]
+<Figures/TopPhotonVertex.png, id=1658, 731.73375pt x 172.645pt>
 File: Figures/TopPhotonVertex.png Graphic file (type png)
 
 <use Figures/TopPhotonVertex.png>
 Package pdftex.def Info: Figures/TopPhotonVertex.png used on input line 846.
-(pdftex.def)             Requested size: 438.513pt x 103.46397pt.
- [34 <./Figures/TopPhotonVertex.png>]
-<Figures/TopChargeHeiner.png, id=1636, 441.65pt x 278.03876pt>
+(pdftex.def)             Requested size: 426.79135pt x 100.6979pt.
+ [41] [42 <./Figures/TopPhotonVertex.png>]
+<Figures/TopChargeHeiner.png, id=1687, 441.65pt x 278.03876pt>
 File: Figures/TopChargeHeiner.png Graphic file (type png)
 
 <use Figures/TopChargeHeiner.png>
 Package pdftex.def Info: Figures/TopChargeHeiner.png used on input line 873.
-(pdftex.def)             Requested size: 263.11047pt x 165.64511pt.
+(pdftex.def)             Requested size: 256.07741pt x 161.22015pt.
 Missing character: There is no â in font cmr10!
 Missing character: There is no ˆ in font cmr10!
 Missing character: There is no ’ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no ˆ in font cmr10!
 Missing character: There is no ’ in font cmr10!
- [35] [36 <./Figures/TopChargeHeiner.png>])
-(./Chapters/TheLHCAndTheCMSDetector.tex [37]
+ [43 <./Figures/TopChargeHeiner.png>])
+[44] (./Chapters/TheLHCAndTheCMSDetector.tex [45]
 Chapter 2.
-<Figures/CERNAcceleratorComplex.jpg, id=1687, 1689.31125pt x 1083.04625pt>
+<Figures/CERNAcceleratorComplex.jpg, id=1737, 1689.31125pt x 1083.04625pt>
 File: Figures/CERNAcceleratorComplex.jpg Graphic file (type jpg)
 
 <use Figures/CERNAcceleratorComplex.jpg>
 Package pdftex.def Info: Figures/CERNAcceleratorComplex.jpg used on input line 
 10.
-(pdftex.def)             Requested size: 438.513pt x 281.13918pt.
- [38
+(pdftex.def)             Requested size: 426.79135pt x 273.61989pt.
+ [46
 
-] [39 <./Figures/CERNAcceleratorComplex.jpg>] [40] [41] [42]
-<Figures/LHClumi2.png, id=1725, 998.73125pt x 641.39626pt>
+] [47 <./Figures/CERNAcceleratorComplex.jpg>] [48] [49] [50] [51] [52]
+<Figures/LHClumi2.png, id=1782, 998.73125pt x 641.39626pt>
 File: Figures/LHClumi2.png Graphic file (type png)
 
 <use Figures/LHClumi2.png>
 Package pdftex.def Info: Figures/LHClumi2.png used on input line 80.
-(pdftex.def)             Requested size: 219.2565pt x 140.80421pt.
+(pdftex.def)             Requested size: 213.39568pt x 137.04604pt.
 
-<Figures/LHClumi.png, id=1726, 602.25pt x 378.41376pt>
+<Figures/LHClumi.png, id=1783, 602.25pt x 378.41376pt>
 File: Figures/LHClumi.png Graphic file (type png)
 
 <use Figures/LHClumi.png>
 Package pdftex.def Info: Figures/LHClumi.png used on input line 80.
-(pdftex.def)             Requested size: 219.2565pt x 137.76476pt.
- <Figures/IntLumi2.png, id=1729, 578.16pt x 433.62pt>
+(pdftex.def)             Requested size: 213.39568pt x 134.08664pt.
+ <Figures/IntLumi2.png, id=1786, 578.16pt x 433.62pt>
 File: Figures/IntLumi2.png Graphic file (type png)
 
 <use Figures/IntLumi2.png>
 Package pdftex.def Info: Figures/IntLumi2.png used on input line 86.
-(pdftex.def)             Requested size: 219.2565pt x 164.43987pt.
+(pdftex.def)             Requested size: 213.39568pt x 160.04651pt.
 
-<Figures/CMSIntLumi.png, id=1730, 578.16pt x 433.62pt>
+<Figures/CMSIntLumi.png, id=1787, 578.16pt x 433.62pt>
 File: Figures/CMSIntLumi.png Graphic file (type png)
 
 <use Figures/CMSIntLumi.png>
 Package pdftex.def Info: Figures/CMSIntLumi.png used on input line 86.
-(pdftex.def)             Requested size: 219.2565pt x 164.43987pt.
+(pdftex.def)             Requested size: 213.39568pt x 160.04651pt.
 
-<Figures/CMSDetector.png, id=1731, 3189.9175pt x 2253.41875pt>
+<Figures/CMSDetector.png, id=1788, 3189.9175pt x 2253.41875pt>
 File: Figures/CMSDetector.png Graphic file (type png)
 
 <use Figures/CMSDetector.png>
 Package pdftex.def Info: Figures/CMSDetector.png used on input line 96.
-(pdftex.def)             Requested size: 438.513pt x 309.76868pt.
+(pdftex.def)             Requested size: 426.79135pt x 301.48204pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[43 <./Figures/LHClumi2.png> <./Figures/LHClumi.png>] [44 <./Figures/IntLumi2.p
-ng (PNG copy)> <./Figures/CMSIntLumi.png> <./Figures/CMSDetector.png>]
-<Figures/Tracker.png, id=1747, 1471.4975pt x 694.595pt>
+[53 <./Figures/LHClumi2.png> <./Figures/LHClumi.png>] [54 <./Figures/IntLumi2.p
+ng (PNG copy)> <./Figures/CMSIntLumi.png>] [55 <./Figures/CMSDetector.png>]
+<Figures/Tracker.png, id=1808, 1471.4975pt x 694.595pt>
 File: Figures/Tracker.png Graphic file (type png)
 
 <use Figures/Tracker.png>
 Package pdftex.def Info: Figures/Tracker.png used on input line 118.
-(pdftex.def)             Requested size: 438.513pt x 206.99168pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[45] [46 <./Figures/Tracker.png (PNG copy)>]
-<Figures/MuonReconstructionEfficiency.png, id=1765, 785.93625pt x 392.46625pt>
+(pdftex.def)             Requested size: 426.79135pt x 201.45918pt.
+ [56 <./Figures/Tracker.png (PNG copy)>] [57]
+<Figures/MuonReconstructionEfficiency.png, id=1829, 785.93625pt x 392.46625pt>
 File: Figures/MuonReconstructionEfficiency.png Graphic file (type png)
 
 <use Figures/MuonReconstructionEfficiency.png>
 Package pdftex.def Info: Figures/MuonReconstructionEfficiency.png used on input
  line 132.
-(pdftex.def)             Requested size: 438.513pt x 218.98311pt.
+(pdftex.def)             Requested size: 426.79135pt x 213.12631pt.
 
-<Figures/PVResolution.png, id=1768, 829.0975pt x 402.50375pt>
+<Figures/PVResolution.png, id=1832, 829.0975pt x 402.50375pt>
 File: Figures/PVResolution.png Graphic file (type png)
 
 <use Figures/PVResolution.png>
 Package pdftex.def Info: Figures/PVResolution.png used on input line 139.
-(pdftex.def)             Requested size: 438.513pt x 212.88376pt.
- [47] [48 <./Figures/MuonReconstructionEfficiency.png> <./Figures/PVResolution.
-png>] [49]
-<Figures/ECAL.png, id=1794, 1172.38pt x 803.0pt>
+(pdftex.def)             Requested size: 426.79135pt x 207.1904pt.
+ [58 <./Figures/MuonReconstructionEfficiency.png>] [59 <./Figures/PVResolution.
+png>] [60]
+<Figures/ECAL.png, id=1857, 1172.38pt x 803.0pt>
 File: Figures/ECAL.png Graphic file (type png)
  <use Figures/ECAL.png>
 Package pdftex.def Info: Figures/ECAL.png used on input line 164.
-(pdftex.def)             Requested size: 438.513pt x 300.34009pt.
+(pdftex.def)             Requested size: 426.79135pt x 292.31451pt.
 
-[50 <./Figures/ECAL.png (PNG copy)>]
-<Figures/ECALRapidity.png, id=1804, 1441.385pt x 734.745pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Figures/ECALRapidity.png, id=1861, 1441.385pt x 734.745pt>
 File: Figures/ECALRapidity.png Graphic file (type png)
 
 <use Figures/ECALRapidity.png>
 Package pdftex.def Info: Figures/ECALRapidity.png used on input line 174.
-(pdftex.def)             Requested size: 438.513pt x 223.53072pt.
- [51 <./Figures/ECALRapidity.png (PNG copy)>]
-<Figures/EcalInvariantMass.png, id=1814, 569.12625pt x 467.7475pt>
+(pdftex.def)             Requested size: 426.79135pt x 217.5551pt.
+ [61] [62 <./Figures/ECAL.png (PNG copy)>]
+[63 <./Figures/ECALRapidity.png (PNG copy)>]
+<Figures/EcalInvariantMass.png, id=1882, 569.12625pt x 467.7475pt>
 File: Figures/EcalInvariantMass.png Graphic file (type png)
 
 <use Figures/EcalInvariantMass.png>
 Package pdftex.def Info: Figures/EcalInvariantMass.png used on input line 196.
-(pdftex.def)             Requested size: 219.2565pt x 180.2011pt.
+(pdftex.def)             Requested size: 213.39568pt x 175.38345pt.
 
-<Figures/EcalEtaInclusive.png, id=1815, 1580.90625pt x 1202.4925pt>
+<Figures/EcalEtaInclusive.png, id=1883, 1580.90625pt x 1202.4925pt>
 File: Figures/EcalEtaInclusive.png Graphic file (type png)
 
 <use Figures/EcalEtaInclusive.png>
 Package pdftex.def Info: Figures/EcalEtaInclusive.png used on input line 197.
-(pdftex.def)             Requested size: 228.02863pt x 173.43034pt.
+(pdftex.def)             Requested size: 221.93332pt x 168.8065pt.
 
-Overfull \hbox (11.19374pt too wide) in paragraph at lines 196--198
+Overfull \hbox (10.95926pt too wide) in paragraph at lines 196--198
 [][] [] 
  []
 
-[52] [53 <./Figures/EcalInvariantMass.png (PNG copy)> <./Figures/EcalEtaInclusi
-ve.png>] <Figures/HCAL.png, id=1831, 1307.88625pt x 768.8725pt>
+[64 <./Figures/EcalInvariantMass.png (PNG copy)> <./Figures/EcalEtaInclusive.pn
+g>] <Figures/HCAL.png, id=1893, 1307.88625pt x 768.8725pt>
 File: Figures/HCAL.png Graphic file (type png)
 
 <use Figures/HCAL.png>
 Package pdftex.def Info: Figures/HCAL.png used on input line 219.
 (pdftex.def)             Requested size: 392.3689pt x 230.66353pt.
- [54 <./Figures/HCAL.png (PNG copy)>] [55]
-<Figures/SuperconductingSolenoid.png, id=1855, 700.6175pt x 519.9425pt>
+
+Overfull \hbox (9.70975pt too wide) in paragraph at lines 227--236
+ [] 
+ []
+
+[65] [66 <./Figures/HCAL.png (PNG copy)>] [67]
+<Figures/SuperconductingSolenoid.png, id=1920, 700.6175pt x 519.9425pt>
 File: Figures/SuperconductingSolenoid.png Graphic file (type png)
 
 <use Figures/SuperconductingSolenoid.png>
 Package pdftex.def Info: Figures/SuperconductingSolenoid.png used on input line
  275.
 (pdftex.def)             Requested size: 350.30789pt x 259.97061pt.
- [56] [57 <./Figures/SuperconductingSolenoid.png>]
-<Figures/CMSLongitudinalView.png, id=1868, 679.53876pt x 448.67625pt>
+ [68] [69 <./Figures/SuperconductingSolenoid.png>]
+<Figures/CMSLongitudinalView.png, id=1934, 679.53876pt x 448.67625pt>
 File: Figures/CMSLongitudinalView.png Graphic file (type png)
 
 <use Figures/CMSLongitudinalView.png>
 Package pdftex.def Info: Figures/CMSLongitudinalView.png used on input line 289
 .
-(pdftex.def)             Requested size: 438.513pt x 289.53432pt.
- [58 <./Figures/CMSLongitudinalView.png>]
-[59] <Figures/MuonEfficiencies.png, id=1886, 640.3925pt x 305.14pt>
+(pdftex.def)             Requested size: 426.79135pt x 281.79807pt.
+ [70] [71 <./Figures/CMSLongitudinalView.png>] [72] <Figures/MuonEfficiencies.p
+ng, id=1957, 640.3925pt x 305.14pt>
 File: Figures/MuonEfficiencies.png Graphic file (type png)
 
 <use Figures/MuonEfficiencies.png>
 Package pdftex.def Info: Figures/MuonEfficiencies.png used on input line 312.
-(pdftex.def)             Requested size: 438.513pt x 208.94978pt.
- [60] [61 <./Figures/MuonEfficiencies.png>]
-<Figures/L1Trigger.png, id=1900, 558.085pt x 381.425pt>
+(pdftex.def)             Requested size: 426.79135pt x 203.36252pt.
+ [73] [74 <./Figures/MuonEfficiencies.png>]
+<Figures/L1Trigger.png, id=1970, 558.085pt x 381.425pt>
 File: Figures/L1Trigger.png Graphic file (type png)
 
 <use Figures/L1Trigger.png>
 Package pdftex.def Info: Figures/L1Trigger.png used on input line 328.
 (pdftex.def)             Requested size: 279.04182pt x 190.71202pt.
- [62 <./Figures/L1Trigger.png>]
-<Figures/SemiLeptTriggerEfficiencies.png, id=1912, 945.5325pt x 445.665pt>
+ [75 <./Figures/L1Trigger.png>] [76]
+<Figures/SemiLeptTriggerEfficiencies.png, id=1989, 945.5325pt x 445.665pt>
 File: Figures/SemiLeptTriggerEfficiencies.png Graphic file (type png)
 
 <use Figures/SemiLeptTriggerEfficiencies.png>
 Package pdftex.def Info: Figures/SemiLeptTriggerEfficiencies.png used on input 
 line 349.
-(pdftex.def)             Requested size: 438.513pt x 206.68805pt.
+(pdftex.def)             Requested size: 426.79135pt x 201.16621pt.
 )
-(./Chapters/EventReconstruction&Simulation.tex [63] [64 <./Figures/SemiLeptTrig
-gerEfficiencies.png>]
+(./Chapters/EventReconstruction&Simulation.tex [77 <./Figures/SemiLeptTriggerEf
+ficiencies.png>]
 Chapter 3.
-<Figures/HadronCollisionProcess.png, id=1928, 730.73pt x 651.43375pt>
+<Figures/HadronCollisionProcess.png, id=1999, 730.73pt x 651.43375pt>
 File: Figures/HadronCollisionProcess.png Graphic file (type png)
 
 <use Figures/HadronCollisionProcess.png>
 Package pdftex.def Info: Figures/HadronCollisionProcess.png used on input line 
 11.
 (pdftex.def)             Requested size: 401.90274pt x 358.28966pt.
- [65
+ [78
 
-] [66 <./Figures/HadronCollisionProcess.png>] [67] [68] [69]
-<Figures/FullSim.png, id=1965, 1010.77625pt x 361.35pt>
+] [79] [80 <./Figures/HadronCollisionProcess.png>] [81] [82]
+<Figures/FullSim.png, id=2034, 1010.77625pt x 361.35pt>
 File: Figures/FullSim.png Graphic file (type png)
 
 <use Figures/FullSim.png>
 Package pdftex.def Info: Figures/FullSim.png used on input line 87.
-(pdftex.def)             Requested size: 438.513pt x 156.76694pt.
- [70 <./Figures/FullSim.png>] [71]
+(pdftex.def)             Requested size: 426.79135pt x 152.57648pt.
+ [83] [84 <./Figures/FullSim.png>] [85]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 116.
@@ -1042,7 +1061,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 116.
 
-[72]
+[86]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 166.
@@ -1055,15 +1074,15 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 166.
 
-[73] [74]
-<Figures/MatrixElementCalculation.png, id=2020, 897.3525pt x 526.96875pt>
+[87] [88]
+<Figures/MatrixElementCalculation.png, id=2095, 897.3525pt x 526.96875pt>
 File: Figures/MatrixElementCalculation.png Graphic file (type png)
 
 <use Figures/MatrixElementCalculation.png>
 Package pdftex.def Info: Figures/MatrixElementCalculation.png used on input lin
 e 181.
-(pdftex.def)             Requested size: 438.513pt x 257.51738pt.
- [75 <./Figures/MatrixElementCalculation.png>]
+(pdftex.def)             Requested size: 426.79135pt x 250.62634pt.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 193.
@@ -1088,106 +1107,107 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 193.
 
-[76] <Figures/WHIZARDfullvsfactorisedPT.png, id=2036, 674.52pt x 445.665pt>
+[89] [90 <./Figures/MatrixElementCalculation.png>] [91]
+<Figures/WHIZARDfullvsfactorisedPT.png, id=2115, 674.52pt x 445.665pt>
 File: Figures/WHIZARDfullvsfactorisedPT.png Graphic file (type png)
 
 <use Figures/WHIZARDfullvsfactorisedPT.png>
 Package pdftex.def Info: Figures/WHIZARDfullvsfactorisedPT.png used on input li
 ne 222.
-(pdftex.def)             Requested size: 394.65901pt x 260.75717pt.
+(pdftex.def)             Requested size: 384.1096pt x 253.78688pt.
 
-<Figures/WHIZARDfullvsfactorisedEta.png, id=2037, 662.475pt x 445.665pt>
+<Figures/WHIZARDfullvsfactorisedEta.png, id=2116, 662.475pt x 445.665pt>
 File: Figures/WHIZARDfullvsfactorisedEta.png Graphic file (type png)
 
 <use Figures/WHIZARDfullvsfactorisedEta.png>
 Package pdftex.def Info: Figures/WHIZARDfullvsfactorisedEta.png used on input l
 ine 223.
-(pdftex.def)             Requested size: 394.65901pt x 265.49698pt.
- [77] [78 <./Figures/WHIZARDfullvsfactorisedPT.png> <./Figures/WHIZARDfullvsfac
+(pdftex.def)             Requested size: 384.1096pt x 258.39748pt.
+ [92] [93 <./Figures/WHIZARDfullvsfactorisedPT.png> <./Figures/WHIZARDfullvsfac
 torisedEta.png>]
-<Figures/WHIZARDvsMADGRAPHPT.png, id=2051, 626.34pt x 404.51125pt>
+<Figures/WHIZARDvsMADGRAPHPT.png, id=2130, 626.34pt x 404.51125pt>
 File: Figures/WHIZARDvsMADGRAPHPT.png Graphic file (type png)
 
 <use Figures/WHIZARDvsMADGRAPHPT.png>
 Package pdftex.def Info: Figures/WHIZARDvsMADGRAPHPT.png used on input line 243
 .
-(pdftex.def)             Requested size: 350.81174pt x 226.57413pt.
+(pdftex.def)             Requested size: 341.43437pt x 220.5129pt.
 
-<Figures/WHIZARDvsMADGRAPHEta.png, id=2052, 626.34pt x 404.51125pt>
+<Figures/WHIZARDvsMADGRAPHEta.png, id=2131, 626.34pt x 404.51125pt>
 File: Figures/WHIZARDvsMADGRAPHEta.png Graphic file (type png)
 
 <use Figures/WHIZARDvsMADGRAPHEta.png>
 Package pdftex.def Info: Figures/WHIZARDvsMADGRAPHEta.png used on input line 24
 4.
-(pdftex.def)             Requested size: 350.81174pt x 226.57413pt.
+(pdftex.def)             Requested size: 341.43437pt x 220.5129pt.
 
-<Figures/WHIZARDvsMADGRAPHDR.png, id=2053, 621.32124pt x 412.54124pt>
+<Figures/WHIZARDvsMADGRAPHDR.png, id=2132, 621.32124pt x 412.54124pt>
 File: Figures/WHIZARDvsMADGRAPHDR.png Graphic file (type png)
 
 <use Figures/WHIZARDvsMADGRAPHDR.png>
 Package pdftex.def Info: Figures/WHIZARDvsMADGRAPHDR.png used on input line 245
 .
-(pdftex.def)             Requested size: 350.81174pt x 232.92886pt.
+(pdftex.def)             Requested size: 341.43437pt x 226.70325pt.
 
 
-LaTeX Warning: Float too large for page by 64.82515pt on input line 249.
+LaTeX Warning: Float too large for page by 140.99884pt on input line 249.
 
-[79] [80 <./Figures/WHIZARDvsMADGRAPHPT.png> <./Figures/WHIZARDvsMADGRAPHEta.pn
-g> <./Figures/WHIZARDvsMADGRAPHDR.png>] [81]
-Overfull \hbox (41.4633pt too wide) in paragraph at lines 302--310
+[94] [95 <./Figures/WHIZARDvsMADGRAPHPT.png> <./Figures/WHIZARDvsMADGRAPHEta.pn
+g> <./Figures/WHIZARDvsMADGRAPHDR.png>] [96] [97]
+Overfull \hbox (53.18495pt too wide) in paragraph at lines 302--310
 []\T1/cmr/m/n/10.95 The al-go-rithm it-er-ates over the pro-cess 6 times in or-
 der to fil-ter out as many fakes/misreconstructed
  []
 
-[82] [83] [84] <Figures/PF.png, id=2096, 372.39125pt x 341.275pt>
+[98] [99] [100] [101] <Figures/PF.png, id=2182, 372.39125pt x 341.275pt>
 File: Figures/PF.png Graphic file (type png)
 
 <use Figures/PF.png>
 Package pdftex.def Info: Figures/PF.png used on input line 344.
-(pdftex.def)             Requested size: 263.11047pt x 241.13527pt.
- <Figures/PFECAL.png, id=2099, 279.0425pt x 240.9pt>
+(pdftex.def)             Requested size: 256.07741pt x 234.68846pt.
+ <Figures/PFECAL.png, id=2185, 279.0425pt x 240.9pt>
 File: Figures/PFECAL.png Graphic file (type png)
 
 <use Figures/PFECAL.png>
 Package pdftex.def Info: Figures/PFECAL.png used on input line 351.
-(pdftex.def)             Requested size: 306.95775pt x 265.00919pt.
+(pdftex.def)             Requested size: 298.75264pt x 257.92218pt.
 
-<Figures/PFHCAL.png, id=2100, 278.03876pt x 238.8925pt>
+<Figures/PFHCAL.png, id=2186, 278.03876pt x 238.8925pt>
 File: Figures/PFHCAL.png Graphic file (type png)
 
 <use Figures/PFHCAL.png>
 Package pdftex.def Info: Figures/PFHCAL.png used on input line 352.
-(pdftex.def)             Requested size: 306.95775pt x 263.74489pt.
- [85] [86 <./Figures/PF.png>] [87 <./Figures/PFECAL.png> <./Figures/PFHCAL.png>
-] [88] [89]
+(pdftex.def)             Requested size: 298.75264pt x 256.69507pt.
+ [102 <./Figures/PF.png>] [103 <./Figures/PFECAL.png> <./Figures/PFHCAL.png>] [
+104] [105] [106]
 Underfull \vbox (badness 10000) detected at line 419
  []
 
-[90] [91] [92] [93] [94] [95] [96]
-<Figures/CSV.png, id=2194, 529.98pt x 560.0925pt>
+[107] [108] [109] [110] [111] [112] [113] [114]
+<Figures/CSV.png, id=2285, 529.98pt x 560.0925pt>
 File: Figures/CSV.png Graphic file (type png)
  <use Figures/CSV.png>
 Package pdftex.def Info: Figures/CSV.png used on input line 527.
-(pdftex.def)             Requested size: 219.2565pt x 231.71616pt.
+(pdftex.def)             Requested size: 213.39568pt x 225.52008pt.
 
-[97 <./Figures/CSV.png>]
-<Figures/CSVDiscriminator.png, id=2205, 608.2725pt x 437.635pt>
+[115 <./Figures/CSV.png>]
+<Figures/CSVDiscriminator.png, id=2295, 608.2725pt x 437.635pt>
 File: Figures/CSVDiscriminator.png Graphic file (type png)
 
 <use Figures/CSVDiscriminator.png>
 Package pdftex.def Info: Figures/CSVDiscriminator.png used on input line 550.
-(pdftex.def)             Requested size: 350.81174pt x 252.40611pt.
- [98] [99 <./Figures/CSVDiscriminator.png>])
-(./Chapters/EventSelectionAndBackgroundEstimation.tex [100]
+(pdftex.def)             Requested size: 341.43437pt x 245.65489pt.
+ [116] [117 <./Figures/CSVDiscriminator.png>] [118]) (./Chapters/EventSelection
+AndBackgroundEstimation.tex [119]
 Chapter 4.
-[101
+[120
 
-] <Figures/AnalysisFlowChart2.png, id=2234, 475.7775pt x 677.53125pt>
+] <Figures/AnalysisFlowChart2.png, id=2329, 475.7775pt x 677.53125pt>
 File: Figures/AnalysisFlowChart2.png Graphic file (type png)
 
 <use Figures/AnalysisFlowChart2.png>
 Package pdftex.def Info: Figures/AnalysisFlowChart2.png used on input line 16.
-(pdftex.def)             Requested size: 328.88475pt x 468.36548pt.
+(pdftex.def)             Requested size: 320.0935pt x 455.84583pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1197,7 +1217,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 23.
 
-[102] [103 <./Figures/AnalysisFlowChart2.png>] [104]
+[121] [122 <./Figures/AnalysisFlowChart2.png>] [123]
 Underfull \hbox (badness 10000) in paragraph at lines 77--79
 []\T1/cmr/m/n/10.95 HLT_Ele17_CaloIdT_CaloIsoVL_TrkIdVL_TrkIsoVL
  []
@@ -1207,9 +1227,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--80
 []\T1/cmr/m/n/10.95 HLT_Mu17_Ele8_CaloIdT_CaloIsoVL_TrkIdVL_TrkIsoVL_v*,
  []
 
-[105] [106] [107] [108] [109] [110]
+[124] [125] [126] [127] [128] [129] [130]
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/LeadLepton_Pt_splitTTba
-r_ratio.pdf, id=2292, 569.12625pt x 515.9275pt>
+r_ratio.pdf, id=2392, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/LeadLepton_Pt_spli
 tTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1217,10 +1237,10 @@ tTTbar_ratio.pdf Graphic file (type pdf)
 TTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton
 /LeadLepton_Pt_splitTTbar_ratio.pdf used on input line 181.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/SecondLepton_Pt_splitTT
-bar_ratio.pdf, id=2293, 569.12625pt x 515.9275pt>
+bar_ratio.pdf, id=2393, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/SecondLepton_Pt_sp
 litTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1228,7 +1248,7 @@ litTTbar_ratio.pdf Graphic file (type pdf)
 itTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton
 /SecondLepton_Pt_splitTTbar_ratio.pdf used on input line 182.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 Overfull \hbox (2.42162pt too wide) in paragraph at lines 181--183
 [][] [] 
@@ -1241,7 +1261,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 181--183
 
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/diLepton_Mass_splitTTba
-r_ratio.pdf, id=2294, 569.12625pt x 515.9275pt>
+r_ratio.pdf, id=2394, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/diLepton_Mass_spli
 tTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1249,14 +1269,14 @@ tTTbar_ratio.pdf Graphic file (type pdf)
 TTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton
 /diLepton_Mass_splitTTbar_ratio.pdf used on input line 184.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
- [111] [112 <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/LeadLepto
-n_Pt_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TT
-barDiLeptonAnalysis/MuMu/DiLepton/SecondLepton_Pt_splitTTbar_ratio.pdf, page is
- rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/
-diLepton_Mass_splitTTbar_ratio.pdf, page is rotated 90 degrees>]
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
+ [131] [132] [133 <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/Lea
+dLepton_Pt_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPl
+ots/TTbarDiLeptonAnalysis/MuMu/DiLepton/SecondLepton_Pt_splitTTbar_ratio.pdf, p
+age is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiL
+epton/diLepton_Mass_splitTTbar_ratio.pdf, page is rotated 90 degrees>]
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/all_jet_pT_splitTTbar_ratio
-.pdf, id=2439, 569.12625pt x 515.9275pt>
+.pdf, id=2544, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/all_jet_pT_splitTTbar_
 ratio.pdf Graphic file (type pdf)
 
@@ -1264,10 +1284,10 @@ ratio.pdf Graphic file (type pdf)
 atio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/all
 _jet_pT_splitTTbar_ratio.pdf used on input line 212.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/all_jet_eta_splitTTbar_rati
-o.pdf, id=2440, 569.12625pt x 515.9275pt>
+o.pdf, id=2545, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/all_jet_eta_splitTTbar
 _ratio.pdf Graphic file (type pdf)
 
@@ -1275,7 +1295,7 @@ _ratio.pdf Graphic file (type pdf)
 ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/all
 _jet_eta_splitTTbar_ratio.pdf used on input line 213.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 Overfull \hbox (2.42162pt too wide) in paragraph at lines 212--214
 [][] [] 
@@ -1288,7 +1308,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 212--214
 
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/N_Jets_splitTTbar_ratio.pdf
-, id=2441, 569.12625pt x 515.9275pt>
+, id=2546, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/N_Jets_splitTTbar_rati
 o.pdf Graphic file (type pdf)
 
@@ -1296,10 +1316,10 @@ o.pdf Graphic file (type pdf)
 .pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/N_J
 ets_splitTTbar_ratio.pdf used on input line 215.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/MET/patType1CorrectedPFMet/MET_s
-plitTTbar_ratio.pdf, id=2444, 569.12625pt x 515.9275pt>
+plitTTbar_ratio.pdf, id=2549, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/MET/patType1CorrectedPFMet/
 MET_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1307,10 +1327,10 @@ MET_splitTTbar_ratio.pdf Graphic file (type pdf)
 ET_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/MET/patT
 ype1CorrectedPFMet/MET_splitTTbar_ratio.pdf used on input line 226.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/MET/patType1CorrectedPFMet/MET_p
-hi_splitTTbar_ratio.pdf, id=2445, 569.12625pt x 515.9275pt>
+hi_splitTTbar_ratio.pdf, id=2550, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/MET/patType1CorrectedPFMet/
 MET_phi_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1318,7 +1338,7 @@ MET_phi_splitTTbar_ratio.pdf Graphic file (type pdf)
 ET_phi_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/MET/patT
 ype1CorrectedPFMet/MET_phi_splitTTbar_ratio.pdf used on input line 227.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 Overfull \hbox (2.42162pt too wide) in paragraph at lines 226--228
 [][] [] 
@@ -1331,7 +1351,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 226--228
 
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/MET/patType1CorrectedPFMet/METsign
-ificance_splitTTbar_ratio.pdf, id=2446, 569.12625pt x 515.9275pt>
+ificance_splitTTbar_ratio.pdf, id=2551, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/MET/patType1CorrectedPFMet/ME
 Tsignificance_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1339,7 +1359,7 @@ Tsignificance_splitTTbar_ratio.pdf Graphic file (type pdf)
 significance_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/MET/patTyp
 e1CorrectedPFMet/METsignificance_splitTTbar_ratio.pdf used on input line 229.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1349,9 +1369,18 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 235.
 
-
+[134] [135 <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/all_jet_pT_spl
+itTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLep
+tonAnalysis/MuMu/Jets/all_jet_eta_splitTTbar_ratio.pdf, page is rotated 90 degr
+ees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/N_Jets_splitTTbar_ra
+tio.pdf, page is rotated 90 degrees>] [136 <./Plots/ControlPlots/TTbarDiLeptonA
+nalysis/MuMu/MET/patType1CorrectedPFMet/MET_splitTTbar_ratio.pdf, page is rotat
+ed 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/MET/patType1Cor
+rectedPFMet/MET_phi_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/
+ControlPlots/TTbarDiLeptonAnalysis/EE/MET/patType1CorrectedPFMet/METsignificanc
+e_splitTTbar_ratio.pdf, page is rotated 90 degrees>]
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Photon_ET_spl
-itTTbar_ratio.pdf, id=2448, 569.12625pt x 515.9275pt>
+itTTbar_ratio.pdf, id=2825, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Photon_E
 T_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1359,10 +1388,10 @@ T_splitTTbar_ratio.pdf Graphic file (type pdf)
 _splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/
 AllPhotons/Photon_ET_splitTTbar_ratio.pdf used on input line 240.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Photon_AbsEta
-_splitTTbar_ratio.pdf, id=2449, 569.12625pt x 515.9275pt>
+_splitTTbar_ratio.pdf, id=2826, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Photon_A
 bsEta_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1370,10 +1399,10 @@ bsEta_splitTTbar_ratio.pdf Graphic file (type pdf)
 sEta_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/
 AllPhotons/Photon_AbsEta_splitTTbar_ratio.pdf used on input line 241.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Photon_ET_split
-TTbar_ratio.pdf, id=2450, 569.12625pt x 515.9275pt>
+TTbar_ratio.pdf, id=2827, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Photon_ET_
 splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1381,10 +1410,10 @@ splitTTbar_ratio.pdf Graphic file (type pdf)
 plitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/Al
 lPhotons/Photon_ET_splitTTbar_ratio.pdf used on input line 242.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Photon_AbsEta_s
-plitTTbar_ratio.pdf, id=2451, 569.12625pt x 515.9275pt>
+plitTTbar_ratio.pdf, id=2828, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Photon_Abs
 Eta_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1392,10 +1421,10 @@ Eta_splitTTbar_ratio.pdf Graphic file (type pdf)
 ta_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/Al
 lPhotons/Photon_AbsEta_splitTTbar_ratio.pdf used on input line 243.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Photon_ET_spli
-tTTbar_ratio.pdf, id=2452, 569.12625pt x 515.9275pt>
+tTTbar_ratio.pdf, id=2829, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Photon_ET
 _splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1403,10 +1432,10 @@ _splitTTbar_ratio.pdf Graphic file (type pdf)
 splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/A
 llPhotons/Photon_ET_splitTTbar_ratio.pdf used on input line 244.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Photon_AbsEta_
-splitTTbar_ratio.pdf, id=2453, 569.12625pt x 515.9275pt>
+splitTTbar_ratio.pdf, id=2830, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Photon_Ab
 sEta_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1414,7 +1443,7 @@ sEta_splitTTbar_ratio.pdf Graphic file (type pdf)
 Eta_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/A
 llPhotons/Photon_AbsEta_splitTTbar_ratio.pdf used on input line 245.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 Overfull \hbox (2.42162pt too wide) in paragraph at lines 240--246
 [][] [] 
@@ -1429,6 +1458,9 @@ Overfull \hbox (2.42162pt too wide) in paragraph at lines 240--246
 Overfull \hbox (2.42162pt too wide) in paragraph at lines 240--246
 [] [] 
  []
+
+
+LaTeX Warning: Float too large for page by 41.61595pt on input line 248.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1442,28 +1474,9 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 250.
 
-[113] [114 <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/all_jet_pT_spl
-itTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLep
-tonAnalysis/MuMu/Jets/all_jet_eta_splitTTbar_ratio.pdf, page is rotated 90 degr
-ees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/N_Jets_splitTTbar_ra
-tio.pdf, page is rotated 90 degrees>] [115 <./Plots/ControlPlots/TTbarDiLeptonA
-nalysis/MuMu/MET/patType1CorrectedPFMet/MET_splitTTbar_ratio.pdf, page is rotat
-ed 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/MET/patType1Cor
-rectedPFMet/MET_phi_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/
-ControlPlots/TTbarDiLeptonAnalysis/EE/MET/patType1CorrectedPFMet/METsignificanc
-e_splitTTbar_ratio.pdf, page is rotated 90 degrees>] [116 <./Plots/ControlPlots
-/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Photon_ET_splitTTbar_ratio.pdf, 
-page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Ph
-otons/AllPhotons/Photon_AbsEta_splitTTbar_ratio.pdf, page is rotated 90 degrees
-> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Photon_ET_s
-plitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiL
-eptonAnalysis/EE/Photons/AllPhotons/Photon_AbsEta_splitTTbar_ratio.pdf, page is
- rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/Al
-lPhotons/Photon_ET_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/C
-ontrolPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Photon_AbsEta_splitTTb
-ar_ratio.pdf, page is rotated 90 degrees>]
+
 <Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_ET_sp
-litTTbar_ratio.pdf, id=2993, 569.12625pt x 515.9275pt>
+litTTbar_ratio.pdf, id=2835, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_
 ET_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1471,10 +1484,10 @@ ET_splitTTbar_ratio.pdf Graphic file (type pdf)
 T_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/Si
 gnalPhotons/Photon_ET_splitTTbar_ratio.pdf used on input line 268.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_AbsEt
-a_splitTTbar_ratio.pdf, id=2994, 569.12625pt x 515.9275pt>
+a_splitTTbar_ratio.pdf, id=2836, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_
 AbsEta_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1482,10 +1495,10 @@ AbsEta_splitTTbar_ratio.pdf Graphic file (type pdf)
 bsEta_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/Si
 gnalPhotons/Photon_AbsEta_splitTTbar_ratio.pdf used on input line 269.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_ET_spli
-tTTbar_ratio.pdf, id=2995, 569.12625pt x 515.9275pt>
+tTTbar_ratio.pdf, id=2837, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_ET
 _splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1493,10 +1506,10 @@ _splitTTbar_ratio.pdf Graphic file (type pdf)
 splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/Sign
 alPhotons/Photon_ET_splitTTbar_ratio.pdf used on input line 270.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_AbsEta_
-splitTTbar_ratio.pdf, id=2996, 569.12625pt x 515.9275pt>
+splitTTbar_ratio.pdf, id=2838, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_Ab
 sEta_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1504,10 +1517,10 @@ sEta_splitTTbar_ratio.pdf Graphic file (type pdf)
 Eta_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/Sign
 alPhotons/Photon_AbsEta_splitTTbar_ratio.pdf used on input line 271.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_ET_spl
-itTTbar_ratio.pdf, id=2997, 569.12625pt x 515.9275pt>
+itTTbar_ratio.pdf, id=2839, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_E
 T_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1515,10 +1528,10 @@ T_splitTTbar_ratio.pdf Graphic file (type pdf)
 _splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/Sig
 nalPhotons/Photon_ET_splitTTbar_ratio.pdf used on input line 272.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_AbsEta
-_splitTTbar_ratio.pdf, id=2998, 569.12625pt x 515.9275pt>
+_splitTTbar_ratio.pdf, id=2840, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_A
 bsEta_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1526,7 +1539,7 @@ bsEta_splitTTbar_ratio.pdf Graphic file (type pdf)
 sEta_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/Sig
 nalPhotons/Photon_AbsEta_splitTTbar_ratio.pdf used on input line 273.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 Overfull \hbox (2.42162pt too wide) in paragraph at lines 268--275
 [][] [] 
@@ -1542,36 +1555,53 @@ Overfull \hbox (2.42162pt too wide) in paragraph at lines 268--275
 [] [] 
  []
 
-[117] [118 <./Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons
-/Photon_ET_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPl
-ots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_AbsEta_splitTTbar_rat
-io.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarPhotonAnalysis/E
-E/Photons/SignalPhotons/Photon_ET_splitTTbar_ratio.pdf, page is rotated 90 degr
-ees> <./Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_
-AbsEta_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/
-TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_ET_splitTTbar_ratio.pdf, p
-age is rotated 90 degrees> <./Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photon
-s/SignalPhotons/Photon_AbsEta_splitTTbar_ratio.pdf, page is rotated 90 degrees>
-]
-Overfull \hbox (11.90654pt too wide) in paragraph at lines 305--307
+
+LaTeX Warning: Float too large for page by 41.61595pt on input line 277.
+
+[137] [138 <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/
+Photon_ET_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlo
+ts/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Photon_AbsEta_splitTTbar_ratio
+.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/E
+E/Photons/AllPhotons/Photon_ET_splitTTbar_ratio.pdf, page is rotated 90 degrees
+> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Photon_AbsE
+ta_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTba
+rDiLeptonAnalysis/EMu/Photons/AllPhotons/Photon_ET_splitTTbar_ratio.pdf, page i
+s rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/A
+llPhotons/Photon_AbsEta_splitTTbar_ratio.pdf, page is rotated 90 degrees>]
+[139 <./Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photo
+n_ET_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TT
+barPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_AbsEta_splitTTbar_ratio.pdf
+, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarPhotonAnalysis/EE/Phot
+ons/SignalPhotons/Photon_ET_splitTTbar_ratio.pdf, page is rotated 90 degrees> <
+./Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_AbsEta
+_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarP
+hotonAnalysis/EMu/Photons/SignalPhotons/Photon_ET_splitTTbar_ratio.pdf, page is
+ rotated 90 degrees> <./Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/Sign
+alPhotons/Photon_AbsEta_splitTTbar_ratio.pdf, page is rotated 90 degrees>]
+Overfull \hbox (23.62819pt too wide) in paragraph at lines 305--307
 []\T1/cmr/m/n/10.95 The su-per-clus-ter footprint-
  []
 
 
-Overfull \hbox (7.7855pt too wide) in paragraph at lines 308--310
+Overfull \hbox (19.50716pt too wide) in paragraph at lines 308--310
 []\T1/cmr/m/n/10.95 The su-per-clus-ter footprint-
  []
 
 
-Overfull \hbox (54.90715pt too wide) in paragraph at lines 327--328
+Overfull \hbox (11.64694pt too wide) in paragraph at lines 311--313
+[]\T1/cmr/m/n/10.95 The su-per-clus-ter footprint-removed
+ []
+
+[140]
+Overfull \hbox (9.06813pt too wide) in paragraph at lines 325--326
 []\T1/cmr/m/n/10.95 In or-der to re-duce FSR from fi-nal state par-tons. A re-q
 uire-ment of $\OT1/cmr/m/n/10.95 ^^A\OML/cmm/m/it/10.95 R\OT1/cmr/m/n/10.95 (\O
-ML/cmm/m/it/10.95 leptons; jets\OT1/cmr/m/n/10.95 ) \OML/cmm/m/it/10.95 >
+ML/cmm/m/it/10.95 ^^M; jets\OT1/cmr/m/n/10.95 ) \OML/cmm/m/it/10.95 >
  []
 
-[119]
+
 <Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_delta
-R_jets_splitTTbar_ratio.pdf, id=3277, 569.12625pt x 515.9275pt>
+R_jets_splitTTbar_ratio.pdf, id=3381, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_
 deltaR_jets_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1579,10 +1609,10 @@ deltaR_jets_splitTTbar_ratio.pdf Graphic file (type pdf)
 eltaR_jets_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/Si
 gnalPhotons/Photon_deltaR_jets_splitTTbar_ratio.pdf used on input line 333.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_deltaR_
-jets_splitTTbar_ratio.pdf, id=3278, 569.12625pt x 515.9275pt>
+jets_splitTTbar_ratio.pdf, id=3382, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_de
 ltaR_jets_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1590,7 +1620,7 @@ ltaR_jets_splitTTbar_ratio.pdf Graphic file (type pdf)
 taR_jets_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/Sign
 alPhotons/Photon_deltaR_jets_splitTTbar_ratio.pdf used on input line 334.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 Overfull \hbox (2.42162pt too wide) in paragraph at lines 333--335
 [][] [] 
@@ -1603,7 +1633,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 333--335
 
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_deltaR
-_jets_splitTTbar_ratio.pdf, id=3279, 569.12625pt x 515.9275pt>
+_jets_splitTTbar_ratio.pdf, id=3383, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_d
 eltaR_jets_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1611,70 +1641,73 @@ eltaR_jets_splitTTbar_ratio.pdf Graphic file (type pdf)
 ltaR_jets_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/Sig
 nalPhotons/Photon_deltaR_jets_splitTTbar_ratio.pdf used on input line 336.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
- [120] [121 <./Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhoton
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
+ [141] [142 <./Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhoton
 s/Photon_deltaR_jets_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots
 /ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_deltaR_jets_s
 plitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarPho
 tonAnalysis/EMu/Photons/SignalPhotons/Photon_deltaR_jets_splitTTbar_ratio.pdf, 
-page is rotated 90 degrees>]
-<Figures/RandomCone3.pdf, id=3422, 366.21979pt x 440.91293pt>
+page is rotated 90 degrees>] [143] [144]
+<Figures/RandomCone3.pdf, id=3535, 366.21979pt x 440.91293pt>
 File: Figures/RandomCone3.pdf Graphic file (type pdf)
 
 <use Figures/RandomCone3.pdf>
 Package pdftex.def Info: Figures/RandomCone3.pdf used on input line 373.
-(pdftex.def)             Requested size: 175.40251pt x 211.17159pt.
- [122] [123 <./Figures/RandomCone3.pdf>]
-<Figures/photonphasespace2.png, id=3482, 709.65125pt x 499.8675pt>
+(pdftex.def)             Requested size: 170.71393pt x 205.52698pt.
+ [145 <./Figures/RandomCone3.pdf>]
+<Figures/photonphasespace2.png, id=3591, 709.65125pt x 499.8675pt>
 File: Figures/photonphasespace2.png Graphic file (type png)
 
 <use Figures/photonphasespace2.png>
 Package pdftex.def Info: Figures/photonphasespace2.png used on input line 396.
 (pdftex.def)             Requested size: 354.82475pt x 249.93314pt.
- [124 <./Figures/photonphasespace2.png>]
+ [146]
 
-LaTeX Warning: Reference `' on page 125 undefined on input line 416.
+LaTeX Warning: Reference `' on page 147 undefined on input line 416.
 
-[125] [126]
+[147 <./Figures/photonphasespace2.png>] [148]
 <Plots/ControlPlots/CutFlow/Log/TTbarMuMuRefSelection_splitTTbar_ratio.pdf, id=
-3513, 569.12625pt x 515.9275pt>
+3622, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/CutFlow/Log/TTbarMuMuRefSelection_splitTTbar_ratio.pdf
  Graphic file (type pdf)
 
 <use Plots/ControlPlots/CutFlow/Log/TTbarMuMuRefSelection_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/CutFlow/Log/TTbarMuMuRefSelection_s
-plitTTbar_ratio.pdf used on input line 443.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+plitTTbar_ratio.pdf used on input line 441.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
-<Plots/ControlPlots/CutFlow/Log/TTbarEERefSelection_splitTTbar_ratio.pdf, id=35
-14, 569.12625pt x 515.9275pt>
+<Plots/ControlPlots/CutFlow/Log/TTbarEERefSelection_splitTTbar_ratio.pdf, id=36
+23, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/CutFlow/Log/TTbarEERefSelection_splitTTbar_ratio.pdf G
 raphic file (type pdf)
 
 <use Plots/ControlPlots/CutFlow/Log/TTbarEERefSelection_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/CutFlow/Log/TTbarEERefSelection_spl
-itTTbar_ratio.pdf used on input line 444.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+itTTbar_ratio.pdf used on input line 442.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 443--445
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 441--443
 [][] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 443--445
+Underfull \hbox (badness 10000) in paragraph at lines 441--443
 
  []
 
 
 <Plots/ControlPlots/CutFlow/Log/TTbarEMuRefSelection_splitTTbar_ratio.pdf, id=3
-515, 569.12625pt x 515.9275pt>
+624, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/CutFlow/Log/TTbarEMuRefSelection_splitTTbar_ratio.pdf 
 Graphic file (type pdf)
 
 <use Plots/ControlPlots/CutFlow/Log/TTbarEMuRefSelection_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/CutFlow/Log/TTbarEMuRefSelection_sp
-litTTbar_ratio.pdf used on input line 446.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+litTTbar_ratio.pdf used on input line 444.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1682,14 +1715,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./Chapters/CrossSectionMeasurement.tex [127] [128 <./Plots/ControlPlots/CutF
+) (./Chapters/CrossSectionMeasurement.tex [149] [150 <./Plots/ControlPlots/CutF
 low/Log/TTbarMuMuRefSelection_splitTTbar_ratio.pdf, page is rotated 90 degrees>
  <./Plots/ControlPlots/CutFlow/Log/TTbarEERefSelection_splitTTbar_ratio.pdf, pa
 ge is rotated 90 degrees> <./Plots/ControlPlots/CutFlow/Log/TTbarEMuRefSelectio
-n_splitTTbar_ratio.pdf, page is rotated 90 degrees>] [129] [130] [131]
+n_splitTTbar_ratio.pdf, page is rotated 90 degrees>] [151] [152]
 Chapter 5.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1731,57 +1761,59 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 3.
 
-[132
+[153
 
-] [133] <Figures/SignalPhotonPlot.png, id=3687, 756.8275pt x 680.5425pt>
+] [154] [155]
+<Figures/SignalPhotonPlot.png, id=3796, 756.8275pt x 680.5425pt>
 File: Figures/SignalPhotonPlot.png Graphic file (type png)
 
 <use Figures/SignalPhotonPlot.png>
 Package pdftex.def Info: Figures/SignalPhotonPlot.png used on input line 58.
 (pdftex.def)             Requested size: 249.75385pt x 224.57971pt.
- [134] [135 <./Figures/SignalPhotonPlot.png>] [136] [137] <Figures/RandomCone1.
-png, id=3711, 412.54124pt x 440.64626pt>
+ [156 <./Figures/SignalPhotonPlot.png>]
+[157] [158] [159]
+<Figures/RandomCone1.png, id=3821, 412.54124pt x 440.64626pt>
 File: Figures/RandomCone1.png Graphic file (type png)
 
 <use Figures/RandomCone1.png>
 Package pdftex.def Info: Figures/RandomCone1.png used on input line 115.
-(pdftex.def)             Requested size: 197.3295pt x 210.7749pt.
+(pdftex.def)             Requested size: 192.0548pt x 205.14044pt.
 
-<Figures/RandomCone2.png, id=3712, 547.04375pt x 452.69125pt>
+<Figures/RandomCone2.png, id=3822, 547.04375pt x 452.69125pt>
 File: Figures/RandomCone2.png Graphic file (type png)
 
 <use Figures/RandomCone2.png>
 Package pdftex.def Info: Figures/RandomCone2.png used on input line 115.
-(pdftex.def)             Requested size: 241.18349pt x 199.58539pt.
+(pdftex.def)             Requested size: 234.73654pt x 194.2528pt.
 
-<Plots/signalComparison/MuMu/sigComparison.pdf, id=3716, 569.12625pt x 385.44pt
+<Plots/signalComparison/MuMu/sigComparison.pdf, id=3826, 569.12625pt x 385.44pt
 >
 File: Plots/signalComparison/MuMu/sigComparison.pdf Graphic file (type pdf)
  <use Plots/signalComparison/MuMu/sigComparison.pdf>
 Package pdftex.def Info: Plots/signalComparison/MuMu/sigComparison.pdf used on 
 input line 124.
-(pdftex.def)             Requested size: 219.2565pt x 148.4919pt.
+(pdftex.def)             Requested size: 213.39568pt x 144.52199pt.
 
-<Plots/signalComparison/EE/sigComparison.pdf, id=3717, 569.12625pt x 385.44pt>
+<Plots/signalComparison/EE/sigComparison.pdf, id=3827, 569.12625pt x 385.44pt>
 File: Plots/signalComparison/EE/sigComparison.pdf Graphic file (type pdf)
 
 <use Plots/signalComparison/EE/sigComparison.pdf>
 Package pdftex.def Info: Plots/signalComparison/EE/sigComparison.pdf used on in
 put line 125.
-(pdftex.def)             Requested size: 219.2565pt x 148.4919pt.
+(pdftex.def)             Requested size: 213.39568pt x 144.52199pt.
 
 Overfull \hbox (2.42162pt too wide) in paragraph at lines 124--126
 [][] [] 
  []
 
 
-<Plots/signalComparison/EMu/sigComparison.pdf, id=3718, 569.12625pt x 385.44pt>
+<Plots/signalComparison/EMu/sigComparison.pdf, id=3828, 569.12625pt x 385.44pt>
 File: Plots/signalComparison/EMu/sigComparison.pdf Graphic file (type pdf)
 <use Plots/signalComparison/EMu/sigComparison.pdf>
 Package pdftex.def Info: Plots/signalComparison/EMu/sigComparison.pdf used on i
 nput line 127.
-(pdftex.def)             Requested size: 219.2565pt x 148.4919pt.
-
+(pdftex.def)             Requested size: 213.39568pt x 144.52199pt.
+ [160 <./Figures/RandomCone1.png> <./Figures/RandomCone2.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 133.
@@ -1806,39 +1838,41 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 133.
 
-[138 <./Figures/RandomCone1.png> <./Figures/RandomCone2.png>] [139 <./Plots/sig
-nalComparison/MuMu/sigComparison.pdf, page is rotated 90 degrees> <./Plots/sign
-alComparison/EE/sigComparison.pdf, page is rotated 90 degrees> <./Plots/signalC
-omparison/EMu/sigComparison.pdf, page is rotated 90 degrees>]
-<Plots/signalComparison/MuMu/bkgdComparison.pdf, id=3862, 569.12625pt x 385.44p
+[161 <./Plots/signalComparison/MuMu/sigComparison.pdf, page is rotated 90 degre
+es> <./Plots/signalComparison/EE/sigComparison.pdf, page is rotated 90 degrees>
+ <./Plots/signalComparison/EMu/sigComparison.pdf, page is rotated 90 degrees>]
+<Plots/signalComparison/MuMu/bkgdComparison.pdf, id=3971, 569.12625pt x 385.44p
 t>
 File: Plots/signalComparison/MuMu/bkgdComparison.pdf Graphic file (type pdf)
  <use Plots/signalComparison/MuMu/bkgdComparison.pdf>
 Package pdftex.def Info: Plots/signalComparison/MuMu/bkgdComparison.pdf used on
  input line 145.
-(pdftex.def)             Requested size: 219.2565pt x 148.4919pt.
+(pdftex.def)             Requested size: 213.39568pt x 144.52199pt.
 
-<Plots/signalComparison/EE/bkgdComparison.pdf, id=3863, 569.12625pt x 385.44pt>
+<Plots/signalComparison/EE/bkgdComparison.pdf, id=3972, 569.12625pt x 385.44pt>
 File: Plots/signalComparison/EE/bkgdComparison.pdf Graphic file (type pdf)
 <use Plots/signalComparison/EE/bkgdComparison.pdf>
 Package pdftex.def Info: Plots/signalComparison/EE/bkgdComparison.pdf used on i
 nput line 146.
-(pdftex.def)             Requested size: 219.2565pt x 148.4919pt.
+(pdftex.def)             Requested size: 213.39568pt x 144.52199pt.
 
 Overfull \hbox (2.42162pt too wide) in paragraph at lines 145--147
 [][] [] 
  []
 
 
-<Plots/signalComparison/EMu/bkgdComparison.pdf, id=3864, 569.12625pt x 385.44pt
+<Plots/signalComparison/EMu/bkgdComparison.pdf, id=3973, 569.12625pt x 385.44pt
 >
 File: Plots/signalComparison/EMu/bkgdComparison.pdf Graphic file (type pdf)
  <use Plots/signalComparison/EMu/bkgdComparison.pdf>
 Package pdftex.def Info: Plots/signalComparison/EMu/bkgdComparison.pdf used on 
 input line 148.
-(pdftex.def)             Requested size: 219.2565pt x 148.4919pt.
-
-<Plots/Fits/TTbarPhotonAnalysis/MuMu/central/pseudoFitTemplate.pdf, id=3867, 56
+(pdftex.def)             Requested size: 213.39568pt x 144.52199pt.
+ [162] [163 <./Plots/signalComparison/MuMu/bkgdComparison.pdf, page is rotated 
+90 degrees> <./Plots/signalComparison/EE/bkgdComparison.pdf, page is rotated 90
+ degrees> <./Plots/signalComparison/EMu/bkgdComparison.pdf, page is rotated 90 
+degrees>]
+<Plots/Fits/TTbarPhotonAnalysis/MuMu/central/pseudoFitTemplate.pdf, id=4113, 56
 9.12625pt x 385.44pt>
 File: Plots/Fits/TTbarPhotonAnalysis/MuMu/central/pseudoFitTemplate.pdf Graphic
  file (type pdf)
@@ -1846,9 +1880,9 @@ File: Plots/Fits/TTbarPhotonAnalysis/MuMu/central/pseudoFitTemplate.pdf Graphic
 <use Plots/Fits/TTbarPhotonAnalysis/MuMu/central/pseudoFitTemplate.pdf>
 Package pdftex.def Info: Plots/Fits/TTbarPhotonAnalysis/MuMu/central/pseudoFitT
 emplate.pdf used on input line 162.
-(pdftex.def)             Requested size: 219.2565pt x 148.4919pt.
+(pdftex.def)             Requested size: 213.39568pt x 144.52199pt.
 
-<Plots/Fits/TTbarPhotonAnalysis/EE/central/pseudoFitTemplate.pdf, id=3868, 569.
+<Plots/Fits/TTbarPhotonAnalysis/EE/central/pseudoFitTemplate.pdf, id=4114, 569.
 12625pt x 385.44pt>
 File: Plots/Fits/TTbarPhotonAnalysis/EE/central/pseudoFitTemplate.pdf Graphic f
 ile (type pdf)
@@ -1856,7 +1890,7 @@ ile (type pdf)
 <use Plots/Fits/TTbarPhotonAnalysis/EE/central/pseudoFitTemplate.pdf>
 Package pdftex.def Info: Plots/Fits/TTbarPhotonAnalysis/EE/central/pseudoFitTem
 plate.pdf used on input line 163.
-(pdftex.def)             Requested size: 219.2565pt x 148.4919pt.
+(pdftex.def)             Requested size: 213.39568pt x 144.52199pt.
 
 Overfull \hbox (2.42162pt too wide) in paragraph at lines 162--164
 [][] [] 
@@ -1868,7 +1902,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 162--164
  []
 
 
-<Plots/Fits/TTbarPhotonAnalysis/EMu/central/pseudoFitTemplate.pdf, id=3869, 569
+<Plots/Fits/TTbarPhotonAnalysis/EMu/central/pseudoFitTemplate.pdf, id=4115, 569
 .12625pt x 385.44pt>
 File: Plots/Fits/TTbarPhotonAnalysis/EMu/central/pseudoFitTemplate.pdf Graphic 
 file (type pdf)
@@ -1876,13 +1910,9 @@ file (type pdf)
 <use Plots/Fits/TTbarPhotonAnalysis/EMu/central/pseudoFitTemplate.pdf>
 Package pdftex.def Info: Plots/Fits/TTbarPhotonAnalysis/EMu/central/pseudoFitTe
 mplate.pdf used on input line 165.
-(pdftex.def)             Requested size: 219.2565pt x 148.4919pt.
- [140]
-[141 <./Plots/signalComparison/MuMu/bkgdComparison.pdf, page is rotated 90 degr
-ees> <./Plots/signalComparison/EE/bkgdComparison.pdf, page is rotated 90 degree
-s> <./Plots/signalComparison/EMu/bkgdComparison.pdf, page is rotated 90 degrees
->]
-<Plots/Fits/TTbarPhotonAnalysis/MuMu/central/pseudoFit.pdf, id=4007, 569.12625p
+(pdftex.def)             Requested size: 213.39568pt x 144.52199pt.
+
+<Plots/Fits/TTbarPhotonAnalysis/MuMu/central/pseudoFit.pdf, id=4116, 569.12625p
 t x 515.9275pt>
 File: Plots/Fits/TTbarPhotonAnalysis/MuMu/central/pseudoFit.pdf Graphic file (t
 ype pdf)
@@ -1890,16 +1920,16 @@ ype pdf)
 <use Plots/Fits/TTbarPhotonAnalysis/MuMu/central/pseudoFit.pdf>
 Package pdftex.def Info: Plots/Fits/TTbarPhotonAnalysis/MuMu/central/pseudoFit.
 pdf used on input line 172.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
-<Plots/Fits/TTbarPhotonAnalysis/EE/central/pseudoFit.pdf, id=4008, 569.12625pt 
+<Plots/Fits/TTbarPhotonAnalysis/EE/central/pseudoFit.pdf, id=4117, 569.12625pt 
 x 515.9275pt>
 File: Plots/Fits/TTbarPhotonAnalysis/EE/central/pseudoFit.pdf Graphic file (typ
 e pdf)
  <use Plots/Fits/TTbarPhotonAnalysis/EE/central/pseudoFit.pdf>
 Package pdftex.def Info: Plots/Fits/TTbarPhotonAnalysis/EE/central/pseudoFit.pd
 f used on input line 173.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 Overfull \hbox (2.42162pt too wide) in paragraph at lines 172--174
 [][] [] 
@@ -1911,15 +1941,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 172--174
  []
 
 
-<Plots/Fits/TTbarPhotonAnalysis/EMu/central/pseudoFit.pdf, id=4009, 569.12625pt
+<Plots/Fits/TTbarPhotonAnalysis/EMu/central/pseudoFit.pdf, id=4118, 569.12625pt
  x 515.9275pt>
 File: Plots/Fits/TTbarPhotonAnalysis/EMu/central/pseudoFit.pdf Graphic file (ty
 pe pdf)
  <use Plots/Fits/TTbarPhotonAnalysis/EMu/central/pseudoFit.pdf>
 Package pdftex.def Info: Plots/Fits/TTbarPhotonAnalysis/EMu/central/pseudoFit.p
 df used on input line 175.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
+[164 <./Plots/Fits/TTbarPhotonAnalysis/MuMu/central/pseudoFitTemplate.pdf, page
+ is rotated 90 degrees> <./Plots/Fits/TTbarPhotonAnalysis/EE/central/pseudoFitT
+emplate.pdf, page is rotated 90 degrees> <./Plots/Fits/TTbarPhotonAnalysis/EMu/
+central/pseudoFitTemplate.pdf, page is rotated 90 degrees>] [165 <./Plots/Fits/
+TTbarPhotonAnalysis/MuMu/central/pseudoFit.pdf, page is rotated 90 degrees> <./
+Plots/Fits/TTbarPhotonAnalysis/EE/central/pseudoFit.pdf, page is rotated 90 deg
+rees> <./Plots/Fits/TTbarPhotonAnalysis/EMu/central/pseudoFit.pdf, page is rota
+ted 90 degrees>]
 
 LaTeX Warning: File `Plots/purityComparison/MuMu/photonPurity.pdf' not found on
  input line 185.
@@ -1978,7 +2016,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-<Plots/Fits/TTbarPhotonAnalysis/MuMu/central/FitTemplate.pdf, id=4012, 569.1262
+<Plots/Fits/TTbarPhotonAnalysis/MuMu/central/FitTemplate.pdf, id=4389, 569.1262
 5pt x 385.44pt>
 File: Plots/Fits/TTbarPhotonAnalysis/MuMu/central/FitTemplate.pdf Graphic file 
 (type pdf)
@@ -1986,16 +2024,16 @@ File: Plots/Fits/TTbarPhotonAnalysis/MuMu/central/FitTemplate.pdf Graphic file
 <use Plots/Fits/TTbarPhotonAnalysis/MuMu/central/FitTemplate.pdf>
 Package pdftex.def Info: Plots/Fits/TTbarPhotonAnalysis/MuMu/central/FitTemplat
 e.pdf used on input line 205.
-(pdftex.def)             Requested size: 219.2565pt x 148.4919pt.
+(pdftex.def)             Requested size: 213.39568pt x 144.52199pt.
 
-<Plots/Fits/TTbarPhotonAnalysis/EE/central/FitTemplate.pdf, id=4013, 569.12625p
+<Plots/Fits/TTbarPhotonAnalysis/EE/central/FitTemplate.pdf, id=4390, 569.12625p
 t x 385.44pt>
 File: Plots/Fits/TTbarPhotonAnalysis/EE/central/FitTemplate.pdf Graphic file (t
 ype pdf)
  <use Plots/Fits/TTbarPhotonAnalysis/EE/central/FitTemplate.pdf>
 Package pdftex.def Info: Plots/Fits/TTbarPhotonAnalysis/EE/central/FitTemplate.
 pdf used on input line 206.
-(pdftex.def)             Requested size: 219.2565pt x 148.4919pt.
+(pdftex.def)             Requested size: 213.39568pt x 144.52199pt.
 
 Overfull \hbox (2.42162pt too wide) in paragraph at lines 205--207
 [][] [] 
@@ -2007,7 +2045,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 205--207
  []
 
 
-<Plots/Fits/TTbarPhotonAnalysis/EMu/central/FitTemplate.pdf, id=4014, 569.12625
+<Plots/Fits/TTbarPhotonAnalysis/EMu/central/FitTemplate.pdf, id=4391, 569.12625
 pt x 385.44pt>
 File: Plots/Fits/TTbarPhotonAnalysis/EMu/central/FitTemplate.pdf Graphic file (
 type pdf)
@@ -2015,25 +2053,25 @@ type pdf)
 <use Plots/Fits/TTbarPhotonAnalysis/EMu/central/FitTemplate.pdf>
 Package pdftex.def Info: Plots/Fits/TTbarPhotonAnalysis/EMu/central/FitTemplate
 .pdf used on input line 208.
-(pdftex.def)             Requested size: 219.2565pt x 148.4919pt.
+(pdftex.def)             Requested size: 213.39568pt x 144.52199pt.
 
-<Plots/Fits/TTbarPhotonAnalysis/MuMu/central/Fit.pdf, id=4015, 569.12625pt x 51
+<Plots/Fits/TTbarPhotonAnalysis/MuMu/central/Fit.pdf, id=4392, 569.12625pt x 51
 5.9275pt>
 File: Plots/Fits/TTbarPhotonAnalysis/MuMu/central/Fit.pdf Graphic file (type pd
 f)
  <use Plots/Fits/TTbarPhotonAnalysis/MuMu/central/Fit.pdf>
 Package pdftex.def Info: Plots/Fits/TTbarPhotonAnalysis/MuMu/central/Fit.pdf us
 ed on input line 215.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
-<Plots/Fits/TTbarPhotonAnalysis/EE/central/Fit.pdf, id=4016, 569.12625pt x 515.
+<Plots/Fits/TTbarPhotonAnalysis/EE/central/Fit.pdf, id=4393, 569.12625pt x 515.
 9275pt>
 File: Plots/Fits/TTbarPhotonAnalysis/EE/central/Fit.pdf Graphic file (type pdf)
 
  <use Plots/Fits/TTbarPhotonAnalysis/EE/central/Fit.pdf>
 Package pdftex.def Info: Plots/Fits/TTbarPhotonAnalysis/EE/central/Fit.pdf used
  on input line 216.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 Overfull \hbox (2.42162pt too wide) in paragraph at lines 215--217
 [][] [] 
@@ -2045,29 +2083,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 215--217
  []
 
 
-<Plots/Fits/TTbarPhotonAnalysis/EMu/central/Fit.pdf, id=4017, 569.12625pt x 515
+<Plots/Fits/TTbarPhotonAnalysis/EMu/central/Fit.pdf, id=4394, 569.12625pt x 515
 .9275pt>
 File: Plots/Fits/TTbarPhotonAnalysis/EMu/central/Fit.pdf Graphic file (type pdf
 )
  <use Plots/Fits/TTbarPhotonAnalysis/EMu/central/Fit.pdf>
 Package pdftex.def Info: Plots/Fits/TTbarPhotonAnalysis/EMu/central/Fit.pdf use
 d on input line 218.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
- [142 <./Plots/Fits/TTbarPhotonAnalysis/MuMu/central/pseudoFitTemplate.pdf, pag
-e is rotated 90 degrees> <./Plots/Fits/TTbarPhotonAnalysis/EE/central/pseudoFit
-Template.pdf, page is rotated 90 degrees> <./Plots/Fits/TTbarPhotonAnalysis/EMu
-/central/pseudoFitTemplate.pdf, page is rotated 90 degrees>] [143 <./Plots/Fits
-/TTbarPhotonAnalysis/MuMu/central/pseudoFit.pdf, page is rotated 90 degrees> <.
-/Plots/Fits/TTbarPhotonAnalysis/EE/central/pseudoFit.pdf, page is rotated 90 de
-grees> <./Plots/Fits/TTbarPhotonAnalysis/EMu/central/pseudoFit.pdf, page is rot
-ated 90 degrees>] [144 <./Plots/Fits/TTbarPhotonAnalysis/MuMu/central/FitTempla
-te.pdf, page is rotated 90 degrees> <./Plots/Fits/TTbarPhotonAnalysis/EE/centra
-l/FitTemplate.pdf, page is rotated 90 degrees> <./Plots/Fits/TTbarPhotonAnalysi
-s/EMu/central/FitTemplate.pdf, page is rotated 90 degrees>] [145 <./Plots/Fits/
-TTbarPhotonAnalysis/MuMu/central/Fit.pdf, page is rotated 90 degrees> <./Plots/
-Fits/TTbarPhotonAnalysis/EE/central/Fit.pdf, page is rotated 90 degrees> <./Plo
-ts/Fits/TTbarPhotonAnalysis/EMu/central/Fit.pdf, page is rotated 90 degrees>] [
-146] [147]
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
+ [166]
+[167 <./Plots/Fits/TTbarPhotonAnalysis/MuMu/central/FitTemplate.pdf, page is ro
+tated 90 degrees> <./Plots/Fits/TTbarPhotonAnalysis/EE/central/FitTemplate.pdf,
+ page is rotated 90 degrees> <./Plots/Fits/TTbarPhotonAnalysis/EMu/central/FitT
+emplate.pdf, page is rotated 90 degrees>] [168 <./Plots/Fits/TTbarPhotonAnalysi
+s/MuMu/central/Fit.pdf, page is rotated 90 degrees> <./Plots/Fits/TTbarPhotonAn
+alysis/EE/central/Fit.pdf, page is rotated 90 degrees> <./Plots/Fits/TTbarPhoto
+nAnalysis/EMu/central/Fit.pdf, page is rotated 90 degrees>] [169] [170]
 
 LaTeX Warning: File `Plots/likelihoodfits/MuMu/ttgamma_likelihood_fit.pdf' not 
 found on input line 344.
@@ -2230,26 +2261,30 @@ Using draft setting for this image.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[148] [149] [150] [151] [152]) (./Chapters/SystematicUncertainties.tex [153]
+[171] [172] [173] [174] [175]) (./Chapters/SystematicUncertainties.tex [176]
+[177]
 Chapter 6.
-[154
+[178
 
-] [155] [156] [157] [158] [159] [160]
+] [179] [180] [181] [182] [183] [184] [185]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./Chapters/Results.tex [161] [162] [163] [164]
+) (./Chapters/Results.tex [186] [187] [188] [189] [190]
 Chapter 7.
-[165
+[191
 
 ]
 Missing character: There is no Â in font cmr10!
 Missing character: There is no ± in font cmr10!
- [166]
-Overfull \hbox (9.59442pt too wide) in paragraph at lines 80--80
+ [192]
+Overfull \hbox (21.31607pt too wide) in paragraph at lines 80--80
 [] 
  []
 
@@ -2307,741 +2342,707 @@ Using draft setting for this image.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[167]) (./Chapters/Conclusions.tex [168] [169
+[193]
 
-]) [170] [171
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./Chapters/Conclusions.tex [194] [195] [196
+
+]) [197] [198
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 250.
+(hyperref)                removing `math shift' on input line 254.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 250.
+(hyperref)                removing `\gamma' on input line 254.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 250.
+(hyperref)                removing `math shift' on input line 254.
 
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/LeadLepton_Pt_splitTTbar_
-ratio.pdf, id=4748, 569.12625pt x 515.9275pt>
+ratio.pdf, id=4878, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/LeadLepton_Pt_splitT
 Tbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/LeadLepton_Pt_splitTT
 bar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/L
-eadLepton_Pt_splitTTbar_ratio.pdf used on input line 321.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+eadLepton_Pt_splitTTbar_ratio.pdf used on input line 325.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/LeadLepton_Pt_splitTTbar
-_ratio.pdf, id=4749, 569.12625pt x 515.9275pt>
+_ratio.pdf, id=4879, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/LeadLepton_Pt_split
 TTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/LeadLepton_Pt_splitT
 Tbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/
-LeadLepton_Pt_splitTTbar_ratio.pdf used on input line 322.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+LeadLepton_Pt_splitTTbar_ratio.pdf used on input line 326.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/SecondLepton_Pt_splitTTba
-r_ratio.pdf, id=4750, 569.12625pt x 515.9275pt>
+r_ratio.pdf, id=4880, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/SecondLepton_Pt_spli
 tTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/SecondLepton_Pt_split
 TTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/S
-econdLepton_Pt_splitTTbar_ratio.pdf used on input line 323.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+econdLepton_Pt_splitTTbar_ratio.pdf used on input line 327.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/SecondLepton_Pt_splitTTb
-ar_ratio.pdf, id=4751, 569.12625pt x 515.9275pt>
+ar_ratio.pdf, id=4881, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/SecondLepton_Pt_spl
 itTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/SecondLepton_Pt_spli
 tTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/
-SecondLepton_Pt_splitTTbar_ratio.pdf used on input line 324.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+SecondLepton_Pt_splitTTbar_ratio.pdf used on input line 328.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/diLepton_Mass_splitTTbar_
-ratio.pdf, id=4752, 569.12625pt x 515.9275pt>
+ratio.pdf, id=4882, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/diLepton_Mass_splitT
 Tbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/diLepton_Mass_splitTT
 bar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/d
-iLepton_Mass_splitTTbar_ratio.pdf used on input line 325.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+iLepton_Mass_splitTTbar_ratio.pdf used on input line 329.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/diLepton_Mass_splitTTbar
-_ratio.pdf, id=4753, 569.12625pt x 515.9275pt>
+_ratio.pdf, id=4883, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/diLepton_Mass_split
 TTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/diLepton_Mass_splitT
 Tbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/
-diLepton_Mass_splitTTbar_ratio.pdf used on input line 326.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+diLepton_Mass_splitTTbar_ratio.pdf used on input line 330.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 321--327
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 325--331
 [][] [] 
  []
 
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 321--327
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 325--331
 [] [] 
  []
 
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 321--327
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 325--331
 [] [] 
  []
 
 
+LaTeX Warning: Float too large for page by 41.61595pt on input line 333.
+
+[199]
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/LeadLepton_Eta_splitTTb
-ar_ratio.pdf, id=4754, 569.12625pt x 515.9275pt>
+ar_ratio.pdf, id=4893, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/LeadLepton_Eta_spl
 itTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/LeadLepton_Eta_spli
 tTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton
-/LeadLepton_Eta_splitTTbar_ratio.pdf used on input line 332.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+/LeadLepton_Eta_splitTTbar_ratio.pdf used on input line 336.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/SecondLepton_Eta_splitT
-Tbar_ratio.pdf, id=4755, 569.12625pt x 515.9275pt>
+Tbar_ratio.pdf, id=4894, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/SecondLepton_Eta_s
 plitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/SecondLepton_Eta_sp
 litTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton
-/SecondLepton_Eta_splitTTbar_ratio.pdf used on input line 333.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+/SecondLepton_Eta_splitTTbar_ratio.pdf used on input line 337.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/LeadLepton_Eta_splitTTbar
-_ratio.pdf, id=4756, 569.12625pt x 515.9275pt>
+_ratio.pdf, id=4895, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/LeadLepton_Eta_split
 TTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/LeadLepton_Eta_splitT
 Tbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/L
-eadLepton_Eta_splitTTbar_ratio.pdf used on input line 334.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+eadLepton_Eta_splitTTbar_ratio.pdf used on input line 338.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/SecondLepton_Eta_splitTTb
-ar_ratio.pdf, id=4757, 569.12625pt x 515.9275pt>
+ar_ratio.pdf, id=4896, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/SecondLepton_Eta_spl
 itTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/SecondLepton_Eta_spli
 tTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/S
-econdLepton_Eta_splitTTbar_ratio.pdf used on input line 335.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+econdLepton_Eta_splitTTbar_ratio.pdf used on input line 339.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/LeadLepton_Eta_splitTTba
-r_ratio.pdf, id=4758, 569.12625pt x 515.9275pt>
+r_ratio.pdf, id=4897, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/LeadLepton_Eta_spli
 tTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/LeadLepton_Eta_split
 TTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/
-LeadLepton_Eta_splitTTbar_ratio.pdf used on input line 336.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+LeadLepton_Eta_splitTTbar_ratio.pdf used on input line 340.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/SecondLepton_Eta_splitTT
-bar_ratio.pdf, id=4759, 569.12625pt x 515.9275pt>
+bar_ratio.pdf, id=4898, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/SecondLepton_Eta_sp
 litTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/SecondLepton_Eta_spl
 itTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/
-SecondLepton_Eta_splitTTbar_ratio.pdf used on input line 337.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+SecondLepton_Eta_splitTTbar_ratio.pdf used on input line 341.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 332--338
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 336--342
 [][] [] 
  []
 
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 332--338
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 336--342
 [] [] 
  []
 
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 332--338
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 336--342
 [] [] 
  []
+
+
+LaTeX Warning: Float too large for page by 41.61595pt on input line 344.
 
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/LeadLepton_Phi_splitTTb
-ar_ratio.pdf, id=4760, 569.12625pt x 515.9275pt>
+ar_ratio.pdf, id=4899, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/LeadLepton_Phi_spl
 itTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/LeadLepton_Phi_spli
 tTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton
-/LeadLepton_Phi_splitTTbar_ratio.pdf used on input line 343.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+/LeadLepton_Phi_splitTTbar_ratio.pdf used on input line 347.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/SecondLepton_Phi_splitT
-Tbar_ratio.pdf, id=4761, 569.12625pt x 515.9275pt>
+Tbar_ratio.pdf, id=4900, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/SecondLepton_Phi_s
 plitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/SecondLepton_Phi_sp
 litTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton
-/SecondLepton_Phi_splitTTbar_ratio.pdf used on input line 344.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+/SecondLepton_Phi_splitTTbar_ratio.pdf used on input line 348.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/LeadLepton_Phi_splitTTbar
-_ratio.pdf, id=4762, 569.12625pt x 515.9275pt>
+_ratio.pdf, id=4901, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/LeadLepton_Phi_split
 TTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/LeadLepton_Phi_splitT
 Tbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/L
-eadLepton_Phi_splitTTbar_ratio.pdf used on input line 345.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+eadLepton_Phi_splitTTbar_ratio.pdf used on input line 349.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/SecondLepton_Phi_splitTTb
-ar_ratio.pdf, id=4763, 569.12625pt x 515.9275pt>
+ar_ratio.pdf, id=4902, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/SecondLepton_Phi_spl
 itTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/SecondLepton_Phi_spli
 tTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/S
-econdLepton_Phi_splitTTbar_ratio.pdf used on input line 346.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+econdLepton_Phi_splitTTbar_ratio.pdf used on input line 350.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/LeadLepton_Phi_splitTTba
-r_ratio.pdf, id=4764, 569.12625pt x 515.9275pt>
+r_ratio.pdf, id=4903, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/LeadLepton_Phi_spli
 tTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/LeadLepton_Phi_split
 TTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/
-LeadLepton_Phi_splitTTbar_ratio.pdf used on input line 347.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+LeadLepton_Phi_splitTTbar_ratio.pdf used on input line 351.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/SecondLepton_Phi_splitTT
-bar_ratio.pdf, id=4765, 569.12625pt x 515.9275pt>
+bar_ratio.pdf, id=4904, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/SecondLepton_Phi_sp
 litTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/SecondLepton_Phi_spl
 itTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/
-SecondLepton_Phi_splitTTbar_ratio.pdf used on input line 348.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+SecondLepton_Phi_splitTTbar_ratio.pdf used on input line 352.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 343--349
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 347--353
 [][] [] 
  []
 
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 343--349
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 347--353
 [] [] 
  []
 
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 343--349
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 347--353
 [] [] 
  []
+
+
+LaTeX Warning: Float too large for page by 41.61595pt on input line 355.
 
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/all_jet_pT_splitTTbar_ratio.p
-df, id=4766, 569.12625pt x 515.9275pt>
+df, id=4905, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/all_jet_pT_splitTTbar_ra
 tio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/all_jet_pT_splitTTbar_rat
 io.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/all_j
-et_pT_splitTTbar_ratio.pdf used on input line 356.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+et_pT_splitTTbar_ratio.pdf used on input line 360.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/all_jet_pT_splitTTbar_ratio.
-pdf, id=4767, 569.12625pt x 515.9275pt>
+pdf, id=4906, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/all_jet_pT_splitTTbar_r
 atio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/all_jet_pT_splitTTbar_ra
 tio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/all_
-jet_pT_splitTTbar_ratio.pdf used on input line 357.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+jet_pT_splitTTbar_ratio.pdf used on input line 361.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/all_jet_eta_splitTTbar_ratio.
-pdf, id=4768, 569.12625pt x 515.9275pt>
+pdf, id=4907, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/all_jet_eta_splitTTbar_r
 atio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/all_jet_eta_splitTTbar_ra
 tio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/all_j
-et_eta_splitTTbar_ratio.pdf used on input line 358.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+et_eta_splitTTbar_ratio.pdf used on input line 362.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/all_jet_eta_splitTTbar_ratio
-.pdf, id=4769, 569.12625pt x 515.9275pt>
+.pdf, id=4908, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/all_jet_eta_splitTTbar_
 ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/all_jet_eta_splitTTbar_r
 atio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/all_
-jet_eta_splitTTbar_ratio.pdf used on input line 359.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+jet_eta_splitTTbar_ratio.pdf used on input line 363.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/N_Jets_splitTTbar_ratio.pdf, 
-id=4770, 569.12625pt x 515.9275pt>
+id=4909, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/N_Jets_splitTTbar_ratio.
 pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/N_Jets_splitTTbar_ratio.p
 df>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/N_Jet
-s_splitTTbar_ratio.pdf used on input line 360.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+s_splitTTbar_ratio.pdf used on input line 364.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/N_Jets_splitTTbar_ratio.pdf,
- id=4771, 569.12625pt x 515.9275pt>
+ id=4910, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/N_Jets_splitTTbar_ratio
 .pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/N_Jets_splitTTbar_ratio.
 pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/N_Je
-ts_splitTTbar_ratio.pdf used on input line 361.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+ts_splitTTbar_ratio.pdf used on input line 365.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 356--362
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 360--366
 [][] [] 
  []
 
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 356--362
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 360--366
 [] [] 
  []
 
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 356--362
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 360--366
 [] [] 
  []
+
+
+LaTeX Warning: Float too large for page by 41.61595pt on input line 368.
 
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/jet1_pT_splitTTbar_ratio.pd
-f, id=4772, 569.12625pt x 515.9275pt>
+f, id=4911, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/jet1_pT_splitTTbar_rat
 io.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/jet1_pT_splitTTbar_rati
 o.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/jet
-1_pT_splitTTbar_ratio.pdf used on input line 367.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+1_pT_splitTTbar_ratio.pdf used on input line 371.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/jet1_eta_splitTTbar_ratio.p
-df, id=4773, 569.12625pt x 515.9275pt>
+df, id=4912, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/jet1_eta_splitTTbar_ra
 tio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/jet1_eta_splitTTbar_rat
 io.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/jet
-1_eta_splitTTbar_ratio.pdf used on input line 368.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+1_eta_splitTTbar_ratio.pdf used on input line 372.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/jet1_pT_splitTTbar_ratio.pdf,
- id=4774, 569.12625pt x 515.9275pt>
+ id=4913, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/jet1_pT_splitTTbar_ratio
 .pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/jet1_pT_splitTTbar_ratio.
 pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/jet1_
-pT_splitTTbar_ratio.pdf used on input line 369.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+pT_splitTTbar_ratio.pdf used on input line 373.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/jet1_eta_splitTTbar_ratio.pdf
-, id=4775, 569.12625pt x 515.9275pt>
+, id=4914, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/jet1_eta_splitTTbar_rati
 o.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/jet1_eta_splitTTbar_ratio
 .pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/jet1_
-eta_splitTTbar_ratio.pdf used on input line 370.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+eta_splitTTbar_ratio.pdf used on input line 374.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/jet1_pT_splitTTbar_ratio.pdf
-, id=4776, 569.12625pt x 515.9275pt>
+, id=4915, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/jet1_pT_splitTTbar_rati
 o.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/jet1_pT_splitTTbar_ratio
 .pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/jet1
-_pT_splitTTbar_ratio.pdf used on input line 371.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+_pT_splitTTbar_ratio.pdf used on input line 375.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/jet1_eta_splitTTbar_ratio.pd
-f, id=4777, 569.12625pt x 515.9275pt>
+f, id=4916, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/jet1_eta_splitTTbar_rat
 io.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/jet1_eta_splitTTbar_rati
 o.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/jet1
-_eta_splitTTbar_ratio.pdf used on input line 372.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+_eta_splitTTbar_ratio.pdf used on input line 376.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 367--373
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 371--377
 [][] [] 
  []
 
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 367--373
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 371--377
 [] [] 
  []
 
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 367--373
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 371--377
 [] [] 
  []
+
+
+LaTeX Warning: Float too large for page by 41.61595pt on input line 379.
 
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/all_jet_phi_splitTTbar_rati
-o.pdf, id=4778, 569.12625pt x 515.9275pt>
+o.pdf, id=4917, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/all_jet_phi_splitTTbar
 _ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/all_jet_phi_splitTTbar_
 ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/all
-_jet_phi_splitTTbar_ratio.pdf used on input line 378.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+_jet_phi_splitTTbar_ratio.pdf used on input line 382.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/jet1_phi_splitTTbar_ratio.p
-df, id=4779, 569.12625pt x 515.9275pt>
+df, id=4918, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/jet1_phi_splitTTbar_ra
 tio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/jet1_phi_splitTTbar_rat
 io.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/jet
-1_phi_splitTTbar_ratio.pdf used on input line 379.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+1_phi_splitTTbar_ratio.pdf used on input line 383.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/all_jet_phi_splitTTbar_ratio.
-pdf, id=4780, 569.12625pt x 515.9275pt>
+pdf, id=4919, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/all_jet_phi_splitTTbar_r
 atio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/all_jet_phi_splitTTbar_ra
 tio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/all_j
-et_phi_splitTTbar_ratio.pdf used on input line 380.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+et_phi_splitTTbar_ratio.pdf used on input line 384.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/jet1_phi_splitTTbar_ratio.pdf
-, id=4781, 569.12625pt x 515.9275pt>
+, id=4920, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/jet1_phi_splitTTbar_rati
 o.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/jet1_phi_splitTTbar_ratio
 .pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/jet1_
-phi_splitTTbar_ratio.pdf used on input line 381.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+phi_splitTTbar_ratio.pdf used on input line 385.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/all_jet_phi_splitTTbar_ratio
-.pdf, id=4782, 569.12625pt x 515.9275pt>
+.pdf, id=4921, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/all_jet_phi_splitTTbar_
 ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/all_jet_phi_splitTTbar_r
 atio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/all_
-jet_phi_splitTTbar_ratio.pdf used on input line 382.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+jet_phi_splitTTbar_ratio.pdf used on input line 386.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/jet1_phi_splitTTbar_ratio.pd
-f, id=4783, 569.12625pt x 515.9275pt>
+f, id=4922, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/jet1_phi_splitTTbar_rat
 io.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/jet1_phi_splitTTbar_rati
 o.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/jet1
-_phi_splitTTbar_ratio.pdf used on input line 383.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+_phi_splitTTbar_ratio.pdf used on input line 387.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 378--384
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 382--388
 [][] [] 
  []
 
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 378--384
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 382--388
 [] [] 
  []
 
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 378--384
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 382--388
 [] [] 
  []
+
+
+LaTeX Warning: Float too large for page by 41.61595pt on input line 390.
 
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/MET/patType1CorrectedPFMet/MET_spl
-itTTbar_ratio.pdf, id=4784, 569.12625pt x 515.9275pt>
+itTTbar_ratio.pdf, id=4923, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/MET/patType1CorrectedPFMet/ME
 T_splitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/MET/patType1CorrectedPFMet/MET
 _splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/MET/patTyp
-e1CorrectedPFMet/MET_splitTTbar_ratio.pdf used on input line 391.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+e1CorrectedPFMet/MET_splitTTbar_ratio.pdf used on input line 395.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/MET/patType1CorrectedPFMet/MET_sp
-litTTbar_ratio.pdf, id=4785, 569.12625pt x 515.9275pt>
+litTTbar_ratio.pdf, id=4924, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/MET/patType1CorrectedPFMet/M
 ET_splitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/MET/patType1CorrectedPFMet/ME
 T_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/MET/patTy
-pe1CorrectedPFMet/MET_splitTTbar_ratio.pdf used on input line 392.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+pe1CorrectedPFMet/MET_splitTTbar_ratio.pdf used on input line 396.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/MET/patType1CorrectedPFMet/MET_phi
-_splitTTbar_ratio.pdf, id=4786, 569.12625pt x 515.9275pt>
+_splitTTbar_ratio.pdf, id=4925, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/MET/patType1CorrectedPFMet/ME
 T_phi_splitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/MET/patType1CorrectedPFMet/MET
 _phi_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/MET/patTyp
-e1CorrectedPFMet/MET_phi_splitTTbar_ratio.pdf used on input line 393.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+e1CorrectedPFMet/MET_phi_splitTTbar_ratio.pdf used on input line 397.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/MET/patType1CorrectedPFMet/MET_ph
-i_splitTTbar_ratio.pdf, id=4787, 569.12625pt x 515.9275pt>
+i_splitTTbar_ratio.pdf, id=4926, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/MET/patType1CorrectedPFMet/M
 ET_phi_splitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/MET/patType1CorrectedPFMet/ME
 T_phi_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/MET/patTy
-pe1CorrectedPFMet/MET_phi_splitTTbar_ratio.pdf used on input line 394.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+pe1CorrectedPFMet/MET_phi_splitTTbar_ratio.pdf used on input line 398.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/MET/patType1CorrectedPFMet/ME
 Tsignificance_splitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/MET/patType1CorrectedPFMet/MET
 significance_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/MET/patTyp
-e1CorrectedPFMet/METsignificance_splitTTbar_ratio.pdf used on input line 395.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+e1CorrectedPFMet/METsignificance_splitTTbar_ratio.pdf used on input line 399.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/MET/patType1CorrectedPFMet/METsig
-nificance_splitTTbar_ratio.pdf, id=4788, 569.12625pt x 515.9275pt>
+nificance_splitTTbar_ratio.pdf, id=4927, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/MET/patType1CorrectedPFMet/M
 ETsignificance_splitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/MET/patType1CorrectedPFMet/ME
 Tsignificance_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/MET/patTy
-pe1CorrectedPFMet/METsignificance_splitTTbar_ratio.pdf used on input line 396.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+pe1CorrectedPFMet/METsignificance_splitTTbar_ratio.pdf used on input line 400.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 391--397
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 395--401
 [][] [] 
  []
 
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 391--397
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 395--401
 [] [] 
  []
 
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 391--397
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 395--401
 [] [] 
  []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 401.
+LaTeX Warning: Float too large for page by 62.01596pt on input line 403.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 401.
+(hyperref)                removing `math shift' on input line 405.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 405.
 
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Photon_Eta_sp
-litTTbar_ratio.pdf, id=4789, 569.12625pt x 515.9275pt>
+litTTbar_ratio.pdf, id=4928, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Photon_E
 ta_splitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Photon_Et
 a_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/
-AllPhotons/Photon_Eta_splitTTbar_ratio.pdf used on input line 404.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+AllPhotons/Photon_Eta_splitTTbar_ratio.pdf used on input line 408.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Photon_Ht
-owoE_splitTTbar_ratio.pdf, id=4790, 569.12625pt x 515.9275pt>
+owoE_splitTTbar_ratio.pdf, id=4929, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Phot
 on_HtowoE_splitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Photo
 n_HtowoE_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/
-AllPhotons/Log/Photon_HtowoE_splitTTbar_ratio.pdf used on input line 405.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+AllPhotons/Log/Photon_HtowoE_splitTTbar_ratio.pdf used on input line 409.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Photon_Eta_spli
-tTTbar_ratio.pdf, id=4791, 569.12625pt x 515.9275pt>
+tTTbar_ratio.pdf, id=4930, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Photon_Eta
 _splitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Photon_Eta_
 splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/Al
-lPhotons/Photon_Eta_splitTTbar_ratio.pdf used on input line 406.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+lPhotons/Photon_Eta_splitTTbar_ratio.pdf used on input line 410.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Log/Photon_Htow
-oE_splitTTbar_ratio.pdf, id=4792, 569.12625pt x 515.9275pt>
+oE_splitTTbar_ratio.pdf, id=4931, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Log/Photon
 _HtowoE_splitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Log/Photon_
 HtowoE_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/Al
-lPhotons/Log/Photon_HtowoE_splitTTbar_ratio.pdf used on input line 407.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+lPhotons/Log/Photon_HtowoE_splitTTbar_ratio.pdf used on input line 411.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Photon_Eta_spl
-itTTbar_ratio.pdf, id=4793, 569.12625pt x 515.9275pt>
+itTTbar_ratio.pdf, id=4932, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Photon_Et
 a_splitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Photon_Eta
 _splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/A
-llPhotons/Photon_Eta_splitTTbar_ratio.pdf used on input line 408.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+llPhotons/Photon_Eta_splitTTbar_ratio.pdf used on input line 412.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Photon_Hto
-woE_splitTTbar_ratio.pdf, id=4794, 569.12625pt x 515.9275pt>
+woE_splitTTbar_ratio.pdf, id=4933, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Photo
 n_HtowoE_splitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Photon
 _HtowoE_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/A
-llPhotons/Log/Photon_HtowoE_splitTTbar_ratio.pdf used on input line 409.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+llPhotons/Log/Photon_HtowoE_splitTTbar_ratio.pdf used on input line 413.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 404--410
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 408--414
 [][] [] 
  []
 
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 404--410
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 408--414
 [] [] 
  []
 
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 404--410
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 408--414
 [] [] 
  []
 
-[172] [173 <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/LeadLepton_P
-t_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbar
-DiLeptonAnalysis/EMu/DiLepton/LeadLepton_Pt_splitTTbar_ratio.pdf, page is rotat
-ed 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/SecondLe
-pton_Pt_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots
-/TTbarDiLeptonAnalysis/EMu/DiLepton/SecondLepton_Pt_splitTTbar_ratio.pdf, page 
-is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/
-diLepton_Mass_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/Contro
-lPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/diLepton_Mass_splitTTbar_ratio.pdf, p
-age is rotated 90 degrees>] [174 <./Plots/ControlPlots/TTbarDiLeptonAnalysis/Mu
-Mu/DiLepton/LeadLepton_Eta_splitTTbar_ratio.pdf, page is rotated 90 degrees> <.
-/Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/SecondLepton_Eta_splitT
-Tbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLepton
-Analysis/EE/DiLepton/LeadLepton_Eta_splitTTbar_ratio.pdf, page is rotated 90 de
-grees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/SecondLepton_Eta
-_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarD
-iLeptonAnalysis/EMu/DiLepton/LeadLepton_Eta_splitTTbar_ratio.pdf, page is rotat
-ed 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/SecondL
-epton_Eta_splitTTbar_ratio.pdf, page is rotated 90 degrees>] [175 <./Plots/Cont
-rolPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/LeadLepton_Phi_splitTTbar_ratio.pd
-f, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu
-/DiLepton/SecondLepton_Phi_splitTTbar_ratio.pdf, page is rotated 90 degrees> <.
-/Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/LeadLepton_Phi_splitTTbar
-_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnal
-ysis/EE/DiLepton/SecondLepton_Phi_splitTTbar_ratio.pdf, page is rotated 90 degr
-ees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/LeadLepton_Phi_sp
-litTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLe
-ptonAnalysis/EMu/DiLepton/SecondLepton_Phi_splitTTbar_ratio.pdf, page is rotate
-d 90 degrees>] [176 <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/all_jet
-_pT_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTb
-arDiLeptonAnalysis/EMu/Jets/all_jet_pT_splitTTbar_ratio.pdf, page is rotated 90
- degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/all_jet_eta_split
-TTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLepto
-nAnalysis/EMu/Jets/all_jet_eta_splitTTbar_ratio.pdf, page is rotated 90 degrees
-> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/N_Jets_splitTTbar_ratio.p
-df, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu
-/Jets/N_Jets_splitTTbar_ratio.pdf, page is rotated 90 degrees>] [177 <./Plots/C
-ontrolPlots/TTbarDiLeptonAnalysis/MuMu/Jets/jet1_pT_splitTTbar_ratio.pdf, page 
-is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/je
-t1_eta_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/
-TTbarDiLeptonAnalysis/EE/Jets/jet1_pT_splitTTbar_ratio.pdf, page is rotated 90 
-degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/jet1_eta_splitTTba
-r_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAna
-lysis/EMu/Jets/jet1_pT_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plo
-ts/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/jet1_eta_splitTTbar_ratio.pdf, p
-age is rotated 90 degrees>] [178 <./Plots/ControlPlots/TTbarDiLeptonAnalysis/Mu
-Mu/Jets/all_jet_phi_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/
-ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/jet1_phi_splitTTbar_ratio.pdf, pag
-e is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/al
-l_jet_phi_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlo
-ts/TTbarDiLeptonAnalysis/EE/Jets/jet1_phi_splitTTbar_ratio.pdf, page is rotated
- 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/all_jet_phi_s
-plitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiL
-eptonAnalysis/EMu/Jets/jet1_phi_splitTTbar_ratio.pdf, page is rotated 90 degree
-s>] [179 <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/MET/patType1CorrectedPF
-Met/MET_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots
-/TTbarDiLeptonAnalysis/EMu/MET/patType1CorrectedPFMet/MET_splitTTbar_ratio.pdf,
- page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/MET
-/patType1CorrectedPFMet/MET_phi_splitTTbar_ratio.pdf, page is rotated 90 degree
-s> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/MET/patType1CorrectedPFMet/M
-ET_phi_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/
-TTbarDiLeptonAnalysis/EMu/MET/patType1CorrectedPFMet/METsignificance_splitTTbar
-_ratio.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Float too large for page by 41.61595pt on input line 416.
+
+
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Photon_Rh
-oCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf, id=6603, 569.12625pt 
+oCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf, id=4934, 569.12625pt 
 x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Phot
 on_RhoCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf Graphic file (typ
@@ -3051,11 +3052,11 @@ e pdf)
 n_RhoCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/
 AllPhotons/Log/Photon_RhoCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pd
-f used on input line 415.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+f used on input line 419.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Photon_RhoCor
-rectedPFPhotonIso_barrel_splitTTbar_ratio.pdf, id=6604, 569.12625pt x 515.9275p
+rectedPFPhotonIso_barrel_splitTTbar_ratio.pdf, id=4935, 569.12625pt x 515.9275p
 t>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Photon_R
 hoCorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
@@ -3064,11 +3065,11 @@ hoCorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
 oCorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/
 AllPhotons/Photon_RhoCorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf used on i
-nput line 416.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+nput line 420.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Log/Photon_RhoC
-orrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf, id=6605, 569.12625pt x 
+orrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf, id=4936, 569.12625pt x 
 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Log/Photon
 _RhoCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf Graphic file (type 
@@ -3078,11 +3079,11 @@ pdf)
 RhoCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/Al
 lPhotons/Log/Photon_RhoCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf 
-used on input line 417.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+used on input line 421.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Photon_RhoCorre
-ctedPFPhotonIso_barrel_splitTTbar_ratio.pdf, id=6606, 569.12625pt x 515.9275pt>
+ctedPFPhotonIso_barrel_splitTTbar_ratio.pdf, id=4937, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Photon_Rho
 CorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3090,11 +3091,11 @@ CorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
 orrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/Al
 lPhotons/Photon_RhoCorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf used on inp
-ut line 418.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+ut line 422.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Photon_Rho
-CorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf, id=6607, 569.12625pt x
+CorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf, id=4938, 569.12625pt x
  515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Photo
 n_RhoCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf Graphic file (type
@@ -3104,11 +3105,11 @@ n_RhoCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf Graphic file (type
 _RhoCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/A
 llPhotons/Log/Photon_RhoCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf
- used on input line 419.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+ used on input line 423.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Photon_RhoCorr
-ectedPFPhotonIso_barrel_splitTTbar_ratio.pdf, id=6608, 569.12625pt x 515.9275pt
+ectedPFPhotonIso_barrel_splitTTbar_ratio.pdf, id=4939, 569.12625pt x 515.9275pt
 >
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Photon_Rh
 oCorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
@@ -3117,26 +3118,29 @@ oCorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
 CorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/A
 llPhotons/Photon_RhoCorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf used on in
-put line 420.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+put line 424.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 415--421
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 419--425
 [][] [] 
  []
 
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 415--421
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 419--425
 [] [] 
  []
 
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 415--421
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 419--425
 [] [] 
  []
+
+
+LaTeX Warning: Float too large for page by 41.61595pt on input line 427.
 
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Photon_si
-gma_ietaieta_barrel_splitTTbar_ratio.pdf, id=6609, 569.12625pt x 515.9275pt>
+gma_ietaieta_barrel_splitTTbar_ratio.pdf, id=4940, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Phot
 on_sigma_ietaieta_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3144,22 +3148,22 @@ on_sigma_ietaieta_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
 n_sigma_ietaieta_barrel_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/
 AllPhotons/Log/Photon_sigma_ietaieta_barrel_splitTTbar_ratio.pdf used on input 
-line 426.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+line 430.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Photon_de
-ltaR_jets_splitTTbar_ratio.pdf, id=6610, 569.12625pt x 515.9275pt>
+ltaR_jets_splitTTbar_ratio.pdf, id=4941, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Phot
 on_deltaR_jets_splitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Photo
 n_deltaR_jets_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/
-AllPhotons/Log/Photon_deltaR_jets_splitTTbar_ratio.pdf used on input line 427.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+AllPhotons/Log/Photon_deltaR_jets_splitTTbar_ratio.pdf used on input line 431.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Log/Photon_sigm
-a_ietaieta_barrel_splitTTbar_ratio.pdf, id=6611, 569.12625pt x 515.9275pt>
+a_ietaieta_barrel_splitTTbar_ratio.pdf, id=4942, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Log/Photon
 _sigma_ietaieta_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3167,22 +3171,22 @@ _sigma_ietaieta_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
 sigma_ietaieta_barrel_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/Al
 lPhotons/Log/Photon_sigma_ietaieta_barrel_splitTTbar_ratio.pdf used on input li
-ne 428.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+ne 432.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Log/Photon_delt
-aR_jets_splitTTbar_ratio.pdf, id=6612, 569.12625pt x 515.9275pt>
+aR_jets_splitTTbar_ratio.pdf, id=4943, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Log/Photon
 _deltaR_jets_splitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Log/Photon_
 deltaR_jets_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/Al
-lPhotons/Log/Photon_deltaR_jets_splitTTbar_ratio.pdf used on input line 429.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+lPhotons/Log/Photon_deltaR_jets_splitTTbar_ratio.pdf used on input line 433.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Photon_sig
-ma_ietaieta_barrel_splitTTbar_ratio.pdf, id=6613, 569.12625pt x 515.9275pt>
+ma_ietaieta_barrel_splitTTbar_ratio.pdf, id=4944, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Photo
 n_sigma_ietaieta_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3190,49 +3194,52 @@ n_sigma_ietaieta_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
 _sigma_ietaieta_barrel_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/A
 llPhotons/Log/Photon_sigma_ietaieta_barrel_splitTTbar_ratio.pdf used on input l
-ine 430.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+ine 434.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Photon_del
-taR_jets_splitTTbar_ratio.pdf, id=6614, 569.12625pt x 515.9275pt>
+taR_jets_splitTTbar_ratio.pdf, id=4945, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Photo
 n_deltaR_jets_splitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Photon
 _deltaR_jets_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/A
-llPhotons/Log/Photon_deltaR_jets_splitTTbar_ratio.pdf used on input line 431.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+llPhotons/Log/Photon_deltaR_jets_splitTTbar_ratio.pdf used on input line 435.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 426--432
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 430--436
 [][] [] 
  []
 
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 426--432
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 430--436
 [] [] 
  []
 
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 426--432
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 430--436
 [] [] 
  []
+
+
+LaTeX Warning: Float too large for page by 41.61595pt on input line 438.
 
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Photon_de
-ltaR_muons_splitTTbar_ratio.pdf, id=6615, 569.12625pt x 515.9275pt>
+ltaR_muons_splitTTbar_ratio.pdf, id=4946, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Phot
 on_deltaR_muons_splitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Photo
 n_deltaR_muons_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/
-AllPhotons/Log/Photon_deltaR_muons_splitTTbar_ratio.pdf used on input line 437.
+AllPhotons/Log/Photon_deltaR_muons_splitTTbar_ratio.pdf used on input line 441.
 
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Photon_de
-ltaR_electrons_splitTTbar_ratio.pdf, id=6616, 569.12625pt x 515.9275pt>
+ltaR_electrons_splitTTbar_ratio.pdf, id=4947, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Phot
 on_deltaR_electrons_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3240,22 +3247,22 @@ on_deltaR_electrons_splitTTbar_ratio.pdf Graphic file (type pdf)
 n_deltaR_electrons_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/
 AllPhotons/Log/Photon_deltaR_electrons_splitTTbar_ratio.pdf used on input line 
-438.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+442.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Log/Photon_delt
-aR_muons_splitTTbar_ratio.pdf, id=6617, 569.12625pt x 515.9275pt>
+aR_muons_splitTTbar_ratio.pdf, id=4948, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Log/Photon
 _deltaR_muons_splitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Log/Photon_
 deltaR_muons_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/Al
-lPhotons/Log/Photon_deltaR_muons_splitTTbar_ratio.pdf used on input line 439.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+lPhotons/Log/Photon_deltaR_muons_splitTTbar_ratio.pdf used on input line 443.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Log/Photon_delt
-aR_electrons_splitTTbar_ratio.pdf, id=6618, 569.12625pt x 515.9275pt>
+aR_electrons_splitTTbar_ratio.pdf, id=4949, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Log/Photon
 _deltaR_electrons_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3263,22 +3270,22 @@ _deltaR_electrons_splitTTbar_ratio.pdf Graphic file (type pdf)
 deltaR_electrons_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/Al
 lPhotons/Log/Photon_deltaR_electrons_splitTTbar_ratio.pdf used on input line 44
-0.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+4.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Photon_del
-taR_muons_splitTTbar_ratio.pdf, id=6619, 569.12625pt x 515.9275pt>
+taR_muons_splitTTbar_ratio.pdf, id=4950, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Photo
 n_deltaR_muons_splitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Photon
 _deltaR_muons_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/A
-llPhotons/Log/Photon_deltaR_muons_splitTTbar_ratio.pdf used on input line 441.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+llPhotons/Log/Photon_deltaR_muons_splitTTbar_ratio.pdf used on input line 445.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Photon_del
-taR_electrons_splitTTbar_ratio.pdf, id=6620, 569.12625pt x 515.9275pt>
+taR_electrons_splitTTbar_ratio.pdf, id=4951, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Photo
 n_deltaR_electrons_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3286,115 +3293,121 @@ n_deltaR_electrons_splitTTbar_ratio.pdf Graphic file (type pdf)
 _deltaR_electrons_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/A
 llPhotons/Log/Photon_deltaR_electrons_splitTTbar_ratio.pdf used on input line 4
-42.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+46.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 437--443
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 441--447
 [][] [] 
  []
 
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 437--443
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 441--447
 [] [] 
  []
 
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 437--443
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 441--447
 [] [] 
  []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 447.
+LaTeX Warning: Float too large for page by 41.61595pt on input line 449.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 447.
+(hyperref)                removing `math shift' on input line 451.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 447.
+(hyperref)                removing `\gamma' on input line 451.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 451.
 
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_Eta_s
-plitTTbar_ratio.pdf, id=6621, 569.12625pt x 515.9275pt>
+plitTTbar_ratio.pdf, id=4952, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_
 Eta_splitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_E
 ta_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/Si
-gnalPhotons/Photon_Eta_splitTTbar_ratio.pdf used on input line 450.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+gnalPhotons/Photon_Eta_splitTTbar_ratio.pdf used on input line 454.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_Htowo
-E_splitTTbar_ratio.pdf, id=6622, 569.12625pt x 515.9275pt>
+E_splitTTbar_ratio.pdf, id=4953, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_
 HtowoE_splitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_H
 towoE_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/Si
-gnalPhotons/Photon_HtowoE_splitTTbar_ratio.pdf used on input line 451.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+gnalPhotons/Photon_HtowoE_splitTTbar_ratio.pdf used on input line 455.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_Eta_spl
-itTTbar_ratio.pdf, id=6623, 569.12625pt x 515.9275pt>
+itTTbar_ratio.pdf, id=4954, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_Et
 a_splitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_Eta
 _splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/Sign
-alPhotons/Photon_Eta_splitTTbar_ratio.pdf used on input line 452.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+alPhotons/Photon_Eta_splitTTbar_ratio.pdf used on input line 456.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_HtowoE_
-splitTTbar_ratio.pdf, id=6624, 569.12625pt x 515.9275pt>
+splitTTbar_ratio.pdf, id=4955, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_Ht
 owoE_splitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_Hto
 woE_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/Sign
-alPhotons/Photon_HtowoE_splitTTbar_ratio.pdf used on input line 453.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+alPhotons/Photon_HtowoE_splitTTbar_ratio.pdf used on input line 457.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_Eta_sp
-litTTbar_ratio.pdf, id=6625, 569.12625pt x 515.9275pt>
+litTTbar_ratio.pdf, id=4956, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_E
 ta_splitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_Et
 a_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/Sig
-nalPhotons/Photon_Eta_splitTTbar_ratio.pdf used on input line 454.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+nalPhotons/Photon_Eta_splitTTbar_ratio.pdf used on input line 458.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_HtowoE
-_splitTTbar_ratio.pdf, id=6626, 569.12625pt x 515.9275pt>
+_splitTTbar_ratio.pdf, id=4957, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_H
 towoE_splitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_Ht
 owoE_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/Sig
-nalPhotons/Photon_HtowoE_splitTTbar_ratio.pdf used on input line 455.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+nalPhotons/Photon_HtowoE_splitTTbar_ratio.pdf used on input line 459.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 450--456
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 454--460
 [][] [] 
  []
 
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 450--456
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 454--460
 [] [] 
  []
 
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 450--456
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 454--460
 [] [] 
  []
+
+
+LaTeX Warning: Float too large for page by 41.61595pt on input line 462.
 
 File: Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_
 Eta_splitTTbar_ratio.pdf Graphic file (type pdf)
@@ -3402,66 +3415,69 @@ Eta_splitTTbar_ratio.pdf Graphic file (type pdf)
 <use Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_E
 ta_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/Si
-gnalPhotons/Photon_Eta_splitTTbar_ratio.pdf used on input line 461.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+gnalPhotons/Photon_Eta_splitTTbar_ratio.pdf used on input line 465.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 File: Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_
 HtowoE_splitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_H
 towoE_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/Si
-gnalPhotons/Photon_HtowoE_splitTTbar_ratio.pdf used on input line 462.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+gnalPhotons/Photon_HtowoE_splitTTbar_ratio.pdf used on input line 466.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_Et
 a_splitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_Eta
 _splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/Sign
-alPhotons/Photon_Eta_splitTTbar_ratio.pdf used on input line 463.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+alPhotons/Photon_Eta_splitTTbar_ratio.pdf used on input line 467.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_Ht
 owoE_splitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_Hto
 woE_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/Sign
-alPhotons/Photon_HtowoE_splitTTbar_ratio.pdf used on input line 464.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+alPhotons/Photon_HtowoE_splitTTbar_ratio.pdf used on input line 468.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_E
 ta_splitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_Et
 a_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/Sig
-nalPhotons/Photon_Eta_splitTTbar_ratio.pdf used on input line 465.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+nalPhotons/Photon_Eta_splitTTbar_ratio.pdf used on input line 469.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_H
 towoE_splitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_Ht
 owoE_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/Sig
-nalPhotons/Photon_HtowoE_splitTTbar_ratio.pdf used on input line 466.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+nalPhotons/Photon_HtowoE_splitTTbar_ratio.pdf used on input line 470.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 461--467
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 465--471
 [][] [] 
  []
 
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 461--467
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 465--471
 [] [] 
  []
 
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 461--467
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 465--471
 [] [] 
  []
+
+
+LaTeX Warning: Float too large for page by 41.61595pt on input line 473.
 
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_RhoCo
-rrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf, id=6627, 569.12625pt x 5
+rrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf, id=4958, 569.12625pt x 5
 15.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_
 RhoCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf Graphic file (type p
@@ -3471,11 +3487,11 @@ df)
 hoCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/Si
 gnalPhotons/Photon_RhoCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf u
-sed on input line 472.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+sed on input line 476.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_RhoCo
-rrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf, id=6628, 569.12625pt x 515.9275
+rrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf, id=4959, 569.12625pt x 515.9275
 pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_
 RhoCorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
@@ -3484,11 +3500,11 @@ RhoCorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
 hoCorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/Si
 gnalPhotons/Photon_RhoCorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf used on 
-input line 473.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+input line 477.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_RhoCorr
-ectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf, id=6629, 569.12625pt x 515
+ectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf, id=4960, 569.12625pt x 515
 .9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_Rh
 oCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf Graphic file (type pdf
@@ -3498,11 +3514,11 @@ oCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf Graphic file (type pdf
 CorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/Sign
 alPhotons/Photon_RhoCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf use
-d on input line 474.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+d on input line 478.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_RhoCorr
-ectedPFPhotonIso_barrel_splitTTbar_ratio.pdf, id=6630, 569.12625pt x 515.9275pt
+ectedPFPhotonIso_barrel_splitTTbar_ratio.pdf, id=4961, 569.12625pt x 515.9275pt
 >
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_Rh
 oCorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
@@ -3511,11 +3527,11 @@ oCorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
 CorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/Sign
 alPhotons/Photon_RhoCorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf used on in
-put line 475.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+put line 479.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_RhoCor
-rectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf, id=6631, 569.12625pt x 51
+rectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf, id=4962, 569.12625pt x 51
 5.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_R
 hoCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf Graphic file (type pd
@@ -3525,11 +3541,11 @@ f)
 oCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/Sig
 nalPhotons/Photon_RhoCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf us
-ed on input line 476.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+ed on input line 480.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_RhoCor
-rectedPFPhotonIso_barrel_splitTTbar_ratio.pdf, id=6632, 569.12625pt x 515.9275p
+rectedPFPhotonIso_barrel_splitTTbar_ratio.pdf, id=4963, 569.12625pt x 515.9275p
 t>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_R
 hoCorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
@@ -3538,26 +3554,29 @@ hoCorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
 oCorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/Sig
 nalPhotons/Photon_RhoCorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf used on i
-nput line 477.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+nput line 481.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 472--478
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 476--482
 [][] [] 
  []
 
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 472--478
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 476--482
 [] [] 
  []
 
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 472--478
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 476--482
 [] [] 
  []
+
+
+LaTeX Warning: Float too large for page by 62.01596pt on input line 484.
 
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_sigma
-_ietaieta_barrel_splitTTbar_ratio.pdf, id=6633, 569.12625pt x 515.9275pt>
+_ietaieta_barrel_splitTTbar_ratio.pdf, id=4964, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_
 sigma_ietaieta_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3565,11 +3584,11 @@ sigma_ietaieta_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
 igma_ietaieta_barrel_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/Si
 gnalPhotons/Photon_sigma_ietaieta_barrel_splitTTbar_ratio.pdf used on input lin
-e 483.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+e 487.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_sigma_i
-etaieta_barrel_splitTTbar_ratio.pdf, id=6634, 569.12625pt x 515.9275pt>
+etaieta_barrel_splitTTbar_ratio.pdf, id=4965, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_si
 gma_ietaieta_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3577,21 +3596,21 @@ gma_ietaieta_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
 ma_ietaieta_barrel_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/Sign
 alPhotons/Photon_sigma_ietaieta_barrel_splitTTbar_ratio.pdf used on input line 
-484.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+488.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 483--485
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 487--489
 [][] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--485
+Underfull \hbox (badness 10000) in paragraph at lines 487--489
 
  []
 
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_sigma_
-ietaieta_barrel_splitTTbar_ratio.pdf, id=6635, 569.12625pt x 515.9275pt>
+ietaieta_barrel_splitTTbar_ratio.pdf, id=4966, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_s
 igma_ietaieta_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3599,161 +3618,224 @@ igma_ietaieta_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
 gma_ietaieta_barrel_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/Sig
 nalPhotons/Photon_sigma_ietaieta_barrel_splitTTbar_ratio.pdf used on input line
- 486.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+ 490.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_delta
-R_muons_splitTTbar_ratio.pdf, id=6636, 569.12625pt x 515.9275pt>
+R_muons_splitTTbar_ratio.pdf, id=4967, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_
 deltaR_muons_splitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_d
 eltaR_muons_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/Si
-gnalPhotons/Photon_deltaR_muons_splitTTbar_ratio.pdf used on input line 493.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+gnalPhotons/Photon_deltaR_muons_splitTTbar_ratio.pdf used on input line 497.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_deltaR_
-electrons_splitTTbar_ratio.pdf, id=6637, 569.12625pt x 515.9275pt>
+electrons_splitTTbar_ratio.pdf, id=4968, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_de
 ltaR_electrons_splitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_del
 taR_electrons_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/Sign
-alPhotons/Photon_deltaR_electrons_splitTTbar_ratio.pdf used on input line 494.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+alPhotons/Photon_deltaR_electrons_splitTTbar_ratio.pdf used on input line 498.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_deltaR
-_muons_splitTTbar_ratio.pdf, id=6638, 569.12625pt x 515.9275pt>
+_muons_splitTTbar_ratio.pdf, id=4969, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_d
 eltaR_muons_splitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_de
 ltaR_muons_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/Sig
-nalPhotons/Photon_deltaR_muons_splitTTbar_ratio.pdf used on input line 495.
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+nalPhotons/Photon_deltaR_muons_splitTTbar_ratio.pdf used on input line 499.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_deltaR
-_electrons_splitTTbar_ratio.pdf, id=6639, 569.12625pt x 515.9275pt>
+_electrons_splitTTbar_ratio.pdf, id=4970, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_d
 eltaR_electrons_splitTTbar_ratio.pdf Graphic file (type pdf)
 
 <use Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_de
 ltaR_electrons_splitTTbar_ratio.pdf>
 Package pdftex.def Info: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/Sig
-nalPhotons/Photon_deltaR_electrons_splitTTbar_ratio.pdf used on input line 496.
+nalPhotons/Photon_deltaR_electrons_splitTTbar_ratio.pdf used on input line 500.
 
-(pdftex.def)             Requested size: 219.2565pt x 198.76259pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 493--497
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 497--501
 [][] [] 
  []
 
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 493--497
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 497--501
 [] [] 
  []
 
-(./PhDThesis.bbl [180] [181 <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Ph
-otons/AllPhotons/Photon_Eta_splitTTbar_ratio.pdf, page is rotated 90 degrees> <
-./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Photon_H
-towoE_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/T
-TbarDiLeptonAnalysis/EE/Photons/AllPhotons/Photon_Eta_splitTTbar_ratio.pdf, pag
-e is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons
-/AllPhotons/Log/Photon_HtowoE_splitTTbar_ratio.pdf, page is rotated 90 degrees>
- <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Photon_Eta_
-splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDi
-LeptonAnalysis/EMu/Photons/AllPhotons/Log/Photon_HtowoE_splitTTbar_ratio.pdf, p
-age is rotated 90 degrees>] [182 <./Plots/ControlPlots/TTbarDiLeptonAnalysis/Mu
-Mu/Photons/AllPhotons/Log/Photon_RhoCorrectedPFNeutralHadronIso_barrel_splitTTb
-ar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAn
-alysis/MuMu/Photons/AllPhotons/Photon_RhoCorrectedPFPhotonIso_barrel_splitTTbar
+(./PhDThesis.bbl [200] [201 <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLe
+pton/LeadLepton_Pt_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/C
+ontrolPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/LeadLepton_Pt_splitTTbar_ratio.p
+df, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/
+DiLepton/SecondLepton_Pt_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./P
+lots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/SecondLepton_Pt_splitTTbar
 _ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnal
-ysis/EE/Photons/AllPhotons/Log/Photon_RhoCorrectedPFNeutralHadronIso_barrel_spl
-itTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLep
-tonAnalysis/EE/Photons/AllPhotons/Photon_RhoCorrectedPFPhotonIso_barrel_splitTT
+ysis/EE/DiLepton/diLepton_Mass_splitTTbar_ratio.pdf, page is rotated 90 degrees
+> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/diLepton_Mass_splitT
+Tbar_ratio.pdf, page is rotated 90 degrees>] [202 <./Plots/ControlPlots/TTbarDi
+LeptonAnalysis/MuMu/DiLepton/LeadLepton_Eta_splitTTbar_ratio.pdf, page is rotat
+ed 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/Second
+Lepton_Eta_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPl
+ots/TTbarDiLeptonAnalysis/EE/DiLepton/LeadLepton_Eta_splitTTbar_ratio.pdf, page
+ is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton
+/SecondLepton_Eta_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/Co
+ntrolPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/LeadLepton_Eta_splitTTbar_ratio.p
+df, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu
+/DiLepton/SecondLepton_Eta_splitTTbar_ratio.pdf, page is rotated 90 degrees>]
+[203 <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/LeadLepton_Phi_s
+plitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiL
+eptonAnalysis/MuMu/DiLepton/SecondLepton_Phi_splitTTbar_ratio.pdf, page is rota
+ted 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/LeadLep
+ton_Phi_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots
+/TTbarDiLeptonAnalysis/EE/DiLepton/SecondLepton_Phi_splitTTbar_ratio.pdf, page 
+is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton
+/LeadLepton_Phi_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/Cont
+rolPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/SecondLepton_Phi_splitTTbar_ratio.p
+df, page is rotated 90 degrees>] [204 <./Plots/ControlPlots/TTbarDiLeptonAnalys
+is/EE/Jets/all_jet_pT_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plot
+s/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/all_jet_pT_splitTTbar_ratio.pdf, 
+page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets
+/all_jet_eta_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/Control
+Plots/TTbarDiLeptonAnalysis/EMu/Jets/all_jet_eta_splitTTbar_ratio.pdf, page is 
+rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/N_Jets_
+splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDi
+LeptonAnalysis/EMu/Jets/N_Jets_splitTTbar_ratio.pdf, page is rotated 90 degrees
+>] [205 <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/jet1_pT_splitTTba
+r_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAna
+lysis/MuMu/Jets/jet1_eta_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./P
+lots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/jet1_pT_splitTTbar_ratio.pdf, p
+age is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/
+jet1_eta_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlot
+s/TTbarDiLeptonAnalysis/EMu/Jets/jet1_pT_splitTTbar_ratio.pdf, page is rotated 
+90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/jet1_eta_split
+TTbar_ratio.pdf, page is rotated 90 degrees>] [206 <./Plots/ControlPlots/TTbarD
+iLeptonAnalysis/MuMu/Jets/all_jet_phi_splitTTbar_ratio.pdf, page is rotated 90 
+degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/jet1_phi_splitTT
 bar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonA
-nalysis/EMu/Photons/AllPhotons/Log/Photon_RhoCorrectedPFNeutralHadronIso_barrel
-_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarD
-iLeptonAnalysis/EMu/Photons/AllPhotons/Photon_RhoCorrectedPFPhotonIso_barrel_sp
-litTTbar_ratio.pdf, page is rotated 90 degrees>] [183 <./Plots/ControlPlots/TTb
-arDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Photon_sigma_ietaieta_barrel_spl
+nalysis/EE/Jets/all_jet_phi_splitTTbar_ratio.pdf, page is rotated 90 degrees> <
+./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/jet1_phi_splitTTbar_ratio.pd
+f, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/
+Jets/all_jet_phi_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/Con
+trolPlots/TTbarDiLeptonAnalysis/EMu/Jets/jet1_phi_splitTTbar_ratio.pdf, page is
+ rotated 90 degrees>] [207 <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/MET/p
+atType1CorrectedPFMet/MET_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./
+Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/MET/patType1CorrectedPFMet/MET_spl
 itTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLep
-tonAnalysis/MuMu/Photons/AllPhotons/Log/Photon_deltaR_jets_splitTTbar_ratio.pdf
-, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Ph
-otons/AllPhotons/Log/Photon_sigma_ietaieta_barrel_splitTTbar_ratio.pdf, page is
- rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/All
-Photons/Log/Photon_deltaR_jets_splitTTbar_ratio.pdf, page is rotated 90 degrees
-> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Photon
-_sigma_ietaieta_barrel_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plo
-ts/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Photon_deltaR_
-jets_splitTTbar_ratio.pdf, page is rotated 90 degrees>] [184 <./Plots/ControlPl
-ots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Photon_deltaR_muons_split
-TTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLepto
-nAnalysis/MuMu/Photons/AllPhotons/Log/Photon_deltaR_electrons_splitTTbar_ratio.
-pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE
-/Photons/AllPhotons/Log/Photon_deltaR_muons_splitTTbar_ratio.pdf, page is rotat
-ed 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhoton
-s/Log/Photon_deltaR_electrons_splitTTbar_ratio.pdf, page is rotated 90 degrees>
- <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Photon_
-deltaR_muons_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/Control
-Plots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Photon_deltaR_electrons_
-splitTTbar_ratio.pdf, page is rotated 90 degrees>] [185 <./Plots/ControlPlots/T
-TbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_Eta_splitTTbar_ratio.pdf, 
-page is rotated 90 degrees> <./Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Phot
-ons/SignalPhotons/Photon_HtowoE_splitTTbar_ratio.pdf, page is rotated 90 degree
-s> <./Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_Et
-a_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbar
-PhotonAnalysis/EE/Photons/SignalPhotons/Photon_HtowoE_splitTTbar_ratio.pdf, pag
-e is rotated 90 degrees> <./Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/
-SignalPhotons/Photon_Eta_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./P
-lots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_HtowoE_s
-plitTTbar_ratio.pdf, page is rotated 90 degrees>] [186] [187 <./Plots/ControlPl
-ots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_RhoCorrectedPFNeutral
-HadronIso_barrel_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/Con
-trolPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_RhoCorrectedPFP
-hotonIso_barrel_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/Cont
-rolPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_RhoCorrectedPFNeut
-ralHadronIso_barrel_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/
-ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_RhoCorrectedPF
-PhotonIso_barrel_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/Con
-trolPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_RhoCorrectedPFNe
-utralHadronIso_barrel_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plot
-s/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_RhoCorrecte
-dPFPhotonIso_barrel_splitTTbar_ratio.pdf, page is rotated 90 degrees>] [188 <./
-Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_sigma_
-ietaieta_barrel_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/Cont
-rolPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_sigma_ietaieta_bar
-rel_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTb
-arPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_sigma_ietaieta_barrel_splitTT
-bar_ratio.pdf, page is rotated 90 degrees>] [189 <./Plots/ControlPlots/TTbarPho
-tonAnalysis/MuMu/Photons/SignalPhotons/Photon_deltaR_muons_splitTTbar_ratio.pdf
-, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarPhotonAnalysis/EE/Phot
-ons/SignalPhotons/Photon_deltaR_electrons_splitTTbar_ratio.pdf, page is rotated
- 90 degrees> <./Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhoton
-s/Photon_deltaR_muons_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plot
-s/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_deltaR_elec
-trons_splitTTbar_ratio.pdf, page is rotated 90 degrees>] [190
+tonAnalysis/EE/MET/patType1CorrectedPFMet/MET_phi_splitTTbar_ratio.pdf, page is
+ rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/MET/patTyp
+e1CorrectedPFMet/MET_phi_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./P
+lots/ControlPlots/TTbarDiLeptonAnalysis/EMu/MET/patType1CorrectedPFMet/METsigni
+ficance_splitTTbar_ratio.pdf, page is rotated 90 degrees>] [208 <./Plots/Contro
+lPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Photon_Eta_splitTTbar_rati
+o.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/
+MuMu/Photons/AllPhotons/Log/Photon_HtowoE_splitTTbar_ratio.pdf, page is rotated
+ 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/
+Photon_Eta_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPl
+ots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Log/Photon_HtowoE_splitTTbar_ra
+tio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysi
+s/EMu/Photons/AllPhotons/Photon_Eta_splitTTbar_ratio.pdf, page is rotated 90 de
+grees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/P
+hoton_HtowoE_splitTTbar_ratio.pdf, page is rotated 90 degrees>] [209 <./Plots/C
+ontrolPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Photon_RhoCorrect
+edPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf, page is rotated 90 degrees> <
+./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Photon_RhoCo
+rrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./
+Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Log/Photon_RhoCo
+rrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf, page is rotated 90 degre
+es> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Photon_Rh
+oCorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf, page is rotated 90 degrees> 
+<./Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Photon_R
+hoCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf, page is rotated 90 d
+egrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Phot
+on_RhoCorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf, page is rotated 90 degr
+ees>] [210 <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/
+Log/Photon_sigma_ietaieta_barrel_splitTTbar_ratio.pdf, page is rotated 90 degre
+es> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Pho
+ton_deltaR_jets_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/Cont
+rolPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Log/Photon_sigma_ietaieta_
+barrel_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/
+TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Log/Photon_deltaR_jets_splitTTbar_r
+atio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalys
+is/EMu/Photons/AllPhotons/Log/Photon_sigma_ietaieta_barrel_splitTTbar_ratio.pdf
+, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/P
+hotons/AllPhotons/Log/Photon_deltaR_jets_splitTTbar_ratio.pdf, page is rotated 
+90 degrees>] [211 <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllP
+hotons/Log/Photon_deltaR_muons_splitTTbar_ratio.pdf, page is rotated 90 degrees
+> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Photo
+n_deltaR_electrons_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/C
+ontrolPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Log/Photon_deltaR_muons
+_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarD
+iLeptonAnalysis/EE/Photons/AllPhotons/Log/Photon_deltaR_electrons_splitTTbar_ra
+tio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysi
+s/EMu/Photons/AllPhotons/Log/Photon_deltaR_muons_splitTTbar_ratio.pdf, page is 
+rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/All
+Photons/Log/Photon_deltaR_electrons_splitTTbar_ratio.pdf, page is rotated 90 de
+grees>] [212 <./Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhoto
+ns/Photon_Eta_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/Contro
+lPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_HtowoE_splitTTbar_
+ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarPhotonAnalysi
+s/EE/Photons/SignalPhotons/Photon_Eta_splitTTbar_ratio.pdf, page is rotated 90 
+degrees> <./Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Pho
+ton_HtowoE_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPl
+ots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_Eta_splitTTbar_ratio.p
+df, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarPhotonAnalysis/EMu/P
+hotons/SignalPhotons/Photon_HtowoE_splitTTbar_ratio.pdf, page is rotated 90 deg
+rees>] [213] [214 <./Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/Signal
+Photons/Photon_RhoCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf, page
+ is rotated 90 degrees> <./Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/
+SignalPhotons/Photon_RhoCorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf, page 
+is rotated 90 degrees> <./Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/Sig
+nalPhotons/Photon_RhoCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf, p
+age is rotated 90 degrees> <./Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons
+/SignalPhotons/Photon_RhoCorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf, page
+ is rotated 90 degrees> <./Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/S
+ignalPhotons/Photon_RhoCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf,
+ page is rotated 90 degrees> <./Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Phot
+ons/SignalPhotons/Photon_RhoCorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf, p
+age is rotated 90 degrees>] [215 <./Plots/ControlPlots/TTbarPhotonAnalysis/MuMu
+/Photons/SignalPhotons/Photon_sigma_ietaieta_barrel_splitTTbar_ratio.pdf, page 
+is rotated 90 degrees> <./Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/Sig
+nalPhotons/Photon_sigma_ietaieta_barrel_splitTTbar_ratio.pdf, page is rotated 9
+0 degrees> <./Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/
+Photon_sigma_ietaieta_barrel_splitTTbar_ratio.pdf, page is rotated 90 degrees>]
+[216 <./Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photo
+n_deltaR_muons_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/Contr
+olPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_deltaR_electrons_sp
+litTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarPhot
+onAnalysis/EMu/Photons/SignalPhotons/Photon_deltaR_muons_splitTTbar_ratio.pdf, 
+page is rotated 90 degrees> <./Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photo
+ns/SignalPhotons/Photon_deltaR_electrons_splitTTbar_ratio.pdf, page is rotated 
+90 degrees>] [217
 
-]
+] [218]
 Missing character: There is no Î in font cmr10!
 Missing character: There is no ± in font cmr10!
- [191] [192]
-[193] [194] [195] [196] [197] [198] [199] [200])
+ [219] [220] [221] [222] [223] [224] [225] [226]
+[227] [228] [229])
 
 Package caption Warning: Unused \captionsetup[sub] on input line 41.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 505.
-[201]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 505.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 509.
+[230]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 509.
  (./PhDThesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 505.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 505.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 509.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 509.
 Package rerunfilecheck Info: File `PhDThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 11D67F6A8F92EBD75D6ACB4B124B6235;9132.
+(rerunfilecheck)             Checksum: 178013D8303F97D106D4D85CE7D19065;9132.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -3767,11 +3849,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12079 strings out of 493304
- 225481 string characters out of 6139871
- 351473 words of memory out of 5000000
+ 12110 strings out of 493304
+ 225770 string characters out of 6139871
+ 358935 words of memory out of 5000000
  14431 multiletter control sequences out of 15000+600000
- 41218 words of font info for 117 fonts, out of 8000000 for 9000
+ 42089 words of font info for 118 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  42i,19n,51p,2169b,512s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
@@ -3792,10 +3874,10 @@ t/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts
 public/amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfb
 x1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/shar
 e/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/
-public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx
-2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share
-/texmf/fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/texmf/fonts/type1/p
-ublic/cm-super/sfcc1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0
+public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx
+2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share
+/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/p
+ublic/cm-super/sfcc1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0
 600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/
 texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/pu
 blic/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm12
@@ -3804,10 +3886,10 @@ exmf/fonts/type1/public/cm-super/sfsl1095.pfb></usr/share/texmf/fonts/type1/pub
 lic/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti120
 0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/te
 xmf/fonts/type1/public/cm-super/sfxc1095.pfb>
-Output written on PhDThesis.pdf (220 pages, 11881351 bytes).
+Output written on PhDThesis.pdf (252 pages, 12115479 bytes).
 PDF statistics:
- 8862 PDF objects out of 8907 (max. 8388607)
- 5031 compressed objects within 51 object streams
- 718 named destinations out of 1000 (max. 500000)
+ 9006 PDF objects out of 10688 (max. 8388607)
+ 5142 compressed objects within 52 object streams
+ 748 named destinations out of 1000 (max. 500000)
  1889 words of extra memory for PDF output out of 10000 (max. 10000000)
 
