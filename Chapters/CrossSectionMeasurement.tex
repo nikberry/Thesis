@@ -189,7 +189,7 @@ In an attempt to verify that the fit works well across a range of potential phot
 \label{fig-photonPurityComparison}
 \end{figure}
 
-We can see the template fit to the charged hadron isolation for the full data set in Figure \ref{fig-fitTemplates} for each decay channel. After the fit is conducted, we find photon purity values of $0.634 \pm 0.054$, $0.634 \pm 0.054$, and $0.634 \pm 0.054$ (including statistical uncertainties only for pseudo-data) compared to photon purity values of $0.634 \pm 0.054$, $0.634 \pm 0.054$, and $0.634 \pm 0.054$ from generator level information, in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels, respectively. 
+We can see the template fit to the charged hadron isolation for the full data set in Figure \ref{fig-fitTemplates} for each decay channel. After the fit is conducted, we find photon purity values of $0.634 \pm 0.054$, $0.634 \pm 0.054$, and $0.634 \pm 0.054$ (including statistical uncertainties only for pseudo-data) compared to photon purity values of $0.656 \pm 0.054$, $0.634 \pm 0.054$, and $0.634 \pm 0.054$ from generator level information, in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels, respectively. 
 
 % Statistical uncertainty given by RooFit does not include variation of the templates but only
 % uncertainty of data. However since templates are data-driven and suffer from low statistics
@@ -325,16 +325,18 @@ As we wish to find the combination of parameters with the best likelihood, we pe
 
 \begin{table}
 \begin{center}
+\resizebox{\columnwidth}{!} {
 \begin{tabular}{l|cc|cc|cc}
 \hline
 	& \multicolumn{2}{c|}{$\mu^{+}\mu^{-}$} & \multicolumn{2}{c|}{$e^{+}e^{-}$} & \multicolumn{2}{c}{$e\mu$} \\
-	& data & MC & data & MC & data & MC \\
+	& data & MC & Data & MC & Data & MC \\
 \hline
-	Photon purity & & & & & &\\
+	Photon purity & 0.95 \pm 0.04 & 0.66 \pm 0.10 & 0.97 \pm 0.03 & 0.56 \pm 0.21 &  0.97 \pm 0.03 & 0.51 \pm 0.06 \\
 	Top purity & & & & & &\\
 	$N_{events}$ data & & & & & & \\
 \hline	
 \end{tabular}
+}
 \end{center}
 \caption{Measured quantities used in the likelihood fit for the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels.}
 \label{tab-likelihoodVariables}
