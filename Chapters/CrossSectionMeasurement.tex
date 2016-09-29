@@ -27,13 +27,13 @@ Within this analysis, we measure the fiducial cross-section by calculating the c
 In order to simplify the calculation, we are able to take the ratio of the fiducial $t\bar{t}+\gamma$ cross-section to the inclusive $t\bar{t}$ cross-section, as previously measured by the CMS experiment \cite{ttbarXsectiondilepton}. In doing this, we simplfy the treatment of systematic uncertainties and cancel shared terms from each measurement, such as luminosity. The new ratio is calculated using the following equation
 
 \begin{equation}
-R = \frac{\sigma_{t\bar{t}+\gamma}^{fid.}}{\sigma_{t\bar{t}}^{incl.}} = \frac{\sigma_{t\bar{t}+\gamma}^{fid.}}{1}\cdot\frac{1}{\sigma_{t\bar{t}}^{incl.}} = \frac{N_{t\bar{t}+\gamma}^{signal}}{\epsilon_{t\bar{t}+\gamma}^{top+pho.}} \cdot \frac{(\epsilon \cdot A)_{t\bar{t}}^{top}}{N_{t\bar{t}}}
+R = \frac{\sigma_{t\bar{t}+\gamma}^{fid.}}{\sigma_{t\bar{t}}^{incl.}} = \frac{\sigma_{t\bar{t}+\gamma}^{fid.}}{1}\cdot\frac{1}{\sigma_{t\bar{t}}^{incl.}} = \frac{N_{t\bar{t}+\gamma}^{signal}}{\epsilon_{t\bar{t}+\gamma}} \cdot \frac{(\epsilon \cdot A)_{t\bar{t}}^{top}}{N_{t\bar{t}}}
 \end{equation}
 
-We now introduce a second term into the cross-section calculation which includes three new variables that stem from the $t\bar{t}$ inclusive cross-section: where $\epsilon_{t\bar{t}}^{top}$ and $A_{t\bar{t}}^{top}$ are the efficiency and acceptance of the $t\bar{t}$ process, $N_{t\bar{t}}$ is the number of top pair events passing the full top selection prior to the photon selection, and $\epsilon_{t\bar{t}+\gamma}^{top+pho.}$the efficiency of finding $t\bar{t}+\gamma$ events after top and photon selection. We define the efficiency for $t\bar{t}+\gamma$ with top pair and photon selection as
+We now introduce a second term into the cross-section calculation which includes three new variables that stem from the $t\bar{t}$ inclusive cross-section: where $\epsilon_{t\bar{t}}^{top}$ and $A_{t\bar{t}}^{top}$ are the efficiency and acceptance of the $t\bar{t}$ process, $N_{t\bar{t}}$ is the number of top pair events passing the full top selection prior to the photon selection, and $\epsilon_{t\bar{t}+\gamma}$ the efficiency of finding $t\bar{t}+\gamma$ events after top and photon selection. We define the efficiency for $t\bar{t}+\gamma$ with top pair and photon selection as
 
 \begin{equation}
-\epsilon_{t\bar{t}+\gamma}^{top+pho.} = \frac{N_{t\bar{t}+\gamma}^{pho.}}{N_{t\bar{t}+\gamma}^{gen. fid.}}
+\epsilon_{t\bar{t}+\gamma} = \frac{N_{t\bar{t}+\gamma}}{N_{t\bar{t}+\gamma}^{gen. fid.}}
 \end{equation}
 
 
@@ -178,16 +178,18 @@ We wish to cross-check our fitting method and we do so by applying it to the col
 \label{fig-pseudofit}
 \end{figure}
 
-In an attempt to verify that the fit works well across a range of potential photon purity values, and thus not having a bias towards predicted values, we perform the fit while varying the photon purity value. Due to the $t\bar{t}+\gamma$ simulated sample comprising predominantly prompt photon events, by scaling the $t\bar{t}+\gamma$ contribution we vary the photon purity value. Figure \ref{fig-photonPurityComparison} shows a comparison of the photon purity value and the corresponding value measured by the fit to the charged hadron isolation. 
+In an attempt to verify that the fit works well across a range of potential photon purity values, and thus not having a bias towards predicted values, we perform the fit while varying the photon purity value. Due to the $t\bar{t}+\gamma$ simulated sample comprising predominantly prompt photon events, by scaling the $t\bar{t}+\gamma$ contribution we vary the photon purity value. 
+
+% Figure \ref{fig-photonPurityComparison} shows a comparison of the photon purity value and the corresponding value measured by the fit to the charged hadron isolation. 
 
 
-\begin{figure}
-\includegraphics[width=0.3\textwidth]{Plots/purityComparison/MuMu/photonPurity.pdf}
-\includegraphics[width=0.3\textwidth]{Plots/purityComparison/EE/photonPurity.pdf}
-\includegraphics[width=0.3\textwidth]{Plots/purityComparison/EMu/photonPurity.pdf}
-\caption{Comparison of the photon purity of pseudo-data sets to the values measured by the fit to the charged hadron isolation in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels.}
-\label{fig-photonPurityComparison}
-\end{figure}
+% \begin{figure}
+% \includegraphics[width=0.3\textwidth]{Plots/purityComparison/MuMu/photonPurity.pdf}
+% \includegraphics[width=0.3\textwidth]{Plots/purityComparison/EE/photonPurity.pdf}
+% \includegraphics[width=0.3\textwidth]{Plots/purityComparison/EMu/photonPurity.pdf}
+% \caption{Comparison of the photon purity of pseudo-data sets to the values measured by the fit to the charged hadron isolation in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels.}
+% \label{fig-photonPurityComparison}
+% \end{figure}
 
 We can see the template fit to the charged hadron isolation for the full data set in Figure \ref{fig-fitTemplates} for each decay channel. After the fit is conducted, we find photon purity values of $0.634 \pm 0.054$, $0.634 \pm 0.054$, and $0.634 \pm 0.054$ (including statistical uncertainties only for pseudo-data) compared to photon purity values of $0.656 \pm 0.054$, $0.634 \pm 0.054$, and $0.634 \pm 0.054$ from generator level information, in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels, respectively. 
 
@@ -321,7 +323,9 @@ From the events derived from data we can define the photon purity, $\pi_{e\gamma
 
 We use the three unknown quantities in order to correct event counts from relevant contributions in simulation. These quantities are: $\pi_{e\gamma}^{MC}$, ratio of events with a reconstructed photon matched to an isolated electron or photon and all events in simulation, $\pi_{t\bar{t}}^{MC}$ the ratio of top pair events and all events from simulation, and $\pi_{events}^{MC}$ the total number of selected events in MC. The values of these parameters for both data and MC can be seen in Table \ref{tab-likelihoodVariables}	
 
-As we wish to find the combination of parameters with the best likelihood, we perform a scan over possible values of the parameters. We then compute the negative log-likelihood ratio by maximising the likelihood where we fix one parameter to a specific value, and then taking the ratio of the maximum likelihood value at this point to the global maximum likelihood. We take the 68\% confidence interval to be the range of values for which the negative log-likelihood ratio is less than 0.5. Figures \ref{fig-SFLikelihoodFitsMuMu}, \ref{fig-SFLikelihoodFitsMuMu}, and \ref{fig-SFLikelihoodFitsMuMu} show the negative log-likelihood ratio distributions for the $\mu^+\mu^-$, $e^+e^-$, and $e\mu$ channels, respectively. 
+As we wish to find the combination of parameters with the best likelihood, we perform a scan over possible values of the parameters. We then compute the negative log-likelihood ratio by maximising the likelihood where we fix one parameter to a specific value, and then taking the ratio of the maximum likelihood value at this point to the global maximum likelihood. We take the 68\% confidence interval to be the range of values for which the negative log-likelihood ratio is less than 0.5.
+
+ % Figures \ref{fig-SFLikelihoodFitsMuMu}, \ref{fig-SFLikelihoodFitsMuMu}, and \ref{fig-SFLikelihoodFitsMuMu} show the negative log-likelihood ratio distributions for the $\mu^+\mu^-$, $e^+e^-$, and $e\mu$ channels, respectively. 
 
 \begin{table}
 \begin{center}
@@ -329,11 +333,11 @@ As we wish to find the combination of parameters with the best likelihood, we pe
 \begin{tabular}{l|cc|cc|cc}
 \hline
 	& \multicolumn{2}{c|}{$\mu^{+}\mu^{-}$} & \multicolumn{2}{c|}{$e^{+}e^{-}$} & \multicolumn{2}{c}{$e\mu$} \\
-	& data & MC & Data & MC & Data & MC \\
+	& Data & MC & Data & MC & Data & MC \\
 \hline
 	Photon purity & 0.95 \pm 0.04 & 0.66 \pm 0.10 & 0.97 \pm 0.03 & 0.56 \pm 0.21 &  0.97 \pm 0.03 & 0.51 \pm 0.06 \\
-	Top purity & & & & & &\\
-	$N_{events}$ data & & & & & & \\
+	Top purity & 0.72 \pm 0.08 & 0.68 \pm 0.05 & 0.73 \pm 0.02 & 0.73 \pm 0.09 & 0.66 \pm 0.03 & 0.77 \pm 0.10 \\
+	$N_{events}$ data & 41.0 \pm 6.4 & 23.6 \pm 4.3 & 34.0 \pm 5.8 & 19.7 \pm 3.2 & 38.0 \pm 6.2 & 28.5 \pm 1.1 \\
 \hline	
 \end{tabular}
 }
@@ -342,33 +346,51 @@ As we wish to find the combination of parameters with the best likelihood, we pe
 \label{tab-likelihoodVariables}
 \end{table}		
 
-\begin{figure}
-\includegraphics[width=0.3\textwidth]{Plots/likelihoodfits/MuMu/ttgamma_likelihood_fit.pdf}
-\includegraphics[width=0.3\textwidth]{Plots/likelihoodfits/MuMu/vgamma_likelihood_fit.pdf}
-\includegraphics[width=0.3\textwidth]{Plots/likelihoodfits/MuMu/jgamma_likelihood_fit.pdf}
-\caption{Likelihood distributions for the $t\bar{t}+\gamma$, $V+\gamma$, and $jets\to \gamma$ scale factors in the $\mu^{+}\mu^{-}$ channel.}
-\label{fig-SFLikelihoodFitsMuMu}
-\end{figure}
+% \begin{figure}
+% \includegraphics[width=0.3\textwidth]{Plots/likelihoodfits/MuMu/ttgamma_likelihood_fit.pdf}
+% \includegraphics[width=0.3\textwidth]{Plots/likelihoodfits/MuMu/vgamma_likelihood_fit.pdf}
+% \includegraphics[width=0.3\textwidth]{Plots/likelihoodfits/MuMu/jgamma_likelihood_fit.pdf}
+% \caption{Likelihood distributions for the $t\bar{t}+\gamma$, $V+\gamma$, and $jets\to \gamma$ scale factors in the $\mu^{+}\mu^{-}$ channel.}
+% \label{fig-SFLikelihoodFitsMuMu}
+% \end{figure}
 
-\begin{figure}
-\includegraphics[width=0.3\textwidth]{Plots/likelihoodfits/EE/ttgamma_likelihood_fit.pdf}
-\includegraphics[width=0.3\textwidth]{Plots/likelihoodfits/EE/vgamma_likelihood_fit.pdf}
-\includegraphics[width=0.3\textwidth]{Plots/likelihoodfits/EE/jgamma_likelihood_fit.pdf}
-\caption{Likelihood distributions for the $t\bar{t}+\gamma$, $V+\gamma$, and $jets\to \gamma$ scale factors in the $e^{+}e^{-}$ channel.}
-\label{fig-SFLikelihoodFitsEE}
-\end{figure}
+% \begin{figure}
+% \includegraphics[width=0.3\textwidth]{Plots/likelihoodfits/EE/ttgamma_likelihood_fit.pdf}
+% \includegraphics[width=0.3\textwidth]{Plots/likelihoodfits/EE/vgamma_likelihood_fit.pdf}
+% \includegraphics[width=0.3\textwidth]{Plots/likelihoodfits/EE/jgamma_likelihood_fit.pdf}
+% \caption{Likelihood distributions for the $t\bar{t}+\gamma$, $V+\gamma$, and $jets\to \gamma$ scale factors in the $e^{+}e^{-}$ channel.}
+% \label{fig-SFLikelihoodFitsEE}
+% \end{figure}
 
-\begin{figure}
-\includegraphics[width=0.3\textwidth]{Plots/likelihoodfits/EMu/ttgamma_likelihood_fit.pdf}
-\includegraphics[width=0.3\textwidth]{Plots/likelihoodfits/EMu/vgamma_likelihood_fit.pdf}
-\includegraphics[width=0.3\textwidth]{Plots/likelihoodfits/EMu/jgamma_likelihood_fit.pdf}
-\caption{Likelihood distributions for the $t\bar{t}+\gamma$, $V+\gamma$, and $jets\to \gamma$ scale factors in the $e\mu$ channel.}
-\label{fig-SFLikelihoodFitsEMu}
-\end{figure}
+% \begin{figure}
+% \includegraphics[width=0.3\textwidth]{Plots/likelihoodfits/EMu/ttgamma_likelihood_fit.pdf}
+% \includegraphics[width=0.3\textwidth]{Plots/likelihoodfits/EMu/vgamma_likelihood_fit.pdf}
+% \includegraphics[width=0.3\textwidth]{Plots/likelihoodfits/EMu/jgamma_likelihood_fit.pdf}
+% \caption{Likelihood distributions for the $t\bar{t}+\gamma$, $V+\gamma$, and $jets\to \gamma$ scale factors in the $e\mu$ channel.}
+% \label{fig-SFLikelihoodFitsEMu}
+% \end{figure}
 
 
 
-We find that the best agreement is achieved for these values of parameters, with errors from the width of the likelihood, are $SF_{t\bar{t}+\gamma} = 1.16 \pm 0.26$, $SF_{V+\gamma} = 0.95 \pm 0.85$, $SF_{jet\to\gamma} = 1.17 \pm 0.19$ for the $\mu^+\mu^-$ channel, $SF_{t\bar{t}+\gamma} = 0.89 \pm 0.21$, $SF_{V+\gamma} = 1.13 \pm 0.45$, $SF_{jet\to\gamma} = 1.22 \pm  0.18$ for the $e^+e^-$ channel, and $SF_{t\bar{t}+\gamma} = 0.89 \pm 0.21$, $SF_{V+\gamma} = 1.13 \pm 0.45$, $SF_{jet\to\gamma} = 1.22 \pm 0.18$ for the $e\mu$ channel. Therefore, we see an excellent agreement between the photon purity, fraction of top events, and number of events in simulation and in data. Tables \ref{tab-SigPhotonsMuMuScaled}, \ref{tab-SigPhotonsEEScaled}, \ref{tab-SigPhotonsEMuScaled} show the number of events from simulation scaled to the results of the likelihood fit.  
+The values of the parameters giving the best agreement, with errors from the width of the likelihood, are shown in Table \ref{tab-SFValues}.  Therefore, we see an excellent agreement between the photon purity, fraction of top events, and number of events in simulation and in data. Tables \ref{tab-SigPhotonsMuMuScaled}, \ref{tab-SigPhotonsEEScaled}, \ref{tab-SigPhotonsEMuScaled} show the number of events from simulation scaled to the results of the likelihood fit. 
+
+\begin{table}
+\begin{center}
+% \resizebox{\textwidth}{!}{
+\begin{tabular}{l|c|c|c}
+\hline
+Scale factor & $\mu^+\mu^-$ & $e^+e^-$ & $e\mu$ \\
+\hline
+$SF_{t\bar{t}+\gamma}$ & 1.16 \pm 0.26 & 0.89 \pm 0.21 & 1.14 \pm 0.32 \\
+$SF_{V+\gamma}$ & 0.95 \pm 0.85 & 1.13 \pm 0.45 & 1.02 \pm 0.54 \\
+$SF_{jet \to \gamma}$ & 1.17 \pm 0.19 & 1.22 \pm 0.20 & 1.15 \pm 0.22 \\
+\hline
+\end{tabular}
+% }
+\end{center}
+\caption{Scale factors found to maximize the likelihood function in the $\mu^+\mu^-$, $e^+e^-$, and the $e\mu$ channels, respectively. The uncertainties are statistical.}
+\label{tab-SFValues}
+\end{table} 
 
 \begin{table}
 \begin{center}
@@ -467,13 +489,13 @@ The event selection is chosen to make use of this fact: two steps (top selection
 
 This gives the acceptance times efficiency of the inclusive $t\bar{t}$ process to be $(\epsilon \cdot A)_{t\bar{t}}^{top} =   \pm  (stat.)$ in the di-muon channel, $(\epsilon \cdot A)_{t\bar{t}}^{top} =  \pm  (stat.)$ in the di-electron channel, and $(\epsilon \cdot A)_{t\bar{t}}^{top} =  \pm  (stat.)$ in the mixed final state.
 
-We note that the branching fraction for the $t\bar{t}+\gamma$ signal is different to normal $t\bar{t}$ production, and is due to the way in which the signal is defined.  We apply tighter generator requirements to jets than leptons, resulting in the relative contribution from the semilaptonic and dileptonic final states being increased within the $t\bar{t}+\gamma$ MC sample, compared to the contribution from the all hadronic final state. We calculate the branching fraction of $t\bar{t}+\gamma$ production if measured from simulation as the total number of events generated with exactly two oppositely-signed leptons (excluding $\tau$ leptons) divided by the total number of generated events. 
+We note that the branching fraction for the $t\bar{t}+\gamma$ signal is different to normal $t\bar{t}$ production, and is due to the way in which the signal is defined.  We apply tighter requirements to jets than leptons at generator level, resulting in the relative contribution from the semilaptonic and dileptonic final states being increased within the $t\bar{t}+\gamma$ MC sample, compared to the contribution from the all hadronic final state. We calculate the branching fraction of $t\bar{t}+\gamma$ production from simulation as the total number of events generated with exactly two oppositely-signed leptons (excluding $\tau$ leptons) divided by the total number of generated events, for each final state, respectively. 
 
 \begin{equation}
 \mathcal{BR}_{t\bar{t}+\gamma} = \frac{N_{2. lep.}^{t\bar{t}+\gamma}}{N_{Tot. gen.}^{t\bar{t}+\gamma}}
 \end{equation} 
 
-We define the kinematic acceptance to be the number of events passing the generator level requirements divided by the number of events generated with exactly two oppositely-signed leptons.
+We define the kinematic acceptance to be the number of events passing the phase space requirements, as described above, divided by the number of events generated in the dilepton final state.
 
 \begin{equation}
 A_{t\bar{t}+\gamma}^{kin.} = \frac{N_{t\bar{t}+\gamma}^{gen. fid.}}{N_{t\bar{t}+\gamma}^{gen 2l}}
@@ -482,7 +504,7 @@ A_{t\bar{t}+\gamma}^{kin.} = \frac{N_{t\bar{t}+\gamma}^{gen. fid.}}{N_{t\bar{t}+
 %  The measured values for the acceptance and efficiency of the tt + γ selection
 % in the e + jets and μ + jets channels are given in Table 9.
 
-We define the efficiency as the fraction of reconstructed events passing the event selection, and which fall into the acceptance window at generator level. We calculate it as the fraction of events that pass the generator level acceptance cuts and also the full top and photon event selections. We can divide the efficiency into to parts: top selection efficiency, and photon selection efficiency. The top selection efficiency is calculated as the fraction of simulated events within the acceptance cuts and pass top quark selection, divided by the total number of generated events passing the acceptance cuts at generator level. We calculate the photon efficiency as the number of events that fall into the acceptance region and pass top and photon selection divided by the total number of generated events passing the acceptance cuts at generator level. The calculated values for the acceptance and efficiency of the $t\bar{t}+\gamma$ selection for each dilepton final state are shown in Table. \ref{tab-efficiencyAndAcceptance}.
+We define the efficiency as the fraction of reconstructed events passing the event selection, and which fall into the acceptance window at generator level. We calculate it as the fraction of events that pass the generator level acceptance cuts and also the full top and photon event selections. We can divide the efficiency into to parts: top selection efficiency, and photon selection efficiency. The top selection efficiency is calculated as the fraction of simulated events within the acceptance cuts and pass top quark selection, divided by the total number of generated events passing the acceptance cuts at generator level. We calculate the photon efficiency as the number of events that fall into the acceptance region and pass top and photon selection divided by the total number of generated events passing the acceptance cuts at generator level. The calculated values for the acceptance and efficiency of the $t\bar{t}+\gamma$ selection for each dilepton final state are shown in Table \ref{tab-efficiencyAndAcceptance}.
 
 % The same can be done for the $t\bar{t}+\gamma$ (signal sample). To get the acceptance times efficiency we have to divide the number of events passing top selection by the total number of events considered. However, in this case we have to choose what we take as the denominator. The signal $t\bar{t}+\gamma$ sample is inclusive, but theoretical calculations for the cross section are done for final states with 1 and 2 leptons \cite{QCDCorrectionsttgamma2011}. To make comparison with theory easier we consider the fiducial space for signal when 1 or 2 leptons are present. The $t\bar{t}+\gamma$ acceptance times efficiency of the top selection is defined for the signal samples with 1 or 2 leptons as:
 
@@ -522,13 +544,9 @@ We define the efficiency as the fraction of reconstructed events passing the eve
 \hline
 	 & \textbf{$\mu^+\mu^-$} & \textbf{$e^+e^-$} & \textbf{$e\mu$}  \\
 \hline
-	$\epsilon_{t\bar{t}}$ & & &  \\
-	$\epsilon_{\gamma}$ & & &  \\
-	Total &  & &  \\
-\hline
-	Branching Ratio & & &  \\
+	Branching Ratio & 0.01048 \pm 0.000081 & 0.0108175 \pm 0.000078 & 0.0180725 \pm 0.000044  \\
 	Kinematic Acceptance & & & \\
-	Total &  &  & \\
+	Efficiency $\epsilon_{t\bar{t}+\gamma}$ & & &  \\
 \hline	
 \end{tabular}
 \end{center}
