@@ -4,18 +4,18 @@ Now that the observables that we are interested in have been computed successful
 
 \begin{table}[h!]
 \begin{center}
+\resizebox{\textwidth}{!}{
 \begin{tabular}{l|c|c|c}
 \hline
 	\textbf{Value} & $\mu^+\mu^-$ & $e^+e^-$ & $e\mu$ \\
 \hline
-	Number of signal events, $N_{signal}$ & & & \\
-	$t\bar{t}+\gamma$ Photon Selection Efficiency $\epsilon^{t\bar{t}+\gamma}$ & & & \\
-	Number of $t\bar{t}$ events $N^{t\bar{t}}$ & & & \\
-	$t\bar{t}$ Top Selection $\epsilon^{t\bar{t}}_{top} \cdot A^{t\bar{t}}_{top}$ & & & \\
-\hline
-	Total & & & \\
+	Number of signal events, $N_{signal}$ & 33.0 \pm 6.2 & 30.0 \pm 6.9 & 32.0 \pm 6.7\\
+	$t\bar{t}+\gamma$ Photon Selection Efficiency $\epsilon^{t\bar{t}+\gamma}$ & 0.354 \pm 0.0043 & 0.320 \pm 0.0034 & 0.355 \pm 0.0045 \\
+	Number of $t\bar{t}$ events $N^{t\bar{t}}$ & 18272.0 \pm 135.174 & 23610.0 \pm 153.655 & 37257.0 \pm 193.021 \\
+	$t\bar{t}$ Top Selection $\epsilon^{t\bar{t}}_{top} \cdot A^{t\bar{t}}_{top}$ & 0.322 \pm 0.0038 & 0.330 \pm 0.0045 & 0.302 \pm 0.0040 \\
 \hline
 \end{tabular} 
+}
 \end{center}
 \caption{Values used in calculating the cross-section ratios in the $\mu^+\mu^-$, $e^+e^-$, and $e\mu$ channels.}
 \label{tab-xsectvariables}
@@ -24,47 +24,47 @@ Now that the observables that we are interested in have been computed successful
 The variables to calculate the cross-section ratios for each of the dilepton channels are thus defined as:
 
 \begin{equation}
-	R_{\mu^+\mu^-} = \frac{\sigma_{t\bar{t}+\gamma}}{\sigma_{t\bar{t}}} = \frac{N_{signal}}{\epsilon_{t\bar{t}+\gamma}} \cdot \frac{\epsilon^{t\bar{t}}_{top} A^{t\bar{t}}_{top}}{N_{t\bar{t}}} = 0.00067 \pm 0.00021 (stat. + syst.);
+	R_{\mu^+\mu^-} = \frac{\sigma_{t\bar{t}+\gamma}}{\sigma_{t\bar{t}}} = \frac{N_{signal}}{\epsilon_{t\bar{t}+\gamma}} \cdot \frac{\epsilon^{t\bar{t}}_{top} A^{t\bar{t}}_{top}}{N_{t\bar{t}}} = 0.0016 \pm 0.00021 (stat. + syst.);
 \end{equation}
 
 \begin{equation}
-	R_{e^+e^-} = \frac{\sigma_{t\bar{t}+\gamma}}{\sigma_{t\bar{t}}} = \frac{N_{signal}}{\epsilon_{t\bar{t}+\gamma}} \cdot \frac{\epsilon^{t\bar{t}}_{top} A^{t\bar{t}}_{top}}{N_{t\bar{t}}} = 0.00064 \pm 0.00019 (stat. + syst.);
+	R_{e^+e^-} = \frac{\sigma_{t\bar{t}+\gamma}}{\sigma_{t\bar{t}}} = \frac{N_{signal}}{\epsilon_{t\bar{t}+\gamma}} \cdot \frac{\epsilon^{t\bar{t}}_{top} A^{t\bar{t}}_{top}}{N_{t\bar{t}}} = 0.0013 \pm 0.00032 (stat. + syst.);
 \end{equation}
 
 \begin{equation}
-	R_{e\mu} = \frac{\sigma_{t\bar{t}+\gamma}}{\sigma_{t\bar{t}}} = \frac{N_{signal}}{\epsilon_{t\bar{t}+\gamma}} \cdot \frac{\epsilon^{t\bar{t}}_{top} A^{t\bar{t}}_{top}}{N_{t\bar{t}}} = 0.00066 \pm 0.00024 (stat. + syst.).
+	R_{e\mu} = \frac{\sigma_{t\bar{t}+\gamma}}{\sigma_{t\bar{t}}} = \frac{N_{signal}}{\epsilon_{t\bar{t}+\gamma}} \cdot \frac{\epsilon^{t\bar{t}}_{top} A^{t\bar{t}}_{top}}{N_{t\bar{t}}} = 0.00047 \pm 0.00028 (stat. + syst.).
 \end{equation}
 
 
  The fiducial cross-sections for individual decay channels can now be calculted. This is done by extrapolating from the cross-section ratio and multiplying our coputed ratio value by the inclusive $t\bar{t}$ cross-section of $245.6 \pm 1.3(stat.) \pm_{-5.5}^{+6.6}(syst.) \pm 6.5(lumi.)$ pb \cite{Khachatryan:2016mqs}. The results of multiplying the ratio by the inclusive $t\bar{t}$ cross-section for individual decay channels are given as:
 
 \begin{equation}
-	\sigma_{t\bar{t}+\gamma}^{\mu^+\mu^-} = 342 \pm 45 (stat. + syst.);
+	\sigma_{t\bar{t}+\gamma}^{\mu^+\mu^-} = 403 \pm 45 (stat. + syst.) fb;
 \end{equation}
 
 \begin{equation}
-	\sigma_{t\bar{t}+\gamma}^{e^+e^-} = 188 \pm 45 (stat. + syst.);
+	\sigma_{t\bar{t}+\gamma}^{e^+e^-} = 322 \pm 45 (stat. + syst.) fb;
 \end{equation}
 
 \begin{equation}
-	\sigma_{t\bar{t}+\gamma}^{e\mu} = 312 \pm 45 (stat. + syst.).
+	\sigma_{t\bar{t}+\gamma}^{e\mu} = 116 \pm 45 (stat. + syst.) fb.
 \end{equation}
 
  The cross-section multiplied by the dilepton branching fraction, $\mathcal{B}_{t\bar{t}\to2l}$, is then computed by dividing through by the kinematic acceptance. The kinematic acceptances are given in Section \ref{subsec-SignalAcceptanceCalculation} as $0.2380 \pm 0.0014$, $0.2433 \pm 0.0014$, and $0.2551 ± 0.0014$ in the $\mu^+\mu^-$, $e^+e^-$, and $e\mu$ final states, respectively. The cross-section multiplied by branching fraction is defined as follows:
 
 \begin{equation}
-	\sigma_{t\bar{t}+\gamma}^{\mu^+\mu^-}\times \mathcal{B}_{t\bar{t}\to2l} = 582 \pm 187 (stat. + syst.);
+	\sigma_{t\bar{t}+\gamma}^{\mu^+\mu^-}\times \mathcal{B}_{t\bar{t}\to2l} = 1.299 \pm 0.187 (stat. + syst.) pb;
 \end{equation}
 
 \begin{equation}
-	\sigma_{t\bar{t}+\gamma}^{e^+e^-}\times \mathcal{B}_{t\bar{t}\to2l}  = 582 \pm 187 (stat. + syst.);
+	\sigma_{t\bar{t}+\gamma}^{e^+e^-}\times \mathcal{B}_{t\bar{t}\to2l}  = 1.146 \pm 0.210 (stat. + syst.) pb;
 \end{equation}
 
 \begin{equation}
-	\sigma_{t\bar{t}+\gamma}^{e\mu}\times \mathcal{B}_{t\bar{t}\to2l}  = 582 \pm 187 (stat. + syst.).
+	\sigma_{t\bar{t}+\gamma}^{e\mu}\times \mathcal{B}_{t\bar{t}\to2l}  = 0.436 \pm 0.105 (stat. + syst.).
 \end{equation}
 
-These values are in agreement with the theoretical prediction of $592 \pm 71 (scale) \pm 30 (PDF)$ fb for the cross-section multiplied by the branching fraction of each of the dileptonic decay channel final states \cite{QCDcorrttgamma}.
+% These values are in agreement with the theoretical prediction of $592 \pm 71 (scale) \pm 30 (PDF)$ fb for the cross-section multiplied by the branching fraction of each of the dileptonic decay channel final states \cite{QCDcorrttgamma}.
 
 \section{Combination of channels} \label{sec-CombinationOfChannels}
 
@@ -92,51 +92,52 @@ The likelihood fit is scanned over three scale factor parameters, such that the 
 % \label{fig-SFLikelihoodFitsCombination}
 % \end{figure}
 
-After the fit has been performed, the combined number of $t\bar{t}+\gamma$ signal events is $106 \pm 12$. The values of the combined efficiencies for selection, and number of $t\bar{t}$ events is measured to to be:
+After the fit has been performed, the combined number of $t\bar{t}+\gamma$ signal events is $114 \pm 12$. The values of the combined efficiencies for selection, and number of $t\bar{t}$ events is measured to to be:
 
 \begin{itemize}
 	\item $t\bar{t}+\gamma$ Top and Photon Selection Efficiency $= 0.2321 \pm 0.0042$
 	\item Top selection efficiency $= 0.122 \pm 0.000034$
-	\item Number of $t\bar{t}$ events $= 102455 \pm 1032$
+	\item Number of $t\bar{t}$ events $= 64398 \pm 233$
 \end{itemize}
+
 
 Using these values, the cross-section ratio for the combination of channels is calculated to be:
 
 \begin{equation}
-	R_{comb.} = \frac{\sigma_{t\bar{t}+\gamma}}{\sigma_{t\bar{t}}} = \frac{N_{signal}}{\epsilon_{t\bar{t}+\gamma}} \cdot \frac{\epsilon^{t\bar{t}}_{top} A^{t\bar{t}}_{top}}{N_{t\bar{t}}} = 0.00221 \pm 0.00023 (stat. + syst.)
+	R_{comb.} = \frac{\sigma_{t\bar{t}+\gamma}}{\sigma_{t\bar{t}}} = \frac{N_{signal}}{\epsilon_{t\bar{t}+\gamma}} \cdot \frac{\epsilon^{t\bar{t}}_{top} A^{t\bar{t}}_{top}}{N_{t\bar{t}}} = 0.00221 \pm 0.00023 (stat.)
 \end{equation}
 
 In the same manner as before, the computed ratio is multiplied by the $t\bar{t}$ inclusive cross-section to find the fiducial cross-section to get:
 
 \begin{equation}
-	\sigma_{t\bar{t}+\gamma}^{comb.} = 543 \pm 0.00032 (stat.+syst.).
+	\sigma_{t\bar{t}+\gamma}^{comb.} = 983 \pm 32 (stat.).
 \end{equation}
 
-\begin{table}[h!] 
-\centering
-\begin{tabular}{|l|c|c|}
-\hline
-\textbf{Source} & \multicolumn{2}{c|}{\textbf{Uncertainty (\%)}} \\ \cline{2-3}
- & Up & Down \\
-\hline
-Statistical & & \\
-\hline
-Systematic & & \\
-\hline
-Pileup (PU) & & \\
-Out-of-time Pileup (OOT) & & \\
-Top P$_{\text{T}}$ & & \\
-b-tag & & \\
-Photon E$_{\text{T}}$ & & \\
-JEC & & \\
-JER & & \\
-Electron Efficiency & & \\
-Electron P$_{\text{T}}$ & & \\
-PDF & & \\
-\hline
-Total & & \\
-\hline
-\end{tabular} 
-\caption{Systematic uncertainties and their contribution to the cross-section ratio for the combination of dielpton final states.}
-\label{tab-systuncertsCombined}
-\end{table}
+% \begin{table}[h!] 
+% \centering
+% \begin{tabular}{|l|c|c|}
+% \hline
+% \textbf{Source} & \multicolumn{2}{c|}{\textbf{Uncertainty (\%)}} \\ \cline{2-3}
+%  & Up & Down \\
+% \hline
+% Statistical & & \\
+% \hline
+% Systematic & & \\
+% \hline
+% Pileup (PU) & & \\
+% Out-of-time Pileup (OOT) & & \\
+% Top P$_{\text{T}}$ & & \\
+% b-tag & & \\
+% Photon E$_{\text{T}}$ & & \\
+% JEC & & \\
+% JER & & \\
+% Electron Efficiency & & \\
+% Electron P$_{\text{T}}$ & & \\
+% PDF & & \\
+% \hline
+% Total & & \\
+% \hline
+% \end{tabular} 
+% \caption{Systematic uncertainties and their contribution to the cross-section ratio for the combination of dielpton final states.}
+% \label{tab-systuncertsCombined}
+% \end{table}

@@ -413,7 +413,7 @@ where $\lumi$ is the integrated luminosity of the data, $\sigma$ the theoretical
 SF = SF_{MC} \times SF_{Trig} \times SF_{Lep} \times SF_{PU} \times SF_{Btag}
 \end{equation} \label{eqn-SFProduct}
 
-A reweighting of the p$_T$ distribution of top pairs is also incorporated and described in Section \ref{}. The different event correction types are described below.
+A reweighting of the p$_T$ distribution of top pairs is also incorporated and described in Section \ref{chap-SystematicUncertainties}. The different event correction types are described below.
 
 \begin{description}
 	\item[Pileup Reweighting] The number of pileup interactions per event varies depending on many factors, such as the luminosity of collisions. Generated events are produced with a nominal number of pileup interactions and this must be corrected in order to match with that observed in data. To correct the number of pileup interactions per event, we must have knowledge of the number of pileup in simulation,the luminosity of the dataset we are correcting for, and the total inelastic cross-section of proton-proton collisions, such that $N_{PU} = \lumi \times \sigma_{pp}$.    
@@ -427,7 +427,7 @@ A reweighting of the p$_T$ distribution of top pairs is also incorporated and de
 	SF_{Trig.} = \frac{\epsilon_{data}}{\epsilon_{MC}}
 	\end{equation}
 	The trigger scale factors used in this analysis were centrally produced by the CMS EGamma and Muon physics object groups for the 2012 data set and are defined as \ref{tab-leptonTriggerSFs}. The same technique can be applied when computing scale factors for lepton isolation and identification.  
-	\item[Z+Jets Scale Factors]
+	% \item[Z+Jets Scale Factors]
 \end{description} 
 
 \section{Event selection cut flow} \label{sec-cutflow}
@@ -459,17 +459,17 @@ An excellent agreement is observed between the data and simulation, disregarding
 \hline
  & $t\bar{t}+\gamma$ & $t\bar{t} 0l$ & $t\bar{t} 1l$ & $t\bar{t} 2l$ & w+jets & z+jets & $W+\gamma$ & $Z+\gamma$ & diboson & single-t & qcd & all MC & data \\
  \hline
-Skim & 3418 $\pm$ 12 \ & 16912 $\pm$ 37 \ & 132676 $\pm$ 113 \ & 137147 $\pm$ 81 \ & 166712 $\pm$ 1559 \ & 1013494 $\pm$ 1639 \ & 10326 $\pm$ 166 \ & 73574 $\pm$ 208 \ & 13909 $\pm$ 30 \ & 27811 $\pm$ 339 \ & 16621473 $\pm$ 136970\ & 18217451 $\pm$ 136990 \ & 1885535 $\pm$ 1373 \\
-Cleaning and HLT & 952 $\pm$ 6 \ & 2925 $\pm$ 15 \ & 33828 $\pm$ 57 \ & 43049 $\pm$ 45 \ & 7927 $\pm$ 339 \ & 479975 $\pm$ 1117 \ & 321 $\pm$ 30 \ & 34586 $\pm$ 142 \ & 4920 $\pm$ 15 \ & 6677 $\pm$ 162 \ & 1389098 $\pm$ 19616\ & 2004257 $\pm$ 19652 \ & 1473970 $\pm$ 1214 \\
-Di-lepton Sel & 274 $\pm$ 3 \ & 0 $\pm$ 0 \ & 139 $\pm$ 4 \ & 20006 $\pm$ 30 \ & 32 $\pm$ 20 \ & 324348 $\pm$ 901 \ & 2 $\pm$ 2 \ & 21270 $\pm$ 110 \ & 3579 $\pm$ 13 \ & 992 $\pm$ 22 \ & 1976 $\pm$ 556\ & 372618 $\pm$ 1065 \ & 359665 $\pm$ 600 \\
-m(Z) veto & 245 $\pm$ 3 \ & 0 $\pm$ 0 \ & 117 $\pm$ 3 \ & 17856 $\pm$ 29 \ & 32 $\pm$ 20 \ & 63584 $\pm$ 430 \ & 2 $\pm$ 2 \ & 11378 $\pm$ 81 \ & 866 $\pm$ 8 \ & 886 $\pm$ 21 \ & 1601 $\pm$ 509\ & 96567 $\pm$ 672 \ & 89425 $\pm$ 299 \\
-$\geq$ 1 jet & 225 $\pm$ 3 \ & 0 $\pm$ 0 \ & 97 $\pm$ 3 \ & 17305 $\pm$ 28 \ & 32 $\pm$ 20 \ & 47361 $\pm$ 381 \ & 2 $\pm$ 2 \ & 8374 $\pm$ 70 \ & 755 $\pm$ 7 \ & 838 $\pm$ 20 \ & 368 $\pm$ 261\ & 75357 $\pm$ 469 \ & 69447 $\pm$ 264 \\
-$\geq$ 2 jets & 197 $\pm$ 3 \ & 0 $\pm$ 0 \ & 60 $\pm$ 2 \ & 16382 $\pm$ 27 \ & 32 $\pm$ 20 \ & 36544 $\pm$ 334 \ & 0 $\pm$ 0 \ & 6138 $\pm$ 60 \ & 636 $\pm$ 6 \ & 733 $\pm$ 19 \ & 368 $\pm$ 261\ & 61089 $\pm$ 430 \ & 56136 $\pm$ 237 \\
-$\slash{E_{T}}$ cut & 183 $\pm$ 3 \ & 0 $\pm$ 0 \ & 55 $\pm$ 2 \ & 15343 $\pm$ 26 \ & 32 $\pm$ 20 \ & 16589 $\pm$ 224 \ & 0 $\pm$ 0 \ & 2553 $\pm$ 38 \ & 399 $\pm$ 5 \ & 689 $\pm$ 18 \ & 0 $\pm$ 0\ & 35843 $\pm$ 231 \ & 33323 $\pm$ 183 \\
-$\geq$ 1 CSV b-tag & 167 $\pm$ 3 \ & 0 $\pm$ 0 \ & 44 $\pm$ 2 \ & 14090 $\pm$ 25 \ & 32 $\pm$ 20 \ & 6342 $\pm$ 145 \ & 0 $\pm$ 0 \ & 829 $\pm$ 23 \ & 169 $\pm$ 4 \ & 606 $\pm$ 17 \ & 0 $\pm$ 0\ & 22280 $\pm$ 151 \ & 20680 $\pm$ 144 \\\
-$\geq$ 1 Photon Presel & 162 $\pm$ 2 \ & 0 $\pm$ 0 \ & 35 $\pm$ 2 \ & 10336 $\pm$ 21 \ & 23 $\pm$ 17 \ & 4749 $\pm$ 131 \ & 0 $\pm$ 0 \ & 774 $\pm$ 23 \ & 123 $\pm$ 3 \ & 419 $\pm$ 14 \ & 0 $\pm$ 0\ & 16620 $\pm$ 137 \ & 14912 $\pm$ 122 \\
-$\geq$ 1 Good Photon Postsel & 17 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 11 $\pm$ 1 \ & 0 $\pm$ 0 \ & 9 $\pm$ 5 \ & 0 $\pm$ 0 \ & 27 $\pm$ 5 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0\ & 63 $\pm$ 7 \ & 36 $\pm$ 6 \\
-1 Good Photon Postsel & 16 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 11 $\pm$ 1 \ & 0 $\pm$ 0 \ & 10 $\pm$ 6 \ & 0 $\pm$ 0 \ & 30 $\pm$ 6 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0\ & 68 $\pm$ 9 \ & 36 $\pm$ 6 \\
+Skim & 3418 $\pm$ 12 \ & 16912 $\pm$ 37 \ & 132676 $\pm$ 113 \ & 137147 $\pm$ 81 \ & 205984 $\pm$ 1731 \ & 57938 $\pm$ 620 \ & 10326 $\pm$ 166 \ & 73574 $\pm$ 208 \ & 15422 $\pm$ 31 \ & 32198 $\pm$ 365 \ & 19808418 $\pm$ 149875\ & 20494012 $\pm$ 149887 \ & 2307516 $\pm$ 1519 \\
+Cleaning and HLT & 952 $\pm$ 6 \ & 2925 $\pm$ 15 \ & 33828 $\pm$ 57 \ & 43049 $\pm$ 45 \ & 9884 $\pm$ 378 \ & 24374 $\pm$ 402 \ & 321 $\pm$ 30 \ & 34586 $\pm$ 142 \ & 5471 $\pm$ 16 \ & 7752 $\pm$ 176 \ & 1598818 $\pm$ 20883\ & 1761958 $\pm$ 20892 \ & 1805235 $\pm$ 1344 \\
+Di-lepton Sel & 274 $\pm$ 3 \ & 0 $\pm$ 0 \ & 139 $\pm$ 4 \ & 20006 $\pm$ 30 \ & 47 $\pm$ 25 \ & 9547 $\pm$ 248 \ & 2 $\pm$ 2 \ & 21270 $\pm$ 110 \ & 3982 $\pm$ 13 \ & 1122 $\pm$ 24 \ & 2248 $\pm$ 589\ & 58636 $\pm$ 650 \ & 439646 $\pm$ 663 \\
+m(Z) veto & 245 $\pm$ 3 \ & 0 $\pm$ 0 \ & 117 $\pm$ 3 \ & 17856 $\pm$ 29 \ & 47 $\pm$ 25 \ & 9547 $\pm$ 248 \ & 2 $\pm$ 2 \ & 11378 $\pm$ 81 \ & 957 $\pm$ 8 \ & 1005 $\pm$ 22 \ & 1872 $\pm$ 544\ & 43026 $\pm$ 605 \ & 109108 $\pm$ 330 \\
+$\geq$ 1 jet & 225 $\pm$ 3 \ & 0 $\pm$ 0 \ & 97 $\pm$ 3 \ & 17305 $\pm$ 28 \ & 32 $\pm$ 20 \ & 8580 $\pm$ 235 \ & 2 $\pm$ 2 \ & 8374 $\pm$ 70 \ & 835 $\pm$ 7 \ & 947 $\pm$ 22 \ & 368 $\pm$ 261\ & 36765 $\pm$ 361 \ & 84797 $\pm$ 291 \\
+$\geq$ 2 jets & 197 $\pm$ 3 \ & 0 $\pm$ 0 \ & 60 $\pm$ 2 \ & 16382 $\pm$ 27 \ & 32 $\pm$ 20 \ & 6296 $\pm$ 202 \ & 0 $\pm$ 0 \ & 6138 $\pm$ 60 \ & 704 $\pm$ 7 \ & 831 $\pm$ 20 \ & 368 $\pm$ 261\ & 31008 $\pm$ 338 \ & 68655 $\pm$ 262 \\
+$\slash{E_{T}}$ cut & 183 $\pm$ 3 \ & 0 $\pm$ 0 \ & 55 $\pm$ 2 \ & 15343 $\pm$ 26 \ & 32 $\pm$ 20 \ & 2971 $\pm$ 138 \ & 0 $\pm$ 0 \ & 2553 $\pm$ 38 \ & 440 $\pm$ 6 \ & 781 $\pm$ 20 \ & 0 $\pm$ 0\ & 22359 $\pm$ 148 \ & 40671 $\pm$ 202 \\
+$\geq$ 1 CSV b-tag & 167 $\pm$ 3 \ & 0 $\pm$ 0 \ & 44 $\pm$ 2 \ & 14090 $\pm$ 25 \ & 32 $\pm$ 20 \ & 1215 $\pm$ 92 \ & 0 $\pm$ 0 \ & 829 $\pm$ 23 \ & 187 $\pm$ 4 \ & 683 $\pm$ 18 \ & 0 $\pm$ 0\ & 17247 $\pm$ 101 \ & 25343 $\pm$ 159 \\
+$\geq$ 1 Photon Presel & 162 $\pm$ 2 \ & 0 $\pm$ 0 \ & 35 $\pm$ 2 \ & 10336 $\pm$ 21 \ & 23 $\pm$ 17 \ & 891 $\pm$ 83 \ & 0 $\pm$ 0 \ & 774 $\pm$ 23 \ & 136 $\pm$ 3 \ & 472 $\pm$ 15 \ & 0 $\pm$ 0\ & 12828 $\pm$ 91 \ & 18272 $\pm$ 135 \\
+$\geq$ 1 Good Photon Postsel & 17 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 11 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 27 $\pm$ 5 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0\ & 55 $\pm$ 5 \ & 41 $\pm$ 6 \\
+1 Good Photon Postsel & 16 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 11 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 30 $\pm$ 6 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0\ & 58 $\pm$ 6 \ & 41 $\pm$ 6 \\
 \hline
 \end{tabular}
 }
@@ -489,19 +489,17 @@ $\geq$ 1 Good Photon Postsel & 17 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 11 $\p
 \hline
  & $t\bar{t}+\gamma$ & $t\bar{t} 0l$ & $t\bar{t} 1l$ & $t\bar{t} 2l$ & w+jets & z+jets & $W+\gamma$ & $Z+\gamma$ & diboson & single-t & qcd & all MC & data\\
  \hline
-Skim & 3401 $\pm$ 12 \ & 16912 $\pm$ 37 \ & 132668 $\pm$ 113 \ & 136401 $\pm$ 80 \ & 166688 $\pm$ 1559 \ & 995825 $\pm$ 1613 \ & 10318 $\pm$ 166 \ & 72151 $\pm$ 204 \ & 13714 $\pm$ 30 \ & 27765 $\pm$ 339 \ & 16621534 $\pm$ 136970\ & 18197376 $\pm$ 136989 \ & 874451 $\pm$ 935 \\
-Cleaning and HLT & 500 $\pm$ 4 \ & 133 $\pm$ 3 \ & 4022 $\pm$ 20 \ & 23478 $\pm$ 32 \ & 8332 $\pm$ 350 \ & 336588 $\pm$ 910 \ & 994 $\pm$ 51 \ & 24409 $\pm$ 116 \ & 3811 $\pm$ 13 \ & 1729 $\pm$ 63 \ & 181955 $\pm$ 18817\ & 585950 $\pm$ 18842 \ & 628336 $\pm$ 793 \\
-Di-lepton Sel & 257 $\pm$ 3 \ & 0 $\pm$ 0 \ & 102 $\pm$ 3 \ & 16702 $\pm$ 27 \ & 211 $\pm$ 49 \ & 233172 $\pm$ 734 \ & 56 $\pm$ 11 \ & 16968 $\pm$ 94 \ & 2789 $\pm$ 11 \ & 805 $\pm$ 20 \ & 137 $\pm$ 137\ & 271199 $\pm$ 755 \ & 295843 $\pm$ 544 \\
-m(Z) veto & 232 $\pm$ 3 \ & 0 $\pm$ 0 \ & 87 $\pm$ 3 \ & 14912 $\pm$ 25 \ & 174 $\pm$ 44 \ & 50987 $\pm$ 366 \ & 54 $\pm$ 11 \ & 9457 $\pm$ 70 \ & 703 $\pm$ 6 \ & 729 $\pm$ 19 \ & 137 $\pm$ 137\ & 77473 $\pm$ 401 \ & 81793 $\pm$ 286 \\
-$\geq$ 1 jet & 206 $\pm$ 3 \ & 0 $\pm$ 0 \ & 80 $\pm$ 3 \ & 14241 $\pm$ 25 \ & 114 $\pm$ 35 \ & 39348 $\pm$ 328 \ & 45 $\pm$ 10 \ & 6702 $\pm$ 60 \ & 626 $\pm$ 6 \ & 699 $\pm$ 19 \ & 137 $\pm$ 137\ & 62198 $\pm$ 364 \ & 64598 $\pm$ 254 \\
-$\geq$ 2 jets & 176 $\pm$ 3 \ & 0 $\pm$ 0 \ & 68 $\pm$ 2 \ & 13504 $\pm$ 24 \ & 72 $\pm$ 29 \ & 30625 $\pm$ 290 \ & 29 $\pm$ 8 \ & 4698 $\pm$ 50 \ & 542 $\pm$ 6 \ & 629 $\pm$ 17 \ & 137 $\pm$ 137\ & 50480 $\pm$ 327 \ & 52275 $\pm$ 229 \\
-$\slash{E_{T}}$ cut & 164 $\pm$ 2 \ & 0 $\pm$ 0 \ & 61 $\pm$ 2 \ & 12663 $\pm$ 23 \ & 56 $\pm$ 26 \ & 13958 $\pm$ 194 \ & 26 $\pm$ 8 \ & 1953 $\pm$ 32 \ & 336 $\pm$ 5 \ & 584 $\pm$ 17 \ & 137 $\pm$ 137\ & 29938 $\pm$ 242 \ & 30842 $\pm$ 176 \\
-$\geq$ 1 CSV b-tag & 151 $\pm$ 2 \ & 0 $\pm$ 0 \ & 52 $\pm$ 2 \ & 11627 $\pm$ 22 \ & 15 $\pm$ 15 \ & 5301 $\pm$ 126 \ & 10 $\pm$ 5 \ & 666 $\pm$ 20 \ & 143 $\pm$ 3 \ & 499 $\pm$ 15 \ & 134 $\pm$ 134\ & 18598 $\pm$ 188 \ & 18880 $\pm$ 137 \\
-$\geq$ 1 Photon Presel & 148 $\pm$ 2 \ & 0 $\pm$ 0 \ & 51 $\pm$ 2 \ & 11373 $\pm$ 22 \ & 18 $\pm$ 18 \ & 5773 $\pm$ 139 \ & 11 $\pm$ 6 \ & 731 $\pm$ 22 \ & 152 $\pm$ 3 \ & 486 $\pm$ 15 \ & 131 $\pm$ 131\ & 18873 $\pm$ 195 \ & 18880 $\pm$ 137 \\
-$\geq$ 1 Good Photon Postsel & 14 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 8 $\pm$ 1 \ & 0 $\pm$ 0 \ & 8 $\pm$ 4 \ & 0 $\pm$ 0 \ & 19 $\pm$ 4 \ & 0 $\pm$ 0 \ & 1 $\pm$ 1 \ & 0 $\pm$ 0\ & 51 $\pm$ 6 \ & 26 $\pm$ 5 \\
-1 Good Photon Postsel & 14 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 8 $\pm$ 1 \ & 0 $\pm$ 0 \ & 8 $\pm$ 4 \ & 0 $\pm$ 0 \ & 22 $\pm$ 5 \ & 1 $\pm$ 0 \ & 1 $\pm$ 0 \ & 0 $\pm$ 0\ & 53 $\pm$ 6 \ & 26 $\pm$ 5 \\
-
-
+Skim & 3401 $\pm$ 12 \ & 16912 $\pm$ 37 \ & 132668 $\pm$ 113 \ & 136401 $\pm$ 80 \ & 205950 $\pm$ 1731 \ & 57289 $\pm$ 614 \ & 10318 $\pm$ 166 \ & 72151 $\pm$ 204 \ & 15205 $\pm$ 31 \ & 32145 $\pm$ 365 \ & 19808477 $\pm$ 149875\ & 20490917 $\pm$ 149887 \ & 1096890 $\pm$ 1047 \\
+Cleaning and HLT & 500 $\pm$ 4 \ & 133 $\pm$ 3 \ & 4022 $\pm$ 20 \ & 23478 $\pm$ 32 \ & 10232 $\pm$ 385 \ & 16800 $\pm$ 326 \ & 994 $\pm$ 51 \ & 24409 $\pm$ 116 \ & 4241 $\pm$ 14 \ & 1977 $\pm$ 66 \ & 201743 $\pm$ 19546\ & 288528 $\pm$ 19553 \ & 788536 $\pm$ 888 \\
+Di-lepton Sel & 257 $\pm$ 3 \ & 0 $\pm$ 0 \ & 102 $\pm$ 3 \ & 16702 $\pm$ 27 \ & 299 $\pm$ 59 \ & 7354 $\pm$ 208 \ & 56 $\pm$ 11 \ & 16968 $\pm$ 94 \ & 3106 $\pm$ 11 \ & 921 $\pm$ 22 \ & 257 $\pm$ 182\ & 46021 $\pm$ 301 \ & 370791 $\pm$ 609 \\
+m(Z) veto & 232 $\pm$ 3 \ & 0 $\pm$ 0 \ & 87 $\pm$ 3 \ & 14912 $\pm$ 25 \ & 248 $\pm$ 54 \ & 7354 $\pm$ 208 \ & 54 $\pm$ 11 \ & 9457 $\pm$ 70 \ & 779 $\pm$ 7 \ & 828 $\pm$ 21 \ & 257 $\pm$ 182\ & 34208 $\pm$ 292 \ & 102437 $\pm$ 320 \\
+$\geq$ 1 jet & 206 $\pm$ 3 \ & 0 $\pm$ 0 \ & 80 $\pm$ 3 \ & 14241 $\pm$ 25 \ & 166 $\pm$ 44 \ & 6524 $\pm$ 196 \ & 45 $\pm$ 10 \ & 6702 $\pm$ 60 \ & 692 $\pm$ 6 \ & 794 $\pm$ 20 \ & 257 $\pm$ 182\ & 29708 $\pm$ 280 \ & 80742 $\pm$ 284 \\
+$\geq$ 2 jets & 176 $\pm$ 3 \ & 0 $\pm$ 0 \ & 68 $\pm$ 2 \ & 13504 $\pm$ 24 \ & 97 $\pm$ 34 \ & 4728 $\pm$ 169 \ & 29 $\pm$ 8 \ & 4698 $\pm$ 50 \ & 599 $\pm$ 6 \ & 715 $\pm$ 18 \ & 137 $\pm$ 137\ & 24752 $\pm$ 228 \ & 65355 $\pm$ 256 \\
+$\slash{E_{T}}$ cut & 164 $\pm$ 2 \ & 0 $\pm$ 0 \ & 61 $\pm$ 2 \ & 12663 $\pm$ 23 \ & 81 $\pm$ 31 \ & 2097 $\pm$ 111 \ & 26 $\pm$ 8 \ & 1953 $\pm$ 32 \ & 371 $\pm$ 5 \ & 665 $\pm$ 18 \ & 137 $\pm$ 137\ & 18218 $\pm$ 184 \ & 38596 $\pm$ 196 \\
+$\geq$ 1 CSV b-tag & 151 $\pm$ 2 \ & 0 $\pm$ 0 \ & 52 $\pm$ 2 \ & 11627 $\pm$ 22 \ & 29 $\pm$ 21 \ & 861 $\pm$ 75 \ & 10 $\pm$ 5 \ & 666 $\pm$ 20 \ & 155 $\pm$ 3 \ & 571 $\pm$ 16 \ & 134 $\pm$ 134\ & 14256 $\pm$ 158 \ & 23610 $\pm$ 154 \\
+$\geq$ 1 Photon Presel & 148 $\pm$ 2 \ & 0 $\pm$ 0 \ & 51 $\pm$ 2 \ & 11373 $\pm$ 22 \ & 34 $\pm$ 24 \ & 942 $\pm$ 83 \ & 11 $\pm$ 6 \ & 731 $\pm$ 22 \ & 166 $\pm$ 4 \ & 556 $\pm$ 16 \ & 131 $\pm$ 131\ & 14142 $\pm$ 161 \ & 23610 $\pm$ 154 \\
+$\geq$ 1 Good Photon Postsel & 14 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 8 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 19 $\pm$ 4 \ & 0 $\pm$ 0 \ & 1 $\pm$ 1 \ & 0 $\pm$ 0\ & 43 $\pm$ 4 \ & 34 $\pm$ 6 \\
+1 Good Photon Postsel & 14 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 8 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 22 $\pm$ 5 \ & 1 $\pm$ 0 \ & 1 $\pm$ 0 \ & 0 $\pm$ 0\ & 45 $\pm$ 5 \ & 34 $\pm$ 6 \\
 \hline
 \end{tabular}
 }
@@ -521,15 +519,15 @@ $\geq$ 1 Good Photon Postsel & 14 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 8 $\pm
 \hline
  & $t\bar{t}+\gamma$ & $t\bar{t} 0l$ & $t\bar{t} 1l$ & $t\bar{t} 2l$ & w+jets & z+jets & $W+\gamma$ & $Z+\gamma$ & diboson & single-t & qcd & all MC & data \\
 \hline 
-Skim & 3381 $\pm$ 12 \ & 16912 $\pm$ 37 \ & 132656 $\pm$ 113 \ & 134872 $\pm$ 80 \ & 166686 $\pm$ 1559 \ & 1025297 $\pm$ 1657 \ & 10318 $\pm$ 166 \ & 74347 $\pm$ 210 \ & 13976 $\pm$ 30 \ & 27689 $\pm$ 339 \ & 16621450 $\pm$ 136970 \ & 18227586 $\pm$ 136990\ & 1627603 $\pm$ 1276 \\
-Cleaning and HLT & 1318 $\pm$ 7 \ & 1078 $\pm$ 9 \ & 32289 $\pm$ 56 \ & 59290 $\pm$ 52 \ & 17195 $\pm$ 501 \ & 21633 $\pm$ 243 \ & 1422 $\pm$ 62 \ & 2542 $\pm$ 39 \ & 1664 $\pm$ 12 \ & 7225 $\pm$ 155 \ & 1107226 $\pm$ 31346 \ & 1252882 $\pm$ 31352\ & 670525 $\pm$ 819 \\
-Di-lepton Sel & 526 $\pm$ 4 \ & 0 $\pm$ 0 \ & 244 $\pm$ 5 \ & 36230 $\pm$ 40 \ & 265 $\pm$ 57 \ & 2150 $\pm$ 71 \ & 70 $\pm$ 13 \ & 148 $\pm$ 9 \ & 701 $\pm$ 8 \ & 1774 $\pm$ 31 \ & 908 $\pm$ 338 \ & 43014 $\pm$ 354\ & 38687 $\pm$ 197 \\
-$\geq$ 1 jet & 477 $\pm$ 4 \ & 0 $\pm$ 0 \ & 211 $\pm$ 4 \ & 34848 $\pm$ 39 \ & 181 $\pm$ 47 \ & 1749 $\pm$ 64 \ & 58 $\pm$ 12 \ & 124 $\pm$ 8 \ & 588 $\pm$ 8 \ & 1685 $\pm$ 31 \ & 145 $\pm$ 131 \ & 40066 $\pm$ 162\ & 36082 $\pm$ 190 \\
-$\geq$ 2 jets & 414 $\pm$ 4 \ & 0 $\pm$ 0 \ & 160 $\pm$ 4 \ & 33015 $\pm$ 38 \ & 109 $\pm$ 35 \ & 1296 $\pm$ 56 \ & 40 $\pm$ 11 \ & 96 $\pm$ 7 \ & 472 $\pm$ 7 \ & 1484 $\pm$ 27 \ & 0 $\pm$ 0 \ & 37086 $\pm$ 82\ & 32964 $\pm$ 182 \\
-$\geq$ 1 CSV b-tag & 379 $\pm$ 4 \ & 0 $\pm$ 0 \ & 132 $\pm$ 3 \ & 30336 $\pm$ 36 \ & 52 $\pm$ 25 \ & 461 $\pm$ 34 \ & 20 $\pm$ 8 \ & 35 $\pm$ 5 \ & 183 $\pm$ 4 \ & 1282 $\pm$ 24 \ & 0 $\pm$ 0 \ & 32881 $\pm$ 62\ & 29570 $\pm$ 172 \\
-$\geq$ 1 Photon Presel & 371 $\pm$ 4 \ & 0 $\pm$ 0 \ & 129 $\pm$ 3 \ & 29671 $\pm$ 35 \ & 56 $\pm$ 27 \ & 502 $\pm$ 37 \ & 22 $\pm$ 9 \ & 39 $\pm$ 5 \ & 200 $\pm$ 5 \ & 1249 $\pm$ 24 \ & 0 $\pm$ 0 \ & 32240 $\pm$ 64\ & 29570 $\pm$ 172 \\
-$\geq$ 1 Good Photon Postsel & 38 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 21 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 1 $\pm$ 1 \ & 0 $\pm$ 0 \ & 60 $\pm$ 2\ & 28 $\pm$ 5 \\
-1 Good Photon Postsel & 37 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 21 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 1 $\pm$ 1 \ & 0 $\pm$ 0 \ & 59 $\pm$ 2\ & 28 $\pm$ 5 \\
+Skim & 3381 $\pm$ 12 \ & 16912 $\pm$ 37 \ & 132656 $\pm$ 113 \ & 134872 $\pm$ 80 \ & 205955 $\pm$ 1731 \ & 58287 $\pm$ 624 \ & 10318 $\pm$ 166 \ & 74347 $\pm$ 210 \ & 15497 $\pm$ 31 \ & 32059 $\pm$ 364 \ & 19808376 $\pm$ 149875 \ & 20492662 $\pm$ 149887\ & 2047577 $\pm$ 1431 \\
+Cleaning and HLT & 1318 $\pm$ 7 \ & 1078 $\pm$ 9 \ & 32289 $\pm$ 56 \ & 59290 $\pm$ 52 \ & 21477 $\pm$ 559 \ & 1391 $\pm$ 98 \ & 1422 $\pm$ 62 \ & 2542 $\pm$ 39 \ & 1836 $\pm$ 13 \ & 8306 $\pm$ 166 \ & 1311422 $\pm$ 34004 \ & 1442371 $\pm$ 34009\ & 842966 $\pm$ 918 \\
+Di-lepton Sel & 526 $\pm$ 4 \ & 0 $\pm$ 0 \ & 244 $\pm$ 5 \ & 36230 $\pm$ 40 \ & 313 $\pm$ 62 \ & 37 $\pm$ 16 \ & 70 $\pm$ 13 \ & 148 $\pm$ 9 \ & 773 $\pm$ 9 \ & 2010 $\pm$ 35 \ & 1170 $\pm$ 384 \ & 41520 $\pm$ 393\ & 48695 $\pm$ 221 \\
+$\geq$ 1 jet & 477 $\pm$ 4 \ & 0 $\pm$ 0 \ & 211 $\pm$ 4 \ & 34848 $\pm$ 39 \ & 230 $\pm$ 53 \ & 31 $\pm$ 15 \ & 58 $\pm$ 12 \ & 124 $\pm$ 8 \ & 646 $\pm$ 8 \ & 1908 $\pm$ 34 \ & 145 $\pm$ 131 \ & 38678 $\pm$ 152\ & 45447 $\pm$ 213 \\
+$\geq$ 2 jets & 414 $\pm$ 4 \ & 0 $\pm$ 0 \ & 160 $\pm$ 4 \ & 33015 $\pm$ 38 \ & 157 $\pm$ 43 \ & 28 $\pm$ 14 \ & 40 $\pm$ 11 \ & 96 $\pm$ 7 \ & 518 $\pm$ 7 \ & 1676 $\pm$ 28 \ & 0 $\pm$ 0 \ & 36104 $\pm$ 67\ & 41521 $\pm$ 204 \\
+$\geq$ 1 CSV b-tag & 379 $\pm$ 4 \ & 0 $\pm$ 0 \ & 132 $\pm$ 3 \ & 30336 $\pm$ 36 \ & 90 $\pm$ 34 \ & 5 $\pm$ 5 \ & 20 $\pm$ 8 \ & 35 $\pm$ 5 \ & 200 $\pm$ 5 \ & 1450 $\pm$ 26 \ & 0 $\pm$ 0 \ & 32647 $\pm$ 57\ & 37257 $\pm$ 193 \\
+$\geq$ 1 Photon Presel & 371 $\pm$ 4 \ & 0 $\pm$ 0 \ & 129 $\pm$ 3 \ & 29671 $\pm$ 35 \ & 98 $\pm$ 37 \ & 6 $\pm$ 6 \ & 22 $\pm$ 9 \ & 39 $\pm$ 5 \ & 219 $\pm$ 5 \ & 1412 $\pm$ 25 \ & 0 $\pm$ 0 \ & 31967 $\pm$ 59\ & 37257 $\pm$ 193 \\
+$\geq$ 1 Good Photon Postsel & 38 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 21 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 1 $\pm$ 1 \ & 0 $\pm$ 0 \ & 60 $\pm$ 2\ & 39 $\pm$ 6 \\
+1 Good Photon Postsel & 37 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 21 $\pm$ 1 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 0 $\pm$ 0 \ & 1 $\pm$ 1 \ & 0 $\pm$ 0 \ & 59 $\pm$ 2\ & 38 $\pm$ 6 \\
 \hline
 \end{tabular}
 }

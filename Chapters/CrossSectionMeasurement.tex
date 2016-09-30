@@ -178,7 +178,7 @@ We wish to cross-check our fitting method and we do so by applying it to the col
 \label{fig-pseudofit}
 \end{figure}
 
-In an attempt to verify that the fit works well across a range of potential photon purity values, and thus not having a bias towards predicted values, we perform the fit while varying the photon purity value. Due to the $t\bar{t}+\gamma$ simulated sample comprising predominantly prompt photon events, by scaling the $t\bar{t}+\gamma$ contribution we vary the photon purity value. 
+In an attempt to verify that the fit works well across a range of potential photon purity values, and thus not having a bias towards predicted values, we perform the fit while varying the photon purity value. Due to the $t\bar{t}+\gamma$ simulated sample comprising predominantly prompt photon events, by scaling the $t\bar{t}+\gamma$ contribution we vary the photon purity value. We can see the template fit to the charged hadron isolation for the full data set in Figure \ref{fig-fitTemplates} for each decay channel, respectively.
 
 % Figure \ref{fig-photonPurityComparison} shows a comparison of the photon purity value and the corresponding value measured by the fit to the charged hadron isolation. 
 
@@ -191,7 +191,7 @@ In an attempt to verify that the fit works well across a range of potential phot
 % \label{fig-photonPurityComparison}
 % \end{figure}
 
-We can see the template fit to the charged hadron isolation for the full data set in Figure \ref{fig-fitTemplates} for each decay channel. After the fit is conducted, we find photon purity values of $0.634 \pm 0.054$, $0.634 \pm 0.054$, and $0.634 \pm 0.054$ (including statistical uncertainties only for pseudo-data) compared to photon purity values of $0.656 \pm 0.054$, $0.634 \pm 0.054$, and $0.634 \pm 0.054$ from generator level information, in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels, respectively. 
+% We can see the template fit to the charged hadron isolation for the full data set in Figure \ref{fig-fitTemplates} for each decay channel. After the fit is conducted, we find photon purity values of $0.68 \pm 0.054$, $0.62 \pm 0.031$, and $0.57 \pm 0.034$ (including statistical uncertainties only for pseudo-data) compared to photon purity values of $0.656 \pm 0.054$, $0.634 \pm 0.054$, and $0.634 \pm 0.054$ from generator level information, in the $\mu^{+}\mu^{-}$, $e^{+}e^{-}$, and $e\mu$ channels, respectively. 
 
 % Statistical uncertainty given by RooFit does not include variation of the templates but only
 % uncertainty of data. However since templates are data-driven and suffer from low statistics
@@ -335,7 +335,7 @@ As we wish to find the combination of parameters with the best likelihood, we pe
 	& \multicolumn{2}{c|}{$\mu^{+}\mu^{-}$} & \multicolumn{2}{c|}{$e^{+}e^{-}$} & \multicolumn{2}{c}{$e\mu$} \\
 	& Data & MC & Data & MC & Data & MC \\
 \hline
-	Photon purity & 0.95 \pm 0.04 & 0.66 \pm 0.10 & 0.97 \pm 0.03 & 0.56 \pm 0.21 &  0.97 \pm 0.03 & 0.51 \pm 0.06 \\
+	Photon purity & 0.68 \pm 0.054 & 0.66 \pm 0.10 & 0.62 \pm 0.031 & 0.56 \pm 0.21 & 0.57 \pm 0.034 & 0.51 \pm 0.06 \\
 	Top purity & 0.72 \pm 0.08 & 0.68 \pm 0.05 & 0.73 \pm 0.02 & 0.73 \pm 0.09 & 0.66 \pm 0.03 & 0.77 \pm 0.10 \\
 	$N_{events}$ data & 41.0 \pm 6.4 & 23.6 \pm 4.3 & 34.0 \pm 5.8 & 19.7 \pm 3.2 & 38.0 \pm 6.2 & 28.5 \pm 1.1 \\
 \hline	
@@ -372,7 +372,7 @@ As we wish to find the combination of parameters with the best likelihood, we pe
 
 
 
-The values of the parameters giving the best agreement, with errors from the width of the likelihood, are shown in Table \ref{tab-SFValues}.  Therefore, we see an excellent agreement between the photon purity, fraction of top events, and number of events in simulation and in data. Tables \ref{tab-SigPhotonsMuMuScaled}, \ref{tab-SigPhotonsEEScaled}, \ref{tab-SigPhotonsEMuScaled} show the number of events from simulation scaled to the results of the likelihood fit. 
+The values of the parameters giving the best agreement, with errors from the width of the likelihood, are shown in Table \ref{tab-SFValues}.  Therefore, we see an excellent agreement between the photon purity, fraction of top events, and number of events in simulation and in data. %Tables \ref{tab-SigPhotonsMuMuScaled}, \ref{tab-SigPhotonsEEScaled}, \ref{tab-SigPhotonsEMuScaled} show the number of events from simulation scaled to the results of the likelihood fit. 
 
 \begin{table}
 \begin{center}
@@ -392,83 +392,83 @@ $SF_{jet \to \gamma}$ & 1.17 \pm 0.19 & 1.22 \pm 0.20 & 1.15 \pm 0.22 \\
 \label{tab-SFValues}
 \end{table} 
 
-\begin{table}
-\begin{center}
-\resizebox{\columnwidth}{!} {
-\begin{tabular}{l|ccc|c}
-\hline
-	\textbf{Sample} & \textbf{Genuine Photon} & \textbf{MisID Electron} & \textbf{Hadronic} & \textbf{Total} \\
-\hline
-$t\bar{t}+\gamma$  & 11.5597 $\pm$ 0.677995 & 0 $\pm$ 0 & 6.41284 $\pm$ 0.508448 & 17.9725 $\pm$ 0.847465 \\
-$t\bar{t}+jets$  & 1.84297 $\pm$ 0.299532 & 0 $\pm$ 0 & 4.03535 $\pm$ 0.454349 & 5.87832 $\pm$ 0.544199 \\
-$W+\gamma$  & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 \\
-$W+jets$  & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 \\
-$Z+\gamma$  & 4.97919 $\pm$ 1.8975 & 0 $\pm$ 0 & 0.644821 $\pm$ 0.644821 & 5.62401 $\pm$ 2.00407 \\
-$Z+jets$  & 3.97058 $\pm$ 3.06254 & 0 $\pm$ 0 & 0 $\pm$ 0 & 3.97058 $\pm$ 3.06254 \\
-Single Top  & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 \\
-Diboson  & 0.296448 $\pm$ 0.112047 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0.296448 $\pm$ 0.112047 \\
-\hline
-Total  & 22.9453 $\pm$ 3.6816 & 0 $\pm$ 0 & 11.093 $\pm$ 0.938482 & 34.0383 $\pm$ 3.79933 \\
-Data  & --- & --- & --- & 36 $\pm$ 6 \\
-\hline	
-\end{tabular}
-}
-\end{center}
-\caption{Simulated samples categorised by origin of reconstructed origin after nominal selection in the $\mu^+\mu^-$ channel. Events are rescaled according to the $SF_{t\bar{t}+\gamma}$, $SF_{jet\to\gamma}$, and $SF_{V+\gamma}$ scale factors obtained in the likelihod fit.}
-\label{tab-SigPhotonsMuMuScaled}
-\end{table}	
+% \begin{table}
+% \begin{center}
+% \resizebox{\columnwidth}{!} {
+% \begin{tabular}{l|ccc|c}
+% \hline
+% 	\textbf{Sample} & \textbf{Genuine Photon} & \textbf{MisID Electron} & \textbf{Hadronic} & \textbf{Total} \\
+% \hline
+% $t\bar{t}+\gamma$  & 9.9624 $\pm$ 0.630903 & 0 $\pm$ 0 & 12.0743 $\pm$ 0.696836 & 22.0367 $\pm$ 0.94001 \\
+% $t\bar{t}+jets$  & 2.16946 $\pm$ 0.332497 & 0 $\pm$ 0 & 5.48431 $\pm$ 0.532446 & 7.65377 $\pm$ 0.627737 \\
+% $W+\gamma$  & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 \\
+% $W+jets$  & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 \\
+% $Z+\gamma$  & 4.97919 $\pm$ 1.8975 & 0 $\pm$ 0 & 1.30366 $\pm$ 0.921878 & 6.28284 $\pm$ 2.10959 \\
+% $Z+jets$  & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 \\
+% Single Top  & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 \\
+% Diboson  & 0.44026 $\pm$ 0.169116 & 0 $\pm$ 0 & 0.018498 $\pm$ 0.018498 & 0.458758 $\pm$ 0.170125 \\
+% \hline
+% Total  & 17.9916 $\pm$ 2.04115 & 0 $\pm$ 0 & 18.8993 $\pm$ 1.27264 & 36.8909 $\pm$ 2.40539 \\
+% Data  & --- & --- & --- & 41 $\pm$ 6.40312 \\
+% \hline	
+% \end{tabular}
+% }
+% \end{center}
+% \caption{Simulated samples categorised by origin of reconstructed origin after nominal selection in the $\mu^+\mu^-$ channel. Events are rescaled according to the $SF_{t\bar{t}+\gamma}$, $SF_{jet\to\gamma}$, and $SF_{V+\gamma}$ scale factors obtained in the likelihod fit.}
+% \label{tab-SigPhotonsMuMuScaled}
+% \end{table}	
 
-\begin{table}
-\begin{center}
-\resizebox{\columnwidth}{!} {
-\begin{tabular}{l|ccc|c}
-\hline
-	\textbf{Sample} & \textbf{Genuine Photon} & \textbf{MisID Electron} & \textbf{Hadronic} & \textbf{Total} \\
-\hline
-$t\bar{t}+\gamma$  & 11.5597 $\pm$ 0.677995 & 0 $\pm$ 0 & 6.41284 $\pm$ 0.508448 & 17.9725 $\pm$ 0.847465 \\
-$t\bar{t}+jets$  & 1.84297 $\pm$ 0.299532 & 0 $\pm$ 0 & 4.03535 $\pm$ 0.454349 & 5.87832 $\pm$ 0.544199 \\
-$W+\gamma$  & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 \\
-$W+jets$  & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 \\
-$Z+\gamma$  & 4.97919 $\pm$ 1.8975 & 0 $\pm$ 0 & 0.644821 $\pm$ 0.644821 & 5.62401 $\pm$ 2.00407 \\
-$Z+jets$  & 3.97058 $\pm$ 3.06254 & 0 $\pm$ 0 & 0 $\pm$ 0 & 3.97058 $\pm$ 3.06254 \\
-Single Top  & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 \\
-Diboson  & 0.296448 $\pm$ 0.112047 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0.296448 $\pm$ 0.112047 \\
-\hline
-Total  & 18.2628 $\pm$ 1.90184 & 0.0578557 $\pm$ 0.0578557 & 13.4295 $\pm$ 2.97618 & 31.7501 $\pm$ 3.53242 \\
-Data  & --- & --- & --- & 26 $\pm$ 5.09902 \\
-\hline	
-\end{tabular}
-}
-\end{center}
-\caption{Simulated samples categorised by origin of reconstructed origin after nominal selection in the $e^+e^-$ channel. Events are rescaled according to the $SF_{t\bar{t}+\gamma}$, $SF_{jet\to\gamma}$, and $SF_{V+\gamma}$ scale factors obtained in the likelihod fit.}
-\label{tab-SigPhotonsEEScaled}
-\end{table}	
+% \begin{table}
+% \begin{center}
+% \resizebox{\columnwidth}{!} {
+% \begin{tabular}{l|ccc|c}
+% \hline
+% 	\textbf{Sample} & \textbf{Genuine Photon} & \textbf{MisID Electron} & \textbf{Hadronic} & \textbf{Total} \\
+% \hline
+% $t\bar{t}+\gamma$  & 9.9624 $\pm$ 0.630903 & 0 $\pm$ 0 & 12.0743 $\pm$ 0.696836 & 22.0367 $\pm$ 0.94001 \\
+% $t\bar{t}+jets$  & 2.16946 $\pm$ 0.332497 & 0 $\pm$ 0 & 5.48431 $\pm$ 0.532446 & 7.65377 $\pm$ 0.627737 \\
+% $W+\gamma$  & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 \\
+% $W+jets$  & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 \\
+% $Z+\gamma$  & 4.97919 $\pm$ 1.8975 & 0 $\pm$ 0 & 1.30366 $\pm$ 0.921878 & 6.28284 $\pm$ 2.10959 \\
+% $Z+jets$  & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 \\
+% Single Top  & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 \\
+% Diboson  & 0.44026 $\pm$ 0.169116 & 0 $\pm$ 0 & 0.018498 $\pm$ 0.018498 & 0.458758 $\pm$ 0.170125 \\
+% \hline
+% Total  & 16.9771 $\pm$ 1.97251 & 0.596799 $\pm$ 0.165581 & 15.7833 $\pm$ 1.52308 & 33.3572 $\pm$ 2.49759 \\
+% Data  & --- & --- & --- & 34 $\pm$ 5.83095 \\
+% \hline	
+% \end{tabular}
+% }
+% \end{center}
+% \caption{Simulated samples categorised by origin of reconstructed origin after nominal selection in the $e^+e^-$ channel. Events are rescaled according to the $SF_{t\bar{t}+\gamma}$, $SF_{jet\to\gamma}$, and $SF_{V+\gamma}$ scale factors obtained in the likelihod fit.}
+% \label{tab-SigPhotonsEEScaled}
+% \end{table}	
 
-\begin{table}
-\begin{center}
-\resizebox{\columnwidth}{!} {
-\begin{tabular}{l|ccc|c}
-\hline
-	\textbf{Sample} & \textbf{Genuine Photon} & \textbf{MisID Electron} & \textbf{Hadronic} & \textbf{Total} \\
-\hline
-$t\bar{t}+\gamma$  & 29.3472 $\pm$ 1.09904 & 0 $\pm$ 0 & 13.3482 $\pm$ 0.73033 & 42.6954 $\pm$ 1.31957 \\
-$t\bar{t}+jets$  & 3.23091 $\pm$ 0.403224 & 0.0641023 $\pm$ 0.0641023 & 8.4431 $\pm$ 0.633878 & 11.7381 $\pm$ 0.75399 \\
-$W+\gamma$  & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 \\
-$W+jets$  & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 \\
-$Z+\gamma$  & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 \\
-$Z+jets$  & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 \\
-Single Top  & 0.270833 $\pm$ 0.270833 & 0 $\pm$ 0 & 0.70516 $\pm$ 0.70516 & 0.975993 $\pm$ 0.755381 \\
-Diboson  & 0.176487 $\pm$ 0.176487 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0.176487 $\pm$ 0.176487 \\
-\hline
-Total  & 33.2019 $\pm$ 1.22724 & 0.0641023 $\pm$ 0.0641023 & 22.4965 $\pm$ 1.19684 & 55.7625 $\pm$ 1.71542 \\
-Data  & --- & --- & --- & 28 $\pm$ 5.2915 \\
-\hline	
-\end{tabular}
-}
-\end{center}
-\caption{Simulated samples categorised by origin of reconstructed origin after nominal selection in the $e\mu$ channel. Events are rescaled according to the $SF_{t\bar{t}+\gamma}$, $SF_{jet\to\gamma}$, and $SF_{V+\gamma}$ scale factors obtained in the likelihod fit.}
-\label{tab-SigPhotonsEMuScaled}
-\end{table}	
+% \begin{table}
+% \begin{center}
+% \resizebox{\columnwidth}{!} {
+% \begin{tabular}{l|ccc|c}
+% \hline
+% 	\textbf{Sample} & \textbf{Genuine Photon} & \textbf{MisID Electron} & \textbf{Hadronic} & \textbf{Total} \\
+% \hline
+% $t\bar{t}+\gamma$  & 26.0493 $\pm$ 1.03603 & 0 $\pm$ 0 & 23.9048 $\pm$ 0.976119 & 49.9542 $\pm$ 1.42344 \\
+% $t\bar{t}+jets$  & 3.65291 $\pm$ 0.424492 & 0 $\pm$ 0 & 11.8264 $\pm$ 0.744238 & 15.4794 $\pm$ 0.856787 \\
+% $W+\gamma$  & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 \\
+% $W+jets$  & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 \\
+% $Z+\gamma$  & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 \\
+% $Z+jets$  & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 & 0 $\pm$ 0 \\
+% Single Top  & 0.975993 $\pm$ 0.755381 & 0 $\pm$ 0 & 1.41032 $\pm$ 0.997247 & 2.38631 $\pm$ 1.25104 \\
+% Diboson  & 0.176487 $\pm$ 0.176487 & 0 $\pm$ 0 & 0.13512 $\pm$ 0.0934672 & 0.311607 $\pm$ 0.199709 \\
+% \hline
+% Total  & 31.0312 $\pm$ 1.37348 & 0 $\pm$ 0 & 37.4119 $\pm$ 1.58703 & 68.4431 $\pm$ 2.09884 \\
+% Data  & --- & --- & --- & 38 $\pm$ 6.16441 \\
+% \hline	
+% \end{tabular}
+% }
+% \end{center}
+% \caption{Simulated samples categorised by origin of reconstructed origin after nominal selection in the $e\mu$ channel. Events are rescaled according to the $SF_{t\bar{t}+\gamma}$, $SF_{jet\to\gamma}$, and $SF_{V+\gamma}$ scale factors obtained in the likelihod fit.}
+% \label{tab-SigPhotonsEMuScaled}
+% \end{table}	
 
 
 \section{Signal Acceptance Calculation} \label{subsec-SignalAcceptanceCalculation}
@@ -478,8 +478,7 @@ Data  & --- & --- & --- & 28 $\pm$ 5.2915 \\
 % the tt pair, and the portion coming from the kinematic phase space requirements.
 
 
-The acceptance calculation for this analysis differs from usual inclusive cross section measurements because we measure ratio of cross sections. We measure the both the efficiency and acceptance from simulation, where the acceptance is determined at generator level by requiring events to lie within the phase space chosen for the analysis. We define events to contain exactly two oppositely-signed leptons (excluding $\tau$ leptons) in the visible phase space. For muons, we require a transverse momentum greater than 20 GeV and to lie within a pseudorapidity region of $|\eta| < 2.4$, excluding the region of $1.4442 < \eta < 1.5660$ between the barrel and endcaps. Similarly, the visible phase space for electrons lies in the requirement of a transverse momentum greater than 20 GeV and $|\eta| < 2.4$. We require the MET to be greater than 20 GeV. Finally, we require the selection of generated photon with transverse energy greater than 25 GeV and lie in the pseudorapidity region $|\eta| < 1.4442$ (the barrel region). We define the acceptance to be the fraction of generated events that pass these generator level cuts. 
-
+The acceptance calculation for this analysis differs from usual inclusive cross-section measurements because we measure ratio of cross-sections. We measure the both the efficiency and acceptance from simulation, where the acceptance is determined at generator level by requiring events to lie within the kinematic phase space chosen for the analysis. We define events to contain exactly two oppositely-signed leptons (excluding $\tau$ leptons) in the visible phase space. For muons, a transverse momentum greater than 20 GeV and to lie within a pseudorapidity region of $|\eta| < 2.4$ is required, excluding the region of $1.4442 < \eta < 1.5660$ between the barrel and endcaps. Similarly, the visible phase space for electrons lies in the requirement of a transverse momentum greater than 20 GeV and $|\eta| < 2.4$. Events are required to contain at least 2 jets with a p$_T > 30$ GeV and lie within the pseudorapidity range $|\eta| < 2.4$. The MET is required to be greater than 20 GeV. Finally, a generated photon with transverse energy greater than 25 GeV and lying in the pseudorapidity region $|\eta| < 1.4442$ (the barrel region) is required. 
 
 The event selection is chosen to make use of this fact: two steps (top selection and photon selection) are done sequentially. For the inclusive $t\bar{t}$ process, we start with number of generated events (within some fiducial phase space) and count how many events are left after top event selection. The acceptance times efficiency is defined for the $t\bar{t}$ top selection as:
 
@@ -487,24 +486,21 @@ The event selection is chosen to make use of this fact: two steps (top selection
 	(\epsilon \cdot A)_{t\bar{t}}^{top} = \frac{N_{t\bar{t}.preselection}}{N_{t\bar{t}.generated}} 
 \end{equation}
 
-This gives the acceptance times efficiency of the inclusive $t\bar{t}$ process to be $(\epsilon \cdot A)_{t\bar{t}}^{top} =   \pm  (stat.)$ in the di-muon channel, $(\epsilon \cdot A)_{t\bar{t}}^{top} =  \pm  (stat.)$ in the di-electron channel, and $(\epsilon \cdot A)_{t\bar{t}}^{top} =  \pm  (stat.)$ in the mixed final state.
+% This gives the acceptance times efficiency of the inclusive $t\bar{t}$ process to be $(\epsilon \cdot A)_{t\bar{t}}^{top} =   \pm  (stat.)$ in the di-muon channel, $(\epsilon \cdot A)_{t\bar{t}}^{top} =  \pm  (stat.)$ in the di-electron channel, and $(\epsilon \cdot A)_{t\bar{t}}^{top} =  \pm  (stat.)$ in the mixed final state.
 
-We note that the branching fraction for the $t\bar{t}+\gamma$ signal is different to normal $t\bar{t}$ production, and is due to the way in which the signal is defined.  We apply tighter requirements to jets than leptons at generator level, resulting in the relative contribution from the semilaptonic and dileptonic final states being increased within the $t\bar{t}+\gamma$ MC sample, compared to the contribution from the all hadronic final state. We calculate the branching fraction of $t\bar{t}+\gamma$ production from simulation as the total number of events generated with exactly two oppositely-signed leptons (excluding $\tau$ leptons) divided by the total number of generated events, for each final state, respectively. 
+It is to be noted that the branching fraction for the $t\bar{t}+\gamma$ signal is different to normal $t\bar{t}$ production, and is due to the way in which the signal is defined. There are tighter requirements to jets than leptons at generator level, resulting in the relative contribution from the semilaptonic and dileptonic final states being increased within the $t\bar{t}+\gamma$ MC sample, compared to the contribution from the all hadronic final state. The branching fraction of $t\bar{t}+\gamma$ production from simulation is calculated as the total number of events generated with exactly two oppositely-signed leptons (excluding $\tau$ leptons) divided by the total number of generated events, for each final state, respectively. 
 
 \begin{equation}
 \mathcal{BR}_{t\bar{t}+\gamma} = \frac{N_{2. lep.}^{t\bar{t}+\gamma}}{N_{Tot. gen.}^{t\bar{t}+\gamma}}
 \end{equation} 
 
-We define the kinematic acceptance to be the number of events passing the phase space requirements, as described above, divided by the number of events generated in the dilepton final state.
+The kinematic acceptance is defined to be the number of events passing the phase space requirements, as described above, divided by the number of events generated in the dilepton final state.
 
 \begin{equation}
 A_{t\bar{t}+\gamma}^{kin.} = \frac{N_{t\bar{t}+\gamma}^{gen. fid.}}{N_{t\bar{t}+\gamma}^{gen 2l}}
 \end{equation} 
 
-%  The measured values for the acceptance and efficiency of the tt + γ selection
-% in the e + jets and μ + jets channels are given in Table 9.
-
-We define the efficiency as the fraction of reconstructed events passing the event selection, and which fall into the acceptance window at generator level. We calculate it as the fraction of events that pass the generator level acceptance cuts and also the full top and photon event selections. We can divide the efficiency into to parts: top selection efficiency, and photon selection efficiency. The top selection efficiency is calculated as the fraction of simulated events within the acceptance cuts and pass top quark selection, divided by the total number of generated events passing the acceptance cuts at generator level. We calculate the photon efficiency as the number of events that fall into the acceptance region and pass top and photon selection divided by the total number of generated events passing the acceptance cuts at generator level. The calculated values for the acceptance and efficiency of the $t\bar{t}+\gamma$ selection for each dilepton final state are shown in Table \ref{tab-efficiencyAndAcceptance}.
+The efficiency for selecting $t\bar{t}+\gamma$ events is defined as the fraction of reconstructed events passing the event selection, and which fall into the acceptance window at generator level. We calculate it as the fraction of events that pass the generator level acceptance cuts and also the full top and photon event selections. The efficiency can be divided into two parts: top selection efficiency, and photon selection efficiency. The top selection efficiency is calculated as the fraction of simulated events within the acceptance cuts and pass top quark selection, divided by the total number of generated events passing the acceptance cuts at generator level. The photon efficiency is calculated in a similar manner to the kinematic acceptance, and is defined as the number of events that fall into the acceptance region and pass top and photon selection divided by the total number of generated events passing the acceptance cuts at generator level. The calculated values for the acceptance and efficiency of the $t\bar{t}+\gamma$ selection, along with the branching ratio, for each dilepton final state are shown in Table \ref{tab-efficiencyAndAcceptance}.
 
 % The same can be done for the $t\bar{t}+\gamma$ (signal sample). To get the acceptance times efficiency we have to divide the number of events passing top selection by the total number of events considered. However, in this case we have to choose what we take as the denominator. The signal $t\bar{t}+\gamma$ sample is inclusive, but theoretical calculations for the cross section are done for final states with 1 and 2 leptons \cite{QCDCorrectionsttgamma2011}. To make comparison with theory easier we consider the fiducial space for signal when 1 or 2 leptons are present. The $t\bar{t}+\gamma$ acceptance times efficiency of the top selection is defined for the signal samples with 1 or 2 leptons as:
 
@@ -545,11 +541,11 @@ We define the efficiency as the fraction of reconstructed events passing the eve
 	 & \textbf{$\mu^+\mu^-$} & \textbf{$e^+e^-$} & \textbf{$e\mu$}  \\
 \hline
 	Branching Ratio & 0.01048 \pm 0.000081 & 0.0108175 \pm 0.000078 & 0.0180725 \pm 0.000044  \\
-	Kinematic Acceptance & & & \\
-	Efficiency $\epsilon_{t\bar{t}+\gamma}$ & & &  \\
+	Kinematic Acceptance & 0.3102 \pm 0.0018 & 0.2810 \pm 0.0014 & 0.2661 \pm 0.0014\\
+	Efficiency $\epsilon_{t\bar{t}+\gamma}$ & 0.354 \pm 0.0043 & 0.320 \pm 0.0034 & 0.355 \pm 0.0045  \\
 \hline	
 \end{tabular}
 \end{center}
-\caption{Efficiency and acceptance of the $t\bar{t}+\gamma$ selection in the $\mu^+\mu^-$, $e^+e^-$, and $e\mu$ final states. Uncertainties are from MC statistics.}
+\caption{Efficiency and acceptance of the $t\bar{t}+\gamma$ selection in the $\mu^+\mu^-$, $e^+e^-$, and $e\mu$ final states. Uncertainties are statistical.}
 \label{tab-efficiencyAndAcceptance}
 \end{table}	

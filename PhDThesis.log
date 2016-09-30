@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.22)  29 SEP 2016 21:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.22)  30 SEP 2016 15:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -676,11 +676,11 @@ Missing character: There is no ’ in font cmr10!
 
  [12] (./PhDThesis.lot [13
 
-] [14])
+])
 \tf@lot=\write6
 \openout6 = `PhDThesis.lot'.
 
- [15]
+ [14]
 (./Chapters/Introduction.texpdfTeX warning (ext4): destination with the same id
 entifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
@@ -697,7 +697,7 @@ l.8
 l.14 
       [2]) (./Chapters/Theory.tex [3]
 Chapter 1.
-<Figures/StandardModel.png, id=1162, 376.40625pt x 283.0575pt>
+<Figures/StandardModel.png, id=1143, 376.40625pt x 283.0575pt>
 File: Figures/StandardModel.png Graphic file (type png)
 
 <use Figures/StandardModel.png>
@@ -706,7 +706,7 @@ Package pdftex.def Info: Figures/StandardModel.png used on input line 8.
  [4
 
 ] [5 <./Figures/StandardModel.png>] [6]
-[7] [8] [9] [10] [11] <Figures/AlphaS.png, id=1266, 383.4325pt x 315.1775pt>
+[7] [8] [9] [10] [11] <Figures/AlphaS.png, id=1246, 383.4325pt x 315.1775pt>
 File: Figures/AlphaS.png Graphic file (type png)
 
 <use Figures/AlphaS.png>
@@ -719,7 +719,7 @@ a-tion we dis-cover that the strength
  []
 
 [12] [13 <./Figures/AlphaS.png>] [14]
-<Figures/MexicanHatPotential.png, id=1307, 854.19125pt x 709.65125pt>
+<Figures/MexicanHatPotential.png, id=1288, 854.19125pt x 709.65125pt>
 File: Figures/MexicanHatPotential.png Graphic file (type png)
 
 <use Figures/MexicanHatPotential.png>
@@ -742,14 +742,14 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 541.
  [19] [20]
-<Figures/HiggsCorrection.png, id=1376, 257.96375pt x 126.4725pt>
+<Figures/HiggsCorrection.png, id=1357, 257.96375pt x 126.4725pt>
 File: Figures/HiggsCorrection.png Graphic file (type png)
 
 <use Figures/HiggsCorrection.png>
 Package pdftex.def Info: Figures/HiggsCorrection.png used on input line 561.
 (pdftex.def)             Requested size: 170.71393pt x 83.69789pt.
 
-<Figures/SUSYHiggs.png, id=1377, 307.1475pt x 130.4875pt>
+<Figures/SUSYHiggs.png, id=1358, 307.1475pt x 130.4875pt>
 File: Figures/SUSYHiggs.png Graphic file (type png)
 
 <use Figures/SUSYHiggs.png>
@@ -762,7 +762,7 @@ r-i-ments (T2K/SuperKamiokande),
  []
 
 [23] [24] [25]
-<Figures/ttbarCombinedXsect.pdf, id=1425, 569.12625pt x 700.6175pt>
+<Figures/ttbarCombinedXsect.pdf, id=1406, 569.12625pt x 700.6175pt>
 File: Figures/ttbarCombinedXsect.pdf Graphic file (type pdf)
 
 <use Figures/ttbarCombinedXsect.pdf>
@@ -770,14 +770,14 @@ Package pdftex.def Info: Figures/ttbarCombinedXsect.pdf used on input line 661.
 
 (pdftex.def)             Requested size: 341.43437pt x 420.34166pt.
 
-<Figures/ttbarXsectPlot.png, id=1433, 1003.75pt x 678.535pt>
+<Figures/ttbarXsectPlot.png, id=1414, 1003.75pt x 678.535pt>
 File: Figures/ttbarXsectPlot.png Graphic file (type png)
 
 <use Figures/ttbarXsectPlot.png>
 Package pdftex.def Info: Figures/ttbarXsectPlot.png used on input line 671.
 (pdftex.def)             Requested size: 298.75264pt x 201.95726pt.
 
-<Figures/ttbarProductionLHC.png, id=1438, 656.4525pt x 400.49625pt>
+<Figures/ttbarProductionLHC.png, id=1419, 656.4525pt x 400.49625pt>
 File: Figures/ttbarProductionLHC.png Graphic file (type png)
 
 <use Figures/ttbarProductionLHC.png>
@@ -785,7 +785,7 @@ Package pdftex.def Info: Figures/ttbarProductionLHC.png used on input line 698.
 
 (pdftex.def)             Requested size: 384.1096pt x 234.34131pt.
 
-<Figures/singletopProductionLHC.png, id=1441, 666.49pt x 354.32375pt>
+<Figures/singletopProductionLHC.png, id=1422, 666.49pt x 354.32375pt>
 File: Figures/singletopProductionLHC.png Graphic file (type png)
 
 <use Figures/singletopProductionLHC.png>
@@ -795,7 +795,7 @@ Package pdftex.def Info: Figures/singletopProductionLHC.png used on input line
  [26] [27 <./Figures/ttbarCombinedXsect.pdf>] [28 <./Figures/ttbarXsectPlot.png
 > <./Figures/ttbarProductionLHC.png>]
 [29 <./Figures/singletopProductionLHC.png>]
-<Figures/ttbarDecayFractions.png, id=1516, 469.755pt x 463.7325pt>
+<Figures/ttbarDecayFractions.png, id=1497, 469.755pt x 463.7325pt>
 File: Figures/ttbarDecayFractions.png Graphic file (type png)
 
 <use Figures/ttbarDecayFractions.png>
@@ -806,7 +806,7 @@ Package pdftex.def Info: Figures/ttbarDecayFractions.png used on input line 740
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/ttgammaFeynmanDiagram.pdf, id=1519, 569.12625pt x 259.97125pt>
+<Figures/ttgammaFeynmanDiagram.pdf, id=1500, 569.12625pt x 259.97125pt>
 File: Figures/ttgammaFeynmanDiagram.pdf Graphic file (type pdf)
 
 <use Figures/ttgammaFeynmanDiagram.pdf>
@@ -826,7 +826,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 754.
 
-<Figures/BackgroundDiagrams.png, id=1520, 793.96625pt x 647.41875pt>
+<Figures/BackgroundDiagrams.png, id=1501, 793.96625pt x 647.41875pt>
 File: Figures/BackgroundDiagrams.png Graphic file (type png)
 
 <use Figures/BackgroundDiagrams.png>
@@ -839,28 +839,28 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [30] [31 <./Figures/ttbarDecayFractions.png>] [32 <./Figures/ttgammaFeynmanDiag
 ram.pdf, page is rotated 90 degrees>] [33 <./Figures/BackgroundDiagrams.png>]
-[34] <Figures/BackgroundISR.png, id=1595, 760.8425pt x 181.67876pt>
+[34] <Figures/BackgroundISR.png, id=1575, 760.8425pt x 181.67876pt>
 File: Figures/BackgroundISR.png Graphic file (type png)
 
 <use Figures/BackgroundISR.png>
 Package pdftex.def Info: Figures/BackgroundISR.png used on input line 786.
 (pdftex.def)             Requested size: 426.79135pt x 101.91405pt.
 
-<Figures/BackgroundFSR.png, id=1598, 742.775pt x 438.63875pt>
+<Figures/BackgroundFSR.png, id=1578, 742.775pt x 438.63875pt>
 File: Figures/BackgroundFSR.png Graphic file (type png)
 
 <use Figures/BackgroundFSR.png>
 Package pdftex.def Info: Figures/BackgroundFSR.png used on input line 794.
 (pdftex.def)             Requested size: 426.79135pt x 252.04129pt.
  [35 <./Figures/BackgroundISR.png> <./Figures/BackgroundFSR.png>] [36]
-<Figures/TopPhotonVertex.png, id=1617, 731.73375pt x 172.645pt>
+<Figures/TopPhotonVertex.png, id=1598, 731.73375pt x 172.645pt>
 File: Figures/TopPhotonVertex.png Graphic file (type png)
 
 <use Figures/TopPhotonVertex.png>
 Package pdftex.def Info: Figures/TopPhotonVertex.png used on input line 846.
 (pdftex.def)             Requested size: 426.79135pt x 100.6979pt.
  [37 <./Figures/TopPhotonVertex.png>]
-<Figures/TopChargeHeiner.png, id=1638, 441.65pt x 278.03876pt>
+<Figures/TopChargeHeiner.png, id=1619, 441.65pt x 278.03876pt>
 File: Figures/TopChargeHeiner.png Graphic file (type png)
 
 <use Figures/TopChargeHeiner.png>
@@ -875,7 +875,7 @@ Missing character: There is no ’ in font cmr10!
  [38] [39 <./Figures/TopChargeHeiner.png>])
 (./Chapters/TheLHCAndTheCMSDetector.tex [40]
 Chapter 2.
-<Figures/CERNAcceleratorComplex.jpg, id=1690, 1689.31125pt x 1083.04625pt>
+<Figures/CERNAcceleratorComplex.jpg, id=1669, 1689.31125pt x 1083.04625pt>
 File: Figures/CERNAcceleratorComplex.jpg Graphic file (type jpg)
 
 <use Figures/CERNAcceleratorComplex.jpg>
@@ -885,34 +885,34 @@ Package pdftex.def Info: Figures/CERNAcceleratorComplex.jpg used on input line
  [41
 
 ] [42 <./Figures/CERNAcceleratorComplex.jpg>] [43] [44] [45] [46]
-<Figures/LHClumi2.png, id=1731, 998.73125pt x 641.39626pt>
+<Figures/LHClumi2.png, id=1711, 998.73125pt x 641.39626pt>
 File: Figures/LHClumi2.png Graphic file (type png)
 
 <use Figures/LHClumi2.png>
 Package pdftex.def Info: Figures/LHClumi2.png used on input line 80.
 (pdftex.def)             Requested size: 213.39568pt x 137.04604pt.
 
-<Figures/LHClumi.png, id=1732, 602.25pt x 378.41376pt>
+<Figures/LHClumi.png, id=1712, 602.25pt x 378.41376pt>
 File: Figures/LHClumi.png Graphic file (type png)
 
 <use Figures/LHClumi.png>
 Package pdftex.def Info: Figures/LHClumi.png used on input line 80.
 (pdftex.def)             Requested size: 213.39568pt x 134.08664pt.
- <Figures/IntLumi2.png, id=1735, 578.16pt x 433.62pt>
+ <Figures/IntLumi2.png, id=1715, 578.16pt x 433.62pt>
 File: Figures/IntLumi2.png Graphic file (type png)
 
 <use Figures/IntLumi2.png>
 Package pdftex.def Info: Figures/IntLumi2.png used on input line 86.
 (pdftex.def)             Requested size: 213.39568pt x 160.04651pt.
 
-<Figures/CMSIntLumi.png, id=1736, 578.16pt x 433.62pt>
+<Figures/CMSIntLumi.png, id=1716, 578.16pt x 433.62pt>
 File: Figures/CMSIntLumi.png Graphic file (type png)
 
 <use Figures/CMSIntLumi.png>
 Package pdftex.def Info: Figures/CMSIntLumi.png used on input line 86.
 (pdftex.def)             Requested size: 213.39568pt x 160.04651pt.
 
-<Figures/CMSDetector.png, id=1737, 3189.9175pt x 2253.41875pt>
+<Figures/CMSDetector.png, id=1717, 3189.9175pt x 2253.41875pt>
 File: Figures/CMSDetector.png Graphic file (type png)
 
 <use Figures/CMSDetector.png>
@@ -927,14 +927,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: Text page 48 contains only floats.
 
 [48 <./Figures/IntLumi2.png (PNG copy)> <./Figures/CMSIntLumi.png> <./Figures/C
-MSDetector.png>] [49] <Figures/Tracker.png, id=1757, 1471.4975pt x 694.595pt>
+MSDetector.png>] [49] <Figures/Tracker.png, id=1738, 1471.4975pt x 694.595pt>
 File: Figures/Tracker.png Graphic file (type png)
 
 <use Figures/Tracker.png>
 Package pdftex.def Info: Figures/Tracker.png used on input line 118.
 (pdftex.def)             Requested size: 426.79135pt x 201.45918pt.
  [50 <./Figures/Tracker.png (PNG copy)>]
-<Figures/MuonReconstructionEfficiency.png, id=1771, 785.93625pt x 392.46625pt>
+<Figures/MuonReconstructionEfficiency.png, id=1752, 785.93625pt x 392.46625pt>
 File: Figures/MuonReconstructionEfficiency.png Graphic file (type png)
 
 <use Figures/MuonReconstructionEfficiency.png>
@@ -942,7 +942,7 @@ Package pdftex.def Info: Figures/MuonReconstructionEfficiency.png used on input
  line 132.
 (pdftex.def)             Requested size: 426.79135pt x 213.12631pt.
  [51]
-<Figures/PVResolution.png, id=1779, 829.0975pt x 402.50375pt>
+<Figures/PVResolution.png, id=1760, 829.0975pt x 402.50375pt>
 File: Figures/PVResolution.png Graphic file (type png)
 
 <use Figures/PVResolution.png>
@@ -950,7 +950,7 @@ Package pdftex.def Info: Figures/PVResolution.png used on input line 139.
 (pdftex.def)             Requested size: 426.79135pt x 207.1904pt.
  [52 <./Figures/MuonReconstructionEfficiency.png>] [53 <./Figures/PVResolution.
 png>]
-<Figures/ECAL.png, id=1800, 1172.38pt x 803.0pt>
+<Figures/ECAL.png, id=1781, 1172.38pt x 803.0pt>
 File: Figures/ECAL.png Graphic file (type png)
  <use Figures/ECAL.png>
 Package pdftex.def Info: Figures/ECAL.png used on input line 164.
@@ -959,7 +959,7 @@ Package pdftex.def Info: Figures/ECAL.png used on input line 164.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[54] <Figures/ECALRapidity.png, id=1811, 1441.385pt x 734.745pt>
+[54] <Figures/ECALRapidity.png, id=1791, 1441.385pt x 734.745pt>
 File: Figures/ECALRapidity.png Graphic file (type png)
 
 <use Figures/ECALRapidity.png>
@@ -967,14 +967,14 @@ Package pdftex.def Info: Figures/ECALRapidity.png used on input line 174.
 (pdftex.def)             Requested size: 426.79135pt x 217.5551pt.
  [55 <./Figures/ECAL.png (PNG copy)>] [56 <./Figures/ECALRapidity.png (PNG copy
 )>]
-<Figures/EcalInvariantMass.png, id=1826, 569.12625pt x 467.7475pt>
+<Figures/EcalInvariantMass.png, id=1807, 569.12625pt x 467.7475pt>
 File: Figures/EcalInvariantMass.png Graphic file (type png)
 
 <use Figures/EcalInvariantMass.png>
 Package pdftex.def Info: Figures/EcalInvariantMass.png used on input line 196.
 (pdftex.def)             Requested size: 213.39568pt x 175.38345pt.
 
-<Figures/EcalEtaInclusive.png, id=1827, 1580.90625pt x 1202.4925pt>
+<Figures/EcalEtaInclusive.png, id=1808, 1580.90625pt x 1202.4925pt>
 File: Figures/EcalEtaInclusive.png Graphic file (type png)
 
 <use Figures/EcalEtaInclusive.png>
@@ -986,7 +986,7 @@ Overfull \hbox (10.95926pt too wide) in paragraph at lines 196--198
  []
 
 [57 <./Figures/EcalInvariantMass.png (PNG copy)> <./Figures/EcalEtaInclusive.pn
-g>] <Figures/HCAL.png, id=1837, 1307.88625pt x 768.8725pt>
+g>] <Figures/HCAL.png, id=1818, 1307.88625pt x 768.8725pt>
 File: Figures/HCAL.png Graphic file (type png)
 
 <use Figures/HCAL.png>
@@ -998,7 +998,7 @@ Overfull \hbox (9.70975pt too wide) in paragraph at lines 227--236
  []
 
 [58] [59 <./Figures/HCAL.png (PNG copy)>] [60]
-<Figures/SuperconductingSolenoid.png, id=1865, 700.6175pt x 519.9425pt>
+<Figures/SuperconductingSolenoid.png, id=1846, 700.6175pt x 519.9425pt>
 File: Figures/SuperconductingSolenoid.png Graphic file (type png)
 
 <use Figures/SuperconductingSolenoid.png>
@@ -1006,7 +1006,7 @@ Package pdftex.def Info: Figures/SuperconductingSolenoid.png used on input line
  275.
 (pdftex.def)             Requested size: 350.30789pt x 259.97061pt.
  [61] [62 <./Figures/SuperconductingSolenoid.png>]
-<Figures/CMSLongitudinalView.png, id=1878, 679.53876pt x 448.67625pt>
+<Figures/CMSLongitudinalView.png, id=1859, 679.53876pt x 448.67625pt>
 File: Figures/CMSLongitudinalView.png Graphic file (type png)
 
 <use Figures/CMSLongitudinalView.png>
@@ -1014,21 +1014,21 @@ Package pdftex.def Info: Figures/CMSLongitudinalView.png used on input line 289
 .
 (pdftex.def)             Requested size: 426.79135pt x 281.79807pt.
  [63] [64 <./Figures/CMSLongitudinalView.png>] [65] <Figures/MuonEfficiencies.p
-ng, id=1902, 640.3925pt x 305.14pt>
+ng, id=1883, 640.3925pt x 305.14pt>
 File: Figures/MuonEfficiencies.png Graphic file (type png)
 
 <use Figures/MuonEfficiencies.png>
 Package pdftex.def Info: Figures/MuonEfficiencies.png used on input line 312.
 (pdftex.def)             Requested size: 426.79135pt x 203.36252pt.
  [66 <./Figures/MuonEfficiencies.png>]
-<Figures/L1Trigger.png, id=1910, 558.085pt x 381.425pt>
+<Figures/L1Trigger.png, id=1891, 558.085pt x 381.425pt>
 File: Figures/L1Trigger.png Graphic file (type png)
 
 <use Figures/L1Trigger.png>
 Package pdftex.def Info: Figures/L1Trigger.png used on input line 328.
 (pdftex.def)             Requested size: 279.04182pt x 190.71202pt.
  [67] [68 <./Figures/L1Trigger.png>]
-<Figures/SemiLeptTriggerEfficiencies.png, id=1926, 945.5325pt x 445.665pt>
+<Figures/SemiLeptTriggerEfficiencies.png, id=1907, 945.5325pt x 445.665pt>
 File: Figures/SemiLeptTriggerEfficiencies.png Graphic file (type png)
 
 <use Figures/SemiLeptTriggerEfficiencies.png>
@@ -1039,7 +1039,7 @@ line 349.
 (./Chapters/EventReconstruction&Simulation.tex [69] [70 <./Figures/SemiLeptTrig
 gerEfficiencies.png>]
 Chapter 3.
-<Figures/HadronCollisionProcess.png, id=1944, 730.73pt x 651.43375pt>
+<Figures/HadronCollisionProcess.png, id=1923, 730.73pt x 651.43375pt>
 File: Figures/HadronCollisionProcess.png Graphic file (type png)
 
 <use Figures/HadronCollisionProcess.png>
@@ -1049,7 +1049,7 @@ Package pdftex.def Info: Figures/HadronCollisionProcess.png used on input line
  [71
 
 ] [72 <./Figures/HadronCollisionProcess.png>] [73] [74] [75]
-<Figures/FullSim.png, id=1978, 1010.77625pt x 361.35pt>
+<Figures/FullSim.png, id=1959, 1010.77625pt x 361.35pt>
 File: Figures/FullSim.png Graphic file (type png)
 
 <use Figures/FullSim.png>
@@ -1082,7 +1082,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 166.
 
 [80] [81]
-<Figures/MatrixElementCalculation.png, id=2038, 897.3525pt x 526.96875pt>
+<Figures/MatrixElementCalculation.png, id=2019, 897.3525pt x 526.96875pt>
 File: Figures/MatrixElementCalculation.png Graphic file (type png)
 
 <use Figures/MatrixElementCalculation.png>
@@ -1115,7 +1115,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 193.
 
 [82 <./Figures/MatrixElementCalculation.png>] [83]
-<Figures/WHIZARDfullvsfactorisedPT.png, id=2056, 674.52pt x 445.665pt>
+<Figures/WHIZARDfullvsfactorisedPT.png, id=2036, 674.52pt x 445.665pt>
 File: Figures/WHIZARDfullvsfactorisedPT.png Graphic file (type png)
 
 <use Figures/WHIZARDfullvsfactorisedPT.png>
@@ -1123,7 +1123,7 @@ Package pdftex.def Info: Figures/WHIZARDfullvsfactorisedPT.png used on input li
 ne 222.
 (pdftex.def)             Requested size: 384.1096pt x 253.78688pt.
 
-<Figures/WHIZARDfullvsfactorisedEta.png, id=2057, 662.475pt x 445.665pt>
+<Figures/WHIZARDfullvsfactorisedEta.png, id=2037, 662.475pt x 445.665pt>
 File: Figures/WHIZARDfullvsfactorisedEta.png Graphic file (type png)
 
 <use Figures/WHIZARDfullvsfactorisedEta.png>
@@ -1132,7 +1132,7 @@ ine 223.
 (pdftex.def)             Requested size: 384.1096pt x 258.39748pt.
  [84] [85 <./Figures/WHIZARDfullvsfactorisedPT.png> <./Figures/WHIZARDfullvsfac
 torisedEta.png>]
-<Figures/WHIZARDvsMADGRAPHPT.png, id=2070, 626.34pt x 404.51125pt>
+<Figures/WHIZARDvsMADGRAPHPT.png, id=2050, 626.34pt x 404.51125pt>
 File: Figures/WHIZARDvsMADGRAPHPT.png Graphic file (type png)
 
 <use Figures/WHIZARDvsMADGRAPHPT.png>
@@ -1140,7 +1140,7 @@ Package pdftex.def Info: Figures/WHIZARDvsMADGRAPHPT.png used on input line 243
 .
 (pdftex.def)             Requested size: 341.43437pt x 220.5129pt.
 
-<Figures/WHIZARDvsMADGRAPHEta.png, id=2071, 626.34pt x 404.51125pt>
+<Figures/WHIZARDvsMADGRAPHEta.png, id=2051, 626.34pt x 404.51125pt>
 File: Figures/WHIZARDvsMADGRAPHEta.png Graphic file (type png)
 
 <use Figures/WHIZARDvsMADGRAPHEta.png>
@@ -1148,7 +1148,7 @@ Package pdftex.def Info: Figures/WHIZARDvsMADGRAPHEta.png used on input line 24
 4.
 (pdftex.def)             Requested size: 341.43437pt x 220.5129pt.
 
-<Figures/WHIZARDvsMADGRAPHDR.png, id=2072, 621.32124pt x 412.54124pt>
+<Figures/WHIZARDvsMADGRAPHDR.png, id=2052, 621.32124pt x 412.54124pt>
 File: Figures/WHIZARDvsMADGRAPHDR.png Graphic file (type png)
 
 <use Figures/WHIZARDvsMADGRAPHDR.png>
@@ -1166,20 +1166,20 @@ Overfull \hbox (53.18495pt too wide) in paragraph at lines 302--310
 der to fil-ter out as many fakes/misreconstructed
  []
 
-[89] [90] [91] [92] <Figures/PF.png, id=2118, 372.39125pt x 341.275pt>
+[89] [90] [91] [92] <Figures/PF.png, id=2099, 372.39125pt x 341.275pt>
 File: Figures/PF.png Graphic file (type png)
 
 <use Figures/PF.png>
 Package pdftex.def Info: Figures/PF.png used on input line 344.
 (pdftex.def)             Requested size: 256.07741pt x 234.68846pt.
- <Figures/PFECAL.png, id=2121, 279.0425pt x 240.9pt>
+ <Figures/PFECAL.png, id=2102, 279.0425pt x 240.9pt>
 File: Figures/PFECAL.png Graphic file (type png)
 
 <use Figures/PFECAL.png>
 Package pdftex.def Info: Figures/PFECAL.png used on input line 351.
 (pdftex.def)             Requested size: 298.75264pt x 257.92218pt.
 
-<Figures/PFHCAL.png, id=2122, 278.03876pt x 238.8925pt>
+<Figures/PFHCAL.png, id=2103, 278.03876pt x 238.8925pt>
 File: Figures/PFHCAL.png Graphic file (type png)
 
 <use Figures/PFHCAL.png>
@@ -1191,14 +1191,14 @@ Underfull \vbox (badness 10000) detected at line 419
  []
 
 [98] [99] [100] [101] [102] [103] [104]
-<Figures/CSV.png, id=2217, 529.98pt x 560.0925pt>
+<Figures/CSV.png, id=2198, 529.98pt x 560.0925pt>
 File: Figures/CSV.png Graphic file (type png)
  <use Figures/CSV.png>
 Package pdftex.def Info: Figures/CSV.png used on input line 527.
 (pdftex.def)             Requested size: 213.39568pt x 225.52008pt.
 
 [105] [106 <./Figures/CSV.png>]
-<Figures/CSVDiscriminator.png, id=2232, 608.2725pt x 437.635pt>
+<Figures/CSVDiscriminator.png, id=2212, 608.2725pt x 437.635pt>
 File: Figures/CSVDiscriminator.png Graphic file (type png)
 
 <use Figures/CSVDiscriminator.png>
@@ -1209,7 +1209,7 @@ kgroundEstimation.tex [109]
 Chapter 4.
 [110
 
-] <Figures/AnalysisFlowChart2.png, id=2260, 475.7775pt x 677.53125pt>
+] <Figures/AnalysisFlowChart2.png, id=2241, 475.7775pt x 677.53125pt>
 File: Figures/AnalysisFlowChart2.png Graphic file (type png)
 
 <use Figures/AnalysisFlowChart2.png>
@@ -1236,7 +1236,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
 [114] [115] [116] [117] [118] [119]
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/LeadLepton_Pt_splitTTba
-r_ratio.pdf, id=2320, 569.12625pt x 515.9275pt>
+r_ratio.pdf, id=2300, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/LeadLepton_Pt_spli
 tTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1247,7 +1247,7 @@ Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/SecondLepton_Pt_splitTT
-bar_ratio.pdf, id=2321, 569.12625pt x 515.9275pt>
+bar_ratio.pdf, id=2301, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/SecondLepton_Pt_sp
 litTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1268,7 +1268,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 181--183
 
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/diLepton_Mass_splitTTba
-r_ratio.pdf, id=2322, 569.12625pt x 515.9275pt>
+r_ratio.pdf, id=2302, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/diLepton_Mass_spli
 tTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1283,7 +1283,7 @@ barDiLeptonAnalysis/MuMu/DiLepton/SecondLepton_Pt_splitTTbar_ratio.pdf, page is
  rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/
 diLepton_Mass_splitTTbar_ratio.pdf, page is rotated 90 degrees>] [122]
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/all_jet_pT_splitTTbar_ratio
-.pdf, id=2471, 569.12625pt x 515.9275pt>
+.pdf, id=2452, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/all_jet_pT_splitTTbar_
 ratio.pdf Graphic file (type pdf)
 
@@ -1294,7 +1294,7 @@ _jet_pT_splitTTbar_ratio.pdf used on input line 212.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/all_jet_eta_splitTTbar_rati
-o.pdf, id=2472, 569.12625pt x 515.9275pt>
+o.pdf, id=2453, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/all_jet_eta_splitTTbar
 _ratio.pdf Graphic file (type pdf)
 
@@ -1315,7 +1315,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 212--214
 
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/N_Jets_splitTTbar_ratio.pdf
-, id=2473, 569.12625pt x 515.9275pt>
+, id=2454, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/N_Jets_splitTTbar_rati
 o.pdf Graphic file (type pdf)
 
@@ -1326,7 +1326,7 @@ ets_splitTTbar_ratio.pdf used on input line 215.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/MET/patType1CorrectedPFMet/MET_s
-plitTTbar_ratio.pdf, id=2476, 569.12625pt x 515.9275pt>
+plitTTbar_ratio.pdf, id=2457, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/MET/patType1CorrectedPFMet/
 MET_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1337,7 +1337,7 @@ ype1CorrectedPFMet/MET_splitTTbar_ratio.pdf used on input line 226.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/MET/patType1CorrectedPFMet/MET_p
-hi_splitTTbar_ratio.pdf, id=2477, 569.12625pt x 515.9275pt>
+hi_splitTTbar_ratio.pdf, id=2458, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/MET/patType1CorrectedPFMet/
 MET_phi_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1358,7 +1358,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 226--228
 
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/MET/patType1CorrectedPFMet/METsign
-ificance_splitTTbar_ratio.pdf, id=2478, 569.12625pt x 515.9275pt>
+ificance_splitTTbar_ratio.pdf, id=2459, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/MET/patType1CorrectedPFMet/ME
 Tsignificance_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1378,7 +1378,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Photon_ET_spl
-itTTbar_ratio.pdf, id=2480, 569.12625pt x 515.9275pt>
+itTTbar_ratio.pdf, id=2461, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Photon_E
 T_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1389,7 +1389,7 @@ AllPhotons/Photon_ET_splitTTbar_ratio.pdf used on input line 240.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Photon_AbsEta
-_splitTTbar_ratio.pdf, id=2481, 569.12625pt x 515.9275pt>
+_splitTTbar_ratio.pdf, id=2462, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Photon_A
 bsEta_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1400,7 +1400,7 @@ AllPhotons/Photon_AbsEta_splitTTbar_ratio.pdf used on input line 241.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Photon_ET_split
-TTbar_ratio.pdf, id=2482, 569.12625pt x 515.9275pt>
+TTbar_ratio.pdf, id=2463, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Photon_ET_
 splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1411,7 +1411,7 @@ lPhotons/Photon_ET_splitTTbar_ratio.pdf used on input line 242.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Photon_AbsEta_s
-plitTTbar_ratio.pdf, id=2483, 569.12625pt x 515.9275pt>
+plitTTbar_ratio.pdf, id=2464, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Photon_Abs
 Eta_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1422,7 +1422,7 @@ lPhotons/Photon_AbsEta_splitTTbar_ratio.pdf used on input line 243.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Photon_ET_spli
-tTTbar_ratio.pdf, id=2484, 569.12625pt x 515.9275pt>
+tTTbar_ratio.pdf, id=2465, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Photon_ET
 _splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1433,7 +1433,7 @@ llPhotons/Photon_ET_splitTTbar_ratio.pdf used on input line 244.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Photon_AbsEta_
-splitTTbar_ratio.pdf, id=2485, 569.12625pt x 515.9275pt>
+splitTTbar_ratio.pdf, id=2466, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Photon_Ab
 sEta_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1490,7 +1490,7 @@ lPhotons/Photon_ET_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/C
 ontrolPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Photon_AbsEta_splitTTb
 ar_ratio.pdf, page is rotated 90 degrees>]
 <Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_ET_sp
-litTTbar_ratio.pdf, id=3026, 569.12625pt x 515.9275pt>
+litTTbar_ratio.pdf, id=3007, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_
 ET_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1501,7 +1501,7 @@ gnalPhotons/Photon_ET_splitTTbar_ratio.pdf used on input line 268.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_AbsEt
-a_splitTTbar_ratio.pdf, id=3027, 569.12625pt x 515.9275pt>
+a_splitTTbar_ratio.pdf, id=3008, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_
 AbsEta_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1512,7 +1512,7 @@ gnalPhotons/Photon_AbsEta_splitTTbar_ratio.pdf used on input line 269.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_ET_spli
-tTTbar_ratio.pdf, id=3028, 569.12625pt x 515.9275pt>
+tTTbar_ratio.pdf, id=3009, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_ET
 _splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1523,7 +1523,7 @@ alPhotons/Photon_ET_splitTTbar_ratio.pdf used on input line 270.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_AbsEta_
-splitTTbar_ratio.pdf, id=3029, 569.12625pt x 515.9275pt>
+splitTTbar_ratio.pdf, id=3010, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_Ab
 sEta_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1534,7 +1534,7 @@ alPhotons/Photon_AbsEta_splitTTbar_ratio.pdf used on input line 271.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_ET_spl
-itTTbar_ratio.pdf, id=3030, 569.12625pt x 515.9275pt>
+itTTbar_ratio.pdf, id=3011, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_E
 T_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1545,7 +1545,7 @@ nalPhotons/Photon_ET_splitTTbar_ratio.pdf used on input line 272.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_AbsEta
-_splitTTbar_ratio.pdf, id=3031, 569.12625pt x 515.9275pt>
+_splitTTbar_ratio.pdf, id=3012, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_A
 bsEta_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1603,7 +1603,7 @@ ML/cmm/m/it/10.95 ^^M; jets\OT1/cmr/m/n/10.95 ) \OML/cmm/m/it/10.95 >
 
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_delta
-R_jets_splitTTbar_ratio.pdf, id=3309, 569.12625pt x 515.9275pt>
+R_jets_splitTTbar_ratio.pdf, id=3290, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_
 deltaR_jets_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1614,7 +1614,7 @@ gnalPhotons/Photon_deltaR_jets_splitTTbar_ratio.pdf used on input line 333.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_deltaR_
-jets_splitTTbar_ratio.pdf, id=3310, 569.12625pt x 515.9275pt>
+jets_splitTTbar_ratio.pdf, id=3291, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_de
 ltaR_jets_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1635,7 +1635,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 333--335
 
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_deltaR
-_jets_splitTTbar_ratio.pdf, id=3311, 569.12625pt x 515.9275pt>
+_jets_splitTTbar_ratio.pdf, id=3292, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_d
 eltaR_jets_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -1650,26 +1650,22 @@ s/Photon_deltaR_jets_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots
 plitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarPho
 tonAnalysis/EMu/Photons/SignalPhotons/Photon_deltaR_jets_splitTTbar_ratio.pdf, 
 page is rotated 90 degrees>] [132]
-<Figures/RandomCone3.pdf, id=3459, 366.21979pt x 440.91293pt>
+<Figures/RandomCone3.pdf, id=3440, 366.21979pt x 440.91293pt>
 File: Figures/RandomCone3.pdf Graphic file (type pdf)
 
 <use Figures/RandomCone3.pdf>
 Package pdftex.def Info: Figures/RandomCone3.pdf used on input line 373.
 (pdftex.def)             Requested size: 170.71393pt x 205.52698pt.
  [133 <./Figures/RandomCone3.pdf>]
-<Figures/photonphasespace2.png, id=3514, 709.65125pt x 499.8675pt>
+<Figures/photonphasespace2.png, id=3495, 709.65125pt x 499.8675pt>
 File: Figures/photonphasespace2.png Graphic file (type png)
 
 <use Figures/photonphasespace2.png>
 Package pdftex.def Info: Figures/photonphasespace2.png used on input line 396.
 (pdftex.def)             Requested size: 354.82475pt x 249.93314pt.
- [134]
-
-LaTeX Warning: Reference `' on page 135 undefined on input line 416.
-
-[135 <./Figures/photonphasespace2.png>] [136]
+ [134] [135 <./Figures/photonphasespace2.png>] [136]
 <Plots/ControlPlots/CutFlow/Log/TTbarMuMuRefSelection_splitTTbar_ratio.pdf, id=
-3545, 569.12625pt x 515.9275pt>
+3526, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/CutFlow/Log/TTbarMuMuRefSelection_splitTTbar_ratio.pdf
  Graphic file (type pdf)
 
@@ -1679,7 +1675,7 @@ plitTTbar_ratio.pdf used on input line 441.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/CutFlow/Log/TTbarEERefSelection_splitTTbar_ratio.pdf, id=35
-46, 569.12625pt x 515.9275pt>
+27, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/CutFlow/Log/TTbarEERefSelection_splitTTbar_ratio.pdf G
 raphic file (type pdf)
 
@@ -1699,7 +1695,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 441--443
 
 
 <Plots/ControlPlots/CutFlow/Log/TTbarEMuRefSelection_splitTTbar_ratio.pdf, id=3
-547, 569.12625pt x 515.9275pt>
+528, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/CutFlow/Log/TTbarEMuRefSelection_splitTTbar_ratio.pdf 
 Graphic file (type pdf)
 
@@ -1765,54 +1761,55 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 [141
 
-] [142] <Figures/SignalPhotonPlot.png, id=3715, 756.8275pt x 680.5425pt>
+] [142] <Figures/SignalPhotonPlot.png, id=3696, 756.8275pt x 680.5425pt>
 File: Figures/SignalPhotonPlot.png Graphic file (type png)
 
 <use Figures/SignalPhotonPlot.png>
 Package pdftex.def Info: Figures/SignalPhotonPlot.png used on input line 58.
 (pdftex.def)             Requested size: 249.75385pt x 224.57971pt.
  [143] [144 <./Figures/SignalPhotonPlot.png>] [145] [146] <Figures/RandomCone1.
-png, id=3738, 412.54124pt x 440.64626pt>
+png, id=3720, 412.54124pt x 440.64626pt>
 File: Figures/RandomCone1.png Graphic file (type png)
 
 <use Figures/RandomCone1.png>
 Package pdftex.def Info: Figures/RandomCone1.png used on input line 115.
 (pdftex.def)             Requested size: 192.0548pt x 205.14044pt.
 
-<Figures/RandomCone2.png, id=3739, 547.04375pt x 452.69125pt>
+<Figures/RandomCone2.png, id=3721, 547.04375pt x 452.69125pt>
 File: Figures/RandomCone2.png Graphic file (type png)
 
 <use Figures/RandomCone2.png>
 Package pdftex.def Info: Figures/RandomCone2.png used on input line 115.
 (pdftex.def)             Requested size: 234.73654pt x 194.2528pt.
 
-<Plots/signalComparison/MuMu/sigComparison.pdf, id=3743, 569.12625pt x 385.44pt
->
+<Plots/signalComparison/MuMu/sigComparison.pdf, id=3725, 569.12625pt x 515.9275
+pt>
 File: Plots/signalComparison/MuMu/sigComparison.pdf Graphic file (type pdf)
  <use Plots/signalComparison/MuMu/sigComparison.pdf>
 Package pdftex.def Info: Plots/signalComparison/MuMu/sigComparison.pdf used on 
 input line 124.
-(pdftex.def)             Requested size: 213.39568pt x 144.52199pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
-<Plots/signalComparison/EE/sigComparison.pdf, id=3744, 569.12625pt x 385.44pt>
+<Plots/signalComparison/EE/sigComparison.pdf, id=3726, 569.12625pt x 515.9275pt
+>
 File: Plots/signalComparison/EE/sigComparison.pdf Graphic file (type pdf)
-
-<use Plots/signalComparison/EE/sigComparison.pdf>
+ <use Plots/signalComparison/EE/sigComparison.pdf>
 Package pdftex.def Info: Plots/signalComparison/EE/sigComparison.pdf used on in
 put line 125.
-(pdftex.def)             Requested size: 213.39568pt x 144.52199pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 Overfull \hbox (2.42162pt too wide) in paragraph at lines 124--126
 [][] [] 
  []
 
 
-<Plots/signalComparison/EMu/sigComparison.pdf, id=3745, 569.12625pt x 385.44pt>
+<Plots/signalComparison/EMu/sigComparison.pdf, id=3727, 569.12625pt x 515.9275p
+t>
 File: Plots/signalComparison/EMu/sigComparison.pdf Graphic file (type pdf)
-<use Plots/signalComparison/EMu/sigComparison.pdf>
+ <use Plots/signalComparison/EMu/sigComparison.pdf>
 Package pdftex.def Info: Plots/signalComparison/EMu/sigComparison.pdf used on i
 nput line 127.
-(pdftex.def)             Requested size: 213.39568pt x 144.52199pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1842,38 +1839,36 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 ts/signalComparison/MuMu/sigComparison.pdf, page is rotated 90 degrees> <./Plot
 s/signalComparison/EE/sigComparison.pdf, page is rotated 90 degrees> <./Plots/s
 ignalComparison/EMu/sigComparison.pdf, page is rotated 90 degrees>]
-<Plots/signalComparison/MuMu/bkgdComparison.pdf, id=3894, 569.12625pt x 385.44p
-t>
+<Plots/signalComparison/MuMu/bkgdComparison.pdf, id=3876, 569.12625pt x 515.927
+5pt>
 File: Plots/signalComparison/MuMu/bkgdComparison.pdf Graphic file (type pdf)
  <use Plots/signalComparison/MuMu/bkgdComparison.pdf>
 Package pdftex.def Info: Plots/signalComparison/MuMu/bkgdComparison.pdf used on
  input line 145.
-(pdftex.def)             Requested size: 213.39568pt x 144.52199pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
-<Plots/signalComparison/EE/bkgdComparison.pdf, id=3895, 569.12625pt x 385.44pt>
+<Plots/signalComparison/EE/bkgdComparison.pdf, id=3877, 569.12625pt x 515.9275p
+t>
 File: Plots/signalComparison/EE/bkgdComparison.pdf Graphic file (type pdf)
-<use Plots/signalComparison/EE/bkgdComparison.pdf>
+ <use Plots/signalComparison/EE/bkgdComparison.pdf>
 Package pdftex.def Info: Plots/signalComparison/EE/bkgdComparison.pdf used on i
 nput line 146.
-(pdftex.def)             Requested size: 213.39568pt x 144.52199pt.
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 Overfull \hbox (2.42162pt too wide) in paragraph at lines 145--147
 [][] [] 
  []
 
 
-<Plots/signalComparison/EMu/bkgdComparison.pdf, id=3896, 569.12625pt x 385.44pt
->
+<Plots/signalComparison/EMu/bkgdComparison.pdf, id=3878, 569.12625pt x 515.9275
+pt>
 File: Plots/signalComparison/EMu/bkgdComparison.pdf Graphic file (type pdf)
  <use Plots/signalComparison/EMu/bkgdComparison.pdf>
 Package pdftex.def Info: Plots/signalComparison/EMu/bkgdComparison.pdf used on 
 input line 148.
-(pdftex.def)             Requested size: 213.39568pt x 144.52199pt.
- [150 <./Plots/signalComparison/MuMu/bkgdComparison.pdf, page is rotated 90 deg
-rees> <./Plots/signalComparison/EE/bkgdComparison.pdf, page is rotated 90 degre
-es> <./Plots/signalComparison/EMu/bkgdComparison.pdf, page is rotated 90 degree
-s>]
-<Plots/Fits/TTbarPhotonAnalysis/MuMu/central/pseudoFitTemplate.pdf, id=4033, 56
+(pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
+
+<Plots/Fits/TTbarPhotonAnalysis/MuMu/central/pseudoFitTemplate.pdf, id=3881, 56
 9.12625pt x 385.44pt>
 File: Plots/Fits/TTbarPhotonAnalysis/MuMu/central/pseudoFitTemplate.pdf Graphic
  file (type pdf)
@@ -1883,7 +1878,7 @@ Package pdftex.def Info: Plots/Fits/TTbarPhotonAnalysis/MuMu/central/pseudoFitT
 emplate.pdf used on input line 162.
 (pdftex.def)             Requested size: 213.39568pt x 144.52199pt.
 
-<Plots/Fits/TTbarPhotonAnalysis/EE/central/pseudoFitTemplate.pdf, id=4034, 569.
+<Plots/Fits/TTbarPhotonAnalysis/EE/central/pseudoFitTemplate.pdf, id=3882, 569.
 12625pt x 385.44pt>
 File: Plots/Fits/TTbarPhotonAnalysis/EE/central/pseudoFitTemplate.pdf Graphic f
 ile (type pdf)
@@ -1903,7 +1898,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 162--164
  []
 
 
-<Plots/Fits/TTbarPhotonAnalysis/EMu/central/pseudoFitTemplate.pdf, id=4035, 569
+<Plots/Fits/TTbarPhotonAnalysis/EMu/central/pseudoFitTemplate.pdf, id=3883, 569
 .12625pt x 385.44pt>
 File: Plots/Fits/TTbarPhotonAnalysis/EMu/central/pseudoFitTemplate.pdf Graphic 
 file (type pdf)
@@ -1913,7 +1908,7 @@ Package pdftex.def Info: Plots/Fits/TTbarPhotonAnalysis/EMu/central/pseudoFitTe
 mplate.pdf used on input line 165.
 (pdftex.def)             Requested size: 213.39568pt x 144.52199pt.
 
-<Plots/Fits/TTbarPhotonAnalysis/MuMu/central/pseudoFit.pdf, id=4036, 569.12625p
+<Plots/Fits/TTbarPhotonAnalysis/MuMu/central/pseudoFit.pdf, id=3884, 569.12625p
 t x 515.9275pt>
 File: Plots/Fits/TTbarPhotonAnalysis/MuMu/central/pseudoFit.pdf Graphic file (t
 ype pdf)
@@ -1923,7 +1918,7 @@ Package pdftex.def Info: Plots/Fits/TTbarPhotonAnalysis/MuMu/central/pseudoFit.
 pdf used on input line 172.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
-<Plots/Fits/TTbarPhotonAnalysis/EE/central/pseudoFit.pdf, id=4037, 569.12625pt 
+<Plots/Fits/TTbarPhotonAnalysis/EE/central/pseudoFit.pdf, id=3885, 569.12625pt 
 x 515.9275pt>
 File: Plots/Fits/TTbarPhotonAnalysis/EE/central/pseudoFit.pdf Graphic file (typ
 e pdf)
@@ -1942,7 +1937,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 172--174
  []
 
 
-<Plots/Fits/TTbarPhotonAnalysis/EMu/central/pseudoFit.pdf, id=4038, 569.12625pt
+<Plots/Fits/TTbarPhotonAnalysis/EMu/central/pseudoFit.pdf, id=3886, 569.12625pt
  x 515.9275pt>
 File: Plots/Fits/TTbarPhotonAnalysis/EMu/central/pseudoFit.pdf Graphic file (ty
 pe pdf)
@@ -1951,15 +1946,7 @@ Package pdftex.def Info: Plots/Fits/TTbarPhotonAnalysis/EMu/central/pseudoFit.p
 df used on input line 175.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
-[151 <./Plots/Fits/TTbarPhotonAnalysis/MuMu/central/pseudoFitTemplate.pdf, page
- is rotated 90 degrees> <./Plots/Fits/TTbarPhotonAnalysis/EE/central/pseudoFitT
-emplate.pdf, page is rotated 90 degrees> <./Plots/Fits/TTbarPhotonAnalysis/EMu/
-central/pseudoFitTemplate.pdf, page is rotated 90 degrees>] [152 <./Plots/Fits/
-TTbarPhotonAnalysis/MuMu/central/pseudoFit.pdf, page is rotated 90 degrees> <./
-Plots/Fits/TTbarPhotonAnalysis/EE/central/pseudoFit.pdf, page is rotated 90 deg
-rees> <./Plots/Fits/TTbarPhotonAnalysis/EMu/central/pseudoFit.pdf, page is rota
-ted 90 degrees>]
-<Plots/Fits/TTbarPhotonAnalysis/MuMu/central/FitTemplate.pdf, id=4307, 569.1262
+<Plots/Fits/TTbarPhotonAnalysis/MuMu/central/FitTemplate.pdf, id=3888, 569.1262
 5pt x 385.44pt>
 File: Plots/Fits/TTbarPhotonAnalysis/MuMu/central/FitTemplate.pdf Graphic file 
 (type pdf)
@@ -1969,7 +1956,7 @@ Package pdftex.def Info: Plots/Fits/TTbarPhotonAnalysis/MuMu/central/FitTemplat
 e.pdf used on input line 207.
 (pdftex.def)             Requested size: 213.39568pt x 144.52199pt.
 
-<Plots/Fits/TTbarPhotonAnalysis/EE/central/FitTemplate.pdf, id=4308, 569.12625p
+<Plots/Fits/TTbarPhotonAnalysis/EE/central/FitTemplate.pdf, id=3889, 569.12625p
 t x 385.44pt>
 File: Plots/Fits/TTbarPhotonAnalysis/EE/central/FitTemplate.pdf Graphic file (t
 ype pdf)
@@ -1988,7 +1975,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 207--209
  []
 
 
-<Plots/Fits/TTbarPhotonAnalysis/EMu/central/FitTemplate.pdf, id=4309, 569.12625
+<Plots/Fits/TTbarPhotonAnalysis/EMu/central/FitTemplate.pdf, id=3890, 569.12625
 pt x 385.44pt>
 File: Plots/Fits/TTbarPhotonAnalysis/EMu/central/FitTemplate.pdf Graphic file (
 type pdf)
@@ -1998,7 +1985,7 @@ Package pdftex.def Info: Plots/Fits/TTbarPhotonAnalysis/EMu/central/FitTemplate
 .pdf used on input line 210.
 (pdftex.def)             Requested size: 213.39568pt x 144.52199pt.
 
-<Plots/Fits/TTbarPhotonAnalysis/MuMu/central/Fit.pdf, id=4310, 569.12625pt x 51
+<Plots/Fits/TTbarPhotonAnalysis/MuMu/central/Fit.pdf, id=3891, 569.12625pt x 51
 5.9275pt>
 File: Plots/Fits/TTbarPhotonAnalysis/MuMu/central/Fit.pdf Graphic file (type pd
 f)
@@ -2007,7 +1994,7 @@ Package pdftex.def Info: Plots/Fits/TTbarPhotonAnalysis/MuMu/central/Fit.pdf us
 ed on input line 217.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
-<Plots/Fits/TTbarPhotonAnalysis/EE/central/Fit.pdf, id=4311, 569.12625pt x 515.
+<Plots/Fits/TTbarPhotonAnalysis/EE/central/Fit.pdf, id=3892, 569.12625pt x 515.
 9275pt>
 File: Plots/Fits/TTbarPhotonAnalysis/EE/central/Fit.pdf Graphic file (type pdf)
 
@@ -2026,7 +2013,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 217--219
  []
 
 
-<Plots/Fits/TTbarPhotonAnalysis/EMu/central/Fit.pdf, id=4312, 569.12625pt x 515
+<Plots/Fits/TTbarPhotonAnalysis/EMu/central/Fit.pdf, id=3893, 569.12625pt x 515
 .9275pt>
 File: Plots/Fits/TTbarPhotonAnalysis/EMu/central/Fit.pdf Graphic file (type pdf
 )
@@ -2034,31 +2021,38 @@ File: Plots/Fits/TTbarPhotonAnalysis/EMu/central/Fit.pdf Graphic file (type pdf
 Package pdftex.def Info: Plots/Fits/TTbarPhotonAnalysis/EMu/central/Fit.pdf use
 d on input line 220.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
- [153 <./Plots/Fits/TTbarPhotonAnalysis/MuMu/central/FitTemplate.pdf, page is r
-otated 90 degrees> <./Plots/Fits/TTbarPhotonAnalysis/EE/central/FitTemplate.pdf
-, page is rotated 90 degrees> <./Plots/Fits/TTbarPhotonAnalysis/EMu/central/Fit
-Template.pdf, page is rotated 90 degrees>] [154 <./Plots/Fits/TTbarPhotonAnalys
-is/MuMu/central/Fit.pdf, page is rotated 90 degrees> <./Plots/Fits/TTbarPhotonA
-nalysis/EE/central/Fit.pdf, page is rotated 90 degrees> <./Plots/Fits/TTbarPhot
-onAnalysis/EMu/central/Fit.pdf, page is rotated 90 degrees>] [155] [156]
+ [150]
+[151 <./Plots/signalComparison/MuMu/bkgdComparison.pdf, page is rotated 90 degr
+ees> <./Plots/signalComparison/EE/bkgdComparison.pdf, page is rotated 90 degree
+s> <./Plots/signalComparison/EMu/bkgdComparison.pdf, page is rotated 90 degrees
+>] [152 <./Plots/Fits/TTbarPhotonAnalysis/MuMu/central/pseudoFitTemplate.pdf, p
+age is rotated 90 degrees> <./Plots/Fits/TTbarPhotonAnalysis/EE/central/pseudoF
+itTemplate.pdf, page is rotated 90 degrees> <./Plots/Fits/TTbarPhotonAnalysis/E
+Mu/central/pseudoFitTemplate.pdf, page is rotated 90 degrees>] [153 <./Plots/Fi
+ts/TTbarPhotonAnalysis/MuMu/central/pseudoFit.pdf, page is rotated 90 degrees> 
+<./Plots/Fits/TTbarPhotonAnalysis/EE/central/pseudoFit.pdf, page is rotated 90 
+degrees> <./Plots/Fits/TTbarPhotonAnalysis/EMu/central/pseudoFit.pdf, page is r
+otated 90 degrees>] [154 <./Plots/Fits/TTbarPhotonAnalysis/MuMu/central/FitTemp
+late.pdf, page is rotated 90 degrees> <./Plots/Fits/TTbarPhotonAnalysis/EE/cent
+ral/FitTemplate.pdf, page is rotated 90 degrees> <./Plots/Fits/TTbarPhotonAnaly
+sis/EMu/central/FitTemplate.pdf, page is rotated 90 degrees>] [155 <./Plots/Fit
+s/TTbarPhotonAnalysis/MuMu/central/Fit.pdf, page is rotated 90 degrees> <./Plot
+s/Fits/TTbarPhotonAnalysis/EE/central/Fit.pdf, page is rotated 90 degrees> <./P
+lots/Fits/TTbarPhotonAnalysis/EMu/central/Fit.pdf, page is rotated 90 degrees>]
+[156] [157]
 ! Missing $ inserted.
 <inserted text> 
                 $
+l.343 }
+       
+? 
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
 l.343 }
        
 ? s
 OK, entering \scrollmode...
-! Extra }, or forgotten $.
-<template> \unskip \hfil }
-                          \hskip \tabcolsep \endtemplate 
-l.343 }
-       
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -2724,7 +2718,6 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[157]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -3071,7 +3064,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.547 	Branching Ratio & 0.01048 \pm
+l.543 	Branching Ratio & 0.01048 \pm
                                      0.000081 & 0.0108175 \pm 0.000078 & 0.0...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3079,7 +3072,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \endtemplate 
-l.547 	Branching Ratio & 0.01048 \pm 0.000081 &
+l.543 	Branching Ratio & 0.01048 \pm 0.000081 &
                                                 0.0108175 \pm 0.000078 & 0.0...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -3090,7 +3083,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.547 	Branching Ratio & 0.01048 \pm 0.000081 &
+l.543 	Branching Ratio & 0.01048 \pm 0.000081 &
                                                 0.0108175 \pm 0.000078 & 0.0...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3098,7 +3091,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.547 	Branching Ratio & 0.01048 \pm 0.000081 &
+l.543 	Branching Ratio & 0.01048 \pm 0.000081 &
                                                 0.0108175 \pm 0.000078 & 0.0...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3109,7 +3102,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.547 ...io & 0.01048 \pm 0.000081 & 0.0108175 \pm
+l.543 ...io & 0.01048 \pm 0.000081 & 0.0108175 \pm
                                                    0.000078 & 0.0180725 \pm ...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3117,7 +3110,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \endtemplate 
-l.547 ...8 \pm 0.000081 & 0.0108175 \pm 0.000078 &
+l.543 ...8 \pm 0.000081 & 0.0108175 \pm 0.000078 &
                                                    0.0180725 \pm 0.000044  \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -3128,7 +3121,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.547 ...8 \pm 0.000081 & 0.0108175 \pm 0.000078 &
+l.543 ...8 \pm 0.000081 & 0.0108175 \pm 0.000078 &
                                                    0.0180725 \pm 0.000044  \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3136,7 +3129,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.547 ...8 \pm 0.000081 & 0.0108175 \pm 0.000078 &
+l.543 ...8 \pm 0.000081 & 0.0108175 \pm 0.000078 &
                                                    0.0180725 \pm 0.000044  \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3147,7 +3140,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.547 ... & 0.0108175 \pm 0.000078 & 0.0180725 \pm
+l.543 ... & 0.0108175 \pm 0.000078 & 0.0180725 \pm
                                                    0.000044  \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3155,8 +3148,8 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \endtemplate 
-l.548 	K
-        inematic Acceptance & & & \\
+l.544 	K
+        inematic Acceptance & 0.3102 \pm 0.0018 & 0.2810 \pm 0.0014 & 0.2661...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -3166,16 +3159,244 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.548 	K
-        inematic Acceptance & & & \\
+l.544 	K
+        inematic Acceptance & 0.3102 \pm 0.0018 & 0.2810 \pm 0.0014 & 0.2661...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.548 	K
-        inematic Acceptance & & & \\
+l.544 	K
+        inematic Acceptance & 0.3102 \pm 0.0018 & 0.2810 \pm 0.0014 & 0.2661...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.544 	Kinematic Acceptance & 0.3102 \pm
+                                         0.0018 & 0.2810 \pm 0.0014 & 0.2661...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.544 	Kinematic Acceptance & 0.3102 \pm 0.0018 &
+                                                  0.2810 \pm 0.0014 & 0.2661...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.544 	Kinematic Acceptance & 0.3102 \pm 0.0018 &
+                                                  0.2810 \pm 0.0014 & 0.2661...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.544 	Kinematic Acceptance & 0.3102 \pm 0.0018 &
+                                                  0.2810 \pm 0.0014 & 0.2661...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.544 ...ceptance & 0.3102 \pm 0.0018 & 0.2810 \pm
+                                                   0.0014 & 0.2661 \pm 0.0014\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.544 ...& 0.3102 \pm 0.0018 & 0.2810 \pm 0.0014 &
+                                                   0.2661 \pm 0.0014\\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.544 ...& 0.3102 \pm 0.0018 & 0.2810 \pm 0.0014 &
+                                                   0.2661 \pm 0.0014\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.544 ...& 0.3102 \pm 0.0018 & 0.2810 \pm 0.0014 &
+                                                   0.2661 \pm 0.0014\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.544 ...m 0.0018 & 0.2810 \pm 0.0014 & 0.2661 \pm
+                                                   0.0014\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.545 	E
+        fficiency $\epsilon_{t\bar{t}+\gamma}$ & 0.354 \pm 0.0043 & 0.320 \p...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.545 	E
+        fficiency $\epsilon_{t\bar{t}+\gamma}$ & 0.354 \pm 0.0043 & 0.320 \p...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.545 	E
+        fficiency $\epsilon_{t\bar{t}+\gamma}$ & 0.354 \pm 0.0043 & 0.320 \p...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.545 ... $\epsilon_{t\bar{t}+\gamma}$ & 0.354 \pm
+                                                   0.0043 & 0.320 \pm 0.0034...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.545 ...n_{t\bar{t}+\gamma}$ & 0.354 \pm 0.0043 &
+                                                   0.320 \pm 0.0034 & 0.355 ...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.545 ...n_{t\bar{t}+\gamma}$ & 0.354 \pm 0.0043 &
+                                                   0.320 \pm 0.0034 & 0.355 ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.545 ...n_{t\bar{t}+\gamma}$ & 0.354 \pm 0.0043 &
+                                                   0.320 \pm 0.0034 & 0.355 ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.545 ...}+\gamma}$ & 0.354 \pm 0.0043 & 0.320 \pm
+                                                   0.0034 & 0.355 \pm 0.0045...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.545 ...$ & 0.354 \pm 0.0043 & 0.320 \pm 0.0034 &
+                                                   0.355 \pm 0.0045  \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.545 ...$ & 0.354 \pm 0.0043 & 0.320 \pm 0.0034 &
+                                                   0.355 \pm 0.0045  \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.545 ...$ & 0.354 \pm 0.0043 & 0.320 \pm 0.0034 &
+                                                   0.355 \pm 0.0045  \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.545 ...\pm 0.0043 & 0.320 \pm 0.0034 & 0.355 \pm
+                                                   0.0045  \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.546 \hline
+            
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.546 \hline
+            
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.546 \hline
+            
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -3183,39 +3404,522 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (17.05032pt too wide) in paragraph at lines 543--552
+Overfull \hbox (17.05032pt too wide) in paragraph at lines 539--548
  [] 
  []
 
-) (./Chapters/SystematicUncertainties.tex [161] [162]
+) (./Chapters/SystematicUncertainties.tex [161]
 Chapter 6.
-[163
+[162
 
-] [164] [165] [166] [167] [168] [169] [170]
+] [163] [164] [165] [166] [167] [168] [169]
+! Missing } inserted.
+<inserted text> 
+                }
+l.136 \hline
+            
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+! Missing } inserted.
+<inserted text> 
+                }
+l.162 \hline
+            
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+! Missing } inserted.
+<inserted text> 
+                }
+l.188 \hline
+            
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./Chapters/Results.tex [171] [172] [173] [174] [175]
+) (./Chapters/Results.tex [170] [171] [172] [173]
 Chapter 7.
-[176
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 }
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.18 }
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 }
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.18 }
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 }
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.18 }
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 }
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.18 }
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 }
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.18 }
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 }
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.18 }
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 }
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.18 }
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 }
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.18 }
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 }
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.18 }
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 }
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.18 }
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 }
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.18 }
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 }
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.18 }
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 }
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.18 }
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 }
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.18 }
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 }
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.18 }
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 }
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.18 }
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 }
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.18 }
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 }
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.18 }
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 }
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.18 }
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 }
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.18 }
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 }
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.18 }
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 }
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.18 }
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 }
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.18 }
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 }
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.18 }
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[174
 
 ]
 Missing character: There is no Â in font cmr10!
 Missing character: There is no ± in font cmr10!
- [177]
+
 Overfull \hbox (21.31607pt too wide) in paragraph at lines 79--79
 [] 
  []
 
-[178]) (./Chapters/Conclusions.tex [179] [180
+[175]) (./Chapters/Conclusions.tex [176] [177
 
-]) [181] [182
+]) [178] [179
 
 ]
 
@@ -3232,7 +3936,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/LeadLepton_Pt_splitTTbar_
-ratio.pdf, id=4778, 569.12625pt x 515.9275pt>
+ratio.pdf, id=4744, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/LeadLepton_Pt_splitT
 Tbar_ratio.pdf Graphic file (type pdf)
 
@@ -3243,7 +3947,7 @@ eadLepton_Pt_splitTTbar_ratio.pdf used on input line 326.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/LeadLepton_Pt_splitTTbar
-_ratio.pdf, id=4779, 569.12625pt x 515.9275pt>
+_ratio.pdf, id=4745, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/LeadLepton_Pt_split
 TTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3254,7 +3958,7 @@ LeadLepton_Pt_splitTTbar_ratio.pdf used on input line 327.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/SecondLepton_Pt_splitTTba
-r_ratio.pdf, id=4780, 569.12625pt x 515.9275pt>
+r_ratio.pdf, id=4746, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/SecondLepton_Pt_spli
 tTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3265,7 +3969,7 @@ econdLepton_Pt_splitTTbar_ratio.pdf used on input line 328.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/SecondLepton_Pt_splitTTb
-ar_ratio.pdf, id=4781, 569.12625pt x 515.9275pt>
+ar_ratio.pdf, id=4747, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/SecondLepton_Pt_spl
 itTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3276,7 +3980,7 @@ SecondLepton_Pt_splitTTbar_ratio.pdf used on input line 329.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/diLepton_Mass_splitTTbar_
-ratio.pdf, id=4782, 569.12625pt x 515.9275pt>
+ratio.pdf, id=4748, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/diLepton_Mass_splitT
 Tbar_ratio.pdf Graphic file (type pdf)
 
@@ -3287,7 +3991,7 @@ iLepton_Mass_splitTTbar_ratio.pdf used on input line 330.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/diLepton_Mass_splitTTbar
-_ratio.pdf, id=4783, 569.12625pt x 515.9275pt>
+_ratio.pdf, id=4749, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/diLepton_Mass_split
 TTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3313,7 +4017,7 @@ Overfull \hbox (2.42162pt too wide) in paragraph at lines 326--332
 
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/LeadLepton_Eta_splitTTb
-ar_ratio.pdf, id=4784, 569.12625pt x 515.9275pt>
+ar_ratio.pdf, id=4750, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/LeadLepton_Eta_spl
 itTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3324,7 +4028,7 @@ Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/SecondLepton_Eta_splitT
-Tbar_ratio.pdf, id=4785, 569.12625pt x 515.9275pt>
+Tbar_ratio.pdf, id=4751, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/SecondLepton_Eta_s
 plitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3335,7 +4039,7 @@ Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/LeadLepton_Eta_splitTTbar
-_ratio.pdf, id=4786, 569.12625pt x 515.9275pt>
+_ratio.pdf, id=4752, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/LeadLepton_Eta_split
 TTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3346,7 +4050,7 @@ eadLepton_Eta_splitTTbar_ratio.pdf used on input line 339.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/SecondLepton_Eta_splitTTb
-ar_ratio.pdf, id=4787, 569.12625pt x 515.9275pt>
+ar_ratio.pdf, id=4753, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/SecondLepton_Eta_spl
 itTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3357,7 +4061,7 @@ econdLepton_Eta_splitTTbar_ratio.pdf used on input line 340.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/LeadLepton_Eta_splitTTba
-r_ratio.pdf, id=4788, 569.12625pt x 515.9275pt>
+r_ratio.pdf, id=4754, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/LeadLepton_Eta_spli
 tTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3368,7 +4072,7 @@ LeadLepton_Eta_splitTTbar_ratio.pdf used on input line 341.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/SecondLepton_Eta_splitTT
-bar_ratio.pdf, id=4789, 569.12625pt x 515.9275pt>
+bar_ratio.pdf, id=4755, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/SecondLepton_Eta_sp
 litTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3394,7 +4098,7 @@ Overfull \hbox (2.42162pt too wide) in paragraph at lines 337--343
 
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/LeadLepton_Phi_splitTTb
-ar_ratio.pdf, id=4790, 569.12625pt x 515.9275pt>
+ar_ratio.pdf, id=4756, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/LeadLepton_Phi_spl
 itTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3405,7 +4109,7 @@ Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/SecondLepton_Phi_splitT
-Tbar_ratio.pdf, id=4791, 569.12625pt x 515.9275pt>
+Tbar_ratio.pdf, id=4757, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/SecondLepton_Phi_s
 plitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3416,7 +4120,7 @@ Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/LeadLepton_Phi_splitTTbar
-_ratio.pdf, id=4792, 569.12625pt x 515.9275pt>
+_ratio.pdf, id=4758, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/LeadLepton_Phi_split
 TTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3427,7 +4131,7 @@ eadLepton_Phi_splitTTbar_ratio.pdf used on input line 350.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/SecondLepton_Phi_splitTTb
-ar_ratio.pdf, id=4793, 569.12625pt x 515.9275pt>
+ar_ratio.pdf, id=4759, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/SecondLepton_Phi_spl
 itTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3438,7 +4142,7 @@ econdLepton_Phi_splitTTbar_ratio.pdf used on input line 351.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/LeadLepton_Phi_splitTTba
-r_ratio.pdf, id=4794, 569.12625pt x 515.9275pt>
+r_ratio.pdf, id=4760, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/LeadLepton_Phi_spli
 tTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3449,7 +4153,7 @@ LeadLepton_Phi_splitTTbar_ratio.pdf used on input line 352.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/SecondLepton_Phi_splitTT
-bar_ratio.pdf, id=4795, 569.12625pt x 515.9275pt>
+bar_ratio.pdf, id=4761, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/SecondLepton_Phi_sp
 litTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3475,7 +4179,7 @@ Overfull \hbox (2.42162pt too wide) in paragraph at lines 348--354
 
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/all_jet_pT_splitTTbar_ratio.p
-df, id=4796, 569.12625pt x 515.9275pt>
+df, id=4762, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/all_jet_pT_splitTTbar_ra
 tio.pdf Graphic file (type pdf)
 
@@ -3486,7 +4190,7 @@ et_pT_splitTTbar_ratio.pdf used on input line 361.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/all_jet_pT_splitTTbar_ratio.
-pdf, id=4797, 569.12625pt x 515.9275pt>
+pdf, id=4763, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/all_jet_pT_splitTTbar_r
 atio.pdf Graphic file (type pdf)
 
@@ -3497,7 +4201,7 @@ jet_pT_splitTTbar_ratio.pdf used on input line 362.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/all_jet_eta_splitTTbar_ratio.
-pdf, id=4798, 569.12625pt x 515.9275pt>
+pdf, id=4764, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/all_jet_eta_splitTTbar_r
 atio.pdf Graphic file (type pdf)
 
@@ -3508,7 +4212,7 @@ et_eta_splitTTbar_ratio.pdf used on input line 363.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/all_jet_eta_splitTTbar_ratio
-.pdf, id=4799, 569.12625pt x 515.9275pt>
+.pdf, id=4765, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/all_jet_eta_splitTTbar_
 ratio.pdf Graphic file (type pdf)
 
@@ -3519,7 +4223,7 @@ jet_eta_splitTTbar_ratio.pdf used on input line 364.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/N_Jets_splitTTbar_ratio.pdf, 
-id=4800, 569.12625pt x 515.9275pt>
+id=4766, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/N_Jets_splitTTbar_ratio.
 pdf Graphic file (type pdf)
 
@@ -3530,7 +4234,7 @@ s_splitTTbar_ratio.pdf used on input line 365.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/N_Jets_splitTTbar_ratio.pdf,
- id=4801, 569.12625pt x 515.9275pt>
+ id=4767, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/N_Jets_splitTTbar_ratio
 .pdf Graphic file (type pdf)
 
@@ -3554,7 +4258,7 @@ Overfull \hbox (2.42162pt too wide) in paragraph at lines 361--367
 [] [] 
  []
 
-[183] [184 <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/LeadLepton_P
+[180] [181 <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/LeadLepton_P
 t_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbar
 DiLeptonAnalysis/EMu/DiLepton/LeadLepton_Pt_splitTTbar_ratio.pdf, page is rotat
 ed 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/SecondLe
@@ -3563,7 +4267,7 @@ pton_Pt_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots
 is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/
 diLepton_Mass_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/Contro
 lPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/diLepton_Mass_splitTTbar_ratio.pdf, p
-age is rotated 90 degrees>] [185 <./Plots/ControlPlots/TTbarDiLeptonAnalysis/Mu
+age is rotated 90 degrees>] [182 <./Plots/ControlPlots/TTbarDiLeptonAnalysis/Mu
 Mu/DiLepton/LeadLepton_Eta_splitTTbar_ratio.pdf, page is rotated 90 degrees> <.
 /Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/SecondLepton_Eta_splitT
 Tbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLepton
@@ -3572,7 +4276,7 @@ grees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/DiLepton/SecondLepton_Eta
 _splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarD
 iLeptonAnalysis/EMu/DiLepton/LeadLepton_Eta_splitTTbar_ratio.pdf, page is rotat
 ed 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/DiLepton/SecondL
-epton_Eta_splitTTbar_ratio.pdf, page is rotated 90 degrees>] [186 <./Plots/Cont
+epton_Eta_splitTTbar_ratio.pdf, page is rotated 90 degrees>] [183 <./Plots/Cont
 rolPlots/TTbarDiLeptonAnalysis/MuMu/DiLepton/LeadLepton_Phi_splitTTbar_ratio.pd
 f, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu
 /DiLepton/SecondLepton_Phi_splitTTbar_ratio.pdf, page is rotated 90 degrees> <.
@@ -3584,7 +4288,7 @@ litTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLe
 ptonAnalysis/EMu/DiLepton/SecondLepton_Phi_splitTTbar_ratio.pdf, page is rotate
 d 90 degrees>]
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/jet1_pT_splitTTbar_ratio.pd
-f, id=5601, 569.12625pt x 515.9275pt>
+f, id=5566, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/jet1_pT_splitTTbar_rat
 io.pdf Graphic file (type pdf)
 
@@ -3595,7 +4299,7 @@ Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/jet
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/jet1_eta_splitTTbar_ratio.p
-df, id=5602, 569.12625pt x 515.9275pt>
+df, id=5567, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/jet1_eta_splitTTbar_ra
 tio.pdf Graphic file (type pdf)
 
@@ -3606,7 +4310,7 @@ Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/jet
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/jet1_pT_splitTTbar_ratio.pdf,
- id=5603, 569.12625pt x 515.9275pt>
+ id=5568, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/jet1_pT_splitTTbar_ratio
 .pdf Graphic file (type pdf)
 
@@ -3617,7 +4321,7 @@ pT_splitTTbar_ratio.pdf used on input line 374.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/jet1_eta_splitTTbar_ratio.pdf
-, id=5604, 569.12625pt x 515.9275pt>
+, id=5569, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/jet1_eta_splitTTbar_rati
 o.pdf Graphic file (type pdf)
 
@@ -3628,7 +4332,7 @@ eta_splitTTbar_ratio.pdf used on input line 375.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/jet1_pT_splitTTbar_ratio.pdf
-, id=5605, 569.12625pt x 515.9275pt>
+, id=5570, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/jet1_pT_splitTTbar_rati
 o.pdf Graphic file (type pdf)
 
@@ -3639,7 +4343,7 @@ _pT_splitTTbar_ratio.pdf used on input line 376.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/jet1_eta_splitTTbar_ratio.pd
-f, id=5606, 569.12625pt x 515.9275pt>
+f, id=5571, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/jet1_eta_splitTTbar_rat
 io.pdf Graphic file (type pdf)
 
@@ -3665,7 +4369,7 @@ Overfull \hbox (2.42162pt too wide) in paragraph at lines 372--378
 
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/all_jet_phi_splitTTbar_rati
-o.pdf, id=5607, 569.12625pt x 515.9275pt>
+o.pdf, id=5572, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/all_jet_phi_splitTTbar
 _ratio.pdf Graphic file (type pdf)
 
@@ -3676,7 +4380,7 @@ _jet_phi_splitTTbar_ratio.pdf used on input line 383.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/jet1_phi_splitTTbar_ratio.p
-df, id=5608, 569.12625pt x 515.9275pt>
+df, id=5573, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/jet1_phi_splitTTbar_ra
 tio.pdf Graphic file (type pdf)
 
@@ -3687,7 +4391,7 @@ Package pdftex.def Info: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/jet
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/all_jet_phi_splitTTbar_ratio.
-pdf, id=5609, 569.12625pt x 515.9275pt>
+pdf, id=5574, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/all_jet_phi_splitTTbar_r
 atio.pdf Graphic file (type pdf)
 
@@ -3698,7 +4402,7 @@ et_phi_splitTTbar_ratio.pdf used on input line 385.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/jet1_phi_splitTTbar_ratio.pdf
-, id=5610, 569.12625pt x 515.9275pt>
+, id=5575, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/jet1_phi_splitTTbar_rati
 o.pdf Graphic file (type pdf)
 
@@ -3709,7 +4413,7 @@ phi_splitTTbar_ratio.pdf used on input line 386.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/all_jet_phi_splitTTbar_ratio
-.pdf, id=5611, 569.12625pt x 515.9275pt>
+.pdf, id=5576, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/all_jet_phi_splitTTbar_
 ratio.pdf Graphic file (type pdf)
 
@@ -3720,7 +4424,7 @@ jet_phi_splitTTbar_ratio.pdf used on input line 387.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/jet1_phi_splitTTbar_ratio.pd
-f, id=5612, 569.12625pt x 515.9275pt>
+f, id=5577, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/jet1_phi_splitTTbar_rat
 io.pdf Graphic file (type pdf)
 
@@ -3746,7 +4450,7 @@ Overfull \hbox (2.42162pt too wide) in paragraph at lines 383--389
 
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/MET/patType1CorrectedPFMet/MET_spl
-itTTbar_ratio.pdf, id=5613, 569.12625pt x 515.9275pt>
+itTTbar_ratio.pdf, id=5578, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/MET/patType1CorrectedPFMet/ME
 T_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3757,7 +4461,7 @@ e1CorrectedPFMet/MET_splitTTbar_ratio.pdf used on input line 396.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/MET/patType1CorrectedPFMet/MET_sp
-litTTbar_ratio.pdf, id=5614, 569.12625pt x 515.9275pt>
+litTTbar_ratio.pdf, id=5579, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/MET/patType1CorrectedPFMet/M
 ET_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3768,7 +4472,7 @@ pe1CorrectedPFMet/MET_splitTTbar_ratio.pdf used on input line 397.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/MET/patType1CorrectedPFMet/MET_phi
-_splitTTbar_ratio.pdf, id=5615, 569.12625pt x 515.9275pt>
+_splitTTbar_ratio.pdf, id=5580, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/MET/patType1CorrectedPFMet/ME
 T_phi_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3779,7 +4483,7 @@ e1CorrectedPFMet/MET_phi_splitTTbar_ratio.pdf used on input line 398.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/MET/patType1CorrectedPFMet/MET_ph
-i_splitTTbar_ratio.pdf, id=5616, 569.12625pt x 515.9275pt>
+i_splitTTbar_ratio.pdf, id=5581, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/MET/patType1CorrectedPFMet/M
 ET_phi_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3798,7 +4502,7 @@ e1CorrectedPFMet/METsignificance_splitTTbar_ratio.pdf used on input line 400.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/MET/patType1CorrectedPFMet/METsig
-nificance_splitTTbar_ratio.pdf, id=5617, 569.12625pt x 515.9275pt>
+nificance_splitTTbar_ratio.pdf, id=5582, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/MET/patType1CorrectedPFMet/M
 ETsignificance_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3835,7 +4539,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Photon_Eta_sp
-litTTbar_ratio.pdf, id=5618, 569.12625pt x 515.9275pt>
+litTTbar_ratio.pdf, id=5583, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Photon_E
 ta_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3846,7 +4550,7 @@ AllPhotons/Photon_Eta_splitTTbar_ratio.pdf used on input line 409.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Photon_Ht
-owoE_splitTTbar_ratio.pdf, id=5619, 569.12625pt x 515.9275pt>
+owoE_splitTTbar_ratio.pdf, id=5584, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Phot
 on_HtowoE_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3857,7 +4561,7 @@ AllPhotons/Log/Photon_HtowoE_splitTTbar_ratio.pdf used on input line 410.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Photon_Eta_spli
-tTTbar_ratio.pdf, id=5620, 569.12625pt x 515.9275pt>
+tTTbar_ratio.pdf, id=5585, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Photon_Eta
 _splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3868,7 +4572,7 @@ lPhotons/Photon_Eta_splitTTbar_ratio.pdf used on input line 411.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Log/Photon_Htow
-oE_splitTTbar_ratio.pdf, id=5621, 569.12625pt x 515.9275pt>
+oE_splitTTbar_ratio.pdf, id=5586, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Log/Photon
 _HtowoE_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3879,7 +4583,7 @@ lPhotons/Log/Photon_HtowoE_splitTTbar_ratio.pdf used on input line 412.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Photon_Eta_spl
-itTTbar_ratio.pdf, id=5622, 569.12625pt x 515.9275pt>
+itTTbar_ratio.pdf, id=5587, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Photon_Et
 a_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3890,7 +4594,7 @@ llPhotons/Photon_Eta_splitTTbar_ratio.pdf used on input line 413.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Photon_Hto
-woE_splitTTbar_ratio.pdf, id=5623, 569.12625pt x 515.9275pt>
+woE_splitTTbar_ratio.pdf, id=5588, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Photo
 n_HtowoE_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3916,7 +4620,7 @@ Overfull \hbox (2.42162pt too wide) in paragraph at lines 409--415
 
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Photon_Rh
-oCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf, id=5624, 569.12625pt 
+oCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf, id=5589, 569.12625pt 
 x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Phot
 on_RhoCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf Graphic file (typ
@@ -3930,7 +4634,7 @@ f used on input line 420.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Photon_RhoCor
-rectedPFPhotonIso_barrel_splitTTbar_ratio.pdf, id=5625, 569.12625pt x 515.9275p
+rectedPFPhotonIso_barrel_splitTTbar_ratio.pdf, id=5590, 569.12625pt x 515.9275p
 t>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Photon_R
 hoCorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
@@ -3943,7 +4647,7 @@ nput line 421.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Log/Photon_RhoC
-orrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf, id=5626, 569.12625pt x 
+orrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf, id=5591, 569.12625pt x 
 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Log/Photon
 _RhoCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf Graphic file (type 
@@ -3957,7 +4661,7 @@ used on input line 422.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Photon_RhoCorre
-ctedPFPhotonIso_barrel_splitTTbar_ratio.pdf, id=5627, 569.12625pt x 515.9275pt>
+ctedPFPhotonIso_barrel_splitTTbar_ratio.pdf, id=5592, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Photon_Rho
 CorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -3969,7 +4673,7 @@ ut line 423.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Photon_Rho
-CorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf, id=5628, 569.12625pt x
+CorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf, id=5593, 569.12625pt x
  515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Photo
 n_RhoCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf Graphic file (type
@@ -3983,7 +4687,7 @@ llPhotons/Log/Photon_RhoCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Photon_RhoCorr
-ectedPFPhotonIso_barrel_splitTTbar_ratio.pdf, id=5629, 569.12625pt x 515.9275pt
+ectedPFPhotonIso_barrel_splitTTbar_ratio.pdf, id=5594, 569.12625pt x 515.9275pt
 >
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Photon_Rh
 oCorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
@@ -4011,7 +4715,7 @@ Overfull \hbox (2.42162pt too wide) in paragraph at lines 420--426
 
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Photon_si
-gma_ietaieta_barrel_splitTTbar_ratio.pdf, id=5630, 569.12625pt x 515.9275pt>
+gma_ietaieta_barrel_splitTTbar_ratio.pdf, id=5595, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Phot
 on_sigma_ietaieta_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -4023,7 +4727,7 @@ line 431.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Photon_de
-ltaR_jets_splitTTbar_ratio.pdf, id=5631, 569.12625pt x 515.9275pt>
+ltaR_jets_splitTTbar_ratio.pdf, id=5596, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Phot
 on_deltaR_jets_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -4034,7 +4738,7 @@ AllPhotons/Log/Photon_deltaR_jets_splitTTbar_ratio.pdf used on input line 432.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Log/Photon_sigm
-a_ietaieta_barrel_splitTTbar_ratio.pdf, id=5632, 569.12625pt x 515.9275pt>
+a_ietaieta_barrel_splitTTbar_ratio.pdf, id=5597, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Log/Photon
 _sigma_ietaieta_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -4046,7 +4750,7 @@ ne 433.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Log/Photon_delt
-aR_jets_splitTTbar_ratio.pdf, id=5633, 569.12625pt x 515.9275pt>
+aR_jets_splitTTbar_ratio.pdf, id=5598, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Log/Photon
 _deltaR_jets_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -4057,7 +4761,7 @@ lPhotons/Log/Photon_deltaR_jets_splitTTbar_ratio.pdf used on input line 434.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Photon_sig
-ma_ietaieta_barrel_splitTTbar_ratio.pdf, id=5634, 569.12625pt x 515.9275pt>
+ma_ietaieta_barrel_splitTTbar_ratio.pdf, id=5599, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Photo
 n_sigma_ietaieta_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -4069,7 +4773,7 @@ ine 435.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Photon_del
-taR_jets_splitTTbar_ratio.pdf, id=5635, 569.12625pt x 515.9275pt>
+taR_jets_splitTTbar_ratio.pdf, id=5600, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Photo
 n_deltaR_jets_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -4095,7 +4799,7 @@ Overfull \hbox (2.42162pt too wide) in paragraph at lines 431--437
 
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Photon_de
-ltaR_muons_splitTTbar_ratio.pdf, id=5636, 569.12625pt x 515.9275pt>
+ltaR_muons_splitTTbar_ratio.pdf, id=5601, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Phot
 on_deltaR_muons_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -4107,7 +4811,7 @@ AllPhotons/Log/Photon_deltaR_muons_splitTTbar_ratio.pdf used on input line 442.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Photon_de
-ltaR_electrons_splitTTbar_ratio.pdf, id=5637, 569.12625pt x 515.9275pt>
+ltaR_electrons_splitTTbar_ratio.pdf, id=5602, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Phot
 on_deltaR_electrons_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -4119,7 +4823,7 @@ AllPhotons/Log/Photon_deltaR_electrons_splitTTbar_ratio.pdf used on input line
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Log/Photon_delt
-aR_muons_splitTTbar_ratio.pdf, id=5638, 569.12625pt x 515.9275pt>
+aR_muons_splitTTbar_ratio.pdf, id=5603, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Log/Photon
 _deltaR_muons_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -4130,7 +4834,7 @@ lPhotons/Log/Photon_deltaR_muons_splitTTbar_ratio.pdf used on input line 444.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Log/Photon_delt
-aR_electrons_splitTTbar_ratio.pdf, id=5639, 569.12625pt x 515.9275pt>
+aR_electrons_splitTTbar_ratio.pdf, id=5604, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Photons/AllPhotons/Log/Photon
 _deltaR_electrons_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -4142,7 +4846,7 @@ lPhotons/Log/Photon_deltaR_electrons_splitTTbar_ratio.pdf used on input line 44
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Photon_del
-taR_muons_splitTTbar_ratio.pdf, id=5640, 569.12625pt x 515.9275pt>
+taR_muons_splitTTbar_ratio.pdf, id=5605, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Photo
 n_deltaR_muons_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -4153,7 +4857,7 @@ llPhotons/Log/Photon_deltaR_muons_splitTTbar_ratio.pdf used on input line 446.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Photon_del
-taR_electrons_splitTTbar_ratio.pdf, id=5641, 569.12625pt x 515.9275pt>
+taR_electrons_splitTTbar_ratio.pdf, id=5606, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Photo
 n_deltaR_electrons_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -4192,7 +4896,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_Eta_s
-plitTTbar_ratio.pdf, id=5642, 569.12625pt x 515.9275pt>
+plitTTbar_ratio.pdf, id=5607, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_
 Eta_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -4203,7 +4907,7 @@ gnalPhotons/Photon_Eta_splitTTbar_ratio.pdf used on input line 455.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_Htowo
-E_splitTTbar_ratio.pdf, id=5643, 569.12625pt x 515.9275pt>
+E_splitTTbar_ratio.pdf, id=5608, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_
 HtowoE_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -4214,7 +4918,7 @@ gnalPhotons/Photon_HtowoE_splitTTbar_ratio.pdf used on input line 456.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_Eta_spl
-itTTbar_ratio.pdf, id=5644, 569.12625pt x 515.9275pt>
+itTTbar_ratio.pdf, id=5609, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_Et
 a_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -4225,7 +4929,7 @@ alPhotons/Photon_Eta_splitTTbar_ratio.pdf used on input line 457.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_HtowoE_
-splitTTbar_ratio.pdf, id=5645, 569.12625pt x 515.9275pt>
+splitTTbar_ratio.pdf, id=5610, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_Ht
 owoE_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -4236,7 +4940,7 @@ alPhotons/Photon_HtowoE_splitTTbar_ratio.pdf used on input line 458.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_Eta_sp
-litTTbar_ratio.pdf, id=5646, 569.12625pt x 515.9275pt>
+litTTbar_ratio.pdf, id=5611, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_E
 ta_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -4247,7 +4951,7 @@ nalPhotons/Photon_Eta_splitTTbar_ratio.pdf used on input line 459.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_HtowoE
-_splitTTbar_ratio.pdf, id=5647, 569.12625pt x 515.9275pt>
+_splitTTbar_ratio.pdf, id=5612, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_H
 towoE_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -4336,7 +5040,7 @@ Overfull \hbox (2.42162pt too wide) in paragraph at lines 466--472
 
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_RhoCo
-rrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf, id=5648, 569.12625pt x 5
+rrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf, id=5613, 569.12625pt x 5
 15.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_
 RhoCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf Graphic file (type p
@@ -4350,7 +5054,7 @@ sed on input line 477.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_RhoCo
-rrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf, id=5649, 569.12625pt x 515.9275
+rrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf, id=5614, 569.12625pt x 515.9275
 pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_
 RhoCorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
@@ -4363,7 +5067,7 @@ input line 478.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_RhoCorr
-ectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf, id=5650, 569.12625pt x 515
+ectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf, id=5615, 569.12625pt x 515
 .9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_Rh
 oCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf Graphic file (type pdf
@@ -4377,7 +5081,7 @@ d on input line 479.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_RhoCorr
-ectedPFPhotonIso_barrel_splitTTbar_ratio.pdf, id=5651, 569.12625pt x 515.9275pt
+ectedPFPhotonIso_barrel_splitTTbar_ratio.pdf, id=5616, 569.12625pt x 515.9275pt
 >
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_Rh
 oCorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
@@ -4390,7 +5094,7 @@ put line 480.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_RhoCor
-rectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf, id=5652, 569.12625pt x 51
+rectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf, id=5617, 569.12625pt x 51
 5.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_R
 hoCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf Graphic file (type pd
@@ -4404,7 +5108,7 @@ ed on input line 481.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_RhoCor
-rectedPFPhotonIso_barrel_splitTTbar_ratio.pdf, id=5653, 569.12625pt x 515.9275p
+rectedPFPhotonIso_barrel_splitTTbar_ratio.pdf, id=5618, 569.12625pt x 515.9275p
 t>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_R
 hoCorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
@@ -4435,7 +5139,7 @@ LaTeX Warning: Float too large for page by 9.4906pt on input line 485.
 
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_sigma
-_ietaieta_barrel_splitTTbar_ratio.pdf, id=5654, 569.12625pt x 515.9275pt>
+_ietaieta_barrel_splitTTbar_ratio.pdf, id=5619, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_
 sigma_ietaieta_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -4447,7 +5151,7 @@ e 488.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_sigma_i
-etaieta_barrel_splitTTbar_ratio.pdf, id=5655, 569.12625pt x 515.9275pt>
+etaieta_barrel_splitTTbar_ratio.pdf, id=5620, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_si
 gma_ietaieta_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -4469,7 +5173,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 488--490
 
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_sigma_
-ietaieta_barrel_splitTTbar_ratio.pdf, id=5656, 569.12625pt x 515.9275pt>
+ietaieta_barrel_splitTTbar_ratio.pdf, id=5621, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_s
 igma_ietaieta_barrel_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -4481,7 +5185,7 @@ nalPhotons/Photon_sigma_ietaieta_barrel_splitTTbar_ratio.pdf used on input line
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_delta
-R_muons_splitTTbar_ratio.pdf, id=5657, 569.12625pt x 515.9275pt>
+R_muons_splitTTbar_ratio.pdf, id=5622, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_
 deltaR_muons_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -4492,7 +5196,7 @@ gnalPhotons/Photon_deltaR_muons_splitTTbar_ratio.pdf used on input line 498.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_deltaR_
-electrons_splitTTbar_ratio.pdf, id=5658, 569.12625pt x 515.9275pt>
+electrons_splitTTbar_ratio.pdf, id=5623, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_de
 ltaR_electrons_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -4503,7 +5207,7 @@ alPhotons/Photon_deltaR_electrons_splitTTbar_ratio.pdf used on input line 499.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_deltaR
-_muons_splitTTbar_ratio.pdf, id=5659, 569.12625pt x 515.9275pt>
+_muons_splitTTbar_ratio.pdf, id=5624, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_d
 eltaR_muons_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -4514,7 +5218,7 @@ nalPhotons/Photon_deltaR_muons_splitTTbar_ratio.pdf used on input line 500.
 (pdftex.def)             Requested size: 213.39568pt x 193.44872pt.
 
 <Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_deltaR
-_electrons_splitTTbar_ratio.pdf, id=5660, 569.12625pt x 515.9275pt>
+_electrons_splitTTbar_ratio.pdf, id=5625, 569.12625pt x 515.9275pt>
 File: Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_d
 eltaR_electrons_splitTTbar_ratio.pdf Graphic file (type pdf)
 
@@ -4534,7 +5238,7 @@ Overfull \hbox (2.42162pt too wide) in paragraph at lines 498--502
 [] [] 
  []
 
-(./PhDThesis.bbl [187] [188 <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets
+(./PhDThesis.bbl [184] [185 <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets
 /all_jet_pT_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlP
 lots/TTbarDiLeptonAnalysis/EMu/Jets/all_jet_pT_splitTTbar_ratio.pdf, page is ro
 tated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/all_jet_e
@@ -4543,7 +5247,7 @@ rDiLeptonAnalysis/EMu/Jets/all_jet_eta_splitTTbar_ratio.pdf, page is rotated 90
  degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/N_Jets_splitTTbar
 _ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnal
 ysis/EMu/Jets/N_Jets_splitTTbar_ratio.pdf, page is rotated 90 degrees>]
-[189 <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/jet1_pT_splitTTbar_r
+[186 <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/jet1_pT_splitTTbar_r
 atio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalys
 is/MuMu/Jets/jet1_eta_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plot
 s/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/jet1_pT_splitTTbar_ratio.pdf, page
@@ -4551,7 +5255,7 @@ s/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/jet1_pT_splitTTbar_ratio.pdf, page
 1_eta_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/T
 TbarDiLeptonAnalysis/EMu/Jets/jet1_pT_splitTTbar_ratio.pdf, page is rotated 90 
 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jets/jet1_eta_splitTTb
-ar_ratio.pdf, page is rotated 90 degrees>] [190 <./Plots/ControlPlots/TTbarDiLe
+ar_ratio.pdf, page is rotated 90 degrees>] [187 <./Plots/ControlPlots/TTbarDiLe
 ptonAnalysis/MuMu/Jets/all_jet_phi_splitTTbar_ratio.pdf, page is rotated 90 deg
 rees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Jets/jet1_phi_splitTTbar
 _ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnal
@@ -4560,7 +5264,7 @@ lots/ControlPlots/TTbarDiLeptonAnalysis/EE/Jets/jet1_phi_splitTTbar_ratio.pdf,
 page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Jet
 s/all_jet_phi_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/Contro
 lPlots/TTbarDiLeptonAnalysis/EMu/Jets/jet1_phi_splitTTbar_ratio.pdf, page is ro
-tated 90 degrees>] [191 <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/MET/patT
+tated 90 degrees>] [188 <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EE/MET/patT
 ype1CorrectedPFMet/MET_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plo
 ts/ControlPlots/TTbarDiLeptonAnalysis/EMu/MET/patType1CorrectedPFMet/MET_splitT
 Tbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLepton
@@ -4568,7 +5272,7 @@ Analysis/EE/MET/patType1CorrectedPFMet/MET_phi_splitTTbar_ratio.pdf, page is ro
 tated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/MET/patType1C
 orrectedPFMet/MET_phi_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plot
 s/ControlPlots/TTbarDiLeptonAnalysis/EMu/MET/patType1CorrectedPFMet/METsignific
-ance_splitTTbar_ratio.pdf, page is rotated 90 degrees>] [192 <./Plots/ControlPl
+ance_splitTTbar_ratio.pdf, page is rotated 90 degrees>] [189 <./Plots/ControlPl
 ots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Photon_Eta_splitTTbar_ratio.p
 df, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuM
 u/Photons/AllPhotons/Log/Photon_HtowoE_splitTTbar_ratio.pdf, page is rotated 90
@@ -4578,7 +5282,7 @@ ton_Eta_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots
 .pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/E
 Mu/Photons/AllPhotons/Photon_Eta_splitTTbar_ratio.pdf, page is rotated 90 degre
 es> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Phot
-on_HtowoE_splitTTbar_ratio.pdf, page is rotated 90 degrees>] [193 <./Plots/Cont
+on_HtowoE_splitTTbar_ratio.pdf, page is rotated 90 degrees>] [190 <./Plots/Cont
 rolPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Photon_RhoCorrectedP
 FNeutralHadronIso_barrel_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./P
 lots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Photon_RhoCorre
@@ -4591,7 +5295,7 @@ Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Log/Photon_RhoC
 orrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf, page is rotated 90 degr
 ees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPhotons/Photon_
 RhoCorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf, page is rotated 90 degrees
->] [194 <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log
+>] [191 <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log
 /Photon_sigma_ietaieta_barrel_splitTTbar_ratio.pdf, page is rotated 90 degrees>
  <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Photon
 _deltaR_jets_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/Control
@@ -4602,7 +5306,7 @@ o.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/
 EMu/Photons/AllPhotons/Log/Photon_sigma_ietaieta_barrel_splitTTbar_ratio.pdf, p
 age is rotated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Phot
 ons/AllPhotons/Log/Photon_deltaR_jets_splitTTbar_ratio.pdf, page is rotated 90 
-degrees>] [195 <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhot
+degrees>] [192 <./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhot
 ons/Log/Photon_deltaR_muons_splitTTbar_ratio.pdf, page is rotated 90 degrees> <
 ./Plots/ControlPlots/TTbarDiLeptonAnalysis/MuMu/Photons/AllPhotons/Log/Photon_d
 eltaR_electrons_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/Cont
@@ -4613,7 +5317,7 @@ ptonAnalysis/EE/Photons/AllPhotons/Log/Photon_deltaR_electrons_splitTTbar_ratio
 Mu/Photons/AllPhotons/Log/Photon_deltaR_muons_splitTTbar_ratio.pdf, page is rot
 ated 90 degrees> <./Plots/ControlPlots/TTbarDiLeptonAnalysis/EMu/Photons/AllPho
 tons/Log/Photon_deltaR_electrons_splitTTbar_ratio.pdf, page is rotated 90 degre
-es>] [196 <./Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/
+es>] [193 <./Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/
 Photon_Eta_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPl
 ots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photon_HtowoE_splitTTbar_rat
 io.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarPhotonAnalysis/E
@@ -4623,7 +5327,7 @@ _HtowoE_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots
 /TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Photon_Eta_splitTTbar_ratio.pdf,
  page is rotated 90 degrees> <./Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Phot
 ons/SignalPhotons/Photon_HtowoE_splitTTbar_ratio.pdf, page is rotated 90 degree
-s>] [197] [198 <./Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPho
+s>] [194] [195 <./Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPho
 tons/Photon_RhoCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf, page is
  rotated 90 degrees> <./Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/Sig
 nalPhotons/Photon_RhoCorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf, page is 
@@ -4635,58 +5339,55 @@ gnalPhotons/Photon_RhoCorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf, page is
 alPhotons/Photon_RhoCorrectedPFNeutralHadronIso_barrel_splitTTbar_ratio.pdf, pa
 ge is rotated 90 degrees> <./Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons
 /SignalPhotons/Photon_RhoCorrectedPFPhotonIso_barrel_splitTTbar_ratio.pdf, page
- is rotated 90 degrees>] [199 <./Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Ph
+ is rotated 90 degrees>] [196 <./Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Ph
 otons/SignalPhotons/Photon_sigma_ietaieta_barrel_splitTTbar_ratio.pdf, page is 
 rotated 90 degrees> <./Plots/ControlPlots/TTbarPhotonAnalysis/EE/Photons/Signal
 Photons/Photon_sigma_ietaieta_barrel_splitTTbar_ratio.pdf, page is rotated 90 d
 egrees> <./Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photons/SignalPhotons/Pho
 ton_sigma_ietaieta_barrel_splitTTbar_ratio.pdf, page is rotated 90 degrees>]
-[200 <./Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photo
+[197 <./Plots/ControlPlots/TTbarPhotonAnalysis/MuMu/Photons/SignalPhotons/Photo
 n_deltaR_muons_splitTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/Contr
 olPlots/TTbarPhotonAnalysis/EE/Photons/SignalPhotons/Photon_deltaR_electrons_sp
 litTTbar_ratio.pdf, page is rotated 90 degrees> <./Plots/ControlPlots/TTbarPhot
 onAnalysis/EMu/Photons/SignalPhotons/Photon_deltaR_muons_splitTTbar_ratio.pdf, 
 page is rotated 90 degrees> <./Plots/ControlPlots/TTbarPhotonAnalysis/EMu/Photo
 ns/SignalPhotons/Photon_deltaR_electrons_splitTTbar_ratio.pdf, page is rotated 
-90 degrees>] [201
+90 degrees>] [198
 
 ]
 Missing character: There is no Î in font cmr10!
 Missing character: There is no ± in font cmr10!
- [202] [203] [204] [205] [206] [207] [208] [209] [210]
-[211] [212] [213])
+ [199] [200] [201] [202] [203] [204] [205] [206] [207]
+[208] [209] [210])
 
 Package caption Warning: Unused \captionsetup[sub] on input line 42.
 See the caption package documentation for explanation.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 510.
-[214]
+[211]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 510.
  (./PhDThesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 510.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 510.
 Package rerunfilecheck Info: File `PhDThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 8E2441105C651308834C1E666AD2EEE3;8956.
+(rerunfilecheck)             Checksum: 4C941C54C2B42E67AFE9BE3D6F2C67A4;8956.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 106.43378pt have occurred.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12050 strings out of 493304
- 224459 string characters out of 6139871
- 353859 words of memory out of 5000000
- 14409 multiletter control sequences out of 15000+600000
+ 12037 strings out of 493304
+ 224258 string characters out of 6139871
+ 352355 words of memory out of 5000000
+ 14404 multiletter control sequences out of 15000+600000
  41775 words of font info for 117 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 42i,19n,51p,2169b,512s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,19n,51p,2132b,512s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
@@ -4716,10 +5417,10 @@ blic/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm12
 exmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/pub
 lic/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc109
 5.pfb>
-Output written on PhDThesis.pdf (235 pages, 12065259 bytes).
+Output written on PhDThesis.pdf (231 pages, 12057595 bytes).
 PDF statistics:
- 8899 PDF objects out of 8907 (max. 8388607)
- 5055 compressed objects within 51 object streams
- 725 named destinations out of 1000 (max. 500000)
+ 8863 PDF objects out of 8907 (max. 8388607)
+ 5023 compressed objects within 51 object streams
+ 717 named destinations out of 1000 (max. 500000)
  1873 words of extra memory for PDF output out of 10000 (max. 10000000)
 
